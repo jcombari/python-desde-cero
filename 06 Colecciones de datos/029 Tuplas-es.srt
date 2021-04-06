@@ -1,0 +1,235 @@
+1
+00:00:00,600 --> 00:00:04,570
+Comenzamos nuestro repaso por las colecciones de Payton con las tuplas.
+
+2
+00:00:06,290 --> 00:00:09,190
+Vamos a seguir a la fase II del manejo de datos y optimización.
+
+3
+00:00:10,690 --> 00:00:13,340
+Y Tema 4 colecciones de datos.
+
+4
+00:00:13,390 --> 00:00:18,690
+Aquí ya tenemos la lección de las tuplas para trabajar con este fichero del notebook.
+
+5
+00:00:19,650 --> 00:00:25,100
+Las tuplas son unas colecciones parecidas a las listas con la diferencia de que éstas son inmutables.
+
+6
+00:00:25,870 --> 00:00:31,000
+Se utilizan para asegurarnos de que determinados datos no se pueden modificar.
+
+7
+00:00:31,090 --> 00:00:35,090
+No utiliza tu placer algunas funciones para devolver resultados inmutables.
+
+8
+00:00:35,260 --> 00:00:37,990
+Por eso conviene saber identificarlas.
+
+9
+00:00:38,050 --> 00:00:40,340
+Una tupla se declara muy fácilmente.
+
+10
+00:00:40,420 --> 00:00:46,110
+Es parecido a una lista pero cambiando los corchetes por un paréntesis.
+
+11
+00:00:46,240 --> 00:00:55,590
+Por tanto creamos un paréntesis y dentro Podríamos poner varios elementos como si hiciéramos una lista.
+
+12
+00:00:55,660 --> 00:00:56,340
+Hola.
+
+13
+00:00:56,710 --> 00:01:03,150
+Aquí puedo poner una lista dentro de una tupla Pero esta no se podrá modificar esta lista y por ejemplo
+
+14
+00:01:03,160 --> 00:01:07,490
+otro punto menos 50.
+
+15
+00:01:08,950 --> 00:01:19,570
+Si mostramos la tupla pues lo que tenemos es una especie de lista pero como veis delimitada por paréntesis
+
+16
+00:01:20,590 --> 00:01:26,860
+las tuplas al igual que las listas se aceptan indexación y si por ejemplo podemos consultar el primer
+
+17
+00:01:26,860 --> 00:01:30,240
+elemento a través del índice cero.
+
+18
+00:01:31,730 --> 00:01:36,900
+O el último elemento con el índice elenos 1.
+
+19
+00:01:38,010 --> 00:01:44,290
+También podemos utilizar el lesley XING por ejemplo para mostrar desde.
+
+20
+00:01:45,440 --> 00:01:55,400
+El segundo elemento de índice 1 hasta el final o desde el tercer elemento que es la lista o podemos
+
+21
+00:01:55,400 --> 00:02:02,300
+acceder a los valores internos de la lista como haciamos con listas dentro de listas refiriéndonos a
+
+22
+00:02:02,300 --> 00:02:10,820
+los elementos por ejemplo 0 1 2 y otro índice con el elemento que queremos mostrar por ejemplo el primero
+
+23
+00:02:11,180 --> 00:02:17,410
+de la lista o el último con un menos 1.
+
+24
+00:02:18,440 --> 00:02:26,210
+Sin embargo como ya hemos dicho la diferencia es que una tupla no se puede modificar su valor así que
+
+25
+00:02:26,210 --> 00:02:33,860
+si intentamos redefinir uno de sus valores con el índice por ejemplo poniendo aquí un 50 nos da un error
+
+26
+00:02:33,860 --> 00:02:39,270
+y dice que la tupla no soporta la asignación de ítems.
+
+27
+00:02:40,140 --> 00:02:45,220
+Pero si bien podemos saber su longitud utilizando la función blel.
+
+28
+00:02:47,950 --> 00:02:50,150
+O la longitud de la lista dentro de la tupla
+
+29
+00:02:53,000 --> 00:02:57,940
+la tupla 2 así también.
+
+30
+00:02:57,980 --> 00:02:58,690
+4.
+
+31
+00:03:00,830 --> 00:03:03,570
+Si borrase a algún elemento.
+
+32
+00:03:06,320 --> 00:03:10,690
+Daría lo que mide la lista interna no está aquí.
+
+33
+00:03:13,190 --> 00:03:22,070
+Algunos de los métodos internos que comparten con las listas son por ejemplo el índex podemos utilizar
+
+34
+00:03:23,450 --> 00:03:29,150
+índex para buscar un elemento y saber su posición
+
+35
+00:03:32,090 --> 00:03:34,410
+pero devolverá un error si no lo encuentra.
+
+36
+00:03:34,430 --> 00:03:44,540
+Por ejemplo si buscamos dentro de la tupla el valor 100 que ya no lo tenemos porque sí porque lo tenemos
+
+37
+00:03:44,540 --> 00:03:45,320
+aquí arriba.
+
+38
+00:03:47,480 --> 00:03:52,610
+Podríamos buscar el valor 100 y nos dice que se encuentra en el índice cero.
+
+39
+00:03:52,820 --> 00:03:57,620
+De hecho si consultamos Ahí tenemos el valor 100 al principio.
+
+40
+00:03:57,640 --> 00:04:04,810
+También podríamos buscar con el Index pasándoles por ejemplo una cadena de Hola.
+
+41
+00:04:05,290 --> 00:04:07,260
+Pues nos dice que está la posición 1.
+
+42
+00:04:08,560 --> 00:04:13,920
+Pero si intentamos buscar el índice de un elemento que no está en la lista.
+
+43
+00:04:13,970 --> 00:04:24,690
+Perdonen la tupla por ejemplo otro pues nos dice que no se encuentra y nos da un error Value error.
+
+44
+00:04:25,630 --> 00:04:30,770
+Otro método también interesante de las tuplas compartido con las listas es el COM.
+
+45
+00:04:31,150 --> 00:04:37,060
+Entonces estos métodos los veremos más en profundidad en otra elección pero introduzco algunos para
+
+46
+00:04:37,060 --> 00:04:45,940
+que vayáis viendo por ejemplo com nos permite contar el número de elementos repetidos o no que puede
+
+47
+00:04:45,940 --> 00:04:47,470
+haber dentro de una tupla.
+
+48
+00:04:47,770 --> 00:04:55,660
+Por ejemplo aquí tenemos la tupla 100 o la 1 2 3 en una lista y menos 50 por tanto ningún elemento estará
+
+49
+00:04:56,320 --> 00:04:57,130
+más de una vez.
+
+50
+00:04:57,160 --> 00:05:02,490
+Por ejemplo si buscamos cuántas veces está el elemento número 100 nos dice una.
+
+51
+00:05:02,870 --> 00:05:11,410
+Y si buscamos un elemento que no está por ejemplo como una cadena que no está nos dice que no está ninguna
+
+52
+00:05:11,410 --> 00:05:13,510
+vez cero veces.
+
+53
+00:05:14,990 --> 00:05:24,970
+Si declaramos la tupla y ponemos algunos elementos repetidos varias veces el 100 50 y 10 por ejemplo
+
+54
+00:05:25,710 --> 00:05:35,970
+y hacemos el COM tupla del 100 ahora nos dice que hay 3 100 dentro de la tupla.
+
+55
+00:05:36,730 --> 00:05:43,240
+Por último algunos métodos que evidentemente no comparte con las listas pueden ser el Appen que es el
+
+56
+00:05:43,240 --> 00:05:46,220
+de añadir elementos dado que la tupla no se puede modificar.
+
+57
+00:05:46,270 --> 00:05:52,750
+No tendría sentido que tuviera ese método por tanto si intentamos hacer un tupla de cualquier elemento
+
+58
+00:05:53,810 --> 00:06:00,520
+pues no es un error y dice que no tiene este método este atributo o como queráis llamarlo.
+
+59
+00:06:00,860 --> 00:06:06,260
+Y aparte de esto pues como son muy parecidas a las listas y a poco más hay que comentar sobre ellas.

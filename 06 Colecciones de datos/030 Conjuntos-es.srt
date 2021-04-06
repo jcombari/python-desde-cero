@@ -1,0 +1,295 @@
+1
+00:00:00,840 --> 00:00:05,430
+A continuación seguimos con otras colecciones llamadas conjuntos.
+
+2
+00:00:05,430 --> 00:00:06,890
+Vamos a trabajar con ellas.
+
+3
+00:00:08,520 --> 00:00:12,470
+Los conjuntos son colecciones desordenadas de elementos únicos.
+
+4
+00:00:12,540 --> 00:00:18,850
+Se utilizan normalmente para hacer pruebas de pertenencia a grupos y eliminación de elementos duplicados.
+
+5
+00:00:18,900 --> 00:00:24,670
+También soportan operaciones matemáticas avanzadas pero a éstas las veremos en una unidad posterior.
+
+6
+00:00:26,130 --> 00:00:28,950
+Podemos crear un conjunto vacío de elementos.
+
+7
+00:00:28,950 --> 00:00:38,940
+De esta forma el conjunto igual y llamando a la función set entre paréntesis sin pasarle nada.
+
+8
+00:00:39,240 --> 00:00:43,740
+Aquí tenemos un conjunto pero está vacío.
+
+9
+00:00:44,470 --> 00:00:47,290
+Podemos crear un conjunto directamente con varios elementos.
+
+10
+00:00:47,290 --> 00:01:00,540
+También si los escribimos entre unas llaves por ejemplo 1 2 y 3 si lo mostramos aquí tenemos un conjunto.
+
+11
+00:01:01,740 --> 00:01:07,780
+Se dice que los conjuntos son desordenados porque a medida que añadimos elementos a un conjunto.
+
+12
+00:01:07,920 --> 00:01:11,130
+Este orden no se conserva como sí ocurre con las listas.
+
+13
+00:01:11,160 --> 00:01:16,360
+Vamos a utilizar algunos de sus métodos para añadir elementos y comprobar lo que os estoy contando.
+
+14
+00:01:18,750 --> 00:01:28,320
+El método más utilizado de un conjunto es el método de añadir por ejemplo el añadir el número 4.
+
+15
+00:01:28,350 --> 00:01:35,410
+A este conjunto si ahora mostramos se me haya ido al final.
+
+16
+00:01:35,610 --> 00:01:44,140
+Pero qué ocurrirá si en lugar de añadir un número cuatro o cinco seis añado un número cero.
+
+17
+00:01:44,250 --> 00:01:51,250
+Teóricamente se debería añadir al final no fijaros como se añadirá el cero.
+
+18
+00:01:51,780 --> 00:01:58,150
+Vamos a mostrarlo y se pone al principio del conjunto.
+
+19
+00:01:58,310 --> 00:02:06,450
+Si en lugar de añadir un número añado una letra o un texto por ejemplo podría añadir una letra A o mejor
+
+20
+00:02:06,450 --> 00:02:10,160
+dicho una que no sea la primera por ejemplo una H.
+
+21
+00:02:11,010 --> 00:02:14,050
+A ver cómo me la posición dentro del conjunto.
+
+22
+00:02:14,550 --> 00:02:21,510
+Pues parece ser que primero pone todos los números y luego empezarían las letras.
+
+23
+00:02:21,690 --> 00:02:33,810
+Si ahora añado la letra A y por ejemplo también añado la letra Z que es la última cómo quedará este
+
+24
+00:02:33,810 --> 00:02:34,320
+conjunto.
+
+25
+00:02:34,320 --> 00:02:35,750
+Por orden.
+
+26
+00:02:36,670 --> 00:02:37,780
+Pues fijaros.
+
+27
+00:02:38,860 --> 00:02:50,190
+A. C. H Vamos que la ha ordenado pero realmente sin cumplir un orden preestablecido el internamente
+
+28
+00:02:50,200 --> 00:02:51,160
+está gestionándolo.
+
+29
+00:02:51,160 --> 00:02:56,730
+Por eso decimos que los conjuntos son unas colecciones desordenadas.
+
+30
+00:02:57,670 --> 00:03:03,580
+Como os comentaba los conjuntos son muy útiles para comprobar pertenencia a grupos con sintaxis directa
+
+31
+00:03:04,000 --> 00:03:11,050
+por ejemplo imagina que tenemos un grupo de personas un grupo con varias nombres de personas.
+
+32
+00:03:11,050 --> 00:03:19,960
+Por ejemplo estoy yo también podría estar alguien que se llamara Juan y otra persona que se llamará
+
+33
+00:03:19,960 --> 00:03:22,480
+Mario.
+
+34
+00:03:22,480 --> 00:03:28,340
+Para saber si una persona está dentro del grupo simplemente podemos hacer lo siguiente.
+
+35
+00:03:28,600 --> 00:03:37,900
+Escribir el nombre de la persona ponerle la palabra in en el grupo y esto devuelve true.
+
+36
+00:03:37,920 --> 00:03:39,760
+Por qué Héctor se encuentra dentro del grupo.
+
+37
+00:03:39,760 --> 00:03:49,420
+En cambio si le dijera por ejemplo un nombre como María grupo pues no diría falsee por qué no se encuentra
+
+38
+00:03:49,420 --> 00:03:51,130
+dentro del grupo.
+
+39
+00:03:51,310 --> 00:03:52,960
+También podemos comprobar lo contrario.
+
+40
+00:03:53,110 --> 00:03:58,060
+Si Héctor no se encuentra en el grupo entonces tenemos que hacerlo así.
+
+41
+00:03:58,310 --> 00:04:06,520
+Not in grupo pasándoles not delante de Lin para que quede actor no en grupo como una pregunta y él diría
+
+42
+00:04:06,520 --> 00:04:11,760
+que es falso porque es mentira que no tenido grupo porque sí que está.
+
+43
+00:04:12,340 --> 00:04:18,610
+Aunque la característica más interesante de un conjunto es que no puede haber dos elementos duplicados
+
+44
+00:04:18,670 --> 00:04:19,820
+en él.
+
+45
+00:04:19,840 --> 00:04:25,000
+Esto también es muy interesante por ejemplo imaginar que crea un conjunto y voy a poner varias veces
+
+46
+00:04:25,600 --> 00:04:32,830
+algo repetido por ejemplo el actor director y actor tres veces.
+
+47
+00:04:32,890 --> 00:04:36,460
+Ahora vamos a guardarlo y vamos a mostrarlo.
+
+48
+00:04:37,030 --> 00:04:43,410
+Y como veis automáticamente todos los valores repetidos se han eliminado y nos deja solo una vez.
+
+49
+00:04:45,070 --> 00:04:51,460
+Esta propiedad la podemos explotar transformando otras colecciones o conjuntos de manera que se eliminarán
+
+50
+00:04:51,460 --> 00:04:52,780
+los elementos duplicados.
+
+51
+00:04:52,780 --> 00:04:58,930
+Por ejemplo si en lugar de un conjunto directamente tuviéramos una lista con varios elementos por ejemplo
+
+52
+00:04:58,930 --> 00:05:05,260
+un 2 3 3 2 1 cada número está repetido dos veces podemos mostrarla.
+
+53
+00:05:05,380 --> 00:05:07,220
+Ahí lo tenemos.
+
+54
+00:05:07,300 --> 00:05:14,020
+Pero si hacemos un cast si transformamos esta lista en conjunto vamos a guardar el enlace vamos a hacer
+
+55
+00:05:14,020 --> 00:05:20,640
+un transformándolas lista pasándole la lista como conjunto.
+
+56
+00:05:21,040 --> 00:05:25,630
+Si mostramos el conjunto lo que tenemos es que se han eliminado.
+
+57
+00:05:26,740 --> 00:05:33,460
+Esos valores que están repetidos y ahora podemos volver a transformar este conjunto a una lista para
+
+58
+00:05:33,460 --> 00:05:36,250
+poder seguir operando de una forma normal.
+
+59
+00:05:36,520 --> 00:05:46,310
+Por ejemplo poniendo lo siguiente lista igual la lista transformando el conjunto a una lista.
+
+60
+00:05:46,530 --> 00:05:53,320
+Está bien entonces mostramos la lista y ya tenemos hecha la conversión directa pero lo podemos hacer
+
+61
+00:05:53,320 --> 00:05:54,090
+en solo.
+
+62
+00:05:54,920 --> 00:06:04,430
+Una línea es la conversión por ejemplo imaginar que hemos guardan en L una lista donde tenemos lo que
+
+63
+00:06:04,430 --> 00:06:13,100
+teníamos antes de uno y queremos transformarla directamente quitarle esos elementos repetidos a la lista
+
+64
+00:06:13,130 --> 00:06:22,270
+pues podemos asignarle De nuevo la lista convirtiendo a la propia lista.
+
+65
+00:06:22,700 --> 00:06:28,010
+Entonces estamos convirtiendo la lista a un conjunto en el conjunto del nuevo una lista que es todo
+
+66
+00:06:28,010 --> 00:06:29,810
+lo que hemos hecho antes pero en una.
+
+67
+00:06:30,320 --> 00:06:33,050
+Y si la mostramos pues tenemos lo mismo.
+
+68
+00:06:33,710 --> 00:06:40,860
+Este concepto también funciona con cadenas de caracteres por ejemplo una cadena la voy a guardar en.
+
+69
+00:06:41,040 --> 00:06:52,040
+Voy a poner por ejemplo al pan pan y al vino vino que tienen muchas letras iguales y haciendo un conjunto
+
+70
+00:06:52,040 --> 00:07:01,970
+de esta cadena de caracteres lo que nos quedaría es una lista de una lista un conjunto de letras pero
+
+71
+00:07:02,000 --> 00:07:04,550
+donde no se repetiría ninguna.
+
+72
+00:07:04,550 --> 00:07:09,680
+Claro que las mayúsculas y las minúsculas se distinguen porque son letras distintas.
+
+73
+00:07:09,770 --> 00:07:12,020
+Pero tendríamos una.
+
+74
+00:07:12,110 --> 00:07:16,780
+Un conjunto con todos los elementos sin repetirse ninguno.

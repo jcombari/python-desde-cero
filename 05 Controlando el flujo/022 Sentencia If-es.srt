@@ -1,0 +1,647 @@
+1
+00:00:01,140 --> 00:00:12,600
+Vamos a comenzar a trabajar el flujo en el tema 3 controlando el flujo y con la sentencia y dentro de
+
+2
+00:00:12,600 --> 00:00:15,780
+las sentencias condicionales el ifo Sigue en español.
+
+3
+00:00:15,780 --> 00:00:21,690
+Posiblemente sea la más famosa y utilizada en toda la programación porque nos permite condicionar el
+
+4
+00:00:21,690 --> 00:00:25,240
+flujo de un programa y dividir la ejecución en diferentes caminos.
+
+5
+00:00:25,380 --> 00:00:30,360
+Para entendernos sería algo así como dotar al ordenador de la capacidad de distinguir varias opciones
+
+6
+00:00:30,360 --> 00:00:32,200
+para actuar de forma distinta.
+
+7
+00:00:32,400 --> 00:00:38,280
+En la práctica es muy sencillo utilizar el IF y no servirá para introducir también un concepto llamado
+
+8
+00:00:38,280 --> 00:00:39,560
+bloque de código.
+
+9
+00:00:41,350 --> 00:00:48,470
+Por ejemplo vamos a escribir lo siguiente Vamos a poner y Tru si es verdadero.
+
+10
+00:00:48,850 --> 00:00:49,780
+Vamos a apretar Enter.
+
+11
+00:00:49,780 --> 00:00:54,700
+Como véis ya me hace una tentación una tabulación vamos a poner.
+
+12
+00:00:55,120 --> 00:01:07,300
+Se cumple la condición vamos a ejecutarlo y como veis se ejecuta y me muestra este print en Payton definimos
+
+13
+00:01:07,300 --> 00:01:14,050
+un bloque de instrucciones después de una sentencia de control con dos puntitos y es muy importante
+
+14
+00:01:14,590 --> 00:01:20,980
+que todo el bloque que se ejecutará debe de estar intentado porque esto indica que está dentro de esta
+
+15
+00:01:21,130 --> 00:01:27,670
+condición dentro de este bloque y únicamente se ejecutará si se cumple la condición.
+
+16
+00:01:27,730 --> 00:01:35,020
+Es muy importante que todo el contenido esté a un nivel distinto del de la instrucción que lo contiene.
+
+17
+00:01:35,020 --> 00:01:38,310
+De esta forma podríamos ejecutar tantas instrucciones como queramos.
+
+18
+00:01:38,320 --> 00:01:49,320
+Por ejemplo podríamos poner otro Prin dentro de esta condición y poner también muestra este print.
+
+19
+00:01:51,170 --> 00:01:52,180
+Como veis.
+
+20
+00:01:53,120 --> 00:02:02,260
+En tanto siempre que le pasemos salif una expresión lógica o un valor lógico como Struck.
+
+21
+00:02:02,740 --> 00:02:04,300
+Siempre se ejecutará.
+
+22
+00:02:04,520 --> 00:02:06,680
+Es la condición para que se ejecute.
+
+23
+00:02:07,000 --> 00:02:12,610
+En cambio si le pasamos algo que no sea True por ejemplo Folks false.
+
+24
+00:02:13,420 --> 00:02:17,270
+Pues no se ejecuta nada entonces no entra nunca.
+
+25
+00:02:18,160 --> 00:02:20,300
+Y si le dijéramos algo que no es falso.
+
+26
+00:02:20,680 --> 00:02:22,350
+If Not false.
+
+27
+00:02:22,780 --> 00:02:28,590
+Pues entonces sí que entra porque false equivale a truc verdadero.
+
+28
+00:02:28,970 --> 00:02:33,260
+Probemos ahora una expresión que devuelve Truffaut el lugar del tipológico.
+
+29
+00:02:33,410 --> 00:02:37,340
+Intentemos crear más ifes porque podemos encadenar masivos.
+
+30
+00:02:37,510 --> 00:02:43,930
+Vamos a crear una variable a y lo vamos a otorgar el valor 5 y vamos a comprobar que esta variable a
+
+31
+00:02:44,230 --> 00:02:50,220
+tenga por ejemplo el valor de dos y a igual a 2.
+
+32
+00:02:50,540 --> 00:02:54,090
+Perdón a Balaidos.
+
+33
+00:02:55,970 --> 00:03:02,800
+Y luego vamos a volver otra vez al Bloque General y vamos a hacer otra condición.
+
+34
+00:03:03,200 --> 00:03:08,750
+Es igual a 5 print a vale 5.
+
+35
+00:03:09,480 --> 00:03:11,320
+Vamos a ejecutarlo.
+
+36
+00:03:12,660 --> 00:03:19,210
+Como veis detectã Solamente el segundo porque el resultado de la primera expresión.
+
+37
+00:03:20,050 --> 00:03:23,250
+De la primera expresión relacional igualados.
+
+38
+00:03:23,530 --> 00:03:24,420
+Es falso.
+
+39
+00:03:24,580 --> 00:03:30,310
+Por tanto esto no es no se muestra no entra aquí pero en cambio el segundo sí que se cumple y sí que
+
+40
+00:03:30,310 --> 00:03:37,930
+entra aquí también podemos definir HIPS dentro de IFS siempre que respetemos los niveles de tabulación
+
+41
+00:03:39,310 --> 00:03:51,580
+por ejemplo igual a 5 igual a 10 si a a b es igual a cinco.
+
+42
+00:03:51,580 --> 00:03:56,590
+Podríamos poner fin a Vale.
+
+43
+00:03:57,750 --> 00:03:59,070
+Y fuera una coma.
+
+44
+00:03:59,260 --> 00:04:06,360
+Y mostramos el valor de si estamos aquí vamos a encadenar otro ihf dentro del IRPF.
+
+45
+00:04:06,410 --> 00:04:10,810
+B igual a 10 y dentro
+
+46
+00:04:15,570 --> 00:04:25,050
+de Vale y vamos a por una como afuera vale para que muestre el valor que tiene.
+
+47
+00:04:25,330 --> 00:04:34,960
+Vamos a ejecutarlo y entra dentro del primer ihf este de aquí me muestra que vale 5 y dentro de este
+
+48
+00:04:34,990 --> 00:04:43,400
+IFF tengo esta otra condición si ve vale 10 entonces mostrar y B vale y el valor de B.
+
+49
+00:04:45,710 --> 00:04:51,910
+De hecho si queremos podemos hacer ambas comprobaciones a la vez gracias a una expresión lógica.
+
+50
+00:04:55,770 --> 00:05:02,550
+Es igual a 5 y B es igual a 10 los puntos
+
+51
+00:05:05,460 --> 00:05:11,250
+a vale por ejemplo 5 y vale 10.
+
+52
+00:05:11,460 --> 00:05:15,690
+Si ejecutamos esto como ya tenemos aquí los valores guardados.
+
+53
+00:05:15,690 --> 00:05:16,550
+5.
+
+54
+00:05:18,330 --> 00:05:18,820
+B.
+
+55
+00:05:18,860 --> 00:05:19,870
+10.
+
+56
+00:05:20,180 --> 00:05:22,720
+Mostramos el resultado.
+
+57
+00:05:22,730 --> 00:05:26,860
+Estamos condicionando introducciones.
+
+58
+00:05:26,960 --> 00:05:31,910
+Otro aspecto importante de la sentencia es que tenemos que tener siempre en cuenta es que tiene una
+
+59
+00:05:31,910 --> 00:05:39,740
+especie de hermano llamado Else en español sino que se puede encadenar al final del bloque ihf para
+
+60
+00:05:39,740 --> 00:05:42,600
+comprobar que el caso contrario automáticamente.
+
+61
+00:05:42,800 --> 00:05:53,450
+Es decir cuando no se cumple la condición por ejemplo n igual a 10 un número que vale 10 15 m módulo
+
+62
+00:05:53,520 --> 00:06:05,940
+2 igual a cero podríamos decir trinquet N y una cadena es un número par.
+
+63
+00:06:06,800 --> 00:06:16,850
+En cambio si encadenamos sacando fuera este ense a continuación del IF de la parte del bloque de un
+
+64
+00:06:16,850 --> 00:06:21,350
+bloque ense dos puntitos podemos hacer lo contrario.
+
+65
+00:06:22,310 --> 00:06:31,970
+N No es un par o mejor dicho es un número impar.
+
+66
+00:06:33,370 --> 00:06:34,560
+Vamos a probarlo.
+
+67
+00:06:34,920 --> 00:06:37,530
+Y nos dice que 10 es un número par.
+
+68
+00:06:37,540 --> 00:06:42,740
+En cambio si pusiéramos por ejemplo un once nos diría que es un número impar.
+
+69
+00:06:42,910 --> 00:06:43,820
+Por qué.
+
+70
+00:06:44,080 --> 00:06:50,860
+Porque primero se hace esta comprobación y si ésta no es correcto no es verdadero pues se ejecuta a
+
+71
+00:06:50,860 --> 00:06:51,600
+la otra.
+
+72
+00:06:54,610 --> 00:07:01,170
+Y todavía podemos encontrar otra sentencia relacionada con el libro y el ense llamada elite.
+
+73
+00:07:01,620 --> 00:07:08,670
+O si no si en español gracias a la que podemos encadenar muchísimas más comprobaciones.
+
+74
+00:07:08,670 --> 00:07:17,070
+Esto es muy útil por ejemplo para crear menús o comandos o alguna cosa de estas por ejemplo imaginar
+
+75
+00:07:17,970 --> 00:07:24,600
+que creó un comando que yo he leído por pantalla en algún momento y guardo el contenido de la cadena
+
+76
+00:07:24,600 --> 00:07:25,810
+salir.
+
+77
+00:07:25,970 --> 00:07:31,320
+Yo tengo que determinar lo que quiero hacer con este comando para hacer alguna cosa dentro del programa
+
+78
+00:07:31,330 --> 00:07:38,530
+no os voy a hacer una comprobación si el comando es igual a entrar por ejemplo para ponerlo así en mayúscula
+
+79
+00:07:39,430 --> 00:07:40,770
+pospondría.
+
+80
+00:07:41,790 --> 00:07:46,180
+Bienvenido por ejemplo al sistema.
+
+81
+00:07:47,790 --> 00:07:50,210
+Ahora quiero comprobar otro caso.
+
+82
+00:07:50,220 --> 00:07:51,590
+Pero cómo van a ser múltiples.
+
+83
+00:07:51,600 --> 00:07:58,080
+En lugar de hacer un élse voy a poner el IFE y voy a poner el comando en el caso de que no sea entrar
+
+84
+00:07:58,070 --> 00:08:04,110
+pero sea otro comando por ejemplo saludar al que le decimos a la máquina que queremos que salude.
+
+85
+00:08:04,560 --> 00:08:06,470
+Es decir mil.
+
+86
+00:08:06,870 --> 00:08:11,700
+Hola espero que estes pasándolo bien
+
+87
+00:08:14,130 --> 00:08:17,450
+aprendiendo.
+
+88
+00:08:17,460 --> 00:08:18,810
+Otra posibilidad.
+
+89
+00:08:18,810 --> 00:08:29,750
+El ID mando que valga por ejemplo salir y en este caso saldremos Prin.
+
+90
+00:08:29,760 --> 00:08:35,410
+Traemos un mensaje saliendo del sistema y ya saldríamos del sistema.
+
+91
+00:08:36,000 --> 00:08:43,860
+Y cuando no sea ninguno de estos casos cuando no sea entrar tampoco sea saludar ni tampoco sea salir.
+
+92
+00:08:43,860 --> 00:08:49,670
+Podemos finalmente encadenar el Eloise para mostrar un mensaje genérico frin.
+
+93
+00:08:50,610 --> 00:08:54,920
+Este mensaje no se reconoce.
+
+94
+00:08:54,920 --> 00:09:04,440
+Perdón mensaje de comando ejecutarlo como el comando de salir detecta que queremos salir del sistema
+
+95
+00:09:05,190 --> 00:09:15,090
+si el comando fuera entrar nos diría Bienvenido al sistema si el comando fuera a saludar nos diría Hola
+
+96
+00:09:15,120 --> 00:09:21,990
+espero que te lo estoy pasando bien aprendido Payton y si fuera otra cosa que no fuera ninguna de estas
+
+97
+00:09:22,770 --> 00:09:26,190
+nutriría que este comando no se reconoce.
+
+98
+00:09:26,580 --> 00:09:30,370
+Es muy importante tener en cuenta que el uso de.
+
+99
+00:09:30,900 --> 00:09:36,330
+A diferencia de varios I.V como antes comprueba las condiciones de arriba abajo hasta que se cumple
+
+100
+00:09:36,330 --> 00:09:39,850
+una de ellas y si es así las demás no se comprueban.
+
+101
+00:09:39,990 --> 00:09:46,700
+Esto lo vais a entender mejor con este programa para determinar la calificación de un examen.
+
+102
+00:09:46,920 --> 00:09:56,250
+Vamos a hacer por ejemplo lo siguiente Vamos a leer una nota por teclado con float input para convertirlo
+
+103
+00:09:56,340 --> 00:10:00,050
+a un número real un número decimal.
+
+104
+00:10:00,360 --> 00:10:01,020
+Introduce
+
+105
+00:10:03,900 --> 00:10:04,500
+una nota
+
+106
+00:10:08,040 --> 00:10:11,770
+a partir del resultado de esta nota que nosotros hemos leído.
+
+107
+00:10:11,940 --> 00:10:19,470
+Pues vamos a determinar si la nota es mayor o igual que 9 por ejemplo vamos a hacer un Prin y diremos
+
+108
+00:10:19,470 --> 00:10:21,740
+que la nota es un sobresaliente.
+
+109
+00:10:21,780 --> 00:10:26,390
+Es prácticamente perfecto un 9 o 10 es perfecto.
+
+110
+00:10:26,730 --> 00:10:36,940
+En cambio una nota más grande o igual que 7 nos dirá por ejemplo que es un notable.
+
+111
+00:10:38,660 --> 00:10:45,290
+Añadiendo otro elife podemos comprobar si la nota es mayor o igual que 6 por ejemplo.
+
+112
+00:10:46,070 --> 00:10:50,180
+Y decir que es un bien.
+
+113
+00:10:50,750 --> 00:10:55,650
+Otro caso elife nota mayor o igual que en 5.
+
+114
+00:10:56,120 --> 00:11:05,180
+Diríamos que esto es un suficiente y en cualquier otro caso diríamos que esto es un insuficiente o un
+
+115
+00:11:05,180 --> 00:11:10,210
+suspenso sufri cierto.
+
+116
+00:11:11,180 --> 00:11:19,100
+Si nosotros ejecutamos este código introducimos una nota por ejemplo 10 no existe que es un sobresaliente
+
+117
+00:11:19,850 --> 00:11:25,480
+detecta este decir ella se sale del programa y no se ejecuta nada más.
+
+118
+00:11:25,960 --> 00:11:35,990
+Si queremos ejecutarlo leíamos por ejemplo un 6 nos dice que es un bien comprobar el primer IFF no se
+
+119
+00:11:35,990 --> 00:11:40,790
+cumple compruébalo segundo el irph no se cumple comprueba el tercer.
+
+120
+00:11:42,130 --> 00:11:47,860
+El segundo el perdón se cumple lo muestra y todo lo demás ya no se ejecuta.
+
+121
+00:11:49,350 --> 00:12:01,080
+En cambio si lo copio todo y utiliza semos Hives en lugar del IRPF y el ELS por ejemplo poniendo nota
+
+122
+00:12:01,140 --> 00:12:10,840
+mayor o igual que 9 nota mayor o igual que 7 nota mayor o igual que 6 nota mayor o igual que 5.
+
+123
+00:12:11,070 --> 00:12:18,450
+Y por último en vez de leerlas pusieramos nota menor que 5 por ejemplo para saber que es menor que un
+
+124
+00:12:18,450 --> 00:12:19,530
+aprobado.
+
+125
+00:12:19,800 --> 00:12:27,960
+Si lo ejecutamos esta vez introducimos por ejemplo un 6 fijarlo que va a ocurrir que nos dice que está
+
+126
+00:12:27,960 --> 00:12:29,640
+bien y que suficiente.
+
+127
+00:12:30,120 --> 00:12:31,740
+Por qué.
+
+128
+00:12:31,740 --> 00:12:37,830
+Porque el primer ivic IFF no se cumple el segundo tampoco pero el tercero sí que se cumple porque es
+
+129
+00:12:37,830 --> 00:12:43,560
+mayor igual que seis y también se cumple el siguiente ihf porque es mayor igual que cinco.
+
+130
+00:12:43,560 --> 00:12:45,970
+Por tanto también muestra el suficiente.
+
+131
+00:12:47,940 --> 00:12:52,240
+Y si pusiéramos nun sois pusieramos un 10.
+
+132
+00:12:52,260 --> 00:12:58,340
+Fijar lo que va a pasar no dice que es un sobresaliente notable bien suficiente.
+
+133
+00:12:58,420 --> 00:13:00,360
+Por qué se cumple la primera.
+
+134
+00:13:00,570 --> 00:13:06,720
+Se cumple el segundo y se cumple el tercero y se cumple hasta aquí el único caso en el que funcionaría
+
+135
+00:13:06,720 --> 00:13:14,460
+bien este código sería si la nota fuera menor que el 5 por ejemplo 3 porque es directamente solamente
+
+136
+00:13:14,460 --> 00:13:15,760
+se cumpliría el último.
+
+137
+00:13:17,370 --> 00:13:23,460
+En el caso de que queramos utilizar simplemente IBES tenemos que limitar los roncos para cada IRPF en
+
+138
+00:13:23,460 --> 00:13:25,550
+el propio IRPF.
+
+139
+00:13:26,510 --> 00:13:36,290
+Por ejemplo comprobar que la nota sea mayor o igual que 7 y a la vez sea menor que 9.
+
+140
+00:13:37,130 --> 00:13:47,090
+O que la nota sea mayor igual que 6 y a su vez sea menor que 7 o que sea mayor igual que el 5 y a su
+
+141
+00:13:47,090 --> 00:13:52,600
+vez sea menor que 6.
+
+142
+00:13:52,850 --> 00:13:55,260
+De esta manera es la única.
+
+143
+00:13:56,290 --> 00:13:59,090
+Dónde podríamos evitar el uso de el IRS.
+
+144
+00:13:59,520 --> 00:14:07,660
+Pero como veis es mucho más sencillo hacerlo con Elipe que hacerlo así si ponemos de esta forma un 10
+
+145
+00:14:08,380 --> 00:14:10,390
+ya solamente se ejecuta el primero.
+
+146
+00:14:10,420 --> 00:14:11,150
+Por qué.
+
+147
+00:14:11,150 --> 00:14:13,430
+Porque no se cumplen ambas posibilidades.
+
+148
+00:14:13,570 --> 00:14:21,610
+Si ponemos un 10 todos bien si ponemos un 8 notable por qué.
+
+149
+00:14:21,710 --> 00:14:24,020
+Porque es mayor o igual a 7.
+
+150
+00:14:24,370 --> 00:14:26,090
+Pero a la vez es menor que 9.
+
+151
+00:14:26,120 --> 00:14:28,390
+Sería como decirles es 7 8.
+
+152
+00:14:28,840 --> 00:14:36,730
+Así que como veis utilizar correctamente el IP nos puede ahorrar a escribir muchísimo código.
+
+153
+00:14:36,730 --> 00:14:42,910
+Por último os quiero introducir una palabra clave llamada paz que se puede utilizar para definir un
+
+154
+00:14:42,910 --> 00:14:43,690
+bloque vacío.
+
+155
+00:14:43,690 --> 00:14:52,810
+Por ejemplo imaginar que creamos una estructura un bloque condicional if pero no queremos escribir nada
+
+156
+00:14:52,840 --> 00:14:56,600
+por ahora simplemente queremos poner que lo tenemos ahí.
+
+157
+00:14:56,620 --> 00:14:59,570
+Y hasta entonces utilizaríamos la palabra paz.
+
+158
+00:15:00,510 --> 00:15:07,770
+Aparentemente no tiene mucha utilidad pero para hacer esqueletos de estructuras pues puede servirnos
+
+159
+00:15:08,010 --> 00:15:15,120
+simplemente os lo comento para que sepáis que puede funcionar y así hemos acabado con los condicionales.
+
+160
+00:15:15,150 --> 00:15:19,330
+Quizás si venís de otro lenguaje os preguntaréis qué pasa con la sentencia switch en Python.
+
+161
+00:15:19,560 --> 00:15:25,020
+La respuesta es que no existe pero tampoco es un problema ya que hay muchas formas de simular su comportamiento
+
+162
+00:15:25,020 --> 00:15:29,490
+con funciones y diccionarios de los cuales hablaremos más adelante.

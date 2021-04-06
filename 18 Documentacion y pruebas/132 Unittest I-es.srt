@@ -1,0 +1,559 @@
+1
+00:00:00,440 --> 00:00:01,380
+Muy bien.
+
+2
+00:00:01,550 --> 00:00:03,270
+Ya hemos visto los doctores.
+
+3
+00:00:03,450 --> 00:00:10,410
+Vamos a por los dignité el módulo y un test a veces referido como yuniel forma parte de una serie de
+
+4
+00:00:10,430 --> 00:00:12,880
+frameworks conocidos como x y.
+
+5
+00:00:13,260 --> 00:00:17,970
+Estas librerías se encuentran en la mayoría de lenguajes y son casi un estándar a la hora de programar
+
+6
+00:00:17,970 --> 00:00:19,670
+pruebas unitarias.
+
+7
+00:00:19,920 --> 00:00:25,770
+A diferencia de Doc y Unite ofrece la posibilidad de crear las pruebas en el propio código implementando
+
+8
+00:00:25,770 --> 00:00:32,600
+una clase llamada y un hites punto test que es la que se incluirá un kit o batería de pruebas.
+
+9
+00:00:32,970 --> 00:00:37,520
+Cada una de las pruebas puede devolver tres respuestas en función del resultado.
+
+10
+00:00:37,650 --> 00:00:42,900
+Para indicar que la prueba se ha pasado exitosamente FEIL para indicar que la prueba no se ha pasado
+
+11
+00:00:42,900 --> 00:00:47,360
+exitosamente y aquí se lanzará una excepción a ser un error.
+
+12
+00:00:47,780 --> 00:00:53,300
+Y por último un error para indicar que la prueba no se ha pasado exitosamente pero el resultado logrado
+
+13
+00:00:53,310 --> 00:00:56,150
+ser una aserción es otro tipo de error.
+
+14
+00:00:57,270 --> 00:01:02,020
+Vamos a crear una prueba unitaria muy sencilla para ver su funcionamiento en un escrito.
+
+15
+00:01:02,340 --> 00:01:06,980
+Vamos a empezar importando el módulo Unity test.
+
+16
+00:01:08,170 --> 00:01:11,880
+Ahora vamos a crear una clase Clas pruebas.
+
+17
+00:01:12,370 --> 00:01:17,680
+Esto será una batería de pruebas y vamos a heredar de juguetes.
+
+18
+00:01:17,680 --> 00:01:20,040
+Punto 3 6.
+
+19
+00:01:21,460 --> 00:01:28,140
+Vamos a poner dos puntitos aquí y vamos a definir aquí un test de test.
+
+20
+00:01:28,180 --> 00:01:30,180
+Este será nuestro primer test.
+
+21
+00:01:30,490 --> 00:01:34,720
+Vamos a pasar Shelf y por ahora simplemente vamos a hacer un paz.
+
+22
+00:01:35,930 --> 00:01:39,880
+Una vez hemos ejecutado la batería de pruebas con el primer test.
+
+23
+00:01:41,250 --> 00:01:44,030
+Voy a hacer lo mismo que antes.
+
+24
+00:01:44,190 --> 00:01:51,510
+Comprobar si el nombre de este fichero desde el que se está ejecutando es Moine para ejecutar múltiples
+
+25
+00:01:51,510 --> 00:01:52,740
+veces los test.
+
+26
+00:01:53,220 --> 00:02:01,240
+Y en esta ocasión vamos a hacer un test punto Moine para llamar a la batería de pruebas de acuerdo.
+
+27
+00:02:01,410 --> 00:02:07,310
+Así que como veis lo que vamos a hacer en esta ocasión es crear test en funciones.
+
+28
+00:02:07,500 --> 00:02:14,430
+O mejor dicho métodos de esta clase de test Keys en lugar de ponerlas directamente en la documentación
+
+29
+00:02:14,760 --> 00:02:22,020
+vamos a guardar esto aquí vamos a abrir la terminal voy a borrar lo que tenía antes y vamos a ejecutar
+
+30
+00:02:22,630 --> 00:02:25,540
+Payton mi script.
+
+31
+00:02:26,020 --> 00:02:33,890
+Y como veis me aparece lo siguiente por pantalla un puntito Ran Contest 0.0 cero segundos.
+
+32
+00:02:34,080 --> 00:02:37,000
+Kok lo que os comentaba antes me devuelve.
+
+33
+00:02:37,050 --> 00:02:42,810
+Ok significa que se ha ejecutado un test y ha pasado correctamente.
+
+34
+00:02:42,900 --> 00:02:48,000
+Claro ahora mismo esto no tiene mucho sentido porque lo que estamos haciendo es simplemente pasar de
+
+35
+00:02:48,000 --> 00:02:49,690
+largo no estamos ejecutando nada.
+
+36
+00:02:49,710 --> 00:02:52,870
+Por tanto no se devuelve nada y el toma es correcto.
+
+37
+00:02:53,130 --> 00:02:59,720
+Ahora bien si modificamos nuestro código y en lugar de pasar de largo invocamos una excepción a ser
+
+38
+00:02:59,730 --> 00:03:00,580
+un error.
+
+39
+00:03:00,600 --> 00:03:09,130
+De esta forma reunís hacer un error pues estaríamos en la segunda posibilidad vamos a guardar y ejecutarlo.
+
+40
+00:03:09,440 --> 00:03:13,770
+Y fijaros lo que sucede en esta ocasión no te vuelve a F.
+
+41
+00:03:14,220 --> 00:03:19,350
+Por tanto si ha fallado el test y se ha devuelto un error de tipo Hacer un error se ha ejecutado un
+
+42
+00:03:19,350 --> 00:03:21,450
+test un fallo claro.
+
+43
+00:03:21,470 --> 00:03:25,500
+Esto era un error asertivo que por defecto hacemos que el test falle.
+
+44
+00:03:25,530 --> 00:03:32,220
+Por eso sale la F porque ha fallado pero podríamos generar un error que no fuera asertivo por ejemplo
+
+45
+00:03:32,550 --> 00:03:40,020
+en este momento daki intentamos dividir 1 entre 0 sería indeterminado no vamos a guardar y ejecutar
+
+46
+00:03:40,020 --> 00:03:42,350
+a ver qué sucede en esta ocasión.
+
+47
+00:03:42,600 --> 00:03:44,420
+Y aquí tenemos la última posibilidad.
+
+48
+00:03:44,540 --> 00:03:48,640
+Una de error y el error es una división entre cero.
+
+49
+00:03:48,990 --> 00:03:54,700
+Por tanto también ha fallado pero en esta ocasión tenemos un código con esto que hemos hecho.
+
+50
+00:03:54,700 --> 00:03:59,790
+Ya hemos visto los tres tipos de respuestas que puede devolver un texto unitario.
+
+51
+00:04:00,030 --> 00:04:01,730
+Ok fail y error.
+
+52
+00:04:01,890 --> 00:04:08,220
+Vamos a ver cómo jugar con ellas porque con lo que sabemos podríamos crear complejos utilizando condiciones
+
+53
+00:04:08,220 --> 00:04:09,730
+y excepciones a ser terror.
+
+54
+00:04:09,810 --> 00:04:14,820
+Pero la verdad es que la clase que nos provee de un montón de alternativas vamos a hacer un repaso de
+
+55
+00:04:14,820 --> 00:04:15,830
+las más comunes.
+
+56
+00:04:15,990 --> 00:04:20,630
+Recordad que siempre devolveran True false dependiendo de si pasan o no el test.
+
+57
+00:04:20,760 --> 00:04:27,850
+Por ejemplo tenemos el láser para comprobar si dos valores son iguales el cual para comprobar si no
+
+58
+00:04:27,870 --> 00:04:35,520
+son iguales el hacerte truc para comprobar si un valor es verdadero suele ser falso.
+
+59
+00:04:35,520 --> 00:04:38,870
+Para comprobar si un valor es falso luego deberíamos hacer.
+
+60
+00:04:38,910 --> 00:04:45,300
+Y es que en lugar de comprobar si dos valores son iguales no solamente en su valor comprobarían si son
+
+61
+00:04:45,510 --> 00:04:51,240
+lo mismo es decir aquello que hacíamos de coger un objeto y asignársele a otro objeto.
+
+62
+00:04:51,240 --> 00:04:56,710
+Si comprobase los dos objetos acertase nos diría que son el mismo objeto porque apuntan al mismo punto
+
+63
+00:04:56,710 --> 00:05:00,120
+de la memoria no están en la misma referencia.
+
+64
+00:05:00,120 --> 00:05:06,810
+O también tendríamos el asertos para comprobar si un valor es nulo o el aserto no para comprobar si
+
+65
+00:05:06,810 --> 00:05:08,460
+un valor no es nulo.
+
+66
+00:05:08,460 --> 00:05:14,370
+El aserto in para comprobar si un elemento está dentro de una colección o en el certes no Tim para comprobar
+
+67
+00:05:14,370 --> 00:05:21,270
+lo contrario también tendríamos el láser instantáneo para comprobar si un objeto por ejemplo una instancia
+
+68
+00:05:21,270 --> 00:05:26,670
+de un tipo huelas Sert Notice instantes para comprobar si un objeto no es una instancia de una clase
+
+69
+00:05:26,670 --> 00:05:28,080
+determinada.
+
+70
+00:05:28,080 --> 00:05:33,600
+Si os interesa profundizar os dejo el enlace oficial y vamos a hacer algunos ejemplos para practicar.
+
+71
+00:05:33,600 --> 00:05:38,460
+Por ejemplo vamos a crear aquí arriba que esto lo podríamos importar de un módulo que de hecho sería
+
+72
+00:05:38,460 --> 00:05:44,460
+lo normal pero nosotros vamos a crear aquí unas funciones por ejemplo una función doblar que le pasemos
+
+73
+00:05:45,060 --> 00:05:49,750
+un valor a y esta tiene que devolver a por dos.
+
+74
+00:05:49,800 --> 00:05:52,550
+También podríamos hacer un sumar sumar.
+
+75
+00:05:53,290 --> 00:05:57,710
+Le pasamos a b y ésta tiene que devolver a más B.
+
+76
+00:05:57,990 --> 00:06:05,700
+Ya veis que son muy sencillas y una función por ejemplo Espar a la que le pasamos un valor podemos poner
+
+77
+00:06:05,760 --> 00:06:08,650
+también la devolvería.
+
+78
+00:06:08,930 --> 00:06:19,090
+Si a módulo de 2 es igual a cero y si no devolvería un 0 o mejor dicho a un falsee de acuerdo entonces
+
+79
+00:06:19,530 --> 00:06:25,860
+ya no le voy a llamar pruebas sino que le voy a llamar pruebas funciones y voy a empezar a hacer unos
+
+80
+00:06:25,860 --> 00:06:32,340
+cuantos test por ejemplo test para comprobar si funciona correctamente la función doblar.
+
+81
+00:06:32,730 --> 00:06:33,680
+Cómo lo vamos a hacer.
+
+82
+00:06:33,680 --> 00:06:40,050
+Bueno pues utilizando estos errores llamándose Shelf por ejemplo.
+
+83
+00:06:40,700 --> 00:06:49,600
+Cual para comprobar si doblar 10 me devuelve verdaderamente 20.
+
+84
+00:06:49,610 --> 00:07:03,620
+Otro test que podemos hacer aquí en doblar Shelf hacer es cuál doblar una cadena a b es igual que a
+
+85
+00:07:03,620 --> 00:07:04,520
+b a b.
+
+86
+00:07:04,550 --> 00:07:14,180
+De esta forma de acuerdo tenéis que ponerlo así entre comillas simples podríamos hacer más tests para
+
+87
+00:07:14,180 --> 00:07:15,390
+sumar.
+
+88
+00:07:16,280 --> 00:07:20,510
+Lo haremos de esta forma Shelf a ser cuál.
+
+89
+00:07:20,570 --> 00:07:25,490
+Ya veis que yo estoy utilizando únicamente lo cual en estos ejemplos porque esto es lo más equivalente
+
+90
+00:07:25,490 --> 00:07:31,130
+a los doctores que simplemente comprobamos si se devolviã una cosa u otra.
+
+91
+00:07:31,190 --> 00:07:41,160
+Por tanto lo haría de esta forma comprobarlas y sumar por ejemplo menos 15 y 15 me devuelve cero.
+
+92
+00:07:41,600 --> 00:07:48,380
+También podría comprobar si äußerst el cual sumar a B.
+
+93
+00:07:49,670 --> 00:07:53,240
+Más por ejemplo CD.
+
+94
+00:07:53,930 --> 00:07:58,080
+Y todo esto me devolvería a CD.
+
+95
+00:07:58,160 --> 00:08:08,930
+De esta forma también otra batería de pruebas DEF leppard para hacer pruebas en nuestra función de Espar
+
+96
+00:08:09,730 --> 00:08:19,310
+pasamos aquí Shelf a Sert cual es par podríamos comprobar si 11 es un número par.
+
+97
+00:08:19,310 --> 00:08:21,130
+Esto debería de false.
+
+98
+00:08:21,520 --> 00:08:29,680
+De esta forma y otro podríamos hacer otro debajo Espar por ejemplo 68.
+
+99
+00:08:29,740 --> 00:08:32,700
+Este debería de devolver verdadero porque es múltiple.
+
+100
+00:08:32,810 --> 00:08:36,450
+Por tanto es par y la función de volver a Truque arriba.
+
+101
+00:08:37,130 --> 00:08:42,670
+Bueno pues aquí tengo una batería de pruebas para mi colección de funciones doblar sumar.
+
+102
+00:08:42,680 --> 00:08:50,390
+Y es que yo podría estar perfectamente tomando otro módulo aparte y este script únicamente dedicarse
+
+103
+00:08:50,390 --> 00:08:57,890
+a hacer test voy a guardar y si no me he equivocado en nada vamos a ejecutarlo en la terminal.
+
+104
+00:08:59,000 --> 00:09:03,080
+Se han ejecutado 3T y todos han pasado correctamente.
+
+105
+00:09:03,200 --> 00:09:09,090
+Si queréis mostrar un poco más de información podríais ejecutar lo mismo Pasándolo en menos UBE.
+
+106
+00:09:09,440 --> 00:09:16,790
+En esta ocasión os dirá que los test de doblar se han pasado y los despacha bien y los de sumar también
+
+107
+00:09:17,930 --> 00:09:27,060
+suponiendo que alguno de los test fallase Por ejemplo este par fuera un 69 y yo hubiera puesto Tru y
+
+108
+00:09:27,080 --> 00:09:29,040
+guardase y ejecutase.
+
+109
+00:09:29,210 --> 00:09:32,850
+Pues como veis me diría que el texto Espar me falla.
+
+110
+00:09:32,870 --> 00:09:39,200
+Esto es un fallo en toda regla porque es un acertijo en lugar de devolver falsee devuelve true.
+
+111
+00:09:39,500 --> 00:09:40,330
+O al revés.
+
+112
+00:09:40,340 --> 00:09:42,990
+Como veis aquí es una suerte un error.
+
+113
+00:09:43,210 --> 00:09:49,490
+Y si en lugar de forzar un fallo forzase un error fijaros voy a venir aquí y en lugar de decirle que
+
+114
+00:09:49,490 --> 00:09:56,870
+sume B con CD voy a hacer que su meabe con un número cero y esto oponerle que por ejemplo tendria que
+
+115
+00:09:56,870 --> 00:09:59,290
+devolver a beceiro que sabemos que esto va a fallar.
+
+116
+00:09:59,540 --> 00:10:03,500
+Vamos a guardar vamos a ejecutarlo.
+
+117
+00:10:03,920 --> 00:10:11,620
+Y cómo veis ahora tenemos un error aquí que ya nos indica alta y error convertir top string implicito
+
+118
+00:10:11,650 --> 00:10:17,920
+y no se puede convertir un número implicitamente a una cadena para sumarse a lo ya nos lo muestra.
+
+119
+00:10:17,920 --> 00:10:23,390
+En este momento aquí no ha pasado el test y luego tenemos el otro que hemos hecho antes que tampoco
+
+120
+00:10:23,390 --> 00:10:29,540
+lo ha pasado bien en esta ocasión vamos a probar métodos de las cadenas de caracteres así que voy a
+
+121
+00:10:29,540 --> 00:10:37,820
+crear una batería de pruebas llamada pruebas métodos cadenas simplemente para practicar y dentro vamos
+
+122
+00:10:37,820 --> 00:10:38,670
+a crearte.
+
+123
+00:10:38,840 --> 00:10:45,100
+Vamos a comenzar con un test kuper para comprobar si funciona bien el método.
+
+124
+00:10:45,740 --> 00:10:50,350
+Por ejemplo kuper Comprobar si Shelf acerté.
+
+125
+00:10:50,660 --> 00:10:59,150
+Si son iguales por ejemplo Hola kuper Tendría que hacérmelo todo en mayúscula y me debería de devolver
+
+126
+00:10:59,150 --> 00:11:02,030
+exactamente Colau De esta forma.
+
+127
+00:11:02,240 --> 00:11:04,420
+Aquí debería ser igual a esto.
+
+128
+00:11:05,260 --> 00:11:09,250
+También podríamos hacer un test kuper.
+
+129
+00:11:11,020 --> 00:11:17,070
+Y lo que vamos a comprobar aquí vamos a ser un selfie y en esta ocasión una acertada Tru para comprobar
+
+130
+00:11:17,070 --> 00:11:23,070
+si algo devuelve verdadero y lo que vamos a comprobar si la cadena cola todas sus letras o en mayúsculas
+
+131
+00:11:23,220 --> 00:11:24,800
+es kuper.
+
+132
+00:11:24,840 --> 00:11:29,310
+De esta forma como todas son mayúsculas debería devolver verdadero.
+
+133
+00:11:29,310 --> 00:11:36,690
+Por tanto esto no debería fallar y podríamos hacer lo mismo con un Acer false y comprobar por ejemplo
+
+134
+00:11:36,690 --> 00:11:44,960
+lo contrario si esta cadena aquí kuper es mayúscula sabremos que no por tanto nos devolverá falso.
+
+135
+00:11:45,420 --> 00:11:56,070
+Debería de validar el test y un texte Split por ejemplo vamos a declarar una cadena Hola Mundo y vamos
+
+136
+00:11:56,070 --> 00:12:06,580
+a comprobar si Shelf a ser tal cual si partimos es expolit a partir de el espacio podríamos ponerlo
+
+137
+00:12:06,580 --> 00:12:11,590
+o no porque por defecto ya toma el espacio y esto devuelve la siguiente lista.
+
+138
+00:12:11,640 --> 00:12:23,400
+Una lista con cola y mundo de acuerdo vamos a guardar vamos a ejecutar los test vamos a ver si los pasan
+
+139
+00:12:23,810 --> 00:12:28,280
+y kuper ok ok kuper OK.
+
+140
+00:12:28,560 --> 00:12:31,640
+Se han pasado tres test correctamente sin ningún problema.

@@ -1,0 +1,251 @@
+1
+00:00:01,470 --> 00:00:06,560
+Una excepción es un bloque de código excepcional que nos permitirá continuar con la ejecución que ocurra
+
+2
+00:00:06,570 --> 00:00:07,830
+un error.
+
+3
+00:00:07,830 --> 00:00:11,910
+Volviendo al ejemplo de la elección anterior teníamos el problema que cuando el usuario no introduce
+
+4
+00:00:11,910 --> 00:00:18,710
+una cadena que fuera un número fallaba al hacer la conversión vamos a abrir la Lección 2 y a trabajar
+
+5
+00:00:18,710 --> 00:00:20,150
+en el ejemplo anterior.
+
+6
+00:00:24,410 --> 00:00:28,650
+Si recordáis poníamos la caja y su salida.
+
+7
+00:00:29,840 --> 00:00:31,330
+Vamos a crear una excepción.
+
+8
+00:00:32,090 --> 00:00:37,460
+Para crear la excepción debemos poner todo el código propenso a errores dentro de un bloque llamado
+
+9
+00:00:37,460 --> 00:00:45,110
+TRAI que significa probar en español y luego lo seguiremos de otro bloque excepto de excepción dentro
+
+10
+00:00:45,110 --> 00:00:51,080
+del cual escribiremos el código que se ejecutará en el caso de que ocurra un error.
+
+11
+00:00:51,080 --> 00:00:57,350
+En la práctica básicamente lo que tenemos que hacer es escribir un trai en la parte superior que englobe
+
+12
+00:00:57,380 --> 00:01:02,270
+todo el código propenso a errores y finalmente hacerun.
+
+13
+00:01:02,420 --> 00:01:08,150
+Excepto una excepción para detectar ese momento donde ocurra un error y Podemos por ejemplo mostrar
+
+14
+00:01:08,150 --> 00:01:09,300
+un mensaje.
+
+15
+00:01:09,410 --> 00:01:21,890
+Ha ocurrido un error que introduce bien el número si lo ejecutamos y ponemos a en esta ocasión ha ocurrido
+
+16
+00:01:21,890 --> 00:01:22,640
+un error.
+
+17
+00:01:22,930 --> 00:01:29,720
+Introduce bien el número y como mínimo ya no se detiene la ejecución del programa que ya es mucho si
+
+18
+00:01:29,780 --> 00:01:33,860
+modificase ligeramente el código pusieramos dentro de un uil.
+
+19
+00:01:33,890 --> 00:01:41,180
+Todo este bloque excepto podríamos crear la típica estructura de un programa que se ejecute hasta que
+
+20
+00:01:41,180 --> 00:01:42,710
+todo vaya correctamente.
+
+21
+00:01:42,950 --> 00:01:51,350
+Siempre que rompamos la ejecución manualmente cuando todo haya funcionado por ejemplo creamos un bloque
+
+22
+00:01:51,800 --> 00:01:56,780
+walkthrough y vamos a poner todo lo que tenemos antes.
+
+23
+00:01:57,790 --> 00:02:07,660
+Lo vamos a poner bien así tabulado y en esencia siempre que nos aseguramos que después de mostrar bien
+
+24
+00:02:08,050 --> 00:02:12,370
+la división rompemos la sección de lo guay con un break.
+
+25
+00:02:12,370 --> 00:02:19,760
+Vamos a poner una nota aquí importante romper la iteración.
+
+26
+00:02:19,780 --> 00:02:31,200
+Si todo ha salido bien y si lo ejecutamos ponemos esto ocurre un error nos dice otra vez que introduzcamos
+
+27
+00:02:31,220 --> 00:02:39,250
+un número y nos lo irá diciendo siempre hasta que introduzcamos un número correctamente y no ocurra
+
+28
+00:02:39,640 --> 00:02:41,280
+esta excepción.
+
+29
+00:02:41,820 --> 00:02:43,340
+Veis el 10.
+
+30
+00:02:43,360 --> 00:02:48,270
+Y entonces ya me muestra este Prin y rompe la ejecución de los Veil.
+
+31
+00:02:49,190 --> 00:02:57,740
+Este tipo de bloque Will nos puede servir muy bien pues para ejecutar algo hasta que todo funcione correctamente
+
+32
+00:02:57,770 --> 00:02:58,930
+como hemos hecho.
+
+33
+00:02:59,660 --> 00:03:04,700
+Pero la gestión de excepciones abarca muchísimo más que esto.
+
+34
+00:03:04,700 --> 00:03:11,100
+En primer lugar permite añadir un bloque de código al Accept para ejecutar un código.
+
+35
+00:03:11,120 --> 00:03:18,060
+En caso de que todo vaya correctamente y ese es el lugar perfecto para poner el brake de nuestro guais
+
+36
+00:03:19,010 --> 00:03:27,820
+fijaros voy a copiar lo que tengo y vamos a añadir después del excepto este bloque el bloque élse.
+
+37
+00:03:27,980 --> 00:03:38,480
+Vamos a poner un TRIM y diremos que todo ha funcionado correctamente y cambiaremos de lugar el break
+
+38
+00:03:38,600 --> 00:03:41,370
+lo pondremos justo abajo.
+
+39
+00:03:43,280 --> 00:03:49,410
+Tened en cuenta que éste es si siempre se ejecutará si no ocurren ninguna excepción.
+
+40
+00:03:49,970 --> 00:03:52,200
+Si todo va bien se ejecutará.
+
+41
+00:03:52,340 --> 00:04:02,260
+Es como decir ocurre una excepción pues si no ejecutamos Heels si lo probamos introducimos un número.
+
+42
+00:04:02,410 --> 00:04:08,450
+Su muestra pues este cálculo que hemos hecho y como no ocurre ningún error ha funcionado correctamente.
+
+43
+00:04:08,450 --> 00:04:16,970
+Lo mostramos aquí y finalizamos la ejecución del wifi con el break pero todavía se permite una sentencia
+
+44
+00:04:16,970 --> 00:04:23,680
+extra llamada feina Li o Finalmente y al final se ejecuta siempre al final del trayecto.
+
+45
+00:04:24,510 --> 00:04:29,840
+Vamos a copiarlo todo y vamos a poner un final ahí siempre al final de todo.
+
+46
+00:04:29,840 --> 00:04:34,380
+Finalmente vamos a poner fin.
+
+47
+00:04:34,560 --> 00:04:37,990
+Fin de la interacción.
+
+48
+00:04:38,180 --> 00:04:45,690
+Ten en cuenta que se ejecutará siempre al final de cada iteración de lo que ocurra o no ocurra un error.
+
+49
+00:04:46,100 --> 00:04:47,430
+Es indiferente.
+
+50
+00:04:47,870 --> 00:04:48,890
+Vamos a probarlo.
+
+51
+00:04:49,070 --> 00:04:50,030
+Introduce el número.
+
+52
+00:04:50,030 --> 00:04:52,080
+Por ejemplo vamos a ponernos mal.
+
+53
+00:04:52,580 --> 00:04:53,780
+Lo hemos introducido mal.
+
+54
+00:04:53,780 --> 00:05:00,120
+Ha ocurrido un error nos ha saltado el CEV y finalmente mostramos el código de fin de la iteración.
+
+55
+00:05:00,130 --> 00:05:06,110
+Ahora vamos a ponerlo bien vamos a poner un 10 nos muestra el resultado correctamente se ejecuta el
+
+56
+00:05:06,190 --> 00:05:10,760
+l Porque todo se ha ejecutado correctamente no ha habido ninguna excepción y finalmente nos muestra
+
+57
+00:05:10,760 --> 00:05:12,130
+el fin de la iteración.
+
+58
+00:05:12,930 --> 00:05:20,610
+Por tanto resumiendo tenemos cuatro bloques de excepción el bloque TRAI para capturar cualquier error
+
+59
+00:05:20,610 --> 00:05:23,200
+dentro de un bloque de instrucciones.
+
+60
+00:05:23,450 --> 00:05:24,230
+El Excel.
+
+61
+00:05:25,190 --> 00:05:27,340
+Para definir el código excepcional.
+
+62
+00:05:29,330 --> 00:05:33,610
+Es de aquí para definir el código que se ejecutará.
+
+63
+00:05:33,640 --> 00:05:43,110
+Si no ocurre ningún error y el final para definir el código que se ejecutará al final haya o no un error.

@@ -1,0 +1,43 @@
+1
+00:00:00,680 --> 00:00:05,120
+Cuando creas tus propios programas te das cuenta de que muchas de las tareas que implementas tienden
+
+2
+00:00:05,120 --> 00:00:09,490
+a repetirse o a presentarse de forma parecida con pequeñas variaciones.
+
+3
+00:00:09,800 --> 00:00:15,590
+Ahí es cuando surge la necesidad de agrupar de alguna forma ese código común y aparecen las funciones.
+
+4
+00:00:15,590 --> 00:00:20,600
+Las funciones son fragmentos de código que podemos ejecutar múltiples veces gracias a un nombre único
+
+5
+00:00:20,600 --> 00:00:24,260
+que las identifica para comunicarse con el proceso principal.
+
+6
+00:00:24,260 --> 00:00:28,580
+Las funciones pueden recibir y devolver datos manipulados.
+
+7
+00:00:28,580 --> 00:00:34,410
+Un ejemplo de función que conocemos es el que nos permite saber la cantidad de elementos de una colección.
+
+8
+00:00:34,490 --> 00:00:39,290
+Si recordáis a esta función le teníamos que pasar el elemento del que queríamos saber la longitud.
+
+9
+00:00:39,470 --> 00:00:42,310
+Luego devolvía un valor con la longitud en un número entero.
+
+10
+00:00:42,500 --> 00:00:44,890
+Este valor se denomina valor de retorno.
+
+11
+00:00:45,140 --> 00:00:49,410
+A lo largo de esta unidad aprenderemos a crear nuestras propias funciones y a utilizarlas.

@@ -1,0 +1,343 @@
+1
+00:00:01,550 --> 00:00:02,390
+Muy bien.
+
+2
+00:00:02,390 --> 00:00:05,980
+Otro componente básico de los formularios son los botones radiales.
+
+3
+00:00:06,200 --> 00:00:10,770
+Se utilizan cuando quieren ofrecerle al usuario la posibilidad de elegir una opción entre varias.
+
+4
+00:00:12,120 --> 00:00:19,040
+Tengo aquí preparado ya un fichero Gladio Button Topy para manejar un poco este widget y lo que vamos
+
+5
+00:00:19,040 --> 00:00:20,230
+a hacer es lo siguiente.
+
+6
+00:00:20,540 --> 00:00:21,610
+Vamos a crear.
+
+7
+00:00:22,520 --> 00:00:25,050
+Un radio Button hacerlo así.
+
+8
+00:00:25,050 --> 00:00:26,420
+Radio Button.
+
+9
+00:00:26,970 --> 00:00:31,280
+Perdón con la B en minúscula y la vamos a pasar.
+
+10
+00:00:31,280 --> 00:00:33,060
+Pues root como siempre.
+
+11
+00:00:33,060 --> 00:00:35,240
+Ahora ya tenemos más.
+
+12
+00:00:36,410 --> 00:00:39,450
+Experiencia trabajando con widgets son todos muy parecidos.
+
+13
+00:00:39,470 --> 00:00:44,830
+Primero Repasamos aquí root vamos a pasarle un texto a este irradió Button.
+
+14
+00:00:45,350 --> 00:00:54,280
+Opción 1 por ejemplo y vamos a mostrar a ver qué es lo que tenemos.
+
+15
+00:00:54,300 --> 00:01:02,540
+Perdón me falta hacer el pack siempre mórbidos del pack y mira lo que tenemos aquí un botoncito que
+
+16
+00:01:02,540 --> 00:01:07,760
+se puede hacer clic encima aunque por defecto viene explicado que es el típico radio Button.
+
+17
+00:01:07,790 --> 00:01:10,930
+Si pusiéramos tres uno debajo del otro.
+
+18
+00:01:11,450 --> 00:01:14,940
+Opción 1 opción 2 y Opción 3.
+
+19
+00:01:15,110 --> 00:01:16,900
+Al ejecutarlo pues tendríamos.
+
+20
+00:01:17,980 --> 00:01:22,260
+El típico campode un formulario donde puedes elegir una opción de varias.
+
+21
+00:01:23,580 --> 00:01:30,050
+Entonces para trabajar con los radio Buttons tenemos que tener presente dos cosas primero un radio Button
+
+22
+00:01:30,650 --> 00:01:37,850
+tiene un valor por defecto el de la opción uno podría ser el número 1 la opción 2 el número 2 y el de
+
+23
+00:01:37,850 --> 00:01:39,320
+la opción 3 El Número 3.
+
+24
+00:01:39,560 --> 00:01:46,220
+Todos ellos formarían en conjunto una posible opción y esa posible opción que todos comparten es la
+
+25
+00:01:46,220 --> 00:01:47,200
+variable.
+
+26
+00:01:48,770 --> 00:01:52,520
+Así que vamos a tener que crear una de aquellas variables como string bar.
+
+27
+00:01:52,520 --> 00:01:59,710
+En esta ocasión vamos a guardar un número entero así que vamos a crear una variable opción llamada Bono
+
+28
+00:01:59,840 --> 00:02:03,470
+llamada de tipo bar del tipo entero.
+
+29
+00:02:03,890 --> 00:02:04,810
+De esta forma.
+
+30
+00:02:05,900 --> 00:02:11,820
+Que por defecto no tenga ningún valor por defecto estará vacía y se la vamos a pasar aquí a los radio
+
+31
+00:02:11,830 --> 00:02:13,950
+botón en forma de variable.
+
+32
+00:02:13,960 --> 00:02:22,020
+De esta forma le vamos a pasar la opción a copiarlo a los tres.
+
+33
+00:02:22,510 --> 00:02:31,240
+Recordad que esta es la parte común vamos a ejecutarlo y ahora ya nos permite seleccionar pero no podemos
+
+34
+00:02:31,240 --> 00:02:36,730
+seleccionar ninguno en específico porque todavía no hemos otorgado un valor único a cada una de las
+
+35
+00:02:36,730 --> 00:02:37,230
+opciones.
+
+36
+00:02:37,240 --> 00:02:42,720
+Por tanto se ponen todas de golpe para asignar un valor específico para cada una de ellas.
+
+37
+00:02:42,820 --> 00:02:45,610
+Vamos a crear un nuevo parámetro llamado value.
+
+38
+00:02:46,180 --> 00:02:50,940
+Y aquí vamos a poner por ejemplo para la opción 1 el valor 1 para la opción 2.
+
+39
+00:02:51,030 --> 00:02:53,360
+Valor 2 y 3 el valor 3.
+
+40
+00:02:53,580 --> 00:02:59,890
+Y esto es lo que hace independientes a cada una de estas opciones que son la misma opción que tenemos
+
+41
+00:02:59,890 --> 00:03:08,170
+aquí podemos tener distintos conjuntos de opciones que comparten una variable pero luego los valores
+
+42
+00:03:08,170 --> 00:03:08,920
+son distintos.
+
+43
+00:03:08,920 --> 00:03:13,910
+Una vez tenemos esto lo que tenemos ya es la posibilidad de seleccionar una de ellas.
+
+44
+00:03:13,990 --> 00:03:19,510
+De esta forma vais de tal manera que al final tendríamos opción.
+
+45
+00:03:20,510 --> 00:03:22,260
+El número que hemos seleccionado.
+
+46
+00:03:22,390 --> 00:03:27,990
+Luego tenemos que hacer un jet para conseguir este valor.
+
+47
+00:03:28,210 --> 00:03:33,790
+Lo interesante por cierto como siempre es poder ejecutar algún comando en el momento de apretar un botón.
+
+48
+00:03:33,800 --> 00:03:41,290
+Esto es un radio Button así que vamos a crear una función aquí arriba que se llame seleccionar de acuerdo
+
+49
+00:03:41,870 --> 00:03:48,800
+que llamaremos cuando seleccionemos un valor y lo que vamos a hacer pues se me ocurre que podríamos
+
+50
+00:03:48,840 --> 00:03:56,470
+ver podremos crear aquí bajo una Label para monitorizar el valor que tiene en todo momento.
+
+51
+00:03:56,500 --> 00:04:05,230
+Opción vale hacerlo de la siguiente forma vamos a dejar esto tu momento con un paso y vamos a crear
+
+52
+00:04:05,260 --> 00:04:10,270
+una Label por llamarla monitor justo abajo del todo Label.
+
+53
+00:04:10,790 --> 00:04:15,940
+Vamos a añadir la root y la vamos a empaquetar monitor.
+
+54
+00:04:17,150 --> 00:04:24,370
+Vale la tenemos aquí abajo es invisible y lo que haremos es modificar el valor de este monitor para
+
+55
+00:04:24,370 --> 00:04:32,530
+mostrar lo que vale la opción que tenemos seleccionada y esto lo vamos a ver cuando apretemos el botón.
+
+56
+00:04:32,530 --> 00:04:38,860
+Llamaremos a la función seleccionar en cualquiera de los tres será lo mismo.
+
+57
+00:04:38,920 --> 00:04:40,990
+Vamos a ponerlo así el common.
+
+58
+00:04:43,770 --> 00:04:52,430
+Y cuando ya vamos a seleccionar Ahora si vamos a recuperar el valor vamos a mostrar en el monitor vamos
+
+59
+00:04:52,440 --> 00:04:59,430
+a hacer un config este monitor y aquí para actualizar el valor de la Label vamos a pasarlo con un text
+
+60
+00:05:00,080 --> 00:05:03,280
+y aquí pasaríamos pues una opción.
+
+61
+00:05:06,060 --> 00:05:10,860
+Podría ser una cadena de texto así con el típico paréntesis que ya sabemos lo que vamos a hacer.
+
+62
+00:05:10,860 --> 00:05:14,670
+Vamos a informar y aquí vamos a recuperar la opción.
+
+63
+00:05:14,910 --> 00:05:15,500
+Cómo.
+
+64
+00:05:15,570 --> 00:05:26,040
+Pues refiriéndonos a esta variable opción y haciendo un reto conseguir el valor vamos a guardar.
+
+65
+00:05:26,040 --> 00:05:30,810
+Vamos a ejecutar y si apretamos uno tenemos abajo 1 2 y 3.
+
+66
+00:05:30,810 --> 00:05:34,690
+Como veis tenemos el valor que estamos apretando.
+
+67
+00:05:34,740 --> 00:05:37,330
+Bueno ya sabemos como recuperar los valores.
+
+68
+00:05:39,530 --> 00:05:43,190
+Pero cómo podríamos hacerlo para reiniciar todo esto.
+
+69
+00:05:43,230 --> 00:05:44,120
+Apretando un botón.
+
+70
+00:05:44,130 --> 00:05:46,490
+Cómo podríamos reiniciar su valor.
+
+71
+00:05:46,570 --> 00:05:51,810
+Bueno pues podríamos crear por ejemplo un botón abajo del todo
+
+72
+00:05:55,730 --> 00:06:03,690
+que por ejemplo vamos a hacer que dependa de root con un texto que sea por ejemplo reiniciar para reiniciar
+
+73
+00:06:04,560 --> 00:06:13,320
+esta seleccionable y llegamos a pasar un comando gomoso llamar reset y vamos a empaquetar aquí y este
+
+74
+00:06:13,320 --> 00:06:13,730
+comando.
+
+75
+00:06:13,730 --> 00:06:16,840
+Vamos a definirlo arriba de red.
+
+76
+00:06:17,780 --> 00:06:19,070
+Lo único que va a hacer.
+
+77
+00:06:19,410 --> 00:06:28,560
+Pues fijaros es establecer la opción opción se la vamos a establecer en None en nulo para que no haya
+
+78
+00:06:28,560 --> 00:06:29,450
+ningún valor.
+
+79
+00:06:30,470 --> 00:06:33,520
+Otra cosa que vamos hacer es referirnos al monitor.
+
+80
+00:06:34,760 --> 00:06:37,320
+Vamos a establecer el valor del monitor.
+
+81
+00:06:37,350 --> 00:06:40,880
+Esta vez en vacío por tanto no repasamos nada más.
+
+82
+00:06:40,890 --> 00:06:48,790
+De esta forma Text con un valor vacío y ahora tenemos un botoncito abajo del todo.
+
+83
+00:06:50,160 --> 00:06:55,650
+Que si apretamos no sucede nada pero si tenemos un valor apretado y apretamos reiniciar pues podemos
+
+84
+00:06:55,650 --> 00:07:02,220
+reiniciar lo que tenemos seleccionado de acuerdo con esto.
+
+85
+00:07:02,220 --> 00:07:08,250
+Ya hemos visto los radio Buttons podríamos trabajarlos un poco más pero como aún quedan un par de botones
+
+86
+00:07:08,970 --> 00:07:13,990
+prefiere introducirlos rápido y luego ya veremos algún ejemplo un poco más global.

@@ -1,0 +1,215 @@
+1
+00:00:01,620 --> 00:00:04,960
+Por ahora sabemos que las variables dentro de la función no tienen alcance.
+
+2
+00:00:04,960 --> 00:00:06,210
+Fuera de ellas.
+
+3
+00:00:06,850 --> 00:00:11,370
+Así que cómo podríamos De alguna forma conectar la función con el exterior.
+
+4
+00:00:12,340 --> 00:00:15,780
+La respuesta es retornando valores vamos a ir a la elección.
+
+5
+00:00:15,780 --> 00:00:16,440
+2.
+
+6
+00:00:20,550 --> 00:00:25,830
+Y vamos a crear una función en la que simplemente tendremos que utilizar la sentencia Return y el valor
+
+7
+00:00:25,860 --> 00:00:29,590
+o valores que queramos devolver.
+
+8
+00:00:30,990 --> 00:00:33,890
+Imaginaros que queremos retornar a una cadena de texto.
+
+9
+00:00:34,170 --> 00:00:39,310
+Haremos un retorno de por ejemplo una cadena retornarlo.
+
+10
+00:00:40,160 --> 00:00:42,800
+Y ahora por ejemplo podríamos ejecutar.
+
+11
+00:00:44,580 --> 00:00:50,390
+Entonces como veis lo que tenemos cuando llamamos a texte es una cadena de texto.
+
+12
+00:00:50,730 --> 00:00:58,080
+Es decir es como si la llamada de esta función está actuando como si fuera un tipo variable del tipo
+
+13
+00:00:58,080 --> 00:01:01,350
+que estamos devolviendo un tipo de cadena de caracteres.
+
+14
+00:01:01,650 --> 00:01:05,260
+También tenemos que tener en cuenta que al utilizar el return.
+
+15
+00:01:06,090 --> 00:01:11,070
+La función de volver al valor y finalizará en ese momento como cuando utilizamos un break en una iteración.
+
+16
+00:01:11,070 --> 00:01:17,250
+Todo lo que vendría después aunque ello pusiera dentro de la función de más cosas un 30 aquí o lo que
+
+17
+00:01:17,250 --> 00:01:19,860
+sea un brinco o algo.
+
+18
+00:01:20,070 --> 00:01:22,410
+Esto no se ejecutará nunca.
+
+19
+00:01:22,410 --> 00:01:28,250
+Por qué en este momento se deja de ejecutar la función.
+
+20
+00:01:28,860 --> 00:01:33,090
+Con eso en mente podemos utilizar la propia función como si fuera un valor literal del tipo de datos
+
+21
+00:01:33,090 --> 00:01:41,300
+que devuelve por ejemplo Prin test como si fuera una cadena.
+
+22
+00:01:41,550 --> 00:01:48,280
+Y ahí podemos dibujar el resultado o podemos asignar a una cadena una variable.
+
+23
+00:01:48,480 --> 00:01:50,340
+El resultado de llamarte.
+
+24
+00:01:52,570 --> 00:01:59,610
+Y luego mostrar esta variable como si fuera una variable normal.
+
+25
+00:02:00,010 --> 00:02:06,490
+Por tanto es importante no someter la función a una acción que su valor no permite como sumar un número
+
+26
+00:02:06,490 --> 00:02:07,060
+y una cadena.
+
+27
+00:02:07,060 --> 00:02:14,460
+Esto nos está devolviendo una cadena si intentásemos asignar a c test que le sumo hacemos un número
+
+28
+00:02:14,470 --> 00:02:20,890
+por ejemplo un 10 nos diría que hay un error por qué no se puede sumar un número o una cadena de texto.
+
+29
+00:02:21,520 --> 00:02:27,610
+Algo interesante ocurre cuando devolvemos una lista o cualquier colección ya que podemos utilizarla
+
+30
+00:02:27,610 --> 00:02:33,320
+directamente desde la función y se ve estéticamente muy raro pero funciona incluso con el exploit sin
+
+31
+00:02:33,540 --> 00:02:41,610
+por ejemplo imaginar que creamos una función y hacemos un Returned y devolvemos una colección.
+
+32
+00:02:41,620 --> 00:02:46,990
+Una lista con varios elementos una lista con cinco números.
+
+33
+00:02:47,710 --> 00:02:57,100
+Si mostramos el resultado de ejecutar la llamada êtes pues ahí tenemos la lista pero también podríamos
+
+34
+00:02:57,340 --> 00:03:09,850
+por ejemplo mostrar de test y encadenando como si nos referíamos a una propia lista pues pasarle unos
+
+35
+00:03:09,850 --> 00:03:16,990
+índices para hacer lo que queramos por ejemplo último elemento con un menos uno o podríamos hacerle
+
+36
+00:03:16,990 --> 00:03:21,340
+feliz sin mostrar desde el 1 hasta los 4.
+
+37
+00:03:22,630 --> 00:03:24,040
+Sin contar el uno.
+
+38
+00:03:24,040 --> 00:03:29,920
+Claro porque este es el segundo elemento aunque la verdad es que esto no es muy útil ya que estaremos
+
+39
+00:03:29,920 --> 00:03:34,120
+ejecutando la función cada vez que consultamos un valor.
+
+40
+00:03:34,120 --> 00:03:43,000
+Es mejor asignar el resultado a una variable simplemente haríamos esto que llamaríamos antes y luego
+
+41
+00:03:43,000 --> 00:03:49,060
+ya simplemente podríamos mostrar todo lo que hemos estado haciendo arriba de una forma más cómoda porque
+
+42
+00:03:49,060 --> 00:03:52,850
+cada vez que llamamos a esto aquí es una llamada.
+
+43
+00:03:53,640 --> 00:03:54,860
+A la función.
+
+44
+00:03:54,880 --> 00:03:59,340
+Si en cambio lo hacemos la primera vez al asignarlo luego ya no estaremos llamando la función tantas
+
+45
+00:03:59,340 --> 00:04:02,310
+veces que estamos optimizando memoria.
+
+46
+00:04:02,550 --> 00:04:06,870
+Por último os quiero enseñar cómo las funciones pueden devolver múltiples valores separados por comas
+
+47
+00:04:06,870 --> 00:04:09,750
+esto es muy interesante.
+
+48
+00:04:12,120 --> 00:04:23,410
+Returned y vamos a devolver por ejemplo una cadena a como un número entero y por ejemplo una lista.
+
+49
+00:04:24,600 --> 00:04:32,280
+Ahora si llamamos a la función Test Miradlo que tendemos nos recuerda a esto algún tipo de colección.
+
+50
+00:04:32,400 --> 00:04:38,370
+Pues si tenemos una tupla y la tupla nos permite realizar asignación múltiple.
+
+51
+00:04:38,370 --> 00:04:46,600
+Otra de las peculiaridades que también comparte con las listas es decir podríamos asignar el resultado
+
+52
+00:04:46,660 --> 00:04:56,270
+de test una variable cadena otra variable entera y otra variable lista fácilmente pondríamos una cadena.
+
+53
+00:04:57,370 --> 00:05:03,240
+Un número y una lista y todo esto es el aseguraríamos el resultado se llama latex.
+
+54
+00:05:03,760 --> 00:05:11,100
+De esta manera podríamos mostrar la cadena un número o la lista individualmente.

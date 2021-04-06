@@ -1,0 +1,271 @@
+1
+00:00:00,470 --> 00:00:03,790
+Bien vamos a por la Quinta lección de esta unidad 15.
+
+2
+00:00:04,670 --> 00:00:11,930
+Funciones Landa os aconsejo si queréis echar un vistazo a los apuntes sobre la marcha mientras yo explico
+
+3
+00:00:11,960 --> 00:00:14,030
+quizá será de ayuda.
+
+4
+00:00:14,930 --> 00:00:15,610
+Por qué.
+
+5
+00:00:15,680 --> 00:00:20,610
+Empieza diciendo que las funciones o expresiones Landa sirven para crear funciones anónimas.
+
+6
+00:00:20,620 --> 00:00:24,330
+Posiblemente me diréis que qué me estás contando.
+
+7
+00:00:24,910 --> 00:00:29,800
+Así que vamos a tomarlo con calma pues estamos ante una de las funcionalidades más potentes de Payton
+
+8
+00:00:30,130 --> 00:00:32,930
+a la vez que más confusas para los principiantes.
+
+9
+00:00:34,260 --> 00:00:39,430
+Una función anónima como su nombre indica es una función sin nombre normal.
+
+10
+00:00:40,230 --> 00:00:43,900
+Pero es posible ejecutar una función sin referenciar un nombre.
+
+11
+00:00:44,640 --> 00:00:45,250
+Pues sí.
+
+12
+00:00:45,410 --> 00:00:49,520
+En Payton podemos ejecutar una función sin definirla con un Def.
+
+13
+00:00:49,610 --> 00:00:54,800
+De hecho son similares pero con una diferencia fundamental y es que el contenido de una función landau
+
+14
+00:00:55,070 --> 00:00:59,750
+Debe ser una única expresión en lugar de un bloque de acciones.
+
+15
+00:00:59,870 --> 00:01:04,830
+Y es que más allá del sentido de función que tenemos con su nombre y sus acciones internas.
+
+16
+00:01:04,970 --> 00:01:11,250
+Una función en su sentido más trivial en las matemáticas por ejemplo significa realizar algo sobre algo.
+
+17
+00:01:11,600 --> 00:01:16,640
+Por tanto podríamos decir que mientras las funciones anónimas solanda Sirven para realizar funciones
+
+18
+00:01:16,640 --> 00:01:23,130
+simples las funciones definidas con Dev sirven para manejar tareas más extensas.
+
+19
+00:01:23,540 --> 00:01:30,110
+Vamosa construir una función sencilla para llegar a una función landau por ejemplo vamos a tomar la
+
+20
+00:01:30,110 --> 00:01:33,300
+siguiente función para doblar un valor.
+
+21
+00:01:34,080 --> 00:01:45,560
+Normalmente veríamos una función doblar que recibiría un número y dentro por ejemplo cogeremos un resultado
+
+22
+00:01:45,850 --> 00:01:49,740
+y guardaremos pues el número multiplicado por dos.
+
+23
+00:01:51,510 --> 00:02:00,050
+Volveríamos este resultado de acuerdo por ejemplo doblar el número 5.
+
+24
+00:02:00,270 --> 00:02:08,400
+Vamosa simplificar el código de esta función lo máximo posible doblar podemos devolver directamente
+
+25
+00:02:08,700 --> 00:02:10,660
+el número multiplicado por dos.
+
+26
+00:02:10,650 --> 00:02:16,770
+No es necesario crear el resultado de esta forma pero todavía podemos simplificarlo más.
+
+27
+00:02:16,770 --> 00:02:19,130
+Podemos llegar a escribirlo todo en una línea.
+
+28
+00:02:19,980 --> 00:02:23,520
+Podemos llegar a ponerlo todo así.
+
+29
+00:02:23,920 --> 00:02:25,820
+Recordad que si tenemos un bloque.
+
+30
+00:02:26,970 --> 00:02:31,520
+únicamente tenemos una línea adentro podemos ponerlo en la misma línea.
+
+31
+00:02:31,540 --> 00:02:35,570
+De esta forma esto funcionaría volar.
+
+32
+00:02:36,360 --> 00:02:38,340
+4.
+
+33
+00:02:39,070 --> 00:02:39,600
+Muy bien.
+
+34
+00:02:39,610 --> 00:02:44,860
+Esta notación simple es la que las funciones landau intentan replicar.
+
+35
+00:02:45,040 --> 00:02:50,260
+Fijaros vamos a convertir esta función a una función anónima a una función blanda.
+
+36
+00:02:50,360 --> 00:02:56,220
+Esto es escribirías Landa sería el nombre de la función.
+
+37
+00:02:57,130 --> 00:02:58,240
+Pero será anónima.
+
+38
+00:02:58,250 --> 00:02:59,930
+Vamos a ponerlo así Irlanda.
+
+39
+00:03:00,230 --> 00:03:02,300
+Luego le pasaríamos el número.
+
+40
+00:03:02,300 --> 00:03:04,560
+De esta forma el número que recibimos.
+
+41
+00:03:04,850 --> 00:03:05,940
+Y finalmente.
+
+42
+00:03:06,720 --> 00:03:12,860
+El número como el resultado que vamos a devolver directamente núm por dos.
+
+43
+00:03:15,560 --> 00:03:21,710
+Esto amigos es una función anónima una función Landa que hace exactamente lo mismo que la función de
+
+44
+00:03:21,710 --> 00:03:30,920
+hablar pero lo más simplificado posible en una sola línea y sin utilizar paréntesis ni Returns ni nada.
+
+45
+00:03:31,070 --> 00:03:36,180
+Una entrada que recibe un núm y una salida que devuelve un bun por dos.
+
+46
+00:03:36,590 --> 00:03:43,070
+Lo único que necesitamos ahora para utilizarla es guardarla en una variable y utilizarla tal como haríamos
+
+47
+00:03:43,070 --> 00:03:51,910
+normalmente con una función normal doblar y aquí crearíamos esta función anónima.
+
+48
+00:03:52,070 --> 00:03:58,680
+De esta forma podríamos hacer uso de ella pasándole por ejemplo doblar el número dos.
+
+49
+00:03:58,930 --> 00:04:06,820
+De acuerdo funciona anónima utilizada en una variable como una función normal.
+
+50
+00:04:07,270 --> 00:04:13,400
+Bueno quizá pensaréis que esto es muy sencillo y muy simple pero gracias a la flexibilidad de Payton
+
+51
+00:04:13,640 --> 00:04:22,370
+podemos implementar infinitas funciones simples por ejemplo comprobar si un número impar vamos a guardar
+
+52
+00:04:22,430 --> 00:04:25,830
+una función Landa en una variable impar.
+
+53
+00:04:26,240 --> 00:04:28,510
+La onda recibe un número.
+
+54
+00:04:29,930 --> 00:04:37,990
+Y una condición que comprobase este número su módulo D2 es diferente de cero.
+
+55
+00:04:38,490 --> 00:04:43,340
+Vamos a ver si el número 5 es impar verdadero.
+
+56
+00:04:43,340 --> 00:04:47,290
+Ahora imaginaros que queremos darle la vuelta a una cadena utilizando slicks.
+
+57
+00:04:48,060 --> 00:04:50,240
+Por ejemplo vamos a guardarla en revertir.
+
+58
+00:04:50,250 --> 00:04:58,720
+Vamos a guardar esta función blanda aquí en revertir recibe una cadena y devuelve una cadena volteada.
+
+59
+00:04:59,070 --> 00:05:06,780
+Con esta sintaxis sencilla Ahora imagina que queremos revertir por ejemplo la palabra hola.
+
+60
+00:05:07,690 --> 00:05:09,020
+Y ahí lo tenemos.
+
+61
+00:05:09,390 --> 00:05:13,210
+Incluso podemos enviar varios valores por ejemplo para sumar dos números.
+
+62
+00:05:14,140 --> 00:05:25,180
+Sumar una función Landa que recibe una X y una y bregados números y devuelve una X más una y griega
+
+63
+00:05:25,180 --> 00:05:33,040
+sumadas sumamos por ejemplo 5 más que lo tenemos que utilizar con una coma cinco más seis.
+
+64
+00:05:33,790 --> 00:05:36,140
+Y ahí tenemos 11.
+
+65
+00:05:36,160 --> 00:05:41,890
+Como veis podemos realizar cualquier cosa que se nos ocurra siempre que lo podamos definir en una sola
+
+66
+00:05:42,400 --> 00:05:43,740
+expresión.
+
+67
+00:05:43,810 --> 00:05:48,790
+Por ahora lo dejamos aquí pero las próximas elecciones veremos cómo utilizar la función landin en conjunto
+
+68
+00:05:48,790 --> 00:05:53,690
+con otras funciones como Filter IMAP que es cuando sale a relucir su verdadero potencial.

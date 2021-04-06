@@ -1,0 +1,355 @@
+1
+00:00:01,440 --> 00:00:06,960
+Muy bien en esta lección vamos a aprender a trabajar con un nuevo tipo de widget que también son unos
+
+2
+00:00:06,960 --> 00:00:10,510
+botones pero muy especiales porque son los botones del menú.
+
+3
+00:00:11,280 --> 00:00:17,070
+Por ejemplo en sublime como podéis ver tenemos una serie de botones en la parte superior esto es el
+
+4
+00:00:17,070 --> 00:00:24,150
+menú superior cada menú o cada botón de este menú pues tiene un submenú que también se abre cuando pasamos
+
+5
+00:00:24,150 --> 00:00:30,660
+el ratón por encima y cada una de las opciones de este submenú que son los comandos que se pueden ejecutar
+
+6
+00:00:30,840 --> 00:00:33,640
+apretando encima.
+
+7
+00:00:34,140 --> 00:00:40,780
+Muy bien pues vamos a aprender a crear este tipo de menús superiores.
+
+8
+00:00:41,070 --> 00:00:48,810
+Todo gira alrededor de un widget llamado menú como tengo preparado un fichero menú Topy con la configuración
+
+9
+00:00:48,810 --> 00:00:51,760
+de raíz y vamos a crear este menú.
+
+10
+00:00:51,900 --> 00:00:56,410
+Vamos a crearlo así menú y luego añadir el root.
+
+11
+00:00:56,910 --> 00:01:02,670
+Sin embargo el menú no se empaqueta porque el menú siempre está en la misma posición tiene prioridad
+
+12
+00:01:02,720 --> 00:01:12,600
+y se pone arriba del todo el menú que se tiene que añadir manualmente a la raíz de esta forma Ruth config.
+
+13
+00:01:13,240 --> 00:01:17,320
+Y aquí le pasaríamos menú igual el añadiríamos el menú.
+
+14
+00:01:17,370 --> 00:01:22,710
+Por tanto tenemos que guardar este menú en algún sitio y como este es el menú que van globale todos
+
+15
+00:01:22,710 --> 00:01:29,850
+los demás porque después tenemos submenús este normalmente recibe el nombre de menú guarro que es el
+
+16
+00:01:29,850 --> 00:01:36,090
+de la barra superior barra de menú de acuerdo normalmente se le pone este nombre y es lo que le vamos
+
+17
+00:01:36,090 --> 00:01:38,370
+a pasar aquí en el rud config.
+
+18
+00:01:39,280 --> 00:01:43,230
+De esta forma ya lo tenemos asignado la base y si lo ejecutamos.
+
+19
+00:01:45,240 --> 00:01:50,900
+Pues no tenemos nada porque todavía no hemos añadido ningún elemento así que vamos a comenzar a añadir
+
+20
+00:01:50,990 --> 00:02:00,800
+contenido aquí vamos a comenzar creando en esta barra superior unos cuantos submenús y después añadiremos
+
+21
+00:02:00,800 --> 00:02:04,220
+algunos comandos a estos submenús como vamos a hacerlo de prueba.
+
+22
+00:02:04,220 --> 00:02:11,240
+Vamos a comenzar por ejemplo como tenemos en sublimó un submenú de fichero o archivo filomeno que sería
+
+23
+00:02:11,240 --> 00:02:20,120
+este daki uno de editar el típico y por ejemplo uno de ayuda vamos a crearlos así File Menu el fichero
+
+24
+00:02:21,240 --> 00:02:28,470
+menú y lo vamos a añadir a mi lugar porque va a ser hijo de ese lugar.
+
+25
+00:02:28,700 --> 00:02:29,560
+De acuerdo.
+
+26
+00:02:29,840 --> 00:02:32,070
+Luego vamos a crear dos más.
+
+27
+00:02:32,950 --> 00:02:37,390
+EDIT menu de editar el menú que sería el de ayuda.
+
+28
+00:02:41,280 --> 00:02:43,570
+Muy bien si lo ejecutamos.
+
+29
+00:02:43,570 --> 00:02:45,230
+Como veis todavía no aparece nada.
+
+30
+00:02:45,250 --> 00:02:46,060
+Por qué.
+
+31
+00:02:46,060 --> 00:02:53,050
+Porque tenemos que decirle que lo dibuje de alguna forma que lo añada ahí y tenemos que añadir también
+
+32
+00:02:53,050 --> 00:02:59,560
+el texto que va a formar cada uno de estos submenús lo vamos a hacer de esta manera.
+
+33
+00:02:59,950 --> 00:03:08,470
+Dirigiéndonos al menú bar que es el que los contiene un puntito y vamos a llamar al metodo at Cascade
+
+34
+00:03:08,590 --> 00:03:15,580
+para añadir un menú en cascada o sea un SuperSU y aquí le vamos a pasar Label y en la que le vamos a
+
+35
+00:03:15,580 --> 00:03:23,620
+indicar el nombre por ejemplo archivo o File lo que vosotros queréis si queréis poner en inglés una
+
+36
+00:03:23,620 --> 00:03:30,510
+coma y aquí diríamos menú igual a file menú para el primer elemento.
+
+37
+00:03:30,580 --> 00:03:35,570
+El primer submenú y para los otros dos haríamos lo mismo pero para.
+
+38
+00:03:37,350 --> 00:03:47,770
+EDIT menú para un el menú y aquí añadiríamos pues de nombre editar y al final pues ayuda.
+
+39
+00:03:47,850 --> 00:03:49,290
+De acuerdo.
+
+40
+00:03:49,680 --> 00:03:57,480
+Y esta vez sí si lo ejecutamos pues como veis ya nos genera un menú en la parte superior.
+
+41
+00:03:57,870 --> 00:04:04,890
+Como veis todo funciona bien lo que pasa que nos crea un elemento una especie de comando ya por defecto
+
+42
+00:04:04,920 --> 00:04:09,730
+unas dos barras que si proyectábamos se nos abren al parecer una ventanita aquí.
+
+43
+00:04:09,910 --> 00:04:17,580
+Bueno si queremos que se cree los submenús sin este elemento por defecto tenemos que indicarle una opción
+
+44
+00:04:17,640 --> 00:04:28,230
+en el momento de crear los submenús File menú de menú y el menú que es este de aquí Tear Off igual a
+
+45
+00:04:28,230 --> 00:04:29,410
+cero.
+
+46
+00:04:29,760 --> 00:04:31,690
+Vamos a copiar en los tres.
+
+47
+00:04:32,700 --> 00:04:36,240
+Y ahora si lo compilados o los ejecutamos.
+
+48
+00:04:36,330 --> 00:04:45,160
+Como veis ya nos muestra esa especie de lagrima o lo que fuera en forma de sección extra que está molestando.
+
+49
+00:04:45,290 --> 00:04:52,170
+Ya podemos explicar lo que pasa que todavía no sucede nada así que vamos a comenzar a añadir elementos
+
+50
+00:04:52,170 --> 00:04:59,790
+a estos submenús elementos que son los comandos para hacerlo vamos a separar un poco lo que son los
+
+51
+00:04:59,850 --> 00:05:00,410
+tres menús.
+
+52
+00:05:00,420 --> 00:05:02,240
+Así lo voy a dejar separado.
+
+53
+00:05:02,400 --> 00:05:09,420
+Uno de los otros y vamos a comenzar añadiendo elementos al filme menú y esto lo podemos hacer así el
+
+54
+00:05:09,510 --> 00:05:16,910
+menú junto a en esta ocasión en lugar de hacer un Cascade haríamos un comando para añadir ya directamente
+
+55
+00:05:16,920 --> 00:05:24,720
+un comando y añadiríamos Label con por ejemplo un texto que sea nuevo el típico que se apretás en el
+
+56
+00:05:24,720 --> 00:05:28,960
+menú pues lo primero siempre es nuevo fichero y luego tendríamos abrir guardar y cerrar.
+
+57
+00:05:28,960 --> 00:05:29,940
+Pues vamos a crear estos.
+
+58
+00:05:29,940 --> 00:05:42,690
+Por ejemplo vamos a hacer varios nuevo abrir guardar y cerrar muy bien vamos a ejecutarlo a ver cómo
+
+59
+00:05:42,690 --> 00:05:46,140
+queda y si pasamos el ratón por archivo.
+
+60
+00:05:46,560 --> 00:05:47,950
+Pues ahí se nos abre.
+
+61
+00:05:48,700 --> 00:05:56,320
+Como veis el menú Archivo con los cuatro comandos podemos crear también un separador fijaros.
+
+62
+00:05:56,320 --> 00:06:01,570
+Tenemos aquí un elemento en el sublime que es un separador para añadir un separador.
+
+63
+00:06:01,570 --> 00:06:07,530
+Tenemos que hacer lo siguiente que le venu a separador.
+
+64
+00:06:09,650 --> 00:06:15,380
+Y de esta manera añadiríamos un separador una barra en medio y finalmente podríamos crear otra opción
+
+65
+00:06:15,380 --> 00:06:23,040
+final que sea por ejemplo con la Label salir y vamos a añadir directamente un comando colmán que es
+
+66
+00:06:23,180 --> 00:06:31,430
+Ruth kit para salir y de esta manera ya directamente haremos referencia al elemento raíz y llamaremos
+
+67
+00:06:31,490 --> 00:06:37,420
+a El método Quip que cerrará la ventana vamos a probarlo.
+
+68
+00:06:37,880 --> 00:06:42,570
+Tenemos estos que no funcionan como veis pero salir.
+
+69
+00:06:44,110 --> 00:06:44,830
+Ya nos sale.
+
+70
+00:06:44,860 --> 00:06:52,900
+Y por cierto habeis visto como se nos muestra este separador perfectamente aquí muy bien vamos a seguir
+
+71
+00:06:52,900 --> 00:06:55,490
+maquetado un poco los otros submenú por ejemplo.
+
+72
+00:06:55,540 --> 00:06:57,810
+EDIT menu vamos a hacerlo muy fácil.
+
+73
+00:06:57,820 --> 00:07:07,060
+EDIT menu comãn vamos a crear las típicas tres opciones de siempre Label cortar y vamos a copiar aquí
+
+74
+00:07:07,440 --> 00:07:16,550
+una para copiar y otra para pegar copiar y pegar y para Orge el menú vamos a añadir por ejemplo voy
+
+75
+00:07:16,610 --> 00:07:25,290
+a copiar este de aquí voy a cambiarlo el menú a Coman el botón de ayuda por ejemplo.
+
+76
+00:07:25,450 --> 00:07:27,040
+Aquí podríamos añadir un separador.
+
+77
+00:07:27,040 --> 00:07:32,830
+Voy a copiar el de arriba voy a cambiar el submenú de delante y finalmente una opción que sea pues no
+
+78
+00:07:32,830 --> 00:07:41,770
+sé como que es solo para maquetar un poco de prueba podríamos poner acercade puntos suspensivos.
+
+79
+00:07:41,770 --> 00:07:42,630
+Muy bien.
+
+80
+00:07:42,880 --> 00:07:47,400
+Vamos a ver como queda y como veis aquí tenemos ya.
+
+81
+00:07:49,950 --> 00:07:59,230
+Nuestro menú en la barra con distintos submenús que podemos hacer clic para ejecutar distintos comando.
+
+82
+00:07:59,580 --> 00:08:06,420
+Ahora sólo nos faltaría crear aquí un Coman en cada uno de estos comandos y asignarles una función para
+
+83
+00:08:06,420 --> 00:08:09,730
+ejecutar algún tipo de acción en nuestro programa.
+
+84
+00:08:10,110 --> 00:08:11,000
+Pero claro.
+
+85
+00:08:12,100 --> 00:08:19,450
+Todavía hay una cosa que no sabemos hacer y que no nos da mucho juego y eso son utilizar ventanas emergentes
+
+86
+00:08:19,630 --> 00:08:23,720
+por ejemplo para mostrar información o para mostrar avisos o cosas así.
+
+87
+00:08:23,830 --> 00:08:30,280
+Aparte del hecho de que pueda realizarse encima del programa pues lo que ya sabemos no manipulando los
+
+88
+00:08:30,280 --> 00:08:37,210
+widgets pues en la próxima elección ya entrando en la recta final de esta unidad introducir las ventanas
+
+89
+00:08:37,210 --> 00:08:38,390
+emergentes.

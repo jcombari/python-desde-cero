@@ -1,0 +1,75 @@
+1
+00:00:00,460 --> 00:00:04,790
+El módulo de quintes cuenta con una serie de componentes gráficos llamados widgets.
+
+2
+00:00:05,160 --> 00:00:08,790
+Gracias a los cuales podemos diseñar nuestras propias interfaces.
+
+3
+00:00:08,790 --> 00:00:12,700
+Los widgets deben seguir una jerarquía a la hora de añadirse a la interfaz.
+
+4
+00:00:12,720 --> 00:00:19,740
+Por ejemplo un marco o freinet forma parte del objeto raíz TK y a su vez un botón Button puede formar
+
+5
+00:00:19,740 --> 00:00:22,440
+parte de un contenedor como la raíz o un marco.
+
+6
+00:00:22,520 --> 00:00:28,650
+Los que veremos en esta introducción de quintes son TK contenedor base o raíz de todos los widgets que
+
+7
+00:00:28,650 --> 00:00:29,910
+forman la interfaz.
+
+8
+00:00:29,940 --> 00:00:35,400
+No tiene el tamaño propio sino que se adapta a los widgets que contiene efraim con marco contenedor
+
+9
+00:00:35,400 --> 00:00:36,470
+de otros widgets.
+
+10
+00:00:36,630 --> 00:00:42,060
+Puede tener tamaño propio y posicionarse en distintos lugares de otro contenedor ya sea la raíz u otro
+
+11
+00:00:42,060 --> 00:00:49,890
+marco Label Etiqueta donde podemos mostrar algún texto estático entre campo de texto sencillo para escribir
+
+12
+00:00:49,890 --> 00:00:53,460
+texto corto nombres apellidos números etcétera.
+
+13
+00:00:53,730 --> 00:01:00,960
+Text campo de texto multi línea para escribir texto largo descripciones comentarios botón botón con
+
+14
+00:01:00,960 --> 00:01:08,120
+un texto sobre el cual el usuario puede hacer clic radio botón botón radial que se usa en conjunto donde
+
+15
+00:01:08,130 --> 00:01:16,170
+es posible marcar una opción check putón botón cuadrado que se puede marcar con un menú estructura de
+
+16
+00:01:16,170 --> 00:01:23,310
+botones centrados en la composición de menús superiores boxes y blogs ventanas emergentes que permiten
+
+17
+00:01:23,310 --> 00:01:28,590
+desde mostrar información al usuario como el típico mensaje de alerta o una confirmación hasta ofrecer
+
+18
+00:01:28,590 --> 00:01:33,180
+una forma gráfica de interactuar con el sistema operativo seleccionar un fichero de un directorio para
+
+19
+00:01:33,180 --> 00:01:38,990
+abrirlo por ejemplo hay otros widgets pero estos son los más importantes y los que vamos a seguir trabajando.

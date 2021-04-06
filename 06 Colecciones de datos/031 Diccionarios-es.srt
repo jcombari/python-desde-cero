@@ -1,0 +1,579 @@
+1
+00:00:00,760 --> 00:00:06,950
+El último tipo de coleccionas estrictamente hablando que vamos a ver son los diccionarios.
+
+2
+00:00:07,390 --> 00:00:13,480
+Aquí en La Tercera lección los diccionarios son junto a las listas las colecciones más utilizadas en
+
+3
+00:00:13,480 --> 00:00:19,420
+Python se basan en una estructura mapeada del inglés mapping donde cada elemento de la colección se
+
+4
+00:00:19,420 --> 00:00:22,400
+encuentra identificado con una clave única.
+
+5
+00:00:22,540 --> 00:00:28,450
+Por tanto no pueden haber dos claves iguales en el mismo diccionario en otros lenguajes se podrían considerar
+
+6
+00:00:28,570 --> 00:00:34,420
+arreglos asociativos para crear un diccionario entonces debemos indicar siempre una clave.
+
+7
+00:00:34,420 --> 00:00:38,570
+Generalmente una cadena de caracteres y un valor para cada elemento.
+
+8
+00:00:39,410 --> 00:00:47,940
+Para crear un diccionario vacío por ejemplo podemos crear un diccionario vacío con unas llaves.
+
+9
+00:00:48,090 --> 00:00:55,340
+Si confirmamos y mostramos vacío pues nos salen unas llaves y si escribimos la palabra taipe que nos
+
+10
+00:00:55,340 --> 00:01:04,310
+indica el tipo que tiene una variable o un objeto pues nos dice que es un Dick un diccionario.
+
+11
+00:01:04,790 --> 00:01:10,640
+Un buen ejemplo para ver la utilidad de un diccionario es precisamente crear un diccionario de traducciones.
+
+12
+00:01:10,670 --> 00:01:14,030
+Por ejemplo un diccionario de traducciones de colores.
+
+13
+00:01:15,160 --> 00:01:20,930
+Vamos a crear varios colores con su traducción en inglés por ejemplo el color amarillo.
+
+14
+00:01:21,310 --> 00:01:23,860
+Y a continuación vamos a poner dos puntos.
+
+15
+00:01:23,940 --> 00:01:30,870
+De esta forma vamos a identificar una clave que es la palabra amarillo y ahora un valor después de los
+
+16
+00:01:30,870 --> 00:01:37,150
+dos puntos y el valor sería por ejemplo lo que es la traducción en inglés una coma.
+
+17
+00:01:37,150 --> 00:01:44,310
+Debemos añadir otro elemento al diccionario por ejemplo una palabra clave que sea azul y el valor que
+
+18
+00:01:44,310 --> 00:01:53,660
+tendrá será la traducción por ejemplo blue azul y otro más por ejemplo palabra clave verde dos puntos
+
+19
+00:01:54,250 --> 00:01:58,190
+y vamos a agregarle el valor Grial.
+
+20
+00:01:58,290 --> 00:02:00,900
+Aquí tenemos un diccionario de colores.
+
+21
+00:02:00,900 --> 00:02:08,910
+Si lo mostramos como veis se nos muestra tal cual tenemos que tener en cuenta que los diccionarios también
+
+22
+00:02:08,910 --> 00:02:14,160
+son colecciones desordenadas por tanto nos fiáis del orden que habéis creado del diccionario porque
+
+23
+00:02:14,160 --> 00:02:17,990
+probablemente se intentáis recorrerlos más adelante.
+
+24
+00:02:18,360 --> 00:02:25,770
+En esta ocasión da la casualidad que se muestra igual pero podría ser que se verán reflejados de otra
+
+25
+00:02:25,780 --> 00:02:27,650
+forma a la hora de mostrarlos.
+
+26
+00:02:28,660 --> 00:02:34,750
+Entonces tenemos aquí nuestro diccionario y ahora nos interesa saber cómo por ejemplo se dice amarillo
+
+27
+00:02:34,750 --> 00:02:35,580
+en inglés.
+
+28
+00:02:35,710 --> 00:02:38,070
+Pues simplemente para mostrarlo.
+
+29
+00:02:38,260 --> 00:02:44,320
+Para acceder al valor tenemos que poner la palabra o la variable del diccionario.
+
+30
+00:02:44,320 --> 00:02:51,760
+Unos corchetes como cuando accedemos a elementos de las listas y ahora en lugar de referirnos con un
+
+31
+00:02:51,760 --> 00:02:56,610
+índice nos vamos a referir con la palabra clave por ejemplo el color azul.
+
+32
+00:02:56,620 --> 00:03:11,280
+Como se dice en inglés y nos dice Blu o cómo se dice amarillo entre amarillo se dice Yellow.
+
+33
+00:03:11,430 --> 00:03:14,890
+Por qué lo tenemos aquí aguardado.
+
+34
+00:03:15,130 --> 00:03:19,520
+De esta forma podemos acceder a los elementos del diccionario.
+
+35
+00:03:19,630 --> 00:03:23,080
+Se puede llegar a utilizar como índices también números.
+
+36
+00:03:23,110 --> 00:03:34,150
+Es decir por ejemplo crear un diccionario identificando con números por ejemplo un 0 o un 10 y luego
+
+37
+00:03:34,150 --> 00:03:37,290
+yo le pongo aquí un valor de 10.
+
+38
+00:03:37,360 --> 00:03:45,570
+Una clave que sea 20 que es una tontería pero sólo quiero enseñaros el ejemplo 20.
+
+39
+00:03:45,940 --> 00:03:51,880
+Entonces en esta ocasión en lugar de referirnos con una palabra con una cadena de texto no referian
+
+40
+00:03:52,270 --> 00:03:58,120
+como si fuera el índice de una lista pero en realidad nos estamos refiriendo a la clave del diccionario
+
+41
+00:03:58,120 --> 00:03:59,860
+para ese valor.
+
+42
+00:03:59,860 --> 00:04:05,800
+Como veis de la misma forma que podríamos modificar registros en las listas.
+
+43
+00:04:05,800 --> 00:04:08,240
+También podemos modificar los registros de un diccionario.
+
+44
+00:04:08,260 --> 00:04:15,170
+Simplemente tenemos que redefinir por ejemplo a través de su clave por ejemplo amarillo.
+
+45
+00:04:15,610 --> 00:04:20,780
+Ahora quiero que la traducción en lugar de ser la que había antes sea por ejemplo la palabra uit-t que
+
+46
+00:04:20,800 --> 00:04:23,300
+sé que está mal porque es blanco.
+
+47
+00:04:23,650 --> 00:04:28,260
+Si volvemos a mostrarlo ahora representa que lo he modificado no amarillo.
+
+48
+00:04:28,270 --> 00:04:30,450
+Ya no es diálogo sino que me sale guay.
+
+49
+00:04:30,770 --> 00:04:37,500
+Hemos cambiado pero de esta forma podemos modificar los registros del diccionario.
+
+50
+00:04:38,530 --> 00:04:45,070
+Y también podemos poder robar una clave y su valor sea ese elemento que forman la clave y valor lo podemos
+
+51
+00:04:45,070 --> 00:04:45,710
+borrar.
+
+52
+00:04:45,910 --> 00:04:46,310
+Cómo.
+
+53
+00:04:46,300 --> 00:04:55,930
+Pues simplemente utilizando la palabra del delete y pasándole la referencia al índice.
+
+54
+00:04:55,930 --> 00:05:00,760
+La palabra clave que queremos borrar por ejemplo vamos a borrar de este amarillo.
+
+55
+00:05:00,880 --> 00:05:06,730
+Lo confirmo vamos a volver a mostrar este diccionario de colores y ahora debería haber desaparecido
+
+56
+00:05:06,730 --> 00:05:07,750
+el amarillo.
+
+57
+00:05:08,290 --> 00:05:11,590
+Como veis ya no lo tenemos.
+
+58
+00:05:11,620 --> 00:05:18,470
+La verdad es que son parecidas a las demás conexiones tanto que podemos utilizar sus valores directamente.
+
+59
+00:05:18,610 --> 00:05:24,640
+Por ejemplo imagina que tenemos un diccionario de edades donde voy a poner el nombre de una persona
+
+60
+00:05:24,640 --> 00:05:27,360
+de su edad por ejemplo.
+
+61
+00:05:27,560 --> 00:05:32,650
+Voy a poner mi edad por ejemplo 27 por ejemplo.
+
+62
+00:05:32,710 --> 00:05:43,180
+Juan Esteban tenía una edad de 45 y por ejemplo María no pongo el acento a María porque no es muy recomendable
+
+63
+00:05:43,180 --> 00:05:48,520
+que pongamos caracteres extraños en los nombres de las claves del diccionario.
+
+64
+00:05:48,520 --> 00:05:51,520
+Por eso lo estoy poniendo sin tilde.
+
+65
+00:05:52,060 --> 00:05:55,860
+María tendrá 34 años.
+
+66
+00:05:56,020 --> 00:06:02,910
+Entonces por ejemplo si mostramos las edades hoy tengo Héctor Juan y María y podemos modificar directamente
+
+67
+00:06:03,390 --> 00:06:10,560
+pues la edad de Aitor haciendo referencia a edades para la palabra clave.
+
+68
+00:06:10,780 --> 00:06:21,490
+Héctor y directamente asignacion suman asignacion vamos a incrementarlo en uno y ahora lo muestro otra
+
+69
+00:06:21,490 --> 00:06:29,650
+vez y representa que ha aumentado la edad de Toreno en asignación directa o incluso podemos mostrar
+
+70
+00:06:29,760 --> 00:06:44,770
+que las edades de Juan más la edad de María sumadas Por poner alguna cosa y 79 algo útil también que
+
+71
+00:06:44,770 --> 00:06:48,910
+podemos hacer es recorrer todos los elementos de un diccionario con un bucle.
+
+72
+00:06:49,120 --> 00:07:00,350
+Lo que tenemos que hacer es poner por edad edades y poner un frin por ejemplo la edad.
+
+73
+00:07:01,090 --> 00:07:07,990
+El problema al hacer esto como gays es que no accedemos a los valores sino que accedemos a las palabras
+
+74
+00:07:07,990 --> 00:07:15,430
+clave por defecto cuando estamos recorriendo con un foro un diccionario lo que conseguimos son las claves.
+
+75
+00:07:15,520 --> 00:07:21,130
+Cómo podemos sacar o hacer referencia de alguna forma a los valores y no a las claves.
+
+76
+00:07:21,340 --> 00:07:27,280
+Directamente podríamos hacer lo mismo por edades.
+
+77
+00:07:28,420 --> 00:07:32,670
+Teniendo en cuenta que lo que recogemos no es la edad sino la clave vamos a cambiar la palabra edad.
+
+78
+00:07:32,680 --> 00:07:34,980
+Vamos a llamar la clave.
+
+79
+00:07:35,690 --> 00:07:42,940
+Y ahora vamos a referirnos a la hora de mostrar al diccionario edades pero entre corchetes pasándole
+
+80
+00:07:43,000 --> 00:07:46,780
+la clave que estamos recorriendo.
+
+81
+00:07:46,780 --> 00:07:49,660
+34 28 y 45.
+
+82
+00:07:49,660 --> 00:07:55,520
+Como veis como se decía antes estamos recorriéndolo y me acabo de fijar que no salen en el mismo orden.
+
+83
+00:07:55,510 --> 00:08:00,880
+Hablo ahora de recorrerlo con un Ford que cuando lo estamos mostrando directamente por el intérprete
+
+84
+00:08:01,000 --> 00:08:04,080
+de acuerdo ahí se ve como realmente son desordenadas.
+
+85
+00:08:04,210 --> 00:08:07,270
+Nunca sabemos como van a mostrarse.
+
+86
+00:08:08,080 --> 00:08:14,620
+De todas formas si lo que queremos es llegar a mostrar tanto la clave como el valor en cada iteración
+
+87
+00:08:14,620 --> 00:08:15,110
+del.
+
+88
+00:08:15,230 --> 00:08:22,760
+Simplemente podemos hacer lo siguiente por Clave dinerales print mostramos.
+
+89
+00:08:23,650 --> 00:08:25,190
+La clave.
+
+90
+00:08:25,570 --> 00:08:30,380
+Y también podemos mostrar de edades pasándole la clave.
+
+91
+00:08:31,040 --> 00:08:34,570
+María 34 Héctor 28 y Juan 45.
+
+92
+00:08:34,570 --> 00:08:35,490
+Perfecto.
+
+93
+00:08:35,770 --> 00:08:38,880
+Sin embargo esto es como demasiado improvisado.
+
+94
+00:08:38,890 --> 00:08:45,730
+Hay otra forma que es la correcta de hacerlo utilizando un método interno de los diccionarios llamado
+
+95
+00:08:45,790 --> 00:08:46,630
+item.
+
+96
+00:08:48,170 --> 00:08:54,230
+Gracias a él que funciona de forma parecida a como funciona el enumeré podemos conseguir una clave y
+
+97
+00:08:54,230 --> 00:08:57,240
+un valor para cada registro del diccionario.
+
+98
+00:08:57,260 --> 00:09:09,970
+Fijaros como se hace un fork y vamos a hacer un fork guardando la clave y el valor en edades.
+
+99
+00:09:10,210 --> 00:09:13,640
+Pero en lugar de pasarle directamente las vamos a pasar necedades punto.
+
+100
+00:09:13,720 --> 00:09:24,050
+ítem de esta forma ahora podemos hacer referencia a la clave y el valor rápidamente simplemente poniendo
+
+101
+00:09:24,050 --> 00:09:26,820
+clave y valor.
+
+102
+00:09:27,320 --> 00:09:31,880
+Es como antes pero más sencillo y si directamente pusiéramos una aceituna USB.
+
+103
+00:09:33,110 --> 00:09:38,080
+Pues todavía sería más sencillo haciendo esta clave valor.
+
+104
+00:09:40,140 --> 00:09:46,210
+Como ya he dicho es parecido al número de las listas pero en lugar del inicio obteniendo la clave.
+
+105
+00:09:47,770 --> 00:09:53,710
+Para acabar lo más interesante de los diccionarios y que yo utilizo mucho en mis proyectos es utilizarlos
+
+106
+00:09:53,710 --> 00:09:58,990
+en conjunto con las listas para crear colecciones de datos avanzadas y esto os va a gustar porque es
+
+107
+00:09:58,990 --> 00:10:05,860
+muy interesante imaginar que quiero crear un una lista de personajes.
+
+108
+00:10:05,860 --> 00:10:09,700
+Cada personaje tiene un nombre tiene una clase.
+
+109
+00:10:09,700 --> 00:10:14,800
+Imagina que estoy haciendo un juego o algo así y una raza.
+
+110
+00:10:15,490 --> 00:10:24,810
+Por ejemplo podemos utilizar una mezcla entre diccionarios para guardar cada atributo o cada variable.
+
+111
+00:10:24,910 --> 00:10:33,460
+No sé como decirlo de nuestro personaje su nombre su clase su raza y luego introducir estos diccionarios
+
+112
+00:10:33,490 --> 00:10:36,060
+dentro de una lista de personajes.
+
+113
+00:10:36,230 --> 00:10:46,060
+Vamos a comenzar creando la lista de personajes que vamos a crear vacía y luego vamos a crear un personaje.
+
+114
+00:10:46,300 --> 00:10:52,600
+Por ejemplo vamos a sacar un personaje que iba a ser un diccionario un diccionario con un nombre
+
+115
+00:10:58,390 --> 00:10:58,890
+y un valor.
+
+116
+00:10:58,900 --> 00:11:05,550
+Por ejemplo voy a llamarle Gandalf vamos a hacerlo el Señor de los Anillos.
+
+117
+00:11:06,160 --> 00:11:15,280
+También una clase como si fuera un juego vamos a decir que es baucus que es un mago y una raza por ejemplo
+
+118
+00:11:15,280 --> 00:11:18,000
+diciendo que es un humano.
+
+119
+00:11:20,900 --> 00:11:22,400
+Lo guardamos y.
+
+120
+00:11:22,640 --> 00:11:25,800
+Ya tengo un personaje que es un diccionario.
+
+121
+00:11:25,850 --> 00:11:34,700
+Podemos agregar a este personaje a la lista de personajes personajes happen y le pasamos que ahora sí
+
+122
+00:11:34,700 --> 00:11:36,800
+mostramos personajes.
+
+123
+00:11:36,810 --> 00:11:42,880
+Tenemos una lista con un diccionario un elemento de esta forma podemos crear más.
+
+124
+00:11:42,920 --> 00:11:45,620
+Vamos a crear más personajes.
+
+125
+00:11:45,620 --> 00:11:56,420
+Otro personaje que en lugar de ser Gandalf podría ser Legolas que sea un arquero y un elfo pues guardarlo.
+
+126
+00:11:56,780 --> 00:11:58,210
+Voy a hacer lo mismo que antes.
+
+127
+00:11:58,250 --> 00:12:01,270
+Voy a añadir estapé.
+
+128
+00:12:01,650 --> 00:12:07,610
+Y por último también voy a crear otro personaje que sea Ghibli.
+
+129
+00:12:08,560 --> 00:12:12,170
+El guerrero enano
+
+130
+00:12:14,840 --> 00:12:24,680
+guardo lo vamos a meter en la lista de personajes y ahora personajes si lo mostramos pues tenemos nuestros
+
+131
+00:12:24,680 --> 00:12:31,180
+tres personajes el mago Gandalf que es un humano el arquero Legolas que es un elfo del guerrero kimblee
+
+132
+00:12:31,220 --> 00:12:39,200
+que es un enano y podemos recorrer cómodamente todos estos personajes obteniendo su información para
+
+133
+00:12:39,200 --> 00:12:41,710
+manipularla o consultarla.
+
+134
+00:12:42,140 --> 00:12:49,370
+Por ejemplo podemos hacerlo con un Ford ya que estamos recorriendo una lista por personaje.
+
+135
+00:12:49,370 --> 00:12:54,710
+Vamos a poner una p personajes y ahora podremos hacer un Prin
+
+136
+00:12:57,740 --> 00:13:03,180
+y le vamos a pasar por ejemplo de cada personaje haciendo referencia a su nombre.
+
+137
+00:13:03,950 --> 00:13:06,360
+Luego vamos a poner una coma.
+
+138
+00:13:06,380 --> 00:13:11,160
+Vamos a hacer referencia también a su clase.
+
+139
+00:13:11,930 --> 00:13:19,560
+Y por último a su raza si ejecutamos esto hoy tenemos.
+
+140
+00:13:20,640 --> 00:13:24,940
+Gandalf el mago humano Legolas arquero elfo y Gimli Guerrero enano.
+
+141
+00:13:25,910 --> 00:13:26,660
+Qué os parece.
+
+142
+00:13:26,660 --> 00:13:34,340
+Puede ser una forma muy interesante para manejar distintos datos para un videojuego o algún tipo de
+
+143
+00:13:34,340 --> 00:13:39,270
+registro y se puede aplicar para muchas otras cosas.
+
+144
+00:13:39,280 --> 00:13:41,480
+Pocos se han gustado en la próxima elección.
+
+145
+00:13:41,480 --> 00:13:46,030
+Seguimos trabajando con algunas colecciones pero un poco distintas.

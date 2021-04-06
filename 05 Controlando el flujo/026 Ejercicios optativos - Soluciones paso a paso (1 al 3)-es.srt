@@ -1,0 +1,499 @@
+1
+00:00:02,190 --> 00:00:11,000
+Bien pues nos ponemos Colosa ejercicios este tercer tema control de flujo ejercicios enunciados y vamos
+
+2
+00:00:11,000 --> 00:00:12,420
+a ir haciendo.
+
+3
+00:00:12,620 --> 00:00:16,670
+Vamos a empezar por el primero a ver qué es lo que vamos a practicar.
+
+4
+00:00:16,670 --> 00:00:20,960
+Realiza un programa que le da dos números por teclado y permite elegir entre tres opciones en un menú
+
+5
+00:00:21,560 --> 00:00:26,300
+mostrar una suma de los dos números mostrar una resta de los dos números el primero menos el segundo
+
+6
+00:00:26,690 --> 00:00:32,120
+mostrar una multiplicación de los dos números y en caso de no introducir una opción válida el programa
+
+7
+00:00:32,120 --> 00:00:34,080
+informará de que no es correcta.
+
+8
+00:00:34,580 --> 00:00:37,300
+Vamos que tenemos que hacer el típico menú.
+
+9
+00:00:37,520 --> 00:00:42,880
+Como vimos durante las explicaciones de la teoría así que vamos a ponernos a ello.
+
+10
+00:00:42,890 --> 00:00:50,570
+Vamos a comenzar leyendo dos números vamos a transformarlos en flotante en decimal y vamos a leerlos.
+
+11
+00:00:50,850 --> 00:00:53,570
+Imput introduce un número
+
+12
+00:00:58,600 --> 00:01:03,350
+número 2 introduce otro número.
+
+13
+00:01:04,050 --> 00:01:08,060
+Bien vamos a comenzar pidiéndole al usuario que quiere hacer pin
+
+14
+00:01:11,090 --> 00:01:13,210
+qué quieres hacer.
+
+15
+00:01:14,240 --> 00:01:17,630
+Por ejemplo vamos a mostrar una serie de opciones.
+
+16
+00:01:18,290 --> 00:01:20,960
+Vamos a ponerlo así en otra línea.
+
+17
+00:01:21,220 --> 00:01:22,760
+Vamos a poner un 1 por ejemplo.
+
+18
+00:01:22,760 --> 00:01:28,070
+De esta forma puede ponerlo como queráis simplemente que se note que tenéis que escribir uno de los
+
+19
+00:01:28,070 --> 00:01:32,270
+números por ejemplo opción 1 sumar dos números
+
+20
+00:01:35,350 --> 00:01:43,630
+CORRUPPCION 2 restar serían los dos números los dos números.
+
+21
+00:01:44,390 --> 00:01:45,840
+Opción 3.
+
+22
+00:01:47,200 --> 00:01:58,750
+Multiplicar los dos números y a continuación tendríamos que tener la opción que quiere ejecutar el usuario.
+
+23
+00:01:58,750 --> 00:02:06,250
+Por tanto podríamos guardar una variable opción por ejemplo haciendo un intento para transformar este
+
+24
+00:02:06,250 --> 00:02:06,910
+número.
+
+25
+00:02:06,910 --> 00:02:09,990
+O podríamos simplemente dejarlo como una cadena de texto.
+
+26
+00:02:10,030 --> 00:02:14,780
+Por qué cuando hacemos el input ya lo leemos como una cadena no pues simplemente vamos a hacer un input.
+
+27
+00:02:15,660 --> 00:02:20,000
+Vamos a poner aquí introduce una opción.
+
+28
+00:02:20,810 --> 00:02:24,920
+De esta forma ahora tenemos que tratar las posibilidades.
+
+29
+00:02:24,930 --> 00:02:31,320
+Por ejemplo si la opción que ha introducido el usuario es el número uno pero lo comprobaremos como una
+
+30
+00:02:31,320 --> 00:02:35,350
+cadena de caracteres porque no lo hemos convertido a un entero.
+
+31
+00:02:35,350 --> 00:02:40,910
+Pues vamos por ejemplo a mostrar por pantalla la suma de.
+
+32
+00:02:41,410 --> 00:02:48,060
+Y aquí pondríamos M1 más en dos.
+
+33
+00:02:50,430 --> 00:02:55,370
+Es N1 más n-ii.
+
+34
+00:02:56,130 --> 00:03:06,330
+Ahora vamos a encadenar staiff VARIOS el IF por ejemplo el IF opción 2 cuando es una resta la resta
+
+35
+00:03:06,870 --> 00:03:21,150
+de n 1 menos 2 es n1 menos N2 cuando la opción esta tercera podríamos la multiplicación o producto de
+
+36
+00:03:21,180 --> 00:03:29,820
+n1 Por eso es como una chuleta que sale antes y luego mostramos el resultado en 1 por dos y el caso
+
+37
+00:03:30,450 --> 00:03:37,100
+de no introducir una de estas tres opciones pues sería como un caso genérico pondríamos un elst normal
+
+38
+00:03:37,830 --> 00:03:42,980
+y mostraremos por pantalla Prin la opción es incorrecta.
+
+39
+00:03:44,190 --> 00:03:48,390
+Simplemente así vamos a ejecutarlo a ver cómo queda.
+
+40
+00:03:48,390 --> 00:03:54,000
+Introduce un número por ejemplo 5 introduce otro número por ejemplo.
+
+41
+00:03:54,000 --> 00:03:55,040
+5.
+
+42
+00:03:55,350 --> 00:03:59,540
+Qué quieres hacer sumar los números restarlos números multiplicarlos.
+
+43
+00:03:59,960 --> 00:04:04,380
+Vamos a poner la opción 1 sumar la suma de 5+5 es 10.
+
+44
+00:04:04,410 --> 00:04:11,780
+Muy bien vamos a hacer lo mismo pero restando por ejemplo 5 y 3 vamos a restar los dos números.
+
+45
+00:04:11,940 --> 00:04:21,400
+5-3-2 muy bien vamos a multiplicar tres por tres así.
+
+46
+00:04:23,340 --> 00:04:32,040
+Tercera tres por tres es 9 y si introducimos una opción incorrecta por ejemplo le ponemos aquí una cadena.
+
+47
+00:04:32,340 --> 00:04:39,270
+Perdón quería que los dos números primero un 5 y un 5 por ejemplo y aquí una opción que no es correcta
+
+48
+00:04:40,070 --> 00:04:40,540
+vale.
+
+49
+00:04:40,620 --> 00:04:43,040
+La opción es incorrecta pues aquí lo tenemos.
+
+50
+00:04:43,140 --> 00:04:45,820
+Ya hemos hecho este primer ejercicio.
+
+51
+00:04:47,250 --> 00:04:51,900
+Vamos a por el segundo ejercicio que dice que tenemos que realizar un programa que lea un número impar
+
+52
+00:04:51,900 --> 00:04:53,520
+por teclado.
+
+53
+00:04:53,520 --> 00:04:58,330
+Si el usuario no introduce un número impar debe repetirse el proceso hasta que lo introduzca correctamente.
+
+54
+00:04:58,710 --> 00:05:01,250
+Es decir aquí tiene que haber una repetición.
+
+55
+00:05:01,250 --> 00:05:06,570
+Tiene que haber un bucle no un bucle por ejemplo que puede ser un waylon mientras mientras el número
+
+56
+00:05:06,570 --> 00:05:08,370
+que introducimos no sea impar.
+
+57
+00:05:08,730 --> 00:05:17,670
+Ir leyendo números hasta que sea un impar la forma más fácil hacerlo es simplemente crear un número
+
+58
+00:05:18,420 --> 00:05:23,760
+y poner un resultado que sea un par un número par haciendo ver que es la primera vez que introducimos
+
+59
+00:05:23,760 --> 00:05:27,170
+un valor como este número OSPAR.
+
+60
+00:05:27,630 --> 00:05:30,580
+Vamos a crear una condición guaire en un bucle.
+
+61
+00:05:31,590 --> 00:05:39,760
+Vamos a comprobar si el módulo entre 2 de este número es igual a cero.
+
+62
+00:05:40,380 --> 00:05:47,270
+De esta forma vamos a comprobar o vamos a repetir mientras sea un número par porque los números pares
+
+63
+00:05:47,460 --> 00:05:50,110
+con el módulo de dos siempre daban cero.
+
+64
+00:05:51,110 --> 00:05:55,720
+Por tanto hasta que esto no se cumpla se irá repitiendo.
+
+65
+00:05:56,030 --> 00:06:02,300
+Entonces lo único que tenemos que hacer es ir leyendo todo el rato transformando la cadena a un número
+
+66
+00:06:03,270 --> 00:06:11,270
+imput y especificando al usuario que introduzca introduce un número impar.
+
+67
+00:06:11,270 --> 00:06:16,190
+Si lo ejecutamos nos pide un número impar.
+
+68
+00:06:17,030 --> 00:06:20,610
+Por ejemplo un 4 como 4.
+
+69
+00:06:20,630 --> 00:06:25,930
+El módulo de módulo entre dos esfero se vuelve a repetir.
+
+70
+00:06:27,060 --> 00:06:34,980
+Si ponemos otra vez un 6 pues lo mismo un 2 lo mismo hasta que ponemos un número impar el 3.
+
+71
+00:06:35,130 --> 00:06:41,040
+Esto ya no daría ceros y no quedaría uno y ya no se volvería a repetir lucile porque este mientras habría
+
+72
+00:06:41,040 --> 00:06:43,870
+roto la condición.
+
+73
+00:06:44,700 --> 00:06:46,730
+Vamos a por este tercer ejercicio.
+
+74
+00:06:47,470 --> 00:06:52,090
+Qué nos dice que realicemos un programa que sume todos los números enteros pares desde el 0 hasta el
+
+75
+00:06:52,090 --> 00:06:53,110
+100.
+
+76
+00:06:53,110 --> 00:06:57,950
+Sugerencia podéis utilizar las funciones shum y reintsch para hacerlo más fácil.
+
+77
+00:06:58,030 --> 00:07:05,290
+El tercer parámetro de la función Rains inicio Fini salto indica un salto de números pruebalo muy bien
+
+78
+00:07:05,290 --> 00:07:11,380
+vamos a ver qué es exactamente lo que nos está comentando que podemos hacer con el Rains vamos a experimentar
+
+79
+00:07:11,410 --> 00:07:16,640
+por un momento tenemos que generar Del 0 al 100.
+
+80
+00:07:17,590 --> 00:07:21,080
+Una lista de pares por ejemplo.
+
+81
+00:07:22,200 --> 00:07:27,810
+Sabemos que el Rains lo que hace es generar en el momento de ejecutar el programa pero no genera una
+
+82
+00:07:27,810 --> 00:07:29,720
+lista directamente.
+
+83
+00:07:31,140 --> 00:07:33,650
+Por ejemplo una lista que vaya del 0 al 100.
+
+84
+00:07:34,030 --> 00:07:41,130
+Pero no así con que el 100 no llegará porque el último excluye por tanto sería del 0 al 101.
+
+85
+00:07:41,130 --> 00:07:43,930
+Esto si lo mostramos puestos muestra este código.
+
+86
+00:07:43,930 --> 00:07:51,480
+Esto no interpreta nada pero si transformamos como sabemos un rainie a una lista lo que tenemos aquí
+
+87
+00:07:51,720 --> 00:07:53,930
+es una lista del 0 al 100.
+
+88
+00:07:55,330 --> 00:08:01,950
+De acuerdo entonces nos comenta que experimentemos con el saldo que indica un salto de números.
+
+89
+00:08:01,960 --> 00:08:06,650
+Por ejemplo si yo les dijera que salto de números es cada dos números.
+
+90
+00:08:06,970 --> 00:08:13,300
+Lo que estamos haciendo con este raines es empezar desde cero y únicamente incluir los números cada
+
+91
+00:08:13,300 --> 00:08:14,360
+dos números.
+
+92
+00:08:14,710 --> 00:08:17,220
+Luego vendría el 2 el 4 el 6 8.
+
+93
+00:08:17,240 --> 00:08:23,030
+Si en lugar de dos fuera por ejemplo un 10 por tendríamos el cero o el Diez el 20 al 30.
+
+94
+00:08:24,280 --> 00:08:29,330
+Si fuera un 5 poseería cada cinco pero como queremos hacer solamente los números pares.
+
+95
+00:08:29,650 --> 00:08:34,110
+Poniendo este 2 y empezando por cero ya lo tendríamos si empezásemos por uno.
+
+96
+00:08:34,110 --> 00:08:36,880
+Evidentemente tendríamos números impares.
+
+97
+00:08:39,320 --> 00:08:43,880
+Por tanto sabemos que el Rains que necesitamos es este de aquí vamos a dejarlo comentaba que arriba
+
+98
+00:08:44,910 --> 00:08:48,530
+y lo que tenemos que hacer es sumar todos los números.
+
+99
+00:08:48,990 --> 00:08:54,890
+Bueno la verdad es que es bastante fácil si utilizamos la lógica de sumar todos los elementos de una
+
+100
+00:08:54,890 --> 00:08:57,290
+lista suma.
+
+101
+00:08:57,290 --> 00:09:06,530
+Es igual a la función shum del rango entre cero y 101 cada dos.
+
+102
+00:09:07,070 --> 00:09:08,660
+Y esto lo mostramos por pantalla
+
+103
+00:09:11,390 --> 00:09:14,870
+nos da dos mil quinientos cincuenta.
+
+104
+00:09:14,870 --> 00:09:24,050
+Ahora bien vamos a hacerlo de una forma tradicional utilizando simplemente variables y un bucle sería
+
+105
+00:09:24,050 --> 00:09:31,510
+la otra forma una forma con bucle cómo lo haríamos pues por ejemplo crearíamos una variable llamada
+
+106
+00:09:31,520 --> 00:09:38,270
+núm sería el número que iríamos incrementando desde el cero al 100 para ir comprobando cada uno de estos
+
+107
+00:09:38,270 --> 00:09:39,240
+números.
+
+108
+00:09:39,490 --> 00:09:40,230
+Este.
+
+109
+00:09:40,970 --> 00:09:48,350
+Si es para o impar vamos a empezar con cero y vamos a crear también una variable suma con el valor 0
+
+110
+00:09:48,350 --> 00:09:56,770
+por defecto que es la que iremos sumando el valor de los números pares y ahora empezaríamos un bucle
+
+111
+00:09:56,780 --> 00:09:57,430
+Weil.
+
+112
+00:09:57,740 --> 00:10:02,730
+Podríamos ponerlo así mientras el número sea más pequeño igual que 100.
+
+113
+00:10:03,320 --> 00:10:12,760
+Entonces el tocaríamos es aquí algo incrementaremos Este número 1 en cada iteración.
+
+114
+00:10:13,780 --> 00:10:18,250
+De acuerdo entonces lo que tenemos que hacer a quien esté algo es sumar.
+
+115
+00:10:18,340 --> 00:10:20,610
+Asuma el numerosi Espar.
+
+116
+00:10:20,860 --> 00:10:24,790
+Para saber si el número es par pues podemos hacer un ihf Num.
+
+117
+00:10:25,150 --> 00:10:29,010
+Módulo 2 es igual a cero.
+
+118
+00:10:29,800 --> 00:10:31,930
+Si en esto se cumple sabemos que es par.
+
+119
+00:10:31,930 --> 00:10:39,850
+Por tanto podemos sumarlo a la suma así con un operador de asignación de suma y sumamos el número de
+
+120
+00:10:39,850 --> 00:10:50,020
+acuerdo y teóricamente al final de todo si mostrase Mos el valor de la suma debería de darnos por la
+
+121
+00:10:50,020 --> 00:10:52,800
+suma de los números pares entre cero y el 100.
+
+122
+00:10:53,690 --> 00:10:57,020
+Porque es la condición que hemos creado vamos a comprobarlo.
+
+123
+00:10:57,610 --> 00:11:05,380
+Y como veis tenemos la suma de arriba dos mil quinientos cincuenta y de la forma clásica también 2 1550.
+
+124
+00:11:05,380 --> 00:11:09,250
+Como veis se utilizan utilizando Raich y Sum 1 en una línea.
+
+125
+00:11:09,250 --> 00:11:13,520
+Hemos hecho lo que nos habría costado hacer cinco o seis líneas.

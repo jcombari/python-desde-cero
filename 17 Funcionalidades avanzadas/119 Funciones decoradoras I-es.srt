@@ -1,0 +1,527 @@
+1
+00:00:00,940 --> 00:00:07,230
+Muy bien pues vamos a por La Tercera lección de esta unidad 15 de funcionalidades avanzadas y vamos
+
+2
+00:00:07,230 --> 00:00:12,960
+a trabajar las funciones de curadoras a ver qué son y cómo se utilizan.
+
+3
+00:00:12,960 --> 00:00:18,810
+Sin embargo para poder aprender a hacerlo necesitamos repasar los ámbitos de las funciones.
+
+4
+00:00:18,950 --> 00:00:24,420
+Es importante antes de realizar esta elección como poner aquí vamos a reiniciar yukiteru Book para vaciar
+
+5
+00:00:24,420 --> 00:00:24,900
+la memoria.
+
+6
+00:00:24,900 --> 00:00:33,870
+Podemos hacerlo desde el kernel desde aquí y recordad que si os equivocáis al crear alguna función de
+
+7
+00:00:33,870 --> 00:00:39,870
+este ejercicio tendréis que ir reiniciando porque sino podría ser que no os salga como me sale a mí.
+
+8
+00:00:41,950 --> 00:00:44,560
+Así que vamos a comenzar con una breve introducción.
+
+9
+00:00:45,450 --> 00:00:51,360
+No cabe duda de que Python es un lenguaje flexible y cuando trabajamos con funciones no es una excepción.
+
+10
+00:00:51,690 --> 00:01:03,900
+En Payton dentro de una función podemos definir otras funciones de Hola por ejemplo y dentro de Bienvenido.
+
+11
+00:01:05,480 --> 00:01:09,990
+Este bienvenido devuelve una cadena de caracteres con un hola.
+
+12
+00:01:10,270 --> 00:01:16,330
+Y la función no la devuelve la función bienvenida.
+
+13
+00:01:16,330 --> 00:01:18,250
+Para que veáis lo flexible.
+
+14
+00:01:19,450 --> 00:01:23,700
+Vamos a ejecutarlo y cuál es la peculiaridad de todo esto.
+
+15
+00:01:23,830 --> 00:01:33,280
+Pues fijaros si intentamos ejecutar la función bienvenido no está un error evidentemente nos dice que
+
+16
+00:01:33,280 --> 00:01:38,920
+esta función no está declarada no está definida lo que es el ámbito global y aquí es donde quería llegar
+
+17
+00:01:38,950 --> 00:01:44,780
+yo el ámbito global es el primer nivel de este script de python de este código.
+
+18
+00:01:45,870 --> 00:01:51,230
+En cambio la función bienvenido solo existe dentro de la función la del segundo nivel.
+
+19
+00:01:52,700 --> 00:01:57,740
+Se dice entonces que la función bienvenido tiene un ámbito local dentro de la función.
+
+20
+00:01:57,830 --> 00:01:58,360
+Hola.
+
+21
+00:01:59,300 --> 00:02:04,420
+De hecho si intentamos ejecutar la función Hola que está devolviendo la función bienvenido.
+
+22
+00:02:04,610 --> 00:02:09,500
+Fijaros que ocurre y nos aparece la siguiente función Moine.
+
+23
+00:02:09,730 --> 00:02:10,380
+Punto.
+
+24
+00:02:10,460 --> 00:02:12,340
+Hola locals.
+
+25
+00:02:12,410 --> 00:02:12,850
+Punto.
+
+26
+00:02:12,860 --> 00:02:14,950
+Bienvenido.
+
+27
+00:02:14,960 --> 00:02:20,690
+Se devuelve la función bienvenido y podemos apreciar dentro de su función que existe este espacio locals
+
+28
+00:02:21,020 --> 00:02:24,070
+el cual hace referencia al ámbito local que abarca la función.
+
+29
+00:02:24,080 --> 00:02:25,280
+Como he dicho antes.
+
+30
+00:02:26,260 --> 00:02:28,340
+Por tanto diferenciamos claramente.
+
+31
+00:02:29,930 --> 00:02:33,080
+Un ámbito global y un ámbito local.
+
+32
+00:02:33,650 --> 00:02:36,150
+Vamos a volver a definir esta función.
+
+33
+00:02:36,160 --> 00:02:37,790
+Hola.
+
+34
+00:02:38,060 --> 00:02:44,190
+De esta forma vamos a utilizar una función una función reservada por decirlo de una forma.
+
+35
+00:02:44,330 --> 00:02:49,700
+Justo aquí antes de devolver el bienvenido vamos a imprimirla.
+
+36
+00:02:49,790 --> 00:02:53,300
+El resultado de llamar la función local.
+
+37
+00:02:55,080 --> 00:03:00,040
+De acuerdo a ejecutar este Hola.
+
+38
+00:03:02,850 --> 00:03:07,120
+Fijaros como vemos se nos muestra un diccionario.
+
+39
+00:03:08,860 --> 00:03:11,630
+En el que encontraremos la función bienvenido.
+
+40
+00:03:14,760 --> 00:03:22,220
+Qué hace referencia a la dirección de memoria dónde se encuentra la función Bienvenido del ámbito local
+
+41
+00:03:22,920 --> 00:03:23,700
+de Hola.
+
+42
+00:03:24,620 --> 00:03:29,020
+No solamente las funciones dentro de las funciones forman parte de su ámbito local.
+
+43
+00:03:29,060 --> 00:03:37,730
+Si creamos por ejemplo una variable dentro de la función por ejemplo número 50 y lo volvemos a ejecutar
+
+44
+00:03:38,050 --> 00:03:43,840
+ahora en este diccionario nos aparece tan bien este número que forma parte del ámbito local de Hola.
+
+45
+00:03:45,440 --> 00:03:52,610
+Sin embargo si definiríamos por ejemplo una variable o una lista fuera del ámbito de la función Hola
+
+46
+00:03:53,000 --> 00:03:55,970
+Por ejemplo aquí lo ejecutamos.
+
+47
+00:03:55,970 --> 00:03:57,110
+Pues no la vemos.
+
+48
+00:03:57,180 --> 00:03:59,580
+Esta no aparece no está en el ámbito local.
+
+49
+00:04:00,610 --> 00:04:06,550
+De hecho se encuentra en el ámbito global el cual podemos mostrar con la función reservada global.
+
+50
+00:04:06,820 --> 00:04:17,190
+Por tanto podríamos hacer esto aquí y en lugar de mostrar las locales mostrar las globales si lo ejecutamos.
+
+51
+00:04:17,680 --> 00:04:21,690
+Aparece aquí un código muy largo un diccionario muy grande.
+
+52
+00:04:23,160 --> 00:04:29,660
+Si hacemos un control F para buscar podemos buscar esta lista que está definida.
+
+53
+00:04:30,940 --> 00:04:33,570
+En varios sitios dentro de la memoria.
+
+54
+00:04:35,720 --> 00:04:41,330
+Pero si lo reiniciamos que os comentaba antes reinicia el kernel vamos a volver a ejecutarlo.
+
+55
+00:04:42,250 --> 00:04:48,800
+Bueno ahora tenemos menos recordad que Júpiter ejecutando todo lo que vamos haciendo y acobarda quedándose
+
+56
+00:04:48,820 --> 00:04:50,050
+guardado en la memoria.
+
+57
+00:04:50,170 --> 00:04:56,800
+Por tanto nos aparecía mucha información y al reiniciarlo sólo nos aparece la información que queda
+
+58
+00:04:56,800 --> 00:04:58,610
+guardada en el ámbito global.
+
+59
+00:04:58,630 --> 00:05:03,760
+Cuando ejecutamos esta pieza de código todas las otras que hemos ejecutado ya no aparecen.
+
+60
+00:05:04,240 --> 00:05:10,650
+Entonces si buscamos la palabra lista en este diccionario utilizando el controlé F.
+
+61
+00:05:10,870 --> 00:05:14,130
+Pues aquí ya encontraremos este valor de aquí.
+
+62
+00:05:14,910 --> 00:05:16,390
+Dentro del global.
+
+63
+00:05:17,060 --> 00:05:19,130
+Con la lista de acuerdo.
+
+64
+00:05:20,250 --> 00:05:22,670
+Si mostraremos los dos evidentemente.
+
+65
+00:05:23,080 --> 00:05:24,970
+Fijaros que ahora me sale mucha más información.
+
+66
+00:05:24,970 --> 00:05:27,260
+Eso es porque como lo he ejecutado dos veces.
+
+67
+00:05:28,770 --> 00:05:34,290
+Este código pues ya me ha quedado guardado como que hay dos olas y dos listas en la memoria esto es
+
+68
+00:05:34,290 --> 00:05:41,100
+muy raro y lo gestiona asi pero en teoría como cada vez que ejecutamos un script se borra de la memoria
+
+69
+00:05:41,100 --> 00:05:44,130
+todo esto no pasaría normalmente.
+
+70
+00:05:44,370 --> 00:05:46,940
+Pero bueno vamos a reiniciar otra vez el kernel.
+
+71
+00:05:47,620 --> 00:05:48,810
+Vamos a ejecutarlo.
+
+72
+00:05:49,820 --> 00:05:55,070
+Fijaros Ahora ya tenemos primero el diccionario local.
+
+73
+00:05:55,990 --> 00:06:00,170
+Y luego el diccionario global con un montón de cosas pero entre ellas.
+
+74
+00:06:01,330 --> 00:06:09,020
+Lo que sería la lista concretamente creo que sería este de acuerdo.
+
+75
+00:06:09,510 --> 00:06:16,280
+De hecho lo interesante de Global es que está en el ámbito de cualquier lugar o sea si ejecutas esto
+
+76
+00:06:16,350 --> 00:06:21,820
+aquí veríamos exactamente lo mismo un poco mejor organizado.
+
+77
+00:06:22,540 --> 00:06:23,870
+Como podemos apreciar.
+
+78
+00:06:25,250 --> 00:06:29,740
+Pero podríamos mostrar ya que esto es un diccionario únicamente sus llaves.
+
+79
+00:06:30,200 --> 00:06:33,020
+Llamando a la función caéis que tienen los diccionarios.
+
+80
+00:06:33,380 --> 00:06:35,070
+Aquí tenemos el dediquéis.
+
+81
+00:06:36,260 --> 00:06:40,250
+Entre todos ellos tiene que haber uno que sea por ejemplo la función.
+
+82
+00:06:40,280 --> 00:06:40,870
+Hola.
+
+83
+00:06:42,020 --> 00:06:43,060
+Y también la lista.
+
+84
+00:06:43,070 --> 00:06:44,140
+Como vemos aquí.
+
+85
+00:06:45,860 --> 00:06:52,240
+De hecho podríamos llegar incluso a referirnos a este diccionario llamando.
+
+86
+00:06:53,180 --> 00:06:56,500
+Del diccionario la clave por ejemplo de la lista.
+
+87
+00:06:56,540 --> 00:07:05,780
+De esta forma y así podemos comprobar de una forma curiosa el valor de esta variable global lista desde
+
+88
+00:07:05,780 --> 00:07:14,990
+el Diccionario de variables globales que sería lo mismo que llamarlo de esta forma.
+
+89
+00:07:14,990 --> 00:07:20,780
+En fin no le des muchas vueltas a todo esto sólo quería enseñar cómo realmente se hace la diferencia
+
+90
+00:07:20,780 --> 00:07:27,720
+entre el ámbito global y el ámbito local y cómo Curiosamente las variables se guardan dentro de diccionarios.
+
+91
+00:07:27,960 --> 00:07:34,940
+A la vez que también se guardan ahí pues las funciones o incluso las clases que podemos crear y un montón
+
+92
+00:07:34,940 --> 00:07:35,740
+de cosas.
+
+93
+00:07:38,190 --> 00:07:44,510
+Ahora que ya entendemos bien los conceptos del ámbito vamos a ver cómo utilizar funciones como variables.
+
+94
+00:07:44,600 --> 00:07:45,710
+Volviendo a nuestra función.
+
+95
+00:07:45,750 --> 00:07:46,620
+Hola.
+
+96
+00:07:46,700 --> 00:07:51,890
+Ahora sabemos que si la ejecutamos en realidad estamos accediendo a su función local bienvenido pero
+
+97
+00:07:51,890 --> 00:07:54,070
+eso no significa que la ejecutemos.
+
+98
+00:07:54,170 --> 00:07:59,210
+Solo estamos haciendo referencia a ella y esa es la razón de que devuelva su definición y no el resultado
+
+99
+00:07:59,210 --> 00:08:00,200
+de su ejecución.
+
+100
+00:08:00,200 --> 00:08:06,680
+Recordad vamos a volver a crearla aquí abajo y vamos a llamar.
+
+101
+00:08:08,030 --> 00:08:11,820
+Como veis no se ejecuta sino que devuelve la función.
+
+102
+00:08:13,140 --> 00:08:20,820
+Esto por muy raro que parezca o algo extraño podríamos ejecutarla llamando una segunda vez el paréntesis
+
+103
+00:08:21,120 --> 00:08:27,160
+la primera para ejecutar Hola y la segunda para ejecutar bienvenido sea esto que tenemos aquí.
+
+104
+00:08:27,180 --> 00:08:29,150
+Parece muy raro pero si lo ejecutamos.
+
+105
+00:08:29,310 --> 00:08:36,850
+Primero ejecutaremos cola y luego el bienvenido porque estamos devolviendo el bienvenido y estamos ejecutándolo.
+
+106
+00:08:39,310 --> 00:08:41,020
+Como esto normalmente es muy raro.
+
+107
+00:08:41,210 --> 00:08:45,350
+Normalmente lo que hacemos es asignar la función a una variable y ejecutarla como si fuera una nueva
+
+108
+00:08:45,350 --> 00:08:46,050
+función.
+
+109
+00:08:46,370 --> 00:08:55,580
+Es decir tardaríamos en Bienvenido el resultado de llamar a bola y ejecutaremos bienvenido como si fuera
+
+110
+00:08:55,580 --> 00:08:57,510
+una función normal.
+
+111
+00:08:58,730 --> 00:09:04,040
+A diferencia de las colecciones y los objetos donde las copias se utilizaban como accesos directos las
+
+112
+00:09:04,040 --> 00:09:09,410
+copias de las funciones son independientes y aunque borrase es la original la nueva copia seguiría existiendo.
+
+113
+00:09:09,410 --> 00:09:14,070
+Es decir si borramos esta copia de Hola que tenemos en la memoria.
+
+114
+00:09:15,520 --> 00:09:19,090
+Bienvenido seguiría funcionando.
+
+115
+00:09:19,090 --> 00:09:20,690
+Queda guardada en la memoria.
+
+116
+00:09:20,810 --> 00:09:21,480
+Acuerdo.
+
+117
+00:09:22,860 --> 00:09:25,690
+Y si ya era extraño ejecutar funciones anidadas.
+
+118
+00:09:25,690 --> 00:09:30,680
+De esta forma todavía es más extraño el concepto de enviar una función como argumento de otra función
+
+119
+00:09:31,180 --> 00:09:37,180
+y sin embargo gracias a la flexibilidad de Payton esto se puede hacer es decir vamos a crear una función
+
+120
+00:09:37,270 --> 00:09:45,250
+Hola muy sencilla que devuelva por ejemplo el texto Hola y vamos a crear una función llamada test que
+
+121
+00:09:45,250 --> 00:09:53,560
+por ejemplo reciba una función y muestre el resultado de ejecutar esa función.
+
+122
+00:09:53,560 --> 00:09:54,250
+De esta forma
+
+123
+00:09:57,750 --> 00:09:58,970
+de acuerdo.
+
+124
+00:09:59,000 --> 00:10:02,590
+Bueno pues ahora ejecutamos test pasándole la función.
+
+125
+00:10:02,620 --> 00:10:03,110
+Hola.
+
+126
+00:10:03,340 --> 00:10:11,110
+Por extraño que parezca perdonar que el puesto al que vamos a ejecutarlo bien se ejecuta no emmsa por
+
+127
+00:10:11,110 --> 00:10:13,640
+pantalla el resultado de llamar a Hola.
+
+128
+00:10:13,660 --> 00:10:18,760
+Quizá en este momento no se os ocurren muchas utilidades para esta funcionalidad pero creedme que es
+
+129
+00:10:18,760 --> 00:10:23,750
+realmente útil cuando queremos extender funciones ya existentes sin modificarlas.
+
+130
+00:10:24,100 --> 00:10:29,910
+De ahí que este proceso se conozca como decorador y de ahí pasamos directamente a las funciones de moradoras.
+
+131
+00:10:29,950 --> 00:10:35,710
+Pero como ya nos hemos extendido mucho en esta elección voy a dejarla para una segunda parte en el siguiente
+
+132
+00:10:35,710 --> 00:10:38,390
+vídeo y así podéis tomaros un descanso.

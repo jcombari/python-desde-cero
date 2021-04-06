@@ -1,0 +1,455 @@
+1
+00:00:01,170 --> 00:00:05,740
+Siguiendo con nuestro repaso de métodos de las colecciones vamos a por las listas.
+
+2
+00:00:07,940 --> 00:00:10,750
+Ya conocemos algunos pero hay bastantes más.
+
+3
+00:00:10,760 --> 00:00:20,390
+Vamos a comenzar por el que ya conocemos supone que tenemos una lista con varios elementos que tenemos.
+
+4
+00:00:20,540 --> 00:00:32,580
+En primer lugar que la lista apenn para añadir un elemento al final un número 6.
+
+5
+00:00:32,570 --> 00:00:40,670
+Otro método muy interesante es el Clio Lista Clinton y fijaros lo que hace
+
+6
+00:00:43,590 --> 00:00:47,120
+Clear borra todos los elementos que forman la lista.
+
+7
+00:00:47,120 --> 00:00:50,980
+Deja la lista vacía que de hecho es vaciarle.
+
+8
+00:00:51,960 --> 00:01:03,090
+También podemos unir varias listas por ejemplo lista 1 1 y 3 listados 4 5 y 6.
+
+9
+00:01:04,050 --> 00:01:15,740
+Con el método extend lista uno externo listados lo que tenemos es una unión de la lista 1 con la lista
+
+10
+00:01:15,750 --> 00:01:16,700
+2.
+
+11
+00:01:16,770 --> 00:01:17,850
+Como veis aquí.
+
+12
+00:01:19,660 --> 00:01:24,850
+Otro método que comparten las listas con las cadenas puede ser el control que nos permite contar cuántas
+
+13
+00:01:24,850 --> 00:01:30,920
+veces aparece un elemento en una lista por ejemplo.
+
+14
+00:01:31,420 --> 00:01:37,150
+Hola mundo.
+
+15
+00:01:38,850 --> 00:01:46,180
+Vamos a hacerle un cowan directamente para ver cuántas veces aparece la palabra mundo.
+
+16
+00:01:46,630 --> 00:01:50,940
+Como veis nos dice que aparece dos veces con la palabra hola.
+
+17
+00:01:51,310 --> 00:02:03,130
+Una vez de forma similar podemos utilizar la palabra índex para referirnos al método índice que nos
+
+18
+00:02:03,130 --> 00:02:11,200
+devuelve el lugar donde aparece un elemento sería parecido al Find de las cadenas llamado Index para
+
+19
+00:02:11,200 --> 00:02:12,220
+las listas.
+
+20
+00:02:12,220 --> 00:02:23,190
+Cuando aparece en la lista la primera posición en el índice cero aparece mundo pues en la segunda no
+
+21
+00:02:23,260 --> 00:02:24,570
+en el índice 1.
+
+22
+00:02:24,600 --> 00:02:28,920
+Fijaros que no busca el último solamente busca el primero.
+
+23
+00:02:28,930 --> 00:02:35,080
+Otro método muy interesante más bien relacionado con el Appen pero en lugar de agregar un elemento al
+
+24
+00:02:35,080 --> 00:02:40,300
+final de la lista nos permite introducirlo en medio en una posición que nosotros queramos.
+
+25
+00:02:40,540 --> 00:02:41,920
+Es el insert.
+
+26
+00:02:41,920 --> 00:02:50,440
+Por ejemplo si tuviéramos una lista con varios elementos 1 2 y 3 por ejemplo podríamos añadir con el
+
+27
+00:02:50,440 --> 00:02:58,630
+insert un elemento al principio de la lista insert y aquí le pasaríamos el índice 0.
+
+28
+00:02:58,630 --> 00:03:03,790
+Para hacer referencia a la primera posición donde queremos insertar el elemento y por ejemplo fijaros
+
+29
+00:03:03,790 --> 00:03:06,840
+voy a poner un cero en la posición cero.
+
+30
+00:03:07,600 --> 00:03:12,370
+Voy a hacer un print de esta lista y hoy tengo mi cero al principio.
+
+31
+00:03:12,370 --> 00:03:24,700
+Sin embargo imaginad si tuviéramos esta lista con varios múltiples de 5 5 el 10 el 15 y el 25 nos falta
+
+32
+00:03:24,700 --> 00:03:25,780
+el 20.
+
+33
+00:03:25,840 --> 00:03:28,200
+En la penúltima posición de la lista.
+
+34
+00:03:29,040 --> 00:03:36,690
+Claro si fuera al final podríamos utilizar el apunte para añadirlo al final pero el insert nos permite
+
+35
+00:03:36,780 --> 00:03:41,250
+introducirlo mucho más sencillo para la última posición.
+
+36
+00:03:41,250 --> 00:03:52,280
+Simplemente tendríamos que hacer un insert y decirle para la última posición con un menú 1 añadir el
+
+37
+00:03:52,290 --> 00:03:59,720
+valor 20 si mostramos la lista ahí hemos añadido el 20.
+
+38
+00:04:00,210 --> 00:04:07,710
+Tened en cuenta que menos uno hace referencia al lugar en el que vamos a introducir el elemento pero
+
+39
+00:04:07,710 --> 00:04:12,960
+es muy distinto de cómo funciona la Open que añade al final al decir lo menos uno lo que hemos dicho
+
+40
+00:04:12,960 --> 00:04:14,130
+es que queremos añadir.
+
+41
+00:04:14,130 --> 00:04:16,990
+Justo antes del último.
+
+42
+00:04:17,340 --> 00:04:17,880
+Otro valor.
+
+43
+00:04:17,880 --> 00:04:20,680
+Es decir en el penúltimo lugar de acuerdo.
+
+44
+00:04:21,430 --> 00:04:28,030
+Si quisiéramos insertar con el inserté en el último lugar como Pent no lo podemos hacer con un número
+
+45
+00:04:28,030 --> 00:04:35,110
+negativo tendríamos que hacerlo con un número positivo por ejemplo calculando la longitud total de esta
+
+46
+00:04:35,110 --> 00:04:43,650
+lista que tiene cinco elementos insert y para la supuesta posición.
+
+47
+00:04:43,700 --> 00:04:44,650
+6.
+
+48
+00:04:45,480 --> 00:04:48,720
+Insertar el 30.
+
+49
+00:04:48,870 --> 00:04:53,860
+Mostramos la lista y hoy tenemos el 30 de acuerdo.
+
+50
+00:04:55,070 --> 00:04:59,120
+Si en cambio diviértase mostró una posición donde sabemos que no hay nada.
+
+51
+00:04:59,180 --> 00:05:07,760
+Por ejemplo la posición 20 un número por ejemplo en 199 también nos funciona pero mirad lo que pasa
+
+52
+00:05:09,480 --> 00:05:11,850
+que simplemente lo añade al final.
+
+53
+00:05:12,320 --> 00:05:18,440
+Es decir que cuando no encuentra al índice el insert lo que hace es añadir elementos al final y se comporta
+
+54
+00:05:18,440 --> 00:05:19,730
+como una apéndice.
+
+55
+00:05:20,420 --> 00:05:30,210
+Otro método que ya vimos teniendo una lista por ejemplo con varios elementos 10 20 30 40 y 50.
+
+56
+00:05:30,490 --> 00:05:35,840
+Es el pop que nos permitía sacar elementos y borrarlos de la lista.
+
+57
+00:05:35,840 --> 00:05:42,100
+Por defecto el top nos permite borrar Fijaros el último elemento de la lista.
+
+58
+00:05:42,350 --> 00:05:49,290
+Si volvemos a mostrar la lista ya no tenemos el 50 pero también podemos indicarlo.
+
+59
+00:05:49,330 --> 00:05:51,660
+Lo hice a partir del cual queremos sacarlo.
+
+60
+00:05:51,710 --> 00:05:57,360
+Por ejemplo podríamos sacarle un poco pasándole el índice cero.
+
+61
+00:05:57,660 --> 00:06:02,100
+Ya hemos sacado con el índice cero haciendo referencia al primer elemento del día.
+
+62
+00:06:02,990 --> 00:06:06,170
+Por tanto ahora la lista ya no tiene el 10.
+
+63
+00:06:06,410 --> 00:06:12,860
+Sólo tiene el 20 el 30 o 40 recordad lo útil del pop es asignar el valor a una variable el que devuelve
+
+64
+00:06:13,280 --> 00:06:20,230
+este método porque de esa forma lo podemos manejar y hacer algo porque si no lo borramos directamente.
+
+65
+00:06:20,690 --> 00:06:25,970
+Y precisamente para borrar directamente un valor suponiendo que tenemos todavía esta lista 20 30 y 40
+
+66
+00:06:25,970 --> 00:06:28,190
+podemos borrar el 30.
+
+67
+00:06:28,550 --> 00:06:29,020
+Cómo.
+
+68
+00:06:29,020 --> 00:06:36,530
+Pues haciendo referencia a la lista con un método llamado remo y pasándole el valor que queremos borrar
+
+69
+00:06:36,530 --> 00:06:37,680
+del 30.
+
+70
+00:06:38,000 --> 00:06:42,300
+Si mostramos la lista otra vez ya hemos borrado el 30.
+
+71
+00:06:43,180 --> 00:06:53,910
+Y si tuviéramos varias veces un valor en una lista lista igual 20 30 30 30 40.
+
+72
+00:06:54,640 --> 00:06:58,060
+Si hacemos un rebufo de los 30 que sucederá
+
+73
+00:07:01,340 --> 00:07:04,140
+pues como veis sólo borra el primero.
+
+74
+00:07:04,150 --> 00:07:09,400
+Otro método bastante interesante es el reverso que nos permite dar la vuelta a una lista.
+
+75
+00:07:09,550 --> 00:07:12,520
+Fijaros que aquí tenemos 20 30 30 y 40.
+
+76
+00:07:12,580 --> 00:07:22,560
+Podríamos darle la vuelta a la lista por ejemplo l punto reverse si mostramos la L.
+
+77
+00:07:22,960 --> 00:07:24,970
+Ya le hemos dado la vuelta.
+
+78
+00:07:25,150 --> 00:07:33,280
+Fijaros Por cierto que no le damos la vuelta y devolvemos la lista volteadas sino que le damos la vuelta
+
+79
+00:07:33,280 --> 00:07:34,140
+a la propia lista.
+
+80
+00:07:34,150 --> 00:07:40,300
+Estamos revirtiendo la propia lista de hecho lo que se me ocurre viendo que podemos darle la vuelta
+
+81
+00:07:40,300 --> 00:07:42,190
+a una lista.
+
+82
+00:07:42,460 --> 00:07:48,950
+Es que quizá podemos darle la vuelta a una cadena también con el revenus.
+
+83
+00:07:52,800 --> 00:08:00,540
+Pues no no podemos porque al revés no existe en las cadenas de caracteres pero quizá podríamos hacer
+
+84
+00:08:00,540 --> 00:08:01,380
+un truco.
+
+85
+00:08:01,650 --> 00:08:08,790
+Fijaros con lo que ahora conocemos podríamos hacer lo siguiente Vamos a comenzar creando una lista a
+
+86
+00:08:08,790 --> 00:08:12,000
+partir de una cadena lists.
+
+87
+00:08:12,630 --> 00:08:14,200
+Hola mundo.
+
+88
+00:08:14,940 --> 00:08:21,830
+Ahora tenemos en la lista todos los caracteres separados por comas de la frase Hola Mundo.
+
+89
+00:08:21,960 --> 00:08:31,620
+Lo que queremos hacer es darle la vuelta y lista punto Bersa vamos a mostrarla y ahora tenemos la cadena
+
+90
+00:08:31,710 --> 00:08:39,190
+del revés cómo podemos ahora crear una cadena a partir de esta lista pues podemos utilizar el joined.
+
+91
+00:08:39,240 --> 00:08:46,290
+También existe el yaima y podemos pasarle en lugar de una cadena una lista fijaros.
+
+92
+00:08:47,290 --> 00:08:53,080
+Vamos a asignar a cadena todos los caracteres de la lista con un carácter vacío.
+
+93
+00:08:53,260 --> 00:08:55,710
+Es decir que los ponga todos juntos.
+
+94
+00:08:56,200 --> 00:08:57,270
+De esta forma.
+
+95
+00:09:00,380 --> 00:09:09,470
+Y lo que tendremos en cadena es una cadena volteada gracias a la conversión de una cadena una lista
+
+96
+00:09:09,960 --> 00:09:14,170
+dándole la vuelta a la lista volviendo a juntar los caracteres.
+
+97
+00:09:15,020 --> 00:09:17,920
+Y ahí tenemos una cadena del revés.
+
+98
+00:09:18,560 --> 00:09:25,460
+Por último una de las funcionalidades o métodos más interesantes de las listas es que podemos ordenar
+
+99
+00:09:25,460 --> 00:09:31,670
+los elementos por ejemplo imaginad que tenemos una lista de números con varios números desordenados
+
+100
+00:09:31,860 --> 00:09:33,700
+cinco.
+
+101
+00:09:33,840 --> 00:09:35,000
+Diez.
+
+102
+00:09:36,040 --> 00:09:43,160
+Veinticinco o treinta y cinco cero menos sesenta y cinco y el 100.
+
+103
+00:09:43,520 --> 00:09:53,800
+Y queremos ordenarlos automáticamente lo que haríamos es llamar al método short y si mostramos la lista
+
+104
+00:09:53,800 --> 00:09:56,370
+una vez hemos llamado el Método XOR.
+
+105
+00:09:56,380 --> 00:10:02,350
+Como veis se nos ordena automáticamente menos 65 o menos días cero cinco 35 y 100.
+
+106
+00:10:02,350 --> 00:10:09,400
+Os aconsejo utilizarlo normalmente para ordenar números o también podéis ordenar por distintas palabras
+
+107
+00:10:09,490 --> 00:10:15,940
+siempre y cuando todas empiecen por minúscula o mayúscula porque si quizá pues funciona de alguna forma
+
+108
+00:10:15,940 --> 00:10:16,860
+rara.
+
+109
+00:10:17,350 --> 00:10:24,490
+De todas formas existe la posibilidad de ordenar de forma inversa una lista en lugar de hacerlo más
+
+110
+00:10:24,490 --> 00:10:25,800
+pequeño más grande.
+
+111
+00:10:25,960 --> 00:10:34,240
+También podemos ordenar esta lista pasándole un argumento llamado reversos por el valor.
+
+112
+00:10:34,960 --> 00:10:42,730
+De esta forma lo que tendremos es una lista ordenada del revés más grande o más pequeño.
+
+113
+00:10:42,730 --> 00:10:50,580
+Como veis hay más métodos pero como siempre creo que estos son los más importantes e interesantes.
+
+114
+00:10:50,860 --> 00:10:53,060
+Así que vamos a dejarlo aquí.

@@ -1,0 +1,583 @@
+1
+00:00:00,510 --> 00:00:06,270
+Otro tipo muy importante al igual que los números que nos permiten contar es el texto que nos permite
+
+2
+00:00:06,270 --> 00:00:09,600
+comunicarnos con otras personas de forma escrita.
+
+3
+00:00:09,630 --> 00:00:15,660
+Vamos a trabajar en la Lección 2 Los textos recordar que tenéis que tener abiertos vuestro notebook.
+
+4
+00:00:17,580 --> 00:00:20,260
+Vamos a empezar a trabajar un poco con ellos.
+
+5
+00:00:20,280 --> 00:00:26,070
+Los textos se conocen como cadenas de caracteres y pueden expresarse de varias formas.
+
+6
+00:00:26,070 --> 00:00:32,670
+Esencialmente se pueden escribir un texto entre comillas simples o comillas dobles por ejemplo.
+
+7
+00:00:32,670 --> 00:00:39,600
+Normalmente cuando aprendemos a crear un programa escribimos una frase llamada Hola Mundo.
+
+8
+00:00:40,220 --> 00:00:46,110
+Si escribimos esta frase entre comillas simples y apretábamos antes para ejecutarla.
+
+9
+00:00:46,560 --> 00:00:50,630
+Como vemos se nos devuelve la misma cadena de caracteres.
+
+10
+00:00:50,760 --> 00:00:51,890
+El mismo texto.
+
+11
+00:00:52,660 --> 00:00:55,900
+También podemos escribirlo como ya he dicho entre comillas dobles.
+
+12
+00:00:56,380 --> 00:00:58,270
+Hola mundo.
+
+13
+00:00:59,230 --> 00:01:02,320
+Aunque nos lo devuelve siempre con la primera forma.
+
+14
+00:01:02,470 --> 00:01:08,800
+Uno de los motivos básicos por los que hay dos formas de escribirlas es que podríamos utilizar dentro
+
+15
+00:01:08,920 --> 00:01:12,550
+de una cadena que está escrita con comillas simples comillas dobles.
+
+16
+00:01:12,550 --> 00:01:17,260
+Por ejemplo este texto incluye.
+
+17
+00:01:18,700 --> 00:01:22,980
+Unas comillas si lo ejecutamos.
+
+18
+00:01:23,080 --> 00:01:26,360
+Como vemos aquí tenemos este texto.
+
+19
+00:01:26,410 --> 00:01:29,430
+Podríamos también hacer algo distinto.
+
+20
+00:01:29,860 --> 00:01:35,990
+Si queremos utilizar comillas simples dentro del texto podríamos escribirlo entre comillas dobles.
+
+21
+00:01:36,370 --> 00:01:46,380
+Esta palabra entre comillas simples se encuentra escrita entre comillas simples.
+
+22
+00:01:46,780 --> 00:01:54,760
+Como veis ahora sí el ha interpretado que debes hacerlo con comillas dobles y dentro no se guarda la
+
+23
+00:01:54,760 --> 00:01:57,060
+palabra entre comillas simples.
+
+24
+00:01:57,460 --> 00:02:05,080
+También es posible utilizar comillas dentro de las comillas del mismo tipo siempre que utilicemos un
+
+25
+00:02:05,080 --> 00:02:11,050
+carácter llamado el carácter de escape o de evasión ska-p por ejemplo dentro de unas comillas dobles.
+
+26
+00:02:11,050 --> 00:02:22,600
+Podremos escribir esta palabra se encuentra escrita entre comillas dobles y ahora voy a ponerlo entre
+
+27
+00:02:22,600 --> 00:02:23,740
+comillas dobles.
+
+28
+00:02:23,740 --> 00:02:29,990
+Si lo hago así como veis cambia el color la sintaxis ya piensa que algo no está bien escrito.
+
+29
+00:02:30,220 --> 00:02:36,190
+Entonces vamos a escapar estas comillas dobles para que el intérprete que forma parte de la cadena el
+
+30
+00:02:36,190 --> 00:02:38,820
+carácter de escape es la barra invertida.
+
+31
+00:02:38,830 --> 00:02:44,590
+Tenemos que poner una barra invertida delante de cada milla doble para que él como veis automáticamente
+
+32
+00:02:44,590 --> 00:02:49,460
+detecte que esto es un texto y no una separación no son distintas cadenas.
+
+33
+00:02:49,540 --> 00:02:52,090
+Si ejecutamos esto.
+
+34
+00:02:52,450 --> 00:02:57,400
+él ya es capaz de interpretar correctamente y nos lo ponen todo entre comillas simples.
+
+35
+00:02:57,460 --> 00:03:00,160
+Alternativamente podríamos hacer lo mismo.
+
+36
+00:03:00,250 --> 00:03:04,110
+Voy a copiar toda esta línea la voy a pegar aquí.
+
+37
+00:03:04,810 --> 00:03:11,350
+Voy a poner todos entre comillas simples y estrãs también las voy a poner simples y escapadas.
+
+38
+00:03:11,860 --> 00:03:15,540
+De esta manera puedo escribir cositas simples.
+
+39
+00:03:16,210 --> 00:03:20,770
+Entré con metas simples y el automáticamente me lo convierte todo a comillas dobles.
+
+40
+00:03:20,820 --> 00:03:25,000
+De todas formas Fijaros que siempre que mostramos por pantalla una cadena de texto.
+
+41
+00:03:25,110 --> 00:03:31,920
+De esta forma desde el intérprete se nos muestra entre comillas y eso es porque no es la forma correcta
+
+42
+00:03:32,010 --> 00:03:34,980
+de cómo se muestran por pantalla los datos.
+
+43
+00:03:35,190 --> 00:03:36,790
+Estamos utilizando el intérprete.
+
+44
+00:03:36,820 --> 00:03:51,440
+Si utilizamos esta técnica para mostrar una cadena y debajo otra cadena y bajo otra cadena más lo ejecutamos.
+
+45
+00:03:51,540 --> 00:03:57,500
+Como veis lo único que aparece por pantalla o la única salida el output es la última cadena que he escrito.
+
+46
+00:03:57,750 --> 00:04:03,420
+La forma correcta de mostrar cadenas de texto por pantalla en pitol Utilizando una función llamada Print
+
+47
+00:04:03,570 --> 00:04:04,290
+del inglés.
+
+48
+00:04:04,290 --> 00:04:05,200
+Imprimir.
+
+49
+00:04:06,040 --> 00:04:07,980
+Esta función se escribe así.
+
+50
+00:04:08,430 --> 00:04:14,920
+Y tenemos que pasarle entre paréntesis la cadena que queremos mostrar por ejemplo tal y como hemos hecho
+
+51
+00:04:14,920 --> 00:04:15,660
+antes.
+
+52
+00:04:15,700 --> 00:04:21,760
+Si pusiera ahora una cadena debajo pusiera otro print con otra cadena.
+
+53
+00:04:21,760 --> 00:04:31,560
+En esta ocasión con comillas simples y otros Príncep con otra cadena más y los ejecutamos.
+
+54
+00:04:32,050 --> 00:04:35,050
+Como veis ahora ya me muestra las tres líneas distintas.
+
+55
+00:04:35,050 --> 00:04:39,720
+Por qué esto ya no es el intérprete directamente sino que le estamos indicando que tiene que mostrar
+
+56
+00:04:39,720 --> 00:04:40,120
+él.
+
+57
+00:04:40,330 --> 00:04:46,360
+Las tres cadenas por tanto a partir de ahora siempre que intentemos mostrar distintos textos lo vamos
+
+58
+00:04:46,360 --> 00:04:52,350
+a hacer con esta función a no ser que necesitemos hacerlo muy rápido y solo consultar un valor.
+
+59
+00:04:52,510 --> 00:04:56,050
+Pero claro la función PIN tiene muchas ventajas.
+
+60
+00:04:56,230 --> 00:05:03,310
+Además nos permite imprimir caracteres especiales como tabulación saltos de líneas conocidos en inglés
+
+61
+00:05:03,340 --> 00:05:06,600
+como tabulación Johnny rulings.
+
+62
+00:05:06,640 --> 00:05:14,230
+De ahí precisamente reciben el nombre por ejemplo voy a poner un print y voy a mostrar una cadena de
+
+63
+00:05:14,230 --> 00:05:18,700
+caracteres con una tabulación un texto.
+
+64
+00:05:19,260 --> 00:05:25,300
+Y aquí voy a poner una tabulación que es igual que antes con el carácter de escape una barra invertida
+
+65
+00:05:25,630 --> 00:05:28,350
+y un arte de tabulación de tabulación.
+
+66
+00:05:29,690 --> 00:05:37,210
+Voy a escribir aquí una tabulación Fijaros que ni siquiera me tomó la molestia de poner un espacio de
+
+67
+00:05:37,210 --> 00:05:40,910
+esto es porque automáticamente va a interpretar que aquí hay una tabulación.
+
+68
+00:05:41,060 --> 00:05:47,060
+Si lo ejecutamos fijaros un texto nos hace una tabulación y nos muestra.
+
+69
+00:05:48,000 --> 00:05:50,100
+El texto una tabulación a la derecha.
+
+70
+00:05:51,250 --> 00:05:59,950
+Si quisiéramos lo mismo pero con un salto de línea podríamos escribir un texto y ahora una barra invertida
+
+71
+00:06:00,120 --> 00:06:02,340
+y una N de New Line.
+
+72
+00:06:02,770 --> 00:06:05,330
+Una nueva línea.
+
+73
+00:06:05,830 --> 00:06:14,380
+Si lo ejecutamos un texto y una nueva línea como veis estas son unas propiedades con unas características
+
+74
+00:06:14,380 --> 00:06:20,560
+especiales que podemos utilizar con print y que no podíamos utilizar directamente desde el intérprete.
+
+75
+00:06:20,830 --> 00:06:26,620
+Claro que puede que en algunas ocasiones tengamos un problema por ejemplo imagínate el caso que queramos
+
+76
+00:06:26,620 --> 00:06:34,420
+mostrar por pantalla una carpeta de nuestro disco de nuestro ordenador o un directorio imaginar que
+
+77
+00:06:34,420 --> 00:06:41,260
+queremos mostrar lo siguiente queremos hacer referencia a una cadena al disco duro C dos puntos una
+
+78
+00:06:41,260 --> 00:06:44,780
+barra invertida y aquí un nombre de un directorio.
+
+79
+00:06:44,830 --> 00:06:50,580
+Otra barra y otro directorio por lo que sea no queremos mostrar esto por pantalla.
+
+80
+00:06:50,770 --> 00:06:52,520
+Qué pasa si lo ejecutamos.
+
+81
+00:06:52,770 --> 00:06:54,630
+Pues que nos hace un salto de línea.
+
+82
+00:06:54,880 --> 00:07:02,260
+Entonces cómo podemos evitar cuando nosotros nos interese que no nos interprete estos caracteres especiales
+
+83
+00:07:02,320 --> 00:07:10,120
+como es el caso de barra N donde nos hacen dar el salto de línea para trabajar con las cadenas sin que
+
+84
+00:07:10,120 --> 00:07:11,270
+las interprete.
+
+85
+00:07:11,440 --> 00:07:19,600
+Necesitamos indicarle que esta cadena es de un tipo de un tipo llamado rahul que viene del significado
+
+86
+00:07:19,660 --> 00:07:26,350
+crudo como intentando decir que no la queremos procesar queremos que la muestre en crudo como en inglés
+
+87
+00:07:26,350 --> 00:07:28,010
+se dice Raúl.
+
+88
+00:07:28,150 --> 00:07:35,230
+Vamos a copiar lo de antes y vamos a indicarle que esta cadena de este tipo crudo poniéndole una erre
+
+89
+00:07:35,230 --> 00:07:36,170
+delante.
+
+90
+00:07:37,120 --> 00:07:43,210
+De esta forma vamos a ejecutarlo y él automáticamente interpretará que no tiene que tomar en cuenta
+
+91
+00:07:43,210 --> 00:07:45,940
+estos caracteres especiales en el caso de que los haya.
+
+92
+00:07:46,300 --> 00:07:49,670
+Y así podemos mostrar una cadena perfectamente.
+
+93
+00:07:49,720 --> 00:07:55,030
+Otra funcionalidad muy interesante que nos permite el print es mostrar una cadena en distintas líneas
+
+94
+00:07:55,030 --> 00:07:56,440
+muy fácilmente.
+
+95
+00:07:56,440 --> 00:08:04,570
+Por ello podemos hacer pasándoles una cadena escrita entre tres comillas simples o tres comillas dobles.
+
+96
+00:08:04,870 --> 00:08:13,430
+Y aquí podemos especificar una línea y podemos hacer un salto otra línea tras línea.
+
+97
+00:08:14,590 --> 00:08:23,410
+Podemos incluso poner una tabulación un autocuración y esto automáticamente nos lo interpreta con la
+
+98
+00:08:23,410 --> 00:08:25,830
+forma que nosotros ya la estamos indicando dentro.
+
+99
+00:08:25,990 --> 00:08:29,310
+Así que es una forma muy útil de mostrar la información en distintas líneas.
+
+100
+00:08:29,320 --> 00:08:33,450
+Se suele utilizar para documentar programas desde la terminal.
+
+101
+00:08:34,820 --> 00:08:40,610
+Algo que también tenemos que tener en cuenta es que las cadenas al igual que los números son datos y
+
+102
+00:08:40,610 --> 00:08:44,670
+también pueden asignarse a una variable para trabajar con ellas.
+
+103
+00:08:44,690 --> 00:08:52,330
+Por ejemplo podríamos crear una variable llamada de cadena por ejemplo y decir que esto es una cadena.
+
+104
+00:08:55,240 --> 00:08:57,670
+Con dos líneas.
+
+105
+00:08:59,400 --> 00:09:00,240
+Muy bien.
+
+106
+00:09:00,540 --> 00:09:03,460
+Entonces podríamos mostrar directamente esta variable.
+
+107
+00:09:03,720 --> 00:09:07,400
+O podríamos pasársela a Prim.
+
+108
+00:09:07,580 --> 00:09:14,250
+Pero fijaros que si la interpretamos directamente mostrándola no nos interpreta los saltos de línea
+
+109
+00:09:14,250 --> 00:09:15,770
+ni los caracteres especiales.
+
+110
+00:09:15,870 --> 00:09:23,070
+En cambio si pasamos esta variable a la función print le pasamos la hace ahora sí que es capaz de interpretar
+
+111
+00:09:23,250 --> 00:09:26,040
+estas dos líneas.
+
+112
+00:09:26,040 --> 00:09:30,890
+Otra cosa muy interesante es que también podemos operar texto esto ya es.
+
+113
+00:09:31,780 --> 00:09:38,170
+Como muy especial la verdad tampoco es que se puedan hacer muchos tipos de operación pero podemos realizar
+
+114
+00:09:38,170 --> 00:09:44,890
+sumas la suma de cadenas de caracteres se conoce como concatenación de caracteres y sumar dos cadenas
+
+115
+00:09:44,890 --> 00:09:46,640
+es igual a tener una nueva cadena.
+
+116
+00:09:46,900 --> 00:09:55,570
+Por ejemplo imaginad si ponemos Mace y lo mostramos aquí lo que tenemos es una cadena que teníamos antes
+
+117
+00:09:55,660 --> 00:09:57,430
+sumada a otra cadena.
+
+118
+00:09:57,430 --> 00:10:01,500
+De hecho si pusiéramos todo esto dentro de un print C+.
+
+119
+00:10:02,080 --> 00:10:08,470
+Como veis no es un concatena las dos cadenas y nos forma una nueva que sea el resultado que estamos
+
+120
+00:10:08,470 --> 00:10:09,310
+mostrando.
+
+121
+00:10:10,500 --> 00:10:15,210
+Si estamos hablando de sumar cadenas podemos hacerlo a una nueva variable.
+
+122
+00:10:15,570 --> 00:10:17,430
+Por ejemplo vamos a llamarla s.
+
+123
+00:10:17,790 --> 00:10:21,880
+Por cierto en inglés una cadena se denomina austrian y no hace falta.
+
+124
+00:10:21,900 --> 00:10:29,310
+Realmente siempre que sean valores directos utilizar la suma por ejemplo una cadena le vamos a poner
+
+125
+00:10:29,310 --> 00:10:35,830
+un espacio y vamos a poner otra cadena compuesta de dos cadenas.
+
+126
+00:10:36,120 --> 00:10:45,420
+Vamos a mostrar el resultado de esta S y hoy tengo una cadena compuesta de dos cadenas.
+
+127
+00:10:45,420 --> 00:10:51,330
+Claro que tendríamos que tener en cuenta en un espacio entre medio de cada uno de estos de estas dos
+
+128
+00:10:51,330 --> 00:10:52,150
+cadenas.
+
+129
+00:10:52,290 --> 00:10:59,400
+De estos dos valores por ejemplo Alci Pero esto no funcionaría directamente si utilizamos variables
+
+130
+00:10:59,820 --> 00:11:09,510
+me refiero a que por ejemplo tenemos una cadena uno con un texto o una cadena tenemos una cadena 2 con
+
+131
+00:11:10,230 --> 00:11:16,190
+otro texto lacadena y queremos mostrarlas directamente en el prim sumadas.
+
+132
+00:11:17,170 --> 00:11:27,480
+Si pusiéramos C 1 2 nos daría un error porque no sabe cómo interpretarlo así que tener en cuenta que
+
+133
+00:11:27,490 --> 00:11:34,270
+el truco de mostrar las dos cadenas sin sumarlas o las que sean no se pueda hacer cuando están guardadas
+
+134
+00:11:34,270 --> 00:11:35,690
+en variables.
+
+135
+00:11:35,800 --> 00:11:43,810
+Tampoco valdría poner un literal valor literal una cadena y luego una variable no funcionaría.
+
+136
+00:11:43,930 --> 00:11:49,400
+Tendríamos que sumar ambos con un más para mostrar los dos.
+
+137
+00:11:49,520 --> 00:11:54,830
+Y otra cosa que se puede hacer con las cadenas a partir de sumarlas es multiplicarlas.
+
+138
+00:11:55,210 --> 00:12:00,760
+La verdad no sé para qué os interesaría multiplicar una cadena pero multiplicar una cadena viene a ser
+
+139
+00:12:00,760 --> 00:12:04,060
+como concatenar a sí misma varias veces.
+
+140
+00:12:04,060 --> 00:12:12,730
+Es como si yo quisiera tener en una cadena diez espacios por ejemplo para hacerlo rápido haría una cadena
+
+141
+00:12:12,730 --> 00:12:15,680
+con un espacio y luego la multiplicaría por diez.
+
+142
+00:12:15,790 --> 00:12:29,320
+Si yo ahora muestro por pantalla April 10 espacios más un texto 10 espacios lo que tendremos es 10 espacios
+
+143
+00:12:29,710 --> 00:12:33,420
+1 2 3 4 5 6 7 8 9 y 10.
+
+144
+00:12:33,610 --> 00:12:38,980
+Antes de que empiece la cadena de texto que le he puesto aquí vamos a dejarlo en esta elección pero
+
+145
+00:12:38,980 --> 00:12:41,570
+no vamos a dejar de hablar de las cadenas de texto.
+
+146
+00:12:41,710 --> 00:12:43,130
+Seguiremos con la próxima.

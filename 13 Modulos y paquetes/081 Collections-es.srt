@@ -1,0 +1,739 @@
+1
+00:00:01,270 --> 00:00:05,880
+Muy bien pues como ya se adelantó Vamos a comenzar haciendo un repaso de algunos de los módulos más
+
+2
+00:00:05,880 --> 00:00:12,860
+interesantes que tenemos integrados y vamos a comenzar revisitando el módulo de colecciones.
+
+3
+00:00:13,230 --> 00:00:14,780
+Vamos a abrir nuestro notebook.
+
+4
+00:00:15,000 --> 00:00:18,260
+Sí que vamos a hacerlo probando con el notebook.
+
+5
+00:00:20,750 --> 00:00:27,780
+íbamos a ir a la fase 4 módulos y lección cuatro colecciones.
+
+6
+00:00:29,860 --> 00:00:34,580
+Como sabemos el módulo integrado de colecciones nos provee de distintas alternativas.
+
+7
+00:00:35,960 --> 00:00:40,520
+Vamos a comenzar echando un vistazo a los contadores.
+
+8
+00:00:40,520 --> 00:00:46,550
+Una de las colecciones más interesantes que incorpora el módulo y representan una subclase del diccionario
+
+9
+00:00:46,880 --> 00:00:54,530
+que nos ayuda a contar objetos son muy útiles en conjunto con otras colecciones para contar por ejemplo
+
+10
+00:00:54,530 --> 00:00:59,480
+cuántas veces se repiten los elementos de una lista o los caracteres de una cadena.
+
+11
+00:01:00,140 --> 00:01:01,890
+Vamos a comenzar importando.
+
+12
+00:01:03,310 --> 00:01:09,280
+Franco elections íbamos a importar el contador import conteo.
+
+13
+00:01:09,380 --> 00:01:16,670
+De esta forma vamos a crear una lista y vamos a repetir algunos elementos.
+
+14
+00:01:16,670 --> 00:01:27,930
+Por ejemplo 1 2 3 4 1 2 3 1 y 2 y 1 vamos a confirmar.
+
+15
+00:01:28,590 --> 00:01:35,230
+Y ahora vamos a transformar esta lista a un contador para ver qué es lo que nos devuelve counter le
+
+16
+00:01:35,270 --> 00:01:36,520
+pasamos realista.
+
+17
+00:01:36,930 --> 00:01:39,620
+Y como veis tenemos un diccionario que nos dice.
+
+18
+00:01:40,550 --> 00:01:49,420
+El número uno cuatro veces el número 2 3 veces el número 3 dos veces y el número 4 una vez.
+
+19
+00:01:51,520 --> 00:02:00,400
+Si el lugar de una lista tuviéramos por ejemplo una cadena igual una palabra por ejemplo hiciéramos
+
+20
+00:02:00,460 --> 00:02:03,540
+el mismo proceso compter.
+
+21
+00:02:05,380 --> 00:02:08,860
+Entonces nos indica un contador de las Letras de la cadena.
+
+22
+00:02:08,890 --> 00:02:15,500
+La letra aparece tres veces y por lo que parece todas las demás letras aparecen sólo una vez.
+
+23
+00:02:15,530 --> 00:02:22,340
+Ahora imaginaros que tenemos una frase o una cadena con varias palabras por ejemplo.
+
+24
+00:02:23,420 --> 00:02:35,620
+Voy a poner animales y voy a poner gato perro canario perro Travez canario y otra vez perro.
+
+25
+00:02:35,930 --> 00:02:36,610
+Muy bien.
+
+26
+00:02:37,910 --> 00:02:39,230
+Vamos a confirmar.
+
+27
+00:02:40,520 --> 00:02:47,530
+Si hacemos un contador de lo que tenemos aquí como una cadena de caracteres pues saldrá lo mismo de
+
+28
+00:02:47,530 --> 00:02:49,310
+antes.
+
+29
+00:02:49,330 --> 00:02:56,480
+Como veis un contador donde nos dice número de veces que aparece despacio la C etcétera etcétera.
+
+30
+00:02:57,340 --> 00:03:03,400
+Pero si quisiéramos contar las veces que aparece cada animal de estos pues podríamos utilizar aquel
+
+31
+00:03:03,400 --> 00:03:09,860
+método que tenían las cadenas expolit para crear una lista a partir de esta cadena.
+
+32
+00:03:09,920 --> 00:03:13,170
+Quise pararla por los espacios de esta forma.
+
+33
+00:03:13,180 --> 00:03:22,780
+Fijaros ya tendríamos todo separado y si hiciéramos un conteo de animales Split
+
+34
+00:03:25,610 --> 00:03:31,510
+pues tenemos un contador perfecto canario aparece dos veces gato aparece una vez perro aparece tres
+
+35
+00:03:31,510 --> 00:03:32,530
+veces.
+
+36
+00:03:32,530 --> 00:03:41,330
+Muy bien entonces para mostrarnos algún método de los contadores podemos asignar esto a un contador.
+
+37
+00:03:42,790 --> 00:03:54,090
+Y uno de los más útiles por no decir el más útil es el mosquito como el método más común.
+
+38
+00:03:54,100 --> 00:03:59,890
+Tenemos que pasar un parámetro y nos dice cuáles son los elementos más comunes por ejemplo si queremos
+
+39
+00:03:59,890 --> 00:04:02,690
+saber cuál es el único elemento más común.
+
+40
+00:04:02,920 --> 00:04:09,620
+Le pasaríamos un uno y nos dice bueno nos devuelve una lista con una tupla.
+
+41
+00:04:10,670 --> 00:04:12,660
+Perro tres veces.
+
+42
+00:04:13,300 --> 00:04:19,560
+Sí le dije a los dos más comunes nos diría primero el perro.
+
+43
+00:04:19,700 --> 00:04:24,130
+Primer elemento la primera tupla con 3 y el segundo elemento.
+
+44
+00:04:24,140 --> 00:04:33,800
+La segunda tupla el canario con dos si no le pasamos ningún número por defecto nos devolvería una lista
+
+45
+00:04:34,160 --> 00:04:38,120
+ordenada con las tuplas de más como una menos común.
+
+46
+00:04:38,450 --> 00:04:44,690
+Vamos a explorar un poco más a fondo todo esto vamos a crear una lista nueva una lista con un montón
+
+47
+00:04:44,690 --> 00:04:49,380
+de números como antes podríamos hacer lo mismo pero 10 20.
+
+48
+00:04:49,460 --> 00:05:00,430
+Vamos a ponerlo así 30 40 10 20 30 10 20 y 10.
+
+49
+00:05:00,890 --> 00:05:08,940
+Muy bien vamos a transformarla en un contador C Igual con L.
+
+50
+00:05:10,060 --> 00:05:15,640
+Y si lo recordáis habíamos dicho que son una subclase de diccionario por tanto tienen algunos métodos
+
+51
+00:05:15,650 --> 00:05:17,210
+de los diccionarios por ejemplo.
+
+52
+00:05:17,450 --> 00:05:27,500
+Recordáis el ítem nos volvía una lista con tuplas para cada elemento el número de veces que se repite.
+
+53
+00:05:27,500 --> 00:05:39,050
+En cambio el método que nos devuelve las claves que concuerdan con los valores que se van a ir repitiendo
+
+54
+00:05:39,050 --> 00:05:39,540
+todo el rato.
+
+55
+00:05:39,540 --> 00:05:40,990
+40 10 20 y 30.
+
+56
+00:05:40,990 --> 00:05:49,340
+En cambio values nos devuelve el número de repeticiones de acuerdo.
+
+57
+00:05:49,340 --> 00:05:57,650
+Por cierto ya que tenemos una lista con un montón de números podríamos sumar con un sumatorio llamado
+
+58
+00:05:57,650 --> 00:05:58,280
+shum.
+
+59
+00:05:59,210 --> 00:06:06,770
+Todos estos valores values y así tendríamos el total de veces o el total de elementos que hay dentro
+
+60
+00:06:06,770 --> 00:06:08,120
+de este contador.
+
+61
+00:06:08,210 --> 00:06:15,570
+1 2 3 4 5 6 7 8 9 y 10 hoy tenemos también este 10.
+
+62
+00:06:15,680 --> 00:06:24,260
+Por último comentar también que podemos hacer otra vez un caset de este contador alista para convertirlo.
+
+63
+00:06:24,260 --> 00:06:30,600
+Como veis tendríamos entonces una lista donde ya no estaría repitiéndose todos los elementos sino que
+
+64
+00:06:30,600 --> 00:06:32,200
+aparecerían una vez cada uno.
+
+65
+00:06:32,240 --> 00:06:44,390
+únicamente si hiciéramos un cast a diccionario lo que tendríamos es un objeto de clase diccionario donde
+
+66
+00:06:44,480 --> 00:06:54,020
+algunos de las funciones por ejemplo el most common ya no estarían si intentamos guardar esto en un
+
+67
+00:06:54,020 --> 00:06:55,310
+diccionario.
+
+68
+00:06:55,310 --> 00:07:07,470
+El most common pues ya no nos funciona porque ahora es un diccionario normal o por ejemplo un set.
+
+69
+00:07:08,840 --> 00:07:12,280
+Un conjunto a partir de los valores de este contador.
+
+70
+00:07:13,330 --> 00:07:22,120
+Nos devolvería básicamente lo mismo que la lista pero en forma de conjunto vamos a ver otro tipo de
+
+71
+00:07:22,120 --> 00:07:23,330
+colección.
+
+72
+00:07:23,380 --> 00:07:25,780
+Qué son los diccionarios por defecto.
+
+73
+00:07:26,180 --> 00:07:31,170
+Y es que un problema que tenemos con los diccionarios es que intentamos llamar a una clave que no existe.
+
+74
+00:07:31,270 --> 00:07:35,620
+Se devuelve un error si lo que queremos es contar con un diccionario que nunca.
+
+75
+00:07:35,620 --> 00:07:35,850
+Error.
+
+76
+00:07:35,910 --> 00:07:41,470
+Pese a que no contiene una determinada clave podemos utilizar un diccionario con un tipo por defecto
+
+77
+00:07:41,920 --> 00:07:45,180
+y éste se inicializar automáticamente al acceder a uno de sus elementos.
+
+78
+00:07:45,180 --> 00:07:52,210
+Por primera vez aunque este no exista vamos a ser un ejemplo de igual a un diccionario vacío intentamos
+
+79
+00:07:52,210 --> 00:07:56,220
+acceder a la clave por ejemplo algo que sucede.
+
+80
+00:07:56,650 --> 00:07:57,350
+Qué error.
+
+81
+00:07:57,350 --> 00:08:01,710
+Porque no existe esa clave no existe ese elemento en el diccionario.
+
+82
+00:08:02,110 --> 00:08:11,980
+En cambio si hacemos un Collections import de foldit que es el diccionario con el valor por defecto
+
+83
+00:08:12,340 --> 00:08:19,240
+automáticamente cuando accedemos a la clave o intentemos consultarla se creará con un valor por defecto
+
+84
+00:08:20,080 --> 00:08:27,760
+de igual default Dick y le tenemos que indicar un tipo por defecto.
+
+85
+00:08:27,760 --> 00:08:30,870
+Por ejemplo puede ser un float.
+
+86
+00:08:31,420 --> 00:08:38,500
+Ahora si intentamos acceder a una de las claves aunque no lo hayamos creado previamente por defecto
+
+87
+00:08:38,800 --> 00:08:46,450
+este diccionario de flotantes nos devuelve la clave o el valor 0 digamos que se acaba de crear Fijaros
+
+88
+00:08:46,720 --> 00:08:48,840
+que si mostrábamos el diccionario ahora.
+
+89
+00:08:49,630 --> 00:08:58,240
+Tenemos ahí este algo creado y fijaros que esta estructura de fallo pues aquí nos pone el tipo que tienen
+
+90
+00:08:58,360 --> 00:09:00,980
+por defecto todos los valores.
+
+91
+00:09:02,500 --> 00:09:04,510
+Si hacemos un default
+
+92
+00:09:07,480 --> 00:09:17,110
+de por ejemplo cadenas de texto string y accedemos a un valor que no existe por defecto nos devuelve
+
+93
+00:09:17,140 --> 00:09:19,000
+una cadena de texto vacía.
+
+94
+00:09:19,240 --> 00:09:26,320
+Fijaros tenemos ahí el algo que acabamos de acceder y ha creado con un valor vacío y intentásemos crear
+
+95
+00:09:27,550 --> 00:09:28,800
+foldit.
+
+96
+00:09:29,680 --> 00:09:39,880
+Pero por ejemplo Objet que es la clase de padre de todas las clases de Python intentamos acceder a una
+
+97
+00:09:39,880 --> 00:09:44,000
+clave a un objeto de este diccionario de objetos.
+
+98
+00:09:44,320 --> 00:09:49,120
+Lo que tenemos es un objeto un objeto de tipo genérico vale.
+
+99
+00:09:49,480 --> 00:09:56,010
+Y si lo mostrase contenido pues tendríamos tipo de objeto que podría ser también un objeto que nosotros
+
+100
+00:09:56,080 --> 00:09:59,780
+hayamos declarado antes definido con una clase.
+
+101
+00:10:00,100 --> 00:10:02,580
+Y como aquí veis pues el objeto en sí.
+
+102
+00:10:02,770 --> 00:10:16,300
+La clave que acabamos de acceder sin tetas hemos crear un diccionario por defecto de enteros Hint intentásemos
+
+103
+00:10:16,510 --> 00:10:21,420
+dar por ejemplo un valor algo que no es un entero.
+
+104
+00:10:21,610 --> 00:10:28,010
+Por ejemplo diez coma cinco qué pasará que habrá en algo.
+
+105
+00:10:28,890 --> 00:10:30,400
+Pues como veis no le afecta.
+
+106
+00:10:30,410 --> 00:10:37,240
+O sea lo único que le afecta es este valor por defecto inicial que establecería porque se intenta acceder
+
+107
+00:10:37,240 --> 00:10:38,890
+a algo más algo más.
+
+108
+00:10:38,890 --> 00:10:43,450
+Otra clave ahí se ha creado con el valor cero por defecto.
+
+109
+00:10:43,450 --> 00:10:45,090
+Como veis aquí.
+
+110
+00:10:45,790 --> 00:10:48,450
+O sea que realmente no hay límites.
+
+111
+00:10:48,460 --> 00:10:51,050
+Simplemente es el valor por defecto pero es flexible.
+
+112
+00:10:51,070 --> 00:10:55,150
+No hace falta que todos los elementos del diccionario sean del mismo tipo.
+
+113
+00:10:55,180 --> 00:10:56,210
+Muy bien.
+
+114
+00:10:56,210 --> 00:11:01,420
+Y otro de los problemas que tienen los diccionarios es que son colecciones desordenadas ya sabéis que
+
+115
+00:11:01,510 --> 00:11:05,760
+si creamos varios elementos igual se nos muestran como les dé la gana.
+
+116
+00:11:05,770 --> 00:11:13,090
+Por ejemplo al crear una serie de números en un diccionario por ejemplo vamos a decir que es un diccionario
+
+117
+00:11:13,090 --> 00:11:17,800
+con números en castellano y en inglés uno en inglés sería
+
+118
+00:11:20,680 --> 00:11:22,660
+el 2.
+
+119
+00:11:23,430 --> 00:11:35,660
+En inglés sería tú y el 3 por ejemplo sería Sweep 1 2 3.
+
+120
+00:11:36,610 --> 00:11:41,290
+Qué pasaría si mostramos todos los elementos del diccionario.
+
+121
+00:11:41,950 --> 00:11:44,910
+Como veis dos o tres.
+
+122
+00:11:44,960 --> 00:11:45,720
+1.
+
+123
+00:11:45,780 --> 00:11:48,240
+O sea está totalmente desordenado.
+
+124
+00:11:48,610 --> 00:11:56,020
+Bueno pues existe una colección que son los ordered TIC que nos permiten crear diccionarios conservando
+
+125
+00:11:56,020 --> 00:12:00,350
+el orden en el que nosotros vamos almacenando los elementos o los vamos creando.
+
+126
+00:12:00,370 --> 00:12:09,160
+Fijaros from Collections import ordered Dic.
+
+127
+00:12:11,100 --> 00:12:20,250
+Vamos a volver a crear el diccionario de antes pero esta vez de tipo ordered y vamos a añadir pues el
+
+128
+00:12:20,270 --> 00:12:28,160
+1 voy a ponerlo rápido así el 1 2 y el 3 lo copio.
+
+129
+00:12:29,070 --> 00:12:33,400
+Y ahora qué pasaría si mostramos el contenido de nuestro diccionario ordenado.
+
+130
+00:12:34,130 --> 00:12:39,470
+Como veis primero el 1 luego el 2 y luego el 3.
+
+131
+00:12:39,510 --> 00:12:45,330
+Lo único que debéis tener en cuenta con estos diccionarios ordenados es que no son equivalentes como
+
+132
+00:12:45,330 --> 00:12:50,700
+serían por ejemplo dos diccionarios con los mismos elementos aunque estén desordenados como subnormales.
+
+133
+00:12:50,700 --> 00:12:52,290
+En realidad son iguales.
+
+134
+00:12:52,380 --> 00:13:00,180
+Fijaros vamos a crear un diccionario N1 y vamos a añadir a N1 por ejemplo.
+
+135
+00:13:02,120 --> 00:13:02,970
+Hola.
+
+136
+00:13:03,170 --> 00:13:04,360
+Bueno lo mismo que antes.
+
+137
+00:13:04,390 --> 00:13:13,150
+Vamos a copiar lo de arriba así digamos que este diccionario 1 tiene el 1 y el 2 añadidos así por orden
+
+138
+00:13:13,150 --> 00:13:20,840
+primero lo uno y luego 2 y luego tendríamos un diccionario n-ii donde primero añadiríamos el 2.
+
+139
+00:13:20,850 --> 00:13:24,800
+Fijaros lo corto lo pongo delante y luego añadimos el 1.
+
+140
+00:13:25,120 --> 00:13:26,170
+De acuerdo.
+
+141
+00:13:26,170 --> 00:13:33,730
+Si comparamos el diccionario uno con el diccionario 2 n 1 es igual que n 2 nos dice que sí.
+
+142
+00:13:34,090 --> 00:13:40,360
+Pese a que son distintos o sea distintos tienen los elementos desordenados pero como ya son desordenados
+
+143
+00:13:40,360 --> 00:13:42,760
+por defecto en realidad son equivalentes.
+
+144
+00:13:42,790 --> 00:13:46,660
+En cambio si hacemos lo mismo pero los creamos como ordutik
+
+145
+00:13:49,770 --> 00:13:53,060
+fijaros voy a cambiarlo también abajo.
+
+146
+00:13:54,170 --> 00:13:55,400
+Los voy a volver a crear.
+
+147
+00:13:55,430 --> 00:13:57,950
+Y ahora voy a volver a compararlos.
+
+148
+00:13:58,160 --> 00:14:01,990
+En uno es igual que n-ii nos dice que no.
+
+149
+00:14:02,300 --> 00:14:07,360
+Claro porque en el caso de los diccionarios ordenados estamos hablando de dos objetos distintos.
+
+150
+00:14:07,370 --> 00:14:11,230
+Porque si se tiene en cuenta el orden y por tanto son diferentes.
+
+151
+00:14:11,420 --> 00:14:17,950
+Y por último la última colección que quiero tratar son las tuplas con nombres las named tuplas.
+
+152
+00:14:18,220 --> 00:14:23,520
+Cómo sabéis una tupla utiliza índices numéricos para acceder a los alimentos igual que las listas.
+
+153
+00:14:23,630 --> 00:14:32,840
+Tenemos una dupla declarada así inmutable 20 40 y 60 por ejemplo si queremos acceder al primer elemento
+
+154
+00:14:32,840 --> 00:14:34,030
+pues pondríamos un 0.
+
+155
+00:14:34,340 --> 00:14:39,000
+Si queremos acceder al último elemento un acuerdo como las listas.
+
+156
+00:14:39,410 --> 00:14:45,390
+Ahora bien en algunas ocasiones quizá nos interesa crear una estructura inmutable con distintos campos.
+
+157
+00:14:46,350 --> 00:14:51,530
+Las tuplas con nombres nos permiten definir estas pequeñas estructuras con nombre y distintos campos
+
+158
+00:14:51,530 --> 00:14:52,790
+propios.
+
+159
+00:14:52,790 --> 00:14:57,380
+Al final tendríamos algo parecido a objetos con sus campos pero solo con la propiedad inmutable de las
+
+160
+00:14:57,380 --> 00:14:58,770
+tuplas.
+
+161
+00:14:58,820 --> 00:15:01,730
+Por ejemplo from Collections.
+
+162
+00:15:04,530 --> 00:15:14,580
+Importa meta Apple y vamos a crear primero una estructura llamada persona que sea unánime.
+
+163
+00:15:14,740 --> 00:15:16,420
+Lo vamos a hacer así.
+
+164
+00:15:18,160 --> 00:15:26,890
+Con esta sintaxis y vamos a indicar que tenemos dentro de esta tupla con nombre persona que es el nombre
+
+165
+00:15:26,890 --> 00:15:29,080
+que tendrán esta tuplas se llamará persona.
+
+166
+00:15:29,080 --> 00:15:35,320
+Los elementos que iremos creando es como si estuviéramos creando una definición de clase pero mucho
+
+167
+00:15:35,320 --> 00:15:36,670
+más sencilla.
+
+168
+00:15:37,100 --> 00:15:44,250
+Y dentro de persona tendríamos el nombre espacio un apellido espacio y una edad.
+
+169
+00:15:44,680 --> 00:15:45,460
+Vale.
+
+170
+00:15:45,830 --> 00:15:51,910
+Bueno pues si esto es un tupla con nombre ahora podemos utilizar esta definición de persona que tenemos
+
+171
+00:15:51,910 --> 00:15:52,550
+aquí.
+
+172
+00:15:53,440 --> 00:16:04,480
+Para crear una persona por ejemplo igual persona y aquí le diríamos nombre igual lector apellido igual
+
+173
+00:16:04,720 --> 00:16:08,020
+Costa da igual.
+
+174
+00:16:08,110 --> 00:16:09,540
+27.
+
+175
+00:16:10,250 --> 00:16:24,240
+Y fijaros nombre Hector apellido costa edad 27 y qué es exactamente.
+
+176
+00:16:24,440 --> 00:16:31,340
+Pues es una tupla con nombre una persona nombre apellido y edad.
+
+177
+00:16:33,640 --> 00:16:45,850
+Podríamos acceder a los campos por el mismo orden PCero Hector P1 costa y el último campo de tupla con
+
+178
+00:16:45,900 --> 00:16:53,260
+nombre 27. que es la peculiaridad y claramente esto no lo tienen en los objetos pero las tuplas con
+
+179
+00:16:53,260 --> 00:16:55,400
+nombres sí en fin.
+
+180
+00:16:55,420 --> 00:17:01,790
+Es como unas clases muy sencillitas muy sencillitas para guardar información estructurada inmutable
+
+181
+00:17:01,800 --> 00:17:09,820
+y esto no se puede cambiar una vez se ha establecido el valor porque si intentas cambiar el nombre pues
+
+182
+00:17:10,420 --> 00:17:13,950
+como veis intentará poner de nombre otra cosa.
+
+183
+00:17:14,080 --> 00:17:22,510
+O nunca lo hiciera así pues me daría error porque una tupla una vez se ha declarado inmutable de acuerdo.
+
+184
+00:17:22,510 --> 00:17:27,670
+Así que ya veis que no tienen mucha complicación no pueden hacer servicio para pruebas rápidas y con
+
+185
+00:17:27,670 --> 00:17:29,820
+esto acabamos esta lección.

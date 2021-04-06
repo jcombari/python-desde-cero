@@ -1,0 +1,383 @@
+1
+00:00:00,670 --> 00:00:03,240
+Muy bien vamos a echar un vistazo a Júpiter.
+
+2
+00:00:03,250 --> 00:00:06,220
+No voy a abrir el notebook.
+
+3
+00:00:06,240 --> 00:00:08,090
+Tengo aquí un acceso directo a la carpeta.
+
+4
+00:00:08,080 --> 00:00:09,130
+Voy a contarlo.
+
+5
+00:00:11,210 --> 00:00:12,470
+Y ya lo tengo abierto.
+
+6
+00:00:13,340 --> 00:00:18,500
+El notebook de Júpiter es un entorno donde podemos crear bloc de notas con ejemplos y apuntes de Python.
+
+7
+00:00:18,710 --> 00:00:24,130
+Se organizan ficheros llamados bloc de notas y lo que tenemos a simple vista es un explorador donde
+
+8
+00:00:24,200 --> 00:00:26,160
+podemos gestionar carpetas y blogs.
+
+9
+00:00:26,870 --> 00:00:28,710
+Todas estas fases son las carpetas.
+
+10
+00:00:28,790 --> 00:00:31,250
+También está la carpeta que creamos llamadas.
+
+11
+00:00:32,840 --> 00:00:34,400
+Cómo Este curso está ya preparado.
+
+12
+00:00:34,410 --> 00:00:40,800
+Podemos navegar cómodamente por los directorios que corresponden a las fases y unidades o temas.
+
+13
+00:00:40,800 --> 00:00:44,920
+En ellos encontraréis cuando sea necesario un blog Pacio para cada elección.
+
+14
+00:00:44,920 --> 00:00:47,520
+Pensado para que tomes vuestros propios apuntes.
+
+15
+00:00:47,520 --> 00:00:53,460
+Y si lo necesitáis también encontraréis un directorio apuntes con mis propios apuntes para cada lección
+
+16
+00:00:54,090 --> 00:00:56,150
+para que veáis en profundidad el funcionamiento.
+
+17
+00:00:56,160 --> 00:01:02,520
+Podemos crear un fichero bloc de notas vamos a ir a la raíz del clic en esta casita y vamos a crear
+
+18
+00:01:02,930 --> 00:01:03,840
+aquí en New.
+
+19
+00:01:04,740 --> 00:01:08,140
+Un notebook con un bloc de notas para Payton 3.
+
+20
+00:01:08,480 --> 00:01:10,890
+Cada bloc de notas está estructurado en células.
+
+21
+00:01:10,890 --> 00:01:17,640
+Esto es una celda las celdas pueden ejecutar códigos o simplemente mostrar información en la parte superior
+
+22
+00:01:17,670 --> 00:01:20,100
+podemos indicar el tipo de celda que queremos.
+
+23
+00:01:20,100 --> 00:01:27,570
+Por defecto está marcada code código pero también podemos poner por ejemplo Mark Down RAW jogging gidi
+
+24
+00:01:28,590 --> 00:01:34,620
+vamos a poner por ejemplo el lenguaje marrodán para esta celda una celda de tipo markaida Aún nos permite
+
+25
+00:01:34,620 --> 00:01:36,990
+escribir texto en este lenguaje de marcado.
+
+26
+00:01:37,080 --> 00:01:42,810
+Sirve para tomar apuntes y documentar es muy sencillo por ejemplo un título se escribe con una línea
+
+27
+00:01:42,870 --> 00:01:45,250
+y una almohadilla delante.
+
+28
+00:01:45,390 --> 00:01:53,370
+Esto es una prueba para confirmar el contenido de esta celda pulsamos la combinación Swift más entera.
+
+29
+00:01:54,150 --> 00:02:01,480
+Hoy tenemos una celda podemos modificarla haciendo doble clic en ella como veis y podremos seguir escribiendo.
+
+30
+00:02:01,500 --> 00:02:05,670
+Esto es un título en marcha.
+
+31
+00:02:06,710 --> 00:02:08,450
+Voy a volver a confirmar.
+
+32
+00:02:09,580 --> 00:02:16,180
+Tengo el Smart Down cada almohadilla extra indica un nivel de subtítulo se volverá a hacer clic encima
+
+33
+00:02:16,680 --> 00:02:19,140
+y algunos saltos de línea.
+
+34
+00:02:19,180 --> 00:02:24,200
+Esto es un sub título en Marc.
+
+35
+00:02:24,880 --> 00:02:31,290
+Como veis evidentemente podemos escribir más contenido por ejemplo un simple Parágrafo.
+
+36
+00:02:31,870 --> 00:02:39,870
+Esto es un texto para un parágrafo en marcha.
+
+37
+00:02:41,050 --> 00:02:46,110
+Si queréis poner un texto en cursiva Podéis ponerlo alrededor de un asterisco.
+
+38
+00:02:46,210 --> 00:02:55,420
+Esto es un texto en cursiva Así entre dos asteriscos uno a cada lado.
+
+39
+00:02:56,260 --> 00:03:03,190
+Como veis si queréis hacer un salto de línea tendréis que poner aquí un salto de línea vacío y ejemplo
+
+40
+00:03:03,250 --> 00:03:07,870
+si queréis poner un texto en negrita tendréis que ponerlo entre dos asteriscos.
+
+41
+00:03:08,110 --> 00:03:16,960
+Esto es un texto en negrita Así que como veis esta es una forma muy interesante de tomar vuestros propios
+
+42
+00:03:16,960 --> 00:03:21,220
+apuntes mientras vamos a estar ejecutando nuestro código en Python.
+
+43
+00:03:21,730 --> 00:03:28,670
+Si queréis aprender más sobre Mark Town YouTube está repleto de tutoriales pero centrándonos en lo importante
+
+44
+00:03:28,810 --> 00:03:34,330
+las celdas también pueden contener instrucciones en Python por ejemplo vamos a introducir una instrucción
+
+45
+00:03:34,330 --> 00:03:35,230
+en esta celda.
+
+46
+00:03:35,350 --> 00:03:41,680
+Nos vamos a asegurar que está marcado Code arriba y vamos a escribir aquel PIN Hola Mundo que hicimos
+
+47
+00:03:41,740 --> 00:03:44,480
+en el clip aquí.
+
+48
+00:03:44,650 --> 00:03:45,430
+Hola mundo.
+
+49
+00:03:45,660 --> 00:03:49,620
+Y ahora vamos a ejecutarlo Suit enter y nos ha devuelto.
+
+50
+00:03:49,660 --> 00:03:50,690
+Hola mundo.
+
+51
+00:03:51,010 --> 00:03:57,100
+Como podéis ver trabajar desde aquí es muy cómodo y deja constancia de los cambios que estamos haciendo.
+
+52
+00:03:57,100 --> 00:04:02,240
+Podríamos seguir escribiendo comentarios con instrucciones y quedarían ejecutadas en otras líneas.
+
+53
+00:04:03,010 --> 00:04:07,270
+Cada bloc de notas es en realidad una sección independiente del intérprete de Python.
+
+54
+00:04:07,280 --> 00:04:12,750
+Como cuando escribimos Payton en la terminal pero presentado de una forma mucho más manejable y cómoda.
+
+55
+00:04:13,090 --> 00:04:15,550
+Fijaros que nos indica.
+
+56
+00:04:15,970 --> 00:04:22,300
+Y entre unos corchetes uno esto hace referencia a un comando introducido por nosotros y a la primera
+
+57
+00:04:22,300 --> 00:04:29,950
+línea que hemos escrito en el intérprete de Jupiter podemos introducir otra aquí bajo por ejemplo Prin.
+
+58
+00:04:32,220 --> 00:04:40,670
+Es una instrucción que muestra texto por pantalla hummus a confirmar.
+
+59
+00:04:41,430 --> 00:04:44,120
+Y como veis se ejecuta en una nueva línea.
+
+60
+00:04:44,160 --> 00:04:47,660
+La segunda vez que hemos introducido código en nuestro intérprete.
+
+61
+00:04:49,010 --> 00:04:53,140
+Todo lo que vamos ejecutando queda guardado en la memoria del intérprete.
+
+62
+00:04:53,180 --> 00:04:54,930
+Pero eso lo veremos más adelante.
+
+63
+00:04:55,070 --> 00:05:00,500
+Por ahora simplemente Fijaros que podemos ejecutar otra vez una línea por ejemplo haciendo clic encima
+
+64
+00:05:00,500 --> 00:05:01,360
+de ella.
+
+65
+00:05:01,370 --> 00:05:04,390
+De esta forma o la primera Hola mundo.
+
+66
+00:05:04,390 --> 00:05:10,880
+Y volviendo a apretar Swiss Center y como veis se ha ejecutado de nuevo este comando pero una nueva
+
+67
+00:05:10,880 --> 00:05:15,460
+línea es decir estéticamente hemos perdido la primera vez que lo hemos hecho.
+
+68
+00:05:15,470 --> 00:05:19,720
+Ya no hay constancia en nuestro notebook pero tenemos la que acabamos de ejecutar.
+
+69
+00:05:20,030 --> 00:05:26,210
+Por último vamos a echar un vistazo a los menús la barra de iconos que está aquí nos permite manipular
+
+70
+00:05:26,210 --> 00:05:30,670
+nuestro bloc de notas desde guardarlo manualmente.
+
+71
+00:05:30,680 --> 00:05:31,620
+De esta forma.
+
+72
+00:05:32,780 --> 00:05:35,430
+Insertar celdas podemos insertar una celda.
+
+73
+00:05:35,630 --> 00:05:36,590
+De esta forma.
+
+74
+00:05:38,100 --> 00:05:40,090
+Cortarlas podríamos cortarla.
+
+75
+00:05:41,010 --> 00:05:47,680
+Para pegarla o copiarla en otro sitio también podemos mover una celda arriba y abajo de esta forma.
+
+76
+00:05:49,780 --> 00:05:55,630
+Con las dos flechas arriba y abajo y luego tenemos para ejecutar la célula actual en este botón daki
+
+77
+00:05:56,380 --> 00:06:00,500
+por ejemplo teniendo seleccionada esta celda voy a ejecutarla de nuevo.
+
+78
+00:06:01,840 --> 00:06:07,900
+Equivale al switch Center y también tenemos la posibilidad de interrumpir el kernel es decir detener
+
+79
+00:06:07,900 --> 00:06:10,480
+el intérprete para interrumpir la ejecución de la celda actual.
+
+80
+00:06:10,480 --> 00:06:15,050
+Imaginaros que hemos creado aquí un proceso que estaba mucho rato ejecutándose y queremos pararlo pues
+
+81
+00:06:15,100 --> 00:06:18,030
+lo haríamos con este stop con este icono.
+
+82
+00:06:18,370 --> 00:06:21,840
+Y por último tenemos la opción de reiniciar el kernel.
+
+83
+00:06:22,210 --> 00:06:24,680
+Si hacemos clic aparece un mensaje.
+
+84
+00:06:25,360 --> 00:06:31,630
+Para asegurarnos de lo que estamos haciendo equivaldría a cerrar la terminal si reiniciamos el kernel
+
+85
+00:06:31,640 --> 00:06:36,500
+todas las líneas que hemos ejecutado no serán tomadas en cuenta y comenzaremos de nuevo.
+
+86
+00:06:36,550 --> 00:06:39,260
+Podéis probarlo haciendo aquí un restart.
+
+87
+00:06:40,340 --> 00:06:46,130
+Y si ejecutamos esta línea la primera del notebook que era la tercera que habíamos introducido en el
+
+88
+00:06:46,130 --> 00:06:48,170
+intérprete vamos a ejecutarla.
+
+89
+00:06:48,530 --> 00:06:50,530
+Como veis vuelve a ser la primera línea.
+
+90
+00:06:51,220 --> 00:06:56,870
+Por cierto Fijaros que automáticamente ya no se guarda el bloc de notas cada vez que realizamos un cambio.
+
+91
+00:06:56,980 --> 00:07:04,060
+Es bastante cómodo y si queremos borrar un bloc tendríamos que volver a la raíz que ya se queda abierta
+
+92
+00:07:04,060 --> 00:07:10,370
+en una nueva pestaña y por ejemplo seleccionarlo apretar la basura y a borrarlo.
+
+93
+00:07:11,370 --> 00:07:15,510
+En fin no os preocupéis si no habéis entendido algo porque todo esto lo iremos practicando a lo largo
+
+94
+00:07:15,510 --> 00:07:16,460
+del curso.
+
+95
+00:07:16,500 --> 00:07:20,980
+Lo importante es que ahora ya tenemos nuestro entorno y sabemos más o menos cómo funciona el notebook
+
+96
+00:07:21,210 --> 00:07:24,360
+así que estamos oficialmente listos para comenzar a aprender Python.

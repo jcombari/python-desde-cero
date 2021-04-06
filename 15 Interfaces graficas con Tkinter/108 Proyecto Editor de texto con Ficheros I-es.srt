@@ -1,0 +1,359 @@
+1
+00:00:00,980 --> 00:00:04,610
+Bueno pues la idea que he tenido es crear un pequeño editor de texto.
+
+2
+00:00:04,790 --> 00:00:10,690
+Este será nuestro proyecto y una forma de trabajar en conjunto varios de los widgets que hemos ido aprendiendo.
+
+3
+00:00:10,700 --> 00:00:13,930
+Lo primero es tener claro el diseño del programa que vamos a crear.
+
+4
+00:00:14,040 --> 00:00:18,830
+Aparte del menú superior para gestionar las funcionalidades nos viene como anillo al dedo un widget
+
+5
+00:00:18,830 --> 00:00:24,560
+Text para manejar todo el contenido todo el texto así que vamos a comenzar por crear esta estructura.
+
+6
+00:00:24,560 --> 00:00:31,750
+Tengo preparado un fichero editor punto Pi aquí en la carpeta de siempre y vamos a trabajar un poco.
+
+7
+00:00:31,880 --> 00:00:40,190
+Vamos a comenzar añadiendo un título a nuestra raíz titel mi editor voy a ponerle este nombre vosotros
+
+8
+00:00:40,190 --> 00:00:42,690
+podéis poner el nombre al editor que vosotros queráis.
+
+9
+00:00:42,710 --> 00:00:48,510
+Yo lo voy a llamar así y vamos a comenzar creando un menú superior típico menú superior.
+
+10
+00:00:48,530 --> 00:00:55,700
+Vamos a permitir crear nuevos ficheros de texto abrir un fichero de texto Guardar Guardar como y luego
+
+11
+00:00:55,700 --> 00:01:01,420
+salir así que vamos a comenzar creando un menú bar como vimos en la elección anterior.
+
+12
+00:01:01,690 --> 00:01:15,500
+En los menús vamos a añadirlo a root vamos a crear un file menú menú lugar Tear para desactivar aquella
+
+13
+00:01:15,500 --> 00:01:27,590
+especie de línea que nos aparecía y vamos a añadir unos comandos File menú Add Command Label nuevo voy
+
+14
+00:01:27,590 --> 00:01:28,760
+a copiar esto.
+
+15
+00:01:29,120 --> 00:01:31,720
+Una dos tres veces.
+
+16
+00:01:32,000 --> 00:01:37,960
+Vamos a añadir un separador File menu al separador
+
+17
+00:01:41,240 --> 00:01:47,230
+y aquí pondremos una de salirse para salir del editor salir.
+
+18
+00:01:47,450 --> 00:01:53,820
+Esta será abrir guardar y guardar.
+
+19
+00:01:53,850 --> 00:01:58,720
+Como ya sabéis las típicas opciones que tenemos siempre.
+
+20
+00:01:58,730 --> 00:02:05,100
+Por ejemplo también en este editor el sublime crear un fichero abrirlo guardar o guardar cómo guasave
+
+21
+00:02:05,180 --> 00:02:09,020
+as vamos a añadir directamente a salir.
+
+22
+00:02:09,050 --> 00:02:20,230
+Aquel comando que sabemos que podemos ejecutar desde root kit para salir y vamos a añadir al menú bar.
+
+23
+00:02:20,970 --> 00:02:26,550
+Este menú Cascade File menú
+
+24
+00:02:29,350 --> 00:02:43,230
+con menú así y le vamos a poner un label un título que va a ser archivo tal cual no muy bien vamos a
+
+25
+00:02:43,230 --> 00:02:46,770
+ver cómo queda por ahora y.
+
+26
+00:02:48,410 --> 00:02:54,290
+Recordad que tenemos que añadir a Rut el menú bar por ejemplo.
+
+27
+00:02:54,410 --> 00:02:59,210
+Justo al final root config meluk del lugar.
+
+28
+00:02:59,480 --> 00:03:06,350
+Si no no nos va a parecer vamos a ejecutarlo y ahí tenemos nuestro archivo nuevo abrir guardar guardar
+
+29
+00:03:06,380 --> 00:03:07,300
+como salir.
+
+30
+00:03:10,080 --> 00:03:20,330
+Ahora vamos a añadir una caja de texto central vamos a añadir aquí por ejemplo caja de texto central.
+
+31
+00:03:22,410 --> 00:03:31,880
+Al crear un widget de tipo texto lo vamos a añadir en root y vamos a hacer un pack y vamos a hacer que
+
+32
+00:03:31,880 --> 00:03:32,610
+ocupe.
+
+33
+00:03:33,440 --> 00:03:40,820
+El tamaño de la raíz que vamos a hacer un Phill voz Os acordáis de lo que hacía y lo vamos a expandir
+
+34
+00:03:40,840 --> 00:03:43,930
+expand igual a 1 y Igual a truck.
+
+35
+00:03:44,570 --> 00:03:53,270
+Y ahora vamos a añadir una configuración por ejemplo voy a añadir un borde de cero píxeles y voy a añadir
+
+36
+00:03:53,270 --> 00:04:00,740
+un padi padín X por ejemplo de 6 píxeles y un pudín y griega de por ejemplo 4 píxeles.
+
+37
+00:04:00,750 --> 00:04:09,470
+Y a continuación una fuente por ejemplo una de mis fuentes favoritas consolas con un tamaño de 12 píxeles
+
+38
+00:04:09,470 --> 00:04:10,070
+por ejemplo.
+
+39
+00:04:10,080 --> 00:04:15,080
+Este será el tamaño que tendrá nuestro editor el texto en nuestro editor.
+
+40
+00:04:15,170 --> 00:04:18,660
+Vale vamos a ver como queda.
+
+41
+00:04:19,190 --> 00:04:24,960
+A ver me descuidada aquí poner entre comillas voz.
+
+42
+00:04:24,980 --> 00:04:31,970
+Como veis ya tenemos aquí lo que sería nuestro editor el menú arriba y dentro pues un editor de texto
+
+43
+00:04:32,470 --> 00:04:40,260
+con la fuente consolas por defecto que podemos seleccionar y trabajar con este texto.
+
+44
+00:04:40,430 --> 00:04:45,380
+También he pensado que de cara a abrir y guardar ficheros estaría bien tener una especie de monitores
+
+45
+00:04:45,400 --> 00:04:50,720
+la parte inferior como este que tenemos aquí en sublime la parte inferior a la izquierda tenemos una
+
+46
+00:04:50,720 --> 00:04:56,450
+especie de monitor donde podemos ver lo que estamos haciendo pues nuestros podríamos mostrar un poco
+
+47
+00:04:56,450 --> 00:05:01,250
+de información sobre lo que está ocurriendo por ejemplo cuando hemos abierto un fichero en caso de que
+
+48
+00:05:01,250 --> 00:05:07,940
+se abra pudiera mostrarse abierto un fichero o información sobre si se acaba de guardar o acaba de guardar
+
+49
+00:05:07,940 --> 00:05:08,360
+como.
+
+50
+00:05:08,360 --> 00:05:11,730
+Cosas así podemos hacerlo creando una gabel.
+
+51
+00:05:11,930 --> 00:05:13,160
+Vamos a crear una Label
+
+52
+00:05:15,720 --> 00:05:18,420
+bramar monitor inferior.
+
+53
+00:05:19,880 --> 00:05:32,840
+Pero vamos a quererla como monitor del robot y vamos a añadir un texto a recordar con Tex barrera una
+
+54
+00:05:32,840 --> 00:05:36,670
+variable que podríamos ir modificando para cambiar el contenido de una Label.
+
+55
+00:05:36,890 --> 00:05:44,110
+Así que vamos a crear un text bar una variable de texto string bar llamada mensaje.
+
+56
+00:05:44,420 --> 00:05:50,030
+De esta forma por defecto le vamos a dar el texto inicial que estará mostrando el monitor la parte de
+
+57
+00:05:50,030 --> 00:05:50,720
+abajo.
+
+58
+00:05:50,870 --> 00:06:02,640
+Podría ser por ejemplo con un set Bienvenido a tu editor por ejemplo y ahora vamos a añadir a teclear
+
+59
+00:06:03,170 --> 00:06:06,440
+el mensaje y lo vamos a justificar.
+
+60
+00:06:06,800 --> 00:06:09,350
+No sé si haría falta pero por si acaso.
+
+61
+00:06:09,350 --> 00:06:10,560
+A la izquierda.
+
+62
+00:06:16,210 --> 00:06:20,990
+Por último vamos a empacar este monitor en el rud.
+
+63
+00:06:22,540 --> 00:06:28,330
+A la izquierda también soy igual de acuerdo.
+
+64
+00:06:28,330 --> 00:06:34,210
+Vamos a ver cómo queda y como veis ahora tenemos a parte del contenido que tenemos aquí bajo una especie
+
+65
+00:06:34,210 --> 00:06:38,980
+de monitor que no os va a permitir mostrar un poco de información sobre lo que está ocurriendo y esto
+
+66
+00:06:38,980 --> 00:06:43,660
+es un toque bastante interesante para vuestros programas.
+
+67
+00:06:43,660 --> 00:06:44,610
+Muy bien.
+
+68
+00:06:45,010 --> 00:06:46,480
+Ya tenemos el diseño base.
+
+69
+00:06:46,510 --> 00:06:51,460
+Ahora toca la lógica vamos a identificar bien todas las funciones que tendrá nuestro editor de texto
+
+70
+00:06:51,550 --> 00:06:55,490
+y podemos mostrar un mensaje utilizando nuestro monitor.
+
+71
+00:06:56,280 --> 00:07:04,680
+Vamos a tener por ejemplo la función nuevo abrir guardar y guardar como no sea que en total tenemos
+
+72
+00:07:04,680 --> 00:07:06,050
+cuatro funciones.
+
+73
+00:07:06,180 --> 00:07:08,950
+Vamos a crearlas arriba del todo.
+
+74
+00:07:09,630 --> 00:07:17,190
+Podemos definirlas una supuesta función o comando que será para nuevo lo que haremos es mostrar un mensaje
+
+75
+00:07:18,300 --> 00:07:19,100
+en el monitor.
+
+76
+00:07:19,110 --> 00:07:22,440
+Set nuevo fichero.
+
+77
+00:07:22,850 --> 00:07:26,140
+Luego haremos más cosas pero por ahora vamos a dejarlo así.
+
+78
+00:07:26,310 --> 00:07:37,110
+También vamos a crear una que será la de abrir otra la de guardar y otra la de guardar como abrir guardar
+
+79
+00:07:38,970 --> 00:07:39,950
+y guardar.
+
+80
+00:07:40,250 --> 00:07:51,530
+Cómo va a poner así este sería abrir fichero guardar fichero y la de abajo del todo guardar ficheros
+
+81
+00:07:51,540 --> 00:07:56,120
+COM para mostrar un poco de retroalimentación.
+
+82
+00:07:57,000 --> 00:08:03,120
+Pues bien ahora vamos a enlazarlas a los comandos del menú.
+
+83
+00:08:03,930 --> 00:08:09,420
+Igual nuevo Abril coman igual abrir
+
+84
+00:08:13,230 --> 00:08:21,750
+guardar como al igual guardar y la última coman igual guardar barra baja.
+
+85
+00:08:21,750 --> 00:08:29,490
+Como muy bien vamos a probar cómo queda esto y teóricamente cuando apliquemos alguna de estas opciones
+
+86
+00:08:29,490 --> 00:08:36,650
+en la parte inferior debería de actualizarse nuestro monitor nuevo fichero abrir fichero guardar y guardar
+
+87
+00:08:36,660 --> 00:08:37,560
+como muy bien.
+
+88
+00:08:37,560 --> 00:08:38,680
+Ya tenemos aquí.
+
+89
+00:08:39,580 --> 00:08:43,120
+Un poco la implementación de nuestras funciones básicas.
+
+90
+00:08:43,870 --> 00:08:47,740
+Ahora nos falta implementar de verdad la lógica de las funciones.

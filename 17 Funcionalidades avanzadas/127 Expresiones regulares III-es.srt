@@ -1,0 +1,659 @@
+1
+00:00:00,490 --> 00:00:06,650
+Bien ya hemos visto cómo trabajar las repeticiones o utilizando meta caracteres y también rangos.
+
+2
+00:00:07,550 --> 00:00:09,250
+De repeticiones.
+
+3
+00:00:09,720 --> 00:00:14,540
+Ahora vamos a intentar crear patrones con distintos caracteres.
+
+4
+00:00:15,510 --> 00:00:21,170
+Esto lo podemos hacer definiendo los caracteres en un conjunto entre paréntesis.
+
+5
+00:00:21,960 --> 00:00:26,910
+Vamos a seguir con el ejemplo que tenemos aquí pero vamos a adaptarlo un poco.
+
+6
+00:00:26,940 --> 00:00:38,670
+En esta ocasión vamos a buscar por ejemplo las palabras aula en la isla ola y la vamos a borrar estos
+
+7
+00:00:38,670 --> 00:00:40,720
+patrones.
+
+8
+00:00:41,370 --> 00:00:46,040
+Imaginar qué queremos buscar las palabras que sean Hola.
+
+9
+00:00:46,600 --> 00:00:49,000
+Hola cómo lo haríamos.
+
+10
+00:00:49,000 --> 00:00:57,330
+Pues entre corchetes definiríamos todas las letras que queremos buscar que serían por ejemplo la o y
+
+11
+00:00:57,330 --> 00:00:57,940
+la.
+
+12
+00:00:58,940 --> 00:01:07,280
+Y luego la buscamos y nos puskás Todas las que tengan una o con una.
+
+13
+00:01:07,670 --> 00:01:09,200
+Y luego la.
+
+14
+00:01:09,350 --> 00:01:11,310
+También podríamos por ejemplo buscar.
+
+15
+00:01:12,660 --> 00:01:16,910
+Todas las que tengan una a una y con una.
+
+16
+00:01:17,670 --> 00:01:20,890
+Y luego la hala.
+
+17
+00:01:20,930 --> 00:01:22,020
+Y Hola.
+
+18
+00:01:22,790 --> 00:01:24,750
+O Imaginaros que queremos buscar
+
+19
+00:01:27,270 --> 00:01:29,120
+todas la jaula.
+
+20
+00:01:29,260 --> 00:01:30,610
+Ahí la hay.
+
+21
+00:01:30,930 --> 00:01:32,140
+Y luego la.
+
+22
+00:01:32,660 --> 00:01:36,710
+Pues aquí tenemos con todas las vocales.
+
+23
+00:01:37,490 --> 00:01:42,430
+Evidentemente podemos trabajar las repeticiones también en conjunto.
+
+24
+00:01:43,830 --> 00:01:48,970
+Por ejemplo vamos a readaptar este código vamos a buscar las palabras.
+
+25
+00:01:52,470 --> 00:02:00,510
+Con treses y con cuatro hijos por ejemplo y HOLA.
+
+26
+00:02:01,110 --> 00:02:03,250
+Con 5 euros vamos a borrarla.
+
+27
+00:02:05,020 --> 00:02:13,690
+Y vamos a borrar los patrones de entrada por ejemplo podemos buscar si hay alguna palabra que tenga
+
+28
+00:02:13,690 --> 00:02:18,150
+una o una E por ejemplo y luego.
+
+29
+00:02:18,490 --> 00:02:20,030
+Como veis no tenemos ninguna.
+
+30
+00:02:21,040 --> 00:02:26,170
+Pero si hacemos esto una a una e.
+
+31
+00:02:27,040 --> 00:02:33,630
+Repetida cero o más veces con el asterisco y luego la.
+
+32
+00:02:35,380 --> 00:02:41,540
+Esto de aquí equivale a una letra y aquí tenemos la repetición que indica cero o más repeticiones de
+
+33
+00:02:41,540 --> 00:02:43,390
+una de estas posibilidades.
+
+34
+00:02:43,520 --> 00:02:48,460
+Como realmente tenemos dos veces y tres veces.
+
+35
+00:02:49,770 --> 00:02:54,170
+Este patrón se encuentra y nos encuentra estas dos palabras.
+
+36
+00:02:54,360 --> 00:03:04,320
+Incluso también podríamos poner color o Ila con una y con una o que se repitan por ejemplo con un rango
+
+37
+00:03:04,950 --> 00:03:09,180
+de entre 3 y 9 veces por ejemplo.
+
+38
+00:03:09,630 --> 00:03:13,710
+Y luego también con rangos.
+
+39
+00:03:13,740 --> 00:03:23,230
+Como veis no se encuentra entre 3 y 9 repeticiones con la i y la que tenemos en este conjunto.
+
+40
+00:03:23,550 --> 00:03:30,090
+También es importante comentar la exclusión en grupo por ejemplo.
+
+41
+00:03:31,020 --> 00:03:38,840
+Volviendo al ejemplo de arriba que tenemos con las cinco vocales a la cola y ovula
+
+42
+00:03:41,520 --> 00:03:47,030
+Imaginaros que buscamos cuando se encuentre cola con un ojo.
+
+43
+00:03:47,160 --> 00:03:50,640
+De esta forma sólo se encuentra una vez.
+
+44
+00:03:51,370 --> 00:03:58,110
+Pues podemos utilizar el operador de exclusión para indicar la búsqueda totalmente contraria es decir
+
+45
+00:03:59,310 --> 00:04:10,590
+de esta forma y dentro del conjunto una exclusión que es la especie está de acento.
+
+46
+00:04:10,590 --> 00:04:19,920
+Se llama CentOS circunflejo y lo podéis poner con la combinación Swift apretando la tecla donde aparezca
+
+47
+00:04:19,920 --> 00:04:22,620
+este carácter y luego un espacio.
+
+48
+00:04:22,960 --> 00:04:26,390
+Es como un acento y ahora negamos.
+
+49
+00:04:26,520 --> 00:04:33,270
+De esta forma y seguimos con la ahora estamos negando y estamos diciendo que busque todas las que no
+
+50
+00:04:33,270 --> 00:04:37,450
+sea la o cualquier letra que no sea buena o mala.
+
+51
+00:04:37,560 --> 00:04:42,060
+Y la ayuda es un ejemplo de exclusión.
+
+52
+00:04:42,120 --> 00:04:46,160
+En realidad es lo contrario de lo que estamos pasando aquí.
+
+53
+00:04:46,170 --> 00:04:52,010
+Otra característica que hace ultra potentes a los grupos es la capacidad de definir rangos por ejemplo
+
+54
+00:04:52,010 --> 00:04:57,630
+el rango azeta mayúscula que hace referencia a cualquier carácter alfabético en mayúscula que no sean
+
+55
+00:04:57,630 --> 00:05:00,340
+caracteres especiales ni números.
+
+56
+00:05:00,390 --> 00:05:05,730
+El rango acepta minúscula donde hacemos referencia a cualquier carácter alfabético en minúscula que
+
+57
+00:05:05,730 --> 00:05:13,230
+no sea especial ni número el rango hace tan mayúscula hace tan minúscula haciendo referencia a cualquier
+
+58
+00:05:13,230 --> 00:05:17,150
+carácter alfabético en minúscula o mayúscula que no sea especial ni número.
+
+59
+00:05:18,250 --> 00:05:23,290
+Lo mismo se puede simplificar en mayúscula hasta Z minúscula.
+
+60
+00:05:23,290 --> 00:05:31,490
+Luego tenemos el rango 0 9 para hacer referencia a cualquier número que no sean ni especiales.
+
+61
+00:05:32,240 --> 00:05:40,240
+Ni caracteres alfabéticos y el rango hace también escuela acepta mayúscula 0 9.
+
+62
+00:05:40,850 --> 00:05:46,730
+Para hacer referencia a cualquier carácter alfanumérico especial tened en cuenta que cualquier rango
+
+63
+00:05:46,730 --> 00:05:50,030
+puede ser excluido para conseguir el patrón contrario.
+
+64
+00:05:50,030 --> 00:05:52,190
+Vamos a adaptar un texto
+
+65
+00:05:55,170 --> 00:06:01,180
+Hola hola con la que sea un cero.
+
+66
+00:06:02,830 --> 00:06:03,100
+Hola.
+
+67
+00:06:03,100 --> 00:06:04,590
+Con la H mayúscula.
+
+68
+00:06:05,230 --> 00:06:15,990
+Mola mola que sea un cero mola colado que sea un cero y la minúscula.
+
+69
+00:06:19,460 --> 00:06:30,240
+Vamos a buscar unos patrones como siempre con nuestra función de buscar patrones texto y fijaros.
+
+70
+00:06:32,340 --> 00:06:34,620
+Si queremos buscar.
+
+71
+00:06:36,030 --> 00:06:36,640
+Hola.
+
+72
+00:06:37,900 --> 00:06:41,390
+Cualquier carácter de la A la Z.
+
+73
+00:06:43,170 --> 00:06:44,980
+Dónde está la.
+
+74
+00:06:46,080 --> 00:06:47,910
+Pues no se encuentra uno.
+
+75
+00:06:49,140 --> 00:06:50,170
+El Holan normal.
+
+76
+00:06:51,680 --> 00:06:53,480
+Si buscamos por ejemplo.
+
+77
+00:06:55,200 --> 00:06:57,180
+Una H.
+
+78
+00:06:57,490 --> 00:06:59,440
+Un número que vaya de 0 a 9.
+
+79
+00:06:59,920 --> 00:07:03,410
+Y luego ella no se encuentra únicamente.
+
+80
+00:07:04,310 --> 00:07:05,120
+Aquí.
+
+81
+00:07:08,650 --> 00:07:12,630
+Otro ejemplo y esto es interesante.
+
+82
+00:07:14,020 --> 00:07:21,780
+Cualquier carácter de a la Z desde las mayúsculas minúsculas es decir cualquier carácter mayúscula minúscula
+
+83
+00:07:22,700 --> 00:07:25,000
+pero que se repita cuatro veces.
+
+84
+00:07:25,480 --> 00:07:26,850
+Fijaros que tenemos.
+
+85
+00:07:27,340 --> 00:07:27,950
+Hola.
+
+86
+00:07:28,910 --> 00:07:31,700
+En minúscula por la cola H mayúscula y mola.
+
+87
+00:07:31,910 --> 00:07:40,310
+Pero claro si pusiéramos aquí cualquier cosa que fueran cuatro letras aunque fueran mayúsculas también
+
+88
+00:07:40,430 --> 00:07:42,100
+concuerda este patrón.
+
+89
+00:07:45,330 --> 00:07:49,080
+Y uno todavía más rebuscado.
+
+90
+00:07:49,080 --> 00:07:57,670
+Una mayúscula de la A a la Z en mayúscula y luego de la mayúscula a la Z minúscula.
+
+91
+00:07:58,990 --> 00:08:06,150
+O un número es decir cualquier alfanumérico que se repita tres veces seguidas.
+
+92
+00:08:07,810 --> 00:08:08,890
+Qué nos deja.
+
+93
+00:08:09,300 --> 00:08:09,900
+Hola.
+
+94
+00:08:10,690 --> 00:08:18,010
+Y mola comenzando en mayúscula indiferentemente los caracteres que sean por tanto si ponemos cualquier
+
+95
+00:08:18,400 --> 00:08:26,580
+carácter en mayúscula y luego aunque pusiéramos tres números o tres caracteres.
+
+96
+00:08:27,590 --> 00:08:34,130
+También cumple con este patrón claro está que si cada vez que quisiéramos definir un patrón variable
+
+97
+00:08:34,130 --> 00:08:40,610
+tuviéramos que crear estos rangos al final tendríamos expresiones regulares gigantescas y por suerte
+
+98
+00:08:40,910 --> 00:08:45,490
+su sintaxis también acepta una serie de caracteres escapados que tienen un significado único.
+
+99
+00:08:45,590 --> 00:08:53,870
+Algunos de los más importantes son el barra de que significa un numérico el barra de mayúscula no numérico
+
+100
+00:08:54,640 --> 00:08:57,640
+el barra s que es un espacio en blanco.
+
+101
+00:08:58,020 --> 00:09:04,820
+El barra S mayúscula que indica un espacio en blanco es decir cualquier cosa que no sea un espacio El
+
+102
+00:09:04,820 --> 00:09:07,940
+barra W para hacer referencia a un alfanumérico.
+
+103
+00:09:09,010 --> 00:09:12,590
+Barra W mayúscula para hacer referencia a un no alfanumérico.
+
+104
+00:09:14,150 --> 00:09:19,070
+El problema que encontraremos en Payton a la hora de definir código escapado es que las cadenas no tienen
+
+105
+00:09:19,070 --> 00:09:21,030
+en cuenta la barra invertida.
+
+106
+00:09:21,260 --> 00:09:28,040
+A no ser que especifique que son cadenas en crudo de tipo RAW por lo que tendremos que decidir las expresiones
+
+107
+00:09:28,040 --> 00:09:30,810
+regulares con una R.
+
+108
+00:09:31,010 --> 00:09:32,890
+Vamos a hacer un texto.
+
+109
+00:09:34,220 --> 00:09:41,550
+Este curso de Python se publicó en el año 2000.
+
+110
+00:09:41,570 --> 00:09:42,570
+16.
+
+111
+00:09:45,240 --> 00:09:51,310
+Vamos a definir unos patrones y a buscarlos utilizando códigos capado.
+
+112
+00:09:53,420 --> 00:10:02,930
+Por ejemplo recordar poner la expresión regular en crudo con la erre delante y vamos a buscar allí donde
+
+113
+00:10:02,930 --> 00:10:03,860
+se encuentre.
+
+114
+00:10:04,700 --> 00:10:06,230
+Un numérico.
+
+115
+00:10:07,480 --> 00:10:08,360
+Qué tenemos.
+
+116
+00:10:08,380 --> 00:10:14,590
+Un solo numérico nos encuentra los cuatro números 2 0 1 y 6.
+
+117
+00:10:14,680 --> 00:10:15,800
+Aquí os tenemos.
+
+118
+00:10:17,120 --> 00:10:19,010
+Ahora bien si pusiéramos.
+
+119
+00:10:20,480 --> 00:10:28,930
+En crudo numéricos que se repitan una o más veces con un más.
+
+120
+00:10:28,940 --> 00:10:32,000
+Aquí tenemos el 2016 entero.
+
+121
+00:10:32,000 --> 00:10:33,630
+Por qué se tienen que repetir.
+
+122
+00:10:34,540 --> 00:10:38,010
+Una o más veces esta cadena de números.
+
+123
+00:10:38,350 --> 00:10:43,280
+Imaginaros que buscamos el lugar de numéricos no numéricos.
+
+124
+00:10:43,330 --> 00:10:45,560
+Barra de mayuscula.
+
+125
+00:10:46,420 --> 00:10:48,780
+Aquí tenemos todas las letras.
+
+126
+00:10:50,590 --> 00:10:51,910
+Contando espacios.
+
+127
+00:10:52,780 --> 00:10:54,390
+Pero los números no.
+
+128
+00:10:54,730 --> 00:11:03,400
+En cambio si le pusiéramos no numéricos al menos se repitan una vez.
+
+129
+00:11:03,400 --> 00:11:04,590
+Lo que tenemos es.
+
+130
+00:11:05,580 --> 00:11:07,680
+Toda la cadena.
+
+131
+00:11:08,040 --> 00:11:13,620
+Si pusiéramos por ejemplo a un número a quien medio este curso de 2000 Payton por ejemplo.
+
+132
+00:11:13,620 --> 00:11:17,270
+O mejor dicho este curso de Payton 3 Vamos a ponerlo así.
+
+133
+00:11:17,280 --> 00:11:20,540
+Mirad lo que no encuentra en este caso.
+
+134
+00:11:21,520 --> 00:11:25,030
+Ya no es una sola cadena desde el principio.
+
+135
+00:11:25,060 --> 00:11:29,690
+Hasta dónde llega el 2016 y no una cadena hasta el 3.
+
+136
+00:11:29,930 --> 00:11:33,010
+Y desde el 3 hasta el 2016.
+
+137
+00:11:34,850 --> 00:11:40,420
+Si buscas semos un patrón con los espacios en blanco barra.
+
+138
+00:11:44,520 --> 00:11:46,550
+Nos cuenta todos los espacios que tenemos.
+
+139
+00:11:46,550 --> 00:11:50,940
+En el texto uno dos tres cuatro etcétera.
+
+140
+00:11:51,020 --> 00:11:53,120
+Aquí los tenemos todos.
+
+141
+00:11:53,220 --> 00:11:59,300
+En cambio si le dijésemos con las s mayúsculas que son no espacios en blanco.
+
+142
+00:11:59,310 --> 00:12:06,650
+Fijaros lo que pasará que nos muestran todas las letras y números pero los espacios en blanco no.
+
+143
+00:12:08,420 --> 00:12:14,450
+Si le dijese exactamente lo mismo pero que se repita una o más veces.
+
+144
+00:12:15,440 --> 00:12:21,660
+Estos espacios en blanco lo que conseguimos es las palabras.
+
+145
+00:12:21,830 --> 00:12:36,180
+Si le indicamos los alfanuméricos con un w.h que tenemos todos los caracteres sin importar si son números.
+
+146
+00:12:36,680 --> 00:12:48,620
+Si le dije hacemos esto mismo pero uno más repeticiones que tenemos las palabras igual que antes.
+
+147
+00:12:48,950 --> 00:12:56,820
+Es decir esto es equivalente al ese más que nos buscaba los espacios en blanco.
+
+148
+00:12:56,840 --> 00:12:58,490
+Que se repitan más de una vez.
+
+149
+00:12:58,760 --> 00:13:00,750
+Pues aquí tenemos lo mismo.
+
+150
+00:13:01,490 --> 00:13:02,600
+Y por último.
+
+151
+00:13:05,080 --> 00:13:11,710
+G.w no alfanuméricos que nos encontrarã los espacios en blanco.
+
+152
+00:13:13,300 --> 00:13:17,670
+Y si lo pusiéramos que se repitiesen una o más veces.
+
+153
+00:13:19,310 --> 00:13:22,210
+Nos encontrará exactamente lo mismo.
+
+154
+00:13:22,460 --> 00:13:22,820
+Por qué.
+
+155
+00:13:22,820 --> 00:13:30,900
+Porque los espacios son una o más veces siempre a no ser que pusiéramos muchos espacios en algún lugar.
+
+156
+00:13:30,920 --> 00:13:40,280
+De esta forma entonces como veis también se detectarían éstos pero en el caso anterior sin más sólo
+
+157
+00:13:40,310 --> 00:13:44,870
+se detectaban los que eran un espacio por separado cada uno.
+
+158
+00:13:44,930 --> 00:13:47,920
+Y aquí se buscan también en conjunto.
+
+159
+00:13:48,200 --> 00:13:51,070
+En fin por mi parte vamos a dejarlo aquí.
+
+160
+00:13:51,380 --> 00:13:56,950
+Ya os digo que el mundo de las expresiones regulares es gigantesco y darían para un curso entero.
+
+161
+00:13:57,310 --> 00:14:03,290
+Yo os animo a seguir aprendiendo leyendo documentación y buscando ejemplos en los apuntes de esta lección
+
+162
+00:14:03,290 --> 00:14:08,370
+encontraréis una serie de enlaces que quizá os pueden servir aunque están en inglés.
+
+163
+00:14:08,690 --> 00:14:10,610
+Y con esto acabamos esta unidad.
+
+164
+00:14:10,610 --> 00:14:15,740
+Espero que os haya gustado que hayáis aprendido muchas cosas y recordad que practicando por vuestra
+
+165
+00:14:15,740 --> 00:14:18,120
+cuenta es como más vais a aprender.

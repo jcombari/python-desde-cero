@@ -1,0 +1,107 @@
+1
+00:00:00,390 --> 00:00:05,070
+Recapitulando Hasta ahora sabemos que la programación informática es una herramienta que principalmente
+
+2
+00:00:05,070 --> 00:00:07,120
+sirve para manipular información.
+
+3
+00:00:07,470 --> 00:00:12,210
+Ya hemos visto algunos tipos de datos que plasman esa información y a partir de ahora vamos a ir descubriendo
+
+4
+00:00:12,210 --> 00:00:15,760
+las distintas instrucciones que nos servirán para realizar toda la magia.
+
+5
+00:00:16,970 --> 00:00:21,650
+En esta unidad vamos a comenzar con los operadores y por tanto es fundamental que tengamos claro qué
+
+6
+00:00:21,650 --> 00:00:23,280
+entendemos por un operador.
+
+7
+00:00:24,050 --> 00:00:27,520
+Formalmente los operadores son aplicaciones cãlculos.
+
+8
+00:00:27,560 --> 00:00:32,990
+Si quieres llamarlo así que se llevan a cabo sobre dos argumentos conocidos como operándose.
+
+9
+00:00:33,170 --> 00:00:38,120
+Lo interesante viene ahora y es que este conjunto que forman los operándose y la operación se denomina
+
+10
+00:00:38,210 --> 00:00:39,100
+expresión.
+
+11
+00:00:40,390 --> 00:00:46,510
+Al sumar restar dividir multiplicar todas estas expresiones tienen algo en común y es que sus operadores
+
+12
+00:00:46,570 --> 00:00:50,310
+son operadores aritméticos que sirven para trabajar con números.
+
+13
+00:00:50,500 --> 00:00:55,800
+Así que podríamos decir que si utilizamos operadores aritméticos tenemos expresiones aritméticas.
+
+14
+00:00:56,050 --> 00:01:02,540
+Eso es cierto con un pequeño matiz primero si ambos operandos o literales son expresiones aritméticas
+
+15
+00:01:03,100 --> 00:01:09,880
+pero si al menos uno de esos operandos es una variable numérica entonces tenemos una expresión algebraica
+
+16
+00:01:10,270 --> 00:01:11,170
+Por qué.
+
+17
+00:01:11,170 --> 00:01:13,030
+Porque el propio resultado es variable.
+
+18
+00:01:13,150 --> 00:01:19,330
+Es una incógnita y si el álgebra sirve para algo es precisamente para trabajar con incógnitas.
+
+19
+00:01:19,540 --> 00:01:24,310
+Solo con esto dicho si nos tomamos un momento para volver a nuestro programa de cabecera encontraremos
+
+20
+00:01:24,310 --> 00:01:32,080
+un par de expresiones algebraicas por ejemplo tenemos el módulo y también tenemos una suma.
+
+21
+00:01:32,110 --> 00:01:36,940
+Parece mentira que en este pequeño código haya nada más y nada menos que dos expresiones os hacéis una
+
+22
+00:01:36,940 --> 00:01:38,750
+idea de cuán importantes son.
+
+23
+00:01:39,250 --> 00:01:41,560
+Pues en realidad hay el doble 4.
+
+24
+00:01:41,620 --> 00:01:46,740
+Aunque claro las otras dos no son algebraicas son expresiones relacionales.
+
+25
+00:01:46,800 --> 00:01:51,850
+El más pequeño que el igual si hay más tipos de expresiones.
+
+26
+00:01:51,850 --> 00:01:56,620
+Pero para poder entenderlas tenemos que conocer un nuevo tipo de dato muy especial y vamos a empezar
+
+27
+00:01:56,620 --> 00:01:57,530
+por ahí.

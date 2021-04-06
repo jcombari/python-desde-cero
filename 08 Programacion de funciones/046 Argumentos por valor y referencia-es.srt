@@ -1,0 +1,219 @@
+1
+00:00:01,080 --> 00:00:06,810
+Si hablamos de paso de argumentos tenemos que tener algo presente cuando veíamos información a una función.
+
+2
+00:00:06,810 --> 00:00:09,910
+Generalmente estos datos se envían por valor.
+
+3
+00:00:09,960 --> 00:00:14,910
+Eso significa que se crea una copia dentro de la función de los valores que enviamos en sus propias
+
+4
+00:00:14,910 --> 00:00:16,140
+variables.
+
+5
+00:00:16,140 --> 00:00:17,800
+Pero hay un caso excepcional.
+
+6
+00:00:18,060 --> 00:00:21,200
+Las colecciones listas diccionarios conjuntos.
+
+7
+00:00:21,300 --> 00:00:23,910
+Estos datos se envían por referencia.
+
+8
+00:00:23,910 --> 00:00:25,030
+Qué significa esto.
+
+9
+00:00:25,140 --> 00:00:31,740
+Pues que en lugar de una copia dentro de la función estaremos manejando al dato original y si los modificamos.
+
+10
+00:00:31,740 --> 00:00:34,660
+Estos cambios también se verán reflejados en el exterior.
+
+11
+00:00:34,690 --> 00:00:39,350
+Por qué hacen referencia a la variable externa como una especie de acceso directo.
+
+12
+00:00:39,420 --> 00:00:45,030
+Vamos a abrir la Lección 5 y vamos a ver una demostración de lo que estoy explicando.
+
+13
+00:00:45,030 --> 00:00:49,970
+Un ejemplo de paso por valor tradicional de doblar valor.
+
+14
+00:00:50,460 --> 00:00:59,450
+Le enviamos una variable un parámetro que es un número y este número lo vamos a multiplicar por dos.
+
+15
+00:01:00,000 --> 00:01:02,180
+Si creamos la variable n con el valor 10.
+
+16
+00:01:03,760 --> 00:01:11,070
+Hacemos doblar valor de la N y volvemos a mostrar el valor de n.
+
+17
+00:01:11,500 --> 00:01:13,020
+Seguimos teniendo 10.
+
+18
+00:01:13,240 --> 00:01:13,660
+Por qué.
+
+19
+00:01:13,660 --> 00:01:20,770
+Por qué lo pasamos por valor y el número en realidad es una copia del número externo pero no le afecta
+
+20
+00:01:20,770 --> 00:01:22,260
+nada de lo que hagamos dentro.
+
+21
+00:01:24,560 --> 00:01:33,920
+Por tanto la sigue valiendo 10 aunque haya hecho doblar valor en cambio imagina lo siguiente una lista
+
+22
+00:01:34,490 --> 00:01:47,400
+de doblar valores y recibimos una lista de números dentro vamos a hacer un fork y n el número y no el
+
+23
+00:01:47,930 --> 00:01:54,130
+numerador de los números y ahora vamos a cambiar sus valores por dos.
+
+24
+00:01:54,140 --> 00:02:03,550
+Vamos a multiplicar los números y suma perdón multiplicación en la asignación por dos igual que antes.
+
+25
+00:02:04,330 --> 00:02:13,560
+Y ahora vamos a crear una lista de números N.S. por ejemplo con un diez un cincuenta y un cien.
+
+26
+00:02:13,580 --> 00:02:22,130
+Ahora si hacemos doblar valores le enviamos esta lista y mostramos la lista.
+
+27
+00:02:22,340 --> 00:02:24,740
+Lo que tenemos es la lista doblada.
+
+28
+00:02:24,980 --> 00:02:27,280
+Aparentemente funciona igual que antes.
+
+29
+00:02:27,280 --> 00:02:33,460
+Es decir estamos pasando el número o los números la variable normal o la lista.
+
+30
+00:02:34,280 --> 00:02:36,800
+Lo único que estamos haciendo es multiplicar su valor.
+
+31
+00:02:38,010 --> 00:02:42,410
+Sin embargo la lista los cambios se ven reflejados en el exterior.
+
+32
+00:02:43,210 --> 00:02:45,050
+Y con un número normal.
+
+33
+00:02:45,760 --> 00:02:52,180
+Eso es como ya he dicho porque las listas se pasan por referencia hacen referencia a la variable original
+
+34
+00:02:52,540 --> 00:02:58,820
+mientras que los números y otros tipos más simples se pasan directamente por valor.
+
+35
+00:02:58,840 --> 00:03:00,870
+Se copia dentro y listo.
+
+36
+00:03:01,300 --> 00:03:07,630
+Entonces la pregunta es Es posible de alguna forma indicar a Payton cuando queremos pasar un argumento
+
+37
+00:03:07,630 --> 00:03:09,720
+por valor o referencia.
+
+38
+00:03:10,270 --> 00:03:13,520
+Y la respuesta es que no directamente no se puede.
+
+39
+00:03:13,540 --> 00:03:20,650
+En otros lenguajes sí que se puede utilizando algo llamado punteros pero en Python no. Sin embargo podemos
+
+40
+00:03:20,650 --> 00:03:25,690
+utilizar trucos por ejemplo devolver el valor modificado dentro de la función y volverlo a asignar a
+
+41
+00:03:25,690 --> 00:03:27,530
+la variable imaginaria.
+
+42
+00:03:27,580 --> 00:03:34,360
+Volvemos a crear esta función y la vamos a volver a llamar pero esta vez lo que vamos a hacer es devolver
+
+43
+00:03:34,390 --> 00:03:40,730
+el resultado del número multiplicado por dos Return número 2.
+
+44
+00:03:41,470 --> 00:03:48,940
+Entonces podemos simplemente crear el número 10 como antes y volver a asignar a n.
+
+45
+00:03:49,430 --> 00:03:52,910
+Al hacer doblar valor la n.
+
+46
+00:03:53,280 --> 00:04:00,550
+De esta manera podemos doblar el valor correctamente y en el caso de una colección podemos evitar la
+
+47
+00:04:00,550 --> 00:04:03,200
+modificación directa creando una copia de la llamada.
+
+48
+00:04:03,310 --> 00:04:06,150
+Y eso con listas por ejemplo es muy fácil.
+
+49
+00:04:06,640 --> 00:04:14,500
+Lo único que tenemos que hacer en momento de llamarla es crear una copia y una copia la podemos crear
+
+50
+00:04:14,500 --> 00:04:22,350
+muy fácilmente refiriéndonos de esta forma a la propia lista poniendo esto aquí que recordáis que es
+
+51
+00:04:22,480 --> 00:04:29,770
+el phishing que indica que queremos devolver una su lista pero que irá desde el principio hasta el final
+
+52
+00:04:29,830 --> 00:04:33,850
+por defecto pero esto ya no será la propia lista sino que será una copia.
+
+53
+00:04:34,180 --> 00:04:41,590
+Al hacer esto nos vamos a ahorrar modificar o vamos a prevenir que dentro de la función se pueda modificar
+
+54
+00:04:42,160 --> 00:04:46,570
+la lista porque en realidad ya habremos enviado una copia de la lista original.
+
+55
+00:04:46,870 --> 00:04:51,800
+Por tanto tener presente paso por valor y paso por referencia.

@@ -1,0 +1,687 @@
+1
+00:00:01,800 --> 00:00:08,850
+Seguimos nuestro repaso de los widgets con los campos de texto las centrales que sirven generalmente
+
+2
+00:00:08,850 --> 00:00:10,990
+para que el usuario escriba un valor.
+
+3
+00:00:11,280 --> 00:00:16,440
+Sería una especie de puente que equivaldría a la función imput pero gráficamente lo bueno es que integra
+
+4
+00:00:16,440 --> 00:00:21,900
+muchos métodos que le permiten desde borrar el texto hasta desactivar el campo para que únicamente sirva
+
+5
+00:00:21,900 --> 00:00:24,230
+para mostrar una información.
+
+6
+00:00:24,720 --> 00:00:31,090
+Como veis tengo preparado un fichero entre punto Pi y simplemente Tengo una raíz creada.
+
+7
+00:00:31,440 --> 00:00:32,920
+Vamos a trabajar un poco.
+
+8
+00:00:33,120 --> 00:00:34,680
+Vamos a crear una entrada.
+
+9
+00:00:34,940 --> 00:00:45,190
+Vamos a llamarla Entry y vamos a crear un objeto de clase centric y vamos a crearlo dentro de esta forma.
+
+10
+00:00:45,350 --> 00:00:53,520
+Y ahora vamos a empaquetarlo en tripp para ejecutarlo para que veáis como se ve lo que tenemos aquí.
+
+11
+00:00:53,560 --> 00:00:58,160
+Pues es un pequeño campo que es aplicable si lo hacemos más grande.
+
+12
+00:00:58,230 --> 00:01:04,500
+Como veis tiene un fondo de color blanco y Podemos escribir un texto típico campo del texto que podemos
+
+13
+00:01:04,500 --> 00:01:07,760
+escribir seleccionar e incluso borrar el texto.
+
+14
+00:01:08,160 --> 00:01:13,620
+Bueno pues con esto podemos manejar información que el usuario nos dé.
+
+15
+00:01:14,810 --> 00:01:23,810
+Pero vamos a ver cómo por ejemplo podríamos alinear un poco distintos widgets por ejemplo una vela a
+
+16
+00:01:23,810 --> 00:01:27,550
+la izquierda para indicar información sobre el campo y nuestro campo.
+
+17
+00:01:27,560 --> 00:01:33,450
+A la derecha pues podríamos crear el bajo de nuestra entrada en nuestro campo de texto.
+
+18
+00:01:33,450 --> 00:01:43,670
+Una Label así Label le vamos a pasar root y vamos a pasarle el texto por ejemplo nombre vamos a indicar
+
+19
+00:01:43,670 --> 00:01:47,020
+que queremos escribir el nombre en este campo de texto.
+
+20
+00:01:47,180 --> 00:01:55,820
+Vamos a empaquetar y lo que tenemos es que como ya sabemos Pak nos posiciona automáticamente en cada
+
+21
+00:01:55,820 --> 00:02:03,060
+línea un elemento Por tanto esto no es muy correcto lo que podemos hacer es empaquetar pasarle USA y
+
+22
+00:02:03,620 --> 00:02:12,080
+por ejemplo decirle que la el entre el campo de texto lo escriba o lo muestre a la derecha.
+
+23
+00:02:12,230 --> 00:02:13,720
+De esta forma right.
+
+24
+00:02:15,020 --> 00:02:19,210
+Y Label a la izquierda la F.
+
+25
+00:02:19,430 --> 00:02:26,480
+De esta forma como veis ya tenemos aquí nombre y podríamos escribir nuestro nombre sería como un campo
+
+26
+00:02:26,480 --> 00:02:27,710
+de un formulario.
+
+27
+00:02:28,190 --> 00:02:29,090
+Como veis.
+
+28
+00:02:31,400 --> 00:02:36,720
+Lo malo es que si intentamos crear más etiquetas y cambios estos se van a posicionar muy mal.
+
+29
+00:02:37,000 --> 00:02:39,430
+Veréis si copio todo lo que tengo.
+
+30
+00:02:39,440 --> 00:02:42,240
+Intento crear un campo de texto 2 y una a la vez.
+
+31
+00:02:42,260 --> 00:02:43,200
+2.
+
+32
+00:02:43,520 --> 00:02:48,090
+Ahora intento poner aquí por ejemplo apellidos el lugar de el nombre.
+
+33
+00:02:48,230 --> 00:02:49,670
+Si lo ejecutamos.
+
+34
+00:02:49,850 --> 00:02:51,770
+Fijaros lo que tengo aquí.
+
+35
+00:02:51,890 --> 00:02:53,780
+Esto se muestra muy mal.
+
+36
+00:02:54,110 --> 00:02:59,750
+Simplemente no se puede trabajar porque no sabemos exactamente cuál es el campo del cual podemos suponer
+
+37
+00:02:59,750 --> 00:03:06,760
+que nombre es el primero y apellido será el segundo pero esto no se puede mostrar así.
+
+38
+00:03:06,890 --> 00:03:13,490
+Cómo sabemos que intenta posicionar automáticamente los elementos y alinearlos con los parámetros y
+
+39
+00:03:13,500 --> 00:03:17,480
+Anchor pero en este caso no hay una distribución más allá de la alineación.
+
+40
+00:03:17,510 --> 00:03:18,850
+Por eso se ve mal.
+
+41
+00:03:19,280 --> 00:03:21,740
+Para solucionarlo podemos hacerlo de distintas formas.
+
+42
+00:03:21,740 --> 00:03:27,350
+Por ejemplo podemos crear dos marcos y añadir una etiqueta y un campo de texto en cada uno.
+
+43
+00:03:27,350 --> 00:03:34,810
+De esta forma el marco ahora de separador vamos a probarlo vamos a ir abajo y vamos a crear.
+
+44
+00:03:35,560 --> 00:03:45,800
+Un marco vamos a crear el marco uno arriba y el marco 2 donde los otros dos elementos freien 1.
+
+45
+00:03:45,860 --> 00:03:51,870
+Vamos a ponerlo así freie vamos a crear un frame dentro de rud.
+
+46
+00:03:51,960 --> 00:04:01,820
+De esta forma lo vamos a empacar Impact y crearemos la gentry y la Label dentro del free.
+
+47
+00:04:01,820 --> 00:04:11,720
+De esta forma de acuerdo a copiar este freehand y vamos a crear otro Free 2 bajo así vamos a empacar
+
+48
+00:04:11,720 --> 00:04:15,580
+lo íbamos a crearlas entre 2 y 2.
+
+49
+00:04:15,980 --> 00:04:23,770
+Dentro del Free 2 Si vamos a probar de ejecutarlo a ver qué sucede.
+
+50
+00:04:23,930 --> 00:04:27,710
+Como veis ahora como hemos creado dos marcos.
+
+51
+00:04:27,740 --> 00:04:30,000
+Estamos posicionando arriba un elemento.
+
+52
+00:04:31,230 --> 00:04:36,470
+Alineado también a la izquierda y a la derecha y abajo otros elementos a la izquierda de la derecha.
+
+53
+00:04:36,610 --> 00:04:39,870
+Pues digamos que los marcos sensaciónde separadores.
+
+54
+00:04:40,140 --> 00:04:46,360
+Sin embargo fijaros como las labels no parecen estar alineadas bien correctamente.
+
+55
+00:04:46,380 --> 00:04:50,580
+Fijaros que parece un poco más desplazada.
+
+56
+00:04:50,580 --> 00:04:53,940
+Claro eso es porque el texto del nombre y el apellido no ocupa lo mismo.
+
+57
+00:04:53,940 --> 00:04:59,160
+Podemos hacer un truco rápido añadiendo un par de espacios en el nombre Fijaros que harán que un par
+
+58
+00:04:59,160 --> 00:05:02,690
+de espacios así vamos a volver a ejecutarlo.
+
+59
+00:05:02,940 --> 00:05:06,810
+Como veis más o menos ahora queda un poco más alineado correctamente.
+
+60
+00:05:07,950 --> 00:05:10,150
+Pero el caso es que aún no acaba de salir bien.
+
+61
+00:05:10,260 --> 00:05:15,900
+Entonces cómo podemos posicionar bien estos widgets pero la respuesta es utilizando una disposición
+
+62
+00:05:15,900 --> 00:05:17,730
+automática en cuadrícula.
+
+63
+00:05:17,820 --> 00:05:23,320
+Otra de las formas de tequio ínter para distribuir automáticamente los widgets además del pack.
+
+64
+00:05:24,710 --> 00:05:33,620
+Y del plays tenemos también Grit que es cuadricula así que vamos a replantear todo esto vamos a imaginar
+
+65
+00:05:33,620 --> 00:05:34,750
+una cuadrícula.
+
+66
+00:05:35,830 --> 00:05:42,550
+Tenemos cuatro elementos por lo tanto tenemos dos filas y dos columnas en cada una de ellas.
+
+67
+00:05:42,790 --> 00:05:46,650
+Ya no necesitaríamos utilizar los frames vamos a borrarlos.
+
+68
+00:05:47,980 --> 00:05:53,840
+Los dos que tenemos llegamos a replantear la situación de la siguiente forma.
+
+69
+00:05:55,410 --> 00:06:00,720
+Arriba a la izquierda el nombre pondríamos el nombre al principio del todo.
+
+70
+00:06:01,770 --> 00:06:03,110
+Arriba a la derecha.
+
+71
+00:06:04,570 --> 00:06:07,270
+El campo de texto con el nombre.
+
+72
+00:06:07,270 --> 00:06:11,800
+Luego abajo a la izquierda el texto con el apellido.
+
+73
+00:06:12,190 --> 00:06:13,930
+Y abajo a la derecha.
+
+74
+00:06:13,930 --> 00:06:18,060
+El campo de texto para escribir los apellidos.
+
+75
+00:06:18,110 --> 00:06:20,010
+Pues bien ya lo tenemos ordenado.
+
+76
+00:06:20,170 --> 00:06:24,040
+Vamos a cambiar todos los frames por Ruto otra vez la raíz.
+
+77
+00:06:24,370 --> 00:06:28,200
+Y en esta ocasión vamos a cambiar el pack por hungry.
+
+78
+00:06:28,390 --> 00:06:35,250
+De esta forma vamos a posicionar en cuadricula y al posicionar en cuadrícula ya no podemos pasar el
+
+79
+00:06:35,310 --> 00:06:40,450
+seu pero podemos pasar dos campos ROU y Colón.
+
+80
+00:06:40,930 --> 00:06:44,360
+De esta forma ROU la fila.
+
+81
+00:06:44,410 --> 00:06:54,270
+Primer elemento primera fila primera columna comenzando por índices ceros racero con un cero a copiar.
+
+82
+00:06:55,070 --> 00:06:59,790
+Todo esto ya que estamos en el campo de texto que estará al lado del nombre.
+
+83
+00:07:00,070 --> 00:07:03,360
+Lo vamos a posicionar en la fila 1 que es la misma fila cero.
+
+84
+00:07:04,140 --> 00:07:07,660
+Pero en la segunda columna así columna 1.
+
+85
+00:07:09,610 --> 00:07:19,270
+La labels 2 será lo mismo pero la Grit estaría en la ROU 1 que vendría después de la primera columna
+
+86
+00:07:19,270 --> 00:07:23,710
+cero y la entrada la 1 y columna 1.
+
+87
+00:07:24,340 --> 00:07:26,190
+De esta forma si lo ejecutamos.
+
+88
+00:07:28,120 --> 00:07:29,940
+Parece que ha tenido un pequeño fallo.
+
+89
+00:07:29,990 --> 00:07:33,850
+Falta un puntito aquí vamos a ver si funciona.
+
+90
+00:07:34,190 --> 00:07:41,540
+Y fijaros que tenemos aquí una disposición donde está completamente alineado a la perfección a la izquierda
+
+91
+00:07:41,540 --> 00:07:42,550
+a la derecha.
+
+92
+00:07:43,380 --> 00:07:48,230
+Bien centrados y se ve perfecto y encima no tenemos que usar marcos.
+
+93
+00:07:49,880 --> 00:07:53,600
+De hecho de esta forma no importa cuán larga sea una Label Etiqueta.
+
+94
+00:07:53,710 --> 00:08:00,260
+Todo se posicionará siguiendo el orden de la cuadrícula y cada widget quedará perfectamente separado
+
+95
+00:08:00,260 --> 00:08:01,640
+de los otros.
+
+96
+00:08:02,250 --> 00:08:04,090
+Fijaros vamos a por aquí.
+
+97
+00:08:04,310 --> 00:08:06,260
+Nombre muy largo.
+
+98
+00:08:06,260 --> 00:08:14,900
+Para comprobar esto os digo voy a ejecutarlo y como veis se posiciona perfectamente también en el contenido.
+
+99
+00:08:14,900 --> 00:08:25,490
+Respetando el tamaño de los campos lo que pasa es que tenemos un problemita una formalidad y es que
+
+100
+00:08:25,490 --> 00:08:29,900
+las etiquetas no están justificadas al mismo lado o a lo mejor queríamos que estuvieran justificadas
+
+101
+00:08:29,900 --> 00:08:36,140
+a izquierda o a la derecha pegadas a las cajas de texto pero aquí es donde entran en juego un parámetro
+
+102
+00:08:36,140 --> 00:08:38,520
+llamado Sticky que significa pegado.
+
+103
+00:08:38,540 --> 00:08:43,800
+Qué tienen las Grit que tiene el método grip y que nos permite pegar.
+
+104
+00:08:46,190 --> 00:08:54,950
+El widget a un lado por ejemplo lo que queremos es que aparezcan a la derecha pegado apellidos que aparezca
+
+105
+00:08:55,100 --> 00:08:59,080
+justificado a la derecha y nombre también por lo que vamos a hacer.
+
+106
+00:08:59,990 --> 00:09:08,040
+Es poner el nombre y en el apellido un campo Sticky y vamos a pasar una orientación hay que pasarlo
+
+107
+00:09:08,340 --> 00:09:16,670
+en formato NW y ese norte sur este y oeste lo vamos a pegar.
+
+108
+00:09:18,040 --> 00:09:19,980
+A lo que no lo vamos a pegar al este.
+
+109
+00:09:20,910 --> 00:09:22,640
+Y el apellido también.
+
+110
+00:09:23,290 --> 00:09:30,130
+Cuando hacemos el clic vamos a ver cómo queda y cómo veis al pegarlo al este.
+
+111
+00:09:30,600 --> 00:09:37,740
+Se alinea perfectamente a la parte derecha justo donde están los campos si lo hubiéramos hecho al oeste
+
+112
+00:09:38,010 --> 00:09:40,430
+que es lo que pensaba al principio.
+
+113
+00:09:40,430 --> 00:09:42,540
+Tenemos lo mismo pero alineado a la izquierda.
+
+114
+00:09:42,570 --> 00:09:45,410
+Tenemos aquí un espacio en blanco que a lo mejor no nos queda bien.
+
+115
+00:09:45,540 --> 00:09:50,360
+Pero esto ya es cuestión de gustos a la hora de diseñar vosotros los formularios.
+
+116
+00:09:50,790 --> 00:09:56,640
+Incluso podríamos acabar de afinar la separación indicando un padín una especie de margende entre el
+
+117
+00:09:56,640 --> 00:09:59,400
+borde y el contenido en la Grit.
+
+118
+00:09:59,490 --> 00:10:05,790
+Aunque este parámetro está en todos los widgets podéis utilizarlo donde queráis vamos a verlo justamente
+
+119
+00:10:05,790 --> 00:10:07,790
+aquí en hacer el Grit.
+
+120
+00:10:08,310 --> 00:10:16,260
+Vamos a pasarle un padi X vamos a poner por ejemplo 5 píxeles y un pad y griega también de 5 píxeles
+
+121
+00:10:16,260 --> 00:10:17,540
+ya veréis lo que pasa.
+
+122
+00:10:17,760 --> 00:10:23,640
+Y esto lo vamos a copiar también en los campos de texto y en la otra a la vez y en el otro campo de
+
+123
+00:10:23,640 --> 00:10:24,400
+texto.
+
+124
+00:10:24,570 --> 00:10:28,950
+Así tenemos aquí los patines y fijaros lo que va a ocurrir.
+
+125
+00:10:29,700 --> 00:10:36,530
+Como veis ahora tenemos este margen de espacio entre el borde y el contenido de los widgets y no os
+
+126
+00:10:36,540 --> 00:10:39,040
+queda un poco más formal nos queda mejor.
+
+127
+00:10:40,080 --> 00:10:46,200
+Tenemos cinco píxeles por debajo de margen por la derecha y entre los propios campos también el de encima
+
+128
+00:10:46,200 --> 00:10:50,970
+tiene 5 píxeles por debajo y el de debajo también por encima.
+
+129
+00:10:50,970 --> 00:10:56,820
+Como veis estoy introduciendo conceptos poco a poco para no saturar demasiado y para acabar esta lección
+
+130
+00:10:56,820 --> 00:11:01,350
+os enseñaré algunos parámetros más de los campos de texto aparte de los decolorar o cambiar la fuente
+
+131
+00:11:01,350 --> 00:11:05,320
+que ya conocemos y que los campos también tienen.
+
+132
+00:11:05,340 --> 00:11:11,820
+Por ejemplo uno interesante es que fijaros que volver a abrirlo si escribimos un texto en un campo por
+
+133
+00:11:11,820 --> 00:11:15,180
+defecto sale justificado a la izquierda pues podemos cambiarlo.
+
+134
+00:11:15,180 --> 00:11:19,470
+Por ejemplo podemos hacer que el nombre salga justificado al centro también a la derecha.
+
+135
+00:11:19,680 --> 00:11:25,100
+Vamos a cambiar esto por ejemplo para Alcampo que estaría al lado del nombre.
+
+136
+00:11:25,310 --> 00:11:37,940
+Lo vamos a configurar Gentry config y les vamos a pasar un justificar a la derecha y el otro.
+
+137
+00:11:38,750 --> 00:11:45,550
+El Entry 2 que sería el de los apellidos lo vamos a justificar por ejemplo al centro Center por defecto
+
+138
+00:11:45,550 --> 00:11:48,400
+es left que a la izquierda vamos a ver como queda.
+
+139
+00:11:48,510 --> 00:11:49,740
+Nombre muy largo.
+
+140
+00:11:49,780 --> 00:11:57,190
+Como veis ahora este campo lo justificamos a la derecha y los apellidos los escribimos por el medio.
+
+141
+00:11:57,190 --> 00:12:02,530
+Otra cosa interesante es que podemos desactivar un campo por ejemplo imaginad que queremos desactivar
+
+142
+00:12:02,680 --> 00:12:05,910
+el nombre por un momento lo que podríamos hacer es.
+
+143
+00:12:06,640 --> 00:12:14,490
+Configurarlo para pasarle otro campo otro tributo a quien el config y vamos a hacer los siguientes Strait.
+
+144
+00:12:14,860 --> 00:12:19,540
+Por defecto tiene dos estados de sable desactivado o normal.
+
+145
+00:12:19,990 --> 00:12:26,780
+Por defecto podríamos poner que es deseable y esto significará que está desactivado o vamos a ejecutarlo.
+
+146
+00:12:28,000 --> 00:12:33,830
+Ahora no se puede explicar pero si hubiera un texto ya escrito al desactivarlo quedaría escrito.
+
+147
+00:12:33,880 --> 00:12:39,550
+Por tanto lo que haríamos es por un momento lo podríamos desactivar y luego dejar que el usuario siga
+
+148
+00:12:39,550 --> 00:12:40,580
+escribiendo.
+
+149
+00:12:40,660 --> 00:12:44,410
+En caso de activar alguna opción para que realmente puedas escribir aquí.
+
+150
+00:12:45,890 --> 00:12:51,950
+Si queremos volver a dejarlo normal podríamos normal o simplemente ahorrariamos el campo y hasta como
+
+151
+00:12:51,950 --> 00:12:52,540
+veis.
+
+152
+00:12:53,920 --> 00:12:58,300
+Otra cosa muy interesante Imaginaros que en lugar de leer unos apellidos lo que queremos leer es una
+
+153
+00:12:58,300 --> 00:13:00,790
+contraseña contraseña.
+
+154
+00:13:01,240 --> 00:13:05,860
+Claro qué problema tenemos que poniendo una contraseña se ve lo que estamos describiendo y a lo mejor
+
+155
+00:13:05,860 --> 00:13:11,050
+no nos interesa que la persona que está al lado de nuestro mirando sepa que estamos describiendo lo
+
+156
+00:13:11,050 --> 00:13:13,830
+que podemos hacer es configurar.
+
+157
+00:13:15,590 --> 00:13:21,980
+El campo de texto para mostrar un contenido distinto aunque en realidad no será el que está guardando.
+
+158
+00:13:22,030 --> 00:13:25,040
+Se va a mostrar un carácter especial.
+
+159
+00:13:25,090 --> 00:13:31,640
+Por ejemplo podríamos ponerlo aquí y lo pondríamos con este parámetro show mostrar y entre comillas
+
+160
+00:13:31,640 --> 00:13:33,750
+le diríamos por ejemplo mostrar un asterisco.
+
+161
+00:13:34,560 --> 00:13:35,780
+Vamos a probarlo.
+
+162
+00:13:35,890 --> 00:13:39,960
+Y ahora la contraseña si escribimos algo se muestra un asterisco pero realmente está almacenando un
+
+163
+00:13:39,960 --> 00:13:40,510
+texto.
+
+164
+00:13:40,520 --> 00:13:42,180
+O sea no hay ningún problema.
+
+165
+00:13:44,330 --> 00:13:49,610
+Si en lugar de un asterisco que mostrar no sé es un interrogante pues podríamos poner un interrogante
+
+166
+00:13:49,610 --> 00:13:51,570
+ahí no hay ningún problema.
+
+167
+00:13:51,590 --> 00:13:52,610
+Como veis.
+
+168
+00:13:53,680 --> 00:13:58,000
+Y así podemos prevenir que alguien sepa lo que estamos escribiendo.
+
+169
+00:13:58,360 --> 00:14:03,800
+Bueno hay muchos más atributos y campos para personalizar pero creo que estos son los más interesantes
+
+170
+00:14:04,240 --> 00:14:08,120
+y los que quizá pueden hacer el servicio más pronto.
+
+171
+00:14:08,120 --> 00:14:14,330
+Si os ponéis a hacer interfaces vamos a dejarlo aquí en esta lección y continuamos en la siguiente viendo
+
+172
+00:14:14,390 --> 00:14:15,710
+los textos.

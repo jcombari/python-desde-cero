@@ -1,0 +1,659 @@
+1
+00:00:00,690 --> 00:00:04,080
+Empezamos con las sentencias y iterativa sus bucles.
+
+2
+00:00:04,080 --> 00:00:10,370
+A partir de esta lección y qué significa iterar o qué es un bucle.
+
+3
+00:00:10,790 --> 00:00:15,180
+Pues iterar significa realizar una acción varias veces.
+
+4
+00:00:15,180 --> 00:00:20,220
+Esto es muy útil ya que nos permite sacar el máximo partido a la potencia de un ordenador.
+
+5
+00:00:20,220 --> 00:00:26,160
+Un ejemplo práctico Imaginad que tenemos una base de datos o un fichero con miles de registros y queremos
+
+6
+00:00:26,160 --> 00:00:30,450
+encontrar uno en especial para consultarlo.
+
+7
+00:00:30,450 --> 00:00:36,450
+Como no existe una forma mágica de encontrar algo directamente el ordenador al igual que nosotros tendrá
+
+8
+00:00:36,450 --> 00:00:43,710
+que comprobar los registros uno a uno hasta dar con el que busca iterando o repitiendo este proceso
+
+9
+00:00:43,710 --> 00:00:50,060
+desde el primero y comparando si es lo que queremos encontrar si no lo es.
+
+10
+00:00:50,090 --> 00:00:57,000
+Luego el segundo compararlo con algo que nosotros le hemos dicho y así sucesivamente hasta que encuentre
+
+11
+00:00:57,150 --> 00:00:59,760
+eso que nosotros estamos buscando.
+
+12
+00:00:59,760 --> 00:01:05,010
+Esta es la forma más rudimentaria y existen algoritmos que permiten al sistema ahorrarse muchísimas
+
+13
+00:01:05,010 --> 00:01:05,880
+iteraciones.
+
+14
+00:01:06,090 --> 00:01:09,750
+Pero en esencia se siguen recorriendo los registros de uno en uno.
+
+15
+00:01:09,750 --> 00:01:15,090
+La diferencia es que nosotros tardaríamos miles de horas en encontrar el registro y el ordenador apenas
+
+16
+00:01:15,090 --> 00:01:16,740
+una fracción de segundo.
+
+17
+00:01:16,830 --> 00:01:22,660
+Por eso decía aquello de aprovechar la potencia así que vamos a comenzar con la sentencia interactiva
+
+18
+00:01:22,680 --> 00:01:28,860
+más básica conocida como weill o el mientras en español y el propio nombre ya nos indica de alguna forma
+
+19
+00:01:28,860 --> 00:01:30,470
+lo que debe hacer.
+
+20
+00:01:30,660 --> 00:01:35,100
+Por lo tanto vamos a abrir la Lección 2 y vamos a comenzar a trabajarlo.
+
+21
+00:01:35,100 --> 00:01:41,100
+La clave del weil es que a partir de una expresión relacional o lógica de la misma forma en que trabajaba
+
+22
+00:01:41,100 --> 00:01:48,330
+una sentencia y es capaz de repetir un bloque de instrucciones siempre que éste devuelva truc nosotros
+
+23
+00:01:48,330 --> 00:01:52,360
+tendremos que encargarnos en algún momento de cambiar esta condición a false.
+
+24
+00:01:52,590 --> 00:01:57,450
+Para salir de la iteración o estaremos ante lo que se conoce como un bucle infinito.
+
+25
+00:01:57,540 --> 00:01:59,940
+Algo que no os recomiendo hacer.
+
+26
+00:02:00,660 --> 00:02:07,380
+Por ejemplo vamos a crear una variable y le vamos a dar el valor cero.
+
+27
+00:02:07,820 --> 00:02:14,810
+Ahora vamos a definir un bucle Weil una sentencia iterativa guay o mientras vamos a decirles mientras
+
+28
+00:02:14,860 --> 00:02:18,860
+glacé sea más pequeña que cinco.
+
+29
+00:02:19,260 --> 00:02:28,800
+Me vas a entrar dentro de este bloque de código me vas a incrementar el valor de C en 1 y me vas a mostrar
+
+30
+00:02:28,830 --> 00:02:29,540
+Prin.
+
+31
+00:02:30,540 --> 00:02:38,570
+Lo que vale la C C vale y fuera con una como le ponemos el valor de ceb vamos a ejecutar.
+
+32
+00:02:39,530 --> 00:02:41,210
+Y qué tenemos aquí.
+
+33
+00:02:41,690 --> 00:02:48,050
+Pues como veis lo que sucede es que el bucle Google compró el valor de C como devuelve true porque Zero
+
+34
+00:02:48,050 --> 00:02:54,350
+es menor o igual que el 5 entra en la iteración y ejecuta las dos instrucciones incrementando el valor
+
+35
+00:02:54,350 --> 00:02:59,280
+de C en 1 con un operador de asignación y mostrando su valor por pantalla.
+
+36
+00:02:59,330 --> 00:03:02,050
+Esto se viene repitiendo hasta que vale 6.
+
+37
+00:03:02,190 --> 00:03:11,100
+Y entonces como Zeus no es más pequeño o igual que 5 y devuelve fouls o false se deja de reiterar el.
+
+38
+00:03:11,870 --> 00:03:19,190
+Algo interesante en Python es que también podemos encadenar el después de un weill para ejecutar un
+
+39
+00:03:19,190 --> 00:03:19,730
+código.
+
+40
+00:03:19,730 --> 00:03:22,430
+Una vez este se ha completado.
+
+41
+00:03:22,880 --> 00:03:30,170
+Por ejemplo si queremos ejecutar un código cuando se haya acabado de ejecutar el bucle igual podríamos
+
+42
+00:03:30,290 --> 00:03:34,180
+agregar un s que se cumplirá únicamente una vez.
+
+43
+00:03:34,460 --> 00:03:42,140
+Cuando la condición no se cumpla cuando devuelva false y podríamos poner un print y decir que se ha
+
+44
+00:03:42,650 --> 00:03:49,980
+completado toda la iteración y vale.
+
+45
+00:03:52,160 --> 00:04:01,400
+Le sacamos el valor de C como un contador se vale 1 2 3 4 5 y 6 se ha completado toda la iteración y
+
+46
+00:04:01,560 --> 00:04:04,010
+vale 6.
+
+47
+00:04:04,830 --> 00:04:11,580
+Pero ahora Imaginaros que queremos romper la ejecución de este bucle Weil en algún momento por ejemplo
+
+48
+00:04:12,050 --> 00:04:13,380
+es salir cuando lo hace.
+
+49
+00:04:13,390 --> 00:04:21,480
+Vale 2 pues podríamos utilizar una palabra o una sentencia llamada Brake que viene del español romper
+
+50
+00:04:22,610 --> 00:04:30,330
+básicamente lo que vamos a hacer es copiar lo que teníamos arriba en un nuevo código y vamos a introducir
+
+51
+00:04:30,660 --> 00:04:35,350
+una comprobación justo antes de mostrar por pantalla el valor de la CPU.
+
+52
+00:04:35,490 --> 00:04:44,860
+Vamos a decirle en el caso de que la C después de haberla incrementado sea 2 vamos a agregar un código.
+
+53
+00:04:45,180 --> 00:04:56,700
+Vamos a mostrar por pantalla el mensaje rompemos el bucle cuando se vale y mostramos las que íbamos
+
+54
+00:04:56,700 --> 00:05:02,850
+a romper el bucle vamos a romperlo con el break que os comentaba antes de romper la ejecución.
+
+55
+00:05:02,970 --> 00:05:04,940
+A ver qué sucede ahora.
+
+56
+00:05:05,970 --> 00:05:14,280
+Pues lo que sucede es lo siguiente incrementamos glacé vale 1 y automáticamente ya luego rompemos el
+
+57
+00:05:14,280 --> 00:05:15,210
+bucle por qué lo hace.
+
+58
+00:05:15,210 --> 00:05:22,540
+Balaidos si en lugar de dos lo hubiéramos puesto cuando vale por ejemplo 4 pues nos muestra.
+
+59
+00:05:23,580 --> 00:05:32,810
+La primera vez la segunda vez la tercera vez y como ya detectará que la vale 4 romperá la ejecución
+
+60
+00:05:32,850 --> 00:05:37,270
+no llegará a 5 evidentemente tampoco llegará al final.
+
+61
+00:05:37,690 --> 00:05:43,210
+Y algo interesante es que como no se llega al final lo rompemos antes tampoco se ejecuta.
+
+62
+00:05:43,230 --> 00:05:46,650
+Fijaros que tampoco se ha mostrado mensaje y se ha completado la iteración.
+
+63
+00:05:46,650 --> 00:05:48,730
+Bla bla bla bla bla.
+
+64
+00:05:48,960 --> 00:05:49,440
+Por qué.
+
+65
+00:05:49,440 --> 00:05:53,000
+Porque la hemos roto al medio funcionamiento.
+
+66
+00:05:54,490 --> 00:06:01,100
+Y algo importante ya que hablamos del proyecto tenemos que comentar casi obligatoriamente la sentencia
+
+67
+00:06:01,370 --> 00:06:07,850
+Contino de continuar por qué nos permite saltarnos la iteración actual pero sin romper el bucle.
+
+68
+00:06:08,210 --> 00:06:11,070
+Es decir Imaginaros que.
+
+69
+00:06:12,610 --> 00:06:18,760
+Tengo este código de aquí pero en lugar de romper la ejecución lo único que quiero hacer es saltarme
+
+70
+00:06:19,210 --> 00:06:27,340
+el hecho de mostrar por ejemplo un mensaje o una posible instrucción que tienen los números menos alguno
+
+71
+00:06:27,340 --> 00:06:35,110
+determinados por ejemplo en el caso del 4 pues en lugar de hacer un break podríamos poner a copiar lo
+
+72
+00:06:35,110 --> 00:06:36,590
+que tenemos aquí arriba.
+
+73
+00:06:36,870 --> 00:06:43,060
+Hirugarren hacer un break vamos a cambiarlo por un continuum de continuar y lo vamos a decir en lugar
+
+74
+00:06:43,060 --> 00:06:46,150
+de este mensaje le vamos a decir.
+
+75
+00:06:46,150 --> 00:06:51,900
+Continuamos con la siguiente iteración.
+
+76
+00:06:53,740 --> 00:06:59,610
+Porque lo que va a suceder en este caso es que va a comenzar con el 1.
+
+77
+00:07:00,010 --> 00:07:05,250
+Va a continuar con el 2 con el 3 pero con el 4.
+
+78
+00:07:06,470 --> 00:07:14,120
+Va a romper la ejecución pero únicamente de esta iteración no de todo el bucle sino de esta iteración.
+
+79
+00:07:15,310 --> 00:07:22,630
+Si nosotros comentaremos estas líneas con una almohadilla y no mostramos el principio ejecutase Como
+
+80
+00:07:22,690 --> 00:07:27,460
+veis directamente nos daríamos sin mostrar nada por pantalla el número 4.
+
+81
+00:07:27,460 --> 00:07:35,050
+O también podríamos saltarnos haciendo un c igual a 3 por igual a 4.
+
+82
+00:07:35,140 --> 00:07:42,520
+También podríamos sacarle los paréntesis pues no saltaremos el 3 y el 4 pero seguiría entrando luego.
+
+83
+00:07:42,520 --> 00:07:48,490
+Es decir en el momento que rompemos todo lo que vendría por debajo aunque pusiéramos aquí otro frin
+
+84
+00:07:48,780 --> 00:07:51,820
+este tampoco se mostraría.
+
+85
+00:07:51,820 --> 00:07:57,240
+Como veis nos saltamos la ejecución de esa iteración.
+
+86
+00:07:58,500 --> 00:08:00,790
+Pero al final también se ejecutables.
+
+87
+00:08:00,900 --> 00:08:07,170
+Se ha completado toda la iteración y la hace vale 6.
+
+88
+00:08:07,170 --> 00:08:11,330
+En fin no quiero dar la lección por finalizada sin antes mostraros como lo guay.
+
+89
+00:08:11,340 --> 00:08:16,020
+Nos permite crear un menú interactivo para un programa de un programa terminal.
+
+90
+00:08:16,590 --> 00:08:21,390
+Me gusta siempre dar ejemplos útiles y ahora que empezamos a trabajar con las sentencias de control
+
+91
+00:08:21,640 --> 00:08:25,380
+y ya podemos hacer cosas muy interesantes.
+
+92
+00:08:25,650 --> 00:08:28,850
+Por ejemplo vamos a leer un valor por teclado.
+
+93
+00:08:29,810 --> 00:08:35,290
+íbamos a crear un menú interactivo vamos a utilizar una iteración Will infinita.
+
+94
+00:08:36,090 --> 00:08:40,140
+Pero rompiendo su ejecución eventualmente con un BRAC no os vayáis a pensar que lo que vamos a hacer
+
+95
+00:08:40,140 --> 00:08:42,240
+es tener la aquí para siempre en marcha.
+
+96
+00:08:42,780 --> 00:08:47,910
+Precisamente esta es la excepción y por lo que os quería mostrar que romper la regla de no crear nunca
+
+97
+00:08:47,910 --> 00:08:53,610
+un bucle infinito ya que de alguna forma como nosotros estamos interrumpiendo el proceso cuando pedimos
+
+98
+00:08:53,820 --> 00:08:56,240
+al usuario introducir un valor por teclado.
+
+99
+00:08:56,450 --> 00:09:04,410
+Pues digamos que tenemos la excusa para entonces destruir o no esta iteración no sirve como bloque para
+
+100
+00:09:04,410 --> 00:09:09,180
+que no se ejecute todo el rato dentro de la memoria del ordenador y sature.
+
+101
+00:09:09,970 --> 00:09:12,400
+Vamos a hacer este ejemplo porque es realmente interesante.
+
+102
+00:09:12,790 --> 00:09:18,060
+Voy a hacer un Printing voy a decirle a alguien que es bienvenido al menú interactivo
+
+103
+00:09:22,770 --> 00:09:27,570
+y a continuación vamos a hacer este bucle Weil infinito walkthrough.
+
+104
+00:09:28,860 --> 00:09:41,100
+Esto se ejecutará infinitamente y empezaremos diciéndole Prin y un texto en varias líneas.
+
+105
+00:09:41,100 --> 00:09:43,960
+Qué quieres hacer.
+
+106
+00:09:44,520 --> 00:09:45,620
+Escribe.
+
+107
+00:09:45,960 --> 00:09:46,530
+Una opción
+
+108
+00:09:49,450 --> 00:09:57,060
+vale ahora en la siguiente línea le voy a decir que introduzcan uno si quieres saludar que escriba un
+
+109
+00:09:57,060 --> 00:09:58,100
+2.
+
+110
+00:09:58,440 --> 00:10:01,100
+Si quieres sumar dos números.
+
+111
+00:10:05,200 --> 00:10:09,890
+O por ejemplo un 3 si quiere salir.
+
+112
+00:10:10,210 --> 00:10:15,660
+A continuación vamos a leer la opción que quiere el usuario.
+
+113
+00:10:15,740 --> 00:10:22,490
+Vamos a guardarla en una variable opción y vamos a leer con un input esta opción.
+
+114
+00:10:23,950 --> 00:10:31,840
+Si la opción opción es igual a uno pero vamos a ponerlo como si fuera una cadena porque sabemos que
+
+115
+00:10:31,860 --> 00:10:36,920
+leemos cadenas de texto así que lo pongo entre comillas como si fuera un texto.
+
+116
+00:10:37,270 --> 00:10:38,750
+Si la opción es un 1.
+
+117
+00:10:39,690 --> 00:10:43,270
+Mostraremos por pantalla el mensaje Hola.
+
+118
+00:10:43,380 --> 00:10:49,290
+Por ejemplo espero que te lo estés pasando bien.
+
+119
+00:10:49,290 --> 00:10:51,320
+Un saludo.
+
+120
+00:10:51,330 --> 00:11:00,480
+Si la opción es 2 mostraremos lo siguiente.
+
+121
+00:11:00,480 --> 00:11:02,520
+En primer lugar leeremos un número uno.
+
+122
+00:11:02,560 --> 00:11:05,180
+Vamos a declarar una variable número uno en N1.
+
+123
+00:11:05,330 --> 00:11:13,290
+Vamos a hacer un input pero lo vamos a transformar a flotante hacer un float input y aquí le vamos a
+
+124
+00:11:13,290 --> 00:11:20,610
+decir introduzca o introduce el primer número que quiere sumar 2 números.
+
+125
+00:11:22,080 --> 00:11:28,830
+Después de introducir el primero introduciremos el segundo vamos a copiar Básicamente esto y aquí diremos
+
+126
+00:11:28,840 --> 00:11:30,530
+el segundo número.
+
+127
+00:11:33,880 --> 00:11:40,150
+Y por último después de haber leído los dos números vamos a mostrar un mensaje dividiremos Prin el resultado
+
+128
+00:11:41,380 --> 00:11:47,660
+de la suma es que pondremos el resultado directamente.
+
+129
+00:11:47,680 --> 00:11:51,430
+Número uno más número 2.
+
+130
+00:11:51,460 --> 00:12:04,870
+Si la opción es salir si opciones igual a un 3 podríamos hacer lo siguiente mostrar un PIN y decir hasta
+
+131
+00:12:04,870 --> 00:12:06,640
+luego.
+
+132
+00:12:06,880 --> 00:12:11,440
+Ha sido un placer ayudarte.
+
+133
+00:12:15,000 --> 00:12:20,970
+Entonces hacer un break y éste es muy importante este momento es el más importante de todo el bucle
+
+134
+00:12:21,630 --> 00:12:26,810
+porque es el que a partir de este momento rompemos la ejecución del wyle Infinito.
+
+135
+00:12:26,850 --> 00:12:33,950
+Si esto no estuviera estaríamos siempre entrando de nuevo y no acabaría nunca el programa.
+
+136
+00:12:33,960 --> 00:12:36,620
+Por último en el caso de que.
+
+137
+00:12:37,640 --> 00:12:39,790
+No sea una opción correcta ni la uno ni dos días.
+
+138
+00:12:39,800 --> 00:12:40,610
+3.
+
+139
+00:12:40,790 --> 00:12:46,990
+Mostraremos con ense un mensaje que diga PIN comando desconocido.
+
+140
+00:12:47,840 --> 00:12:51,500
+Vuelve a intentarlo.
+
+141
+00:12:53,580 --> 00:13:00,000
+Como una vez acabe la ejecución volver a comenzar el Wil volverá a aparecer este mensaje arriba y volver
+
+142
+00:13:00,000 --> 00:13:01,830
+a preguntarle qué quiere hacer.
+
+143
+00:13:01,860 --> 00:13:03,880
+Vamos a probarlo.
+
+144
+00:13:04,110 --> 00:13:07,850
+Bienvenido al menú interactivo qué quieres hacer.
+
+145
+00:13:07,860 --> 00:13:09,220
+Escribe una opción.
+
+146
+00:13:09,480 --> 00:13:16,470
+Mira quiero que me saludes escribo un uno y me dice Hola espero que te lo estais pasando bien y volvemos
+
+147
+00:13:16,470 --> 00:13:17,610
+a empezar.
+
+148
+00:13:17,670 --> 00:13:18,570
+Qué quieres hacer.
+
+149
+00:13:18,570 --> 00:13:20,060
+Escriba una opción.
+
+150
+00:13:20,160 --> 00:13:21,930
+Ahora quiero sumar dos números.
+
+151
+00:13:22,350 --> 00:13:27,870
+Introduce el primer número por ejemplo un 10 introduce un segundo número un 5.
+
+152
+00:13:27,930 --> 00:13:31,070
+El resultado de la suma es 15.
+
+153
+00:13:31,110 --> 00:13:32,510
+Qué quieres hacer.
+
+154
+00:13:32,580 --> 00:13:34,760
+Ahora voy a poner otra cosa.
+
+155
+00:13:35,070 --> 00:13:40,480
+Algo que no es lo que se espera dice cuando desconocidos vuelva a intentarlo.
+
+156
+00:13:41,420 --> 00:13:42,250
+Qué quieres hacer.
+
+157
+00:13:42,260 --> 00:13:43,470
+Escribir una opción.
+
+158
+00:13:43,470 --> 00:13:45,360
+Pues finalmente quiero salir.
+
+159
+00:13:45,980 --> 00:13:47,700
+Hasta luego ha sido un placer ayudarte.
+
+160
+00:13:47,720 --> 00:13:49,940
+Y ya hemos salido del programa.
+
+161
+00:13:50,300 --> 00:13:51,560
+Qué os parece.
+
+162
+00:13:51,560 --> 00:13:55,200
+Como hemos visto el bucle lo cual nos permite realizar muchas cosas.
+
+163
+00:13:55,310 --> 00:14:01,070
+Sin embargo hay otra interacción muy interesante íntimamente ligada a las listas ya que nos permite
+
+164
+00:14:01,070 --> 00:14:04,130
+recorrerlas y manipularlas fácilmente.
+
+165
+00:14:04,130 --> 00:14:06,250
+La veremos en la próxima elección.

@@ -1,0 +1,111 @@
+1
+00:00:01,170 --> 00:00:05,480
+Ya hemos visto que las funciones pueden devolver valores y así comunicarse con el exterior.
+
+2
+00:00:05,700 --> 00:00:10,200
+Ahora nos falta saber la otra parte cómo reciben información desde fuera.
+
+3
+00:00:10,260 --> 00:00:14,610
+En esta elección para introducir los conceptos más fácilmente vamos a trabajar alrededor de un caso
+
+4
+00:00:14,610 --> 00:00:19,620
+de estudio atípico crear una función que sume dos números y retorne en su resultado.
+
+5
+00:00:19,620 --> 00:00:24,820
+Vamos a ir a la Lección 3 envíos de valores y vamos a experimentar.
+
+6
+00:00:24,850 --> 00:00:33,660
+Al crear la función suma y ahora vamos a indicarle que recibimos dos números por ejemplo identificándolos
+
+7
+00:00:33,660 --> 00:00:37,070
+con dos nombres como si fueran dos variables A y B.
+
+8
+00:00:39,100 --> 00:00:45,960
+Abrimos la función y aquí vamos a retornar Return la suma de A y B.
+
+9
+00:00:46,720 --> 00:00:48,010
+De esta forma obtenemos.
+
+10
+00:00:48,010 --> 00:00:49,420
+Esta es la función.
+
+11
+00:00:50,780 --> 00:00:56,110
+Como veis lo que hacemos para indicar que recibimos estos valores es crear las dos variables arriba
+
+12
+00:00:56,590 --> 00:00:57,890
+separadas por una coma.
+
+13
+00:00:58,180 --> 00:01:04,990
+Y automáticamente cuando nosotros llamemos a la función si se le asignará a estos dos valores estas
+
+14
+00:01:04,990 --> 00:01:07,300
+dos variables lo que le enviemos.
+
+15
+00:01:07,320 --> 00:01:17,140
+Pero siguiendo el mismo orden es decir yo puedo asignar el resultado de esta suma y enviarle dos números
+
+16
+00:01:17,170 --> 00:01:20,600
+por ejemplo el 2 y el 5 por orden.
+
+17
+00:01:20,830 --> 00:01:23,250
+Será el 2 y el 5 será clave.
+
+18
+00:01:24,440 --> 00:01:30,550
+Podría mostrar este resultado y hoy tenemos el 7 que es la suma de 2 y 5.
+
+19
+00:01:30,650 --> 00:01:37,430
+Es importante entonces diferenciar muy bien los dos momentos de una función tenemos la definición que
+
+20
+00:01:37,430 --> 00:01:41,670
+se está aquí y tenemos la llamada que es esto aquí.
+
+21
+00:01:41,690 --> 00:01:50,630
+Esto es importante porque la forma en que nos referimos a los valores hoy B 2 y 5 es diferente.
+
+22
+00:01:50,630 --> 00:01:58,200
+Durante la definición estos valores se denominan parámetros y durante la llamada a la ejecución.
+
+23
+00:01:58,220 --> 00:02:02,000
+Se denominan argumentos como los argumentos del scrip.
+
+24
+00:02:03,310 --> 00:02:08,350
+A simple vista puede parecer una tontería hacer una distinción de algo que es correlativo ya que los
+
+25
+00:02:08,350 --> 00:02:15,580
+argumentos enviados deben concordar con los parámetros definidos en la función y así es en muchos lenguajes.
+
+26
+00:02:15,580 --> 00:02:18,710
+De ahí que haya programadores que no diferencian ambos términos.
+
+27
+00:02:18,730 --> 00:02:23,350
+Sin embargo en Payton no es así ya que pueden haber casos en que los argumentos y los parámetros no
+
+28
+00:02:23,350 --> 00:02:27,680
+concuerden y lo veremos más a fondo en la próxima elección.

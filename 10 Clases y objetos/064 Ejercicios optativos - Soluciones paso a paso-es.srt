@@ -1,0 +1,1267 @@
+1
+00:00:01,430 --> 00:00:06,090
+Bien vamos a por los ejercicios de el tema de programación orientada a objetos.
+
+2
+00:00:07,570 --> 00:00:10,640
+Para esta unidad se ha preparado una sorpresa.
+
+3
+00:00:10,780 --> 00:00:15,850
+Son una serie de ejercicios sino que es un solo ejercicio en el que os quiero enseñar algunas cosas
+
+4
+00:00:15,880 --> 00:00:17,190
+nuevas.
+
+5
+00:00:18,480 --> 00:00:23,580
+Como bien os pongo aquí en este ejercicio vamos a trabajar el concepto de puntos coordenadas y vectores
+
+6
+00:00:23,580 --> 00:00:28,470
+sobre el plano cartesiano y cómo la programación orientada a objetos puede ser una excelente aliada
+
+7
+00:00:28,470 --> 00:00:30,360
+para trabajar con ellos.
+
+8
+00:00:30,420 --> 00:00:34,800
+No está pensado para que hagas ningún tipo de cálculos sino para que practiques la automatización de
+
+9
+00:00:34,800 --> 00:00:36,150
+tareas.
+
+10
+00:00:36,860 --> 00:00:41,370
+Creo que es un ejemplo muy interesante punto de partida en la programación de gráficos pero si consideras
+
+11
+00:00:41,370 --> 00:00:42,360
+que esto no es lo tuyo.
+
+12
+00:00:42,390 --> 00:00:44,460
+Simplemente puedes pasar de largo.
+
+13
+00:00:44,460 --> 00:00:50,390
+Ahora bien debe ser consciente de que te vas a perder uno de los ejercicios más interesantes del curso.
+
+14
+00:00:50,880 --> 00:00:57,290
+Así que vamos a por ello vamos a ver primero este pequeño resumen que os hago de conceptos.
+
+15
+00:00:57,520 --> 00:01:03,450
+Empezaremos por el plano cartesiano el plano cartesiano como tenéis aquí es un espacio bidimensional
+
+16
+00:01:03,750 --> 00:01:10,740
+podéis dibujar en una libreta si queréis en dos dimensiones formado por dos rectas perpendiculares es
+
+17
+00:01:10,740 --> 00:01:18,090
+decir que se cortan en un punto formando ángulos de 90 grados una horizontal y otra vertical que se
+
+18
+00:01:18,090 --> 00:01:19,260
+cortan en un punto.
+
+19
+00:01:19,260 --> 00:01:24,260
+Como he dicho la recta horizontal se denomina eje de las arcillas o eje x.
+
+20
+00:01:24,270 --> 00:01:29,970
+Aquí tenemos la X mientras que la vertical recibe el nombre de eje de ordenadas o simplemente eje y
+
+21
+00:01:30,220 --> 00:01:31,420
+que tenemos la y griega.
+
+22
+00:01:31,740 --> 00:01:35,700
+En cuanto al punto donde se cortan se conoce como el punto de origen o aquí lo tenemos.
+
+23
+00:01:35,700 --> 00:01:39,410
+El punto de Orígenes es aquí donde se cortan las dos.
+
+24
+00:01:40,400 --> 00:01:43,710
+Es importante remarcar que el plano se divide en cuatro cuadrantes.
+
+25
+00:01:43,730 --> 00:01:50,770
+Una vez se cortan estas dos rectas pues quedarían cuatro espacios diferenciados.
+
+26
+00:01:50,780 --> 00:01:56,610
+El primero arriba a la derecha sería el primer cuadrante arriba a la izquierda o segundo cuadrante bajo
+
+27
+00:01:56,690 --> 00:01:59,120
+la izquierda tercer cuadrante y abajo a la derecha.
+
+28
+00:01:59,120 --> 00:02:00,770
+Cuarto cuadrante.
+
+29
+00:02:01,040 --> 00:02:10,820
+Las propiedades son sencillas y es que todos los números que están por la derecha de este eje X son
+
+30
+00:02:10,820 --> 00:02:14,860
+positivos mientras que los que están a la izquierda son negativos.
+
+31
+00:02:16,890 --> 00:02:22,320
+En cuanto al eje y griega los números que están por encima del punto de origen son positivos y por debajo
+
+32
+00:02:22,320 --> 00:02:23,190
+son negativos.
+
+33
+00:02:23,310 --> 00:02:29,130
+Por tanto las propiedades quedarian que en el primer cuadrante tanto las X como las Vegas son siempre
+
+34
+00:02:29,130 --> 00:02:29,930
+positivas.
+
+35
+00:02:30,150 --> 00:02:35,100
+En el segundo cuadrante las X son negativas pero la hashish son positivas.
+
+36
+00:02:35,100 --> 00:02:43,830
+En tercer cuadrante tanto las X como las griegas son negativas y en el cuarto cuadrante las X son positivas
+
+37
+00:02:44,160 --> 00:02:46,370
+pero las seis son negativas.
+
+38
+00:02:46,410 --> 00:02:49,920
+Esas son las propiedades de los cuadrantes.
+
+39
+00:02:50,010 --> 00:02:52,920
+Vamos a por los puntos y coordenadas.
+
+40
+00:02:54,470 --> 00:02:59,690
+Como digo aquí el objetivo de todo esto es describir la posición de puntos es decir a un lugar pues
+
+41
+00:02:59,690 --> 00:03:08,330
+podemos posicionar puntitos y esto es puntitos se pueden describir pues utilizando coordenadas que se
+
+42
+00:03:08,330 --> 00:03:12,440
+forman asociando el valor de las ejes x y el valor de la y griega.
+
+43
+00:03:12,470 --> 00:03:18,620
+Como tenemos un ejemplo aquí tenemos un puntito bueno empezando por el origen un punto en el origen
+
+44
+00:03:18,670 --> 00:03:27,140
+tendría de valor de las x y las seis cero cero este de aquí que tan verde tendría el eje de las x 2
+
+45
+00:03:27,800 --> 00:03:33,370
+y en el eje de las ligas 3 hasta que rivano y así los demás.
+
+46
+00:03:33,710 --> 00:03:40,220
+La representación de un punto es sencilla pondríamos una p y entre paréntesis la X y la y las posiciones
+
+47
+00:03:40,640 --> 00:03:42,070
+las coordenadas dónde están.
+
+48
+00:03:43,100 --> 00:03:47,150
+Haciendo referencia a las distancias a lo que serían las rectas.
+
+49
+00:03:48,690 --> 00:03:55,120
+Y en cuanto a los vectores en el plano un vector hace referencia a un segmento generado a partir de
+
+50
+00:03:55,120 --> 00:03:58,240
+dos puntos distintos que está orientado en una dirección.
+
+51
+00:03:58,240 --> 00:04:01,810
+Por ejemplo aquí tenemos un punto A y aquí tenemos un punto B.
+
+52
+00:04:02,260 --> 00:04:07,240
+Si decimos que tenemos un vector de ave tendríamos que trazar una línea en dirección.
+
+53
+00:04:08,140 --> 00:04:08,450
+B.
+
+54
+00:04:08,480 --> 00:04:09,350
+Desde el punto A.
+
+55
+00:04:09,380 --> 00:04:17,900
+De esta forma como veis este vector tiene una longitud que es lo que mide la longitud de esta línea
+
+56
+00:04:17,960 --> 00:04:24,210
+roja y la dirección o sentido que es la que se determina pues a partir de el punto de origen hacia el
+
+57
+00:04:24,210 --> 00:04:25,410
+punto de destino.
+
+58
+00:04:26,640 --> 00:04:30,080
+Se podría calcular a partir de 360 grados.
+
+59
+00:04:30,090 --> 00:04:31,020
+Como veis.
+
+60
+00:04:31,200 --> 00:04:32,720
+Teniendo en cuenta que esto sería.
+
+61
+00:04:33,670 --> 00:04:37,080
+Cero grados hacia arriba perpendicular sería 90.
+
+62
+00:04:37,090 --> 00:04:45,210
+Este de aquí no sería 45 porque 45 pasaría por este punto pero sería menos igual sería 35 por ejemplo.
+
+63
+00:04:47,650 --> 00:04:52,790
+Como digo en esta figura podemos observar dos puntos A y B que podríamos definir de la siguiente forma
+
+64
+00:04:53,210 --> 00:04:54,630
+tenemos el punto A.
+
+65
+00:04:54,950 --> 00:05:02,150
+Aquí tendríamos la primera posición X1 la posición y uno que sería las posiciones de las coordenadas
+
+66
+00:05:02,280 --> 00:05:13,220
+de la seria dos a la derecha en el eje x y 3 arriba en el eje de las 6 esto sería 2 3 y el punto B tendríamos
+
+67
+00:05:13,250 --> 00:05:15,170
+para las posiciones X e Y griega.
+
+68
+00:05:15,350 --> 00:05:25,490
+Sus coordenadas 1 2 3 4 5 hacia arriba y un 2 3 4 5 hacia arriba también en el eje de las 6 Por tanto
+
+69
+00:05:25,490 --> 00:05:26,490
+5 5.
+
+70
+00:05:27,210 --> 00:05:33,900
+Ahí tenemos el segundo punto y entonces el vector se representaría como la diferencia entre las coordenadas
+
+71
+00:05:34,080 --> 00:05:40,740
+del segundo punto respecto al primero es decir restamos del segundo el primero y la fórmula es esta
+
+72
+00:05:40,790 --> 00:05:41,420
+de aquí.
+
+73
+00:05:42,380 --> 00:05:47,010
+Cogemos la posición x del segundo le restamos la del primero.
+
+74
+00:05:48,310 --> 00:05:49,760
+Lo mismo para posizioni.
+
+75
+00:05:50,600 --> 00:05:54,640
+Nos quedaría 5 menos 2 y 5 menos 3.
+
+76
+00:05:54,950 --> 00:05:58,900
+Por tanto indicaría que este vector se escribiría igual.
+
+77
+00:05:59,590 --> 00:06:05,480
+Como si escribiéramos aquí un punto 3:2 lo que en definitiva no deja de ser tres a la derecha.
+
+78
+00:06:05,500 --> 00:06:09,470
+Como veis aquí tres a la derecha y dos hacia arriba.
+
+79
+00:06:09,520 --> 00:06:15,600
+De ahí que se diga 3:2 y con esto finalizamos este mini repaso.
+
+80
+00:06:16,510 --> 00:06:18,020
+Ahora bien el ejercicio en sí.
+
+81
+00:06:18,740 --> 00:06:25,130
+Tenemos que crear una clase llamada punto con sus dos coordenadas X e Y que tenemos que añadir un método
+
+82
+00:06:25,160 --> 00:06:30,990
+constructor para crear puntos fácilmente si no se reciben una coordenada su valor será cero.
+
+83
+00:06:31,460 --> 00:06:36,110
+Tendremos que sobreescribir el método string para imprimir por pantalla un punto aparezca el formato
+
+84
+00:06:36,670 --> 00:06:38,720
+Este de aquí un paréntesis.
+
+85
+00:06:38,960 --> 00:06:44,750
+El punto x y el punto y griega tendremos que añadir un método cuadrante que indique a qué cuadrante
+
+86
+00:06:44,750 --> 00:06:46,770
+pertenece el punto o si es el origen.
+
+87
+00:06:46,790 --> 00:06:53,340
+Es decir tendremos que comprobar que las posiciones positivas o negativas de las X griegas con condiciones.
+
+88
+00:06:54,720 --> 00:07:01,200
+Tendremos que añadir un método llamado vector que tomará otro punto y calculará el vector resultante
+
+89
+00:07:01,200 --> 00:07:09,240
+entre los dos puntos y luego de forma optativa añadiremos un método llamado distancia que tomará otro
+
+90
+00:07:09,240 --> 00:07:13,500
+punto y calcular la distancia entre los dos puntos y los mostrará por pantalla.
+
+91
+00:07:13,890 --> 00:07:20,190
+Utilizando esta fórmula de aquí una nota que pongo es que la función raíz cuadrada que vemos en esta
+
+92
+00:07:20,190 --> 00:07:28,460
+fórmula en Payton se llama squyres Root así ese cúbrete se debe importar manualmente el módulo Math
+
+93
+00:07:28,530 --> 00:07:30,050
+y utilizarã de esta forma.
+
+94
+00:07:30,210 --> 00:07:34,790
+Como el número Pi pero aquí tendríamos la función raíz cuadrada.
+
+95
+00:07:37,930 --> 00:07:44,500
+Para acabar una vez hayamos creado los puntos veremos cómo crear una clase rectángulo con dos puntos
+
+96
+00:07:45,100 --> 00:07:46,940
+un punto inicial y uno final.
+
+97
+00:07:47,170 --> 00:07:50,260
+Cómo trataremos a partir de estos dos puntos.
+
+98
+00:07:50,260 --> 00:07:56,310
+Una especie de diagonal y proyectaremos un rectángulo podemos formar un rectángulo a partir de una diagonal.
+
+99
+00:07:57,760 --> 00:08:03,420
+Entonces añadiremos un método constructor para crear los dos puntos fácilmente.
+
+100
+00:08:03,760 --> 00:08:09,760
+Si no se envían se crearán dos puntos en el origen añadiremos al rectángulo un método llamado base para
+
+101
+00:08:09,760 --> 00:08:11,080
+mostrar la base del rectángulo.
+
+102
+00:08:11,080 --> 00:08:15,700
+Otro altura para la altura y uno área que mostrará el área.
+
+103
+00:08:15,700 --> 00:08:18,140
+Esto está mal.
+
+104
+00:08:23,920 --> 00:08:29,830
+Y aquí tengo un apunte que indica que puedes identificar fácilmente a estos valores si intentas dibujar
+
+105
+00:08:30,160 --> 00:08:32,090
+el cuadrado a partir de su diagonal.
+
+106
+00:08:32,230 --> 00:08:36,540
+Si andas perdido prueba a dibujar un papel seguro que lo verás mucho más claro.
+
+107
+00:08:36,720 --> 00:08:42,220
+Y además recuerda que puedes utilizar la función Apes absoluta para saber el valor absoluto de un número
+
+108
+00:08:42,490 --> 00:08:44,040
+de acuerdo.
+
+109
+00:08:45,060 --> 00:08:45,980
+Como veis hasta aquí.
+
+110
+00:08:45,990 --> 00:08:51,900
+Era el enunciado del ejercicio así que vamos a ponernos manos a la obra.
+
+111
+00:08:51,900 --> 00:09:00,660
+Con todo esto para que veáis cómo podemos utilizando clases de objetos trasladar todos estos conceptos
+
+112
+00:09:01,680 --> 00:09:08,340
+y aplicarlos fácilmente vamos a comenzar ya vamos a importar está este módulo más.
+
+113
+00:09:08,340 --> 00:09:14,370
+Lo vamos a dejar en portada aquí arriba y vamos a ponernos con el desarrollo de la clase de puntos.
+
+114
+00:09:15,630 --> 00:09:24,380
+La clase debe tener un constructor que tomará dos coordenadas una coordenada llamada X y una llamada
+
+115
+00:09:24,380 --> 00:09:25,160
+y griega.
+
+116
+00:09:25,320 --> 00:09:30,560
+Pero vamos a añadir es un valor por defecto que será cero en caso de que una de ellas no se pase como
+
+117
+00:09:30,560 --> 00:09:31,370
+recordaréis.
+
+118
+00:09:31,410 --> 00:09:42,530
+Así lo indicábamos entonces vamos a establecer los valores o atributos de instancia con los que le damos
+
+119
+00:09:42,540 --> 00:09:44,460
+al constructor.
+
+120
+00:09:44,460 --> 00:09:48,180
+De esta forma y aquí ya tendríamos la inicialización.
+
+121
+00:09:48,840 --> 00:09:55,080
+Luego tenemos que sobreescribir el método string para mostrar el punto tal como nos piden que nos indicaban
+
+122
+00:09:55,500 --> 00:09:58,470
+qué queríamos mostrarlo con unos paréntesis.
+
+123
+00:09:58,620 --> 00:10:02,570
+Así que simplemente podríamos retornar una cadena.
+
+124
+00:10:02,700 --> 00:10:13,090
+De esta forma con dos valores separados por una coma y cuando lo fórmate demos haríamos referencia a
+
+125
+00:10:13,160 --> 00:10:15,370
+SFX y a él.
+
+126
+00:10:15,990 --> 00:10:18,900
+De esta forma muy fácilmente.
+
+127
+00:10:19,350 --> 00:10:26,280
+Ahora tenemos que crear un método cuadrante para determinar en qué cuadrante de los cuatro que hay está
+
+128
+00:10:26,400 --> 00:10:29,080
+este punto o si está en el origen.
+
+129
+00:10:29,250 --> 00:10:32,740
+Recordad los cuadrantes aquí arriba lo tenemos.
+
+130
+00:10:33,000 --> 00:10:40,260
+El origen era si este punto está justo en el cero cero así que vamos a crear todas estas comprobaciones
+
+131
+00:10:41,040 --> 00:10:41,880
+del cuadrante
+
+132
+00:10:45,220 --> 00:10:46,320
+y vamos a por ello.
+
+133
+00:10:46,590 --> 00:10:55,260
+Si la X es positiva y la y griega es positiva habíamos quedado que en el primer cuadrante X es mayor
+
+134
+00:10:55,260 --> 00:11:03,650
+que cero anota Shelf y griega es mayor que cero pues estamos en el primer cuadrante.
+
+135
+00:11:04,520 --> 00:11:09,210
+Vamos a ponerlo de esta forma aquí le vamos a pasar el punto.
+
+136
+00:11:09,210 --> 00:11:15,480
+Lo vamos a mostrar aquí y diriamos pertenece al primer cuadrante.
+
+137
+00:11:16,350 --> 00:11:24,630
+Fijaros cuando queremos mostrar el propio apropié instancia el propio objeto vamos a mostrar el punto
+
+138
+00:11:24,630 --> 00:11:30,790
+aquí haciendo referencia a este contenido aquí arriba lo vamos a hacer pasandolo el Shelf pasándole
+
+139
+00:11:30,800 --> 00:11:35,390
+el selfie y estaremos pasando el propio objeto a la propia instancia de objeto.
+
+140
+00:11:35,620 --> 00:11:39,610
+Y entonces aquí saldrá el punto tal como hemos definido aquí arriba.
+
+141
+00:11:40,350 --> 00:11:44,700
+Pertenece al primer cuadrante.
+
+142
+00:11:44,700 --> 00:11:50,760
+Vamos a añadir una lib para comprobar el segundo cuadrante que habíamos quedado que era cuando las X
+
+143
+00:11:50,760 --> 00:11:53,200
+son negativas ayolas y griega son positivas.
+
+144
+00:11:56,320 --> 00:12:04,930
+Es decir que es negativa y griega positiva pertenece al segundo cuadrante.
+
+145
+00:12:04,930 --> 00:12:09,460
+Otro X para comprobar el tercer cuadrante que habíamos quedado que tanto las X como las griegas eran
+
+146
+00:12:09,460 --> 00:12:10,770
+negativas.
+
+147
+00:12:10,780 --> 00:12:12,260
+Tercer cuadrante.
+
+148
+00:12:13,620 --> 00:12:18,830
+También tendríamos X positivas y griegas negativas.
+
+149
+00:12:19,140 --> 00:12:23,660
+Cuarto cuadrante y el último caso.
+
+150
+00:12:24,730 --> 00:12:30,070
+Es que al origen es decir que la X y la y griega sean ambas cero pero podemos ponerlo simplemente con
+
+151
+00:12:30,090 --> 00:12:30,760
+un.
+
+152
+00:12:32,170 --> 00:12:37,420
+Podríamos simplemente copiar lo que tenemos aquí y diriamos se encuentra
+
+153
+00:12:40,660 --> 00:12:45,430
+sobre el origen de esta forma.
+
+154
+00:12:45,830 --> 00:12:52,270
+Aquí ya tenemos el método del cuadrante y ya mostramos a qué cuadrante pertenece este punto.
+
+155
+00:12:52,270 --> 00:13:02,950
+A partir de sus posiciones X y sus coordenadas respecto al método del vector a crear el método vector
+
+156
+00:13:03,500 --> 00:13:05,990
+y el método vector va a recibir otro punto.
+
+157
+00:13:06,880 --> 00:13:15,160
+A partir del cual vamos a tener que determinar este vector resultante si lo recordáis necesitábamos
+
+158
+00:13:15,160 --> 00:13:22,690
+dos puntos para crear un vector 1 que era al inicio y que era al fin y teníamos esta fórmula para determinar
+
+159
+00:13:23,350 --> 00:13:24,460
+el resultado.
+
+160
+00:13:25,660 --> 00:13:31,330
+Del vector que es lo que tenemos que mostrar si tenemos que aplicar esta pequeña fórmula a partir del
+
+161
+00:13:31,330 --> 00:13:34,700
+segundo punto que nos pasa como parámetro.
+
+162
+00:13:34,810 --> 00:13:42,830
+Esta función la vamos a hacer fácilmente y simplemente en el prin vamos a mostrar un mensaje.
+
+163
+00:13:43,030 --> 00:13:54,490
+El vector entre pondríamos este punto y este punto es y aquí vamos a mostrar manualmente el resultado
+
+164
+00:13:54,670 --> 00:13:57,480
+de hacer las dos rectas de las dos posiciones.
+
+165
+00:13:57,490 --> 00:13:58,460
+De esta forma.
+
+166
+00:13:59,350 --> 00:14:04,350
+Vamos a pasar de conformar esta forma indica hariamos.
+
+167
+00:14:04,420 --> 00:14:06,790
+En primer lugar el punto actual.
+
+168
+00:14:06,790 --> 00:14:08,190
+Nosotros mismos.
+
+169
+00:14:08,200 --> 00:14:11,200
+En segundo lugar el punto que vamos a pasar para mostrarlo.
+
+170
+00:14:11,460 --> 00:14:13,580
+Y aquí tenemos que calcular el vector.
+
+171
+00:14:14,350 --> 00:14:22,260
+Que lo calculamos con el punto x que hemos pasado el segundo menos el propio de la instancia.
+
+172
+00:14:22,610 --> 00:14:24,800
+Y lo mismo para el punto y griega.
+
+173
+00:14:25,880 --> 00:14:28,760
+Que hemos pasado menos el de la propia instancia.
+
+174
+00:14:28,960 --> 00:14:29,650
+De esta forma
+
+175
+00:14:33,440 --> 00:14:37,410
+y luego tendríamos la parte optativa de crear.
+
+176
+00:14:38,580 --> 00:14:44,330
+Un método llamado distancia que utiliza esta fórmula y calculó la distancia entre los dos puntos.
+
+177
+00:14:46,740 --> 00:14:55,450
+Este se hace de esta forma vamos a crear la distancia le vamos a.
+
+178
+00:14:55,470 --> 00:15:03,230
+Y otro punto y vamos a calcular la distancia con aquella fórmula que tenemos aquí.
+
+179
+00:15:04,780 --> 00:15:06,650
+Esto lo tenemos que trasladar a código.
+
+180
+00:15:07,610 --> 00:15:14,330
+Haciendo X 2 X 1 por referencia al de la X del segundo punto menos la del primero.
+
+181
+00:15:15,870 --> 00:15:20,890
+El evaluados la resta y así y todo pasárselo a la raíz.
+
+182
+00:15:22,060 --> 00:15:25,050
+Bueno pues esto quedaría de la siguiente forma.
+
+183
+00:15:25,240 --> 00:15:30,710
+Raíz cuadrada más root.
+
+184
+00:15:30,910 --> 00:15:35,230
+El primer punto la resta del primer punto que quedaría así.
+
+185
+00:15:35,260 --> 00:15:38,290
+Punto X menos el X.
+
+186
+00:15:38,570 --> 00:15:43,910
+Pero todo esto elevado a 2 más.
+
+187
+00:15:44,290 --> 00:15:50,570
+Punto y griega que es el segundo punto menos el propio La propia posizioni griega.
+
+188
+00:15:51,880 --> 00:15:54,400
+Y todo esto el evaluados.
+
+189
+00:15:55,250 --> 00:15:58,820
+Y aquí tenemos ya la suma de ambos.
+
+190
+00:16:00,020 --> 00:16:03,010
+Y la raíz cuadrada que hemos guardado.
+
+191
+00:16:03,580 --> 00:16:09,400
+Finalmente mostraremos por pantalla la distancia entre los puntos
+
+192
+00:16:11,970 --> 00:16:15,230
+este y este de aquí.
+
+193
+00:16:15,440 --> 00:16:18,400
+Es este valor.
+
+194
+00:16:18,730 --> 00:16:19,990
+Pasamos a Format.
+
+195
+00:16:24,260 --> 00:16:25,590
+Punto.
+
+196
+00:16:27,100 --> 00:16:30,340
+Y la distancia vale.
+
+197
+00:16:32,520 --> 00:16:37,590
+Vamos a probar lo que tenemos hasta ahora con lo que nos piden.
+
+198
+00:16:37,590 --> 00:16:44,250
+Vamos a experimentar con la primera parte con los puntos luego ya crearemos la clase rectangular acabaremos
+
+199
+00:16:44,250 --> 00:16:49,130
+de experimentar nos piden crear los puntos a b c y d..
+
+200
+00:16:49,280 --> 00:16:52,620
+Voy a copiarlos abajo para tener de referencia
+
+201
+00:16:56,210 --> 00:17:06,800
+y vamos a utilizar esta clase nos aclara un punto a esta forma pasándole dos tres o sacar un punto B
+
+202
+00:17:08,490 --> 00:17:12,860
+pasándole 5 cinco puntos.
+
+203
+00:17:14,430 --> 00:17:18,470
+Pasándoles menos tres y menos uno.
+
+204
+00:17:18,870 --> 00:17:23,640
+Y un punto de pasándoles cero.
+
+205
+00:17:24,220 --> 00:17:26,290
+Aunque si no le pasa se mostró hoy cero.
+
+206
+00:17:26,560 --> 00:17:28,950
+Como también se le otorga automáticamente también valdría.
+
+207
+00:17:28,950 --> 00:17:30,950
+Pero vamos a dejarlo así.
+
+208
+00:17:31,590 --> 00:17:38,490
+Vamos a ejecutar esto a ver si todo funciona correctamente y parece que no me da ningún error.
+
+209
+00:17:38,490 --> 00:17:40,510
+No tengo ningún error de codificación.
+
+210
+00:17:43,290 --> 00:17:48,720
+Lo primero que vamos a hacer es según nos indican arriba consultar a qué cuadrante pertenece en el punto
+
+211
+00:17:48,830 --> 00:17:57,190
+C y por tanto del punto A como se llama el cuadrante del .12.
+
+212
+00:17:57,470 --> 00:18:07,830
+Como se llamará el cuadrante y del punto de como se llamará cuadrante ejecutarlo y no se indica que
+
+213
+00:18:07,830 --> 00:18:13,560
+el punto 2 3 pertenece al primer cuadrante correcto sólo los dos positivos menos tres menos uno pertenece
+
+214
+00:18:13,560 --> 00:18:14,880
+al Tercer cuadrante.
+
+215
+00:18:14,880 --> 00:18:21,560
+Cuando eran los dos negativos por lo tanto es correcto y 0 0 se encuentra sobre el origen correcto.
+
+216
+00:18:22,440 --> 00:18:30,230
+Vale voy a comentar estas tres líneas para seguir con los experimentos.
+
+217
+00:18:30,730 --> 00:18:35,880
+Luego nos piden que consultemos los vectores oiv Perdona a b y vea.
+
+218
+00:18:35,910 --> 00:18:41,290
+Es decir en dirección punto de la V y desde el B hastala.
+
+219
+00:18:42,270 --> 00:18:52,000
+Esto lo vamos a hacer de esta forma el AVE correríamos de inicial el A y luego haremos un vector hasta
+
+220
+00:18:52,000 --> 00:18:52,350
+B.
+
+221
+00:18:52,480 --> 00:18:59,260
+De esta forma le pasaríamos el punto B y el caso contrario del B lector a la.
+
+222
+00:18:59,710 --> 00:19:07,380
+Y a ver qué es lo que nos da el vector entre 2 3 y 5 5 es 3 y 2.
+
+223
+00:19:08,290 --> 00:19:12,420
+El vector entre 5 y 5 y 2 3 es menos 3 Y menos 2.
+
+224
+00:19:12,490 --> 00:19:20,470
+Esto sería como decir 3 a la derecha 2 arriba y esto sería como decir 3 a la izquierda dos abajo.
+
+225
+00:19:20,560 --> 00:19:25,210
+De hecho ya cojudo los valores expresamente para que lo comparásemos con esto de aquí porque son los
+
+226
+00:19:25,210 --> 00:19:27,970
+mismos puntos que en este dibujo.
+
+227
+00:19:28,000 --> 00:19:33,250
+Si en esta dirección como hemos visto son tres a la derecha y dos arriba pero si la dirección fuera
+
+228
+00:19:33,250 --> 00:19:35,570
+al revés de B a serían.
+
+229
+00:19:37,050 --> 00:19:41,820
+Menos tres a la izquierda y menos dos abajo.
+
+230
+00:19:41,820 --> 00:19:42,780
+Como habeis visto.
+
+231
+00:19:42,810 --> 00:19:47,130
+Por tanto tenemos los vectores correctamente.
+
+232
+00:19:48,180 --> 00:19:50,090
+Vamos a comentarlo.
+
+233
+00:19:50,280 --> 00:19:58,880
+Seguimos con los experimentos y optativo consulta la distancia entre los puntos a y b y bella.
+
+234
+00:19:59,250 --> 00:20:10,020
+Vamos a calcular la distancia entre el punto a distancia con el punto B y lo mismo el punto B distancia
+
+235
+00:20:10,680 --> 00:20:11,590
+el punto A.
+
+236
+00:20:11,820 --> 00:20:13,860
+Vamos a ver si dan el mismo resultado.
+
+237
+00:20:13,860 --> 00:20:15,950
+Teóricamente debería de darlo.
+
+238
+00:20:18,300 --> 00:20:26,900
+La distancia entre los puntos 2 3 y 5 5 es tres coma sesenta DC y entre el 5 5 y el 2 3 es lo mismo.
+
+239
+00:20:27,000 --> 00:20:31,570
+Esto es obvio porque es la misma distancia desde el punto A al B que DEL bhalla.
+
+240
+00:20:31,980 --> 00:20:37,440
+Además nuestro programa lo ha calculado correctamente así que sabemos que funciona bien.
+
+241
+00:20:37,830 --> 00:20:39,400
+Vamos a ver qué más nos piden.
+
+242
+00:20:40,310 --> 00:20:44,630
+Determinar cuál de los tres puntos a B12 se encuentra más lejos del origen.
+
+243
+00:20:44,690 --> 00:20:46,140
+Punto cero cero.
+
+244
+00:20:46,580 --> 00:20:51,480
+Vale aquí lo que tendríamos que hacer por ejemplo.
+
+245
+00:20:52,950 --> 00:20:57,360
+Es mostrar la distancia del punto A del punto B.
+
+246
+00:20:57,450 --> 00:21:05,460
+No voy a volver a copiar abajo del punto A al punto B y almàssera y C
+
+247
+00:21:09,180 --> 00:21:10,380
+hasta el origen.
+
+248
+00:21:10,380 --> 00:21:17,370
+Podríamos pasar aquí un punto 0 0 creado dinámicamente De esta forma o podríamos pasar el punto de porque
+
+249
+00:21:17,370 --> 00:21:19,240
+es el que también es el origen.
+
+250
+00:21:19,710 --> 00:21:24,120
+Por tanto vamos a determinar cuál de estos tres es mayor
+
+251
+00:21:27,480 --> 00:21:36,720
+el primero son 3 60 el segundo el B son 7 y el C son tres coma dieciséis.
+
+252
+00:21:37,800 --> 00:21:39,760
+Y la pregunta nos preguntaba.
+
+253
+00:21:40,820 --> 00:21:42,980
+Cuál de los tres puntos se encuentra más lejos.
+
+254
+00:21:42,980 --> 00:21:47,230
+Por tanto el que se encuentra más lejos es el 5 5 que está a 7.
+
+255
+00:21:48,080 --> 00:21:53,540
+De distancia siete unidades de algo no tiene por qué ser centímetros ni metros ni nada simplemente en
+
+256
+00:21:53,540 --> 00:21:55,240
+el contexto que estamos hablando.
+
+257
+00:21:57,630 --> 00:22:05,140
+Muy bien ya hemos experimentado con los puntos y ahora vamos a crear una clase rectángulo para acabar
+
+258
+00:22:05,140 --> 00:22:08,230
+de trabajar estos ejemplos.
+
+259
+00:22:09,690 --> 00:22:14,490
+Tienes que crear una clase llamada rectángulo con dos puntos inicial y final que formarán la Diagonal
+
+260
+00:22:14,490 --> 00:22:15,880
+rectángulo.
+
+261
+00:22:16,020 --> 00:22:18,550
+Vamos a crearlo vamos a hacerlo aquí.
+
+262
+00:22:19,160 --> 00:22:20,850
+CLas rectángulos
+
+263
+00:22:24,090 --> 00:22:30,290
+en esta clase rectángulo vamos a crear un método inicializado un constructor al que le vamos a pasar
+
+264
+00:22:30,290 --> 00:22:40,560
+Shelf un punto inicial podríamos llamarlo inicial de esta forma y por defecto que se cree el punto de
+
+265
+00:22:40,560 --> 00:22:44,830
+origen de esta forma si no le pasa nada porque es lo que nos piden a que viva.
+
+266
+00:22:44,880 --> 00:22:50,640
+Básicamente dice si no se envían se crearán dos puntos en el origen por defecto.
+
+267
+00:22:50,670 --> 00:22:52,100
+Pues ahí está.
+
+268
+00:22:52,230 --> 00:22:57,290
+Lo podremos crear dinámicamente así el punto final.
+
+269
+00:22:57,480 --> 00:23:03,300
+También vamos a crear dinámicamente si no lo pasamos de esta forma y ahorrábamos asignarlo.
+
+270
+00:23:05,880 --> 00:23:12,970
+Vale ahora tenemos que determinar la base la altura y el área de base.
+
+271
+00:23:13,590 --> 00:23:22,200
+Vamos a calcularlo y la base podremos guardarla aquí en base por si quisiéramos utilizarla más adelante.
+
+272
+00:23:22,390 --> 00:23:34,820
+Lo que vamos a hacer es restar del punto final X el punto inicial x Self punto final X menos el punto
+
+273
+00:23:35,300 --> 00:23:37,230
+inicial x.
+
+274
+00:23:38,040 --> 00:23:38,930
+Para saber.
+
+275
+00:23:39,850 --> 00:23:46,210
+La longitud de la base que teníamos que saber la distancia que hay entre los puntos x y el de la que
+
+276
+00:23:46,210 --> 00:23:54,190
+forman la diagonal por tanto cogeremos el final y estaríamos El inicial en caso de que esto nos diera
+
+277
+00:23:54,190 --> 00:24:00,310
+negativo pues claro tendríamos un cálculo de la base que daría menos algo tendríamos que transformarlo
+
+278
+00:24:00,310 --> 00:24:08,320
+a positivo y lo podemos hacer pasándole esta resta a la función apps que nos daba el valor absoluto
+
+279
+00:24:09,150 --> 00:24:10,490
+y de forma muy similar.
+
+280
+00:24:10,510 --> 00:24:21,640
+El concepto para calcular la altura es lo mismo pero utilizando las griegas factura sería AB Shelf punto
+
+281
+00:24:21,640 --> 00:24:31,030
+final y griega menos el punto inicial y griega y ambos los vamos a mostrar por pantalla.
+
+282
+00:24:31,030 --> 00:24:44,380
+De esta forma la base del rectángulo es este número va a pasar con el formato fácilmente Shelf base
+
+283
+00:24:45,200 --> 00:24:59,140
+y abajo lo mismo pero la altura del rectángulo es Shelf altura y en cuanto al área tendríamos que definir
+
+284
+00:25:01,120 --> 00:25:10,390
+área Xel y aquí tendríamos que suponer que ya tenemos la base y la altura anteriormente calculada sino
+
+285
+00:25:10,840 --> 00:25:13,540
+quizá tendríamos que volver a calcular ambas.
+
+286
+00:25:14,170 --> 00:25:27,490
+Si lo hiciéramos de entrada y entonces calculo haríamos el área como la multiplicación base por la altura
+
+287
+00:25:27,580 --> 00:25:30,930
+Shelf altura.
+
+288
+00:25:30,930 --> 00:25:38,110
+Bueno ya sabéis que la fórmula es muy sencilla fregamos un Prin vamos a copiarlo de aquí arriba mejor
+
+289
+00:25:39,760 --> 00:25:43,860
+el área del rectángulo es.
+
+290
+00:25:45,370 --> 00:25:53,470
+Pondríamos aquí el área y aquí la unidad serían cuadrados pero lo vamos a dejar así.
+
+291
+00:25:53,630 --> 00:26:01,510
+Vale con esto creo que ya lo tenemos vamos a acabar de experimentar un rectángulo utilizando los puntos
+
+292
+00:26:01,510 --> 00:26:02,690
+a y b.
+
+293
+00:26:03,310 --> 00:26:05,980
+Vamos a llamarlo erre.
+
+294
+00:26:06,160 --> 00:26:07,250
+Y aquí estamos.
+
+295
+00:26:07,390 --> 00:26:10,950
+Rectángulo y le vamos a pasar los puntos a y b.
+
+296
+00:26:11,200 --> 00:26:13,760
+De esta forma como los tenemos aquí arriba.
+
+297
+00:26:15,770 --> 00:26:20,190
+Luego nos dicen que consultemos la base a altura y área del rectángulo.
+
+298
+00:26:20,450 --> 00:26:23,500
+Así que simplemente vamos a llamar los tres métodos.
+
+299
+00:26:24,380 --> 00:26:26,420
+Base.
+
+300
+00:26:26,450 --> 00:26:30,730
+Altura y área.
+
+301
+00:26:31,160 --> 00:26:38,720
+Y a ver que nos da la base del rectángulo estress la altura del rectángulo es 2 y el área del rectángulo
+
+302
+00:26:38,720 --> 00:26:40,590
+es 6 3 por 2.
+
+303
+00:26:41,950 --> 00:26:48,520
+De alguna forma esto es lógico porque estamos dibujando el rectángulo entre estos dos puntos el que
+
+304
+00:26:48,520 --> 00:26:51,990
+traza este vector por tanto el rectángulo quedaría así.
+
+305
+00:26:53,940 --> 00:26:56,580
+Y la altura sería 2.
+
+306
+00:26:56,860 --> 00:27:05,010
+La base sería tres tres dos seis que curiosamente es el número de cuadraditos que tenemos aquí.
+
+307
+00:27:05,860 --> 00:27:09,890
+Y con esto finalizamos los ejercicios de este tema.
+
+308
+00:27:11,230 --> 00:27:15,980
+De programación orientada a objetos que aunque sólo ha sido un ejercicio ha sido un ejercicio muy completo
+
+309
+00:27:16,610 --> 00:27:21,320
+que nos ha servido para practicar un montón de conceptos introducirnos un poco más en el mundo de la
+
+310
+00:27:21,320 --> 00:27:22,480
+programación.
+
+311
+00:27:23,850 --> 00:27:31,180
+De formas geométricas aunque realmente todo esto es muy abstracto pero en el momento en que esto lo
+
+312
+00:27:31,360 --> 00:27:38,290
+vemos algo gráfico veréis como todo cobra mucho más significado porque hará lo que nos faltaría es otra
+
+313
+00:27:38,290 --> 00:27:43,540
+parte de un programa que cogiera estos valores y los mostrárselos los dibujas encima de un eje de coordenadas
+
+314
+00:27:43,540 --> 00:27:45,030
+visualmente con gráficos.
+
+315
+00:27:45,040 --> 00:27:47,770
+Pero esto es la lógica que hay detrás.
+
+316
+00:27:47,770 --> 00:27:50,590
+Así que vamos a dejarlo aquí pero se ha gustado.
+
+317
+00:27:50,770 --> 00:27:52,180
+Y seguimos con el curso.

@@ -1,0 +1,503 @@
+1
+00:00:00,920 --> 00:00:03,620
+Utilizar paquetes nos ofrece varias ventajas.
+
+2
+00:00:03,650 --> 00:00:08,260
+En primer lugar nos permite unificar distintos módulos bajo un mismo número de paquetes.
+
+3
+00:00:08,480 --> 00:00:14,070
+Así podemos utilizar jerarquías de módulos y sus módulos o también sus paquetes.
+
+4
+00:00:14,090 --> 00:00:18,980
+Por otra parte nos permiten distribuir y manejar fácilmente nuestro código como si fueran librerías
+
+5
+00:00:19,010 --> 00:00:20,700
+instalables de Payton.
+
+6
+00:00:20,870 --> 00:00:27,540
+De esta forma se pueden utilizar como módulos estándar desde el intérprete o Skitch sin cargarlos previamente.
+
+7
+00:00:27,560 --> 00:00:32,810
+Vamos a abrir nuestro directorio de elección dos paquetes pero esta vez vamos a arrastrarlo dentro de
+
+8
+00:00:32,810 --> 00:00:36,120
+sublime para ver un árbol de directorios aquí.
+
+9
+00:00:36,130 --> 00:00:41,380
+La parte izquierda porque nos va a venir muy bien para ver toda esta jerarquía de lo que se estaba hablando.
+
+10
+00:00:41,480 --> 00:00:47,640
+Vamos a sacar un paquete y lo que vamos a hacer es crear un directorio dentro de este directorio.
+
+11
+00:00:47,840 --> 00:00:49,210
+Lección dos paquetes.
+
+12
+00:00:50,180 --> 00:00:52,010
+Clic derecho New folder.
+
+13
+00:00:52,430 --> 00:00:59,000
+Aquí abajo vamos a escribir paquete no nos vamos a complicar mucho la vida de acuerdo.
+
+14
+00:00:59,000 --> 00:01:03,890
+Si apretamos aquí pues podemos ver que nos aparece aquí en directo el paquete que es lo mismo que tenerlo
+
+15
+00:01:03,890 --> 00:01:05,130
+por aquí vale.
+
+16
+00:01:05,630 --> 00:01:14,180
+Pero bueno voy a quitar eso para que lo podamos ver mejor aquí y dentro del paquete vamos a indicar
+
+17
+00:01:14,180 --> 00:01:22,370
+que esto es un paquete que se puede reinstalar en otros ordenadores y queremos o reutilizarlo y tenemos
+
+18
+00:01:22,370 --> 00:01:29,420
+que crear un fichero y como si fuera el inicio de una clase que se llama automáticamente podemos crear
+
+19
+00:01:29,450 --> 00:01:32,210
+un fichero con ese nombre ni un filey.
+
+20
+00:01:33,440 --> 00:01:40,260
+Voy a hacer controles para guardar y voy a indicarle dos barras bajas y init dos barras bajas y ahora
+
+21
+00:01:40,260 --> 00:01:43,900
+un punto de acuerdo.
+
+22
+00:01:43,980 --> 00:01:45,970
+Así lo tenéis init.
+
+23
+00:01:47,510 --> 00:01:51,570
+Esto le indicará Payton cuando lo recorra este directorio.
+
+24
+00:01:52,910 --> 00:01:58,900
+Que este directorio es en realidad un paquete y deberá de interpretar la jerarquía de módulos que hay
+
+25
+00:01:58,900 --> 00:02:00,450
+dentro.
+
+26
+00:02:00,550 --> 00:02:05,400
+Ahora nos falta meter aquí un módulo dentro de este paquete.
+
+27
+00:02:06,360 --> 00:02:07,980
+Vamos a copiar el que ya teníamos.
+
+28
+00:02:07,980 --> 00:02:08,910
+Saludos.
+
+29
+00:02:09,000 --> 00:02:11,640
+Podemos ir a directorios de antes.
+
+30
+00:02:11,640 --> 00:02:13,160
+Lección 1 módulos.
+
+31
+00:02:13,200 --> 00:02:21,810
+Vamos a copiar Saludos copiar y no os lo vamos a llevar a la lección dos paquetes y vamos a pegarlo
+
+32
+00:02:21,810 --> 00:02:25,770
+dentro del paquete derecho pegar si ya lo tenemos aquí.
+
+33
+00:02:25,800 --> 00:02:28,350
+Tenemos init y saludos.
+
+34
+00:02:28,350 --> 00:02:34,830
+Es decir tenemos un paquete porque hay este fichero que lo indica que esto es un paquete y tenemos un
+
+35
+00:02:34,830 --> 00:02:38,980
+módulo llamado saludos que forma parte dentro del paquete.
+
+36
+00:02:40,360 --> 00:02:42,360
+Muy bien como veis que tenemos aquí.
+
+37
+00:02:43,740 --> 00:02:48,350
+Para llamar al contenido del paquete vamos a volver a ir atrás.
+
+38
+00:02:48,360 --> 00:02:50,010
+Imaginad que tenemos el paquete aquí.
+
+39
+00:02:50,310 --> 00:02:58,480
+Vamos a quedar en la raíz de la lección 2 grobo fichero File mossa hacer controles para guardarlo.
+
+40
+00:02:58,500 --> 00:03:05,740
+Vamos a llamarlo por ejemplo script test como queráis como antes o llamarlo así.
+
+41
+00:03:06,520 --> 00:03:09,800
+Y vamos a hacer un importe bueno para reutilizarlo.
+
+42
+00:03:09,870 --> 00:03:14,210
+Sin embargo ahora no podemos hacer directamente el nombre del módulo.
+
+43
+00:03:14,460 --> 00:03:19,350
+Tenemos que referirnos a él con el nombre del paquete y luego el módulo así que lo vamos a hacer de
+
+44
+00:03:19,350 --> 00:03:20,570
+la siguiente forma.
+
+45
+00:03:20,730 --> 00:03:28,620
+From aquí el nombre del paquete que como hemos puesto paquete pues simplemente ponemos pakete un punto
+
+46
+00:03:28,800 --> 00:03:32,490
+y el módulo que está dentro del paquete que tenemos.
+
+47
+00:03:32,490 --> 00:03:35,280
+Saludos.
+
+48
+00:03:35,690 --> 00:03:41,610
+Y aquí haríamos un importe de todo o de la clase de saludo lo que queramos nosotros y a continuación
+
+49
+00:03:41,640 --> 00:03:44,370
+podríamos tener un saludo.
+
+50
+00:03:44,370 --> 00:03:46,710
+Por ejemplo un objeto de tipo saludo.
+
+51
+00:03:46,710 --> 00:03:51,210
+Si hacemos controles lo guardamos controlé para ejecutarlo.
+
+52
+00:03:51,700 --> 00:03:55,300
+Hola te estoy saludando desde el inicio de la clase saludo perfectamente.
+
+53
+00:03:55,460 --> 00:03:58,440
+Pero en esta ocasión lo estamos haciendo desde un paquete.
+
+54
+00:03:58,470 --> 00:04:02,900
+Como veis podríamos tener muchos módulos distintos dentro del mismo paquete.
+
+55
+00:04:02,910 --> 00:04:08,350
+Por cierto este directorio Picacho se guarda información sobre la ejecución del fichero.
+
+56
+00:04:08,700 --> 00:04:10,730
+No tenéis que prestar atención a esto.
+
+57
+00:04:10,770 --> 00:04:18,360
+Simplemente se crea y muy bien entonces como veis podríamos crear una jerarquía de con más módulos dentro
+
+58
+00:04:18,360 --> 00:04:22,910
+del paquete o con paquetes y dentro más módulos.
+
+59
+00:04:25,420 --> 00:04:32,210
+Para indicar que estos paquetes son paquetes también tendríamos que crear el fichero init dentro aparte
+
+60
+00:04:32,230 --> 00:04:35,310
+de todos los módulos o como queráis llamarlo.
+
+61
+00:04:35,500 --> 00:04:43,120
+Por ejemplo imaginar que queremos hacer dentro de este paquete dos paquetes uno llamado cola por ejemplo
+
+62
+00:04:44,620 --> 00:04:45,900
+y otro llamado.
+
+63
+00:04:47,490 --> 00:04:48,680
+Adiós.
+
+64
+00:04:49,320 --> 00:04:54,620
+Una tontería pero dentro de Hola vamos a poner un módulo de saludos.
+
+65
+00:04:54,660 --> 00:04:56,730
+Así que vamos a copiar lo que ya tenemos aquí.
+
+66
+00:04:58,450 --> 00:04:59,640
+Vamos a pegarlo dentro.
+
+67
+00:04:59,650 --> 00:05:00,380
+Esto ya está bien.
+
+68
+00:05:00,390 --> 00:05:01,760
+Tal como lo teníamos.
+
+69
+00:05:02,490 --> 00:05:07,970
+Vamos a borrar este de saludos que teníamos fuera pero conservamos el INIT del paquete.
+
+70
+00:05:08,970 --> 00:05:16,710
+Y dentro de Dios vamos a crear lo mismo que antes un fichero init pueda copiar aquí este y vamos a crear
+
+71
+00:05:16,710 --> 00:05:18,280
+también un fichero.
+
+72
+00:05:18,950 --> 00:05:26,790
+Voy a copiar el de saludos que tenía antes y lugarde Saludos dentro de la A Dios voy a llamarlo cambiar
+
+73
+00:05:26,790 --> 00:05:29,650
+nombre despedidas.
+
+74
+00:05:30,910 --> 00:05:35,360
+De tal manera que tendríamos un paquete.
+
+75
+00:05:36,260 --> 00:05:41,760
+Que es un paquete porque tiene un init y dentro un paquete adios.
+
+76
+00:05:43,130 --> 00:05:43,930
+Otro su paquete.
+
+77
+00:05:43,960 --> 00:05:44,720
+Hola.
+
+78
+00:05:45,000 --> 00:05:51,440
+El primero tendría un módulo de despedidas y el segundo un modulo de saludos para decir hola.
+
+79
+00:05:51,790 --> 00:05:59,410
+Entonces la cuestión es que para utilizar los distintos módulos de cada uno de estos paquetes lo haríamos
+
+80
+00:05:59,410 --> 00:06:04,450
+de la siguiente forma por ejemplo desde nuestro equipo que está fuera del todo a la altura de pakete
+
+81
+00:06:05,140 --> 00:06:09,010
+haríamos lo siguiente Por ejemplo vamos a importar.
+
+82
+00:06:09,160 --> 00:06:14,850
+Primero la función saludar cómo lo haríamos refiriéndonos al paquete.
+
+83
+00:06:15,650 --> 00:06:21,990
+Luego un punto al su paquete cola y luego el módulo.
+
+84
+00:06:22,120 --> 00:06:23,790
+Y aquí podríamos importar todo.
+
+85
+00:06:23,810 --> 00:06:28,320
+Por ejemplo solo saludar que hace la función de saludar.
+
+86
+00:06:28,490 --> 00:06:35,810
+Si además quisiéramos por ejemplo importar una despedida pues vamos a crear la despedida vamos a cambiar
+
+87
+00:06:35,810 --> 00:06:36,670
+esto.
+
+88
+00:06:37,070 --> 00:06:45,380
+Este es un módulo con funciones que despiden en lugar de saludar pues podríamos poner a Dios o mejor
+
+89
+00:06:45,650 --> 00:06:51,360
+despedirse y aunque le diríamos adiós.
+
+90
+00:06:52,820 --> 00:06:54,260
+Me estoy despidiendo
+
+91
+00:06:57,530 --> 00:07:03,450
+desde el módulo 1 desde la función despedirse.
+
+92
+00:07:05,220 --> 00:07:08,230
+Del módulo despedidas.
+
+93
+00:07:10,360 --> 00:07:18,160
+Y podríamos crear una clase que sea por ejemplo un despedida ya que la otra era Saludo esta despedida
+
+94
+00:07:18,850 --> 00:07:23,680
+y ponemos lo mismo ocultamente arriba para copiarlo.
+
+95
+00:07:24,340 --> 00:07:30,740
+Pero en lugar de la función podríamos desde el inicio de.
+
+96
+00:07:31,940 --> 00:07:39,050
+Las clases despedidas sólo para diferenciarlas de una función y una clase.
+
+97
+00:07:39,580 --> 00:07:43,520
+Entonces vamos a nuestros primos y supongamos que queremos importar la despedida.
+
+98
+00:07:43,540 --> 00:07:51,800
+No lo haríamos si From pakete adiós y aquí sería despedida.
+
+99
+00:07:51,820 --> 00:07:56,150
+Porque es el nombre del módulo despedido tras impor.
+
+100
+00:07:57,020 --> 00:08:04,710
+Despedida así en mayúscula y ahora podríamos por ejemplo ejecutar la función de saludar.
+
+101
+00:08:05,680 --> 00:08:07,800
+Del paquete cola Saludos.
+
+102
+00:08:09,150 --> 00:08:11,830
+Y crear una despedida.
+
+103
+00:08:11,840 --> 00:08:18,030
+Un supuesto objeto despedida de esta forma.
+
+104
+00:08:18,110 --> 00:08:19,560
+Para guardar control.
+
+105
+00:08:19,700 --> 00:08:23,900
+Para ejecutarlo todo texto se abordan desde la función saludará del módulo.
+
+106
+00:08:23,900 --> 00:08:25,360
+Saludos.
+
+107
+00:08:26,040 --> 00:08:26,430
+Adiós.
+
+108
+00:08:26,440 --> 00:08:29,390
+Y me estoy despidiendo desde el 15 de la clase despedida.
+
+109
+00:08:29,630 --> 00:08:36,840
+Como veis es una forma muy interesante y los paquetes nos permiten gestionar multitud de módulos y sus
+
+110
+00:08:36,910 --> 00:08:43,880
+paquetes todos bien gestionados y todo siempre que cumplan con el INIT para indicar que es un paquete
+
+111
+00:08:43,880 --> 00:08:45,160
+o un paquete.
+
+112
+00:08:46,190 --> 00:08:53,490
+Sin embargo nos pasaría lo mismo que antes imaginar que creamos otra carpeta aquí en la raíz.
+
+113
+00:08:54,320 --> 00:09:01,080
+Un fólder vamos a llamarle texto por ejemplo y dentro del test vamos a copiar.
+
+114
+00:09:02,770 --> 00:09:06,630
+En el clip que tenemos copiar a pegarlo aquí.
+
+115
+00:09:07,670 --> 00:09:09,980
+Y queremos ejecutarlo vamos a ir a la carpeta.
+
+116
+00:09:10,090 --> 00:09:11,980
+Vamos a hacer doble clic para abrirlo.
+
+117
+00:09:11,980 --> 00:09:15,520
+Si estoy aquí vamos a hacer control para ejecutarlo.
+
+118
+00:09:15,950 --> 00:09:21,450
+Y vaya nos dice que no se encontró ningún módulo ningún paquete.
+
+119
+00:09:22,370 --> 00:09:26,750
+Por qué por qué no lo encuentra Estamos en lo mismo que antes con el módulo que no podíamos importarlo
+
+120
+00:09:26,750 --> 00:09:29,620
+tendríamos que introducirlo en el paz y todo aquello.
+
+121
+00:09:29,960 --> 00:09:36,620
+Pero la gracia de haber utilizado paquetes es que esta vez podemos instalar el paquete dentro de Payton
+
+122
+00:09:36,800 --> 00:09:41,720
+si instalamos un paquete dentro de Python lo podremos utilizar en cualquier sitio de nuestro sistema
+
+123
+00:09:41,720 --> 00:09:45,490
+operativo y para hacerlo tenemos que seguir unos pasos.
+
+124
+00:09:46,160 --> 00:09:52,280
+Lo primero que hay que hacer es convertir nuestro paquete este paquete que tenemos aquí lo tenemos que
+
+125
+00:09:52,280 --> 00:09:57,830
+convertir en un paquete distribuible más adelante dedicar un tema a hablar solo sobre la distribución
+
+126
+00:09:57,830 --> 00:10:02,710
+de código pero por ahora nos dará cuatro pinceladas para que veáis de lo que estoy hablando.

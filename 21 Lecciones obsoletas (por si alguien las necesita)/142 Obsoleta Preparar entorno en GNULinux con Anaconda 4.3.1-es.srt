@@ -1,0 +1,295 @@
+1
+00:00:00,490 --> 00:00:06,150
+Muy bien pues en este tutorial os voy a enseñar la forma de instalar o configurar Payton y Jupiter notebook
+
+2
+00:00:06,450 --> 00:00:10,240
+más el editor sublime Text en distribuciones Linux.
+
+3
+00:00:10,470 --> 00:00:18,660
+Lo primero que vamos a hacer es descargar los recursos que ya deberían tenerlos y descomprimir los descomprime
+
+4
+00:00:18,670 --> 00:00:24,870
+aquí en mi directorio de usuario o sector y no voy a poder borrar el fichero comprimido.
+
+5
+00:00:25,440 --> 00:00:31,690
+A continuación vamos a descargar anaconda que integra toda la instalación de Payton y peder notebook.
+
+6
+00:00:42,440 --> 00:00:48,660
+Y una vez que lo tengáis vais a vuestro directorio de descargas y allí lo que haremos es abrir una terminal.
+
+7
+00:00:48,820 --> 00:00:50,790
+Clic derecho abrir un terminal.
+
+8
+00:00:51,820 --> 00:00:58,810
+Como veis estoy en el directorio home vector descargas por defecto así que simplemente lo que voy a
+
+9
+00:00:58,810 --> 00:01:06,500
+hacer ahora es ejecutar las órdenes que nos indican en la página vash espacio y el nombre del script
+
+10
+00:01:07,210 --> 00:01:10,170
+presionó Enter para continuar.
+
+11
+00:01:10,390 --> 00:01:20,440
+Podemos pasar toda la licencia apretando el espacio y aquí vamos a escribir que sí Yes y daremos Enter.
+
+12
+00:01:21,250 --> 00:01:28,870
+Fijaros que vamos a instalar anaconda 3 en el directorio home Héctor anacondas 3 vamos a confirmar.
+
+13
+00:01:28,870 --> 00:01:33,330
+Es importante que dejéis este directorio y ahora ya se instalará.
+
+14
+00:01:33,550 --> 00:01:39,370
+Como veis se ha instalado Anaconda y Payton y este paso es muy importante.
+
+15
+00:01:39,400 --> 00:01:45,550
+Nos piden si queremos indicar que anaconda tenga prioridad antes que Payton de la máquina por decirlo
+
+16
+00:01:45,550 --> 00:01:46,300
+de alguna manera.
+
+17
+00:01:46,300 --> 00:01:47,790
+Así que tenemos que escribir que sí.
+
+18
+00:01:48,040 --> 00:01:51,020
+Es dar este paso es muy importante.
+
+19
+00:01:52,010 --> 00:02:00,320
+Ahora una vez instalado si escribimos Payton espacio menos uve mayúscula veremos que aparece por defecto
+
+20
+00:02:00,530 --> 00:02:04,100
+una versión antigua la 2.7.
+
+21
+00:02:04,150 --> 00:02:12,190
+En mi caso sólo tenemos que cerrar la terminal volver a abrirla y ejecutar de nuevo Payton espacio menos
+
+22
+00:02:12,190 --> 00:02:13,200
+uve mayúscula.
+
+23
+00:02:17,170 --> 00:02:24,070
+Ahora como veis ya se han guardado los cambios y tenemos Payton 3 y anaconda configurados correctamente.
+
+24
+00:02:26,780 --> 00:02:29,900
+Ahora lo que vamos a hacer es probar si funciona Júpiter notebook.
+
+25
+00:02:29,900 --> 00:02:36,490
+Para eso vamos a ir a nuestro editor de curso Payton vamos a abrir una terminal justo ahí donde están
+
+26
+00:02:36,550 --> 00:02:38,770
+los directorios de las fases.
+
+27
+00:02:38,990 --> 00:02:45,830
+Vamos a escribir un comando Jupiter notebook tal cual con dos sos Y acá y vamos a dar Enter.
+
+28
+00:02:46,100 --> 00:02:51,830
+Automáticamente se nos va a abrir el Jupiter notebook y si queréis explorar un poco pues ya podéis echar
+
+29
+00:02:51,830 --> 00:02:59,200
+una ojeada a las lecciones los apuntes y todo lo que tengo hoy preparado para este curso.
+
+30
+00:02:59,540 --> 00:03:06,710
+Pero por ahora vamos a cerrar simplemente Jupiter notebook y vamos a centrarnos en instalar sublime
+
+31
+00:03:06,860 --> 00:03:09,450
+Text el editor de código.
+
+32
+00:03:09,470 --> 00:03:12,520
+Cómo será la página web sublime Text puntocom.
+
+33
+00:03:17,740 --> 00:03:23,790
+Al apartado la parte inferior donde pone descargar y vamos a descargar el instalador simplemente simplemente
+
+34
+00:03:23,850 --> 00:03:28,660
+en mi caso sólo tengo que abrirlo instalarlo con el gestor de paquetes.
+
+35
+00:03:29,860 --> 00:03:35,940
+Me comenta que en el canal de distribución de mi sistema operativo Linux Mint ya se encuentra este paquete
+
+36
+00:03:35,950 --> 00:03:43,380
+pero bueno voy a instalarlo desde aquí sigo los pasos y esto es muy fácil.
+
+37
+00:03:47,400 --> 00:03:50,450
+Una vez instalado pues debería tenerlo ya en mi menú.
+
+38
+00:03:50,490 --> 00:03:55,490
+Como veis ya tengo un apartado aquí de desarrollo tengo este instalado.
+
+39
+00:03:55,570 --> 00:04:02,310
+Bueno ahora cuando voy a abrirlo me pide que lo marca como ejecutable como mínimo la primera vez y ahora
+
+40
+00:04:02,310 --> 00:04:05,130
+ya tengo sublime Text instalado.
+
+41
+00:04:05,220 --> 00:04:11,340
+Vamos a poner a prueba si funciona Payton y sublimes de excitó vamos a crear un directorio script dentro
+
+42
+00:04:11,340 --> 00:04:15,940
+de curso Payton y dentro vamos a crear un nuevo documento.
+
+43
+00:04:16,230 --> 00:04:17,580
+Vamos a llamarlo Hola.
+
+44
+00:04:17,600 --> 00:04:22,530
+Punto griega punto p indicará un fichero con instrucciones en código Payton.
+
+45
+00:04:22,680 --> 00:04:27,850
+Vamos a hacer clic derecho abrir con sublime Text y a continuación vamos a escribir Pinet.
+
+46
+00:04:28,050 --> 00:04:28,690
+Hola mundo.
+
+47
+00:04:28,710 --> 00:04:36,240
+Tal como aparece en pantalla vamos a guardar con control S y a continuación vamos a ejecutarlo con control
+
+48
+00:04:36,360 --> 00:04:43,470
+y la tecla de control built cuando hagamos control Buil nos pedirá en qué lenguaje queremos ejecutar
+
+49
+00:04:43,470 --> 00:04:43,980
+el código.
+
+50
+00:04:43,980 --> 00:04:46,090
+Tenemos que seleccionar Payton.
+
+51
+00:04:46,140 --> 00:04:51,740
+Como veis ya se nos ejecuta nos muestra la parte inferior Hola mundo pero tenemos un problema.
+
+52
+00:04:51,900 --> 00:05:00,620
+Si cambiamos este mundo por las siguientes instrucciones import SIS print y ponemos 6.ª versión.
+
+53
+00:05:00,720 --> 00:05:04,680
+Vamos a ver exactamente qué versión de peyton está utilizando text.
+
+54
+00:05:06,900 --> 00:05:12,570
+Como veis estamos utilizando la versión 2.7 puntos 11 así que de alguna manera tenemos que indicar a
+
+55
+00:05:12,570 --> 00:05:17,760
+su texto que debe utilizar la versión de Payton que hemos instalado con anaconda.
+
+56
+00:05:17,760 --> 00:05:25,800
+Para hacerlo vamos a ir a iTunes Buy System y en lugar de Payton como por defecto vamos a crear un nuevo
+
+57
+00:05:26,160 --> 00:05:32,450
+sistema en la parte inferior y ahora se os abrirá para escribir una serie de instrucciones.
+
+58
+00:05:32,550 --> 00:05:39,930
+Tenéis que ir al apartado de recursos de esta misma lección y allí encontraréis un enlace es un enlace
+
+59
+00:05:39,990 --> 00:05:46,040
+amiguis donde yo pongo algunos ficheros o algunos códigos públicos.
+
+60
+00:05:46,170 --> 00:05:52,050
+Como veis no estoy accediendo manualmente pero tenéis que llegar a éste que se llama anaconda punto
+
+61
+00:05:52,050 --> 00:05:53,090
+sublime built.
+
+62
+00:05:53,100 --> 00:05:59,490
+Simplemente tenéis que seleccionar el contenido copiarlo y os lo vais a llevar a esta nueva configuración
+
+63
+00:05:59,550 --> 00:06:01,850
+y lo vais a pegar ahí sobre escribiéndolo.
+
+64
+00:06:02,290 --> 00:06:08,960
+Y muy importante ahora vamos a cambiar el contenido de usuario por el nombre de vuestro usuario en Linux.
+
+65
+00:06:09,030 --> 00:06:14,720
+En mi caso Hector a continuación vamos a hacer controles para guardar y vamos a cambiar el nombre a
+
+66
+00:06:14,730 --> 00:06:16,790
+anaconda punto sublime.
+
+67
+00:06:16,870 --> 00:06:20,100
+Built podéis llamarlo también Payton 3 Si queréis.
+
+68
+00:06:20,100 --> 00:06:27,570
+Yo lo he dejado con anacondas guardamos y ahora vamos a ir a türk de nuevo build system y vamos a seleccionar
+
+69
+00:06:27,570 --> 00:06:30,670
+anaconda o Payton 3 y la habeís llamado así.
+
+70
+00:06:30,720 --> 00:06:37,080
+Una vez seleccionado vamos a hacer control de nuevo y como podéis observar en esta ocasión ya se ejecuta
+
+71
+00:06:37,080 --> 00:06:43,440
+con la nueva versión de Payton 3.5 2 que es la que está establecida en Anaconda y con esto hemos acabado
+
+72
+00:06:43,440 --> 00:06:44,780
+la configuración.
+
+73
+00:06:44,790 --> 00:06:47,430
+Como veis no ha sido tampoco tan difícil.
+
+74
+00:06:47,610 --> 00:06:51,650
+Siguiendo unos sencillos pasos hemos conseguido configurar nuestro entorno.

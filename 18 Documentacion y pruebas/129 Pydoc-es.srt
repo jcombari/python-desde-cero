@@ -1,0 +1,227 @@
+1
+00:00:00,560 --> 00:00:05,790
+Muy bien en la lección anterior aprendimos cómo crear las que strings y también vimos que utilizando
+
+2
+00:00:05,790 --> 00:00:14,290
+la función integrada ayuda podíamos pasarles los objetos o loquesea y nos mostraba la ayuda que nosotros
+
+3
+00:00:14,310 --> 00:00:15,500
+habíamos definido.
+
+4
+00:00:15,840 --> 00:00:22,300
+Pero cómo lo hace JEL hace uso de el módulo picop para generar la documentación en tiempo real.
+
+5
+00:00:22,350 --> 00:00:28,550
+A partir de los 12 que nosotros escribimos desde la terminal no podemos utilizar la función pero sí
+
+6
+00:00:28,560 --> 00:00:31,650
+existe la posibilidad de utilizar pidesc de forma similar.
+
+7
+00:00:32,010 --> 00:00:35,460
+Fijaros vamos a venir a este directorio el tema 16.
+
+8
+00:00:35,640 --> 00:00:41,850
+Documentación y pruebas y aquí tenemos mi paquete en mi módulo y vamos a intentar mostrar información
+
+9
+00:00:42,690 --> 00:00:43,470
+en una terminal.
+
+10
+00:00:43,470 --> 00:00:50,790
+Clic derecho Abrir ventana de comandos aquí voy a hacerla grande y vamos a escribir pido y a continuación
+
+11
+00:00:50,790 --> 00:00:56,940
+le pasaremos el nombre del módulo o del script o de la clase que tenemos definida pero sin el punto
+
+12
+00:00:56,940 --> 00:00:57,290
+Pi.
+
+13
+00:00:57,390 --> 00:01:03,660
+Es decir para mostrar información de mi módulo lo escribiré así y como veis me muestra lo mismo que
+
+14
+00:01:03,660 --> 00:01:05,140
+me mostraba JEL.
+
+15
+00:01:05,430 --> 00:01:09,440
+Es decir el PE estaba llamando a Dock para generar la documentación.
+
+16
+00:01:09,720 --> 00:01:15,330
+Claro aquí tenemos el inconveniente de que posey los acentos y estas cosas que no se muestran pero bueno
+
+17
+00:01:15,840 --> 00:01:21,580
+de forma similar podemos hacerlo sobre un paquete pido mi paquete.
+
+18
+00:01:23,750 --> 00:01:29,470
+Y como veis es mostrar la información pero el punto fuerte de Doc no es únicamente mostrar información
+
+19
+00:01:29,770 --> 00:01:37,780
+en tiempo real en la terminal sino que podemos generar documentación de nuestro código por ejemplo escribiendo
+
+20
+00:01:37,790 --> 00:01:45,790
+pidesc Menos W y el nombre de por ejemplo el módulo del que queremos generar la documentación por ejemplo
+
+21
+00:01:45,790 --> 00:01:46,650
+un módulo.
+
+22
+00:01:46,810 --> 00:01:53,580
+Le damos a Enter y como veis nos dice se ha escrito mi módulo punto HTML.
+
+23
+00:01:53,770 --> 00:02:00,790
+Si vamos al directorio veréis que se ha creado este fichero mi módulo HTML y si hacemos clic derecho
+
+24
+00:02:00,790 --> 00:02:07,570
+y lo abrimos por ejemplo con un navegador de internet pues nos ha generado un fichero que podemos abrir
+
+25
+00:02:07,780 --> 00:02:13,610
+o compartir por internet con la documentación bien organizada de nuestro módulo módulo.
+
+26
+00:02:13,780 --> 00:02:20,050
+Y aquí estaría descrito el módulo funciones que tiene despedir con su información saludar con su información
+
+27
+00:02:21,760 --> 00:02:26,230
+de forma similar a como hemos quedado la documentación de un módulo o de un.
+
+28
+00:02:26,380 --> 00:02:28,500
+Podemos hacerlo de un paquete.
+
+29
+00:02:29,230 --> 00:02:34,770
+Podríamos poner sidoc menos w.h y el nombre del paquete en este caso mi paquete.
+
+30
+00:02:35,170 --> 00:02:38,810
+Cómo veis esto únicamente genera un fichero HTML.
+
+31
+00:02:39,010 --> 00:02:43,950
+Si lo abrimos con el navegador My pakete abrir con Google Crom.
+
+32
+00:02:43,960 --> 00:02:49,870
+El problema es que este mi paquete está compuesto de otros sus paquetes en su paquete Dios y hola y
+
+33
+00:02:49,870 --> 00:02:55,540
+si hacemos clic que encima no funcionan para generar toda la documentación del paquete tenemos que seguir
+
+34
+00:02:55,540 --> 00:03:04,750
+una sintaxis tenemos que poner Ok menos W mi paquete y justo al final un puntito y una barra invertida.
+
+35
+00:03:04,990 --> 00:03:07,180
+Si lo ejecutamos como veis ahora se crean.
+
+36
+00:03:07,210 --> 00:03:10,600
+Aparte de mi paquete todo lo demás que le encuentra.
+
+37
+00:03:10,690 --> 00:03:16,000
+También se genera mi módulo que está en el mismo directorio y luego en mi paquete y paquete Adiós mi
+
+38
+00:03:16,000 --> 00:03:19,460
+paquete adiós despedidas paquete Hola y paquete Hola saludos.
+
+39
+00:03:19,460 --> 00:03:26,270
+Y ahora podemos entrar aquí y abrir mi paquete con el navegador y ahora hacer clic aquí.
+
+40
+00:03:26,540 --> 00:03:28,520
+Y como veis ya podemos navegar.
+
+41
+00:03:29,570 --> 00:03:36,860
+Por toda la documentación de mi paquete por tanto todos estos fichero hitos podríamos coger copiarlos
+
+42
+00:03:36,980 --> 00:03:42,860
+y enviarlos a una página web para tenerlos en internet si los necesitamos consultar si no disponemos
+
+43
+00:03:42,860 --> 00:03:48,350
+de un servidor en Internet y únicamente queremos comprobar cómo quedará la documentación.
+
+44
+00:03:48,350 --> 00:03:56,120
+Una vez la generemos podemos lanzar directamente el comando Fidac menos B y esto nos abrirá un servidor
+
+45
+00:03:56,120 --> 00:03:57,770
+en un puerto aleatorio.
+
+46
+00:03:58,070 --> 00:04:03,510
+Aquí nos mostrará información general de nuestro sistema y de la versión de Payton que tenemos.
+
+47
+00:04:03,560 --> 00:04:11,060
+Pero fijaros que ya nos deja ir a verlo de nuestro módulo y también mi paquete y podemos navegar cómodamente
+
+48
+00:04:11,060 --> 00:04:14,690
+desde este servidor y ver la documentación.
+
+49
+00:04:14,690 --> 00:04:19,550
+Si en lugar de lanzarlo en un puerto aleatorio queréis definir el vuestro propio podéis utilizar el
+
+50
+00:04:19,550 --> 00:04:20,790
+comando OK.
+
+51
+00:04:21,200 --> 00:04:21,990
+Menos P.
+
+52
+00:04:22,380 --> 00:04:24,550
+Y el puerto donde queréis lanzar el servidor.
+
+53
+00:04:24,680 --> 00:04:26,610
+En mi caso por ejemplo 8.000.
+
+54
+00:04:27,380 --> 00:04:33,670
+Voy a ponerme para abrir el browser y me abre ya lo mismo que tenía antes pero no el puerto mil que
+
+55
+00:04:33,670 --> 00:04:35,940
+yo le he indicado manualmente.
+
+56
+00:04:36,130 --> 00:04:41,900
+Existen otras alternativas más bonitas para generar la documentación como los módulos Epidemic o esfinges
+
+57
+00:04:42,190 --> 00:04:46,380
+pero ser externos a Python no los trataremos en este curso.

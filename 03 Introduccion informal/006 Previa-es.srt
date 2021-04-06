@@ -1,0 +1,71 @@
+1
+00:00:00,680 --> 00:00:02,200
+Qué sentido tiene programar.
+
+2
+00:00:02,450 --> 00:00:04,080
+Cuál es su utilidad.
+
+3
+00:00:04,100 --> 00:00:08,690
+Recuerdo que esta fue la primera pregunta que me hice hace ya diez años y creo que todo aquel que se
+
+4
+00:00:08,690 --> 00:00:12,960
+plantee comenzar en este mundo debe tenerlo claro desde el principio.
+
+5
+00:00:13,190 --> 00:00:18,740
+La programación es ante todo una herramienta para manipular datos de forma automática pero qué datos
+
+6
+00:00:18,830 --> 00:00:21,290
+o mejor dicho qué son esos datos.
+
+7
+00:00:21,410 --> 00:00:26,990
+Cuando nos referimos a datos estamos hablando de información una información que puede presentarse de
+
+8
+00:00:26,990 --> 00:00:34,060
+muchas formas desde simples números o símbolos textos sonidos imágenes e incluso vídeo.
+
+9
+00:00:34,280 --> 00:00:39,860
+Todo lo que podemos percibir es información y además desde la era digital podemos almacenarla en la
+
+10
+00:00:39,860 --> 00:00:43,250
+memoria de nuestros ordenadores smartphones e incluso internet.
+
+11
+00:00:44,370 --> 00:00:50,490
+La cuestión es que todos estos datos quedan guardados en ficheros y bases de datos y con la programación
+
+12
+00:00:50,520 --> 00:00:52,600
+Podemos manipularlos de mil formas.
+
+13
+00:00:52,710 --> 00:00:58,620
+Por ejemplo para hacer búsquedas de información en registros para solucionar complejas operaciones matemáticas
+
+14
+00:00:59,190 --> 00:01:04,740
+para crear formularios y guardar las respuestas o para dibujar gráficos de estos mismos formularios
+
+15
+00:01:04,780 --> 00:01:07,860
+e incluso para dotar de vida a los personajes de un videojuego.
+
+16
+00:01:08,160 --> 00:01:11,270
+Por tanto sin datos la programación no tendría ningún sentido.
+
+17
+00:01:11,430 --> 00:01:16,140
+Y esa es la razón por la que debemos comenzar por ahí viendo los tipos de datos básicos que podemos
+
+18
+00:01:16,140 --> 00:01:21,680
+manejar en Payton tenemos tres los números los textos y las listas.

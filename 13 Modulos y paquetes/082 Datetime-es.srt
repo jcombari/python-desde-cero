@@ -1,0 +1,895 @@
+1
+00:00:00,360 --> 00:00:08,070
+Muy bien seguimos nuestro repaso por los módulos más interesantes incluidos dentro de Payton los módulos
+
+2
+00:00:08,070 --> 00:00:14,940
+estándar y en esta ocasión vamos a ver El dato Time vamos a abrir la edición 5 y a trabajar con este
+
+3
+00:00:14,940 --> 00:00:23,700
+módulo comenzaremos importándole import time y vamos a comenzar creando un objeto de ataque para que
+
+4
+00:00:23,700 --> 00:00:26,150
+veáis exactamente como son.
+
+5
+00:00:26,280 --> 00:00:30,150
+Vamos a hacer lo siguiente Vamos a crear una variable del DT de The time.
+
+6
+00:00:30,610 --> 00:00:32,860
+Cómo se llamar este módulo detective.
+
+7
+00:00:33,250 --> 00:00:42,490
+Y dentro vamos a fijaros a llamar este su módulo o su paquete de cine de cine.
+
+8
+00:00:42,750 --> 00:00:43,610
+Punto.
+
+9
+00:00:43,850 --> 00:00:48,420
+Y ahora vamos a poner un n o W.
+
+10
+00:00:48,840 --> 00:00:55,110
+Así un método Naw que significa ahora voy a dejarlo aquí puesto ahora y fijaros lo que nos va a devolver
+
+11
+00:00:55,110 --> 00:01:03,300
+si mostramos d.t. y fijaros que tenemos aquí tenemos la hora o mejor dicho la fecha y hora actual en
+
+12
+00:01:03,300 --> 00:01:09,570
+el momento en que yo he ejecutado este comando es básicamente como una especie de tupla con todos estos
+
+13
+00:01:09,780 --> 00:01:11,670
+valores separados por comas.
+
+14
+00:01:11,820 --> 00:01:16,460
+Aquí tenemos el año que podemos acceder a él poniendo de guía.
+
+15
+00:01:16,650 --> 00:01:26,460
+Luego podemos ver también el mes poniendo DT Montes que se este 6 el mes podemos consultar también de
+
+16
+00:01:26,550 --> 00:01:27,770
+The Day.
+
+17
+00:01:27,960 --> 00:01:37,520
+Para saber el día de The Power para saber la hora 21 son las 9 ahora mismo desde el punto minute para
+
+18
+00:01:37,560 --> 00:01:39,920
+saber los minutos de la hora actual.
+
+19
+00:01:40,110 --> 00:01:46,510
+Son casi las nueve y media de The punto seconds.
+
+20
+00:01:47,240 --> 00:01:54,420
+Para saber si con Second a secas para saber los segundos en el momento en que ejecutado este comando
+
+21
+00:01:54,420 --> 00:02:01,260
+ha quedado guardado en la memoria como veis ahora mismo y ha pasado tres minutos y no son 99 son 32
+
+22
+00:02:01,710 --> 00:02:12,030
+y también tenemos TT micro seconds o Microsoft con qué nos devuelve este último valor que son es microsegundos
+
+23
+00:02:13,170 --> 00:02:21,710
+como más avanzado y luego tendríamos otro valor que no lo vemos aquí arriba y que actualmente no se
+
+24
+00:02:21,710 --> 00:02:25,920
+está gestionando que es el DT timms John.
+
+25
+00:02:26,010 --> 00:02:33,300
+Bueno mejor dicho TZ info información de la zona horaria y misión pero que en este caso no tenemos nada
+
+26
+00:02:33,600 --> 00:02:39,120
+de acuerdo porque no hemos especificado una zona horaria en el momento de crear esta fecha y hora de
+
+27
+00:02:39,120 --> 00:02:40,880
+it time.
+
+28
+00:02:42,030 --> 00:02:46,170
+Así que si queréis mostrar información sobre la hora qué es o qué era.
+
+29
+00:02:46,170 --> 00:02:53,910
+En el momento de haber ejecutado ese comando podríamos probarlo simplemente haciendo un Prin imprimiendo
+
+30
+00:02:54,630 --> 00:02:57,450
+pasándole por ejemplo unos paréntesis.
+
+31
+00:02:57,540 --> 00:02:59,020
+Vamos a dejarlo así.
+
+32
+00:02:59,430 --> 00:03:04,470
+Vamos a dejarlo bien unos paréntesis aquí para poner la hora.
+
+33
+00:03:04,720 --> 00:03:10,740
+Otros parentesis después de unos dos puntos para poner los minutos por ejemplo y otros paréntesis para
+
+34
+00:03:10,740 --> 00:03:12,200
+poner los segundos.
+
+35
+00:03:12,540 --> 00:03:23,490
+Luego con un formato podemos pasarle cómodamente la hora los minutos minutos y los segundos.
+
+36
+00:03:24,470 --> 00:03:29,540
+Y ahí tenemos las 9 y 29 28 en el momento en que yo he ejecutado este comando.
+
+37
+00:03:31,140 --> 00:03:38,820
+Si quisiera mostrar información de la fecha pues puedo hacer un brinco lo mismo esto sería al día puedo
+
+38
+00:03:38,820 --> 00:03:50,030
+mostrar aquí una barra al mes una barra y el año con forma de T El día de hoy.
+
+39
+00:03:51,000 --> 00:03:52,470
+Desde punto.
+
+40
+00:03:53,450 --> 00:03:54,940
+Mond el mes.
+
+41
+00:03:55,290 --> 00:04:01,090
+Y en este punto para el año 16 hay 16 18.
+
+42
+00:04:01,130 --> 00:04:05,570
+Del 6 de 2016 hoy es 18 de junio de 2016.
+
+43
+00:04:07,260 --> 00:04:13,510
+Muy bien como habeis visto con no podemos conseguir la hora actual en el momento de hacer ese comando
+
+44
+00:04:14,980 --> 00:04:18,810
+pero también podemos crear una fecha manualmente.
+
+45
+00:04:19,150 --> 00:04:28,430
+Para hacerlo necesitamos utilizar la siguiente sintaxis dette igual de Time Days time.
+
+46
+00:04:28,930 --> 00:04:35,050
+Y aquí le vamos a pasar de forma ordenada podríamos pasarle primero un año por ejemplo imaginad que
+
+47
+00:04:35,050 --> 00:04:39,100
+queramos una fecha para el año 2000.
+
+48
+00:04:40,920 --> 00:04:43,990
+1 y el día 1.
+
+49
+00:04:44,810 --> 00:04:55,010
+De esta forma si mostramos este reutilice tendríamos lo que tenemos aquí bajo hemos creado un objeto
+
+50
+00:04:55,370 --> 00:04:56,740
+con la fecha y hora.
+
+51
+00:04:57,530 --> 00:05:06,110
+El día 1 del 1 del 2000 y Tened en cuenta que esto es como una tupla y por tanto se intentásemos sobreescribir
+
+52
+00:05:06,110 --> 00:05:14,480
+un valor por ejemplo de tellier igual 3000 no funciona dice que no se puede reescribir no se puede escribir
+
+53
+00:05:14,480 --> 00:05:16,260
+en este atributo.
+
+54
+00:05:19,060 --> 00:05:27,610
+Pero si que podemos reemplazar este atributo manualmente con un método llamado replays d.t. Puntos replays
+
+55
+00:05:28,140 --> 00:05:35,630
+y indicaremos por ejemplo el campo que queremos autorizar y pondríamos que ya era hora 3:00.
+
+56
+00:05:36,730 --> 00:05:44,790
+Ahora el año que han salido arriba que nos devolvería será con una fecha nueva en 3000.
+
+57
+00:05:44,800 --> 00:05:51,300
+Pero si volvemos a mostrarlo pues seguimos teniendo lo de antes porque esto no nos devuelve una copia.
+
+58
+00:05:52,060 --> 00:05:54,500
+Reemplazada pero no lo actualiza en el actual.
+
+59
+00:05:54,580 --> 00:06:01,870
+Tendríamos que haber hecho un DT igual de replays y entonces sí si volvemos a ejecutar tendríamos esta
+
+60
+00:06:01,870 --> 00:06:03,950
+nueva fecha y hora.
+
+61
+00:06:04,090 --> 00:06:06,690
+Como veis se dice que son las cero cero.
+
+62
+00:06:08,430 --> 00:06:15,290
+Cero de la noche y cero minutos del año 3000 del de enero Día 1.
+
+63
+00:06:16,230 --> 00:06:21,840
+Pero claro trabajar de esta forma con el formato tal es un poco engorroso.
+
+64
+00:06:22,050 --> 00:06:24,820
+Por eso existen los formateados.
+
+65
+00:06:25,200 --> 00:06:28,500
+Por ejemplo un dictamen
+
+66
+00:06:31,320 --> 00:06:32,910
+30m.
+
+67
+00:06:33,610 --> 00:06:37,430
+Tim no abordarlo hoy con la hora.
+
+68
+00:06:37,480 --> 00:06:48,660
+Actualmente hay un formateo que se hizo formal de esta forma y su forma hizo.
+
+69
+00:06:49,110 --> 00:06:52,610
+Es la Organización Internacional de la normalización.
+
+70
+00:06:54,730 --> 00:07:01,560
+Y nos permite mostrar un formato por defecto muy utilizado que se esté liso.
+
+71
+00:07:02,660 --> 00:07:06,810
+Como veis primero nos pone la fecha guión del mes.
+
+72
+00:07:06,890 --> 00:07:08,560
+Otro guión el día.
+
+73
+00:07:09,970 --> 00:07:10,810
+Y aquí.
+
+74
+00:07:11,860 --> 00:07:19,190
+La hora las 21 37 segundos un punto y los microsegundos.
+
+75
+00:07:20,180 --> 00:07:26,500
+Pero Podemos también formatear manualmente los campos.
+
+76
+00:07:26,810 --> 00:07:29,210
+Y esto ya da mucho juego.
+
+77
+00:07:29,210 --> 00:07:39,200
+Os voy a enseñar un simple ejemplo si quisiéramos formatear a nuestra propia forma la fecha y hora tenemos
+
+78
+00:07:39,200 --> 00:07:52,130
+que utilizar un método llamado string F Time STR effective informativo y aquí le vamos a indicar con
+
+79
+00:07:52,130 --> 00:08:00,620
+unos parámetros con unos códigos cómo queremos devolver la cadena el texto con la hora o la fecha o
+
+80
+00:08:00,620 --> 00:08:01,720
+lo que queramos.
+
+81
+00:08:01,810 --> 00:08:09,440
+Vamos dejar un enlace los apuntes de este mismo fichero para que podáis acceder a ver los distintos
+
+82
+00:08:09,440 --> 00:08:17,240
+campos está en inglés pero podéis echar un repaso si os hace ilusión saber un poco más sobre el tema
+
+83
+00:08:17,840 --> 00:08:18,900
+por ejemplo.
+
+84
+00:08:19,880 --> 00:08:23,670
+Primero de todo vamos a mostrar el día.
+
+85
+00:08:24,350 --> 00:08:29,450
+Vamos a poner este código un porcentaje y un ahorro en espacio.
+
+86
+00:08:29,450 --> 00:08:33,420
+Ahora pondríamos el día de la semana un porcentaje y una de minuscula.
+
+87
+00:08:34,700 --> 00:08:37,530
+Luego podríamos poner el mes en código.
+
+88
+00:08:37,550 --> 00:08:39,110
+Es un porcentaje.
+
+89
+00:08:39,770 --> 00:08:41,390
+Pero este mes viene escrito.
+
+90
+00:08:41,480 --> 00:08:44,490
+No es un número sino que viene escrito con texto.
+
+91
+00:08:45,520 --> 00:08:51,110
+A continuación podríamos poner un espacio y al año un porcentaje agrega mayúscula.
+
+92
+00:08:51,870 --> 00:08:54,120
+Y ahora vamos a poner la hora.
+
+93
+00:08:54,970 --> 00:09:04,770
+Un porcentaje y una mayúscula para la hora dos puntitos porcentaje y un alemán para los minutos.
+
+94
+00:09:06,300 --> 00:09:10,690
+Vamos a ejecutar esto y fijaros lo que tengo aquí.
+
+95
+00:09:10,770 --> 00:09:13,780
+Saturday 18 Jun.
+
+96
+00:09:13,790 --> 00:09:17,240
+Junio 2006 09:37.
+
+97
+00:09:18,310 --> 00:09:21,370
+Fijaros me sale en inglés.
+
+98
+00:09:21,880 --> 00:09:26,140
+Sábado 18 de junio de 2016.
+
+99
+00:09:26,410 --> 00:09:31,930
+Las nobby 37 pero un formato de 12 horas no de 24 horas.
+
+100
+00:09:31,940 --> 00:09:38,360
+Por qué esto de aquí nos devuelve la hora en formato de 12 horas.
+
+101
+00:09:38,380 --> 00:09:43,900
+Evidentemente esto no es muy interesante porque al salir en inglés no podríamos utilizarlo en muchos
+
+102
+00:09:43,900 --> 00:09:47,930
+de nuestros programas porque nuestros clientes posiblemente no sepan inglés.
+
+103
+00:09:48,190 --> 00:09:54,400
+Entonces aquí la clave es cambiar el idioma del programa antes de ejecutar este código.
+
+104
+00:09:54,550 --> 00:10:04,210
+Fijaros voy a introducir una librería un módulo nuevo llamado locale para gestionar la localización
+
+105
+00:10:04,340 --> 00:10:07,380
+el idioma actual en el que está configurado Payton.
+
+106
+00:10:07,390 --> 00:10:17,470
+Vamos a poner import locale y ahora vamos a hacer lo siguiente locale punto siete locales y vamos a
+
+107
+00:10:17,470 --> 00:10:18,410
+establecer.
+
+108
+00:10:21,080 --> 00:10:29,510
+El idioma digamos la internacionalización del idioma español por ejemplo pondríamos locales.
+
+109
+00:10:29,690 --> 00:10:30,250
+Punto.
+
+110
+00:10:30,330 --> 00:10:33,120
+LC en mayúscula.
+
+111
+00:10:33,360 --> 00:10:44,610
+OL Así una coma y aquí pondríamos un valor que sería la lengua o el código del idioma.
+
+112
+00:10:44,610 --> 00:10:49,500
+También dejar un enlace para que veáis todos los códigos de idiomas que podéis utilizar aquí.
+
+113
+00:10:50,650 --> 00:10:57,140
+Aquí normalmente pondríamos por ejemplo S por hacer referencia a España o es español.
+
+114
+00:10:57,140 --> 00:10:57,710
+Perdón.
+
+115
+00:10:57,980 --> 00:11:04,010
+Y ese guión es en mayúsculas para hacer referencia al español de España en específico.
+
+116
+00:11:04,010 --> 00:11:10,420
+Podría haber otros españoles si aquí no ponemos nada no se utilizará el lenguaje de la máquina.
+
+117
+00:11:10,490 --> 00:11:18,680
+Fijaros voy a confirmarlo y me ha establecido la lengua el idioma en Spanish Spain 12:52 que debe ser
+
+118
+00:11:18,680 --> 00:11:25,300
+algún tipo de código que debe tener Microsoft o la lengua configurada en Windows.
+
+119
+00:11:25,420 --> 00:11:32,630
+Yo estoy en Windows ahora pero podríamos haber puesto perfectamente el es de España o simplemente es
+
+120
+00:11:32,810 --> 00:11:39,520
+español y una vez hemos hecho esto si volvemos a ejecutar lo que teníamos antes.
+
+121
+00:11:39,620 --> 00:11:41,810
+Fijaros lo que va a ocurrir.
+
+122
+00:11:41,810 --> 00:11:46,740
+Sábado 18 de junio 2016 las 09:37 A..
+
+123
+00:11:46,790 --> 00:11:48,580
+Ahora ya lo tenemos en español.
+
+124
+00:11:48,920 --> 00:11:53,040
+Si lo pusiéramos en otro idioma por ejemplo.
+
+125
+00:11:53,950 --> 00:11:59,040
+Voy a abrir un momento los códigos de idiomas desde una pestaña nueva.
+
+126
+00:11:59,380 --> 00:12:00,350
+Fijaros.
+
+127
+00:12:01,730 --> 00:12:12,620
+Si quisiera poner el idioma por ejemplo en chino podría utilizar este código de aquí z h y más específicamente
+
+128
+00:12:12,620 --> 00:12:13,730
+para China.
+
+129
+00:12:16,090 --> 00:12:20,250
+Le voy a poner así vamos a guardarlo.
+
+130
+00:12:20,430 --> 00:12:21,850
+Si lo ejecutamos otra vez.
+
+131
+00:12:22,030 --> 00:12:22,810
+Pues qué curioso.
+
+132
+00:12:22,810 --> 00:12:32,860
+Kaname aparece en chino y si no recuerdo mal en minúscula queja en mayúscula de Japón.
+
+133
+00:12:33,160 --> 00:12:40,390
+Podríamos ponerlo en japones y ahí tenemos lo mismo pero equivalente en japonés Esto vendría a decir
+
+134
+00:12:40,930 --> 00:12:50,690
+supongo que el día de la semana sábado 18 esto sería el mes.
+
+135
+00:12:52,160 --> 00:12:53,360
+La hora y tal.
+
+136
+00:12:53,360 --> 00:12:57,750
+No vamos a volver a ponerlo en español.
+
+137
+00:12:57,770 --> 00:13:05,120
+Vamos a ponerlo en español de España en mi caso vosotros podéis buscar en Google también que locale
+
+138
+00:13:05,120 --> 00:13:06,730
+List idiomas.
+
+139
+00:13:06,740 --> 00:13:13,160
+No sé lo que vosotros estoy buscando el país que vosotros queréis buscar para establecerlo más preciso
+
+140
+00:13:13,650 --> 00:13:16,110
+y eso a la mayoría de estos códigos.
+
+141
+00:13:16,650 --> 00:13:20,490
+Yo no voy a dejar así voy a volver a hacer esto.
+
+142
+00:13:20,950 --> 00:13:26,110
+Os voy a enseñar un poco más desarrollado como crear una fecha.
+
+143
+00:13:27,190 --> 00:13:34,090
+Poniendo por ejemplo la hora en formato 24 horas podríamos hacerlo de esta forma dette Strings Format
+
+144
+00:13:34,780 --> 00:13:46,000
+Time por ejemplo el día de la semana y ya está bien con la Luego vamos a poner el día del mes de para
+
+145
+00:13:46,000 --> 00:13:49,220
+poner el mes una B.
+
+146
+00:13:50,830 --> 00:13:57,620
+Del porcentaje y griega del año.
+
+147
+00:13:58,810 --> 00:13:59,720
+Un guión.
+
+148
+00:14:00,890 --> 00:14:02,240
+Un porcentaje.
+
+149
+00:14:02,600 --> 00:14:07,000
+Una h para hacer referencia a la hora en formato 24 horas.
+
+150
+00:14:07,080 --> 00:14:08,060
+12.
+
+151
+00:14:08,700 --> 00:14:10,070
+Dos puntos.
+
+152
+00:14:10,400 --> 00:14:14,030
+Porcentaje m para hacer referencia a los minutos.
+
+153
+00:14:14,280 --> 00:14:16,260
+Y esto me devuelve.
+
+154
+00:14:16,370 --> 00:14:20,060
+Sábado 18 de junio del 2016.
+
+155
+00:14:20,270 --> 00:14:23,910
+Las nueve y treinta y siete de la noche.
+
+156
+00:14:25,170 --> 00:14:33,220
+Como veis gracias a balestrini Formar podemos cambiar la fecha y mostrarla como nosotros queremos.
+
+157
+00:14:33,240 --> 00:14:42,270
+Otra cosa muy interesante es que podemos operar tiempo podemos sumar por ejemplo una cantidad de días
+
+158
+00:14:42,270 --> 00:14:46,560
+o de horas a una fecha concreta para saber cuál es la nueva fecha.
+
+159
+00:14:46,740 --> 00:14:51,030
+Vamos a crear la fecha y hora actual de imputarme.
+
+160
+00:14:52,730 --> 00:14:55,670
+Ahora mismo son las 9.
+
+161
+00:14:55,680 --> 00:14:56,710
+47.
+
+162
+00:14:56,870 --> 00:15:09,020
+Muy bien imagina que queremos sumar al día de hoy en dos semanas dos semanas suponiendo que hoy es día
+
+163
+00:15:09,020 --> 00:15:10,210
+18.
+
+164
+00:15:10,400 --> 00:15:13,400
+Dentro de dos semanas pues será el próximo mes.
+
+165
+00:15:14,390 --> 00:15:15,660
+Así qué queremos.
+
+166
+00:15:15,680 --> 00:15:17,840
+Automáticamente nos lo gestione.
+
+167
+00:15:18,300 --> 00:15:23,600
+Lo que tenemos que hacer es crear un objeto de tiempo de Intime pero de una forma diferente.
+
+168
+00:15:23,700 --> 00:15:30,120
+Vamos a llamarlo y esto será lo que le sumaremos a nuestro Deutschen de la siguiente forma victime punto
+
+169
+00:15:30,790 --> 00:15:32,120
+taine Delta.
+
+170
+00:15:32,430 --> 00:15:37,370
+Ahora entre paréntesis que indica haríamos todos los campos que queremos sumar.
+
+171
+00:15:37,380 --> 00:15:39,730
+Por ejemplo dais igual.
+
+172
+00:15:39,780 --> 00:15:45,960
+14 queremos sumar 14 días imaginar que queremos sumar también a webs.
+
+173
+00:15:46,050 --> 00:15:51,150
+Podríamos sumarle por ejemplo a la hora actual cuatro horas más para que sume un día extra.
+
+174
+00:15:51,210 --> 00:15:53,510
+Porque claro son las nueve y 48.
+
+175
+00:15:53,550 --> 00:15:58,990
+Y así el automãticamente Tendría que sumar un día más y también podríamos poner por ejemplo segundos
+
+176
+00:15:59,010 --> 00:16:03,400
+escondes y poner en 1000 segundos que también pueden sumar.
+
+177
+00:16:03,600 --> 00:16:08,340
+En realidad puede disponer un montón de campos que también nos los dejará apuntados en los apuntes de
+
+178
+00:16:08,350 --> 00:16:15,300
+Valga la redundancia vamos a crearle esta variable y ahora vamos a hacer lo siguiente dentro de dos
+
+179
+00:16:15,660 --> 00:16:16,590
+semanas.
+
+180
+00:16:16,760 --> 00:16:24,030
+Igual les vamos a asignar la suma de la hora actual la fecha y hora actual más este tiempo extra que
+
+181
+00:16:24,030 --> 00:16:25,730
+hemos creado en esta variable.
+
+182
+00:16:25,870 --> 00:16:32,420
+Si mostramos el contenido que tenemos aquí dentro de dos semanas será el 2006 no vamos a Foro vamos
+
+183
+00:16:32,420 --> 00:16:40,640
+a formatearlo o voy a ponerlo así y dentro de dos semanas sumando todo lo que tenemos aquí 14 días cuatro
+
+184
+00:16:40,650 --> 00:16:45,930
+horas y milisegundos era domingo día 3 de julio del 2016.
+
+185
+00:16:46,080 --> 00:16:53,970
+Las dos y tres de la mañana han aparecido también podríamos queestar imaginar que hacemos hacemos hace
+
+186
+00:16:54,330 --> 00:16:59,880
+dos semanas y ya vamos a indicar d.t. Menos.
+
+187
+00:17:00,300 --> 00:17:03,900
+De esta forma y vamos a mostrar lo mismo de antes.
+
+188
+00:17:04,570 --> 00:17:15,300
+Así formateado Wii hace dos semanas con la resta Era 4 de junio del 2016 las 17:30 a las cinco y media
+
+189
+00:17:15,300 --> 00:17:16,100
+de la tarde.
+
+190
+00:17:17,260 --> 00:17:22,720
+Me diréis que esto no os parece interesante imaginar lo que podéis llegar a hacer manejando correctamente
+
+191
+00:17:22,720 --> 00:17:23,720
+los detalles.
+
+192
+00:17:23,770 --> 00:17:26,750
+Guardar registros perfectamente a las horas.
+
+193
+00:17:27,190 --> 00:17:29,010
+Pero esto no es todo.
+
+194
+00:17:29,060 --> 00:17:32,430
+Había dicho que todavía tenemos zonas horarias.
+
+195
+00:17:32,470 --> 00:17:39,130
+El problema de las zonas es que son un poco complejas de utilizar y por ello os voy a explicar cómo
+
+196
+00:17:39,130 --> 00:17:46,720
+utilizar un módulo extra que tenemos que instalar manualmente desde Internet dentro de Payton que se
+
+197
+00:17:46,720 --> 00:17:50,320
+llama Pit TZ Payton tambillo.
+
+198
+00:17:51,330 --> 00:18:02,980
+Tenéis que abrir un terminal vale y voy a instalar dentro de Payton el módulo Pí TZ pitres Install Pi
+
+199
+00:18:03,140 --> 00:18:03,760
+TZ.
+
+200
+00:18:03,910 --> 00:18:07,170
+Así me parece que ya lo tengo instalado.
+
+201
+00:18:07,170 --> 00:18:12,910
+Por tanto dice que ya lo tengo satisfecho el requisito y que ya está instalado vosotros os vais a instalar
+
+202
+00:18:12,930 --> 00:18:13,850
+desde cero.
+
+203
+00:18:14,400 --> 00:18:24,950
+Una vez lo tengáis podéis importar este módulo de zonas horarias import Pi TZ muy bien y ahora si ejecutas
+
+204
+00:18:24,960 --> 00:18:29,330
+este comando pité a punto col divisón.
+
+205
+00:18:29,550 --> 00:18:35,610
+Podéis consultar todas las zonas horarias que podemos utilizar.
+
+206
+00:18:36,210 --> 00:18:42,160
+Como veis aquí tenemos un montón de zonas horarias se vuelve a ocultar.
+
+207
+00:18:42,450 --> 00:18:46,560
+Vale me lo muestra mejor en un campo de scroll que hable.
+
+208
+00:18:46,560 --> 00:18:51,900
+Como veis tenemos un montón de zonas horarias que son básicamente todas las del mundo que podemos utilizar
+
+209
+00:18:52,410 --> 00:18:53,770
+para qué nos sirve.
+
+210
+00:18:53,790 --> 00:18:59,690
+Pues imaginar que queremos saber la hora que es ahora mismo en Tokio cómo podemos hacerlo.
+
+211
+00:18:59,690 --> 00:19:06,540
+Pues fijaros vamos a hacer un dictamen de prime time now.
+
+212
+00:19:07,070 --> 00:19:09,700
+Y es que le vamos a pasar.
+
+213
+00:19:09,980 --> 00:19:10,970
+Punto.
+
+214
+00:19:11,100 --> 00:19:12,660
+Punto.
+
+215
+00:19:13,680 --> 00:19:21,350
+Y vamos a pasar de la zona horaria de Tokio que estaría en Asia Asia.
+
+216
+00:19:22,200 --> 00:19:27,530
+Aquí hacia Tokio voy a copiar esto y vamos a pasarle este campo.
+
+217
+00:19:27,530 --> 00:19:31,350
+Vamos a crearla y ahora voy a mostrar.
+
+218
+00:19:31,510 --> 00:19:39,390
+Ahora bien formateada de aquella forma que hemos hecho al principio que quedaba tan bien aquí y voy
+
+219
+00:19:39,390 --> 00:19:44,610
+a mostrar esta hora que se supone que es en Tokio y en Tokio ahora mismo.
+
+220
+00:19:44,730 --> 00:19:48,840
+Es domingo 19 de junio del 2016.
+
+221
+00:19:49,020 --> 00:19:51,180
+Las 4 y 52 de la madrugada.
+
+222
+00:19:51,390 --> 00:19:52,030
+Qué os parece.
+
+223
+00:19:52,030 --> 00:19:53,720
+Esto no es interesante.
+
+224
+00:19:54,030 --> 00:19:59,230
+Bueno pues creo que vamos a dejarlo aquí porque este repaso hemos visto muchísimo.

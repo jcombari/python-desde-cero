@@ -1,0 +1,191 @@
+1
+00:00:01,090 --> 00:00:06,350
+Muy bien pues nos ponemos manos a la obra con la práctica ya del segundo tema.
+
+2
+00:00:06,540 --> 00:00:13,950
+Vamos a comenzar los operadores y expresiones vamos a comenzar con la lección 1 del tipológico.
+
+3
+00:00:14,160 --> 00:00:17,440
+Números textos sonidos e imágenes video.
+
+4
+00:00:17,490 --> 00:00:24,510
+Si algo tienen en común es que podemos percibirlos como información pero hay un tipo de dato algo distinto.
+
+5
+00:00:24,640 --> 00:00:30,560
+Es más básico y digamos que es tan básico que quizá cuesta entenderlo como un tipo de dato.
+
+6
+00:00:30,690 --> 00:00:32,440
+Ese es el tipo lógico.
+
+7
+00:00:33,060 --> 00:00:39,630
+Se llama lógico porque es la forma más básica de información racional es decir lógica a nivel como un
+
+8
+00:00:39,630 --> 00:00:44,730
+humano puede interpretarlo representa únicamente dos posibilidades.
+
+9
+00:00:44,730 --> 00:00:46,450
+Verdadero y falso.
+
+10
+00:00:46,590 --> 00:00:48,640
+Suena un poco raro verdad.
+
+11
+00:00:48,690 --> 00:00:52,530
+Me gusta entender el tipológico como la dualidad que existe en el universo.
+
+12
+00:00:52,530 --> 00:01:02,820
+En el mundo verdadero y falso también puede ser sí o no. Puede ser luz oscuridad y este tipo es tan
+
+13
+00:01:02,820 --> 00:01:08,310
+básico y primitivo que incluso una máquina puede entenderlo De hecho una máquina está en marcha cuando
+
+14
+00:01:08,310 --> 00:01:09,530
+pasa la luz.
+
+15
+00:01:09,690 --> 00:01:15,280
+Una máquina deja de funcionar cuando no pasa la luz venciendo apaga convenciéndome apaga.
+
+16
+00:01:16,630 --> 00:01:23,600
+En el contexto de la lengua cuando hablamos entre nosotros con otras personas en tipológico booleano
+
+17
+00:01:23,600 --> 00:01:30,270
+o binario como queráis llamarlo representa la validez o falsedad de una sentencia de una frase Por ejemplo
+
+18
+00:01:31,210 --> 00:01:35,650
+yo puedo decir que estoy vivo y utilizando mi razonamiento.
+
+19
+00:01:35,680 --> 00:01:41,410
+Llegar a la conclusión de que en efecto estoy vivo estoy aquí estoy hablando y por tanto tengo que estar
+
+20
+00:01:41,410 --> 00:01:41,730
+vivo.
+
+21
+00:01:41,730 --> 00:01:49,270
+Esto es una frase o una sentencia verdadera o también puedo decir por ejemplo en un día lluvioso podría
+
+22
+00:01:49,270 --> 00:01:55,800
+decir El sol brilla más que nunca y en cambio estaría todo nublado así que saltaría a la pista que eso
+
+23
+00:01:55,810 --> 00:01:58,690
+es una mentira que es falso.
+
+24
+00:01:58,690 --> 00:02:03,050
+También puedo decir yéndome al terreno más matemático.
+
+25
+00:02:03,580 --> 00:02:08,220
+Puedo afirmar que uno más uno son tres que aunque suena convincente.
+
+26
+00:02:08,530 --> 00:02:10,700
+Todos sabemos que eso es mentira.
+
+27
+00:02:11,740 --> 00:02:20,580
+Por tanto si algo es obvio es que la negación de una cosa que es verdad se convierte en mentira.
+
+28
+00:02:21,150 --> 00:02:21,890
+I.
+
+29
+00:02:23,460 --> 00:02:29,350
+La negación de algo que es mentira es algo que es cierto no verdadero.
+
+30
+00:02:29,390 --> 00:02:34,240
+Es igual al falso y falso es igual a verdadero.
+
+31
+00:02:34,350 --> 00:02:36,430
+Por lo tanto son complementarias.
+
+32
+00:02:37,970 --> 00:02:41,960
+Cómo se aplicaría todo esto en el mundo de la programación.
+
+33
+00:02:42,440 --> 00:02:49,670
+Pues digamos que un ordenador no le podemos preguntar sobre la existencia de la humanidad o si hoy está
+
+34
+00:02:49,670 --> 00:02:57,830
+nublado o si es de día o lo que sea pero en el terreno numérico sí que podemos preguntarles si realmente
+
+35
+00:02:57,890 --> 00:02:59,490
+uno más uno son tres.
+
+36
+00:03:01,020 --> 00:03:10,380
+Por ejemplo poniendo uno +1 y utilizando un operador que son dos iguales poniendole que uno más uno
+
+37
+00:03:10,380 --> 00:03:12,090
+son igual a tres.
+
+38
+00:03:12,090 --> 00:03:14,790
+De esta manera le estaremos preguntando al ordenador.
+
+39
+00:03:14,790 --> 00:03:22,710
+Es verdad que 1+1 es igual a 3 y si lo ejecutamos él nos dirá falsee nos dirá que es falso es decir
+
+40
+00:03:22,800 --> 00:03:29,860
+que Payton tiene muy claro que una sentencia 1+1 no es igual a 3 y eso es mentira.
+
+41
+00:03:30,390 --> 00:03:37,320
+Qué os parece si en lugar de decirles que uno más uno es igual a 3 le decimos que uno más uno es igual
+
+42
+00:03:37,320 --> 00:03:38,640
+a 2.
+
+43
+00:03:38,940 --> 00:03:41,130
+Esto ya todos sabemos que es cierto.
+
+44
+00:03:41,370 --> 00:03:49,110
+Si lo ejecutamos él nos dice que es truc Trump es verdadero en inglés y por tanto Payton tiene muy claro
+
+45
+00:03:50,100 --> 00:03:56,210
+qué es verdadero y qué es falso siempre que hablemos en terreno matemático o comparativo.
+
+46
+00:03:57,110 --> 00:04:02,700
+Así que ya hemos dado nuestro primer paso al mundo de los operadores relacionales.
+
+47
+00:04:02,990 --> 00:04:09,740
+Acabamos de ver en el operador de igualdad vamos a dejarlo aquí porque en la próxima elección vamos
+
+48
+00:04:09,740 --> 00:04:14,440
+a introducirnos de lleno en todos estos operadores relacionales.

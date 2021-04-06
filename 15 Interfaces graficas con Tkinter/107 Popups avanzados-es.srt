@@ -1,0 +1,655 @@
+1
+00:00:00,540 --> 00:00:05,370
+Imaginad que queréis por ejemplo crear una aplicación y necesitáis que el usuario seleccione un color
+
+2
+00:00:05,430 --> 00:00:13,220
+en un determinado momento nos está introduciendo un producto y queremos asignarle un color a este producto.
+
+3
+00:00:13,350 --> 00:00:17,460
+Pues para este caso tenemos una ventana emergente ideal llamada Color chusquero.
+
+4
+00:00:17,640 --> 00:00:23,610
+Tenemos que importarlas de una forma distinta a mesa Xbox así que vamos a importar este color schüssel.
+
+5
+00:00:23,690 --> 00:00:31,460
+Lo que vamos a hacer es cambiar el chip box por color chusmear colosos escoger color o elegir el color
+
+6
+00:00:31,880 --> 00:00:38,200
+y también como a mí me gusta importarlo todo con mayúsculas por delante lo vamos a poner así.
+
+7
+00:00:38,280 --> 00:00:41,150
+Paso totalmente opcional y vamos a crearla.
+
+8
+00:00:41,340 --> 00:00:48,120
+Dentro del test vamos a crear esta ventana de selección de color que lo podemos hacer así.
+
+9
+00:00:48,480 --> 00:00:54,190
+Color chuzar y ASC color es el método que tenemos que ejecutar.
+
+10
+00:00:54,210 --> 00:01:02,670
+Y aquí le pasaríamos un título titel igual elige un color por ejemplo vamos a ejecutarlo.
+
+11
+00:01:03,350 --> 00:01:08,670
+Y como veis nos aparece esta ventana cuadro de diálogo típico de sistema donde podremos seleccionar
+
+12
+00:01:08,670 --> 00:01:17,100
+un color elige un color seleccionar aquel que queremos lo que queramos y podríamos aceptar.
+
+13
+00:01:17,460 --> 00:01:23,050
+Entonces evidentemente esto devuelve al ojo devuelve el color.
+
+14
+00:01:23,550 --> 00:01:30,030
+Vamos a comprobar que es exactamente lo que devuelve a en color y lo vamos a mostrar en la consola principal
+
+15
+00:01:30,150 --> 00:01:35,080
+color para ver exactamente que nos devuelve.
+
+16
+00:01:35,930 --> 00:01:41,930
+Si seleccionamos un color retamas aceptar como veis nos devuelve una tupla.
+
+17
+00:01:43,530 --> 00:01:45,620
+Y dentro dos elementos.
+
+18
+00:01:45,620 --> 00:01:47,500
+Lo primero es otra tupla.
+
+19
+00:01:48,500 --> 00:01:51,930
+Que está haciendo referencia a un color en RGB Red guim Blue.
+
+20
+00:01:51,930 --> 00:01:56,360
+Sabeis que esos van del 0 al 200 y pico.
+
+21
+00:01:56,850 --> 00:01:59,040
+Si lo ejecutamos lo veréis.
+
+22
+00:01:59,510 --> 00:02:00,800
+Es esto de aquí.
+
+23
+00:02:01,410 --> 00:02:07,140
+El rojo verde y azul es el color en RGB con los códigos.
+
+24
+00:02:08,140 --> 00:02:13,760
+Y también tenemos el código en hexadecimal para utilizarlo.
+
+25
+00:02:14,620 --> 00:02:23,540
+Una página web por ejemplo y en caso de no seleccionar un color lo que sucedería es que se nos devuelve.
+
+26
+00:02:24,560 --> 00:02:31,370
+Una tupla con dos valores None y None acuerdo muy bien.
+
+27
+00:02:31,580 --> 00:02:40,790
+Pues todavía vamos a ver un último tipo de popup este sí que es más interesante y es el filet Dialog
+
+28
+00:02:41,240 --> 00:02:43,320
+que nos permite realizar varias tareas.
+
+29
+00:02:43,610 --> 00:02:49,530
+Cómo conseguir la ruta de un fichero para poder abrirlo o también para poder guardarlo.
+
+30
+00:02:50,640 --> 00:02:58,010
+Vamos a importarlo porque también tiene su propio nombre y este se llama File dayal.
+
+31
+00:02:58,710 --> 00:03:04,040
+Lo voy a importar con mayúscula y le doy a mi me gusta más así.
+
+32
+00:03:05,350 --> 00:03:11,610
+Evidentemente para utilizarlo igual que antes filet y un método.
+
+33
+00:03:11,660 --> 00:03:20,260
+En esta ocasión por ejemplo para abrir una ruta sería aps-c Open File Nay y aquí le pasaríamos un título
+
+34
+00:03:20,320 --> 00:03:23,010
+titel para la ventana emergente.
+
+35
+00:03:23,380 --> 00:03:26,060
+Abrir un fichero por ejemplo.
+
+36
+00:03:26,350 --> 00:03:28,760
+Entonces estoy aquí.
+
+37
+00:03:28,780 --> 00:03:30,870
+Qué devolverá vamos a guardarlo.
+
+38
+00:03:30,910 --> 00:03:37,240
+Aquí vamos a guardar por ejemplo fichero a ver que es lo que hay y lo vamos a mostrar por pantalla y
+
+39
+00:03:37,350 --> 00:03:42,130
+vamos a ver que es exactamente lo que devuelve este fin de año.
+
+40
+00:03:43,470 --> 00:03:49,290
+Como veis me permite abrir un directorio por defecto este directorio es donde tenía abierto la última
+
+41
+00:03:49,290 --> 00:03:49,560
+vez.
+
+42
+00:03:49,640 --> 00:03:54,600
+Podríamos navegar por el borde de directorios hasta pedir un fichero por ejemplo abrir el día que tengo
+
+43
+00:03:54,740 --> 00:03:57,060
+que abrir este.
+
+44
+00:03:57,540 --> 00:04:00,630
+Y fijaros qué es lo que se guarda en fichero.
+
+45
+00:04:00,630 --> 00:04:07,530
+Pues en ficheros se guarda una cadena de caracteres que es la ruta al fichero que precisamente es la
+
+46
+00:04:07,530 --> 00:04:13,200
+ruta que se necesita para Podría haber un fichero con aquellas funciones que vimos del Open que estaban
+
+47
+00:04:13,200 --> 00:04:20,700
+abriendo un fichero que utiliza la ruta completa del directorio completo dentro de nuestro disco duro.
+
+48
+00:04:20,910 --> 00:04:28,320
+Pues esto en realidad no es el fichero sino que es la ruta lo que se devuelve es la ruta que quede constancia
+
+49
+00:04:28,320 --> 00:04:36,000
+de ello y en caso de que no les escojamos un fichero a ver qué es lo que devuelve si ponemos cancelar.
+
+50
+00:04:37,710 --> 00:04:38,900
+Pues no devuelven nada.
+
+51
+00:04:38,910 --> 00:04:43,350
+Parece ser que devuelve una cadena vacía de acuerdo a una cadena vacía.
+
+52
+00:04:43,440 --> 00:04:46,040
+Aquello típico que sería así sin nada.
+
+53
+00:04:46,110 --> 00:04:47,730
+Eso es lo que devuelve.
+
+54
+00:04:48,030 --> 00:04:58,110
+Así que es importante tener en cuenta que devuelve la ruta no un fichero y de hecho podríamos pasarle
+
+55
+00:04:58,290 --> 00:05:01,770
+unos parámetros que lo hacen más interesante.
+
+56
+00:05:01,800 --> 00:05:07,800
+Por ejemplo un directorio inicial y filtros de extensiones por si queremos solamente permitir que se
+
+57
+00:05:07,800 --> 00:05:10,510
+abran unos determinados tipos de fichero.
+
+58
+00:05:11,890 --> 00:05:18,220
+Por ejemplo podríamos añadir un parámetro que sea industrial dir que es el directorio inicial y si le
+
+59
+00:05:18,220 --> 00:05:20,100
+dijéramos por ejemplo que empieza en C.
+
+60
+00:05:20,810 --> 00:05:25,610
+Pues nos debería de empezar a abrir el directorio en el disco duro C veís.
+
+61
+00:05:25,650 --> 00:05:26,890
+Ahora estoy en el disco.
+
+62
+00:05:27,370 --> 00:05:33,410
+Porque le he puesto dos puntos pero tener cuidado con esto porque no todos los sistemas operativos tienen
+
+63
+00:05:33,410 --> 00:05:37,630
+el mismo formato de rutas así que es posible que depende del sistema operativo.
+
+64
+00:05:37,730 --> 00:05:40,040
+Esto no funcionase.
+
+65
+00:05:40,280 --> 00:05:45,500
+Otra cosa que podéis hacer es crear un filtro un filtro de tipos de fichero que queréis permitir que
+
+66
+00:05:45,500 --> 00:05:49,560
+se abran por ejemplo File types.
+
+67
+00:05:49,910 --> 00:05:54,650
+Igual voy a ponerlo con un salto de línea bajo para que quede mejor.
+
+68
+00:05:55,160 --> 00:05:57,590
+Y aquí le vamos a pasar una tupla así.
+
+69
+00:05:58,000 --> 00:06:06,980
+Y dentro de esta tupla vamos a pasarle otra tupla primero para los ficheros por defecto que queremos
+
+70
+00:06:06,980 --> 00:06:14,530
+abrir que queremos permitir por ejemplo ficheros de texto lo que vamos a permitir abrir luego una coma.
+
+71
+00:06:14,660 --> 00:06:20,600
+Y el segundo elemento de tupla sería una extensión por ejemplo queremos abrir cualquier tipo de fichero
+
+72
+00:06:20,600 --> 00:06:23,530
+con un asterisco punto txt.
+
+73
+00:06:23,540 --> 00:06:31,610
+De esta forma ahora podríamos añadir una coma y añadir más tipos de fichero podríamos copiar todo esto
+
+74
+00:06:31,610 --> 00:06:38,270
+y decidir fichero de texto avanzado por ejemplo imaginaros que este lugar se llama textos pues también
+
+75
+00:06:38,270 --> 00:06:45,940
+podríamos permitir abrirlo e incluso podríamos crear un tipo voy a ponerlo todo un poco más ordenado.
+
+76
+00:06:46,130 --> 00:06:58,010
+Así que este fuese todos los ficheros en esta ocasión pasaríamos aquí con una coma un asterisco un punto
+
+77
+00:06:58,010 --> 00:07:04,160
+y en lugar de especificar una extensión otro asterisco para decirle que son todos los ficheros posibles.
+
+78
+00:07:04,160 --> 00:07:10,400
+De esta manera tendríamos tres posibilidades ficheros de texto txt ficheros de texto avanzado que me
+
+79
+00:07:10,400 --> 00:07:15,380
+lo he inventado en formato txt 2 y todos los ficheros posibles.
+
+80
+00:07:15,440 --> 00:07:23,380
+Vamos a intentar ejecutarlo y a la hora de abrirlo pues como veis aquí nos salta un filtro que nos permita
+
+81
+00:07:23,380 --> 00:07:31,010
+abrir ficheros de texto en txt ficheros de texto avanzado en Tekis 2 y ficheros en cualquier tipo de
+
+82
+00:07:31,400 --> 00:07:32,460
+extensión.
+
+83
+00:07:33,290 --> 00:07:39,350
+Vamos a ver si funciona voy a abrir curso Payton temas avanzados por ejemplo aquí en manejo de ficheros
+
+84
+00:07:39,350 --> 00:07:40,370
+que tengo ficheros.
+
+85
+00:07:40,490 --> 00:07:44,640
+Ahora estoy seleccionando todos los ficheros pero si seleccionas sólo el filtro de texto.
+
+86
+00:07:45,010 --> 00:07:51,560
+Pues ya solamente me deja abrir este de aquí muy bien pues parece que funciona bastante bien.
+
+87
+00:07:52,340 --> 00:07:59,870
+Una cosa esta dupla no la podéis dejar únicamente con un tipo de ficheros tenéis que dejarla con un
+
+88
+00:08:00,170 --> 00:08:05,610
+tipo de fichero y también una coma porque si no dejeis está escrita y lo intentas ejecutar.
+
+89
+00:08:06,500 --> 00:08:14,510
+Os va a dar un error tenéis que dejar como mínimo una coma para poder abrir un tipo de fichero mínimo.
+
+90
+00:08:15,340 --> 00:08:16,770
+Voy a dejarlo como estaba.
+
+91
+00:08:17,590 --> 00:08:17,910
+Vale.
+
+92
+00:08:17,910 --> 00:08:22,130
+Una vez explicado esto como saber tan bien.
+
+93
+00:08:22,230 --> 00:08:27,970
+Y por último cómo podemos hacer lo mismo pero para buscar un directorio donde guardar un fichero.
+
+94
+00:08:28,320 --> 00:08:32,970
+Aunque la lógica tras esto ya es más compleja el proceso es muy similar.
+
+95
+00:08:33,940 --> 00:08:39,500
+únicamente vamos a hacer lo siguiente Voy a comentar todo este ejemplo.
+
+96
+00:08:42,480 --> 00:08:51,930
+íbamos a abrir supuestamente una ruta fácil dañarlo como antes y vamos a ejecutar esta vez el método
+
+97
+00:08:51,990 --> 00:08:55,040
+casque sois más fieles.
+
+98
+00:08:56,270 --> 00:09:04,500
+Vamos a pasar a un título fichero o un fichero y vamos a mostrar qué es esta ruta supuesta ruta debería
+
+99
+00:09:04,510 --> 00:09:10,980
+de hacer lo mismo que antes de golpe debería devolver la ruta donde vamos a abrir un fichero perdón
+
+100
+00:09:11,070 --> 00:09:13,960
+a guardar un fichero.
+
+101
+00:09:14,790 --> 00:09:16,670
+Y aquí me dice guardar un fichero.
+
+102
+00:09:17,550 --> 00:09:26,530
+Y me permite seleccionar un fichero para guardarlo como sea por ejemplo abrir alguno este que se llama
+
+103
+00:09:26,530 --> 00:09:30,360
+prueba 2 me dice que ya existe.
+
+104
+00:09:30,390 --> 00:09:38,210
+Voy a remplazarlos si y fijaros lo que me ha devuelto me ha devuelto una cosa muy rara.
+
+105
+00:09:39,370 --> 00:09:42,560
+Pues esto es un fichero en texto.
+
+106
+00:09:42,880 --> 00:09:49,690
+Por tanto no me devuelve una ruta sino que me devuelve un fichero abierto y dentro de este fichero tenemos
+
+107
+00:09:49,690 --> 00:09:56,020
+una propiedad que es el Naim que sí que es el directorio donde vamos a guardarlo y también Fijaros que
+
+108
+00:09:56,020 --> 00:09:58,880
+ya tiene un modo por defecto que es modo W.
+
+109
+00:09:59,050 --> 00:10:05,830
+Por tanto el fichero que intentaba abrir no lo acaba de borrar porque es abierto en Google y con uno
+
+110
+00:10:05,850 --> 00:10:09,680
+en una codificación por defecto que es esta.
+
+111
+00:10:10,180 --> 00:10:14,420
+Es decir falta Dialog equivale a abrir un fichero.
+
+112
+00:10:14,440 --> 00:10:23,860
+Como habíamos hecho con el Open y no abrir una ruta y directamente abre el fichero nos permite utilizarlo
+
+113
+00:10:23,860 --> 00:10:25,710
+para guardar encima.
+
+114
+00:10:26,170 --> 00:10:38,790
+Vamos a poner aquí equivale a Open ruta en formato groovy.
+
+115
+00:10:39,160 --> 00:10:43,650
+Que quede constancia de esto de aquí.
+
+116
+00:10:44,410 --> 00:10:45,210
+De acuerdo.
+
+117
+00:10:47,230 --> 00:10:50,580
+Importante también si abriese un fichero.
+
+118
+00:10:50,650 --> 00:10:57,890
+De esta forma os lo vais a cargar y lo vais a dejar vacío por defecto por qué el formato W lo machaca.
+
+119
+00:10:58,710 --> 00:11:03,490
+Lo que podemos hacer sin embargo es indicarle algunos parámetros.
+
+120
+00:11:03,630 --> 00:11:11,400
+Por ejemplo podemos indicar de la extensión que teníamos antes o también podemos indicar que en esta
+
+121
+00:11:11,400 --> 00:11:17,310
+ocasión un modelo para abrir el fichero directamente por defecto es el w.h pero podríamos abrirlo en
+
+122
+00:11:17,310 --> 00:11:18,920
+formato Appen con una.
+
+123
+00:11:18,930 --> 00:11:25,990
+Como ya sabéis o en formato aunque no tendría mucho sentido si vamos a guardar un fichero abril en formato
+
+124
+00:11:26,030 --> 00:11:32,370
+lectura a no ser que sea lectura más que lectura y escritura a la vez para que el puntero esté al principio
+
+125
+00:11:34,020 --> 00:11:38,790
+y otro modo que podéis abrir el fichero.
+
+126
+00:11:38,970 --> 00:11:47,310
+Otro parámetro es el de Fat extensión que automáticamente le pondrá al guardarlo una extensión que es
+
+127
+00:11:47,310 --> 00:11:50,850
+la que nosotros le marquemos aquí a este fichero al guardarlo.
+
+128
+00:11:51,630 --> 00:11:56,100
+Es decir al crearlo porque realmente no está guardando nada sino que lo está creando para poderlo utilizar
+
+129
+00:11:56,100 --> 00:11:59,030
+está creando un fichero.
+
+130
+00:11:59,070 --> 00:12:01,960
+Vamos a probarlo.
+
+131
+00:12:02,530 --> 00:12:06,090
+En esta ocasión voy a poder cancelar a ver qué es lo que me devuelve.
+
+132
+00:12:06,460 --> 00:12:13,960
+Fijaros que si pongo cancelar me devuelven One pero si es diferente que One fichero diferente que en
+
+133
+00:12:13,970 --> 00:12:14,890
+One.
+
+134
+00:12:14,940 --> 00:12:20,970
+O también podríamos poner is not None podríamos guardar algo en formato de texto porque hemos visto
+
+135
+00:12:20,970 --> 00:12:22,150
+que se abre en formato de texto.
+
+136
+00:12:22,160 --> 00:12:28,910
+Por tanto podríamos hacer un Grit y escribir por ejemplo Hola y después hacer un kloss
+
+137
+00:12:31,740 --> 00:12:32,930
+así.
+
+138
+00:12:33,750 --> 00:12:40,360
+Recordar siempre cerrarlo porque si no lo cerramos porque vamos a tener un problema ejecutarlo explicame.
+
+139
+00:12:41,720 --> 00:12:47,770
+Y como es seleccionar pruebas otra vez me dice que ya existe le digo que si se supone que me ha guardado
+
+140
+00:12:47,770 --> 00:12:57,700
+esto voy a confirmarlo a partir de aquí temas avanzados interfaces gráficas apuntes que son algunos
+
+141
+00:12:57,700 --> 00:13:02,320
+apuntes que tengo ya hechos probados y como veis aquí se ha escrito lo que yo he guardado.
+
+142
+00:13:02,350 --> 00:13:02,750
+Hola.
+
+143
+00:13:02,760 --> 00:13:06,180
+Si escribiéramos algo otra vez.
+
+144
+00:13:07,260 --> 00:13:10,660
+Voy a volver a abrir prueba 2 voy a cambiar el contenido.
+
+145
+00:13:10,690 --> 00:13:16,530
+Hola voy a escribir otra cosa lo guardo.
+
+146
+00:13:16,560 --> 00:13:20,060
+Bueno lo ejecuto probados o reemplazo.
+
+147
+00:13:20,080 --> 00:13:22,830
+Se supone que me ha escrito esto y ahora probado.
+
+148
+00:13:22,840 --> 00:13:25,960
+Pues como veis el contenido que acabo de escribir.
+
+149
+00:13:27,420 --> 00:13:32,720
+Y si lo hicieran un nuevo fichero ligamen por avatares
+
+150
+00:13:35,450 --> 00:13:40,630
+sin ninguna extensión por defecto ya me lo guardarán txt.
+
+151
+00:13:40,850 --> 00:13:47,290
+Pero fijaros como el indicado el modo es más claro no me lo crea automáticamente.
+
+152
+00:13:47,660 --> 00:13:50,900
+Tendría que haberle indicado por ejemplo el modo apenn que este si que me lo crea.
+
+153
+00:13:50,930 --> 00:14:00,310
+Modo Appen más claro porque esto lo que hace es añadir al principio tienen que ser w.h simplemente dejarlo
+
+154
+00:14:00,320 --> 00:14:01,320
+en W.
+
+155
+00:14:01,910 --> 00:14:07,910
+Vamos a guardarlo como prueba 3 y vamos a intentar abrir este fichero.
+
+156
+00:14:07,910 --> 00:14:09,120
+Prueba 3.
+
+157
+00:14:09,170 --> 00:14:11,340
+Mira aquí está escrito desde cero.
+
+158
+00:14:13,420 --> 00:14:20,090
+Bueno espero que no se haya aliado mucho con esta prueba sólo tened en cuenta que fail Ascope enfile.
+
+159
+00:14:21,530 --> 00:14:27,200
+Devuelve una ruta no un fichero y en cambio es que sois más fieles y que devuelve un fichero ya abierto
+
+160
+00:14:27,200 --> 00:14:28,590
+para poder trabajar con él.
+
+161
+00:14:28,640 --> 00:14:31,680
+Estuvimos viendo con el Open y todo aquello.
+
+162
+00:14:31,790 --> 00:14:39,830
+Y bueno con esto estimados alumnos acabamos con los widgets en general en la próxima elección y última
+
+163
+00:14:39,980 --> 00:14:41,000
+de esta unidad.
+
+164
+00:14:41,000 --> 00:14:43,310
+Os propongo un pequeño proyecto.

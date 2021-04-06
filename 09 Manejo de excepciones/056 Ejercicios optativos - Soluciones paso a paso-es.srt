@@ -1,0 +1,347 @@
+1
+00:00:01,350 --> 00:00:05,040
+Vamos a trabajar con los ejercicios del tema 7 de gestión de errores.
+
+2
+00:00:07,380 --> 00:00:15,120
+Son ejercicios pensados para practicar algunas de las excepciones más típicas que nos vamos a ir encontrando
+
+3
+00:00:15,360 --> 00:00:17,120
+para ir conociéndolas.
+
+4
+00:00:18,350 --> 00:00:22,840
+El primer ejercicio dice localiza el error en el siguiente bloque de código crea una excepción para
+
+5
+00:00:22,840 --> 00:00:30,070
+evitar que el programa se Broke y además explica en un mensaje al usuario la causa y solución.
+
+6
+00:00:30,820 --> 00:00:35,230
+Aquí tenemos un error típico una división entre cero.
+
+7
+00:00:35,500 --> 00:00:38,630
+El error que nos dice es cero Division error.
+
+8
+00:00:38,980 --> 00:00:46,390
+Así que tenemos que capturar este momento y en lugar de que ocurra el error en una excepción pues mostrará
+
+9
+00:00:46,390 --> 00:00:50,180
+un mensaje más amigable explicando cómo solucionar errores.
+
+10
+00:00:50,320 --> 00:00:57,240
+Este ejemplo es muy sencillo simplemente tendríamos que ponerlo todo alrededor de un Troi lo que es
+
+11
+00:00:58,000 --> 00:01:07,450
+código tendiente a errores y luego capturarlo por un exceso pasándole el código del error que tenemos
+
+12
+00:01:07,540 --> 00:01:09,520
+aquí mismo.
+
+13
+00:01:09,640 --> 00:01:17,290
+Entonces en este caso mostraría el mensaje con un Prin por ejemplo más amigable error por ejemplo no
+
+14
+00:01:17,290 --> 00:01:18,040
+es posible
+
+15
+00:01:21,160 --> 00:01:22,970
+dividir por cero.
+
+16
+00:01:23,980 --> 00:01:29,990
+Debes introducir un número distinto.
+
+17
+00:01:32,020 --> 00:01:35,580
+Vale vamos a por el segundo.
+
+18
+00:01:36,070 --> 00:01:42,330
+Tenemos una lista con varios elementos y un índice de una lista que está fuera por tanto no se lanza
+
+19
+00:01:42,340 --> 00:01:47,130
+un error de índex error nos dice que el índice está fuera del rango.
+
+20
+00:01:47,800 --> 00:01:50,880
+Vamos a capturar este código tendiente a errores.
+
+21
+00:01:54,830 --> 00:01:55,740
+Excepción.
+
+22
+00:01:57,870 --> 00:02:03,060
+Y en este caso simplemente podríamos indicar un error.
+
+23
+00:02:03,760 --> 00:02:14,240
+El índice al que intentás por ejemplo acceder se encuentra fuera de rango.
+
+24
+00:02:14,710 --> 00:02:29,560
+Debes utilizar un número mayor o igual que cero y menor que es la longitud de la lista.
+
+25
+00:02:31,840 --> 00:02:36,480
+Probarlo y hasta si queréis podríais haber puesto aquí en el PIN.
+
+26
+00:02:36,580 --> 00:02:46,240
+La longitud de la lista para añadir un poco más de información con un lehn lista si no recuerdo mal.
+
+27
+00:02:48,210 --> 00:02:52,980
+Vale para que quede aquí puesto y todavía sepamos más cómo trabajan.
+
+28
+00:02:53,730 --> 00:02:55,720
+Vamos a por el tercer ejercicio.
+
+29
+00:02:56,070 --> 00:03:04,530
+Tenemos un diccionario de colores y estamos haciendo referencia a un color a una clave que no está definida
+
+30
+00:03:04,530 --> 00:03:11,020
+en el diccionario por tanto nos tira un error nos lanza a un error de error clave porque no se encuentra.
+
+31
+00:03:11,330 --> 00:03:13,960
+Vamos a capturarlo.
+
+32
+00:03:19,840 --> 00:03:23,890
+Vamos a capturar esta y vamos a mostrar su mensaje más amigable.
+
+33
+00:03:24,290 --> 00:03:39,170
+La clave del diccionario no se encuentra debes probar con otra que sí exista por ejemplo y así ya no
+
+34
+00:03:39,170 --> 00:03:40,240
+se bloquea.
+
+35
+00:03:43,310 --> 00:03:52,520
+En este cuarto ejercicio tenemos exactamente otro error de terror que ocurre cuando intentamos convertir
+
+36
+00:03:52,970 --> 00:03:56,760
+un número a unas a una cadena para sumarlo.
+
+37
+00:03:57,230 --> 00:04:02,000
+De hecho si lo pusiéramos Fijaros que el error que nos dice es no se puede convertir un entero a una
+
+38
+00:04:02,000 --> 00:04:03,470
+cadena.
+
+39
+00:04:03,470 --> 00:04:11,110
+En cambio si pusiéramos 15 más 20 en cadena pero lo pusiéramos al revés nos daría un error.
+
+40
+00:04:11,120 --> 00:04:12,830
+Pero es diferente.
+
+41
+00:04:12,830 --> 00:04:17,480
+Ahora nos dice que no se puede sumar una cadena a un entero.
+
+42
+00:04:17,980 --> 00:04:19,310
+Bueno tendríamos que.
+
+43
+00:04:20,160 --> 00:04:27,040
+Como siempre capturar el terror es terror.
+
+44
+00:04:28,280 --> 00:04:31,820
+Y aquí podríamos poner un mensaje que diga error.
+
+45
+00:04:32,610 --> 00:04:40,470
+Solo es posible sumar datos del mismo tipo.
+
+46
+00:04:40,500 --> 00:04:48,630
+Debes transformar el número a cadenas o la cadena a números.
+
+47
+00:04:50,110 --> 00:04:53,300
+A ver me cuidado aquí Unhate en el PIN.
+
+48
+00:04:54,050 --> 00:04:55,020
+Vale.
+
+49
+00:04:56,120 --> 00:05:02,490
+Y vamos a por el quinto ejercicio que este sí que es un poquito más desarrollado dice realiza una función
+
+50
+00:05:02,520 --> 00:05:06,340
+llamada agregar una vez que reciba una lista y un elemento.
+
+51
+00:05:06,450 --> 00:05:08,150
+La función debe añadir al elemento.
+
+52
+00:05:08,190 --> 00:05:12,090
+Al final de la lista con la condición de no repetir ningún elemento.
+
+53
+00:05:12,090 --> 00:05:16,680
+Además si este elemento ya se encuentra en la lista se debe a invocar un error del tipo valúa error
+
+54
+00:05:16,990 --> 00:05:19,990
+que debes capturar y mostrar este mensaje en su lugar.
+
+55
+00:05:20,040 --> 00:05:26,160
+Error imposible añadir elementos duplicados una flechita y el elemento que se está intentando añadir
+
+56
+00:05:26,250 --> 00:05:31,680
+por duplicado por agregar los elementos diez menos dos y la cadena Hola a la lista de elementos con
+
+57
+00:05:31,680 --> 00:05:32,230
+la función.
+
+58
+00:05:32,250 --> 00:05:34,830
+Una vez hayas creado y luego muestra su contenido.
+
+59
+00:05:34,990 --> 00:05:41,860
+Nota Puedes utilizar la sintaxis elemento y lista así que básicamente vamos a tener una función llamada
+
+60
+00:05:41,860 --> 00:05:48,090
+a agregar una vez la cual va a recibir una lista y un elemento.
+
+61
+00:05:48,090 --> 00:05:53,920
+Vamos a llamarlo el lo que va a intentar es añadir a esta lista el elemento que le vamos a pasar.
+
+62
+00:05:54,360 --> 00:06:00,150
+Pero si este elemento ya existe la lista lanzaremos un error con un raíz y mostraremos el mensaje aquí
+
+63
+00:06:00,150 --> 00:06:09,630
+arriba arriba quiero decir vamos a hacerlo vamos a ponerlo todo en un Troi vamos a comenzar comprobando
+
+64
+00:06:09,630 --> 00:06:15,230
+si el elemento se encuentra en la lista en el que estamos pasando si se encuentra.
+
+65
+00:06:15,300 --> 00:06:19,210
+Vamos a llamar a este valúa error.
+
+66
+00:06:22,470 --> 00:06:27,950
+Y en caso de que nos encuentren entonces sí que podemos añadirlo a la lista de forma normal lista happel
+
+67
+00:06:28,610 --> 00:06:29,870
+Elemento.
+
+68
+00:06:31,340 --> 00:06:32,630
+Entonces vamos a capturar.
+
+69
+00:06:32,630 --> 00:06:41,460
+Si ocurre este valúa error si lo llamamos excellent value error.
+
+70
+00:06:42,980 --> 00:06:48,880
+Y en ese caso mostraremos por pantalla el mensaje que tenemos aquí arriba.
+
+71
+00:06:52,900 --> 00:06:59,860
+Y aquí pondríamos el elemento que podemos ponerlo así como información como queráis.
+
+72
+00:07:00,450 --> 00:07:08,240
+Vale ya tenemos la función y ahora vamos a intentar añadir a esta lista que tenemos aquí elementos.
+
+73
+00:07:09,240 --> 00:07:13,160
+De aquí vamos a comenzar por el 10.
+
+74
+00:07:13,510 --> 00:07:14,440
+Agregar una vez
+
+75
+00:07:17,820 --> 00:07:22,190
+a la lista de elementos el elemento 10.
+
+76
+00:07:22,660 --> 00:07:23,930
+Luego haremos lo mismo.
+
+77
+00:07:25,580 --> 00:07:33,550
+Si lo pusiera bien claro así con el número menos dos y la cadena Hola.
+
+78
+00:07:34,450 --> 00:07:41,260
+Fijaros que si lo miramos el 10 no está en la lista el menos dos sí que está en la lista y el no está
+
+79
+00:07:41,270 --> 00:07:47,000
+por tanto deberíamos de poder añadir el 10 y el Hola y el menos 2 nos daría error.
+
+80
+00:07:47,400 --> 00:07:51,410
+Vamos a mostrar al final de todos los elementos y ahora lo ejecutamos.
+
+81
+00:07:54,260 --> 00:07:57,260
+Pues como veis hemos añadido los elementos.
+
+82
+00:07:57,270 --> 00:08:01,310
+Uno de ellos ha dado un error nos ha mostrado el error y dice imposible añadir elementos duplicados
+
+83
+00:08:01,320 --> 00:08:02,800
+nos muestra al menos dos.
+
+84
+00:08:03,030 --> 00:08:10,290
+Y si analizamos la lista al final tenemos los que teníamos al principio el 10 que acabamos de añadir
+
+85
+00:08:10,320 --> 00:08:12,530
+y el habla perfectamente.
+
+86
+00:08:12,660 --> 00:08:19,710
+Así que con esto acabamos estos ejercicios propuestos para el tema 7 de gestión de errores que ya habéis
+
+87
+00:08:19,710 --> 00:08:21,630
+visto que ha sido muy sencillito.

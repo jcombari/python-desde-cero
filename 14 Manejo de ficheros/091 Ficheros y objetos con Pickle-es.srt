@@ -1,0 +1,459 @@
+1
+00:00:00,420 --> 00:00:00,860
+Muy bien.
+
+2
+00:00:00,900 --> 00:00:08,580
+Comenzamos a trabajar con el módulo vizquel para guardar estructuras o colecciones en ficheros binarios
+
+3
+00:00:08,910 --> 00:00:12,620
+y luego recuperarlas para seguir manejando las perfectamente.
+
+4
+00:00:13,620 --> 00:00:17,400
+Vamos a ir a la Lección 3 ficheros y objetos con.
+
+5
+00:00:18,400 --> 00:00:27,480
+Y vamos a comenzar por lo básico importar pixel import ticker la mejor librería para mí que existe para
+
+6
+00:00:27,480 --> 00:00:29,150
+manejar ficheros.
+
+7
+00:00:29,910 --> 00:00:38,930
+Vamos a comenzar creando una lista memoria que vamos a guardar una lista 1 2 3 4 y 5.
+
+8
+00:00:39,540 --> 00:00:43,680
+Imagina que queremos guardar esta lista en un fichero y luego recuperarla.
+
+9
+00:00:43,860 --> 00:00:49,270
+Bueno pues primero vamos a ver cómo guardarla igual que antes vamos a crear un fichero.
+
+10
+00:00:49,470 --> 00:00:50,760
+Vamos a abrirlo.
+
+11
+00:00:51,950 --> 00:01:01,500
+La sintaxis es la misma pero para diferenciar podríamos llamarle así lista por ejemplo PC KL porque
+
+12
+00:01:01,540 --> 00:01:07,610
+es como una extensión para que sepamos que esto es un fichero pixel en realidad es un fichero con contenido
+
+13
+00:01:07,610 --> 00:01:08,080
+binario.
+
+14
+00:01:08,090 --> 00:01:19,100
+Por qué lo vamos a abrir en escritura binaria WP De acuerdo a escritura binaria peculiaridades las mismas
+
+15
+00:01:19,100 --> 00:01:19,710
+que antes.
+
+16
+00:01:19,730 --> 00:01:27,200
+Si el fichero existe no machaca lo borra todo y pone el puntero al principio muy bien una vez tenemos
+
+17
+00:01:27,320 --> 00:01:28,770
+abierto el fichero binario.
+
+18
+00:01:29,600 --> 00:01:40,100
+Vamos a ejecutar un método que tiene píxel Pinker llamado dum dum que es como si volcara lo que vamos
+
+19
+00:01:40,100 --> 00:01:47,210
+a pasar dentro del fichero es decir machaca lo que hay en el fichero y le pone lo que le indicamos aquí
+
+20
+00:01:47,410 --> 00:01:57,710
+y lo que le vamos a indicar es la lista y después el fichero confirmamos lo a hacer el fichero Lough
+
+21
+00:01:59,180 --> 00:02:04,410
+vamos a borrarlo y ahora fijaros.
+
+22
+00:02:06,320 --> 00:02:13,640
+Tenemos aquí un fichero llamado lista punto PC KL abrirlo con sublime Text y fijaros que tenemos aquí
+
+23
+00:02:13,790 --> 00:02:20,710
+tenemos un código raro raro un código binario o lo que sea esto o hexadecimal.
+
+24
+00:02:20,720 --> 00:02:21,650
+No sé.
+
+25
+00:02:22,100 --> 00:02:23,980
+El caso es que no sabemos lo que hay aquí.
+
+26
+00:02:25,250 --> 00:02:27,590
+Pero Piqué sí que lo sabe.
+
+27
+00:02:27,740 --> 00:02:29,650
+Sabe que es algo.
+
+28
+00:02:30,490 --> 00:02:34,460
+Que nosotros hemos guardado y luego lo vamos a recuperar.
+
+29
+00:02:34,600 --> 00:02:37,570
+Nosotros sabemos lo que tenemos que recuperar.
+
+30
+00:02:38,410 --> 00:02:40,540
+él no lo sabe pero nosotros sí.
+
+31
+00:02:41,680 --> 00:02:47,280
+Por tanto segunda parte cómo recuperamos esta estructura de este fichero binario.
+
+32
+00:02:47,590 --> 00:02:54,700
+Podemos abrirlo de nuevo fichero copen y en esta ocasión vamos a abrir la lista.
+
+33
+00:02:54,770 --> 00:02:55,740
+Punto.
+
+34
+00:02:56,020 --> 00:02:57,210
+Pique el PC.
+
+35
+00:02:57,280 --> 00:03:02,300
+L en modo lectura binaria importante.
+
+36
+00:03:03,460 --> 00:03:09,380
+Igual que antes el puntero estará al principio y como nosotros sabemos que tenemos una lista lo que
+
+37
+00:03:09,380 --> 00:03:19,340
+vamos a hacer es recuperar la lista y que el punto y el método Load es cargar y vamos a cargar este
+
+38
+00:03:19,340 --> 00:03:19,970
+fichero.
+
+39
+00:03:20,060 --> 00:03:22,090
+El contenido en lista.
+
+40
+00:03:23,330 --> 00:03:29,720
+Y ahora vamos a mostrar lo que tenemos en la lista y tenemos exactamente este contenido que hemos recuperado.
+
+41
+00:03:30,750 --> 00:03:32,410
+Ese acuerdo si no os lo creéis.
+
+42
+00:03:33,430 --> 00:03:38,100
+A borrar la lista y vamos a volver a ejecutarlo.
+
+43
+00:03:41,290 --> 00:03:42,650
+Pero qué ha pasado ahora.
+
+44
+00:03:43,560 --> 00:03:45,970
+Pues que una vez hacemos el local.
+
+45
+00:03:46,980 --> 00:03:54,000
+El puntero está al final si intentamos cargar ese contenido no podemos porque estamos al final del contenido.
+
+46
+00:03:54,180 --> 00:03:57,400
+Tenemos que volver a posicionarnos al principio antes de volver a hacerlo.
+
+47
+00:03:58,860 --> 00:04:06,960
+Vamos a ir al fichero Toxic nos vamos a poner la primera posición y ahora vamos a volver a hacerlo.
+
+48
+00:04:09,120 --> 00:04:14,390
+Vamos a volver a mostrar la lista y ahí tenemos los datos.
+
+49
+00:04:14,430 --> 00:04:16,860
+Como veis no sabemos lo que hay.
+
+50
+00:04:16,860 --> 00:04:24,080
+Desde fuera no sabemos nada pero una vez pique lo carga vuelve a volcar dentro de la memoria como nosotros
+
+51
+00:04:24,090 --> 00:04:33,450
+sabemos que es una lista lo podemos recuperar y voy a cerrarlo y lo voy a borrar para seguir trabajando
+
+52
+00:04:33,450 --> 00:04:35,110
+cómodamente con él.
+
+53
+00:04:35,950 --> 00:04:43,690
+Entonces es muy importante un repaso a la lógica para trabajar con estas estructuras con Piqué.
+
+54
+00:04:44,310 --> 00:04:50,520
+Primero crear una colección luego introducir en esa colección Los datos que queramos almacenar podemos
+
+55
+00:04:50,520 --> 00:04:53,750
+almacenar dentro de esa colección más colecciones.
+
+56
+00:04:54,610 --> 00:05:01,420
+Puede ser un diccionario dentro del diccionario guardar listas o guardar nuestros propios objetos lo
+
+57
+00:05:01,420 --> 00:05:12,040
+que queramos y luego escribir volcar dentro del fichero binario con pixel dum ese contenido y luego
+
+58
+00:05:12,040 --> 00:05:19,330
+a la hora de recuperarlo recuperarlo haciendo un Load y nosotros ya como ya sabemos lo que estamos recuperando
+
+59
+00:05:19,480 --> 00:05:21,350
+lo podemos empezar a trabajar.
+
+60
+00:05:21,430 --> 00:05:28,240
+Evidentemente si esperáis trabajar con un diccionario con unos campos que no teníais a la hora de guardarlos
+
+61
+00:05:28,250 --> 00:05:35,110
+Pues no lo vais a tener así que es muy importante a la hora de recuperar estos datos que sepamos lo
+
+62
+00:05:35,110 --> 00:05:35,940
+que es.
+
+63
+00:05:36,160 --> 00:05:39,460
+De alguna forma debíamos dejarlo anotado en algún lado.
+
+64
+00:05:39,550 --> 00:05:43,940
+En el código mismo por ejemplo un comentario o lo que sea.
+
+65
+00:05:45,470 --> 00:05:50,120
+Así que vamos a hacer otro ejemplo esta vez vamos a trabajar con clases vamos a intentar guardar unos
+
+66
+00:05:50,120 --> 00:05:50,880
+objetos.
+
+67
+00:05:50,950 --> 00:06:03,960
+Vamos a definir fácilmente una clase en zona nuestra amiga personal un ninette Self automáticamente
+
+68
+00:06:03,960 --> 00:06:07,400
+la vamos a pasar un nombre se lo vamos a asignar.
+
+69
+00:06:07,490 --> 00:06:09,840
+Vamos a pasárselo por arriba también.
+
+70
+00:06:09,840 --> 00:06:15,980
+Nombre y vamos a crear también un método string para mostrar
+
+71
+00:06:18,680 --> 00:06:19,310
+este nombre.
+
+72
+00:06:19,310 --> 00:06:25,460
+Cuando lo pasemos a cadena vamos a hacer un RETURN sea el nombre.
+
+73
+00:06:25,880 --> 00:06:29,930
+Ya tengo hoy una clase pero eso vamos a crear unas cuantas personas.
+
+74
+00:06:30,140 --> 00:06:31,820
+O mejor dicho vamos a hacerlo dinámicamente.
+
+75
+00:06:31,850 --> 00:06:35,120
+Vamos a poner aquí una lista en algunos nombres.
+
+76
+00:06:35,570 --> 00:06:47,960
+Por ejemplo Héctor Mario y Marta por ejemplo vamos a crear dinámicamente estas personas y una lista
+
+77
+00:06:48,550 --> 00:06:56,100
+será la que vamos a guardar en el fichero persona perdón vamos a guardar a las personas así.
+
+78
+00:06:57,630 --> 00:07:01,510
+Y con un forense y nombres para cada nombre.
+
+79
+00:07:01,520 --> 00:07:02,640
+Nombres.
+
+80
+00:07:02,650 --> 00:07:09,410
+Vamos a crear una nueva persona y le vamos a pasar el nombre aquí en el INIT sólo vamos a pasar aquí
+
+81
+00:07:09,410 --> 00:07:10,150
+el nombre.
+
+82
+00:07:11,780 --> 00:07:14,250
+Y luego cuando lo hayamos creado la tenemos guardada.
+
+83
+00:07:14,480 --> 00:07:20,580
+Vamos a hacer personas happen y algunos a guardar dentro de esta lista.
+
+84
+00:07:20,870 --> 00:07:27,880
+Vamos a hacer un apenn de esta persona muy bien entonces en este momento deberíamos de tener en personas.
+
+85
+00:07:28,150 --> 00:07:35,170
+Vale pues una lista con tres personas y lo que queremos es de alguna forma guardar en un fichero personas.
+
+86
+00:07:35,180 --> 00:07:39,300
+Estas tres personas no vamos a hacerlo.
+
+87
+00:07:39,960 --> 00:07:45,900
+Fichero Open vamos a llamarlos personas.
+
+88
+00:07:45,940 --> 00:07:57,260
+Punto finkel pc KL escritura binaria y ahora vamos a volcar estas personas dentro del fichero fichero
+
+89
+00:07:57,830 --> 00:07:59,520
+dum.
+
+90
+00:08:01,590 --> 00:08:09,690
+Le vamos a pasar la lista de personas y el fichero muy equivocado que este no era fichero era pique.
+
+91
+00:08:10,100 --> 00:08:14,370
+El nombre de la librería vale ayesta.
+
+92
+00:08:16,310 --> 00:08:18,150
+Vamos a cerrarlo.
+
+93
+00:08:21,950 --> 00:08:24,960
+Y a borrarlo por si acaso.
+
+94
+00:08:25,010 --> 00:08:31,430
+Muy bien ahora veis ya tenemos aquí nuestro fichero de personas punto Piqué que teóricamente está guardando
+
+95
+00:08:31,430 --> 00:08:36,840
+una lista con las personas los objeto personas que hemos creado nosotros.
+
+96
+00:08:36,950 --> 00:08:42,110
+Bueno pues vamos a recuperarlo a ver si podemos recuperarlo bien para seguir trabajando con esta lista.
+
+97
+00:08:42,110 --> 00:08:44,340
+No debería de ser muy difícil.
+
+98
+00:08:44,690 --> 00:08:59,030
+Fichero Open personas punto vizquel en lectura binaria de acuerdo y vamos a volcar del contenido del
+
+99
+00:08:59,030 --> 00:09:00,670
+fichero en personas.
+
+100
+00:09:00,680 --> 00:09:04,280
+Dando por hecho que es una colección de algún tipo que nosotros ya sabemos.
+
+101
+00:09:04,280 --> 00:09:17,780
+Pixel loar Fischer vamos a cerrarlo pero clowes y vamos a intentar recorrer las personas que hay aquí
+
+102
+00:09:17,780 --> 00:09:22,140
+dentro por persona y personas.
+
+103
+00:09:22,730 --> 00:09:29,930
+Vamos a hacer un Prin de la persona y tendría que salirnos los nombres de las tres personas y ahí las
+
+104
+00:09:29,930 --> 00:09:34,720
+tenemos las hemos recuperado correctamente y las estamos mostrando.
+
+105
+00:09:36,150 --> 00:09:43,960
+Como veis que es muy útil para trabajar tanto con colecciones como con nuestros propios objetos nuestras
+
+106
+00:09:43,960 --> 00:09:47,060
+clases tenemos ahí las instancias las guardamos.
+
+107
+00:09:48,700 --> 00:09:52,650
+En alguna estructura y luego lo ha recuperamos toda.
+
+108
+00:09:52,810 --> 00:09:58,300
+Esta es la forma más simple de trabajar con pixel y creo que la podéis utilizar para muchos de vuestros
+
+109
+00:09:58,300 --> 00:09:59,170
+proyectos.
+
+110
+00:09:59,500 --> 00:10:07,600
+Y como quiera hacer un ejemplo de esto en la próxima elección vamos a recuperar aquel código que hicimos
+
+111
+00:10:07,900 --> 00:10:12,570
+para nuestro catálogo de películas mientras explicábamos los objetos.
+
+112
+00:10:13,610 --> 00:10:19,430
+Y vamos a añadirle la posibilidad de que ese catálogo se guarde en la memoria en un fichero y luego
+
+113
+00:10:19,430 --> 00:10:24,890
+se recupere automáticamente cuando creamos ese catálogo de nuevo y así podemos seguir trabajando con
+
+114
+00:10:24,890 --> 00:10:27,100
+nuevas películas siempre.
+
+115
+00:10:27,410 --> 00:10:31,950
+Aunque cerremos el programa y luego lo volvamos a abrir así espero a la siguiente elección.

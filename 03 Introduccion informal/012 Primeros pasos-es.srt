@@ -1,0 +1,115 @@
+1
+00:00:00,670 --> 00:00:05,980
+Durante esta pequeña introducción informal hemos visto los tipos de datos más comunes de Payton y hemos
+
+2
+00:00:05,980 --> 00:00:11,290
+hecho pruebas con ellos desde el intérprete además de aprender a leer valores por teclado.
+
+3
+00:00:11,290 --> 00:00:15,790
+Parece que todo un mundo se comienza a abrir ante nosotros y esto sólo es la punta del iceberg.
+
+4
+00:00:16,190 --> 00:00:22,030
+Creo que la programación sirve para mucho más que asignar valores a variables listas y en esta elección
+
+5
+00:00:22,090 --> 00:00:25,860
+quiero mostraros un pequeño programa para que veáis a Payton en acción.
+
+6
+00:00:26,230 --> 00:00:28,620
+Vamos a abrir la lección cinco primeros pasos.
+
+7
+00:00:30,500 --> 00:00:34,900
+Como veis tengo un código preparado a lo largo del curso.
+
+8
+00:00:34,900 --> 00:00:38,140
+Era nuestro ejemplo de cabecera y volveremos a ver varias veces.
+
+9
+00:00:38,150 --> 00:00:43,040
+Así que por ahora no se trata de que entendáis el código sino de q6 nuestra intuición y lógica para
+
+10
+00:00:43,040 --> 00:00:46,060
+deducir qué es lo que puede realizar.
+
+11
+00:00:46,150 --> 00:00:47,870
+Os voy a dar algunas pistas.
+
+12
+00:00:47,870 --> 00:00:54,620
+Lo único que os voy a enseñar por si os lo necesitáis es el significado de algunas palabras clave por
+
+13
+00:00:54,620 --> 00:01:04,580
+ejemplo guai significa mientras If significa sí.
+
+14
+00:01:05,010 --> 00:01:08,210
+Si de condiciones de condición
+
+15
+00:01:11,660 --> 00:01:15,200
+y élse significa sino
+
+16
+00:01:18,080 --> 00:01:20,470
+también de condición.
+
+17
+00:01:23,540 --> 00:01:25,110
+Estas son las pistas que hay.
+
+18
+00:01:26,710 --> 00:01:28,030
+Qué os parece.
+
+19
+00:01:28,030 --> 00:01:30,740
+Sois capaces de imaginar lo que hace este código.
+
+20
+00:01:31,740 --> 00:01:32,900
+Vamos a ejecutarlo.
+
+21
+00:01:33,210 --> 00:01:35,930
+Vamos a apretar Swift tientes.
+
+22
+00:01:37,770 --> 00:01:47,830
+Como veis nos muestra por pantalla del 0 al 9 los números y nos dice y cada número par o impar.
+
+23
+00:01:48,210 --> 00:01:53,760
+Pero sabéis lo mejor de todo que sólo cambiando un número podríamos hacer que el programa comprueben
+
+24
+00:01:53,760 --> 00:01:56,970
+millones de números no sólo los diez primeros.
+
+25
+00:01:57,270 --> 00:02:03,270
+Así que imaginad que cosas podemos llegar a hacer si trabajamos aprovechando la potencia de los ordenadores.
+
+26
+00:02:05,020 --> 00:02:09,220
+Nosotros les decimos a los ordenadores qué y cómo deben de hacer alguna cosa.
+
+27
+00:02:09,220 --> 00:02:13,920
+En eso se basa la programación y ellos lo harán millones de veces más rápido que nosotros.
+
+28
+00:02:13,930 --> 00:02:18,650
+Es una combinación perfecta y a lo largo del curso vais a aprender a aprovecharla.
+
+29
+00:02:19,180 --> 00:02:23,690
+Dejamos aquí nuestro ejemplo y más adelante volveremos para analizarlo poco a poco.

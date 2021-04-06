@@ -1,0 +1,1 @@
+https://github.com/hcosta/Python-3-al-completo-desde-cero/blob/master/Fase%202%20-%20Manejo%20de%20datos%20y%20optimizacion/Tema%2005%20-%20Entradas%20y%20salidas%20de%20datos/Lecci%C3%B3n%202%20(Apuntes)%20-%20Scripts/escribir_lineas.py

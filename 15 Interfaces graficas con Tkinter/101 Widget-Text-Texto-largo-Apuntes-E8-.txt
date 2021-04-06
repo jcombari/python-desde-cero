@@ -1,0 +1,1 @@
+https://www.hektorprofe.net/python/interfaces-graficas-con-tkinter/widget-text-texto-largo/

@@ -1,0 +1,15 @@
+1
+00:00:00,450 --> 00:00:05,790
+En esta pequeña unidad vamos a tomarnos un rato para aprender sobre las entradas y salidas de información
+
+2
+00:00:06,330 --> 00:00:11,760
+entendiendo por entrada la forma de capturar información desde el exterior del programa y por salidas
+
+3
+00:00:11,880 --> 00:00:14,710
+las formas de presentar los datos o la información.
+
+4
+00:00:14,850 --> 00:00:15,850
+Vamos a por ello.

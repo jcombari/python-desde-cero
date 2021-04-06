@@ -1,0 +1,555 @@
+1
+00:00:00,420 --> 00:00:05,790
+A partir de ahora siempre que penséis listas cadenas de caracteres o cualquier otro tipo de compuesto
+
+2
+00:00:06,180 --> 00:00:11,450
+quiero que recordéis como si fuera vuestro mejor amigo por hacer la vida mucho más fácil.
+
+3
+00:00:11,630 --> 00:00:14,510
+Es bueno ilustrar el por qué con un ejemplo.
+
+4
+00:00:15,720 --> 00:00:20,400
+Vamos a abrir nuestro notebook sentencia.
+
+5
+00:00:21,220 --> 00:00:27,150
+Imaginad que tenemos una lista de números y queremos recorrer dinámicamente todos sus elementos y mostrarlos
+
+6
+00:00:27,150 --> 00:00:33,720
+por pantalla por dinámicamente me refiero automáticamente con lo que sabemos podríamos utilizar un bucle
+
+7
+00:00:33,720 --> 00:00:36,910
+while y un contador a modo de índice para hacerlo.
+
+8
+00:00:37,500 --> 00:00:49,710
+Por ejemplo creamos una lista de números 1 2 3 4 5 6 7 8 9 y 10.
+
+9
+00:00:49,740 --> 00:00:54,830
+A continuación declaramos una variable índice en la que vamos a guardar pues un contador.
+
+10
+00:00:56,040 --> 00:01:06,040
+Vamos a crear un bucle Weil y vamos a decirle supuestamente Mientras este índice sea menor que la longitud
+
+11
+00:01:06,070 --> 00:01:10,540
+que tiene la lista.
+
+12
+00:01:10,540 --> 00:01:19,640
+Vamos a incrementar y vamos a ir mostrando los números por pantalla haciendo referencia al índice pero
+
+13
+00:01:20,080 --> 00:01:26,410
+pasándole la variable índice en lugar del número directamente que queremos mostrar.
+
+14
+00:01:26,410 --> 00:01:35,230
+Como esto se vendrá repitiendo todo el rato simplemente tendríamos que incrementar el contador el índice
+
+15
+00:01:36,710 --> 00:01:39,880
+1 1 Cada vez que entramos en él.
+
+16
+00:01:39,940 --> 00:01:42,960
+Cada vez que integramos el Uruguay como entraremos.
+
+17
+00:01:44,380 --> 00:01:51,820
+Todo el rato mientras el índice sea menor que la longitud de números que es 10 iremos sumando 1 2 3
+
+18
+00:01:51,820 --> 00:01:52,500
+4 5 6.
+
+19
+00:01:52,510 --> 00:01:56,780
+Iremos mostrando los números dentro del la lista de números.
+
+20
+00:01:57,940 --> 00:02:05,500
+Y finalmente no saldremos de ahí tenemos 1 2 3 4 5 6 7 8 9 y 10.
+
+21
+00:02:05,860 --> 00:02:10,150
+Esta es una forma de recorrer una lista utilizando el bucle guai.
+
+22
+00:02:10,600 --> 00:02:15,820
+Sin embargo como veis necesitamos descargar una variable inicializar 0.
+
+23
+00:02:15,940 --> 00:02:22,160
+Saber la longitud de la lista para recorrerla incrementando este contador etcétera.
+
+24
+00:02:22,300 --> 00:02:27,670
+Si os dijera que con el bucle effort podemos hacer lo mismo en dos líneas sin utilizar un contador y
+
+25
+00:02:27,690 --> 00:02:33,590
+sin saber la longitud de la lista que pensaria es la sintaxis del foro es muy sencilla.
+
+26
+00:02:36,000 --> 00:02:41,570
+Significa para qué vamos a crear una variable por número.
+
+27
+00:02:43,360 --> 00:02:52,120
+En números dos puntitos comienza el bloque de la iteración y aquí simplemente podríamos dibujar por
+
+28
+00:02:52,120 --> 00:02:55,730
+pantalla o imprimir el valor del número.
+
+29
+00:02:56,480 --> 00:02:57,720
+Vamos a ejecutarlo.
+
+30
+00:02:58,220 --> 00:03:00,690
+Y aquí tenemos exactamente lo mismo que antes.
+
+31
+00:03:00,770 --> 00:03:03,010
+Todo lo que hemos creado anteriormente.
+
+32
+00:03:03,810 --> 00:03:11,740
+Con un Wayne utilizando el índice la longitud del numerosi lo podemos hacer con esta simple línea porque
+
+33
+00:03:11,800 --> 00:03:15,300
+traduciendo la sintaxis tendríamos casi literalmente.
+
+34
+00:03:16,060 --> 00:03:22,710
+Para cada número dentro de la lista de números imprimir un número.
+
+35
+00:03:23,930 --> 00:03:28,970
+Me encanta en serio porque difícilmente encontraréis un lenguaje de programación tan auto explicativo
+
+36
+00:03:28,970 --> 00:03:30,040
+y cómodo como Python.
+
+37
+00:03:30,040 --> 00:03:37,130
+En este aspecto digamos que el Ford crea una variable y en cada iteración guarda el valor actual de
+
+38
+00:03:37,130 --> 00:03:40,250
+la lista mientras graba recorriendo automáticamente.
+
+39
+00:03:40,730 --> 00:03:45,680
+Lo malo es que si quisiéramos modificar el valor de la lista no podemos hacerlo directamente.
+
+40
+00:03:45,710 --> 00:03:48,130
+Me explico mejor vamos a hacer lo siguiente.
+
+41
+00:03:49,070 --> 00:03:56,840
+Imagina que hacemos por rumoró innúmeros y como cabría esperar igual si pusiéramos que cada número ahora
+
+42
+00:03:56,840 --> 00:04:02,480
+vale en asignacion lo que valía pero multiplicado por 10.
+
+43
+00:04:02,840 --> 00:04:08,420
+Esperaríamos tener una lista que fuera 10 20 30 40 y así hasta 100.
+
+44
+00:04:08,750 --> 00:04:15,880
+Sin embargo si volvemos a mostrar la lista de números lo que tenemos sigue siendo lo de antes.
+
+45
+00:04:16,650 --> 00:04:22,920
+Esto es debido a que la variable es una copia local del contenido de la lista pero dentro de la iteración
+
+46
+00:04:23,330 --> 00:04:25,760
+y no forma parte de la propia lista.
+
+47
+00:04:25,770 --> 00:04:30,910
+Cómo podemos entonces manipular el contenido de la lista.
+
+48
+00:04:31,410 --> 00:04:34,770
+Si hacemos memoria podríamos modificar el contenido de una lista.
+
+49
+00:04:34,950 --> 00:04:40,500
+Si sabíamos el índice que queríamos modificar así que podemos usar un índice externo y aumentarlo a
+
+50
+00:04:40,500 --> 00:04:46,680
+modo de Contador por ejemplo índice igual a cero números.
+
+51
+00:04:46,920 --> 00:04:58,530
+Aquí voy a poner la lista de números igual como la tenía y ahora cifor pondré números y números y vamos
+
+52
+00:04:58,530 --> 00:04:59,640
+a hacer lo siguiente.
+
+53
+00:04:59,850 --> 00:05:08,020
+Refiriéndonos a la lista no al propio número pasándole el índice le vamos a asignar.
+
+54
+00:05:09,760 --> 00:05:11,780
+Por su propio valor por 10.
+
+55
+00:05:12,950 --> 00:05:16,450
+Y luego sumaremos al índice 1 más igual.
+
+56
+00:05:16,750 --> 00:05:17,270
+1.
+
+57
+00:05:18,360 --> 00:05:25,920
+Finalmente mostraremos el valor de la lista de números otra vez y como veis ahora que la hemos modificado.
+
+58
+00:05:25,970 --> 00:05:32,970
+La hemos podido modificar porque nos estamos refiriendo a la lista y la estamos modificando al vuelo
+
+59
+00:05:33,600 --> 00:05:35,150
+a través de sus índices.
+
+60
+00:05:37,070 --> 00:05:38,730
+Funciona perfectamente.
+
+61
+00:05:38,810 --> 00:05:44,460
+Sin embargo Payton nos proporciona una forma más sencilla de hacerlo gracias a una función llamada número
+
+62
+00:05:44,580 --> 00:05:48,240
+y que nos permite crear un índice en el foro.
+
+63
+00:05:48,650 --> 00:05:53,420
+Esto se conoce como lectura secuencial con clave valor y lo utilizaremos mucho en el futuro.
+
+64
+00:05:54,410 --> 00:05:59,650
+Vamos a hacerlo suponiendo que tenemos lo mismo que antes tenemos los números.
+
+65
+00:06:00,670 --> 00:06:07,290
+Vamos a hacer un fork y vamos a crear aquí un índice y otra variable que es el número.
+
+66
+00:06:08,160 --> 00:06:19,310
+Y ahora vamos a hacer y en lugar de simplemente poner los números haremos un enumeré de los números.
+
+67
+00:06:19,360 --> 00:06:31,930
+Ahora podemos referirnos de esta forma con el índice y modificar el valor como antes por 10 y mostrarlo.
+
+68
+00:06:34,940 --> 00:06:40,430
+Como veis otra vez más hemos logrado modificar todos los valores y en esta ocasión no necesitábamos
+
+69
+00:06:40,430 --> 00:06:41,880
+crear un índice externo.
+
+70
+00:06:42,180 --> 00:06:45,050
+Por qué podemos utilizarlo directamente.
+
+71
+00:06:45,230 --> 00:06:51,560
+Gracias a que estamos utilizando la ERU bereit que nos devuelve un índice y el número para cada iteración
+
+72
+00:06:51,950 --> 00:06:53,310
+automáticamente.
+
+73
+00:06:54,620 --> 00:06:59,200
+De esta forma también nos ahorraremos incrementar el índice en cada iteración.
+
+74
+00:06:59,210 --> 00:07:01,870
+Por qué lo hace automáticamente el Ford.
+
+75
+00:07:02,300 --> 00:07:08,360
+Así que es una forma bastante interesante de hacerlo recorrer listas y modificar sus valores al vuelo.
+
+76
+00:07:08,990 --> 00:07:11,750
+Pero es que además tiene otras utilidades.
+
+77
+00:07:11,780 --> 00:07:17,450
+Por ejemplo podemos utilizarlo para recorrer todos los caracteres de una cadena de texto una cadena
+
+78
+00:07:18,200 --> 00:07:29,090
+con el texto Hola amigos vamos a crear un fork y vamos a guardar en esta ocasión carácter para cada
+
+79
+00:07:29,090 --> 00:07:32,100
+carácter en cadena.
+
+80
+00:07:32,750 --> 00:07:37,290
+Mostraremos el carácter.
+
+81
+00:07:38,920 --> 00:07:51,830
+Así vamos a ejecutarlo y hoy tengo Hola amigos una línea para cada carácter incluso en los espacios.
+
+82
+00:07:51,950 --> 00:07:56,140
+Sin embargo trabajando con las cadenas de caracteres no podemos modificarlas al vuelo.
+
+83
+00:07:56,330 --> 00:08:07,270
+Quiero decir aunque hiciéramos un numerito por ejemplo poniendo foril carácter y enumeré de la cadena.
+
+84
+00:08:08,150 --> 00:08:16,400
+Si intentamos modificar los valores directamente cadena refiriéndonos al índice por ejemplo poniendo
+
+85
+00:08:16,400 --> 00:08:27,350
+que todo está vacío o un asterisco en lugar del texto si lo ejecutamos nos da un error porque como hemos
+
+86
+00:08:27,350 --> 00:08:32,880
+dicho las cadenas de caracteres son inmutables no podemos modificarlas.
+
+87
+00:08:33,320 --> 00:08:35,520
+Entonces cómo podemos hacerlo.
+
+88
+00:08:35,600 --> 00:08:38,440
+Hay alguna manera de modificar al vuelo cadenas de caracteres.
+
+89
+00:08:38,480 --> 00:08:39,810
+Gracias Halford.
+
+90
+00:08:40,260 --> 00:08:46,250
+Bueno no todo está perdido siempre podemos ser un poco más astutos que lo que nos permite hacer Python
+
+91
+00:08:46,650 --> 00:08:52,060
+y podemos generar una nueva cadena concatenando al vuelo a partir de la otra cadena vacía.
+
+92
+00:08:52,190 --> 00:08:57,760
+Por ejemplo si lo que queremos es rellenar la cadena de asteriscos.
+
+93
+00:08:58,130 --> 00:09:03,060
+Podemos generar una nueva cadena de asteriscos creamos una cadena 2.
+
+94
+00:09:03,680 --> 00:09:16,890
+La creamos vacía y para cada carácter y cadena lo que vamos a hacer es lacadena 2 sumarle con cardenales
+
+95
+00:09:17,660 --> 00:09:29,690
+el carácter de un carácter un asterisco por ejemplo y el resultado de cadena sería así y el de la cadena
+
+96
+00:09:29,690 --> 00:09:33,260
+2 sería la misma longitud pero llena de asteriscos.
+
+97
+00:09:35,250 --> 00:09:40,890
+Si en lugar de decirle que queremos poner a asterisco si hubiéramos puesto el propio carácter sumado
+
+98
+00:09:41,840 --> 00:09:43,580
+que teníamos así.
+
+99
+00:09:44,550 --> 00:09:48,450
+Pero por ejemplo multiplicado por dos para tenerlo dos veces.
+
+100
+00:09:49,690 --> 00:09:55,480
+Podemos volver a mostrarla y entonces tendríamos una cadena donde se van repitiendo todas las letras
+
+101
+00:09:55,480 --> 00:09:56,570
+dos veces.
+
+102
+00:09:57,660 --> 00:10:02,190
+Para cerrar la elección que ya se empieza a alargar me gustaría comentar una de esas diferencias del
+
+103
+00:10:02,190 --> 00:10:04,200
+Foro de Payton respecto a otros lenguajes.
+
+104
+00:10:04,210 --> 00:10:06,080
+Si venís de otro lenguaje.
+
+105
+00:10:06,390 --> 00:10:12,180
+Y es que como hemos visto necesitamos implícitamente una colección para poder utilizar el foro mientras
+
+106
+00:10:12,180 --> 00:10:17,080
+que en otros lenguajes simplemente necesitamos un número para indicar las iteraciones a cumplir.
+
+107
+00:10:18,750 --> 00:10:25,050
+Si queremos simular el caso de estudio que serían cualquier otro lenguaje podemos hacerlo con una función
+
+108
+00:10:25,050 --> 00:10:26,850
+de Python llamada ray.
+
+109
+00:10:27,010 --> 00:10:33,180
+Y este rango podemos utilizarlo en un foro como si fuera una lista porque lo que hace es generar una
+
+110
+00:10:33,180 --> 00:10:40,170
+especie de lista numérica por ejemplo sin utilizar una con una colección.
+
+111
+00:10:40,170 --> 00:10:49,920
+Podríamos hacer un fork in Raich para crear una especie de lista de números de longitud 10 un rango
+
+112
+00:10:49,920 --> 00:10:54,850
+de 10 números y podríamos mostrar el valor de ley.
+
+113
+00:10:56,730 --> 00:11:02,380
+Como veis y aquí tenemos los 10 números desde el 0 hasta el 9.
+
+114
+00:11:02,790 --> 00:11:07,730
+No llega al 10 porque los Kluge tenemos 10 empezando por cero.
+
+115
+00:11:08,370 --> 00:11:14,760
+De hecho si mostramos este Rains directamente por pantalla en el intérprete lo que vemos es una especie
+
+116
+00:11:14,790 --> 00:11:16,480
+de objeto raro.
+
+117
+00:11:16,740 --> 00:11:20,860
+Un tipo llamado rainie o sea que va de 0 a 10.
+
+118
+00:11:22,360 --> 00:11:27,830
+Y esto es porque este reintsch no existe la memoria sino que se interpreta en el momento de ejecutar
+
+119
+00:11:27,830 --> 00:11:29,140
+esta instrucción.
+
+120
+00:11:29,600 --> 00:11:36,120
+Lo que intento deciros es que antes tradicionalmente en Payton 2 estamos en Python 3.
+
+121
+00:11:36,380 --> 00:11:39,520
+El ranks equivalía a una lista de números.
+
+122
+00:11:39,530 --> 00:11:47,600
+Así en el código 0 1 2 3 4 5 6 7 8 9 representa que serían 9.
+
+123
+00:11:48,490 --> 00:11:53,720
+Más el 0:10 y esto es lo mismo Rains.
+
+124
+00:11:53,730 --> 00:12:00,150
+Antes actuaba así creaba una lista en el mismo lugar pero ahora la interpreta.
+
+125
+00:12:00,150 --> 00:12:02,000
+Por qué esta diferencia es importante.
+
+126
+00:12:02,000 --> 00:12:08,610
+Bueno básicamente porque si crease memoria estaría ocupando muchísima memoria imaginar que le dijéramos
+
+127
+00:12:08,870 --> 00:12:14,570
+un reintsch de 10 mil valores pues eso estaría ocupando la memoria 10 mil valores.
+
+128
+00:12:14,610 --> 00:12:20,590
+En cambio el Rains directamente le indica que tiene que recorrer diez veces esos valores.
+
+129
+00:12:20,960 --> 00:12:24,260
+Pero cómo se interpreta el tiempo de ejecución.
+
+130
+00:12:24,270 --> 00:12:31,160
+No ocupa memoria así que por suerte no nos debemos de preocupar de esta gestión extra de la memoria.
+
+131
+00:12:31,350 --> 00:12:36,280
+Pero podemos conseguir un comportamiento similar si necesitáramos crear esta lista.
+
+132
+00:12:36,420 --> 00:12:38,840
+A partir de un Raich se puede hacer.
+
+133
+00:12:38,880 --> 00:12:39,630
+Cómo.
+
+134
+00:12:39,960 --> 00:12:48,620
+Pues haciendo un cast que representa que es una conversión llamando la palabra liset y dentro poniendole
+
+135
+00:12:48,630 --> 00:12:51,670
+el Ranch por ejemplo 10.
+
+136
+00:12:51,840 --> 00:12:54,890
+Esto devuelve la misma lista que tengo arriba.
+
+137
+00:12:56,240 --> 00:12:57,870
+Y por esta lección ya está.
+
+138
+00:12:57,890 --> 00:13:02,680
+Como veis el foro es muy útil y permite muchísimas implementaciones y posibilidades.
+
+139
+00:13:02,710 --> 00:13:05,160
+Lo vamos a trabajar muchísimo a lo largo del curso.

@@ -1,0 +1,443 @@
+1
+00:00:00,510 --> 00:00:01,200
+Muy bien.
+
+2
+00:00:01,270 --> 00:00:08,040
+Y ahora que ya sabemos que recorrer un fichero de texto línea línea o línea línea también automáticamente
+
+3
+00:00:08,490 --> 00:00:14,190
+nos vamos a centrar en manejar el puntero puntero como si fuera nuestro dedo que está señalando por
+
+4
+00:00:14,190 --> 00:00:15,750
+dónde vamos leyendo.
+
+5
+00:00:16,220 --> 00:00:20,010
+Pues vamos a manejar este puntero vamos a cerrar el fichero.
+
+6
+00:00:20,010 --> 00:00:24,130
+No sé si existirá a lo mejor no existe.
+
+7
+00:00:24,810 --> 00:00:25,460
+Bueno lo es.
+
+8
+00:00:25,480 --> 00:00:26,200
+Pues lo he cerrado.
+
+9
+00:00:26,220 --> 00:00:30,640
+Vamos a borrarlo también.
+
+10
+00:00:30,870 --> 00:00:47,310
+Y vamos a abrirlo de nuevo fichero Open fichero txt en modo lectura y vamos a manejar este puntero.
+
+11
+00:00:47,580 --> 00:00:54,960
+Vamos a decirle al puntero que en lugar de indicar al principio porque por defecto estamos al principio
+
+12
+00:00:55,920 --> 00:01:04,060
+vamos a apuntar por ejemplo el carácter número 10 y eso lo vamos a hacer ese fichero punto sic con doces.
+
+13
+00:01:04,850 --> 00:01:10,430
+Y entre paréntesis le vamos a pasar por ejemplo un 10.
+
+14
+00:01:10,520 --> 00:01:14,900
+De esta forma le vamos a indicar que el puntero ya no está al principio sino que está en el carácter
+
+15
+00:01:14,900 --> 00:01:17,810
+número 10 de acuerdo.
+
+16
+00:01:18,230 --> 00:01:25,810
+Y ahora qué pasaría si hacemos un RIT fichero pruitt.
+
+17
+00:01:26,120 --> 00:01:33,110
+Pues que RIT devuelve todo el contenido del fichero pero a partir de donde se encuentra el puntero como
+
+18
+00:01:33,380 --> 00:01:41,540
+le hemos dicho el puntero ya estaba en el carácter número 10 1 2 3 4 5 6 7 8 9 y 10.
+
+19
+00:01:41,810 --> 00:01:47,460
+Pues empieza a partir del con el contexto de la primera línea es decir desde aquí.
+
+20
+00:01:49,250 --> 00:01:53,390
+Ahora el puntero como ya hemos leído el contenido estará otra vez al final.
+
+21
+00:01:53,540 --> 00:01:56,270
+Si intentamos leer algo más.
+
+22
+00:01:57,200 --> 00:01:58,490
+Como veis no hay nada.
+
+23
+00:01:58,520 --> 00:02:04,810
+Estamos al final del fichero pero podemos volverlo a decir que se vaya al principio de nuevo fichero
+
+24
+00:02:05,140 --> 00:02:09,090
+punto sic y beta al carácter número cero otra vez.
+
+25
+00:02:09,740 --> 00:02:18,140
+Ahora si volvemos a leer todo como lo hemos puesto al principio volvemos a leer y ahora sí podemos leer
+
+26
+00:02:18,140 --> 00:02:19,540
+todo el contenido.
+
+27
+00:02:20,710 --> 00:02:26,440
+Pero esta peculiaridad de leer un número de caracteres o de posicionarse en un número de caracteres
+
+28
+00:02:26,440 --> 00:02:27,690
+no solamente del SIC.
+
+29
+00:02:27,850 --> 00:02:30,120
+También el propio RIT tiene esta funcionalidad.
+
+30
+00:02:30,130 --> 00:02:38,340
+Vamos a volver a poner el puntero al principio sí cero imaginar qué le queremos leer únicamente cinco
+
+31
+00:02:38,350 --> 00:02:39,380
+caracteres.
+
+32
+00:02:39,970 --> 00:02:47,590
+Desde el principio pues vamos a poner un fichero ried y entre paréntesis le vamos a pasar un 5.
+
+33
+00:02:48,020 --> 00:02:52,270
+Y como veis leemos 5 caracteres 1 2 3 4 y 5.
+
+34
+00:02:52,270 --> 00:02:55,160
+Ahora el puntero estaría en la quinta posición.
+
+35
+00:02:55,480 --> 00:03:02,380
+Por tanto si acabásemos de leer todo el fichero fichero Riet pues empezaríamos a partir del carácter
+
+36
+00:03:02,380 --> 00:03:07,060
+5 un mini ejercicio interesante.
+
+37
+00:03:07,060 --> 00:03:14,650
+Podemos saber la longitud de todo el texto y posicionarnos en medio y leer solamente la mitad del texto
+
+38
+00:03:15,220 --> 00:03:21,580
+pues podemos vamos a posicionar el puntero al inicio
+
+39
+00:03:26,290 --> 00:03:33,710
+y ahora vamos a leer todo el texto.
+
+40
+00:03:35,890 --> 00:03:46,000
+Ahora vamos a posicionar el puntero otra vez si a la mitad de la longitud del texto.
+
+41
+00:03:48,560 --> 00:03:50,320
+Perdón tenía que dividir entre dos
+
+42
+00:03:53,590 --> 00:04:00,780
+muy bien y ahora que estamos en el medio vamos a leer el resto del fichero.
+
+43
+00:04:03,250 --> 00:04:07,990
+Como veis esto es la mitad del fichero hasta el final desde aquí.
+
+44
+00:04:10,970 --> 00:04:16,820
+Incluso podríamos manualmente ponernos por ejemplo al final de la primera línea.
+
+45
+00:04:17,150 --> 00:04:21,940
+Podremos leer la primera línea y situarnos al final de esta.
+
+46
+00:04:22,580 --> 00:04:31,460
+Vamos a situarnos al principio del fichero fichero cero y vamos a hacer lo siguiente fichero sic y vamos
+
+47
+00:04:31,460 --> 00:04:35,180
+a situarnos justo al final de la primera línea.
+
+48
+00:04:35,420 --> 00:04:37,010
+Cómo.
+
+49
+00:04:37,050 --> 00:04:42,860
+Leyendo la longitud de la primera línea reutilice.
+
+50
+00:04:45,180 --> 00:04:48,120
+Hoy estamos al final de la primera línea.
+
+51
+00:04:48,550 --> 00:04:57,250
+Si mostramos lo que queda del fichero fichero Riet Como veis ya tenemos la primera línea.
+
+52
+00:04:57,370 --> 00:05:06,160
+Pues bien vamos a cerrar el fichero clowes vamos a borrarlo para seguir trabajando.
+
+53
+00:05:06,160 --> 00:05:11,350
+Algún ejemplo más de lo que os quiero mostrar es cómo solucionar un pequeño problema que tendríamos
+
+54
+00:05:11,350 --> 00:05:14,860
+si quisiéramos abrir un fichero para empezar a escribir desde el principio.
+
+55
+00:05:14,860 --> 00:05:20,080
+Es decir sería como abrir en modo Appen y luego hacer un Sik poner el puntero al principio pero lo podemos
+
+56
+00:05:20,080 --> 00:05:25,360
+hacer todo de golpe con un comando es decir haciendo una lectura y escritura a la vez.
+
+57
+00:05:25,360 --> 00:05:26,730
+Cómo se hace eso.
+
+58
+00:05:27,020 --> 00:05:32,710
+Imaginen que queremos abrir este fichero que tenemos que trabajan todo el rato pero para trabajar con
+
+59
+00:05:32,710 --> 00:05:41,020
+él para poder escribir desde la primera posición lo haríamos así fichero txt y en el modo.
+
+60
+00:05:42,040 --> 00:05:49,590
+Abriéramos en lectura y un más lectura más significa lectura y escritura.
+
+61
+00:05:49,840 --> 00:05:53,470
+Se posicionara el puntero al principio del fichero.
+
+62
+00:05:53,930 --> 00:05:56,270
+Y si escribimos algo fichero.
+
+63
+00:05:56,630 --> 00:06:00,990
+Escribimos por ejemplo hacer alguna cosa así.
+
+64
+00:06:01,250 --> 00:06:03,040
+A cerrarlo.
+
+65
+00:06:03,310 --> 00:06:05,080
+Que se vea los cambios.
+
+66
+00:06:05,260 --> 00:06:07,490
+Fijaros ahora qué ha pasado.
+
+67
+00:06:08,820 --> 00:06:14,280
+Nos hemos cargado la primera línea lo hemos abierto en modo lectura con escritura.
+
+68
+00:06:14,490 --> 00:06:20,610
+El puntero estaba al principio hemos escrito unos caracteres y hemos machacado lo que ya teníamos.
+
+69
+00:06:20,640 --> 00:06:30,000
+Por tanto a modo de lectura y escritura paralela con más sería equivalente a hacer un happen y poner
+
+70
+00:06:30,000 --> 00:06:32,090
+el puntero al principio.
+
+71
+00:06:33,690 --> 00:06:38,780
+Vamos a cerrarlo mejor dicho a borrarlo del género.
+
+72
+00:06:39,840 --> 00:06:44,530
+Y lo último que os quiero mostrar es cómo modificar una línea en especial.
+
+73
+00:06:44,540 --> 00:06:47,690
+Imaginar qué queremos modificar de este fichero.
+
+74
+00:06:47,690 --> 00:06:50,920
+La tercera línea y poner otro contenido ahí.
+
+75
+00:06:51,020 --> 00:06:53,850
+Cómo podemos hacerlo.
+
+76
+00:06:53,850 --> 00:06:56,100
+Bueno pues la lógica vendría a ser la siguiente.
+
+77
+00:06:56,890 --> 00:06:58,230
+Abrimos el fichero.
+
+78
+00:06:59,190 --> 00:07:02,520
+Leemos todas las líneas y la guardamos en una variable.
+
+79
+00:07:03,320 --> 00:07:10,200
+Pero con el comando del rectilíneas que no separa a cada línea en una lista Modificamos de esa lista
+
+80
+00:07:10,350 --> 00:07:15,560
+la línea que queremos y luego volvemos a escribir el contenido.
+
+81
+00:07:16,840 --> 00:07:22,370
+En el fichero vamos a hacerlo fichero copen.
+
+82
+00:07:24,980 --> 00:07:36,140
+Fichero txt en modo lectura más escritura para poder escribir encima vamos a leer todas las líneas mejor
+
+83
+00:07:36,260 --> 00:07:37,140
+líneas.
+
+84
+00:07:38,140 --> 00:07:41,610
+Fichero Weeds Linux.
+
+85
+00:07:43,060 --> 00:07:47,200
+Y ahora vamos a modificar estas líneas.
+
+86
+00:07:47,500 --> 00:07:53,730
+La tercera sería la del índice 2 0 1 2 y vamos a hacer lo siguiente.
+
+87
+00:07:54,160 --> 00:07:59,010
+Líneas 2 igual esta línea.
+
+88
+00:07:59,500 --> 00:08:03,900
+La he modificado en mi memoria.
+
+89
+00:08:04,420 --> 00:08:08,990
+Voy a poner un barra m al final por que esta tenía barra M.
+
+90
+00:08:10,750 --> 00:08:14,260
+Y ahora ya la tenemos actualizada.
+
+91
+00:08:14,260 --> 00:08:23,680
+Como vemos vamos a machacar todo el contenido de nuevo pero lo vamos a hacer primero poniendo el puntero
+
+92
+00:08:23,680 --> 00:08:30,370
+al principio fichero cicc Cero porque recordad que lo teníamos al final después de leer todas las líneas
+
+93
+00:08:31,270 --> 00:08:41,110
+y ahora vamos a hacer este comando fichero lewitt olins y este método nos permite pasarle una lista
+
+94
+00:08:41,260 --> 00:08:46,900
+de líneas y las escribirá dentro del fichero como si fueran todas seguidas.
+
+95
+00:08:46,900 --> 00:08:53,320
+Por tanto Lines líneas lo ponemos así lo ejecutamos.
+
+96
+00:08:53,440 --> 00:08:58,190
+Vamos a cerrarlo y si consultamos el fichero.
+
+97
+00:08:59,940 --> 00:09:04,680
+Fijaros como la tercera línea de esta línea la he modificado.
+
+98
+00:09:04,680 --> 00:09:05,980
+Memoria por tanto.
+
+99
+00:09:06,890 --> 00:09:08,220
+Anota el truco.
+
+100
+00:09:08,500 --> 00:09:16,920
+Abrid todo el contenido en modo de líneas lo guardáis en una lista de líneas modifica la línea que queréis
+
+101
+00:09:17,250 --> 00:09:20,010
+y volvais a escribir todo el contenido encima.
+
+102
+00:09:20,510 --> 00:09:23,760
+Con esto ya hemos visto los ficheros de texto.
+
+103
+00:09:24,240 --> 00:09:29,040
+Como podéis suponer el inconveniente de este tipo de ficheros es que sólo sirven para guardar texto
+
+104
+00:09:29,040 --> 00:09:36,510
+plano y si quisiéramos guardar o almacenar estructuras de datos más complejas como listas o como diccionarios
+
+105
+00:09:36,510 --> 00:09:43,680
+o nuestros propios objetos tendríamos que crear una implementación propia para transformar estos ficheros
+
+106
+00:09:43,680 --> 00:09:47,420
+de texto a los objetos o colecciones que queramos.
+
+107
+00:09:47,610 --> 00:09:53,250
+La alternativa es utilizar ficheros binarios pero como ya dije que no trataremos los ficheros binarios
+
+108
+00:09:53,280 --> 00:09:55,320
+porque son bastante complejos.
+
+109
+00:09:55,500 --> 00:10:01,560
+Lo que vamos a hacer es tratar una alternativa que es el módulo pixel que nos presenta una forma excelente
+
+110
+00:10:01,740 --> 00:10:07,560
+y muy fácil de guardar colecciones en ficheros binarios pero nos abstrae ese proceso de escribir los
+
+111
+00:10:07,560 --> 00:10:13,040
+datos binarios es decir lo gestiona automáticamente y eso es lo que vamos a ver en la próxima elección.

@@ -1,0 +1,723 @@
+1
+00:00:00,940 --> 00:00:01,980
+Seré franco.
+
+2
+00:00:01,980 --> 00:00:05,780
+Si hablamos de herencia nos metemos en terreno pantanoso.
+
+3
+00:00:05,880 --> 00:00:09,510
+Internet está plagado de discusiones sobre cómo y cuándo utilizarla.
+
+4
+00:00:09,690 --> 00:00:11,960
+Incluso algunos cuestionan su utilidad.
+
+5
+00:00:12,270 --> 00:00:17,610
+Desde mi perspectiva hablando como otro programador más creo que es un concepto demasiado sofisticado
+
+6
+00:00:17,960 --> 00:00:21,970
+y por eso se enseña con ejemplos teóricos poco aplicables en la vida real.
+
+7
+00:00:22,410 --> 00:00:27,150
+No digo que no sirva sino que no lo utilizarás frecuentemente a no ser que haga uso de las librerías
+
+8
+00:00:27,150 --> 00:00:30,430
+externas y Free Works que puedes encontrar en Python.
+
+9
+00:00:30,630 --> 00:00:38,220
+Vamos a abrir el tema de herencia Lapo y vamos a trabajar la herencia.
+
+10
+00:00:40,360 --> 00:00:45,120
+En lugar de un ejemplo clásico de esos que considero meramente teóricos como el de las figuras o el
+
+11
+00:00:45,130 --> 00:00:51,640
+de los animales que podéis buscar en Google es decir de enseñaros a partir de mi propia experiencia.
+
+12
+00:00:51,800 --> 00:00:56,870
+Veréis hace unos cuantos años me pidieron crear una aplicación para gestionar una tienda y se me ha
+
+13
+00:00:56,870 --> 00:01:02,060
+ocurrido que la parte de la gestión de productos puede servir como un ejemplo real perfecto para enseñaros
+
+14
+00:01:02,060 --> 00:01:03,340
+el poder de la herencia.
+
+15
+00:01:05,170 --> 00:01:12,490
+Resulta que la tienda que nos concierne se vendían tres tipos de productos adornos alimentos y libros
+
+16
+00:01:13,450 --> 00:01:19,540
+todos los productos compartían el hecho de tener una referencia un nombre un precio y una descripción
+
+17
+00:01:20,230 --> 00:01:25,960
+pero los alimentos también tenían un productor y un distribuidor y los libros un código y ese baile
+
+18
+00:01:26,010 --> 00:01:32,840
+y un autor lo he resumido un poco porque en realidad había muchos más campos pero la cuestión es que
+
+19
+00:01:32,870 --> 00:01:39,220
+lo que sabemos hasta ahora es posible implementar este sistema de productos y supongo que si por ejemplo
+
+20
+00:01:39,220 --> 00:01:46,210
+podríamos crear una clase de producto que integre todos los campos posibles y también un tipo de producto
+
+21
+00:01:46,240 --> 00:01:49,540
+para diferenciar entre adornos alimentos y libros.
+
+22
+00:01:49,540 --> 00:01:54,790
+Podríamos entonces comenzar creando una clase de producto.
+
+23
+00:01:57,040 --> 00:01:59,450
+Y dentro definir por ejemplo un método vinny
+
+24
+00:02:03,700 --> 00:02:06,410
+al que le vamos a pasar todos estos campos.
+
+25
+00:02:06,670 --> 00:02:15,310
+Comenzaremos por Shelf le pasaremos una referencia untipo para hacer referencia.
+
+26
+00:02:15,550 --> 00:02:19,670
+Si es un adorno un alimento un libro un nombre.
+
+27
+00:02:20,750 --> 00:02:24,270
+Un precio de venta al público PVP.
+
+28
+00:02:24,470 --> 00:02:26,490
+Una descripción.
+
+29
+00:02:28,440 --> 00:02:32,090
+Y ahora un productor un distribuidor un 20 y un autor.
+
+30
+00:02:32,100 --> 00:02:34,580
+Pero digamos que estos son los obligatorios.
+
+31
+00:02:34,660 --> 00:02:38,680
+Porque son los comunes en todos los productos.
+
+32
+00:02:39,940 --> 00:02:42,400
+Pero los que vienen ahora son optativos.
+
+33
+00:02:42,410 --> 00:02:49,480
+Por tanto vamos a decir que por defecto pueden tener un valor que sea nulo None por ejemplo productor
+
+34
+00:02:49,750 --> 00:02:50,650
+igual.
+
+35
+00:02:51,570 --> 00:02:54,830
+Distribuidor igual.
+
+36
+00:02:56,350 --> 00:03:08,760
+Y ese vene que es la referencia única de los libros None y un autor Utor igual le dentro lo que haríamos
+
+37
+00:03:08,760 --> 00:03:13,740
+pues es asignar a la referencia al tipo
+
+38
+00:03:17,700 --> 00:03:24,380
+el nombre y todos los atributos los asignaremos de clase.
+
+39
+00:03:25,600 --> 00:03:27,760
+Bueno esto sería un comienzo.
+
+40
+00:03:27,770 --> 00:03:32,090
+Si es a pensar cómo crearíamos algún producto.
+
+41
+00:03:32,100 --> 00:03:35,150
+Pues por ejemplo crearíamos un adorno.
+
+42
+00:03:36,320 --> 00:03:37,040
+Lo haríamos así.
+
+43
+00:03:37,070 --> 00:03:41,190
+Pasándole el producto y le pasaríamos por una referencia.
+
+44
+00:03:41,210 --> 00:03:52,010
+En primer lugar podría ser un número o una cadena por ejemplo poner esta 000 a un tipo aquí le pasaría
+
+45
+00:03:52,010 --> 00:03:59,600
+por ejemplo el código adorno en mayúsculas o un número que yo sepa que son solo adornos.
+
+46
+00:03:59,600 --> 00:04:05,600
+El nombre por ejemplo Basho adornado.
+
+47
+00:04:07,870 --> 00:04:20,410
+Un PVP por ejemplo 15 euros o 15 dólares o lo que sea y una descripción podría poner un vaso de porcelana
+
+48
+00:04:22,450 --> 00:04:27,150
+con dibujos porcelana.
+
+49
+00:04:28,220 --> 00:04:32,610
+Y digamos que hasta aquí sería el producto con los campos.
+
+50
+00:04:33,470 --> 00:04:36,000
+Obligante obligatorios.
+
+51
+00:04:38,280 --> 00:04:46,040
+Hoy tengo un producto si quisiera saber de qué tipo es.
+
+52
+00:04:46,950 --> 00:04:56,540
+Pues podemos consultarlo gracias a tipos y así iríamos haciendo todos los productos de todas estas clases.
+
+53
+00:04:57,770 --> 00:05:02,770
+Es un comienzo pero la verdad a mí esto no se me antoja nada bueno.
+
+54
+00:05:04,080 --> 00:05:05,530
+Demasiados atributos.
+
+55
+00:05:05,550 --> 00:05:09,530
+Por una parte falta de coherencia entre ellos.
+
+56
+00:05:09,900 --> 00:05:16,500
+Por ejemplo es muy raro mezclar campos de un libro como oliese BNI y productor no tiene mucho sentido
+
+57
+00:05:17,460 --> 00:05:21,810
+por no decir que cada vez que tengamos que listar los productos de un tipo tendremos que recorrerlos
+
+58
+00:05:21,810 --> 00:05:22,580
+todos.
+
+59
+00:05:23,740 --> 00:05:30,400
+Comparar el tipo con el que estamos buscando es decir poca eficiencia a la hora de trabajar con los
+
+60
+00:05:30,400 --> 00:05:31,170
+datos.
+
+61
+00:05:32,380 --> 00:05:37,720
+Por tanto salta a la vista que necesitamos una jerarquía para organizar mejor el planteamiento y la
+
+62
+00:05:37,720 --> 00:05:38,330
+herencia.
+
+63
+00:05:38,350 --> 00:05:43,020
+En este caso puede ser la clave antes de lanzarnos con el código.
+
+64
+00:05:43,020 --> 00:05:50,310
+Tenemos que identificar la superclase y las potenciales subclases siempre en singular.
+
+65
+00:05:51,510 --> 00:05:55,580
+La superclase es fácil porque ya sabemos lo que es común.
+
+66
+00:05:55,860 --> 00:06:00,570
+Todo esto aquí menos el tipo sería lo común de un producto.
+
+67
+00:06:00,570 --> 00:06:07,480
+Por tanto la superclase es producto y subclases tenemos adornos alimentos y libros.
+
+68
+00:06:08,780 --> 00:06:15,640
+Luego podríamos identificar los atributos comunes y específicos de cada una producto tendría la referencia
+
+69
+00:06:16,150 --> 00:06:19,980
+el nombre el precio de venta al público y la descripción.
+
+70
+00:06:21,360 --> 00:06:27,120
+El adorno que sería una clase de producto básicamente tendría lo mismo.
+
+71
+00:06:27,240 --> 00:06:28,780
+No cambiaría nada.
+
+72
+00:06:29,070 --> 00:06:35,620
+El alimento tendría además el productor y el distribuidor y el libro tendría allí y se vende.
+
+73
+00:06:35,820 --> 00:06:36,740
+Y el autor.
+
+74
+00:06:39,000 --> 00:06:43,780
+Ahora que ya hemos identificado la subclases y los atributos.
+
+75
+00:06:44,500 --> 00:06:49,910
+Pues podemos comenzar a implementar el orden hereditario comenzando con la superclase.
+
+76
+00:06:50,190 --> 00:06:55,650
+Podríamos copiar lo que tenemos arriba y esta sería la súper clase de productos.
+
+77
+00:06:55,660 --> 00:07:01,910
+No vamos a borrar todo lo que no es obligatorio y el tipo porque ya no nos hace falta.
+
+78
+00:07:03,350 --> 00:07:06,490
+Digamos que esto sería la superclase.
+
+79
+00:07:06,560 --> 00:07:08,670
+Podríamos añadir también.
+
+80
+00:07:09,740 --> 00:07:13,840
+Un método string para devolver una cadena.
+
+81
+00:07:14,800 --> 00:07:17,030
+Que explique un poco este producto.
+
+82
+00:07:17,710 --> 00:07:26,710
+Vamos a sobreescribir el string cansarles self y vamos a hacer por ejemplo un Returned vamos a devolver
+
+83
+00:07:27,220 --> 00:07:32,590
+una cadena varias líneas por ejemplo con una referencia.
+
+84
+00:07:33,520 --> 00:07:36,580
+Vamos a poner una tabulación aquí.
+
+85
+00:07:37,480 --> 00:07:51,640
+Vamos a escribir un valor con nombre escribir una tabulación y un código un precio de venta al público
+
+86
+00:07:52,380 --> 00:07:56,320
+y una tabulación y una descripción.
+
+87
+00:07:58,450 --> 00:08:06,000
+Y una tabulación también con el valor aquí luego triple comillas para que se vea mejor.
+
+88
+00:08:06,540 --> 00:08:10,050
+Y aquí si pudiera pondría la tabulación manualmente.
+
+89
+00:08:10,380 --> 00:08:15,020
+Pero como no me deja Júpiter un editor de texto y que me dejaría hacerlo.
+
+90
+00:08:16,740 --> 00:08:22,050
+No sé si me va a quedar bien a la primera pero bueno luego lo adaptaremos y vamos a encadenar un formato
+
+91
+00:08:22,380 --> 00:08:24,480
+pasándole la referencia
+
+92
+00:08:27,420 --> 00:08:33,530
+el nombre y el precio que veo que me lo de arriba tenía que ponerlo.
+
+93
+00:08:33,750 --> 00:08:38,640
+No lo que me desagrada es la descripción y la descripción.
+
+94
+00:08:39,700 --> 00:08:41,210
+Voy a poner la anti
+
+95
+00:08:44,530 --> 00:08:46,120
+vale.
+
+96
+00:08:46,120 --> 00:08:53,240
+Vamos a crear un producto o mejor dicho vamos a crear ya la subclase de adorno que es básicamente igual.
+
+97
+00:08:53,380 --> 00:09:02,590
+Lo único que vamos a hacer es crear una clase al horno y ahora para indicarle que sea hija de producto.
+
+98
+00:09:02,860 --> 00:09:06,240
+Entre paréntesis y le vamos a pasar producto.
+
+99
+00:09:07,080 --> 00:09:10,970
+Y vamos a poner un paz de esta manera.
+
+100
+00:09:11,170 --> 00:09:16,560
+Tenemos prácticamente una copia del producto en adorno pero con su propio nombre de clase.
+
+101
+00:09:17,210 --> 00:09:22,140
+Y ahora vamos a crear un adorno a al horno.
+
+102
+00:09:22,890 --> 00:09:24,630
+Por ejemplo vamos a poner una clave.
+
+103
+00:09:24,630 --> 00:09:33,590
+No sé 2074 una referencia lo mismo de antes un vaso adornado.
+
+104
+00:09:35,860 --> 00:09:47,070
+Euros vaso de porcelana adornado con árboles por ejemplo.
+
+105
+00:09:47,090 --> 00:09:51,460
+Y ahora vamos a hacer un print de este adorno.
+
+106
+00:09:51,850 --> 00:09:58,050
+Como veis nos faltaría poner un par de tabulación pero ya lo tenemos aquí.
+
+107
+00:09:58,240 --> 00:10:01,730
+También podríamos hacer algunos cambios.
+
+108
+00:10:02,080 --> 00:10:02,620
+Mirad.
+
+109
+00:10:02,830 --> 00:10:07,310
+Fijaros que las comillas me devuelven una línea va hacia arriba.
+
+110
+00:10:07,540 --> 00:10:11,430
+Eso lo podemos solucionar poniendo una barra invertida en la primera línea.
+
+111
+00:10:11,530 --> 00:10:20,170
+De esta forma y luego voy a poner estas líneas pegadas a la izquierda para indicar que empiecen desde
+
+112
+00:10:20,170 --> 00:10:24,380
+el principio por ejemplo el nombre y el PVP.
+
+113
+00:10:25,480 --> 00:10:30,730
+Tendría que poner otra tabulación para que queden a la misma altura que referencia y descripción para
+
+114
+00:10:30,870 --> 00:10:34,970
+poner otra tabulación aquí y aquí vamos a probarlo ahora.
+
+115
+00:10:35,170 --> 00:10:41,090
+Y ahora ya me queda perfecto referenciados 1034 nombre Evas adornado por web.
+
+116
+00:10:41,110 --> 00:10:41,860
+15.
+
+117
+00:10:41,890 --> 00:10:44,560
+Descripción paso de porcelana adornado con árboles.
+
+118
+00:10:44,560 --> 00:10:46,260
+Ahí tengo mi primer adorno.
+
+119
+00:10:48,040 --> 00:10:50,470
+Villán ahora vamos a por el alimento.
+
+120
+00:10:50,710 --> 00:10:56,350
+El problema que tenemos con el alimento es que este tienen nuevos atributos así que tendríamos que declarar
+
+121
+00:10:56,350 --> 00:11:02,770
+de nuevo el método init para adaptarlo a la nueva subclase.
+
+122
+00:11:04,580 --> 00:11:10,100
+Aprovechándonos que estos Payton siempre podemos hacer asignacion externa así que vamos a aprovecharnos
+
+123
+00:11:10,100 --> 00:11:10,780
+de ello.
+
+124
+00:11:11,090 --> 00:11:20,390
+Vamos a crear una clase de alimento que herede de producto y básicamente lo único que vamos a hacer
+
+125
+00:11:20,390 --> 00:11:26,540
+es vamos a crear los atributos de clase vacíos productor y distribuidor
+
+126
+00:11:29,800 --> 00:11:40,580
+y ahora lo que podemos hacer es crear un alimento al de la clase alimento por ejemplo vamos a ponerle
+
+127
+00:11:40,580 --> 00:11:44,010
+el código 2035.
+
+128
+00:11:44,330 --> 00:11:56,210
+Creemos que es por ejemplo una botella de aceite de oliva extra que vale cinco euros y a la descripción
+
+129
+00:11:56,240 --> 00:12:01,570
+pondríamos 250 mililitros por poner algo.
+
+130
+00:12:01,680 --> 00:12:08,690
+Y digamos que ahora asignaremos el productor y el distribuidor de este alimento vivo externamente al
+
+131
+00:12:08,690 --> 00:12:09,870
+productor.
+
+132
+00:12:10,190 --> 00:12:13,970
+Nos vamos a inventar algo por ejemplo la aceitera
+
+133
+00:12:16,910 --> 00:12:21,920
+y el distribuidor sería por ejemplo.
+
+134
+00:12:21,960 --> 00:12:27,190
+No sé mistry Fusiones ESEA.
+
+135
+00:12:27,980 --> 00:12:30,330
+Vamos a mostrar.
+
+136
+00:12:32,040 --> 00:12:33,280
+Alimento.
+
+137
+00:12:33,900 --> 00:12:37,260
+Como veis tenemos lo mismo de antes.
+
+138
+00:12:37,260 --> 00:12:41,030
+Sin embargo nos faltan este par de campos extra.
+
+139
+00:12:41,350 --> 00:12:44,450
+Bueno pues tenemos que adaptar el Extrem.
+
+140
+00:12:44,910 --> 00:12:50,250
+Tenemos que redefinirlo para que muestre estos dos campos extra a la hora de mostrar.
+
+141
+00:12:51,510 --> 00:12:58,440
+Nuestro producto es nuestro producto pero del tipo de alimento así que vamos a sobreescribir el string
+
+142
+00:12:58,680 --> 00:13:01,060
+únicamente en este caso en el alimento.
+
+143
+00:13:01,440 --> 00:13:04,080
+Podemos copiarlo directamente del producto.
+
+144
+00:13:06,140 --> 00:13:12,020
+Y aparte de todo lo que estamos pasando por ejemplo vamos a añadir dos campos más abajo uno que sea
+
+145
+00:13:12,020 --> 00:13:22,490
+productor una tabulación que mostremos al productor y el disco Threepwood por una tabulación y akihiro
+
+146
+00:13:22,490 --> 00:13:23,270
+mostraremos.
+
+147
+00:13:23,270 --> 00:13:33,120
+Nos falta añadir al formarte estos dos campos el productor y el distribuidor.
+
+148
+00:13:33,530 --> 00:13:35,950
+Si lo volvemos a ejecutar todo.
+
+149
+00:13:38,410 --> 00:13:40,740
+Falta poner la tabulación aquí.
+
+150
+00:13:42,600 --> 00:13:43,900
+Pero ponerla bien.
+
+151
+00:13:44,490 --> 00:13:49,470
+Así me he puesto aquí un espacio de más.
+
+152
+00:13:49,510 --> 00:13:51,010
+Ahora queda bien.
+
+153
+00:13:51,010 --> 00:13:58,660
+Aquí tenemos un producto de tipo alimento y nos muestra los campos que tienen los alimentos también
+
+154
+00:13:58,990 --> 00:14:01,130
+con el productor y el distribuidor.
+
+155
+00:14:02,070 --> 00:14:05,400
+Por hemos descrito el método internos.
+
+156
+00:14:06,500 --> 00:14:10,730
+Y por último nos falta el libro que básicamente es lo mismo.
+
+157
+00:14:10,990 --> 00:14:15,070
+Vamos a copiar prácticamente el alimento.
+
+158
+00:14:15,700 --> 00:14:19,830
+Vamos a declarar una clase libro de producto.
+
+159
+00:14:20,020 --> 00:14:26,660
+Aquí tendríamos un cbn código y también un autor.
+
+160
+00:14:28,130 --> 00:14:37,140
+Y lo que cambiaríamos es el productor lo pondríamos a quien se vende y el distribuidor pondríamos autor.
+
+161
+00:14:37,580 --> 00:14:46,190
+Aquí se vende y aquí autor y vamos a crear un libro por ejemplo.
+
+162
+00:14:46,380 --> 00:14:51,650
+Leí igual libro con el código 2000.
+
+163
+00:14:52,420 --> 00:14:54,720
+36.
+
+164
+00:14:56,070 --> 00:15:01,960
+De título podríamos poner cocina mediterránea.
+
+165
+00:15:04,170 --> 00:15:06,220
+9 euros.
+
+166
+00:15:07,680 --> 00:15:11,640
+Descripción recetas sanas y buenas por ejemplo
+
+167
+00:15:14,590 --> 00:15:20,910
+vale y como campos externos al libro le añadiríamos y veneno.
+
+168
+00:15:21,210 --> 00:15:34,290
+Podemos poner un código de mentira por ejemplo un cero un guión 1 2 3 4 5 6 7 8 guión y un 9.
+
+169
+00:15:34,440 --> 00:15:43,860
+Esto sería un ejemplo de un SPN No sé si es correcto más o menos y por ejemplo el autor digamos que
+
+170
+00:15:43,900 --> 00:15:47,760
+sería Doña Juana.
+
+171
+00:15:48,510 --> 00:15:52,270
+Muy bien vamos a mostrar este libro.
+
+172
+00:15:53,490 --> 00:15:58,620
+Como vemos necesitaríamos poner un par de tabulación es más para que quede bien.
+
+173
+00:15:58,720 --> 00:16:02,810
+Aquí se venía autor y hoy no tengo referencia.
+
+174
+00:16:02,850 --> 00:16:04,490
+Nombre de web.
+
+175
+00:16:04,740 --> 00:16:06,960
+Descripción y SVN y autor.
+
+176
+00:16:06,960 --> 00:16:10,580
+Como veis tenemos una superclase.
+
+177
+00:16:11,550 --> 00:16:14,080
+Producto bueno estar aquí.
+
+178
+00:16:15,250 --> 00:16:23,590
+Tenemos tres subclases y hemos redefinido a nuestro gusto la función string para adaptarla y devolver
+
+179
+00:16:23,710 --> 00:16:31,940
+atributos o mostrar atributos individuales de cada subclase de libro de alimento y de adorno.
+
+180
+00:16:32,080 --> 00:16:38,840
+Y de esta manera hemos creado una jerarquía de productos perfectamente válida para una tienda.
+
+181
+00:16:39,240 --> 00:16:45,880
+En la próxima elección seguiremos trabajando con este ejemplo introduciremos algunos conceptos nuevos.

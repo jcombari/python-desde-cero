@@ -1,0 +1,479 @@
+1
+00:00:01,170 --> 00:00:08,460
+Vamos a seguir hablando de las colecciones en Payton y vamos a centrarnos en los conjuntos aunque parezcan
+
+2
+00:00:08,460 --> 00:00:09,630
+unas colecciones simples.
+
+3
+00:00:09,630 --> 00:00:13,310
+Los conjuntos en realidad tienen varios métodos que los hacen muy potentes.
+
+4
+00:00:13,320 --> 00:00:15,650
+Vamos a ver algunos de los simples.
+
+5
+00:00:15,810 --> 00:00:25,080
+Por ejemplo vamos a crear un conjunto vacío conjunto al set de esta forma y uno de los métodos que ya
+
+6
+00:00:25,080 --> 00:00:31,440
+conocíamos era el adt al que le podíamos pasar un elemento para añadirlo al conjunto.
+
+7
+00:00:31,470 --> 00:00:37,270
+Podemos añadir otro y otro elemento más.
+
+8
+00:00:38,040 --> 00:00:44,040
+Ahora podríamos mostrar el conjunto para ver lo que tenemos y tenemos tres elementos.
+
+9
+00:00:44,340 --> 00:00:51,210
+Otro método que podemos utilizar es el discar discar nos permite descartar o borrar un elemento de un
+
+10
+00:00:51,210 --> 00:00:54,010
+conjunto por ejemplo pasándole el valor.
+
+11
+00:00:54,030 --> 00:01:00,060
+Quiero descartar el número 1 de este conjunto y cómo veis ya lo he sacado.
+
+12
+00:01:00,060 --> 00:01:02,200
+No voy a volver a añadirlo
+
+13
+00:01:05,990 --> 00:01:12,010
+y ahora vamos a ver otro método para copiar un conjunto en otro conjunto.
+
+14
+00:01:12,030 --> 00:01:13,940
+Imaginar que tenemos un conjunto.
+
+15
+00:01:13,980 --> 00:01:17,070
+Y queremos una copia del primer conjunto.
+
+16
+00:01:17,070 --> 00:01:23,910
+Como habíamos comentado anteriormente si hacemos lo siguiente Esto no funcionará porque si modificamos
+
+17
+00:01:24,180 --> 00:01:33,990
+el conjuntó 2 y añadimos un elemento por ejemplo el 4 también se nos modifica aquí porque las colecciones
+
+18
+00:01:34,230 --> 00:01:39,750
+como ya dijimos están referenciadas en su dirección de memoria son como accesos directos para crear
+
+19
+00:01:39,750 --> 00:01:40,290
+una copia.
+
+20
+00:01:40,290 --> 00:01:42,140
+Podemos utilizar aquello del copyright.
+
+21
+00:01:42,330 --> 00:01:50,760
+También podemos utilizar un método coppi que tienen los conjuntos por ejemplo de 2 se iguala C punto
+
+22
+00:01:50,820 --> 00:01:57,060
+Kopi que nos devuelve una copia de este contenedor de esta colección.
+
+23
+00:01:57,060 --> 00:02:11,530
+Ahora dos son iguales pero si modificamos 2 descartamos algún elemento discar el 4 por ejemplo C2.
+
+24
+00:02:11,560 --> 00:02:14,700
+Ya han obtenido 4 pero se continúa teniéndolo.
+
+25
+00:02:15,210 --> 00:02:22,770
+Y por último de estos métodos más sencillos podemos ver el CLEAR que es igual que el de las listas por
+
+26
+00:02:22,770 --> 00:02:23,420
+ejemplo.
+
+27
+00:02:26,350 --> 00:02:32,320
+Como veis ahora ya no hay ningún elemento nos devuelve simplemente este indicándonos que está vacío
+
+28
+00:02:32,350 --> 00:02:34,950
+pero que es un conjunto vacío.
+
+29
+00:02:35,290 --> 00:02:40,380
+Ahora enfocándonos más en un poco como comparar varios conjuntos.
+
+30
+00:02:40,390 --> 00:02:49,300
+Vamos a ver tres métodos muy interesantes que nos permiten saber tres cosas primero si un conjunto es
+
+31
+00:02:49,300 --> 00:02:53,460
+disjuntos de otro es decir no hay ningún elemento en común entre dos conjuntos.
+
+32
+00:02:53,560 --> 00:02:58,690
+Otro que nos permite comprobar si un conjunto de subconjunto de otro es decir si se encuentra completamente
+
+33
+00:02:58,690 --> 00:03:05,110
+dentro de otro conjunto o es un conjunto contenedor de otro subconjunto.
+
+34
+00:03:05,260 --> 00:03:06,690
+Vamos a practicarlo.
+
+35
+00:03:07,060 --> 00:03:14,980
+Lo primero para saber si dos conjuntos no tienen nada en común si son disjuntos vamos a crear de nuevo
+
+36
+00:03:14,980 --> 00:03:18,450
+el primer conjunto por ejemplo con los valores 1 2 y 3.
+
+37
+00:03:18,550 --> 00:03:23,240
+Vamos a crear otro conjunto con los valores 3 4 y 5.
+
+38
+00:03:23,560 --> 00:03:31,390
+Vemos que el 3 concuerda vamos a crear otro conjunto por ejemplo con el valor menos uno y por ejemplo
+
+39
+00:03:31,400 --> 00:03:43,020
+también 99 y otro conjunto que sea por ejemplo el 1 el 2 3 4 y el 5 es como una suma de los dos primeros.
+
+40
+00:03:43,020 --> 00:03:50,770
+Vale vamos a guardarlos y vamos a trabajar con estos conjuntos para saber si un conjunto es disjuntos
+
+41
+00:03:50,770 --> 00:03:51,540
+de otro.
+
+42
+00:03:51,610 --> 00:03:53,810
+Es decir no hay ningún elemento común entre ellos.
+
+43
+00:03:53,830 --> 00:04:01,060
+Vamos a coger por ejemplo uno de ellos y vamos a escribir y listo.
+
+44
+00:04:01,640 --> 00:04:09,430
+Y vamos a pasarle a jayne junto el otro conjunto al que queremos comprobar por ejemplo son disjuntos
+
+45
+00:04:10,120 --> 00:04:16,030
+el conjunto uno con el conjunto 3 y nos dice que sí.
+
+46
+00:04:16,060 --> 00:04:16,810
+Por qué.
+
+47
+00:04:16,810 --> 00:04:24,710
+Porque no concuerda ningún elemento entre ellos y son disjuntos el conjunto uno con el conjunto 2.
+
+48
+00:04:24,790 --> 00:04:25,280
+Falso.
+
+49
+00:04:25,300 --> 00:04:25,930
+Por qué.
+
+50
+00:04:25,930 --> 00:04:27,850
+Porque concuerda algunos elementos.
+
+51
+00:04:27,880 --> 00:04:33,610
+Por ejemplo el 3 está concordando por tanto no son disjuntos no son completamente distintos.
+
+52
+00:04:33,970 --> 00:04:42,400
+Otro método que podemos utilizar es el supsetup conjunto uno es un supsetup es un subconjunto de por
+
+53
+00:04:42,400 --> 00:04:44,740
+ejemplo el conjunto 4
+
+54
+00:04:47,730 --> 00:04:49,100
+y devuelve true verdadero.
+
+55
+00:04:49,100 --> 00:04:55,360
+Claro porque 1 2 y 3 del conjunto 1 Forma parte del conjunto 4 que tiene todos los elementos.
+
+56
+00:04:55,360 --> 00:05:01,990
+También lo sería el conjunto 2 del conjunto 4 que también forma parte de él.
+
+57
+00:05:02,320 --> 00:05:10,780
+En cambio el conjunto 3 es un subconjunto del 4 no porque no concuerda ningún elemento o no hay ningún
+
+58
+00:05:10,780 --> 00:05:12,450
+elemento que no concuerda nada.
+
+59
+00:05:12,730 --> 00:05:18,710
+No se encuentra totalmente indefinido dentro y otro método el último.
+
+60
+00:05:18,760 --> 00:05:29,570
+Podemos comprobar si el conjunto 4 es un superpoder y es Supercell es un super conjunto de por ejemplo
+
+61
+00:05:29,570 --> 00:05:36,040
+el conjunto 1 es decir es un contenedor del primer conjunto nos dice que sí también lo debería de ser
+
+62
+00:05:36,310 --> 00:05:46,960
+del conjunto 2 en cambio el conjunto 1 no es un contenedor de por ejemplo Conjunto 2 ni el conjunto
+
+63
+00:05:46,960 --> 00:05:52,680
+3 es un contenedor de ningún otro conjunto porque no concuerda con nada.
+
+64
+00:05:54,520 --> 00:05:57,120
+De esta forma podemos hacer comparaciones fácilmente.
+
+65
+00:05:57,130 --> 00:06:05,080
+Para saber si entre dos conjuntos varios elementos concuerdan o uno contiene todos los otros o si son
+
+66
+00:06:05,080 --> 00:06:12,640
+completamente distintos y una vez hemos visto estos tres métodos para comparar entre dos conjuntos.
+
+67
+00:06:13,520 --> 00:06:20,400
+Vamos a hablar de unos métodos algo más avanzados son unos métodos que se utilizan para realizar uniones
+
+68
+00:06:20,490 --> 00:06:28,740
+diferencias y otras operaciones avanzadas entre conjuntos siempre tienen dos formas una que devuelve
+
+69
+00:06:28,740 --> 00:06:36,870
+un conjunto con el nuevo resultado y otra que actualiza el conjunto directamente con el propio resultado.
+
+70
+00:06:36,870 --> 00:06:42,900
+Estas últimas incluyen una palabra dentro del método que se llama Hub dect que significa actualizar
+
+71
+00:06:42,960 --> 00:06:45,400
+lo vais a ver con unos ejemplos.
+
+72
+00:06:45,540 --> 00:06:51,290
+Por ejemplo una unión del primer conjunto con el segundo que saldría.
+
+73
+00:06:51,460 --> 00:06:52,490
+Vamos a hacerlo.
+
+74
+00:06:52,740 --> 00:06:53,880
+Conjunto 1.
+
+75
+00:06:54,240 --> 00:06:57,910
+Unión con el conjunto 2.
+
+76
+00:06:58,260 --> 00:07:00,850
+Fijaros la unión del conjunto 1.
+
+77
+00:07:01,830 --> 00:07:08,730
+El conjunto 2 nos devuelve este conjunto curiosamente podríamos decirle si esta unión es igual al conjunto
+
+78
+00:07:08,730 --> 00:07:11,000
+4 y vemos que es cierto.
+
+79
+00:07:11,090 --> 00:07:16,510
+Porque la unión de ambos conjuntos es el cuarto conjunto.
+
+80
+00:07:17,220 --> 00:07:26,250
+Recordad que los elementos repetidos se borraban únicamente nos quedaba un elemento pero como habéis
+
+81
+00:07:26,250 --> 00:07:32,690
+visto esto de aquí lo que hace es unir el resultado pero no lo actualiza.
+
+82
+00:07:32,690 --> 00:07:36,360
+Es decir el 1 continúa siendo el 1 y el 2 continúa siendo el 2.
+
+83
+00:07:36,360 --> 00:07:46,080
+Ahora bien si hiciéramos un conjunto 1 updated con la palabra actualizar y le pasase el conjunto 2 lo
+
+84
+00:07:46,080 --> 00:07:53,810
+que tendríamos en conjunto 1 pues es el resultado obtenido conjunto al conjunto 2.
+
+85
+00:07:53,910 --> 00:07:55,480
+Suena un poco raro.
+
+86
+00:07:56,130 --> 00:08:04,170
+Otra cosa que podemos hacer es encontrar los elementos que no son comunes entre dos conjuntos es decir
+
+87
+00:08:04,170 --> 00:08:10,170
+los elementos distintos diferentes y eso lo podemos hacer por ejemplo de la siguiente forma vamos a
+
+88
+00:08:10,170 --> 00:08:15,240
+volver a declararlo viva voy a volver a confirmarlo para que quede guardado otra vez.
+
+89
+00:08:15,240 --> 00:08:23,490
+O mejor dicho voy a declararlo bajo para que lo hagamos bien y vamos a comprobar si hay algunos elementos
+
+90
+00:08:23,490 --> 00:08:33,590
+distintos entre el conjunto 1 y el conjunto 2 de la siguiente forma conjunto 1 diferents conjunto 2.
+
+91
+00:08:33,930 --> 00:08:39,780
+Como vemos nos devuelve que los elementos distintos que tiene el conjunto 1 que no están en el conjunto
+
+92
+00:08:39,780 --> 00:08:41,210
+2 son el 1 y el 2.
+
+93
+00:08:42,230 --> 00:08:47,750
+Ahora bien cuando os comentaba que todos estos métodos también pueden tener la palabra Hub zeigt que
+
+94
+00:08:47,780 --> 00:08:49,510
+hará lo mismo que en el caso de arriba.
+
+95
+00:08:49,760 --> 00:08:58,790
+Si ponemos en conjunto 1 diferentes juntar con el conjunto 2 lo que ocurrirá es que quedará guardado
+
+96
+00:08:58,790 --> 00:09:00,090
+en el conjunto 1.
+
+97
+00:09:00,110 --> 00:09:06,770
+Este resultado de hacer una diferencia con el conjunto 2 y esto es lo que tenemos ahí únicamente los
+
+98
+00:09:06,770 --> 00:09:15,050
+elementos que no concuerdan con el conjunto nos vamos a volver a declararlos y vamos a ver otro método
+
+99
+00:09:15,730 --> 00:09:17,930
+que éste no es para ver las diferencias.
+
+100
+00:09:18,820 --> 00:09:24,600
+Sino que devuelve un conjunto con los elementos comunes en ambos conjuntos.
+
+101
+00:09:24,730 --> 00:09:27,980
+Por ejemplo podemos hacer conjuntos.
+
+102
+00:09:27,990 --> 00:09:28,900
+1.
+
+103
+00:09:30,040 --> 00:09:38,780
+Intersección una intersección con el conjunto II y lo que tenemos es el 3 3 es el único elemento en
+
+104
+00:09:38,800 --> 00:09:42,070
+común que hay entre el conjunto 1 y el conjunto II.
+
+105
+00:09:42,100 --> 00:09:47,770
+Por tanto la única intersección allí donde se encuentran ambos conjuntos es el número 3 y esto es lo
+
+106
+00:09:47,770 --> 00:09:54,210
+que queda en esta intersección de la misma forma que antes podríamos hacer uno de aquí intersección.
+
+107
+00:09:54,790 --> 00:09:59,110
+Y los guardaría en conjunto uno únicamente el 3.
+
+108
+00:09:59,140 --> 00:10:05,110
+Pero no lo voy a hacer porque tendría que volver a declararlo todo.
+
+109
+00:10:05,110 --> 00:10:10,650
+Por último aparte de la diferencia la intersección o incluso la unión que hemos visto al principio.
+
+110
+00:10:11,570 --> 00:10:17,150
+Podemos ver los elementos simétricos una diferencia simétrica de elementos.
+
+111
+00:10:17,150 --> 00:10:18,330
+Esto es un poco extraño.
+
+112
+00:10:18,350 --> 00:10:29,550
+Lo vais a ver con un ejemplo conjunto uno simétrico diferents con el conjunto II.
+
+113
+00:10:30,400 --> 00:10:33,170
+Qué es lo que es simétricamente diferente.
+
+114
+00:10:33,210 --> 00:10:38,930
+Pues todos los elementos que no concuerdan entre los dos.
+
+115
+00:10:39,050 --> 00:10:41,100
+Lo único que concuerda es el 3.
+
+116
+00:10:41,150 --> 00:10:44,380
+Lo contrario es el 1 2 el 4 y el 5.
+
+117
+00:10:44,390 --> 00:10:51,140
+Esto es una diferencia simétrica y eso es lo que hace este método nos devuelve todos los elementos que
+
+118
+00:10:51,140 --> 00:10:58,880
+no concuerdan entre dos conjuntos el conjunto uno y el conjunto dos muy bien y con la diferencia simétrica
+
+119
+00:10:59,630 --> 00:11:04,290
+dejamos de banda ya los conjuntos y la próxima elección.
+
+120
+00:11:04,460 --> 00:11:08,750
+Acabaremos el tema hablando de los métodos de los diccionarios.

@@ -1,0 +1,855 @@
+1
+00:00:00,700 --> 00:00:05,800
+Pues bien pues vamos a empezar esta segunda lección del tema de bases de datos.
+
+2
+00:00:05,810 --> 00:00:08,920
+Con eso ocurrirte es la que vamos a trabajar.
+
+3
+00:00:08,920 --> 00:00:14,710
+Las claves primarias los campos auto incrementales y las claves únicas.
+
+4
+00:00:14,710 --> 00:00:20,380
+Esta lección es complementaria de la primera porque intenta perfilar un poco los distintos sistemas
+
+5
+00:00:20,440 --> 00:00:27,130
+a la hora de crear y añadir datos para que no se puedan duplicar para que podamos tener campos identificadores
+
+6
+00:00:27,910 --> 00:00:29,860
+auto incrementales.
+
+7
+00:00:29,860 --> 00:00:35,900
+Como veis ya he creado un script Python y tengo lo siguiente import sekulic.
+
+8
+00:00:36,100 --> 00:00:43,540
+He creado una conexión a una base de datos usuarios punto debe un cursor y al final cerrado con un comic
+
+9
+00:00:43,780 --> 00:00:46,900
+y un Clouser de esta conexión.
+
+10
+00:00:46,900 --> 00:00:50,520
+Empezamos por las claves primarias una clave primaria.
+
+11
+00:00:50,590 --> 00:00:55,030
+Es un campo especial de una tabla que actúa como identificador único de los registros.
+
+12
+00:00:55,030 --> 00:01:00,820
+En otras palabras no se puede repetir un registro con la misma clave primaria por ejemplo dos usuarios
+
+13
+00:01:00,820 --> 00:01:02,120
+con el mismo DNI.
+
+14
+00:01:02,500 --> 00:01:08,590
+Así que vamos a implementar este ejemplo si lo recordáis en la lección anterior también trabajamos con
+
+15
+00:01:08,680 --> 00:01:14,600
+algunos usuarios pero no teníamos este campo y que podía hacernos de identificador único de clave primaria.
+
+16
+00:01:14,830 --> 00:01:22,270
+Así que vamos a crear una nueva tabla en esta nueva base de datos usuarios e intentaremos crear este
+
+17
+00:01:22,270 --> 00:01:25,550
+campo primario de DNI.
+
+18
+00:01:26,170 --> 00:01:32,560
+Lo vamos a hacer de la siguiente forma vamos a hacer un exequible y aquí vamos a hacerlo con triple
+
+19
+00:01:32,560 --> 00:01:37,680
+comillas por qué da más juego a la hora de escribir las consultas.
+
+20
+00:01:37,780 --> 00:01:49,420
+Vamos a poner un par de tablets usuarios vamos a abrir paréntesis y dentro vamos a añadir los campos
+
+21
+00:01:49,420 --> 00:01:57,700
+de Neji como borchardt por ejemplo de nueve caracteres un DNI y está formado por 9 caracteres 8 números
+
+22
+00:01:57,760 --> 00:02:02,130
+y una letra y lo vamos a establecer como clave primaria primaria.
+
+23
+00:02:02,590 --> 00:02:07,800
+De esta forma tendríamos un nombre que es lo que ya teníamos antes.
+
+24
+00:02:07,810 --> 00:02:17,020
+Marchar de 100 caracteres también tendríamos una edad que sería un número entero.
+
+25
+00:02:17,170 --> 00:02:20,440
+Tener un email garchar
+
+26
+00:02:24,330 --> 00:02:31,780
+de 100 caracteres con esto cerrando aquí abajo ya tendríamos una consulta que ejecutaría este código
+
+27
+00:02:31,870 --> 00:02:39,400
+en lenguaje SQL creando una tabla de usuarios con cuatro campos y un DNI que es primo ARIC y clave primaria
+
+28
+00:02:39,460 --> 00:02:41,100
+que no se puede repetir.
+
+29
+00:02:41,260 --> 00:02:45,860
+Vamos a añadir unos cuantos usuarios voy a hacerlo rápidamente.
+
+30
+00:02:46,150 --> 00:02:48,260
+De hecho voy a copiar.
+
+31
+00:02:49,600 --> 00:02:51,270
+De la lección 1.
+
+32
+00:02:51,530 --> 00:02:55,420
+Estos usuarios que tengo aquí la tabla para ir más rápido.
+
+33
+00:02:55,780 --> 00:03:04,830
+Voy a comentar y voy a añadir también al principio a Héctor que era el cuarto que me faltaba porque
+
+34
+00:03:04,830 --> 00:03:13,630
+como estamos en una base de datos nueva pues tenemos que añadir de nuevo estos datos no muy bien añadir
+
+35
+00:03:14,470 --> 00:03:17,070
+dentro Exequiel Maini.
+
+36
+00:03:17,150 --> 00:03:20,540
+Estos usuarios esto ya sabemos hacerlo.
+
+37
+00:03:21,600 --> 00:03:32,620
+Exequiel Menni vamos a así así ser usuarios values y aquí fijaros vamos a insertar ahora no tres sino
+
+38
+00:03:32,620 --> 00:03:42,140
+cuatro campos masivamente y le vamos a pasar a los usuarios aquí o que hacemos el comic y el Globus
+
+39
+00:03:42,220 --> 00:03:43,210
+vamos a ejecutar.
+
+40
+00:03:43,210 --> 00:03:47,280
+Y si todo funciona correctamente me da un error.
+
+41
+00:03:47,290 --> 00:03:49,810
+Vamos a analizar dónde puede estar este pequeño fallo.
+
+42
+00:03:50,910 --> 00:03:56,490
+Vale me descuidados de ponerlos de ellos al principio teniendo en cuenta que es un campo nuevo y no
+
+43
+00:03:56,490 --> 00:03:57,780
+los había puesto.
+
+44
+00:03:57,780 --> 00:04:04,590
+Básicamente lo sé porque aquí pone el número de parámetros que sean suplían que se han facilitado son
+
+45
+00:04:04,980 --> 00:04:05,800
+incorrectos.
+
+46
+00:04:05,820 --> 00:04:08,710
+Claro me he dejado aquí al principio de poner los DNI.
+
+47
+00:04:08,730 --> 00:04:14,030
+Bueno voy a poner unos DNI de prueba al principio de todo en formato cadena de caracteres.
+
+48
+00:04:14,390 --> 00:04:20,790
+Vamos a ejecutar de nuevo a ver si ahora ya introduce bien también los de gneis y vale me da el error
+
+49
+00:04:20,790 --> 00:04:22,650
+de que había creado la tabla.
+
+50
+00:04:22,650 --> 00:04:26,200
+Por tanto ya existe así que vamos a borrar esta tabla.
+
+51
+00:04:27,780 --> 00:04:31,430
+Borrando la base de datos de usuarios para volver a crear de nuevo.
+
+52
+00:04:31,710 --> 00:04:33,250
+Voy a volver a hacer control.
+
+53
+00:04:33,750 --> 00:04:37,120
+Vale ahora ya me lo ha insertado todo.
+
+54
+00:04:37,120 --> 00:04:43,050
+Teóricamente se ha creado la base de datos se ha creado la tabla y ha insertado a los usuarios.
+
+55
+00:04:43,530 --> 00:04:46,630
+Vamos a inspeccionar con el browser.
+
+56
+00:04:47,730 --> 00:04:54,780
+Esta base de datos de usuarios y fijaros que tenemos aquí la tabla de usuarios y ahora ya tenemos este
+
+57
+00:04:54,780 --> 00:04:59,540
+campo D.N.I al principio de todo y a estructura el DNI.
+
+58
+00:04:59,550 --> 00:05:02,480
+Fijaros que aparece con una cabecita.
+
+59
+00:05:02,850 --> 00:05:06,990
+Esto indica que es una clave primaria que no se puede repetir este campo.
+
+60
+00:05:06,990 --> 00:05:15,090
+De hecho si comentamos el hecho de crear la tabla para que no nos dé error después de esta forma lo
+
+61
+00:05:15,090 --> 00:05:18,580
+comento y voy a intentar volver a crear estos usuarios.
+
+62
+00:05:18,600 --> 00:05:27,930
+Ya veréis que nos da un error y el error que nos da es que hay unas cláusulas únicas.
+
+63
+00:05:28,330 --> 00:05:34,500
+Tenéis un error de integridad porque se está intentando añadir unos usuarios que están repetidos en
+
+64
+00:05:34,500 --> 00:05:35,340
+su DNI.
+
+65
+00:05:36,710 --> 00:05:42,470
+Vamos a ver esto pero únicamente introduciendo un usuario no varios de golpe para que veáis exactamente
+
+66
+00:05:43,850 --> 00:05:45,350
+cómo da ese error.
+
+67
+00:05:45,470 --> 00:05:53,030
+Con el usuario voy a ejecutar para borrar el error de la parte inferior y vamos a intentar introducir
+
+68
+00:05:53,030 --> 00:05:56,800
+solo un registro pero sabiendo que el DNI está duplicado.
+
+69
+00:05:58,170 --> 00:06:02,940
+Cursor exequible insert.
+
+70
+00:06:03,660 --> 00:06:06,690
+Usuarios values.
+
+71
+00:06:07,170 --> 00:06:09,210
+Y aquí vamos a insertar uno de estos.
+
+72
+00:06:09,210 --> 00:06:15,210
+Voy a copiarlo directamente todo por ejemplo a insertar a Aitor o a Juan mejor por ejemplo que es el
+
+73
+00:06:15,210 --> 00:06:16,120
+último.
+
+74
+00:06:16,500 --> 00:06:21,360
+No voy a dejar así íbamos a ejecutarlo y fijaros aquí me da un error.
+
+75
+00:06:21,420 --> 00:06:22,720
+Error de integridad.
+
+76
+00:06:22,830 --> 00:06:26,450
+La cláusula única ha fallado en el DNI.
+
+77
+00:06:26,460 --> 00:06:27,860
+Por qué está repetido.
+
+78
+00:06:27,990 --> 00:06:30,460
+Si cambiásemos este DNI pusieramos No lo sé.
+
+79
+00:06:30,480 --> 00:06:35,160
+Por ejemplo todos cincos 4 y 4 5.
+
+80
+00:06:35,190 --> 00:06:36,910
+Y aquí una e.
+
+81
+00:06:37,410 --> 00:06:39,830
+Lo guardo voy a ejecutarlo.
+
+82
+00:06:40,140 --> 00:06:41,200
+Ahora no daría error.
+
+83
+00:06:41,230 --> 00:06:45,410
+Y si fuéramos a nuestro inspector navegamos por los datos.
+
+84
+00:06:45,450 --> 00:06:52,140
+Ya vemos aquí que tenemos Ajó han repetido Pero por qué hemos introducido un DNI distinto voy a coger.
+
+85
+00:06:52,140 --> 00:06:54,140
+Lo voy a borrar borrar registros.
+
+86
+00:06:54,510 --> 00:06:56,200
+Voy a guardar los cambios.
+
+87
+00:06:56,550 --> 00:07:02,010
+Voy a comentar esto y voy a seguir hablando de unos campos muy interesantes que tienen las bases de
+
+88
+00:07:02,010 --> 00:07:08,790
+datos relacionales que son los campos auto incrementales no siempre contaremos con claves primarias
+
+89
+00:07:08,790 --> 00:07:13,860
+en nuestras tablas como el DNI de nuestros usuarios que es único y sin embargo siempre necesitaremos
+
+90
+00:07:13,860 --> 00:07:20,100
+uno para identificar cada registro de forma independiente y poder consultarlo modificarlo o borrarlo
+
+91
+00:07:20,340 --> 00:07:21,520
+para estas situaciones.
+
+92
+00:07:21,540 --> 00:07:27,150
+Lo más útil es utilizar campos auto incrementales unos campos especiales que asignan automáticamente
+
+93
+00:07:27,150 --> 00:07:28,880
+un número de uno en uno.
+
+94
+00:07:28,920 --> 00:07:34,740
+Al crear un nuevo registro es muy útil para identificar de forma única cada registro ya que nunca se
+
+95
+00:07:34,740 --> 00:07:35,990
+repiten.
+
+96
+00:07:36,030 --> 00:07:44,070
+Vamos a intentar simular la creación de un campo incremental y esta ocasión lo que voy a hacer es cambiar
+
+97
+00:07:44,070 --> 00:07:52,650
+el nombre de la base de datos a productos y vamos a hacer la siguiente tabla cursor Excel.
+
+98
+00:07:55,370 --> 00:07:58,750
+De esta forma triple comillas que es más cómodo.
+
+99
+00:08:02,040 --> 00:08:03,950
+CREATE TABLE.
+
+100
+00:08:04,110 --> 00:08:12,060
+Creamos una tabla de productos y como los productos no tienen un DNI En teoría sí que lo tienen un DNI
+
+101
+00:08:12,090 --> 00:08:15,650
+no sería el DNI pero sería el identificador único de la base de datos.
+
+102
+00:08:15,710 --> 00:08:21,150
+Pero vamos a hacer que este identificador único sea auto incremental que lo genera automáticamente el
+
+103
+00:08:21,150 --> 00:08:29,040
+sistema así que vamos a insertar unos cuantos campos a esta tabla de productos y vamos a empezar por
+
+104
+00:08:29,040 --> 00:08:30,260
+el identificador.
+
+105
+00:08:30,270 --> 00:08:32,830
+Normalmente se le pone este nombre identificador.
+
+106
+00:08:32,850 --> 00:08:44,250
+Será un campo que será entero Primary Key y le vamos a marcar cómo auto incrementã diciéndole que es
+
+107
+00:08:44,340 --> 00:08:46,050
+auto incremental.
+
+108
+00:08:46,320 --> 00:08:48,420
+Luego tendríamos el nombre del producto.
+
+109
+00:08:48,510 --> 00:08:52,670
+Podría ser un bar crear una cadena de caracteres de 100 de longitud.
+
+110
+00:08:52,860 --> 00:08:58,590
+Y aquí voy a introducir una nueva cláusula muy sencilla que es no Mul nulo indica que este campo no
+
+111
+00:08:58,590 --> 00:09:03,820
+puede ser nulo por tanto estamos obligados a poner un nombre.
+
+112
+00:09:03,990 --> 00:09:12,030
+Vamos a poner también una marca por ejemplo parchar de 50 y vamos a ponernos Lull para decir que tampoco
+
+113
+00:09:12,030 --> 00:09:13,590
+la marca puede ser vacía.
+
+114
+00:09:14,880 --> 00:09:17,470
+Y un precio.
+
+115
+00:09:17,500 --> 00:09:27,050
+Esta ocasión en lugar de un entero vamos a poner un float flotante no nulo no nulo de acuerdo.
+
+116
+00:09:27,050 --> 00:09:29,190
+Creo que lo tenemos bastante bien.
+
+117
+00:09:29,480 --> 00:09:34,150
+El identificador como clave primaria auto incrementã.
+
+118
+00:09:35,100 --> 00:09:38,770
+Vamos a guardar y vamos a ejecutar.
+
+119
+00:09:39,480 --> 00:09:44,280
+Tengo un pequeño error creo que es por haber puesto esta cómbita al final aunque no estoy muy seguro.
+
+120
+00:09:44,280 --> 00:09:45,880
+Voy a intentar ejecutar de nuevo.
+
+121
+00:09:46,230 --> 00:09:46,860
+Vale.
+
+122
+00:09:47,250 --> 00:09:50,970
+Tenía que quitar la última milla porque después de no verían ningún campo más.
+
+123
+00:09:50,970 --> 00:09:57,450
+Y eso en ese qu'elle es muy sensible y lo nota y se queja porque está esperando otro campo representa
+
+124
+00:09:57,450 --> 00:10:05,190
+por tanto aseguraros de no poner al final esa coletilla Además en el último campo lo ejecuta y ya lo
+
+125
+00:10:05,190 --> 00:10:06,300
+tendréis.
+
+126
+00:10:06,480 --> 00:10:10,370
+Vamos a abrir nuestro inspector vamos a abrir una base de datos.
+
+127
+00:10:10,380 --> 00:10:12,170
+Vamos a ver esta base de datos de productos.
+
+128
+00:10:12,170 --> 00:10:13,110
+A ver qué tenemos.
+
+129
+00:10:13,620 --> 00:10:20,610
+Tenemos humilde un nombre una marca y un precio y la estructura de productos tenemos élide y fijaros
+
+130
+00:10:20,610 --> 00:10:28,170
+que está puesto como auto incrementã AUTO incremental y también es primaría y por tanto no se puede
+
+131
+00:10:28,170 --> 00:10:33,090
+repetir y se va a auto incrementar automáticamente.
+
+132
+00:10:33,690 --> 00:10:40,290
+Por tanto le vamos a dejar al sistema que automáticamente genera estos idees para introducir los elementos
+
+133
+00:10:40,300 --> 00:10:41,890
+lo vamos a hacer de la siguiente forma.
+
+134
+00:10:41,910 --> 00:10:43,840
+Voy a comentar todo esto.
+
+135
+00:10:44,370 --> 00:10:47,820
+Voy a crear un par de productos.
+
+136
+00:10:48,270 --> 00:10:55,330
+Antes de nada en una lista simulando lo que sería la estructura por ejemplo.
+
+137
+00:10:56,570 --> 00:10:59,170
+Un teclado me lo estoy inventando.
+
+138
+00:10:59,480 --> 00:11:09,130
+Pondré que es de la marca Logitech por ejemplo y que vale 19 95 euros o lo que sea.
+
+139
+00:11:09,620 --> 00:11:25,750
+Y otro producto por ejemplo una pantalla de 19 pulgadas lo pongo así de la marca LG que vale 89 con
+
+140
+00:11:25,790 --> 00:11:28,590
+95 euros o lo que sea.
+
+141
+00:11:29,410 --> 00:11:37,310
+Vamos a hacer un mini cursor menhir para ejecutar en bloque estos dos productos.
+
+142
+00:11:37,310 --> 00:11:48,410
+Insert into productos values y fijaros un campo otro campo otro campo.
+
+143
+00:11:48,860 --> 00:11:55,670
+Tened en cuenta que hemos creado una idea al principio aunque le vamos a decir que eso es auto auto
+
+144
+00:11:55,670 --> 00:12:00,130
+incremental y automático no significa que podamos hacerlo de la forma tradicional.
+
+145
+00:12:00,140 --> 00:12:05,160
+Fijaros vamos a hacer un control y nos da un error.
+
+146
+00:12:05,220 --> 00:12:10,090
+Perdonad me descuidara aquí productos.
+
+147
+00:12:11,120 --> 00:12:18,230
+Ahora si vamos a ver el error exacto de la tabla productos tiene cuatro columnas pero sólo se han facilitado
+
+148
+00:12:18,250 --> 00:12:19,900
+tres valores.
+
+149
+00:12:20,480 --> 00:12:26,330
+Entonces cómo vamos a hacer para que se crea automáticamente este identificador al insertar los elementos
+
+150
+00:12:26,630 --> 00:12:27,570
+en la tabla.
+
+151
+00:12:28,890 --> 00:12:37,190
+Pues es muy fácil lo único que tenemos que hacer es indicar el primer valor como Null como nulo.
+
+152
+00:12:37,910 --> 00:12:43,400
+Vamos a ejecutarlo y ahora parece que ha funcionado bien.
+
+153
+00:12:43,550 --> 00:12:50,510
+Vamos a nuestro inspector navegamos por los productos y como veis ya tenemos aquí el identificador 1
+
+154
+00:12:50,630 --> 00:12:53,460
+teclado logitech etcétera.
+
+155
+00:12:53,570 --> 00:12:56,310
+El 2 pantalla al eje etcétera.
+
+156
+00:12:56,840 --> 00:13:04,910
+Evidentemente si volvemos a ejecutarlo otra vez volvemos a actualizar pues se nos inserta por duplicado
+
+157
+00:13:04,910 --> 00:13:12,900
+pero el identificador es automático va siguiendo tres teclados otra vez y cuatro pantalla voy a borrarlos.
+
+158
+00:13:14,060 --> 00:13:16,900
+Guardamos y ahí nos quedan estos dos.
+
+159
+00:13:17,060 --> 00:13:23,280
+Si queremos consultar ahora estos productos vamos a comentarlo.
+
+160
+00:13:23,780 --> 00:13:30,370
+Podríamos ejecutar de forma similar que antes cursor Executive
+
+161
+00:13:33,020 --> 00:13:38,270
+al seleccionar todo from productos
+
+162
+00:13:41,470 --> 00:13:47,700
+vamos a asignar productos aquí cursor feeds Coll
+
+163
+00:13:51,110 --> 00:14:00,470
+y recorre medíamos con un fork por producto y en productos Prin producto rotamos.
+
+164
+00:14:00,610 --> 00:14:05,130
+Y aquí tenemos con los identificadores únicos.
+
+165
+00:14:06,020 --> 00:14:07,890
+Cada uno de estos productos.
+
+166
+00:14:08,150 --> 00:14:09,220
+Bastante fácil.
+
+167
+00:14:09,230 --> 00:14:19,580
+No voy a comentar y vamos a ver el último concepto que quería mostraros en esta segunda lección referente
+
+168
+00:14:19,700 --> 00:14:22,360
+a las claves únicas.
+
+169
+00:14:22,370 --> 00:14:28,190
+El problema con las claves primarias es que sólo podemos tener un campo con esta propiedad y si da la
+
+170
+00:14:28,190 --> 00:14:33,290
+casualidad que utilizamos un campo un crimen tal ya no podemos asignarlo a otro campo.
+
+171
+00:14:33,740 --> 00:14:39,440
+Para estos casos existen las claves únicas que nos permiten añadir otros campos únicos no repetibles.
+
+172
+00:14:39,440 --> 00:14:45,260
+Podemos adaptar el ejemplo de los usuarios con un campo incremental que haga de clave primaria y a su
+
+173
+00:14:45,260 --> 00:14:47,330
+vez marcar el DNI como un campo único.
+
+174
+00:14:47,330 --> 00:14:53,600
+De esta forma podemos prevenir que se creen dos usuarios con el mismo DNI y a su vez tendremos un campo
+
+175
+00:14:53,720 --> 00:14:58,230
+identificador que se auto incrementará de forma automática.
+
+176
+00:14:58,430 --> 00:15:06,590
+Así que vamos a crear de nuevo una base de datos llamada usuarios por ejemplo auto incremental y vamos
+
+177
+00:15:06,590 --> 00:15:07,640
+a crear la tabla.
+
+178
+00:15:07,670 --> 00:15:11,540
+En esta ocasión de la siguiente forma cursor exequible
+
+179
+00:15:17,810 --> 00:15:31,610
+Create Table creada por usuarios y vamos a añadir los siguientes campos un identificador Integer Primary
+
+180
+00:15:31,610 --> 00:15:36,910
+clil clave primaria atto incremento.
+
+181
+00:15:38,180 --> 00:15:47,830
+Un DNI garchar de nueve letras y aquí vamos a poner Unique.
+
+182
+00:15:47,990 --> 00:15:53,270
+Esta es la cláusula que indicara que este campo es único y no se puede repetir en ninguno de los demás
+
+183
+00:15:53,270 --> 00:15:59,060
+registros un nombre garchar de 100
+
+184
+00:16:01,820 --> 00:16:07,340
+una edad Internet y un email.
+
+185
+00:16:08,600 --> 00:16:15,700
+Marchar también dice muy bien y ahora vamos a añadir algunos usuarios.
+
+186
+00:16:15,960 --> 00:16:18,810
+Voy a copiar de por aquí arriba.
+
+187
+00:16:24,690 --> 00:16:28,240
+Ya los tengo aquí creados para añadirlos.
+
+188
+00:16:28,410 --> 00:16:30,460
+Vamos a hacer un executive Maini.
+
+189
+00:16:30,540 --> 00:16:40,470
+De esta forma también lo voy a copiar de lo que tengo arriba chiquillo Menni inserte tu usuarios values
+
+190
+00:16:41,100 --> 00:16:50,000
+el primer valor nulo porque será de creación automática auto incremental y clave primaria luego el DNI.
+
+191
+00:16:50,840 --> 00:16:56,570
+El nombre la edad y me faltaría otro campo que sería el e-mail.
+
+192
+00:16:56,960 --> 00:17:02,440
+Y aquí le pasaría a los usuarios vamos a probar de crearlos control.
+
+193
+00:17:03,080 --> 00:17:09,680
+Se supone que se han creado correctamente tanto la tabla usuarios como estos usuarios así que vamos
+
+194
+00:17:09,680 --> 00:17:14,830
+a inspeccionar abrir bases de datos usuarios auto incremental.
+
+195
+00:17:16,300 --> 00:17:19,400
+Y aquí voy a buscar en usuarios la tabla a usuarios.
+
+196
+00:17:19,410 --> 00:17:27,820
+Y como veis aquí tengo de forma auto incremental el identificador 1 2 3 4 y luego los campos únicos
+
+197
+00:17:27,960 --> 00:17:28,770
+de DNI.
+
+198
+00:17:29,670 --> 00:17:34,260
+Vamos a intentar añadir un usuario con un DNI repetido.
+
+199
+00:17:34,260 --> 00:17:41,350
+Añadir aquí un usuario cursor exequible de la misma forma que habíamos hecho antes.
+
+200
+00:17:41,370 --> 00:17:42,670
+De hecho voy a copiar esto.
+
+201
+00:17:46,590 --> 00:17:54,100
+Y ahora voy a poner aquí 4 4 4 4 4 4 1.
+
+202
+00:17:54,660 --> 00:18:01,980
+Voy a intentar añadir a Juan con el mismo DNI y me faltaría al principio un Null.
+
+203
+00:18:02,070 --> 00:18:06,140
+Por qué el campo se crea automáticamente porque es auto incremental.
+
+204
+00:18:06,140 --> 00:18:12,690
+Es el identificador identificador DNI nombre edad y Emma.
+
+205
+00:18:13,490 --> 00:18:20,390
+Se supone que no me va a dejar añadir este usuario no por el identificador sino porque el DNI es único.
+
+206
+00:18:20,390 --> 00:18:22,290
+Vamos a probarlo.
+
+207
+00:18:23,120 --> 00:18:27,780
+Y como veis está un pequeño error Unix failed usuarios de neuilly.
+
+208
+00:18:27,800 --> 00:18:34,340
+Por qué se está repitiendo un DNI que ya ha sido insertado previamente así que con esto podéis controlar
+
+209
+00:18:34,670 --> 00:18:41,060
+ya no solo que se crean automáticamente los identificadores sino también un campo único o varios campos
+
+210
+00:18:41,090 --> 00:18:44,340
+únicos que no se puedan repetir dentro de vuestra tabla.
+
+211
+00:18:44,450 --> 00:18:50,420
+Es muy importante contar siempre con identificadores únicos para cada registro ya que sin ellos no sería
+
+212
+00:18:50,420 --> 00:18:56,480
+prácticamente imposible editar borrar campos de forma fácil en la próxima elección haremos uso de las
+
+213
+00:18:56,480 --> 00:19:02,660
+consultas Hub dalit y delete junto a la cláusula Werk para modificar y borrar registros gracias a los
+
+214
+00:19:02,660 --> 00:19:05,620
+identificadores únicos y otras propiedades.

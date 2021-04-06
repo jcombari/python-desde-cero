@@ -1,0 +1,379 @@
+1
+00:00:01,250 --> 00:00:04,850
+Muy bien vamos a por la segunda lección de comprensión de listas.
+
+2
+00:00:05,640 --> 00:00:10,510
+Y vamos a ver qué demonios es esto de la comprensión de listas porque el poder de Payton va mucho más
+
+3
+00:00:10,510 --> 00:00:13,070
+allá de lo que a primera vista podemos imaginar.
+
+4
+00:00:13,480 --> 00:00:19,330
+La comprensión de Listas del inglés list comprensiones es una funcionalidad que nos permite crear listas
+
+5
+00:00:19,330 --> 00:00:22,780
+avanzadas en una misma línea de código.
+
+6
+00:00:22,780 --> 00:00:27,760
+Esto se ve mucho mejor en la práctica así que a lo largo de esta lección vamos a trabajar muchos ejemplos
+
+7
+00:00:28,150 --> 00:00:30,280
+para aprender el concepto.
+
+8
+00:00:30,700 --> 00:00:35,950
+Vamos a empezar con un ejemplo de crear una lista con letras de una palabra.
+
+9
+00:00:35,950 --> 00:00:39,680
+Primero vamos a ver siempre el método que utilizamos tradicionalmente.
+
+10
+00:00:40,030 --> 00:00:51,110
+Método tradicional lo que normalmente haríamos por ejemplo es crear una lista y luego por letra y en
+
+11
+00:00:51,310 --> 00:00:53,580
+una palabra por ejemplo la palabra casa.
+
+12
+00:00:53,950 --> 00:00:59,400
+Iríamos recorriendo cada letra y haciendo un apenn introducirían.
+
+13
+00:00:59,560 --> 00:01:04,390
+Esta letra la lista finalmente podríamos mostrar la lista.
+
+14
+00:01:04,390 --> 00:01:07,970
+De esta forma aquí tenemos una lista.
+
+15
+00:01:09,220 --> 00:01:13,200
+Creada a partir de todos los caracteres de una palabra.
+
+16
+00:01:13,650 --> 00:01:19,220
+Bueno pues todo esto se puede realizar en una línea utilizando comprensión de listas.
+
+17
+00:01:20,170 --> 00:01:26,040
+Método con comprensión de listas.
+
+18
+00:01:26,760 --> 00:01:28,800
+Se hace de la siguiente forma.
+
+19
+00:01:29,570 --> 00:01:34,580
+A la izquierda la lista que vamos a crear luego abrimos.
+
+20
+00:01:35,350 --> 00:01:37,770
+Las llaves para crear una nueva lista.
+
+21
+00:01:38,050 --> 00:01:43,470
+Y fijaros en la sintaxis letra.
+
+22
+00:01:45,550 --> 00:01:48,760
+Letra en casa.
+
+23
+00:01:50,120 --> 00:01:55,970
+Un foro normal foro letra en casa pero a la izquierda guardamos el elemento que estamos recorriendo
+
+24
+00:01:56,330 --> 00:01:58,650
+en cada iteración del bucle.
+
+25
+00:02:00,290 --> 00:02:06,460
+Si mostramos ahora con un print la lista ya lo tenemos.
+
+26
+00:02:06,890 --> 00:02:12,590
+Fijaros por tanto que con la comprensión de listas utilizando un fork.
+
+27
+00:02:13,860 --> 00:02:19,440
+Y el elemento que estamos recorriendo éste queda establecido como el siguiente elemento en cada iteración
+
+28
+00:02:19,470 --> 00:02:21,710
+que va a formar parte de la lista.
+
+29
+00:02:21,900 --> 00:02:22,900
+Super útil.
+
+30
+00:02:24,400 --> 00:02:26,120
+Vamos a trabajar más ejemplos.
+
+31
+00:02:26,230 --> 00:02:31,490
+Por ejemplo crear una lista con las potencias de dos de los primeros diez números.
+
+32
+00:02:32,900 --> 00:02:40,460
+Método tradicional como lo haríamos por ejemplo como antes creando una lista vacía.
+
+33
+00:02:42,320 --> 00:02:50,340
+Infor for número Indians crearíamos un Ranch por ejemplo de cero a 11.
+
+34
+00:02:51,060 --> 00:03:00,940
+Y aquí vamos añadiendo lista happen exactamente como antes el número a la lista pero no haríamos potencia
+
+35
+00:03:00,940 --> 00:03:01,600
+de dos.
+
+36
+00:03:01,600 --> 00:03:10,710
+De esta forma si lo mostramos aquí tenemos las potencias de dos de los primeros números.
+
+37
+00:03:11,590 --> 00:03:13,010
+Vamos a trasladar esto.
+
+38
+00:03:14,050 --> 00:03:15,440
+Con comprensión de listas.
+
+39
+00:03:15,440 --> 00:03:26,930
+Método con comprensión de listas una lista de números creamos los paréntesis de la lista.
+
+40
+00:03:28,700 --> 00:03:31,030
+Comenzamos con el número a la izquierda.
+
+41
+00:03:32,180 --> 00:03:41,020
+Por número y ranks exactamente igual que antes de cero a 11 pero en esta ocasión cogeremos este número.
+
+42
+00:03:41,840 --> 00:03:44,520
+Y haremos su potencia de 2 directamente.
+
+43
+00:03:45,230 --> 00:03:52,920
+Aquí si mostramos esta lista tendremos exactamente lo mismo que antes y en una sola línea.
+
+44
+00:03:54,970 --> 00:04:01,310
+Veamos otro ejemplo cómo crear una lista con todos los múltiples 2 entre 0 y 10.
+
+45
+00:04:02,670 --> 00:04:08,280
+Cómo lo hariamos método tradicional.
+
+46
+00:04:08,670 --> 00:04:12,630
+Lo mismo que siempre creamos una lista vacía.
+
+47
+00:04:13,850 --> 00:04:19,160
+Haríamos un fork por número en Ranch.
+
+48
+00:04:19,440 --> 00:04:21,230
+Del 0 al 10.
+
+49
+00:04:21,240 --> 00:04:22,970
+Recordar que excluimos el 11.
+
+50
+00:04:24,230 --> 00:04:29,220
+Queremos unir y número es múltiple D2.
+
+51
+00:04:29,270 --> 00:04:39,030
+El módulo cero añadiríamos con una pen el número a la lista finalmente lo mostraremos esta lista.
+
+52
+00:04:39,380 --> 00:04:44,110
+Y aquí tenemos todos los múltiples dedos entre cero y diez de acuerdo.
+
+53
+00:04:44,150 --> 00:04:49,830
+Cómo podemos hacer esto mismo con el método de comprensión de listas.
+
+54
+00:04:49,940 --> 00:05:03,890
+Recordad que aquí tenemos una condición fijaros lista es igual a el número que recorremos en cada iteración.
+
+55
+00:05:03,890 --> 00:05:15,680
+Aquí hacemos la iteración por número y en ranks 0 al 11 y al final de todo va la condición.
+
+56
+00:05:16,010 --> 00:05:21,260
+Pero si el número es módulo 2 igual a cero.
+
+57
+00:05:22,310 --> 00:05:24,570
+Si mostramos esta lista.
+
+58
+00:05:27,320 --> 00:05:30,510
+Fijaros cómo tenemos exactamente lo mismo que antes.
+
+59
+00:05:30,530 --> 00:05:31,880
+Todo esto aquí.
+
+60
+00:05:33,240 --> 00:05:41,810
+Dentro de la propia formación de la lista esto es la comprensión de listas elemento que recorremos iteración.
+
+61
+00:05:42,710 --> 00:05:45,740
+Condición de acuerdo.
+
+62
+00:05:45,740 --> 00:05:50,490
+Vamos a hacer un último ejemplo vamos a crear una lista de números pares.
+
+63
+00:05:50,750 --> 00:05:56,470
+A partir de otra lista creada con las potencias de dos de los primeros 10 números de acuerdo.
+
+64
+00:05:57,260 --> 00:06:05,090
+Tradicionalmente hariamos lo siguiente método tradicional primero crearíamos una lista con las potencias
+
+65
+00:06:05,090 --> 00:06:05,510
+de dos.
+
+66
+00:06:05,510 --> 00:06:08,610
+Voy a copiar lo que tengo arriba porque se está de aquí.
+
+67
+00:06:09,360 --> 00:06:12,480
+Aquí tengo las potencias de dos de los primeros 10 números.
+
+68
+00:06:13,910 --> 00:06:18,000
+Y ahora crearía por ejemplo una lista de pares.
+
+69
+00:06:18,200 --> 00:06:19,150
+De esta forma.
+
+70
+00:06:20,510 --> 00:06:32,790
+Números por número y lista y haremos la comprobación este de aquí si el número es múltiplo de 2.
+
+71
+00:06:33,900 --> 00:06:37,750
+Lo añadiríamos a la lista pero no a esta sino a la de pares.
+
+72
+00:06:38,570 --> 00:06:47,630
+De acuerdo por tanto al final quedaría estos pares el 0 el 4 el 16:36 64 y 100.
+
+73
+00:06:48,330 --> 00:06:50,610
+Todo esto se puede hacer en una sola línea.
+
+74
+00:06:50,700 --> 00:06:58,890
+Podemos hacer todo esto aquí solo en una línea utilizando comprensión del istas vamos a hacerlo vamos
+
+75
+00:06:58,890 --> 00:07:01,040
+a crear nuestra lista de VOSE llamarla pares.
+
+76
+00:07:01,170 --> 00:07:05,120
+Igual que antes y comenzamos primero.
+
+77
+00:07:07,040 --> 00:07:08,050
+Con el número.
+
+78
+00:07:09,650 --> 00:07:12,440
+Número PIN.
+
+79
+00:07:13,540 --> 00:07:14,330
+Y aquí.
+
+80
+00:07:15,190 --> 00:07:21,640
+En lugar de hacer un rancho o lo que sea vamos a hacer que lo coja de otra nueva lista pero solo si
+
+81
+00:07:21,640 --> 00:07:27,200
+este número es múltiple de dos.
+
+82
+00:07:27,250 --> 00:07:31,440
+Y aquí dentro vamos a crear esta lista.
+
+83
+00:07:34,480 --> 00:07:35,580
+Número.
+
+84
+00:07:35,800 --> 00:07:44,710
+Potencia de 2 por número y en ranks del cero al 11.
+
+85
+00:07:44,710 --> 00:07:52,280
+Es decir tenemos una doble declaración de listas dentro de la propia lista.
+
+86
+00:07:52,760 --> 00:07:53,740
+Si lo mostramos
+
+87
+00:07:56,470 --> 00:07:58,670
+tenemos exactamente lo mismo que antes.
+
+88
+00:07:59,800 --> 00:08:04,010
+Un montón de líneas transformadas en una sola línea.
+
+89
+00:08:04,360 --> 00:08:10,660
+Os parece útil crear listas a partir de listas anidadas nos permite llevar por tanto la comprensión
+
+90
+00:08:10,660 --> 00:08:16,630
+de listas al siguiente nivel y además no hay un límite por qué podríamos ir anidando aquí muchas más
+
+91
+00:08:16,630 --> 00:08:19,020
+listas creadas a partir de otras listas.
+
+92
+00:08:19,390 --> 00:08:20,920
+Hasta el infinito.
+
+93
+00:08:21,370 --> 00:08:25,960
+Por ahora te animo a hacer tus propias pruebas y practicar ya que de ahora en adelante haremos uso de
+
+94
+00:08:25,960 --> 00:08:30,190
+la comprensión de listas en ejemplos y otras funcionalidades avanzadas.
+
+95
+00:08:30,190 --> 00:08:35,640
+Por lo tanto lo dejamos aquí pero que hemos trabajando el concepto a lo largo de esta unidad.

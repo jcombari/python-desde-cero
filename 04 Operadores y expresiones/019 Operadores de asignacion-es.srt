@@ -1,0 +1,283 @@
+1
+00:00:01,480 --> 00:00:07,240
+Quería dedicar la última lección de esta unidad a comentar una especie de accesos directos de los operadores
+
+2
+00:00:07,240 --> 00:00:12,790
+aritméticos pero que actúan directamente sobre la variable actual modificando su valor.
+
+3
+00:00:13,240 --> 00:00:18,710
+Es decir no necesitan dos operandos y solamente una variable numérica.
+
+4
+00:00:18,850 --> 00:00:24,510
+Por eso se les llama operadores de asignación y vamos a verlos en esta pequeña mención especial.
+
+5
+00:00:27,040 --> 00:00:34,500
+Para empezar tenemos el operador de asignación tradicional que sirve para asignar un valor a una variable.
+
+6
+00:00:36,010 --> 00:00:42,740
+Luego tenemos el valor de suma en asignación suponiendo que esta variable vale cero.
+
+7
+00:00:42,820 --> 00:00:49,520
+Ya lo hemos declarado previamente podríamos directamente sumarle un valor por ejemplo 1.
+
+8
+00:00:50,590 --> 00:00:51,900
+Más igual a uno.
+
+9
+00:00:51,920 --> 00:01:03,320
+Esto es un operador de suma en la asignación pero siempre para poder aplicar uno de estos operadores
+
+10
+00:01:03,320 --> 00:01:04,450
+en asignación.
+
+11
+00:01:04,730 --> 00:01:09,270
+Debemos de haber declarado previamente la variable porque si no nos diría que no existe por tanto tenerlo
+
+12
+00:01:09,290 --> 00:01:10,460
+en cuenta.
+
+13
+00:01:10,460 --> 00:01:14,650
+Si hacemos esto habremos incrementado en 1 el valor de.
+
+14
+00:01:15,170 --> 00:01:23,480
+Si volvemos a ejecutar esta pieza de código ahora valdrá 2 y cada vez que hagamos esta pieza de código
+
+15
+00:01:23,780 --> 00:01:25,860
+incrementamos el valor de 1.
+
+16
+00:01:26,480 --> 00:01:32,290
+Si en lugar de incrementarlo en uno lo incrementamos en 5 como ahora mismo dentro de las memorias se
+
+17
+00:01:32,290 --> 00:01:36,100
+está guardando ese 5 le incrementamos cinco más.
+
+18
+00:01:36,320 --> 00:01:39,440
+Y ahí tenemos 10.
+
+19
+00:01:39,440 --> 00:01:48,080
+También podemos hacer la resta la asignación por ejemplo a menos igual 10 como teníamos 10.
+
+20
+00:01:48,260 --> 00:01:51,110
+Hacemos una resta en asignacion.
+
+21
+00:01:52,590 --> 00:01:55,820
+Y nos quedará a cero.
+
+22
+00:01:56,800 --> 00:02:04,320
+Otra cosa que podemos hacer multiplicación en asignacion como actualmente nos vale cero.
+
+23
+00:02:04,330 --> 00:02:08,840
+Por mucho que la multipliquemos no veremos nada así que voy a otorgarle un nuevo valor 5.
+
+24
+00:02:09,130 --> 00:02:17,140
+Y ahora voy a hacer una multiplicación en la asignación por ejemplo por 2 multiplicación o producto
+
+25
+00:02:17,140 --> 00:02:20,770
+mejor dicho en asignacion
+
+26
+00:02:23,500 --> 00:02:26,440
+vamos a ver el valor y a vale 10.
+
+27
+00:02:26,440 --> 00:02:27,390
+En este punto.
+
+28
+00:02:28,710 --> 00:02:38,380
+De la misma forma podemos hacer una división en asignacion teniendo 10 podemos hacer a divisiones asignacion.
+
+29
+00:02:39,300 --> 00:02:39,990
+Entre 2
+
+30
+00:02:46,800 --> 00:02:54,560
+y nos quedaría 5.0 porque lo ha transformado a un flotante no porque hemos hecho una división.
+
+31
+00:02:55,790 --> 00:03:01,920
+Incluso podríamos hacer un módulo en asignación por ejemplo para saber si 5 es un número par.
+
+32
+00:03:01,930 --> 00:03:04,610
+El módulo debería de ser igual a cero.
+
+33
+00:03:07,270 --> 00:03:11,250
+Y lo que quedará guardado en nada es ese resultado.
+
+34
+00:03:11,460 --> 00:03:16,210
+Módulo un módulo en asignación de 2.
+
+35
+00:03:16,230 --> 00:03:17,170
+Para saber si Espar
+
+36
+00:03:22,890 --> 00:03:27,660
+y esto nos da un 1 como no haga dulcero no Espar.
+
+37
+00:03:27,840 --> 00:03:38,820
+Y por último tenemos también la potencia en asignación a potencia en asignacion vamos a elevar por ejemplo
+
+38
+00:03:39,130 --> 00:03:45,730
+es que no importa lo que le vemos el 1 por ejemplo a 10 pero sería 1.
+
+39
+00:03:45,750 --> 00:03:56,130
+Pero si en cambio fuera un 5 y lo hacemos potencia en asignación 5 elevado a 5.
+
+40
+00:03:56,160 --> 00:03:58,810
+Pues mira da 3 mil 125.
+
+41
+00:03:58,950 --> 00:04:04,380
+Así que sólo quería enseñaros estos operadores en asignacion porque pueden ser útiles para realizar
+
+42
+00:04:04,650 --> 00:04:10,030
+pequeños cálculos y operaciones matemáticas rápidamente sobre nuestras valedores numéricas.
+
+43
+00:04:10,470 --> 00:04:16,530
+Por tanto vamos a concluir esta unidad en la que hemos aprendido mucho sobre operadores y expresiones
+
+44
+00:04:17,190 --> 00:04:19,770
+y estamos preparados para dar nuestro siguiente paso.
+
+45
+00:04:19,950 --> 00:04:28,530
+Pero quiero que antes Volvamos la vista atrás y vayamos a nuestro ejemplo de cabecera para analizarlo
+
+46
+00:04:28,680 --> 00:04:29,670
+una vez más.
+
+47
+00:04:29,700 --> 00:04:33,380
+Lo voy a copiar lo voy a poner aquí para que lo podamos analizar.
+
+48
+00:04:34,490 --> 00:04:37,420
+Muy bien ya lo tengo aquí.
+
+49
+00:04:37,550 --> 00:04:43,460
+Vamos a comprobar ahora todo lo que más o menos sabemos lo que hemos ido aprendiendo gracias a esta
+
+50
+00:04:43,460 --> 00:04:44,490
+unidad.
+
+51
+00:04:44,540 --> 00:04:49,430
+Por ejemplo sabemos que tenemos una asignación arriba esto ya lo sabíamos antes pero ahora sabemos que
+
+52
+00:04:49,960 --> 00:04:52,790
+en profundidad tenemos una asignación.
+
+53
+00:04:53,770 --> 00:04:54,320
+Cero.
+
+54
+00:04:54,340 --> 00:05:07,260
+NN también sabemos que aquí tenemos una expresión relacional en el más pequeño que es expresión relacional
+
+55
+00:05:07,820 --> 00:05:15,470
+es más pequeño que 10 qué devolver a Trump que devuelve true verdadero.
+
+56
+00:05:15,850 --> 00:05:18,760
+Porque empieza siendo cero.
+
+57
+00:05:19,330 --> 00:05:25,570
+Luego tenemos aquí por una parte tenemos dos cosas.
+
+58
+00:05:26,050 --> 00:05:28,140
+Tenemos un módulo de N..
+
+59
+00:05:29,190 --> 00:05:31,170
+También una expresión aritmética
+
+60
+00:05:38,850 --> 00:05:47,050
+y el resultado de esta expresión aritmética se comparará en una operación o expresión relacional cero.
+
+61
+00:05:49,370 --> 00:05:58,350
+Expresión reglas y lo último que tenemos es una reasignación aquí abajo que se podría traducir.
+
+62
+00:05:59,510 --> 00:06:11,530
+Con un operador en la asignación de esta forma por tanto tenemos una expresión aritmética.
+
+63
+00:06:14,060 --> 00:06:17,430
+N igual N+1.
+
+64
+00:06:20,330 --> 00:06:36,740
+Equivalente a operación en asignacion n igual 1 Muy bien poco a poco vamos entendiendo más cosas pero
+
+65
+00:06:36,740 --> 00:06:41,050
+fijaros que cuando utilizamos expresiones relacionales nunca vienen solas.
+
+66
+00:06:41,060 --> 00:06:47,570
+Normalmente siempre pasa algo más siempre van acompañadas por ejemplo de palabras clave como éste Weil
+
+67
+00:06:48,080 --> 00:06:49,940
+o este IF.
+
+68
+00:06:50,480 --> 00:06:53,950
+Para qué servirán estas palabras.
+
+69
+00:06:54,880 --> 00:07:01,150
+Sirven para controlar lo que se denomina el flujo del programa y en la siguiente unidad vamos a descubrir
+
+70
+00:07:01,180 --> 00:07:02,320
+mucho más sobre ellas.
+
+71
+00:07:02,320 --> 00:07:04,910
+Así que os estaré esperando.

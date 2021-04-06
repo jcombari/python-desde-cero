@@ -1,0 +1,711 @@
+1
+00:00:01,630 --> 00:00:04,210
+Muy bien vamos a hablar de los operadores lógicos.
+
+2
+00:00:06,710 --> 00:00:12,410
+Existen varios tipos de operadores lógicos en este curso vamos a enfocarnos en los tres más básicos
+
+3
+00:00:12,410 --> 00:00:13,460
+y utilizados.
+
+4
+00:00:13,790 --> 00:00:15,720
+Comenzaremos por el más sencillo.
+
+5
+00:00:16,040 --> 00:00:17,300
+Se trata del Norte.
+
+6
+00:00:17,600 --> 00:00:23,570
+La negación o también conocida como el no es un poco especial ya que sólo afecta a los tipos lógicos
+
+7
+00:00:24,020 --> 00:00:25,470
+verdadero y falso.
+
+8
+00:00:27,090 --> 00:00:30,730
+Y sólo requiere un operando una expresión.
+
+9
+00:00:30,750 --> 00:00:32,970
+Su utilización es realmente sencilla.
+
+10
+00:00:33,060 --> 00:00:41,810
+Como habíamos dicho anteriormente negar algo que es verdadero no trouve por ejemplo debería de devolver
+
+11
+00:00:41,810 --> 00:00:45,790
+lo contrario no Tru es false.
+
+12
+00:00:47,290 --> 00:00:51,240
+Por ejemplo truque qué se iguala.
+
+13
+00:00:51,490 --> 00:00:53,400
+Falso.
+
+14
+00:00:54,680 --> 00:00:56,180
+Verdadero.
+
+15
+00:00:56,180 --> 00:01:04,420
+Por tanto negación de la verdad es la mentira negación de la mentira es la verdad.
+
+16
+00:01:04,670 --> 00:01:06,260
+Es tan sencillo como eso.
+
+17
+00:01:06,260 --> 00:01:12,470
+Por eso decía que era el más sencillo generalmente sirve siempre para negar una expresión lógica dándole
+
+18
+00:01:12,470 --> 00:01:13,660
+el valor contrario.
+
+19
+00:01:15,070 --> 00:01:21,360
+Y ahora que ya hemos visto el fácil vamos a por los complicados que aunque no son muy difíciles es necesario
+
+20
+00:01:21,360 --> 00:01:23,900
+captar bien el concepto para entenderlos.
+
+21
+00:01:24,360 --> 00:01:29,130
+No sé si recordaréis que cuando acabó la elección anterior dije que los lógicos nos permitían crear
+
+22
+00:01:29,400 --> 00:01:30,910
+grandes expresiones.
+
+23
+00:01:30,930 --> 00:01:38,670
+Pues bien estos operadores se presentan en dos formas en conjunción y en disyunción.
+
+24
+00:01:38,670 --> 00:01:43,560
+Quiero que nos paremos un momento por qué es importante tener claro los términos.
+
+25
+00:01:43,710 --> 00:01:49,130
+El lenguaje nos da mucha información y aprender de él nos puede ayudar.
+
+26
+00:01:49,470 --> 00:01:57,730
+La conjunción la palabra conjunción viene del conjunto de sinónimo de UNIDO contiguo o cercano.
+
+27
+00:01:57,870 --> 00:02:05,030
+En cambio disyunción viene de disjuntos que es sinónimo de separado apartado o distante.
+
+28
+00:02:05,490 --> 00:02:12,990
+Por tanto tenemos dos formas de expresión lógica una que agrupa uniendo y otra que agrupa separando
+
+29
+00:02:14,040 --> 00:02:16,510
+el operador que une es el ANT.
+
+30
+00:02:16,590 --> 00:02:19,780
+Y en español es conocido como el y una.
+
+31
+00:02:20,160 --> 00:02:22,000
+Pero qué es lo que une.
+
+32
+00:02:22,000 --> 00:02:25,330
+Bueno volviendo al principio de la unidad.
+
+33
+00:02:25,930 --> 00:02:30,130
+Si recordáis la maravillosa sentencia aquella de estoy vivo.
+
+34
+00:02:31,150 --> 00:02:35,500
+Habíamos quedado que era cierta pues imaginad que unimos a ella otra sentencia.
+
+35
+00:02:35,730 --> 00:02:39,940
+Y yo digo estoy vivo y me llamo Héctor.
+
+36
+00:02:39,940 --> 00:02:43,610
+Aquí tengo dos sentencias Unidas con Umi con un ayy.
+
+37
+00:02:44,170 --> 00:02:48,140
+Ambas afirmaciones son verdaderas porque yo estoy vivo hemos quedado que eso es verdad.
+
+38
+00:02:48,190 --> 00:02:56,110
+Y me llamo Héctor también incierto porque me llamo así por tanto son evidentes pero vistas en conjunto
+
+39
+00:02:56,440 --> 00:03:03,340
+cómo quedaría pues quedaría verdadero y verdadero si las traducimos a lógicos.
+
+40
+00:03:03,810 --> 00:03:10,690
+Así que pensarlo de este modo si estoy diciendo dos sentencias ciertas dos verdades estoy diciendo la
+
+41
+00:03:10,690 --> 00:03:18,250
+verdad o estoy mintiendo pues está claro que si alguien está diciendo toda la verdad pues está diciendo
+
+42
+00:03:18,250 --> 00:03:21,410
+una verdad y Payton también lo tiene claro.
+
+43
+00:03:21,760 --> 00:03:30,310
+Así que si sometemos a juicio a Payton y comparamos una sentencia que es verdad y otra que sea verdad
+
+44
+00:03:30,800 --> 00:03:36,410
+él nos dirá truc ante tu verdadero y verdadero nos tiene que decir si es verdad.
+
+45
+00:03:36,730 --> 00:03:40,730
+Si está diciendo siempre la verdad y él lo tiene claro.
+
+46
+00:03:40,840 --> 00:03:42,320
+Dice que es verdad.
+
+47
+00:03:42,850 --> 00:03:49,680
+En cambio Imaginad que en lugar de decir dos verdades dos sentencias verdaderas Una de ellas es falsa.
+
+48
+00:03:50,610 --> 00:03:55,270
+Por ejemplo yo digo estoy vivo y me llamo Mario.
+
+49
+00:03:55,560 --> 00:03:57,330
+De verdad es que yo no me llamo Mario.
+
+50
+00:03:57,330 --> 00:04:01,520
+Por tanto la primera es verdad pero la segunda es falsa.
+
+51
+00:04:02,420 --> 00:04:03,560
+Qué sucede en conjunto.
+
+52
+00:04:03,560 --> 00:04:04,830
+Vistas las dos a la vez.
+
+53
+00:04:04,820 --> 00:04:10,370
+Si alguien me las dice o yo se las digo a alguien le estoy diciendo la verdad a esa persona o le estoy
+
+54
+00:04:10,370 --> 00:04:11,480
+engañando.
+
+55
+00:04:11,840 --> 00:04:17,390
+Evidentemente le estoy engañando porque no le estoy diciendo toda la verdad sino una parte de la verdad
+
+56
+00:04:17,480 --> 00:04:18,610
+y una parte de mentira.
+
+57
+00:04:18,620 --> 00:04:21,590
+Por tanto en conjunto todo es mentira.
+
+58
+00:04:21,710 --> 00:04:31,160
+Y si hoy le decimos que una cosa es verdad y otra mentira truhan falsee debe de saber que en conjunto
+
+59
+00:04:31,220 --> 00:04:32,890
+las dos son falsas.
+
+60
+00:04:34,700 --> 00:04:36,710
+Como el orden del factor no altera el producto.
+
+61
+00:04:36,710 --> 00:04:43,650
+Lo mismo seria decirle si la primera es falsa y la segunda es verdadera de acuerdo.
+
+62
+00:04:43,760 --> 00:04:47,590
+Si no decimos toda la verdad estamos mintiendo.
+
+63
+00:04:49,500 --> 00:04:55,900
+Y para rizar el rizo qué sucedería si yo miento en ambas sentencias.
+
+64
+00:04:55,930 --> 00:05:00,970
+Si a alguien le digo es no estoy vivo y me llamo Juan Carlos.
+
+65
+00:05:01,030 --> 00:05:05,970
+Evidentemente mentira y mentira pues ya es súper mentira.
+
+66
+00:05:05,980 --> 00:05:09,790
+Por lo tanto no hace falta ni poner más ejemplos.
+
+67
+00:05:09,790 --> 00:05:12,280
+Falso y falso.
+
+68
+00:05:12,730 --> 00:05:20,040
+Dos sentencias falsas Unidas con Uruguay en conjunto tienen el valor falso.
+
+69
+00:05:20,410 --> 00:05:24,160
+Muy bien creando una tabla de posibilidades.
+
+70
+00:05:24,160 --> 00:05:35,290
+Tendríamos que Falso y falso es falso falso y verdadero es falso verdadero y falso es falso y verdadero
+
+71
+00:05:35,290 --> 00:05:39,270
+y verdadero es el único caso donde todo es verdad.
+
+72
+00:05:39,370 --> 00:05:41,450
+Sólo cuando decimos toda la verdad.
+
+73
+00:05:42,630 --> 00:05:45,710
+Dos sentencias Unidas con una sola verdad.
+
+74
+00:05:47,380 --> 00:05:51,540
+Qué utilidad creéis que puede tener esto en el mundo de la programación.
+
+75
+00:05:51,990 --> 00:05:56,470
+Uno se imagina que queremos hacer una comprobación de dos posibilidades a la vez.
+
+76
+00:05:56,500 --> 00:06:04,360
+Por ejemplo si un número es a la vez mayor que 10 y menor a 20 por ejemplo vamos a guardar en una variable
+
+77
+00:06:04,360 --> 00:06:05,760
+el número 13.
+
+78
+00:06:05,820 --> 00:06:11,120
+Ahora vamos a decirle el número 13 es mayor que 10.
+
+79
+00:06:11,530 --> 00:06:21,760
+Y a la vez el número a ANT es mayor es menor que 20 y él nos dice que es verdad.
+
+80
+00:06:21,760 --> 00:06:22,300
+Por qué.
+
+81
+00:06:22,300 --> 00:06:26,380
+Porque 13 está cumpliendo las dos sentencias a la vez.
+
+82
+00:06:27,330 --> 00:06:29,290
+13 es mayor que 10.
+
+83
+00:06:29,370 --> 00:06:32,400
+Y a la vez 13 es menor que 20.
+
+84
+00:06:32,400 --> 00:06:37,280
+En cambio si por ejemplo fuera 7.
+
+85
+00:06:38,240 --> 00:06:39,280
+Vamos a ponerlo arriba.
+
+86
+00:06:39,300 --> 00:06:43,610
+Si afuera 7 me dice que es falso.
+
+87
+00:06:43,610 --> 00:06:45,510
+Claro ya no está en el conjunto.
+
+88
+00:06:45,880 --> 00:06:52,160
+Bueno pues este ejemplo es muy útil porque nos puede servir si una persona por ejemplo está en su adolescencia
+
+89
+00:06:52,160 --> 00:06:56,030
+estamos haciendo un programa y queremos saber si una persona es adolescente.
+
+90
+00:06:56,090 --> 00:07:05,690
+A partir de su edad como que este cálculo se comprueba entre los números de edades del 11 al 19 años
+
+91
+00:07:06,290 --> 00:07:12,110
+pues simplemente haciendo esta comprobación podemos saber siempre si está dentro de estos parámetros
+
+92
+00:07:12,110 --> 00:07:14,740
+y cumplir las dos posibilidades a la vez.
+
+93
+00:07:14,740 --> 00:07:16,320
+O por ejemplo si yo les dijera.
+
+94
+00:07:17,210 --> 00:07:26,080
+45 años en conjunto cumple las dos necesidades y me dice que tampoco que es falso.
+
+95
+00:07:26,090 --> 00:07:31,350
+Evidentemente 45 años ya no está dentro de lo que sería la adolescencia.
+
+96
+00:07:32,180 --> 00:07:38,060
+No quiero entrar mucho en detalle porque los usos son ilimitados pero por ejemplo podríamos comprobar
+
+97
+00:07:38,060 --> 00:07:43,970
+si una cadena de caracteres tiene una longitud determinada y a su vez empieza por un carácter especial
+
+98
+00:07:43,970 --> 00:07:49,640
+o sea podríamos encadenar muchas de estas expresiones lógicas.
+
+99
+00:07:50,570 --> 00:07:54,440
+Vamos a guardar en la cadena Angulo.
+
+100
+00:07:55,150 --> 00:08:02,960
+Y ahora le voy a decir por ejemplo la longitud de esta cadena que es más grande al igual que el 5 y
+
+101
+00:08:02,960 --> 00:08:06,760
+a su vez el primer carácter de esta cadena.
+
+102
+00:08:07,070 --> 00:08:14,630
+Con el índice cero es igual que h y que me dirá qué es verdad.
+
+103
+00:08:15,110 --> 00:08:22,670
+En cambio si le dijera si la longitud es mayor que 20 por ejemplo que ya veo que no tiene tantas letras
+
+104
+00:08:23,160 --> 00:08:24,430
+pues me dice que es mentira.
+
+105
+00:08:24,440 --> 00:08:26,870
+Por qué no se cumplen ambas.
+
+106
+00:08:26,870 --> 00:08:33,620
+Puede que se cumpla una pero como que toda la verdad es únicamente cuando decimos toda la verdad en
+
+107
+00:08:33,620 --> 00:08:35,570
+todas las sentencias.
+
+108
+00:08:35,740 --> 00:08:37,590
+Pues entonces es falso.
+
+109
+00:08:38,300 --> 00:08:42,450
+Se me pasan mil cosas por la cabeza pero no quiero el yarosh.
+
+110
+00:08:43,280 --> 00:08:51,500
+Así que vamos simplemente a ver el siguiente operador el de la disyunción es el OR hola o en español.
+
+111
+00:08:52,150 --> 00:08:59,530
+Si bien el ANT Uría Elecnor separa pero cómo entendemos este concepto vamos a volver a nuestro ejemplo
+
+112
+00:09:00,250 --> 00:09:03,480
+y vamos a cambiar la ID por la.
+
+113
+00:09:04,360 --> 00:09:08,330
+Si digo que estoy vivo o me llamo Héctor.
+
+114
+00:09:09,390 --> 00:09:12,210
+Igual que antes tenemos dos sentencias que son verdad.
+
+115
+00:09:12,510 --> 00:09:21,030
+Vistas de forma separada son verdaderas pero esta vez la ONU indica que no se deben cumplir a la vez
+
+116
+00:09:21,300 --> 00:09:25,320
+se están excluyendo a sí misma sólo hay que comprobarlas por separado.
+
+117
+00:09:26,070 --> 00:09:31,990
+Entonces para que la frase completa sea cierta basta con que una de las dos sea cierta.
+
+118
+00:09:32,130 --> 00:09:35,210
+Si decimos por ejemplo truc.
+
+119
+00:09:37,500 --> 00:09:42,980
+Trump verdaderos verdadero estoy vivo o me llamo Héctor.
+
+120
+00:09:43,340 --> 00:09:45,560
+Estoy diciendo toda la verdad.
+
+121
+00:09:45,560 --> 00:09:54,300
+Es una frase que simplemente por el hecho de cambiar la IP por uno pues como antes también es verdadero.
+
+122
+00:09:54,770 --> 00:09:57,820
+Pero qué sucede si una de ellas es mentira.
+
+123
+00:09:58,040 --> 00:10:06,200
+Imaginan que yo digo estoy vivo o me llamo Mario estoy excluyendo del conjunto que todas tengan que
+
+124
+00:10:06,200 --> 00:10:06,980
+ser verdad.
+
+125
+00:10:07,010 --> 00:10:17,780
+Por tanto Trump Orphan se quedará pues al contrario que antes da verdadero porque ya no es necesario
+
+126
+00:10:17,780 --> 00:10:23,720
+que todo se cumpla para ser verdad sino que se cumpla únicamente una de las sentencias que sea verdadera
+
+127
+00:10:23,720 --> 00:10:25,400
+para que en conjunto sea verdad.
+
+128
+00:10:25,670 --> 00:10:27,450
+Y lo mismo sucedería al revés.
+
+129
+00:10:27,680 --> 00:10:33,880
+False false perdón TRUE FALSE True también es verdadero.
+
+130
+00:10:33,920 --> 00:10:39,320
+Sin embargo hay una posibilidad en que la expresión en conjunto sí que de mentira.
+
+131
+00:10:39,820 --> 00:10:42,480
+Y esa es cuando todo es mentira.
+
+132
+00:10:42,530 --> 00:10:43,900
+O sea si todo es mentira.
+
+133
+00:10:44,000 --> 00:10:45,120
+Y no digo ninguna verdad.
+
+134
+00:10:45,160 --> 00:10:47,330
+Entonces es obvio que estoy mintiendo.
+
+135
+00:10:47,450 --> 00:10:53,020
+Si yo digo Yo puedo volar o me llamo Juan.
+
+136
+00:10:53,150 --> 00:10:54,870
+Ninguna de las dos es cierta.
+
+137
+00:10:54,980 --> 00:10:59,960
+Por tanto en conjunto ambas deberían de ser falsas.
+
+138
+00:11:00,740 --> 00:11:01,830
+False.
+
+139
+00:11:02,570 --> 00:11:04,120
+Da como resultado falsee.
+
+140
+00:11:06,460 --> 00:11:11,080
+Por tanto al igual que antes la tabla de posibilidades esta vez quedaría.
+
+141
+00:11:11,880 --> 00:11:15,140
+Falso falso es igual a falso.
+
+142
+00:11:16,190 --> 00:11:21,910
+Falso o verdadero es igual a verdadero verdadero o falso.
+
+143
+00:11:21,940 --> 00:11:26,760
+Es igual al verdadero y verdadero o verdadero desigualad verdadero.
+
+144
+00:11:26,930 --> 00:11:33,460
+Por tanto el resultado de la expresión siempre será verdad menos cuando ambos operandos sean falsos.
+
+145
+00:11:33,590 --> 00:11:38,630
+Cuando todo es falso el OR también da como resultado falso.
+
+146
+00:11:38,810 --> 00:11:41,180
+En cualquier otro caso es verdadero.
+
+147
+00:11:41,900 --> 00:11:46,280
+En términos de utilidad práctica hay muchísimas situaciones donde esto nos va a servir.
+
+148
+00:11:46,370 --> 00:11:50,670
+Lo más común es comprobar si alguna de varias expresiones o condiciones es verdad.
+
+149
+00:11:50,900 --> 00:11:57,530
+Por ejemplo para finalizar una posible tarea imaginar que yo tengo una cadena de texto guardada la palabra
+
+150
+00:11:57,530 --> 00:12:04,430
+salir en mayúscula porque es un comando que me envía al usuario en un programa y yo quiero saber si
+
+151
+00:12:04,430 --> 00:12:06,080
+tengo que salirme del programa.
+
+152
+00:12:06,200 --> 00:12:13,220
+Por ejemplo comparando varias posibilidades si lo haces igual a éxito.
+
+153
+00:12:13,540 --> 00:12:17,750
+Me tengo que salir del programa o también me tengo que salir del programa.
+
+154
+00:12:17,750 --> 00:12:25,290
+Si la C fuera también la palabra fin o también me podría salir del programa.
+
+155
+00:12:25,720 --> 00:12:34,220
+Cuando la CSA salir concuerda alguna de estas posibilidades con las que nosotros le estamos pasando
+
+156
+00:12:34,220 --> 00:12:41,900
+con el valor de cadena es completamente obvio porque una de las posibilidades es salir como que nos
+
+157
+00:12:41,900 --> 00:12:42,880
+estamos saliendo.
+
+158
+00:12:42,920 --> 00:12:45,680
+Digamos que esta es la condición.
+
+159
+00:12:45,930 --> 00:12:51,870
+Sería verdadero en cambio si le pasara a otro comando que fuera otra cosa.
+
+160
+00:12:52,520 --> 00:12:57,770
+No es ninguna de las opciones que me permite salir de mi supuesto programa me dice que el resultado
+
+161
+00:12:57,770 --> 00:12:59,640
+de todo esto es falso.
+
+162
+00:13:00,470 --> 00:13:05,720
+Otra situación muy interesante que nos puede servir es por ejemplo para comprobar de una cadena por
+
+163
+00:13:05,720 --> 00:13:08,150
+ejemplo la cadena director.
+
+164
+00:13:08,560 --> 00:13:17,080
+Yo puedo comprobar si empieza esta cadena con una H pero sin importarme si es una H mayúscula o minúscula.
+
+165
+00:13:17,240 --> 00:13:19,320
+Cómo puedo comprobarlo con humor.
+
+166
+00:13:19,340 --> 00:13:26,080
+Es muy fácil porque hago referencia al índice comparó si la primera letra por ejemplo es una H mayúscula.
+
+167
+00:13:26,240 --> 00:13:32,140
+O también tengo la otra posibilidad por que la primera letra sea una h.
+
+168
+00:13:32,180 --> 00:13:39,050
+Pero esta vez en minúscula si se cumple cualquiera de estas dos posibilidades se abre que en esta cadena
+
+169
+00:13:39,470 --> 00:13:46,310
+la primera letra es una H independientemente de si es mayúscula o minúscula como es mayúscula.
+
+170
+00:13:46,310 --> 00:13:47,430
+Me da verdadero.
+
+171
+00:13:47,690 --> 00:13:51,100
+Si fuera minúscula también me daría verdadero.
+
+172
+00:13:51,440 --> 00:13:56,230
+Y si en lugar de una H fuera una L.
+
+173
+00:13:56,540 --> 00:14:00,770
+Pues evidentemente no cumplen ninguna de las dos y por tanto es falso.
+
+174
+00:14:01,250 --> 00:14:07,340
+Así que ya sabéis los operadores lógicos sirven para encadenar expresiones uniendo o separando excluyendo
+
+175
+00:14:07,880 --> 00:14:11,210
+siempre y cuando los operandos también representen tipos lógicos.
+
+176
+00:14:11,240 --> 00:14:13,540
+Eso es importante siempre.
+
+177
+00:14:13,640 --> 00:14:21,490
+Cualquier cosa que vayamos a relacionar con un operador de tipológico tiene que ser verdadero o falso.
+
+178
+00:14:21,780 --> 00:14:24,550
+En su conjunto en su valor de conjunto.

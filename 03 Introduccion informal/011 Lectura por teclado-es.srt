@@ -1,0 +1,271 @@
+1
+00:00:01,640 --> 00:00:04,190
+Bueno ya sabemos cómo crear variables.
+
+2
+00:00:04,250 --> 00:00:07,380
+Sabemos cómo asignar valores y escribirlos por pantalla.
+
+3
+00:00:07,760 --> 00:00:11,900
+Pero esto es muy poco interactivo teniendo en cuenta que siempre tenemos que escribir nosotros el valor
+
+4
+00:00:11,990 --> 00:00:16,950
+antes de trabajar con una variable así que vamos a introducir una forma.
+
+5
+00:00:18,860 --> 00:00:23,080
+Cómo leer esos valores sobre la marcha vamos era la elección.
+
+6
+00:00:23,090 --> 00:00:23,630
+4.
+
+7
+00:00:23,720 --> 00:00:25,310
+Lectura por teclado.
+
+8
+00:00:25,340 --> 00:00:28,430
+íbamos a trabajar un poco este concepto.
+
+9
+00:00:28,430 --> 00:00:33,290
+Al principio tenía dudas enseñaros esta función porque únicamente se utiliza con programas para terminar
+
+10
+00:00:33,290 --> 00:00:39,800
+la consola pero al final he decidido adelantarme un poco y explicar por qué puedo hacer el aprendizaje
+
+11
+00:00:40,310 --> 00:00:44,320
+mucho más interesante y divertido para que podáis hacer más experimentos.
+
+12
+00:00:45,070 --> 00:00:50,020
+Así que voy a introducir una instrucción llamada imput.
+
+13
+00:00:50,050 --> 00:00:55,060
+Esta instrucción permite guardar un valor en una variable que introduzcamos por el teclado.
+
+14
+00:00:55,060 --> 00:00:59,480
+Es decir nos deja escribir en el teclado por ejemplo.
+
+15
+00:00:59,770 --> 00:01:07,150
+Quiero guardar un valor y leerlo desde el teclado pues voy a asignar a valor el resultado de llamar
+
+16
+00:01:07,160 --> 00:01:11,530
+la función imput si la ejecutamos no sale aquí.
+
+17
+00:01:12,580 --> 00:01:20,990
+Una especie de cuadrado de formulario que podemos escribir ha introducido una cadena de caracteres es
+
+18
+00:01:21,360 --> 00:01:28,270
+algo un texto y ahora puedo mostrar este valor y me dice que aquí hay una cadena.
+
+19
+00:01:28,330 --> 00:01:36,100
+También podría haber guardado en valor un número imput y poner aquí un número 100.
+
+20
+00:01:36,220 --> 00:01:37,300
+Si vuelvo a mostrarlo
+
+21
+00:01:40,330 --> 00:01:44,730
+fijaros quiero que me devuelves una cadena de caracteres.
+
+22
+00:01:46,650 --> 00:01:53,560
+Eso es porque todo se ve guarda en forma de cadena de caracteres le cadenas de caracteres desde el teclado.
+
+23
+00:01:54,390 --> 00:02:05,700
+Por cierto si escribimos el imput dentro del imput escribimos un texto podemos mostrarlo antes de leer
+
+24
+00:02:05,700 --> 00:02:15,310
+el valor que introduce un balón y lo dejamos así con un espacio fijaros.
+
+25
+00:02:15,990 --> 00:02:19,280
+De esta manera podemos mostrar un mensaje y luego un valor.
+
+26
+00:02:19,350 --> 00:02:20,840
+Así.
+
+27
+00:02:21,150 --> 00:02:27,240
+Perdón si el usuario sabe lo que tiene que hacer en el momento que se le está pidiendo que introduzca
+
+28
+00:02:27,240 --> 00:02:29,550
+algo por teclado.
+
+29
+00:02:29,640 --> 00:02:30,590
+Dicho esto.
+
+30
+00:02:31,470 --> 00:02:36,430
+Como decía no hay diferencias entre cadenas números y tal.
+
+31
+00:02:36,450 --> 00:02:45,390
+Entonces todo lo que leemos son cadenas y si intentamos leer lo tenía que daba un valor y por un cierto
+
+32
+00:02:46,440 --> 00:02:56,250
+intento luego operar este número por ejemplo valor más 100 debería dar 200 me da error me dice que no
+
+33
+00:02:56,250 --> 00:03:01,800
+se puede convertir una cadena o un Hint es un entero.
+
+34
+00:03:02,130 --> 00:03:05,970
+Por tanto no se puede sumar un entero a una cadena.
+
+35
+00:03:05,970 --> 00:03:08,050
+Cómo podemos arreglar esto.
+
+36
+00:03:08,490 --> 00:03:18,120
+Para poder trabajar con la forma de datos que queramos realmente pues por ejemplo si sabemos que vamos
+
+37
+00:03:18,120 --> 00:03:20,810
+a introducir una cadena que es un número.
+
+38
+00:03:20,940 --> 00:03:31,890
+Estamos pidiendo un número por ejemplo valor introduce un número entero un número entero vale.
+
+39
+00:03:33,700 --> 00:03:41,560
+Pues por ejemplo ahora el usuario ya sabe que tiene que introducir un número entero por ejemplo un 500.
+
+40
+00:03:41,730 --> 00:03:50,460
+Lo que tenemos que hacer es convertir este valor a un entero por ejemplo escribiendo valor y vamos a
+
+41
+00:03:50,460 --> 00:03:57,380
+indicarle qué valores de tipo entero vamos a sobrescribir cambiándole el tipo de dato de Cadena A entero.
+
+42
+00:03:57,440 --> 00:04:04,480
+Y esto lo vamos a hacer escribiendo la palabra Hint de entero y pasándole el valor.
+
+43
+00:04:04,680 --> 00:04:07,830
+Ahora ya tengo en valor el número convertido.
+
+44
+00:04:08,190 --> 00:04:14,240
+Por tanto si lo muestro ya me sale si las comitãs ya se me da entender que sus número y ahora puedo
+
+45
+00:04:14,240 --> 00:04:19,210
+operar este valor con cualquier otro número de acuerdo.
+
+46
+00:04:20,050 --> 00:04:29,290
+Sin embargo si este valor estamos leyendo un entero y lo introducimos por ejemplo una a un flotante
+
+47
+00:04:29,290 --> 00:04:30,660
+un decimal.
+
+48
+00:04:30,970 --> 00:04:33,070
+Vamos a ver que sucede.
+
+49
+00:04:33,070 --> 00:04:35,030
+10 50.
+
+50
+00:04:36,970 --> 00:04:44,610
+Y ahora lo convertimos a entero valor es igual al del valor.
+
+51
+00:04:45,720 --> 00:04:53,530
+Pues me da un error y me da un error porque él interpreta que el valor no es un entero.
+
+52
+00:04:54,210 --> 00:04:59,480
+No podemos transformar un valor que en realidad es decimal entero.
+
+53
+00:04:59,700 --> 00:05:03,950
+Para arreglar esto tenemos que decirle que es un flotante.
+
+54
+00:05:03,960 --> 00:05:04,850
+Qué es un decimal.
+
+55
+00:05:04,860 --> 00:05:08,640
+Tenemos que cambiar la palabra y luego de transformarlo en un entero.
+
+56
+00:05:08,670 --> 00:05:12,180
+Les vamos a llamar float de flotante.
+
+57
+00:05:12,420 --> 00:05:23,710
+Ahora valor es un número flotante un número decimal y ahora podemos por ejemplo sumar 10 más valor.
+
+58
+00:05:24,480 --> 00:05:29,970
+Y ahí tengo veinte coma cinco por cierto valor directamente vale diez coma cinco que es lo que hemos
+
+59
+00:05:29,970 --> 00:05:31,260
+introducido.
+
+60
+00:05:31,380 --> 00:05:39,150
+Tened en cuenta que no hace falta tampoco hacer esto todo el rato podríamos hacer directamente la conversión.
+
+61
+00:05:39,660 --> 00:05:48,210
+El momento de leer el valor sólo tendríamos que transformar a flotante por ejemplo el contenido del
+
+62
+00:05:48,210 --> 00:05:55,830
+input que sabemos que es una cadena de caracteres y aquí diríamos introduce un número decimal venteros
+
+63
+00:05:56,850 --> 00:06:00,750
+automáticamente al decirle que es un decimal un float.
+
+64
+00:06:01,040 --> 00:06:04,170
+Pues podemos introducir tanto enteros como decimales
+
+65
+00:06:07,260 --> 00:06:12,010
+por ejemplo tres coma catorce.
+
+66
+00:06:12,270 --> 00:06:21,750
+Mostramos el valor y hoy tengo el número Muy bien dicho esto podremos crear ejemplos mucho más interactivos
+
+67
+00:06:21,870 --> 00:06:28,080
+y programas más interesantes a lo largo de todo el curso así que estoy seguro de que esto va a ser muy
+
+68
+00:06:28,080 --> 00:06:28,610
+útil.

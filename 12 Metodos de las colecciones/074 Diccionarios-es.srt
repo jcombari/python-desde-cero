@@ -1,0 +1,323 @@
+1
+00:00:01,640 --> 00:00:05,660
+Por último vamos a ver los métodos de los diccionarios.
+
+2
+00:00:05,660 --> 00:00:06,740
+Lección 4.
+
+3
+00:00:09,140 --> 00:00:14,220
+Vamos a crear un diccionario como el que habíamos hecho antaño es la primera vez que estuvimos trabajando
+
+4
+00:00:14,220 --> 00:00:16,790
+con ellos con varios colores.
+
+5
+00:00:16,980 --> 00:00:23,160
+Vamos a llamarlo colores vamos a crear varios elementos clave del valor.
+
+6
+00:00:23,160 --> 00:00:26,740
+Vamos a ponerlo rápidamente así.
+
+7
+00:00:29,690 --> 00:00:34,310
+Y ahora voy a poner aquí por ejemplo color amarillo.
+
+8
+00:00:35,210 --> 00:00:39,620
+Va a ser el diario inglés color azul.
+
+9
+00:00:39,870 --> 00:00:48,810
+El Blu y el verde por ejemplo el buril guardarlo.
+
+10
+00:00:49,300 --> 00:00:54,420
+Y hoy tengo un diccionario con colores para saber las traducciones entonces.
+
+11
+00:00:55,730 --> 00:01:05,060
+Sabemos que podíamos rápidamente utilizar la clave pasándoles en el diccionario entre los corchetes
+
+12
+00:01:05,510 --> 00:01:06,330
+por ejemplo.
+
+13
+00:01:06,660 --> 00:01:15,110
+Así para saber el valor de acuerdo pero también podemos hacerlo con un método que además nos puede devolver
+
+14
+00:01:15,110 --> 00:01:16,100
+un valor por defecto.
+
+15
+00:01:16,100 --> 00:01:20,540
+Por ejemplo colores G.T.
+
+16
+00:01:21,470 --> 00:01:23,890
+Es el método que le vamos a pasar.
+
+17
+00:01:24,730 --> 00:01:28,800
+Entre paréntesis la clave por ejemplo amarillo.
+
+18
+00:01:30,130 --> 00:01:38,390
+Y aquí un valor por defecto que podríamos poner no se encuentra si lo ejecutamos nos devuelve hielo
+
+19
+00:01:38,460 --> 00:01:41,130
+porque si que encuentra la clave amarillo.
+
+20
+00:01:41,550 --> 00:01:47,440
+Pero imaginar que le ponemos un color por ejemplo negro que no está dentro del diccionario.
+
+21
+00:01:47,750 --> 00:01:54,220
+Pues entonces nos devolvería el valor por defecto que es el segundo parámetro no nos encuentra.
+
+22
+00:01:54,280 --> 00:02:02,170
+También podríamos saber ya que estamos hablando de buscar claves si el necro se encuentra o no dentro
+
+23
+00:02:02,170 --> 00:02:13,870
+de colores negro y colores y no ya que Falso no se encuentra en cambio si pusiéramos amarillo si lo
+
+24
+00:02:13,870 --> 00:02:15,850
+encuentran nos devuelve verdadero.
+
+25
+00:02:15,850 --> 00:02:20,760
+Así es una forma muy rápida de saber si una clave se encuentra dentro del diccionario.
+
+26
+00:02:21,520 --> 00:02:28,720
+Pero los diccionarios aparte de tener métodos o formas de conseguir la información como lockett o soportar
+
+27
+00:02:28,720 --> 00:02:37,570
+el INM también incluyen una serie de métodos bastante interesantes para conseguir información pero relacionada
+
+28
+00:02:37,570 --> 00:02:45,160
+con la clave y el valor a la vez o solamente las claves o solamente los valores estos vienen muy bien
+
+29
+00:02:45,160 --> 00:02:47,350
+para iterar sobre el diccionario.
+
+30
+00:02:47,530 --> 00:02:54,100
+Por ejemplo si quisiéramos una lista únicamente con las claves de un diccionario podríamos hacer lo
+
+31
+00:02:54,100 --> 00:02:56,190
+siguiente colores que
+
+32
+00:02:59,080 --> 00:03:01,990
+nos devuelve una lista.
+
+33
+00:03:03,440 --> 00:03:07,280
+Con las claves del diccionario amarillo azul y verde.
+
+34
+00:03:07,280 --> 00:03:08,790
+Si quisiéramos saber.
+
+35
+00:03:09,800 --> 00:03:15,780
+Por otro lado los valores del diccionario pondríamos colores values.
+
+36
+00:03:16,160 --> 00:03:21,950
+De esta forma es lo mismo pero ya no es un diccionario de claves sino que es un diccionario de valores
+
+37
+00:03:22,570 --> 00:03:31,670
+y nos da los valores en una lista y si quisiéramos una mezcla entre valores y claves a la vez podríamos
+
+38
+00:03:31,670 --> 00:03:33,910
+utilizar el método.
+
+39
+00:03:35,150 --> 00:03:43,640
+Tenemos que como veis nos devuelve una especie de lista que contiene pequeñas tuplas en clave y valor
+
+40
+00:03:44,420 --> 00:03:49,880
+que no vienen bien para lo que os decía antes para recorrer Recordad cómo recorríamos un diccionario
+
+41
+00:03:49,880 --> 00:03:51,330
+for color.
+
+42
+00:03:51,350 --> 00:03:52,770
+Colores.
+
+43
+00:03:53,200 --> 00:03:57,940
+Y si hacemos un sprint de este color lo que sucedía es que nos mostraban las claves.
+
+44
+00:03:58,040 --> 00:04:06,860
+Entonces quedamos que podíamos utilizar indirectamente pasándole a colores Esta clave en el corchete
+
+45
+00:04:07,430 --> 00:04:09,890
+para mostrar los valores.
+
+46
+00:04:10,260 --> 00:04:15,930
+Bueno pues con los métodos que os enseño aquí arriba podemos hacer esto de una forma más elegante.
+
+47
+00:04:16,040 --> 00:04:21,870
+Por ejemplo si queremos mostrar los colores el nombre de los colores podríamos simplemente por color.
+
+48
+00:04:21,980 --> 00:04:32,630
+Colores claros para mostrar las claves Prin y ahí únicamente mostraremos las claves.
+
+49
+00:04:32,630 --> 00:04:34,270
+Amarillo azul verde.
+
+50
+00:04:34,280 --> 00:04:43,160
+Si quisiéramos mostrar los valores values de lo bueno y Grin y si quisiéramos mostrar ambas cosas podríamos
+
+51
+00:04:43,160 --> 00:04:44,500
+hacer un ítems.
+
+52
+00:04:44,920 --> 00:04:48,760
+Y cómo devuelve un color tanto en clave como un valor.
+
+53
+00:04:48,770 --> 00:04:54,380
+Podemos asignarlo de esta forma digamos que sería la clave ahora ya no el color pero sería clave y valor
+
+54
+00:04:54,590 --> 00:05:00,810
+podríamos mostrar aquí bajo valor amarillo cielo azul y verde green.
+
+55
+00:05:00,850 --> 00:05:10,760
+O sea que es una forma de iterar diccionarios estas tres métodos otro método y acabando que tienen los
+
+56
+00:05:10,760 --> 00:05:13,130
+diccionarios compartidos con las listas.
+
+57
+00:05:13,130 --> 00:05:15,520
+Muy interesante es el pop.
+
+58
+00:05:16,460 --> 00:05:21,160
+Tenemos nuestra colección en nuestro diccionario de colores.
+
+59
+00:05:21,230 --> 00:05:25,320
+Imaginar que queremos sustraer el color amarillo.
+
+60
+00:05:25,760 --> 00:05:30,350
+Podríamos hacerlo refiriéndonos a colores y haciendo un pop.
+
+61
+00:05:31,030 --> 00:05:38,990
+Y aquí le diríamos lo que queremos extraer queremos extraer la clave amarillo y lo que nos permite hacer
+
+62
+00:05:38,990 --> 00:05:45,800
+es mostrar un mensaje por defecto en caso de que no se encuentre Chronos al contrario.
+
+63
+00:05:49,270 --> 00:05:56,370
+Esto nos devuelve el valor de amarillo y si consultamos colores lo hemos borrado.
+
+64
+00:05:56,380 --> 00:06:03,870
+Sacamos el valor y borramos el elemento en clave y valor del diccionario o registro como queráis entenderlo.
+
+65
+00:06:04,510 --> 00:06:13,690
+Si intentásemos extraer con un elemento que no existe por ejemplo negro lo que nos devolvería es la
+
+66
+00:06:13,690 --> 00:06:18,370
+cadena por defecto que nosotros hemos marcado aquí o el valor en el caso de que pasemos un número o
+
+67
+00:06:18,370 --> 00:06:19,140
+lo que sea.
+
+68
+00:06:19,360 --> 00:06:25,270
+Y por último Arrayán nada más nos quedaría en colores.
+
+69
+00:06:25,360 --> 00:06:27,130
+Nos quedan el azul y el verde.
+
+70
+00:06:27,130 --> 00:06:34,480
+Podemos vaciar un diccionario con la función Clear colores.
+
+71
+00:06:35,580 --> 00:06:42,430
+De esta forma tendremos un diccionario vacío y con esto estamos por acabada la unidad.
+
+72
+00:06:42,790 --> 00:06:44,280
+Pero esto no acaba aquí.
+
+73
+00:06:44,380 --> 00:06:50,560
+Digamos que ya tenemos unos conocimientos básicos que abarcan muchos porque nos permiten manipular datos
+
+74
+00:06:50,650 --> 00:06:57,970
+nos permiten crear clases nos permiten crear la jerarquía de objetos manipular montón de datos a través
+
+75
+00:06:57,970 --> 00:07:05,350
+de los métodos de las colecciones y ya estamos preparados para dejar las bases los fundamentos y comenzar
+
+76
+00:07:05,350 --> 00:07:07,730
+a enfocarnos en algo más avanzado.
+
+77
+00:07:07,750 --> 00:07:15,150
+Formas de organizar nuestro código formas de distribuir los programas creados en Python como documentar
+
+78
+00:07:15,250 --> 00:07:22,630
+como hacer pruebas e incluso aventurarnos en las interfaces gráficas ficheros o las bases de datos.
+
+79
+00:07:22,690 --> 00:07:28,480
+Por tanto vamos a dejar esta fase III la fase donde hemos aprendido a trabajar con las clases y los
+
+80
+00:07:28,480 --> 00:07:32,960
+objetos la herencia y algunos métodos de las colecciones.
+
+81
+00:07:33,080 --> 00:07:40,130
+Y nada felicitaros por haber llegado una vez más hasta aquí y ahora sí a partir de aquí empieza lo bueno.

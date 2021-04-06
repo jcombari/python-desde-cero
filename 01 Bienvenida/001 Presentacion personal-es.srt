@@ -1,0 +1,107 @@
+1
+00:00:00,610 --> 00:00:06,350
+Hola muy buenas a todos y bienvenidos oficialmente a este nuevo curso de programación en Python 3 creado
+
+2
+00:00:06,350 --> 00:00:11,120
+en colaboración con la Plataforma demy y que pretende abarcar lo máximo posible sobre este lenguaje
+
+3
+00:00:11,480 --> 00:00:14,250
+desde los fundamentos hasta temas más avanzados.
+
+4
+00:00:16,330 --> 00:00:18,850
+Mi nombre es sector costa y soy técnico programador.
+
+5
+00:00:18,970 --> 00:00:23,410
+Llevo en este mundillo unos diez años de los cuales más de la mitad los he dedicado exclusivamente a
+
+6
+00:00:23,410 --> 00:00:28,040
+programar en Python y Javascript utilizando tecnologías como el Jango Framework.
+
+7
+00:00:28,120 --> 00:00:29,680
+Angulo archies.
+
+8
+00:00:29,800 --> 00:00:35,140
+También me interesa el desarrollo de videojuegos un campo en el que me siento muy creativo y puede experimentar
+
+9
+00:00:35,140 --> 00:00:37,520
+cosas que la programación en sí misma no ofrece.
+
+10
+00:00:38,020 --> 00:00:39,880
+Pero mi verdadera pasión es enseñar.
+
+11
+00:00:40,000 --> 00:00:44,500
+De hecho con el tiempo me he dado cuenta de que la forma como más aprendo enseñando.
+
+12
+00:00:46,500 --> 00:00:50,200
+Hace un par de años decidí grabar un curso sobre fundamentos de programación.
+
+13
+00:00:50,490 --> 00:00:54,960
+La verdad es que lo hice por probar y nunca imaginé que tendría tanto éxito contando actualmente con
+
+14
+00:00:54,960 --> 00:00:59,830
+más de 20 mil alumnos y volviéndose uno de los más famosos en la plataforma.
+
+15
+00:00:59,850 --> 00:01:04,320
+La cuestión es que al final de ese curso prometí que haría uno nuevo sobre el lenguaje Python y sois
+
+16
+00:01:04,320 --> 00:01:08,100
+muchos los que me habéis enviado mensajes de apoyo pidiéndome que lo hiciera.
+
+17
+00:01:09,890 --> 00:01:12,100
+Pero la verdad es que no me sentía preparado.
+
+18
+00:01:12,410 --> 00:01:16,730
+Es un lenguaje muy serio y que adoro y por eso no quería crear un curso que no estuviera a la altura
+
+19
+00:01:16,730 --> 00:01:18,630
+de mis propias expectativas.
+
+20
+00:01:18,800 --> 00:01:20,720
+Necesitaba conocimientos de dicción.
+
+21
+00:01:20,750 --> 00:01:24,950
+Un equipo de grabación profesional y sobretodo más experiencia enseñando.
+
+22
+00:01:25,010 --> 00:01:29,960
+Desde entonces he estado puliendo mis habilidades he conseguido un buen equipo he aprendido a editar
+
+23
+00:01:30,350 --> 00:01:35,060
+he dado clases como profesor particular y también he creado un canal de YouTube en el que publico tutoriales
+
+24
+00:01:35,090 --> 00:01:37,100
+para mi propia escuela de videojuegos.
+
+25
+00:01:37,700 --> 00:01:39,870
+Así que como mínimo os puedo asegurar algo.
+
+26
+00:01:39,950 --> 00:01:44,090
+Y es que me he dejado la piel para estar a la altura de lo que merece un curso sobre este lenguaje.
+
+27
+00:01:44,450 --> 00:01:47,500
+Porque ya sabéis que si vosotros aprendéis yo también aprendo.

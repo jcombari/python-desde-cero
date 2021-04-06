@@ -1,0 +1,523 @@
+1
+00:00:01,810 --> 00:00:03,330
+Bien vamos a seguir trabajando.
+
+2
+00:00:03,340 --> 00:00:08,190
+Otro whittier y en esta elección vamos a introducir los marcos los frenos.
+
+3
+00:00:08,410 --> 00:00:12,620
+Tengo la estructura ya creada voy a guardar la del nuevo.
+
+4
+00:00:14,190 --> 00:00:18,310
+Se hifas y voy a armarla freinet puntos.
+
+5
+00:00:18,320 --> 00:00:21,470
+Vive muy bien aquí.
+
+6
+00:00:21,630 --> 00:00:27,930
+Después de haber creado nuestra raíz vamos a comenzar a trabajar un poco humphreys para crear un freímos
+
+7
+00:00:27,930 --> 00:00:34,830
+marco simplemente podemos crear una variable efraim y asignarle el resultado de crear un marco fresco.
+
+8
+00:00:35,250 --> 00:00:39,530
+Pero cómo vamos a introducir este frame este marco dentro del país.
+
+9
+00:00:39,600 --> 00:00:46,270
+Lo que tenemos que hacer es pasarle como argumento la raíz de esta forma ya lo tendremos dentro.
+
+10
+00:00:46,830 --> 00:00:55,500
+Sin embargo si ejecutamos este código como veis no notamos nada distinto todos lo mismo lo que nos falta
+
+11
+00:00:55,500 --> 00:00:57,540
+decirles que en paquete.
+
+12
+00:00:57,540 --> 00:01:03,530
+De alguna forma y lo distribuya dentro de nuestra raíz y para hacerlo tenemos que llamar a un método.
+
+13
+00:01:03,570 --> 00:01:10,290
+Por ejemplo hay otros pero les voy a enseñar este por ahora que es el pack vamos a decirle al Fram que
+
+14
+00:01:10,290 --> 00:01:14,750
+es en paquete asimismo a que se distribuya dentro de la raíz ROOT.
+
+15
+00:01:14,760 --> 00:01:21,990
+De esta forma si lo ejecutamos ahora fijaros ahora tenemos una ventana muy pequeña.
+
+16
+00:01:21,990 --> 00:01:23,600
+Algo ha sucedido aquí.
+
+17
+00:01:23,640 --> 00:01:29,700
+Bueno lo que ha sucedido es que un frame por defecto no tiene ningún tamaño.
+
+18
+00:01:29,880 --> 00:01:33,650
+Entonces tendríamos que otorgarle un tamaño para ver un resultado.
+
+19
+00:01:33,660 --> 00:01:41,880
+Para hacerlo vamos a configurar en el faim con el método config un atributo estándar o dos atributos
+
+20
+00:01:41,880 --> 00:01:46,080
+estándar que son la Wiz la anchura.
+
+21
+00:01:46,080 --> 00:01:50,990
+Así por ejemplo dándole unos pixeles 480 píxeles.
+
+22
+00:01:53,430 --> 00:01:59,220
+Y una altura de por ejemplo 320 píxeles.
+
+23
+00:01:59,220 --> 00:02:08,160
+Vamos a ejecutar de nuevo esto y como veis ahora ya se nos ejecuta algo con un tamaño que es al que
+
+24
+00:02:08,160 --> 00:02:09,170
+le hemos dado.
+
+25
+00:02:11,410 --> 00:02:17,230
+Este tamaño es Wiz y está jaitt son dos propiedades un poco importantes de los frames.
+
+26
+00:02:17,230 --> 00:02:20,720
+Por qué se va podemos pasar tan bien en el momento de crear el free.
+
+27
+00:02:20,860 --> 00:02:23,360
+De esta forma no hace falta llamar al config.
+
+28
+00:02:23,590 --> 00:02:25,120
+Podemos hacerlo así.
+
+29
+00:02:25,150 --> 00:02:27,590
+Como veis tenemos lo mismo.
+
+30
+00:02:27,610 --> 00:02:31,370
+Sin embargo los marcos nos dan algunas posibilidades más.
+
+31
+00:02:31,480 --> 00:02:40,970
+Por ejemplo vamos a configurar un cursor vamos a poner el cursor y por ejemplo vamos a indicar Lasi
+
+32
+00:02:40,990 --> 00:02:44,940
+entre doble comillas piratee.
+
+33
+00:02:45,720 --> 00:02:48,240
+De acuerdo piratee significa pirata.
+
+34
+00:02:48,480 --> 00:02:49,950
+Y qué creéis que va a hacer esto.
+
+35
+00:02:49,950 --> 00:02:51,260
+Vamos a ejecutarlo.
+
+36
+00:02:51,660 --> 00:02:57,350
+Pues como veis aparece un cursor encima de la ventana que es una calavera.
+
+37
+00:02:58,140 --> 00:03:01,220
+De acuerdo pero fijaros bien.
+
+38
+00:03:01,590 --> 00:03:08,340
+Si hago la pantalla más grande este cursor no cambia en todos sitios sino que solamente en un determinado
+
+39
+00:03:08,340 --> 00:03:08,990
+lugar.
+
+40
+00:03:09,950 --> 00:03:11,360
+Se actualiza.
+
+41
+00:03:12,680 --> 00:03:18,080
+Por qué sucede esto sucede porque nuestro marco no está ocupando todo el tamaño de la ventana aunque
+
+42
+00:03:18,080 --> 00:03:20,010
+la hagamos más grande.
+
+43
+00:03:20,010 --> 00:03:27,170
+él siempre va a estar ocupando un ancho de 480 píxeles y un alto de 320 fijaros vamos a utilizar una
+
+44
+00:03:27,170 --> 00:03:33,890
+propiedad estándar muy interesante que es el BG que sirve para cambiar el color del fondo y vamos a
+
+45
+00:03:33,890 --> 00:03:42,150
+pasarle por ejemplo un color entre comillas light glup un azul ligero vamos a volver a ejecutarlo y
+
+46
+00:03:42,200 --> 00:03:48,620
+mirar lo que tenemos aquí tenemos ahora el fondo de color azul pero si hacemos más grande lo que tenemos
+
+47
+00:03:49,160 --> 00:03:55,490
+es que alrededor del fondo donde nuestro marco sale de color blanco o de color gris que es el que viene
+
+48
+00:03:55,490 --> 00:04:03,290
+por defecto dentro de la raíz pues incluso podemos cambiar otra cosa podemos indicarle a este marco
+
+49
+00:04:03,290 --> 00:04:09,830
+que tenga un tamaño de borde por ejemplo BD.
+
+50
+00:04:10,130 --> 00:04:14,180
+Y aquí vamos a pasar por ejemplo 20 píxeles de ancho.
+
+51
+00:04:14,300 --> 00:04:21,540
+Vamos a decirle que tenga un borde que separe el fondo la raíz del marco 25 pixeles.
+
+52
+00:04:21,740 --> 00:04:29,600
+Si lo ejecutamos quizá no vemos nada porque no estamos mostrando el borde pero si le diéramos un tipo
+
+53
+00:04:29,600 --> 00:04:31,130
+de borde.
+
+54
+00:04:31,430 --> 00:04:38,870
+De esta forma freien puntos config por ejemplo releía que es para cambiar el tipo de borde y ponemos
+
+55
+00:04:39,270 --> 00:04:42,130
+shum kean que es un borde.
+
+56
+00:04:43,050 --> 00:04:50,280
+Un relieve hundido mejor dicho lo que vamos a hacer ponerlo en marcha es que fijaros dónde está nuestro
+
+57
+00:04:50,280 --> 00:04:50,980
+borde.
+
+58
+00:04:51,870 --> 00:04:57,190
+Tenemos un relieve hundido del mismo color que hemos indicado de fondo.
+
+59
+00:04:58,690 --> 00:05:05,290
+Así que aquí vemos como tenemos bien un marco y luego un fondo que es la raíz.
+
+60
+00:05:05,570 --> 00:05:08,730
+Pero incluso podríamos también utilizando estas.
+
+61
+00:05:09,490 --> 00:05:15,950
+Propiedades estos atributos visuales también los podemos hacer con la raíz con root.
+
+62
+00:05:16,730 --> 00:05:22,070
+Fijaros vamos a copiarlos todos y vamos a cambiarlos un poco en lugar de llamar a freie.
+
+63
+00:05:22,100 --> 00:05:23,650
+Vamos a llamar a Ruth.
+
+64
+00:05:23,990 --> 00:05:30,800
+Así de esta forma ahora en lugar de que el cursor sea pirata vamos a dejar que el cursor posea por defecto
+
+65
+00:05:31,540 --> 00:05:34,150
+un arrogue que es una flecha normal.
+
+66
+00:05:34,850 --> 00:05:40,820
+El color de fondo podríamos ponerlo esta vez blue que es un color azul normal.
+
+67
+00:05:41,390 --> 00:05:48,740
+También podríamos poner un borde pero en esta ocasión por ejemplo de 15 más pequeño y un relieve a este
+
+68
+00:05:48,740 --> 00:06:01,220
+borde que por ejemplo podría ser Ridge que sería algo así como una cresta y literalmente se traduce
+
+69
+00:06:01,220 --> 00:06:01,850
+como cresta.
+
+70
+00:06:01,850 --> 00:06:06,120
+Pero lo vais a ver ahora cuando lo pongamos en marcha fijaros.
+
+71
+00:06:08,010 --> 00:06:15,970
+Aquí tenemos un borde a nuestro contenedor de raíz con un color de fondo por defecto con el cursor de
+
+72
+00:06:15,990 --> 00:06:22,500
+flecha y en cambio el marco lo tenemos de otro color con otro borde con un tamaño de borde y cuando
+
+73
+00:06:22,500 --> 00:06:27,640
+ponemos el ratón por encima aparece una calavera que es el cursor que hemos establecido.
+
+74
+00:06:27,660 --> 00:06:34,890
+Sin embargo como veis Curiosamente cuando hacemos la ventana más grande el frame se encuentra centrado
+
+75
+00:06:34,890 --> 00:06:36,300
+arriba y al medio.
+
+76
+00:06:36,300 --> 00:06:37,220
+Curioso.
+
+77
+00:06:37,500 --> 00:06:42,780
+Eso es porque el método pack alinea los widgets arriba y al medio.
+
+78
+00:06:42,780 --> 00:06:48,930
+Esta posición se conoce como la distribución del widget y podemos cambiarla de dos formas justo al empacar
+
+79
+00:06:48,930 --> 00:06:49,770
+el frame.
+
+80
+00:06:50,070 --> 00:06:53,150
+Vamos a cerrar las salas voy a enseñar.
+
+81
+00:06:53,400 --> 00:06:58,480
+La primera es que vamos a ponerlo activa cuando hacemos el pack.
+
+82
+00:06:58,540 --> 00:07:01,150
+Bueno mejor lo vamos a poner justo aquí en el pack.
+
+83
+00:07:02,250 --> 00:07:03,890
+La primera es el Sight.
+
+84
+00:07:04,760 --> 00:07:15,020
+El lado podemos pasarla así y decirle el lado al que queremos distribuir este marco dentro del contenedor
+
+85
+00:07:15,020 --> 00:07:20,820
+raíz y lo pondríamos por ejemplo así rayet LADO derecha.
+
+86
+00:07:21,160 --> 00:07:25,260
+Si ejecutamos todo esto de nuevo y ahora hacemos más grande.
+
+87
+00:07:26,020 --> 00:07:31,200
+Como veis right lo que hace es alinear hacia la derecha.
+
+88
+00:07:31,750 --> 00:07:39,290
+Siempre se posicionará automáticamente a la derecha de la capa contenedora el contenedor la raíz.
+
+89
+00:07:39,700 --> 00:07:48,830
+Si lo hiciéramos Bottom lo que tendríamos es abajo al medio.
+
+90
+00:07:51,010 --> 00:07:56,370
+Evidentemente también tenemos las opciones left para la izquierda y para la parte superior al centro.
+
+91
+00:07:57,250 --> 00:08:01,940
+Sin embargo quizá alinearlo a un lado no sea suficiente.
+
+92
+00:08:02,410 --> 00:08:07,810
+Arriba abajo y nos gustaría por ejemplo que aparte de hacerlo abajo también lo hiciera a la izquierda
+
+93
+00:08:07,870 --> 00:08:08,960
+o a la derecha.
+
+94
+00:08:08,960 --> 00:08:15,940
+Pues entonces tenemos que utilizar otro parámetro llamado Anchor para anclar bien a un lado.
+
+95
+00:08:15,970 --> 00:08:22,630
+Entonces le diríamos queremos hacerlo abajo y anclado a una orientación y aquí tendríamos que pasar
+
+96
+00:08:22,630 --> 00:08:27,120
+por ejemplo este oeste norte o sur por ejemplo.
+
+97
+00:08:27,300 --> 00:08:31,890
+Y en nuestro caso lo diríamos abajo a la derecha y la derecha sería el este.
+
+98
+00:08:32,290 --> 00:08:34,550
+Así que pondríamos una e inglés.
+
+99
+00:08:34,630 --> 00:08:41,680
+Y si lo ejecutamos y hacemos más grande como veis ahora lo tenemos alineado abajo y anclado a la derecha
+
+100
+00:08:42,060 --> 00:08:43,380
+al este.
+
+101
+00:08:43,600 --> 00:08:50,280
+Si lo quisiéramos anclar al oeste pues pondríamos una W de West que sería la izquierda.
+
+102
+00:08:50,640 --> 00:08:52,060
+Y si lo ejecutamos de nuevo.
+
+103
+00:08:52,120 --> 00:08:55,370
+Pues como veis tenemos el marco por la izquierda abajo.
+
+104
+00:08:55,750 --> 00:08:56,520
+De acuerdo.
+
+105
+00:08:58,620 --> 00:08:59,780
+Y no solo eso.
+
+106
+00:08:59,880 --> 00:09:07,950
+También podemos redimensionar un widget podríamos decirle que ocupe un tamaño a partir del tamaño de
+
+107
+00:09:07,950 --> 00:09:10,070
+la del whittier que lo contiene.
+
+108
+00:09:10,080 --> 00:09:13,150
+Siempre me sale la capa como vengo del desarrollo web.
+
+109
+00:09:13,410 --> 00:09:18,560
+Pero bueno lo que tendríamos que hacer en ese caso por ejemplo vamos a borrar esto.
+
+110
+00:09:18,720 --> 00:09:25,450
+Y podemos decirle que rellene con un fusil el ancho del Padre.
+
+111
+00:09:25,620 --> 00:09:33,870
+Vamos a ponerlo así Filth X para indicar el ancho horizontal y fijaros lo que va a suceder si hacemos
+
+112
+00:09:33,870 --> 00:09:40,610
+más grande al padre esta capa nos crece también horizontalmente porque le hemos dicho que la rellene.
+
+113
+00:09:41,340 --> 00:09:46,520
+En horizontal y también podemos rellenar verticalmente con una y griega.
+
+114
+00:09:48,690 --> 00:09:56,430
+Como veis el problema es que rellenar en altura como estamos rellenando lo que sería la raíz y la raíz
+
+115
+00:09:56,430 --> 00:10:02,190
+no es algo que tenga un tamaño por defecto pues no nos va a funcionar cuando no tenemos un tamaño por
+
+116
+00:10:02,190 --> 00:10:03,060
+defecto.
+
+117
+00:10:03,120 --> 00:10:12,900
+Lo único que nos va a funcionar para rellenar del todo el contenedor es también juntar el FIL con otro
+
+118
+00:10:13,230 --> 00:10:20,940
+atributo llamado expand que le va a decir que aparte de rellenar expanda el widget para que ocupe lo
+
+119
+00:10:20,940 --> 00:10:24,760
+que ocupa su padre y lo vamos a pasar un Unos como si fuera truque.
+
+120
+00:10:25,110 --> 00:10:28,380
+Si esto lo ejecutamos y ahora lo hacemos más grande.
+
+121
+00:10:28,680 --> 00:10:31,550
+Cómo veis ahora expande en alto.
+
+122
+00:10:34,210 --> 00:10:41,940
+Y si quisiéramos que también se expandiera en horizontal pues tendríamos que pasarle aquí algo que es
+
+123
+00:10:41,940 --> 00:10:42,450
+diferente.
+
+124
+00:10:42,450 --> 00:10:48,090
+No es ni x ni griega porque queremos que lo haga a la vez teníamos que pasarle una palabra llamada voz
+
+125
+00:10:48,150 --> 00:10:49,860
+que significa ambos.
+
+126
+00:10:49,890 --> 00:10:57,560
+De esta forma fijaros vamos a rellenar y expandir en alto y en ancho de acuerdo.
+
+127
+00:10:57,660 --> 00:10:58,700
+Esta es la forma.
+
+128
+00:11:00,040 --> 00:11:04,270
+Phil voz y expand en verdadero o con un 1.
+
+129
+00:11:04,450 --> 00:11:11,710
+Para que un widget hijo por decirlo de alguna forma ocupe todo el tamaño posible dentro de su widget
+
+130
+00:11:11,710 --> 00:11:19,010
+contenedor o padre y muy bien seguiremos hablando sobre la distribución de los widgets más adelante.
+
+131
+00:11:19,030 --> 00:11:21,280
+Por ahora vamos a dejarlo aquí.

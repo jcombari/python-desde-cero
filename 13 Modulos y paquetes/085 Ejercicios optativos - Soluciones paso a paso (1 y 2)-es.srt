@@ -1,0 +1,467 @@
+1
+00:00:01,150 --> 00:00:08,040
+Muy bien vamos a por los ejercicios del tema de módulos vamos a practicar un poco estos módulos y el
+
+2
+00:00:08,040 --> 00:00:14,700
+primer ejercicio vamos a tener que crear el siguiente módulo un módulo denominado operaciones que contendrá
+
+3
+00:00:14,700 --> 00:00:20,100
+cuatro funciones para realizar una suma una resta un producto y una división.
+
+4
+00:00:20,100 --> 00:00:23,130
+Por tanto esta será las cuatro funciones entre dos números.
+
+5
+00:00:23,130 --> 00:00:29,040
+Todas ellas devolverán el resultado en las funciones del módulo deberá de haber tratamiento de invocación
+
+6
+00:00:29,040 --> 00:00:34,400
+manual de errores para evitar que se quede bloqueada una funcionalidad y eso incluye el error taipe
+
+7
+00:00:34,410 --> 00:00:34,760
+Error.
+
+8
+00:00:34,770 --> 00:00:37,740
+En caso de que se envíen valores a las funciones que no sean números.
+
+9
+00:00:38,070 --> 00:00:43,320
+Además deberá aparecer un mensaje que informe Error Tipo de Dato no válido y cero división error en
+
+10
+00:00:43,320 --> 00:00:47,250
+caso de realizar una división por cero o en tercero mejor dicho.
+
+11
+00:00:47,260 --> 00:00:49,530
+Además te aparecerá un mensaje que informe de error.
+
+12
+00:00:49,560 --> 00:00:51,620
+No es posible dividir entre cero.
+
+13
+00:00:52,230 --> 00:00:56,280
+Una vez creado el módulo crea un script cãlculos en el mismo directorio en el que deberás importar el
+
+14
+00:00:56,280 --> 00:00:58,570
+módulo y realizar las siguientes instrucciones.
+
+15
+00:00:58,710 --> 00:01:05,430
+Observar si el comportamiento es el esperado entonces tendremos que crear este cãlculos Llamar al módulo
+
+16
+00:01:05,850 --> 00:01:11,880
+de operaciones e intentar ejecutar este código que tenemos aquí simplemente tendremos que copiar y pegar
+
+17
+00:01:12,610 --> 00:01:14,370
+y observar si todo funciona.
+
+18
+00:01:14,700 --> 00:01:20,760
+Así que vais a permitirme que abra mi editor de scripts.
+
+19
+00:01:24,260 --> 00:01:34,140
+Y voy a crear este scrip llamado operaciones script que en realidad es un módulo Operaciones.
+
+20
+00:01:35,500 --> 00:01:43,490
+Vamos a comenzar simplemente creando la estructura de las funciones vamos a comenzar por la suma de
+
+21
+00:01:43,490 --> 00:01:53,510
+suma recibiremos los parámetros y aquí devolveremos una suma de resta lo mismo.
+
+22
+00:01:53,510 --> 00:02:05,360
+De hecho voy a copiarlo todo rápidamente para ir más rápido dos veces más aquí productos y división.
+
+23
+00:02:07,590 --> 00:02:12,540
+Entonces lo que tenemos que hacer vamos a comenzar por la suma es devolver o calcular el resultado de
+
+24
+00:02:12,540 --> 00:02:19,170
+dar más Vick y devolverlo con un Returned del resultado.
+
+25
+00:02:19,170 --> 00:02:23,040
+Lo que tenemos que tener en cuenta es que B tienen que ser números.
+
+26
+00:02:23,040 --> 00:02:30,130
+Por tanto si no son números al ejecutar esta suma dará error.
+
+27
+00:02:30,600 --> 00:02:33,990
+Entonces tenemos que capturar esta posibilidad.
+
+28
+00:02:34,050 --> 00:02:43,590
+Podríamos hacer un try de acuerdo y en el tráfico capturar este momento cuando de un error
+
+29
+00:02:46,440 --> 00:02:51,460
+suponiendo que introducimos algo que no son números que es lo que nos está pidiendo en el enunciado
+
+30
+00:02:52,390 --> 00:02:55,460
+y en ese caso mostramos por pantalla el mensaje que nos indican.
+
+31
+00:02:55,830 --> 00:03:07,640
+Error Tipo de Dato no válido y finalmente devolveremos el resultado.
+
+32
+00:03:08,010 --> 00:03:14,480
+Podríamos añadir un error porque recordar que lo que hacía era después de comprobar si ejecutamos algo
+
+33
+00:03:15,270 --> 00:03:18,630
+y no se encuentra un error se ejecuta al ELS.
+
+34
+00:03:18,690 --> 00:03:25,740
+En caso de que todo vaya bien cuando no hay un error y aquí tenemos el LG devolviendo el resultado.
+
+35
+00:03:26,250 --> 00:03:31,500
+Básicamente este es el mismo patrón que tenemos que seguir con los demás.
+
+36
+00:03:31,500 --> 00:03:40,680
+Por lo tanto vamos a copiarlo para hacer la resta vamos a hacer una resta y para hacer el producto vamos
+
+37
+00:03:40,680 --> 00:03:45,660
+a hacer lo mismo un producto y devolver este resultado para la división.
+
+38
+00:03:45,690 --> 00:03:48,270
+Tendremos que comprobar algo más.
+
+39
+00:03:48,450 --> 00:03:55,210
+Y es que al hacer la división puede que del taipe Error o puede darnos otro error que es el de esfero
+
+40
+00:03:55,220 --> 00:03:55,770
+División.
+
+41
+00:03:55,800 --> 00:03:56,510
+Error.
+
+42
+00:03:56,760 --> 00:04:01,920
+Por tanto tendríamos que tener otra excepción para capturar esa otra posibilidad tal como nos indican
+
+43
+00:04:01,920 --> 00:04:10,890
+en el enunciado de este ejercicio y este sería cero división error y el error que tenemos que mostrar
+
+44
+00:04:10,890 --> 00:04:20,220
+por pantalla en este caso es que no es posible dividir por cero y con esto ya tenemos nuestro módulo.
+
+45
+00:04:20,220 --> 00:04:26,320
+Como veis ha sido bastante sencillo y no tiene mucha dificultad.
+
+46
+00:04:26,460 --> 00:04:32,270
+Ahora voy a crear un nuevo fichero y le voy a llamar cãlculos punto Pi.
+
+47
+00:04:33,570 --> 00:04:39,930
+En este cálculo ee.pp tenemos que escribir lo que tenemos aquí importar el módulo de operaciones y realizar
+
+48
+00:04:40,890 --> 00:04:47,220
+estas operaciones y comprobar si se ejecutan como simplemente lo tengo que ejecutar puedo ejecutarlo
+
+49
+00:04:48,030 --> 00:04:50,710
+desde el propio texto.
+
+50
+00:04:52,040 --> 00:04:54,950
+Y voy a conservar el resultado.
+
+51
+00:04:58,530 --> 00:05:02,310
+10 más 5 es igual a 15.
+
+52
+00:05:02,780 --> 00:05:10,990
+El segundo la resta y la resta es B que sería 5 menos de una cadena de caracteres.
+
+53
+00:05:11,190 --> 00:05:13,680
+5 menos cola es igual a None.
+
+54
+00:05:13,690 --> 00:05:20,030
+Y antes nos ha avisado de error tipo de dato no válido.
+
+55
+00:05:20,030 --> 00:05:20,510
+Vale.
+
+56
+00:05:20,610 --> 00:05:22,260
+Funciona bien.
+
+57
+00:05:23,280 --> 00:05:29,550
+Luego tenemos el producto B por B 5 por 5 25 ok.
+
+58
+00:05:31,310 --> 00:05:32,430
+Y luego tenemos.
+
+59
+00:05:34,290 --> 00:05:43,170
+En 13 a entre cero y diez entre dos y diez entre cero lo podemos dividir por cero.
+
+60
+00:05:43,300 --> 00:05:47,830
+Cuando hacemos esta división entre cero nos da None porque no estamos devolviendo nada pero ya nos ha
+
+61
+00:05:47,830 --> 00:05:51,190
+indicado previamente que no es posible dividir por cero.
+
+62
+00:05:51,700 --> 00:05:56,480
+Por tanto tenemos bien el módulo y se comporta como estamos esperando.
+
+63
+00:05:56,750 --> 00:06:02,140
+No hemos practicado un poquito como crear un módulo bastante sencillo así que vamos a seguir con el
+
+64
+00:06:02,140 --> 00:06:06,430
+siguiente ejercicio que este ya es un poco más interesante y seguro que nos va a gustar.
+
+65
+00:06:06,460 --> 00:06:11,860
+En él nos dicen eres capaz de desarrollar un reloj de horas minutos y segundos utilizando el módulo
+
+66
+00:06:11,880 --> 00:06:18,810
+de timm Colabora actual hazlo en un script llamado Reloj Topy y ejecutarlo en la terminal.
+
+67
+00:06:18,970 --> 00:06:25,390
+El módulo timm integra una función llamada de gilip segundos que puedes pasar la ejecución de un programa
+
+68
+00:06:25,390 --> 00:06:26,590
+durante un tiempo.
+
+69
+00:06:26,590 --> 00:06:34,540
+Asimismo el módulo 2 integra la función System y entre cada una cadena un parámetro que sea CLS que
+
+70
+00:06:34,540 --> 00:06:40,960
+significa Clin escrito o algo así limpiar pantalla y System Clear.
+
+71
+00:06:41,140 --> 00:06:47,110
+Para limpiar la pantalla la terminal en sistemas Windows y Linux Unix respectivamente por lo tanto la
+
+72
+00:06:47,110 --> 00:06:54,340
+idea es que mostremos por pantalla una especie de bucle infinito o algo así que por ejemplo cada segundo
+
+73
+00:06:54,340 --> 00:07:01,450
+se actualiza y muestre la hora actual la hora los minutos y los segundos haciendo uso de esta función
+
+74
+00:07:02,020 --> 00:07:08,070
+llamada slip para parar el programa durante un segundo y limpiando la pantalla.
+
+75
+00:07:09,080 --> 00:07:15,080
+Pues siempre se irá actualizando la hora limpiar la pantalla es dejarlo todo limpio.
+
+76
+00:07:15,430 --> 00:07:21,050
+En un ejemplo gráfico por ejemplo imaginar que tenemos aquí la pantalla de la terminal con muchas cosas
+
+77
+00:07:21,140 --> 00:07:24,730
+pues en Windows el comando Paralimpiada es CLS.
+
+78
+00:07:24,920 --> 00:07:34,040
+Para limpiar esta pantalla o la terminal y en Unix o sistemas Linux pues sería Clear.
+
+79
+00:07:34,790 --> 00:07:37,780
+Por tanto lo que estaremos haciendo es limpiando todo el contenido.
+
+80
+00:07:38,720 --> 00:07:44,660
+Todo el rato y mostrando la parte superior la hora actual por ejemplo imagina que son las cero cero
+
+81
+00:07:44,660 --> 00:07:56,300
+cero cero al cabo de un segundo serán 1 luego serán las 2 3 segundos y así sucesivamente irán pasando
+
+82
+00:07:56,690 --> 00:07:57,070
+las horas.
+
+83
+00:07:57,080 --> 00:08:01,370
+Pero a partir de la hora actual eso es el que tenemos que crear.
+
+84
+00:08:01,850 --> 00:08:11,790
+Vamos a ponernos manos a la obra y vamos a crear este reloj punto Pi.
+
+85
+00:08:13,030 --> 00:08:16,360
+Yo ya lo tengo pero lo voy a machacar y voy a volver a hacerlo.
+
+86
+00:08:16,610 --> 00:08:22,340
+Vamos a comenzar importando todos los módulos que necesitamos primero el detective para conseguir la
+
+87
+00:08:22,340 --> 00:08:30,950
+hora actual Luego timm que como hemos explicado tenemos esta función para parar el programa durante
+
+88
+00:08:30,950 --> 00:08:33,580
+unos instantes y luego tenemos.
+
+89
+00:08:33,710 --> 00:08:40,800
+Os vamos a comenzar creando un bucle infinito de acuerdo y también vamos a este bucle infinito.
+
+90
+00:08:40,970 --> 00:08:43,860
+Limpiar la pantalla se llamará Osh System.
+
+91
+00:08:43,970 --> 00:08:51,170
+Yo estoy en Windows por tanto utilizaré Kevin Kline Skylines o CLS o como se diga esto es ese no sé
+
+92
+00:08:51,170 --> 00:08:59,600
+si es descreen o de él que es como también la consola pero en todo caso vamos a empezar limpiando cada
+
+93
+00:08:59,600 --> 00:09:15,500
+vez que entremos a este bucle a este y íbamos a general la fecha y la hora de Time is time no y ahora
+
+94
+00:09:15,500 --> 00:09:19,220
+vamos a mostrar por pantalla la hora actual así
+
+95
+00:09:21,940 --> 00:09:33,170
+adquirían los 100 los minutos las horas luego los minutos vamos a ponerlo así y luego los segundos vamos
+
+96
+00:09:33,170 --> 00:09:44,950
+a pasar un forman de The over the minute de The second vale.
+
+97
+00:09:45,580 --> 00:09:46,640
+Y ahora.
+
+98
+00:09:46,650 --> 00:09:50,610
+Pues esto se seguiría repitiendo hasta el infinito.
+
+99
+00:09:50,990 --> 00:09:56,840
+Voy a ejecutarlo vosotros no lo hace contéis yo voy a ejecutarlo en un escrito voy a ejecutar aquí los
+
+100
+00:09:56,840 --> 00:09:58,550
+scripts voy a ejecutarlo.
+
+101
+00:09:58,580 --> 00:10:01,470
+Hay un reloj para ver lo que sucede.
+
+102
+00:10:01,940 --> 00:10:05,420
+Fijaros lo que está sucediendo.
+
+103
+00:10:05,420 --> 00:10:06,930
+Ya tengo el reloj creado.
+
+104
+00:10:08,360 --> 00:10:10,200
+El problema es que esto se está ejecutando.
+
+105
+00:10:10,370 --> 00:10:15,150
+Millones de veces ahora apretado control para parar la ejecución.
+
+106
+00:10:15,260 --> 00:10:21,740
+Pero eso se está creando hasta el infinito es decir todas las veces que la CPU el procesador del ordenador
+
+107
+00:10:21,740 --> 00:10:30,290
+puede ejecutar eso cada segundo lo ejecutará pero eso no es suficiente y menos en un programa que tiene
+
+108
+00:10:30,290 --> 00:10:38,740
+que mostrar simplemente los segundos podemos hacer lo mismo pero únicamente ejecutando eso una vez.
+
+109
+00:10:38,810 --> 00:10:45,250
+Una vez cada segundo y entonces ahí es cuando entra en juego pasar durante un segundo.
+
+110
+00:10:45,360 --> 00:10:50,940
+Este bucle en cada iteración para mostrar el reloj.
+
+111
+00:10:52,190 --> 00:10:58,190
+Time skip un segundo se ejecuta todo esto.
+
+112
+00:10:58,190 --> 00:11:05,630
+Mostramos la hora dormimos durante un segundo al programa y luego vuelvan a él vuelve a repetir el ciclo
+
+113
+00:11:06,020 --> 00:11:11,780
+se habrá actualizado el segundero y poco a poco iremos cambiando la hora y consumirá muchísimo menos
+
+114
+00:11:12,590 --> 00:11:15,320
+capacidad del procesador fijaros.
+
+115
+00:11:21,050 --> 00:11:26,740
+Muy bien y con esto ya tenemos nuestro pequeño programa tal y como nos piden en este ejercicio.
+
+116
+00:11:26,890 --> 00:11:27,260
+Veis.
+
+117
+00:11:27,250 --> 00:11:29,670
+En realidad han sido muy pocos pasos.

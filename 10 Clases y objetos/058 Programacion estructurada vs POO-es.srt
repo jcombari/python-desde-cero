@@ -1,0 +1,523 @@
+1
+00:00:00,840 --> 00:00:03,730
+Ya veis que se me llena la boca cada vez que hablo de objetos.
+
+2
+00:00:03,890 --> 00:00:07,530
+Eso es porque en Payton todo absolutamente todo son objetos.
+
+3
+00:00:07,830 --> 00:00:14,140
+Pero vamos a ver qué narices o los objetos os contestare planteando un caso de estudio muy sencillo
+
+4
+00:00:14,660 --> 00:00:20,210
+y cómo resolverlo utilizando programación estructurada y luego programación orientada a objetos.
+
+5
+00:00:20,220 --> 00:00:25,080
+Después de pensarlo mucho he decidido comenzar así porque creo que es muy importante que veáis la diferencia
+
+6
+00:00:25,080 --> 00:00:29,440
+entre los dos paradigmas en la práctica antes de lanzarnos a la teoría.
+
+7
+00:00:29,460 --> 00:00:34,650
+El caso de estudio es el siguiente nos piden crear un registro para manejar los clientes de una empresa
+
+8
+00:00:34,890 --> 00:00:37,290
+con su nombre sus apellidos y su DNI.
+
+9
+00:00:37,500 --> 00:00:41,360
+El programa debe permitirnos mostrar los datos de los clientes o borrarlos.
+
+10
+00:00:41,360 --> 00:00:46,110
+A partir de su DNI obviando el hecho de que todavía no hemos trabajado en los ficheros ni en las bases
+
+11
+00:00:46,110 --> 00:00:46,840
+de datos.
+
+12
+00:00:46,920 --> 00:00:49,230
+Por dónde empezar y ahí vosotros.
+
+13
+00:00:49,620 --> 00:00:57,160
+La verdad es que lo tengo bastante preparado vamos a abrir el tema 8 y vamos a ir a la Lección 1 Como
+
+14
+00:00:57,180 --> 00:01:01,930
+veis Supongo que estaréis de acuerdo conmigo en que lo primero es plasmar de alguna forma a los clientes
+
+15
+00:01:01,930 --> 00:01:07,970
+de la memoria por ejemplo creando una lista con diccionarios que representen clientes como aquel ejemplo
+
+16
+00:01:07,970 --> 00:01:11,340
+donde mezclamos listas con diccionarios.
+
+17
+00:01:11,350 --> 00:01:14,000
+Bueno esta sería una forma muy acertada de comenzar.
+
+18
+00:01:14,490 --> 00:01:21,780
+Creamos una lista clientes y dentro a modo de elementos de la lista añadimos unos diccionarios como
+
+19
+00:01:21,780 --> 00:01:30,600
+veís nombre Héctor apellidos costa Guzmán DNI y un DNI que me invento y luego otro nombre apellidos
+
+20
+00:01:31,080 --> 00:01:32,270
+y DNI.
+
+21
+00:01:32,850 --> 00:01:35,490
+Ahora vamos a ejecutar esta pieza de código.
+
+22
+00:01:35,490 --> 00:01:40,140
+La primera de todas tenter y podemos consultar a los clientes.
+
+23
+00:01:40,590 --> 00:01:44,910
+Como país aquí tenemos nuestra lista con nuestros clientes.
+
+24
+00:01:45,600 --> 00:01:49,860
+Ahora que tenemos un par de clientes la primera funcionalidad será mostrar la información de un cliente
+
+25
+00:01:49,860 --> 00:01:51,080
+a partir de su DNI.
+
+26
+00:01:51,240 --> 00:01:52,850
+Cómo podemos hacerlo.
+
+27
+00:01:52,890 --> 00:01:57,140
+Pues normalmente con una función a la que pasaríamos en la lista de clientes y un DNI para que ella
+
+28
+00:01:57,150 --> 00:02:04,050
+se encargue de buscarlo por ejemplo una función mostrar al cliente a la que le pasamos la lista y el
+
+29
+00:02:04,050 --> 00:02:10,680
+DNI y luego con un fork recorremos los clientes dentro de la lista y comprobamos si el DNI que enviamos
+
+30
+00:02:10,680 --> 00:02:15,720
+a la función concuerda con el DNI del diccionario que estamos comprobando en cada caso teniendo en cuenta
+
+31
+00:02:15,720 --> 00:02:19,050
+que la CE es el cliente que estamos recorriendo.
+
+32
+00:02:19,590 --> 00:02:25,200
+Si en algún momento concuerdan en el DNI que buscamos con el DNI del cliente que estamos iterando mostraremos
+
+33
+00:02:25,200 --> 00:02:30,510
+por pantalla el nombre y los apellidos de este cliente y para que acabe la función haremos un RETURN
+
+34
+00:02:30,510 --> 00:02:31,510
+vacío.
+
+35
+00:02:31,770 --> 00:02:37,640
+Si no se ejecuta nunca este Return cuando acabe de ejecutarse el foro mostraremos simplemente este mensaje
+
+36
+00:02:37,660 --> 00:02:43,590
+print cliente no encontrado vamos a ejecutarlo para que quede guardado esta función.
+
+37
+00:02:44,700 --> 00:02:51,750
+Ahora podremos utilizarla por ejemplo podríamos mostrar un cliente pasándole a los clientes que tenemos
+
+38
+00:02:51,750 --> 00:03:02,460
+aquí arriba la lista y por ejemplo un DNI el 1 1 1 1 1 1 1 1 4 y 4 y una letra.
+
+39
+00:03:03,070 --> 00:03:09,030
+Y como veis me dice Aitor Costa guzmãn dando a entender de que verdaderamente ha encontrado un cliente
+
+40
+00:03:09,480 --> 00:03:11,340
+en mi lista de clientes.
+
+41
+00:03:12,180 --> 00:03:17,700
+Si le enviara un DNI que no fuera correcto que no estuviera dentro como cliente pues me diría que el
+
+42
+00:03:17,700 --> 00:03:20,280
+cliente no se ha encontrado.
+
+43
+00:03:21,260 --> 00:03:23,670
+También podríamos hacer lo mismo para borrar un cliente.
+
+44
+00:03:23,670 --> 00:03:25,840
+Básicamente la estructura sería la misma.
+
+45
+00:03:25,980 --> 00:03:30,860
+Una nueva función Borrar cliente a la que pasaremos la lista de clientes y un DNI.
+
+46
+00:03:30,930 --> 00:03:37,070
+Y en esta ocasión para poder afectar a la lista lo que haremos es una numerador conservando el índice.
+
+47
+00:03:37,140 --> 00:03:42,720
+Como ya sabéis vamos a ir comprobando como antes los tenéis y si concuerda en el DNI con el que estamos
+
+48
+00:03:42,720 --> 00:03:49,860
+buscando borramos el cliente de la lista pasándole el elemento del índice actual y luego podríamos mostrar
+
+49
+00:03:49,890 --> 00:03:55,810
+un mensaje por pantalla con el cliente diciendo que se ha borrado finalmente.
+
+50
+00:03:56,660 --> 00:03:59,620
+Pues si no se ha encontrado ninguno como antes mostraremos que los ha encontrado.
+
+51
+00:03:59,620 --> 00:04:04,670
+Vamos a ejecutar esta pieza de código y ahora ya podemos trabajar esta función.
+
+52
+00:04:05,360 --> 00:04:16,080
+Si hacemos un borrar cliente le pasamos la lista y enviamos un DNI que no sea correcto por ejemplo.
+
+53
+00:04:17,290 --> 00:04:19,930
+Aquí arriba el de Juan.
+
+54
+00:04:20,860 --> 00:04:22,680
+Pero vamos a cambiarla por una nube.
+
+55
+00:04:22,680 --> 00:04:28,750
+Por ejemplo si lo ejecutamos dice que no se ha encontrado pero sí es correcto.
+
+56
+00:04:28,750 --> 00:04:34,060
+Si ponemos la B correctamente el DNI pues nos devuelve.
+
+57
+00:04:34,060 --> 00:04:38,790
+Este diccionario nos lo hemos dado por pantalla dice que se ha borrado y ahora sí lo mostrase.
+
+58
+00:04:38,910 --> 00:04:46,350
+Después voy a agregar una nueva pieza de código abajo voy a mostrar la lista de clientes.
+
+59
+00:04:47,450 --> 00:04:53,280
+Y como veis lo único que nos queda dentro de la lista de clientes ahora mismo es el primer cliente.
+
+60
+00:04:53,960 --> 00:05:00,440
+Bueno más o menos con este planteamiento iríamos desarrollando toda la lógica todas las funciones por
+
+61
+00:05:00,610 --> 00:05:08,140
+cliente muestra al cliente editar clientes detractora y digamos que es una forma tradicional estructurada
+
+62
+00:05:08,530 --> 00:05:12,870
+de dar respuesta a esta necesidad de este programa.
+
+63
+00:05:13,090 --> 00:05:18,720
+Pero a la larga este método se hace confuso porque se genera mucho código.
+
+64
+00:05:18,760 --> 00:05:24,280
+Se requiere mucha documentación haciendo referencia a todas las posibles funciones que van a servir
+
+65
+00:05:24,280 --> 00:05:27,700
+para manejar los clientes y cómo utilizarlas.
+
+66
+00:05:28,980 --> 00:05:33,370
+Además como veis es necesario mover continuamente la lista de un lado a otro tenemos que enviar siempre
+
+67
+00:05:33,390 --> 00:05:38,070
+la lista de clientes a las funciones para después manejarlas.
+
+68
+00:05:39,330 --> 00:05:40,780
+Y no es muy práctico.
+
+69
+00:05:41,040 --> 00:05:45,730
+Con todo esto podéis hacernos una idea de cómo funciona la programación estructurada.
+
+70
+00:05:46,560 --> 00:05:53,420
+Sin embargo si bajais un poco lo que he preparado después de un espacio en blanco es la misma implementación.
+
+71
+00:05:53,430 --> 00:06:01,020
+Para solucionar este mismo problema pero con programación orientada a objetos no quiero que le deis
+
+72
+00:06:01,020 --> 00:06:07,770
+vueltas al código de este código simplemente podéis copiarlo lo iremos aprendiendo a utilizar poco a
+
+73
+00:06:07,770 --> 00:06:10,450
+poco a lo largo de toda esta unidad.
+
+74
+00:06:10,830 --> 00:06:15,890
+Pero lo que me interesa es que veis como fluye la información a la hora de trabajar.
+
+75
+00:06:15,930 --> 00:06:22,950
+Con este ejemplo es decir venimos abajo del todo y una vez ejecutado todo este bloque de código para
+
+76
+00:06:22,950 --> 00:06:26,560
+dejarlo guardado en la memoria de acuerdo lo ejecuta país.
+
+77
+00:06:26,760 --> 00:06:30,920
+No ocurrirá nada pero ya podremos comenzar a trabajar con él.
+
+78
+00:06:30,960 --> 00:06:37,550
+Fijaros cómo cambia la sintaxis en lugar de utilizar funciones como en el caso anterior borrar cliente
+
+79
+00:06:37,580 --> 00:06:43,470
+pasa que los clientes lo que vamos a hacer es comenzar creando un cliente en la memoria por ejemplo
+
+80
+00:06:43,470 --> 00:06:49,530
+voy a llamarlo doctor para crear un cliente lo voy a poner de esta forma voy a poner cliente voy a abrir
+
+81
+00:06:49,530 --> 00:06:57,630
+un paréntesis y voy a ponerle nombre y lo voy a decir que este cliente se llama Héctor y que sus apellidos
+
+82
+00:06:57,960 --> 00:07:06,120
+apellidos igual son Costa Juan soy yo y un DNI DNI.
+
+83
+00:07:06,310 --> 00:07:13,520
+Igual voy a poner 8 unos uno uno uno uno por ejemplo.
+
+84
+00:07:14,030 --> 00:07:15,500
+Voy a apretar Enter.
+
+85
+00:07:15,550 --> 00:07:18,100
+Ya tengo mi cliente creado.
+
+86
+00:07:18,570 --> 00:07:22,790
+Si lo muestro pues me muestra un código muy extraño.
+
+87
+00:07:22,870 --> 00:07:24,490
+Bueno no pasa nada.
+
+88
+00:07:24,600 --> 00:07:25,460
+Otro cliente.
+
+89
+00:07:25,470 --> 00:07:27,140
+Vamos a crear un cliente llamado Juan
+
+90
+00:07:29,820 --> 00:07:35,610
+cliente y en esta ocasión en lugar de pasarle cada tributo simplemente voy a pasar por orden primero
+
+91
+00:07:35,970 --> 00:07:47,220
+un DNI dos dos dos dos dos dos dos dos una vez por ejemplo voy a pasarle un nombre y apellido unos apellidos
+
+92
+00:07:47,610 --> 00:07:48,450
+González
+
+93
+00:07:52,270 --> 00:07:55,760
+por ejemplo marquès Voy a guardarlo.
+
+94
+00:07:55,980 --> 00:07:59,220
+Ya tengo creados dos clientes Héctor y Juan.
+
+95
+00:07:59,790 --> 00:08:10,470
+Ahora voy a crear una empresa empresa igual empresa y le voy a pasar una variable con un argumento llamado
+
+96
+00:08:10,470 --> 00:08:21,450
+cliente clientes o clientes con una lista y dentro voy a añadir a Héctor y a Juan voy a guardarlo.
+
+97
+00:08:21,720 --> 00:08:25,420
+Yo tengo una empresa creada de esta empresa.
+
+98
+00:08:25,770 --> 00:08:35,070
+Puedo por ejemplo mostrar los clientes empresa puntos clientes y como veis me muestra una lista de algo
+
+99
+00:08:35,070 --> 00:08:36,980
+muy raro que es lo que mostraba arriba.
+
+100
+00:08:36,990 --> 00:08:39,520
+Pero esto es una lista de clientes.
+
+101
+00:08:39,540 --> 00:08:41,650
+Cómo podemos mostrar un cliente.
+
+102
+00:08:41,730 --> 00:08:49,890
+Por ejemplo hemos creado o he creado yo una una especie de función interna llamada a mostrar cliente
+
+103
+00:08:49,920 --> 00:08:51,180
+que actúa como antes.
+
+104
+00:08:51,180 --> 00:08:58,140
+Dentro de esta empresa la ejecutó poniendo un punto y mostrar al cliente una función y pasándole un
+
+105
+00:08:58,140 --> 00:09:01,020
+DNI DNI del cliente que quiero mostrar.
+
+106
+00:09:01,110 --> 00:09:05,550
+Por ejemplo voy a pasarle este DNI y de arriba voy a apretar Enter.
+
+107
+00:09:05,880 --> 00:09:09,890
+Y como veis me dice el cliente que yo quiero ver.
+
+108
+00:09:10,110 --> 00:09:11,690
+Héctor costa Guzmán.
+
+109
+00:09:11,880 --> 00:09:15,500
+También podemos por ejemplo borrar un cliente.
+
+110
+00:09:15,620 --> 00:09:17,770
+Robar clientes.
+
+111
+00:09:18,490 --> 00:09:22,390
+En esta ocasión por ejemplo simplemente podríamos pasar DNI del cliente.
+
+112
+00:09:22,400 --> 00:09:28,770
+Quiero borrar por ejemplo del Juan y lo voy a comprar me dice que se ha borrado.
+
+113
+00:09:28,770 --> 00:09:38,850
+Juan González Márquez si vuelvo a mostrar de empresa los clientes pues aquella lista que tenía antes
+
+114
+00:09:39,070 --> 00:09:42,690
+ya únicamente tiene un elemento de estos tan extraños.
+
+115
+00:09:43,460 --> 00:09:50,070
+Bueno pese a que no sabemos lo que está ocurriendo tras bambalinas podemos notar una sintaxis más clara
+
+116
+00:09:50,100 --> 00:09:53,770
+y auto explicativa que nos ayuda a comprender el programa.
+
+117
+00:09:54,030 --> 00:09:59,790
+La empresa tiene sus funciones para que un cliente se hace utilizando una palabra clave llamada adquiriente
+
+118
+00:09:59,820 --> 00:10:01,190
+la empresa cliente.
+
+119
+00:10:01,350 --> 00:10:07,680
+Enviamos los clientes cómodamente en una lista y tiene sus propios métodos para mostrarlos para borrarlo
+
+120
+00:10:07,710 --> 00:10:08,580
+etcétera.
+
+121
+00:10:08,880 --> 00:10:15,810
+Además del hecho de que nos ahorramos de enviar esta lista de clientes siempre a la hora de ejecutar
+
+122
+00:10:15,810 --> 00:10:21,050
+estas funciones Estas funcionalidades de manipular los datos.
+
+123
+00:10:21,470 --> 00:10:26,520
+La poh de la programación orientada a objetos se basa en determinar las entidades con nombre propio
+
+124
+00:10:26,940 --> 00:10:31,340
+en lugar de andar creando estructuras y diccionarios para representar información.
+
+125
+00:10:31,710 --> 00:10:38,340
+En nuestro ejemplo si subís tenemos un cliente y una empresa.
+
+126
+00:10:38,810 --> 00:10:40,020
+De acuerdo.
+
+127
+00:10:40,280 --> 00:10:46,160
+A partir de ahí cada entidad contará con sus variables internas sus funcionalidades internas incluso
+
+128
+00:10:46,160 --> 00:10:48,620
+podrán interactuar con otras entidades.
+
+129
+00:10:48,620 --> 00:10:50,780
+Las empresas contienen clientes.
+
+130
+00:10:51,220 --> 00:10:57,060
+Pues estas entidades son lo que se conocen como objetos y vamos a aprender sobre ellos en la próxima
+
+131
+00:10:57,060 --> 00:10:57,960
+elección.

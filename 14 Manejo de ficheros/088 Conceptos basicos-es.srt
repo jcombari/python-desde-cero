@@ -1,0 +1,227 @@
+1
+00:00:01,230 --> 00:00:06,320
+Antes de comenzar con los ficheros necesitamos contar con unos conocimientos básicos.
+
+2
+00:00:06,660 --> 00:00:11,820
+Debéis tener en cuenta que escribir en el disco duro puede resultar peligroso si se hace mal así que
+
+3
+00:00:11,850 --> 00:00:16,410
+aseguraros de entender todo bien primeramente qué es un fichero.
+
+4
+00:00:16,860 --> 00:00:21,270
+Un fichero es un conjunto de bits almacenados en un dispositivo de memoria persistente.
+
+5
+00:00:21,300 --> 00:00:23,440
+Normalmente un disco duro.
+
+6
+00:00:23,760 --> 00:00:28,650
+Este conjunto de información se identifica con un nombre que es el nombre del fichero y la dirección
+
+7
+00:00:28,650 --> 00:00:31,020
+de la carpeta al directorio que lo contiene.
+
+8
+00:00:31,230 --> 00:00:35,820
+Todos absolutamente todos los ficheros se localizan en un directorio determinado que se conoce como
+
+9
+00:00:35,820 --> 00:00:37,530
+la ruta del fichero.
+
+10
+00:00:37,530 --> 00:00:43,080
+Por cierto los ficheros se conocen tan bien como archivos informáticos porque son equivalentes digitales
+
+11
+00:00:43,080 --> 00:00:48,900
+de los archivos escritos por ejemplo en expedientes tarjetas o libretas que encontraríamos en una oficina
+
+12
+00:00:48,900 --> 00:00:50,010
+tradicional.
+
+13
+00:00:50,400 --> 00:00:56,160
+Otra cosa importante es que los ficheros se suelan identificar también con una extensión una extensión
+
+14
+00:00:56,160 --> 00:01:01,170
+es un código que se escribe después del nombre con un punto y varios caracteres que nos permite identificar
+
+15
+00:01:01,440 --> 00:01:03,780
+varios ficheros de un mismo tipo.
+
+16
+00:01:03,780 --> 00:01:08,640
+En realidad esto no deja de ser una formalidad ya que a nuestros programas no les importa la extensión
+
+17
+00:01:08,970 --> 00:01:12,500
+sino más bien cómo deben interpretar los datos que hay descritos dentro.
+
+18
+00:01:13,730 --> 00:01:19,670
+Segundo las cuatro operaciones que nos permiten los ficheros son creación proceso por el cual creamos
+
+19
+00:01:19,730 --> 00:01:21,350
+un fichero en el disco.
+
+20
+00:01:21,620 --> 00:01:22,510
+Apertura.
+
+21
+00:01:22,610 --> 00:01:29,480
+Proceso por el cual abrimos un fichero del disco para comenzar a trabajar con el cierre proceso por
+
+22
+00:01:29,480 --> 00:01:36,260
+el cual cerramos un fichero para dejar de trabajar con él y extensión proceso por el cual añadimos información
+
+23
+00:01:36,290 --> 00:01:37,670
+al fichero.
+
+24
+00:01:37,670 --> 00:01:42,560
+Es posible realizar varias operaciones a la vez como creación y apertura de la misma instrucción.
+
+25
+00:01:42,890 --> 00:01:47,300
+Sin embargo es necesario abrir un fichero para poder extenderlo o también para poder cerrarlo.
+
+26
+00:01:47,330 --> 00:01:50,110
+No se puede cerrar un fichero si primero no lo hemos abierto.
+
+27
+00:01:50,150 --> 00:01:51,260
+Es lógico.
+
+28
+00:01:51,260 --> 00:01:56,030
+Toma nota de la importancia de cerrar siempre el fichero porque si lo estamos utilizando y no lo hemos
+
+29
+00:01:56,030 --> 00:02:02,590
+cerrado no podremos trabajar con él no podríamos modificarlo si nuestro programa ya lo tiene abierto.
+
+30
+00:02:02,990 --> 00:02:09,080
+Tercero el puntero del fichero el puntero es un concepto por el cual podemos entender cómo el ordenador
+
+31
+00:02:09,080 --> 00:02:11,460
+accede y escribe en el fichero correctamente.
+
+32
+00:02:12,050 --> 00:02:17,120
+Imaginaros el puntero como si fuera el dedo del ordenador mientras recorre el fichero igual que nosotros
+
+33
+00:02:17,120 --> 00:02:19,430
+seguimos con el dedo un texto mientras lo leemos.
+
+34
+00:02:19,520 --> 00:02:21,380
+Y así sabemos por dónde vamos.
+
+35
+00:02:21,380 --> 00:02:26,240
+El puntero es muy importante ya que por ejemplo si se encuentra al principio del fichero y le decimos
+
+36
+00:02:26,240 --> 00:02:29,720
+que guarde datos ahí pues lo va a escribir desde el principio.
+
+37
+00:02:29,720 --> 00:02:32,530
+Pero si hay datos ya hay escritos.
+
+38
+00:02:32,600 --> 00:02:33,650
+Qué va a ocurrir.
+
+39
+00:02:34,010 --> 00:02:38,330
+Que lo guardaremos encima de otros datos y quizá haremos que el fichero quede inservible.
+
+40
+00:02:38,600 --> 00:02:44,490
+Entonces si queremos añadir datos al fichero donde debería estar el puntero pues el puntero debería
+
+41
+00:02:44,490 --> 00:02:47,870
+de estar al final de todo justo donde ya no hay nada más.
+
+42
+00:02:47,900 --> 00:02:49,550
+Algo que también es lógico.
+
+43
+00:02:49,970 --> 00:02:55,250
+Y por último hay que entender la diferencia entre ficheros de texto y ficheros binarios porque si probéis
+
+44
+00:02:55,250 --> 00:03:00,020
+al crear un fichero con un editor de texto luego lo podemos abrir cómodamente para seguir trabajando
+
+45
+00:03:00,200 --> 00:03:02,360
+como cuando creamos un script de python.
+
+46
+00:03:02,550 --> 00:03:08,710
+Y esto es porque los editores guardan información en ficheros de texto plano tal como nosotros los escribimos.
+
+47
+00:03:08,960 --> 00:03:16,020
+Pero qué ocurre si intentamos abrir una imagen o sonido con el editor pues aparecen muchos códigos extraños.
+
+48
+00:03:16,280 --> 00:03:20,200
+La causa es que estos ficheros no almacenan texto plano sino datos binarios.
+
+49
+00:03:20,200 --> 00:03:26,000
+Os acordáis al principio de dicho que guardaban bits esto sería la representación de los bits de alguna
+
+50
+00:03:26,000 --> 00:03:32,540
+forma los datos binarios son la forma más básica de dato que un ordenador puede manejar y por tanto
+
+51
+00:03:32,540 --> 00:03:36,100
+también la forma más rápida de escribir y leer información de un fichero.
+
+52
+00:03:36,290 --> 00:03:42,310
+Por eso sirven para guardar de todo desde imágenes sonidos ficheros que a su vez han sido comprimidos.
+
+53
+00:03:42,320 --> 00:03:47,320
+Texto enriquecido como el de un documento de Word o incluso el ejecutable de un programa.
+
+54
+00:03:47,330 --> 00:03:53,090
+Lo malo es que para nosotros son más difíciles de manejar porque requieren conocimientos informáticos
+
+55
+00:03:53,090 --> 00:03:54,640
+sobre el funcionamiento de los bits.
+
+56
+00:03:54,680 --> 00:04:00,740
+Los bits y las conversiones entre tipos así que estos no los vamos a ver pero en su lugar echaremos
+
+57
+00:04:00,740 --> 00:04:05,190
+un vistazo al módulo vizquel y cómo nos puede ayudar a gestionar colecciones.

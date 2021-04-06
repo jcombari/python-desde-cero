@@ -1,0 +1,379 @@
+1
+00:00:00,360 --> 00:00:05,340
+A lo largo de esta unidad vamos a aprender con ejemplos a utilizar una base de datos conjunto al lenguaje
+
+2
+00:00:05,340 --> 00:00:06,300
+Python.
+
+3
+00:00:06,300 --> 00:00:11,070
+Sin embargo suponiendo que muchos de vosotros no habéis utilizado nunca una base de datos hay una serie
+
+4
+00:00:11,070 --> 00:00:14,060
+de conceptos básicos que tenéis que conocer antes de empezar.
+
+5
+00:00:14,100 --> 00:00:17,910
+Así que he decidido dedicar esta presentación previa a explicarlos.
+
+6
+00:00:18,180 --> 00:00:21,850
+Qué es una base de datos también conocidas como bancos de datos.
+
+7
+00:00:21,870 --> 00:00:24,050
+Son simplemente conjuntos de datos.
+
+8
+00:00:24,150 --> 00:00:29,190
+Ya conocéis algunos tipos de datos como los números las cadenas de caracteres las fechas.
+
+9
+00:00:30,060 --> 00:00:34,670
+Estos conjuntos de datos hacen referencia a información perteneciente a un mismo contexto.
+
+10
+00:00:34,860 --> 00:00:39,930
+Es decir si hablamos de los clientes de una empresa estos datos comunes de todos los clientes podrían
+
+11
+00:00:39,930 --> 00:00:45,970
+ser sus nombres apellidos direcciones teléfonos o los productos de una tienda cada uno con su nombre
+
+12
+00:00:45,970 --> 00:00:47,890
+y precio descripción etcétera.
+
+13
+00:00:48,120 --> 00:00:53,250
+Por tanto al ser datos del mismo contexto las bases de datos permiten almacenarlos sistemáticamente
+
+14
+00:00:53,550 --> 00:00:59,790
+de forma automatizada con la finalidad de un posterior uso ya sea para realizar consultas comparativas
+
+15
+00:00:59,790 --> 00:01:06,150
+análisis modificaciones o simplemente borrarlos como son programas complejos centrados en la gestión
+
+16
+00:01:06,150 --> 00:01:07,080
+de información.
+
+17
+00:01:07,170 --> 00:01:11,890
+Reciben el nombre de sistemas gestores de bases de datos sgbd.
+
+18
+00:01:12,030 --> 00:01:18,030
+La peculiaridad de Los sgbd es que implementan sus propios lenguajes internos de programación para realizar
+
+19
+00:01:18,030 --> 00:01:23,160
+las consultas que pueden ser tan simples como consultar el nombre de todos los clientes de la empresa
+
+20
+00:01:23,490 --> 00:01:28,290
+o tan complejas como conseguir la información de los pedidos de una tienda a la vez que se consulta
+
+21
+00:01:28,290 --> 00:01:31,520
+a los clientes y en un conjunto de fechas determinado.
+
+22
+00:01:31,890 --> 00:01:36,570
+De todas formas los tipos de datos y la forma de almacenarlos pueden diferir mucho dependiendo exactamente
+
+23
+00:01:36,570 --> 00:01:38,550
+del contexto y la necesidad.
+
+24
+00:01:38,590 --> 00:01:43,410
+Y es por eso que con el tiempo se han ido desarrollando una serie de modelos distintos para gestionar
+
+25
+00:01:43,410 --> 00:01:45,160
+las bases de datos.
+
+26
+00:01:45,180 --> 00:01:50,310
+Encontramos por ejemplo las bases de datos jerárquicas que utilizan modelos de datos que se organizan
+
+27
+00:01:50,310 --> 00:01:55,770
+en forma de árbol invertido en donde un nodo padre con información puede tener varios hijos que a su
+
+28
+00:01:55,770 --> 00:01:57,810
+vez pueden tener más información.
+
+29
+00:01:57,810 --> 00:02:03,990
+También encontramos en los modelos de red que son una mejora del modelo jerárquico donde los hijos pueden
+
+30
+00:02:03,990 --> 00:02:05,570
+tener varios padres.
+
+31
+00:02:05,580 --> 00:02:11,760
+Otros como los modelos transaccionales cuyo único fin es el envío y recepción de datos están centrados
+
+32
+00:02:11,760 --> 00:02:15,600
+en las grandes velocidades que implementan aunque son poco comunes.
+
+33
+00:02:15,870 --> 00:02:20,940
+Luego tenemos los modelos relacionales utilizados en la actualidad para representar problemas reales
+
+34
+00:02:20,940 --> 00:02:27,360
+y administrar datos dinámicamente en el que nos vamos a centrar pero hay otros por ejemplo los documentales
+
+35
+00:02:27,660 --> 00:02:32,820
+que permiten guardar texto completo y en líneas generales realizar búsquedas más potentes.
+
+36
+00:02:32,820 --> 00:02:37,070
+Sirven para almacenar grandes volúmenes de información de antecedentes históricos.
+
+37
+00:02:37,260 --> 00:02:41,040
+Junto a las relacionales son de las más utilizadas en el desarrollo web.
+
+38
+00:02:41,190 --> 00:02:43,590
+También tenemos las orientadas a objetos.
+
+39
+00:02:43,590 --> 00:02:49,470
+Un modelo bastante reciente y propio de los modelos informáticos orientados a objetos donde se trata
+
+40
+00:02:49,470 --> 00:02:55,500
+de almacenar en la base de datos los objetos completos y otras solãs deductivas bases de datos que permiten
+
+41
+00:02:55,500 --> 00:03:00,630
+hacer deducciones basadas principalmente en reglas y hechos que son almacenados en la base de datos
+
+42
+00:03:00,750 --> 00:03:02,220
+aunque son algo complejas.
+
+43
+00:03:02,280 --> 00:03:07,620
+Por tanto vamos a centrarnos por ahora las bases de datos relacionales ya que son muy utilizadas actualmente
+
+44
+00:03:07,710 --> 00:03:11,700
+gracias a que es fácil representar y gestionar problemas del mundo real.
+
+45
+00:03:12,150 --> 00:03:16,950
+Se basan en la idea de crear relaciones entre conjuntos de datos en los que cada relación es también
+
+46
+00:03:16,950 --> 00:03:17,800
+una tabla.
+
+47
+00:03:18,330 --> 00:03:24,420
+Cada tabla consta de registros formados por filas y columnas también conocidos como tuplas y campos
+
+48
+00:03:25,200 --> 00:03:28,160
+dos tablas una de ventas y una de categorías.
+
+49
+00:03:28,260 --> 00:03:33,910
+Se relacionan por ejemplo por un campo de productos que a su vez hace referencia a un producto que estará
+
+50
+00:03:33,910 --> 00:03:35,150
+en otra tabla.
+
+51
+00:03:35,160 --> 00:03:39,900
+Y aquí tenemos un ejemplo del registro de un archivo Excel que ilustra perfectamente el concepto de
+
+52
+00:03:39,900 --> 00:03:40,350
+tabla.
+
+53
+00:03:40,380 --> 00:03:43,690
+Estoy explicando con sus filas y sus columnas.
+
+54
+00:03:44,040 --> 00:03:49,050
+Evidentemente dentro de las bases de datos relacionales Existen muchos sistemas gestores de bases de
+
+55
+00:03:49,050 --> 00:03:49,720
+datos.
+
+56
+00:03:49,950 --> 00:03:52,320
+La mayoría también son compatibles con Payton.
+
+57
+00:03:52,440 --> 00:03:56,890
+Algunos son de pago otros gratuitos Los hay sencillos y otros muy avanzados.
+
+58
+00:03:57,000 --> 00:03:58,370
+Hagamos un repaso.
+
+59
+00:03:58,830 --> 00:04:04,530
+SQL Server es un sistema de manejo de bases de datos del modelo relacional desarrollado por la empresa
+
+60
+00:04:04,530 --> 00:04:07,800
+Microsoft y únicamente disponible para sistemas Windows.
+
+61
+00:04:07,860 --> 00:04:12,630
+Es privativo y competidor directo de Oracle SQL y post crece.
+
+62
+00:04:13,080 --> 00:04:19,410
+Oracle Database es un sistema de gestión de base de datos de tipo objeto relacional privativo desarrollado
+
+63
+00:04:19,410 --> 00:04:23,840
+por Oracle Corporation considerado como uno de los sistemas más completos.
+
+64
+00:04:24,180 --> 00:04:28,980
+Su dominio en el mercado de servidores empresariales fue casi total hasta la aparición de la competencia
+
+65
+00:04:29,490 --> 00:04:34,470
+es multiplataforma y además las últimas versiones de Oracle han sido certificadas para poder trabajar
+
+66
+00:04:34,470 --> 00:04:41,430
+bajo GNU Linux se cuele es un sistema de gestión de bases de datos relacional desarrollado bajo licencia
+
+67
+00:04:41,430 --> 00:04:47,760
+dual GPL y la comercial de Oracle Corporation está considerada como la base de datos open source más
+
+68
+00:04:47,760 --> 00:04:53,490
+popular del mundo y una de las más populares en general junto a Oracle y Microsoft SQL Server.
+
+69
+00:04:53,660 --> 00:04:59,640
+Sobre todo para entornos de desarrollo web se cuele es un sistema de gestión de bases de datos.
+
+70
+00:05:00,190 --> 00:05:05,200
+Orientado a Objetos y libre como muchos otros proyectos de código abierto el desarrollo de posibles
+
+71
+00:05:05,250 --> 00:05:10,630
+secuelas no es manejado por una empresa o persona sino que es dirigido por una comunidad de desarrolladores
+
+72
+00:05:10,630 --> 00:05:16,550
+que trabajan de forma desinteresada altruista libre o apoyados por organizaciones comerciales.
+
+73
+00:05:16,780 --> 00:05:23,170
+Y finalmente ese es un sistema de gestión de bases de datos relacional contenido en una pequeña biblioteca
+
+74
+00:05:23,170 --> 00:05:24,630
+escrita en lenguaje C.
+
+75
+00:05:25,030 --> 00:05:29,320
+Es un proyecto de dominio público y a diferencia de los otros sistemas que utilizan la arquitectura
+
+76
+00:05:29,320 --> 00:05:34,570
+cliente servidor su motor no es un proceso independiente sino que se enlaza con el programa pasando
+
+77
+00:05:34,570 --> 00:05:36,420
+a ser parte integral del mismo.
+
+78
+00:05:36,520 --> 00:05:41,130
+Sin embargo no os dejéis engañar porque aunque parezca la solución sencilla ese.
+
+79
+00:05:41,170 --> 00:05:46,960
+En su tercera versión permite bases de datos de hasta 2 terabytes de tamaño y muchas funcionalidades.
+
+80
+00:05:47,200 --> 00:05:52,620
+En definitiva su configuración es muy sencilla tan sencilla que no existe por lo que no dará problemas
+
+81
+00:05:52,620 --> 00:05:54,730
+y es la mejor solución para este curso.
+
+82
+00:05:54,880 --> 00:06:01,030
+Así que como veis encontramos multitud de sistemas gestores de base de datos relacional en Payton cada
+
+83
+00:06:01,030 --> 00:06:06,340
+uno de ellos cuenta con módulos libres y programas conectores para comunicar la base de datos y el lenguaje
+
+84
+00:06:06,340 --> 00:06:07,570
+de programación.
+
+85
+00:06:07,570 --> 00:06:12,700
+Sin embargo pese a que son sistemas distintos el lenguaje de las consultas no varía mucho si no sería
+
+86
+00:06:12,700 --> 00:06:17,650
+muy difícil pasar de un sistema a otro y los sistemas gestores de base de datos no podrían competir
+
+87
+00:06:17,650 --> 00:06:18,920
+entre ellos.
+
+88
+00:06:19,120 --> 00:06:25,550
+Lo que nos lleva a nuestra última cuestión Qué tienen en común y qué son esas siglas SQL en sus nombres.
+
+89
+00:06:26,080 --> 00:06:32,080
+Aparte de los lenguajes de programación como Python centrados en la creación de los programas los sistemas
+
+90
+00:06:32,080 --> 00:06:37,570
+gestores de base de datos implementan su propia sintaxis o lenguaje propio para realizar consultas y
+
+91
+00:06:37,570 --> 00:06:40,210
+modificaciones en sus registros.
+
+92
+00:06:40,210 --> 00:06:46,120
+El lenguaje más utilizado en las bases de datos relacionales es el lenguaje SQL lenguaje de consulta
+
+93
+00:06:46,120 --> 00:06:52,300
+estructurada y es necesario aprenderlo si queremos utilizar este tipo de base de datos en nuestros programas.
+
+94
+00:06:52,300 --> 00:06:57,220
+Evidentemente este lenguaje abarca muchísimo por lo que en esta unidad sólo veremos algunas consultas
+
+95
+00:06:57,220 --> 00:07:02,090
+básicas para utilizar en conjunto con ese qualité en nuestros scripts de Payton.

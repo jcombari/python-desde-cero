@@ -1,0 +1,415 @@
+1
+00:00:00,630 --> 00:00:05,460
+Tradicionalmente en otros lenguajes de programación existen unas colecciones o estructuras de datos
+
+2
+00:00:05,460 --> 00:00:12,590
+llamadas pilas y colas Payton no las implementa directamente pero sin embargo podemos simular fácilmente
+
+3
+00:00:12,600 --> 00:00:13,990
+con listas.
+
+4
+00:00:14,290 --> 00:00:20,130
+Vamos a abrir la Lección 4 que es la última de esta elección del tema 4 de colecciones de datos para
+
+5
+00:00:20,130 --> 00:00:25,860
+trabajar un poco estos conceptos comenzando con las pilas o stacks en inglés.
+
+6
+00:00:25,950 --> 00:00:28,850
+Primero debemos entender su funcionamiento.
+
+7
+00:00:29,100 --> 00:00:31,540
+Una pila es una colección de elementos ordenados.
+
+8
+00:00:31,620 --> 00:00:38,130
+Su peculiaridad es que únicamente permiten dos acciones añadir un elemento a la pila o sacar un elemento
+
+9
+00:00:38,130 --> 00:00:39,010
+de la Pila.
+
+10
+00:00:39,360 --> 00:00:43,760
+Lo interesante de la Pila es que el último elemento en entrar es el primero en salir.
+
+11
+00:00:43,830 --> 00:00:48,210
+En inglés se conoce como estructura LIFO lastren vista.
+
+12
+00:00:48,600 --> 00:00:50,330
+Imaginemos una pila de libros.
+
+13
+00:00:50,540 --> 00:00:52,940
+Vamos poniendo libros unos encima de otros.
+
+14
+00:00:53,080 --> 00:00:57,780
+Luego si queremos sacar el libro que está abajo del todo tendremos que sacar antes los que están encima.
+
+15
+00:00:57,780 --> 00:01:02,530
+Por tanto los últimos que hemos puesto encima y tenemos que sacarlos primero.
+
+16
+00:01:04,010 --> 00:01:05,820
+Para simular una pila ampays.
+
+17
+00:01:05,960 --> 00:01:09,940
+Comenzamos creando una lista tradicional.
+
+18
+00:01:10,910 --> 00:01:15,960
+Por ejemplo vamos a poner los valores 3 4 y 5.
+
+19
+00:01:16,100 --> 00:01:23,780
+A continuación añadiremos elementos de la Pila los vamos a hacer con el apenn porque éste añade justo
+
+20
+00:01:23,780 --> 00:01:25,600
+al final que es lo que nos interesa.
+
+21
+00:01:26,610 --> 00:01:35,590
+Por ejemplo podemos seguir añadiendo elementos 6 o también podemos añadir el siguiente.
+
+22
+00:01:36,540 --> 00:01:44,450
+Si mostramos la pila estos elementos son los últimos en llegar y aparecen al final de todo.
+
+23
+00:01:45,270 --> 00:01:52,290
+Pero ahora viene lo peculiar que es a la hora de sacar elementos de esta pila a la hora de extraerlos
+
+24
+00:01:52,740 --> 00:01:58,780
+tenemos que sacarlos por el final que es la otra acción que permite a una pila sacar los elementos sacar
+
+25
+00:01:58,780 --> 00:02:05,640
+los libros de esta pila de libros para sacar el último elemento tenemos que utilizar un método de las
+
+26
+00:02:05,640 --> 00:02:09,550
+listas llamada llamado pop.
+
+27
+00:02:10,410 --> 00:02:17,850
+Este método devuelve el último elemento de la lista de nuestra pila entre comillas.
+
+28
+00:02:19,040 --> 00:02:20,420
+Y lo borra de dentro.
+
+29
+00:02:20,540 --> 00:02:28,220
+Es decir al hacer esto sacamos el número 7 pero si volvemos a mostrar la pila ya no tenemos el número
+
+30
+00:02:28,220 --> 00:02:29,480
+7 dentro.
+
+31
+00:02:30,450 --> 00:02:35,910
+El pop también permite otras funcionalidades pero lo veremos más adelante.
+
+32
+00:02:36,700 --> 00:02:43,970
+Así que si queremos guardar este elemento que sacamos de la pila deberíamos de asignar el pop porque
+
+33
+00:02:44,100 --> 00:02:50,840
+si no lo vamos a perder de esta manera tendríamos el 6 en el número o número en la variable n.
+
+34
+00:02:51,950 --> 00:03:02,470
+La pila habría desaparecido del 6 y si fuéramos haciendo el pop varias veces y Lapop y Lapop pila pop
+
+35
+00:03:05,780 --> 00:03:09,420
+finalmente tendríamos una pila vacía.
+
+36
+00:03:09,440 --> 00:03:16,550
+Una lista sin ningún elemento y si intentamos sacar un elemento de una pila que no tiene ningún elemento
+
+37
+00:03:16,590 --> 00:03:19,420
+con pop no sucede un error.
+
+38
+00:03:19,430 --> 00:03:23,680
+Por tanto tenemos que asegurarnos de que antes de sacar un elemento de la pila.
+
+39
+00:03:23,780 --> 00:03:25,480
+La pila se encuentre vacía.
+
+40
+00:03:27,010 --> 00:03:29,110
+Ya veis que no tiene mucha complicación.
+
+41
+00:03:29,110 --> 00:03:35,290
+Además seguro que recordaréis aquel eslogan de las patatas Pringles que decía cuando haces pop ya no
+
+42
+00:03:35,290 --> 00:03:38,680
+hay stop y eso siempre me recuerda cómo funciona una pila.
+
+43
+00:03:38,690 --> 00:03:43,370
+Porque es verdad que las últimas patatas que se meten en el bote son las primeras que tú sacas.
+
+44
+00:03:43,360 --> 00:03:46,830
+Por eso decían lo de hacer pop al bote de Pringles.
+
+45
+00:03:48,950 --> 00:03:51,510
+Y una vez ya hemos hablado de las pilas.
+
+46
+00:03:51,820 --> 00:03:54,490
+Nos toca hablar de las colas.
+
+47
+00:03:54,490 --> 00:03:56,680
+En cuanto a las colas o kiwis.
+
+48
+00:03:56,950 --> 00:03:58,920
+Tenemos una estructura distinta.
+
+49
+00:03:59,290 --> 00:04:04,860
+Una cola es una colección donde el primer elemento en entrar es el primer elemento en salir.
+
+50
+00:04:04,960 --> 00:04:10,150
+En inglés se conoce como una estructura FIFO First Time Out.
+
+51
+00:04:10,210 --> 00:04:16,200
+Ejemplo clásico el primero en llegar a la cola del médico es el primero que se le atiende.
+
+52
+00:04:16,330 --> 00:04:22,210
+Pero no siempre es así pero en un mundo ideal debería de serlo siempre hay alguien que se cola y nunca
+
+53
+00:04:22,210 --> 00:04:30,220
+mejor dicho para comenzar a trabajar con las colas tenemos que declarar una cola pero como no es algo
+
+54
+00:04:30,220 --> 00:04:37,150
+muy común no se suele utilizar mucho debemos importar esta colección manualmente de la librería de colecciones
+
+55
+00:04:37,150 --> 00:04:38,230
+de Payton.
+
+56
+00:04:38,350 --> 00:04:42,520
+Más adelante trabajaremos en profundidad este tema de las librerías llamadas módulos.
+
+57
+00:04:42,760 --> 00:04:48,010
+Pero por ahora simplemente vamos a importar esta colección y lo vamos a hacer de la siguiente forma
+
+58
+00:04:48,750 --> 00:04:50,500
+recordar siempre antes de utilizar.
+
+59
+00:04:50,520 --> 00:04:56,730
+Entonces con una cola importarla fueron colecciones.
+
+60
+00:04:57,420 --> 00:05:00,270
+Import de Caillou.
+
+61
+00:05:00,330 --> 00:05:06,360
+De esta forma y lo dejamos ejecutado normalmente lo pondríamos en la parte superior del todo de nuestro
+
+62
+00:05:06,360 --> 00:05:10,470
+fichero de nuestro código para dejarlo guardado.
+
+63
+00:05:11,130 --> 00:05:13,010
+Entonces cómo creamos una cola.
+
+64
+00:05:13,110 --> 00:05:15,490
+Vamos a crear una cola vacía cola igual
+
+65
+00:05:18,510 --> 00:05:20,400
+como si fuera un conjunto.
+
+66
+00:05:21,400 --> 00:05:22,630
+Pues lo pasamos así.
+
+67
+00:05:23,640 --> 00:05:31,470
+Si intentamos mirar la cola pues nos muestra un deku con una lista dentro vacía.
+
+68
+00:05:31,560 --> 00:05:36,960
+Esto ya nos da pistas nos dice que si queremos agregar elementos directamente en la definición de una
+
+69
+00:05:36,960 --> 00:05:39,300
+cola podemos hacerlo pasando a una lista.
+
+70
+00:05:39,450 --> 00:05:45,130
+Por tanto vamos a crear una cola imaginar que llegamos a un lugar y ya hay gente en la cola.
+
+71
+00:05:45,350 --> 00:05:56,010
+Pues esta será nuestra cola inicial lo que haríamos es de pasarle al de qiu una lista con varios elementos
+
+72
+00:05:56,020 --> 00:06:08,420
+por ejemplo Víctor Juan y Miguel aquí tenemos una cola si la muestro pues tenemos estos elementos Arashi.
+
+73
+00:06:08,430 --> 00:06:14,340
+Como veis tenemos esta lista con varios elementos que Héctor sería el primero en haber llegado luego
+
+74
+00:06:14,360 --> 00:06:16,010
+Juan y finalmente Miguel.
+
+75
+00:06:17,320 --> 00:06:23,800
+Por tanto podríamos seguir añadiendo elementos como Añadimos elementos en la cola pues como los añadimos
+
+76
+00:06:23,800 --> 00:06:31,730
+al final podemos utilizar el método de las listas el Apel para seguir añadiendo cola igual APEL.
+
+77
+00:06:32,320 --> 00:06:34,360
+Vamos a decir que acaba de llegar.
+
+78
+00:06:34,400 --> 00:06:40,890
+María también acaba de llegar a Arnaldo.
+
+79
+00:06:42,790 --> 00:06:45,070
+Ahora si miramos cuánta gente hay en la cola.
+
+80
+00:06:45,130 --> 00:06:48,460
+Pues tendríamos a Héctor Juan Miquel María y Arnol.
+
+81
+00:06:49,550 --> 00:06:52,420
+Es hora de sacar los elementos desde la cola.
+
+82
+00:06:52,580 --> 00:06:58,130
+Recordar que en las colas a diferencia de las pilas no se sacan por la derecha no se saca primero el
+
+83
+00:06:58,130 --> 00:07:04,590
+último en llegar sino el primero que ha llegado por tanto sería como hacer un pop pero un por el principio
+
+84
+00:07:05,450 --> 00:07:12,590
+y hay un método que ya es el que viene implícito dentro de las colas que se llama pop lest que es como
+
+85
+00:07:12,640 --> 00:07:17,140
+decir hacer un pop pero por la parte izquierda porque significa izquierda.
+
+86
+00:07:17,480 --> 00:07:26,500
+Por lo tanto si hacemos un cola o que os recuerdo que esto no funciona en una lista solamente en una
+
+87
+00:07:26,780 --> 00:07:27,460
+cola.
+
+88
+00:07:30,950 --> 00:07:32,250
+Ahí tengo heitor.
+
+89
+00:07:32,570 --> 00:07:35,220
+Ya lo he sacado si muestro la cola.
+
+90
+00:07:35,690 --> 00:07:36,910
+Ya no tengo lector.
+
+91
+00:07:37,220 --> 00:07:41,630
+Lo he perdido debería de haberlo guardado en una variable si hubiera querido trabajar con él o hacer
+
+92
+00:07:41,630 --> 00:07:46,810
+alguna cosa por ejemplo que tal persona.
+
+93
+00:07:48,740 --> 00:07:52,540
+Cuando la saqué cuando saqué a Juan lo voy a guardar ahí en la red.
+
+94
+00:07:53,330 --> 00:07:56,080
+Así el Apella tengo a John en la cola.
+
+95
+00:07:56,360 --> 00:07:58,530
+Voy vaciando poco a poco los elementos.
+
+96
+00:08:00,470 --> 00:08:06,230
+Evidentemente estos ejemplos son muy sencillos pero mezclando colecciones podemos crear auténticos sistemas
+
+97
+00:08:06,230 --> 00:08:09,080
+para gestionar cualquier tipo de información.
+
+98
+00:08:09,260 --> 00:08:15,260
+Por ejemplo algo en lo que se utilizan las colas en el mundo real es en los servidores por ejemplo servidores
+
+99
+00:08:15,260 --> 00:08:17,290
+de páginas web o de correo electrónico.
+
+100
+00:08:18,120 --> 00:08:23,280
+Los servidores en lugar de aceptar peticiones en tiempo real de aceptar miles y miles de peticiones.
+
+101
+00:08:23,540 --> 00:08:28,810
+Y respondiendo a saco lo que hacen es añadir estas peticiones a la cola.
+
+102
+00:08:29,160 --> 00:08:34,080
+Entonces el servidor constantemente va mirando la cola y responda a las peticiones por el orden en el
+
+103
+00:08:34,080 --> 00:08:35,670
+que le llegan.
+
+104
+00:08:35,670 --> 00:08:39,290
+De esta forma nunca se satura y pueden funcionar indefinidamente.

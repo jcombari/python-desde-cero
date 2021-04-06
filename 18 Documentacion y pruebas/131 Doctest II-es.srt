@@ -1,0 +1,419 @@
+1
+00:00:00,480 --> 00:00:05,790
+Muy bien hasta ahora hemos hecho unos test muy simples pero los deportes son mucho más flexibles.
+
+2
+00:00:06,090 --> 00:00:11,100
+Algunas de sus funcionalidades interesantes son la posibilidad de ejecutar bloques de código o la captura
+
+3
+00:00:11,100 --> 00:00:18,690
+de excepciones por ejemplo vamos a tomar como referencia esta función de doblar lista dobla el valor
+
+4
+00:00:18,690 --> 00:00:25,620
+de los elementos de una lista y lo que hace es devolver una nueva lista cada elemento lo multiplica
+
+5
+00:00:25,620 --> 00:00:27,930
+por dos para cada elemento en la lista.
+
+6
+00:00:27,930 --> 00:00:35,370
+Esto ya lo vimos en la unidad anterior vamos a hacer un test en esta función para ver si funciona correctamente.
+
+7
+00:00:35,370 --> 00:00:43,020
+Recordad que podemos crear varias líneas de código así que podríamos guardar en una variable una lista
+
+8
+00:00:43,170 --> 00:00:52,080
+por ejemplo 1 2 3 4 y 5 es importante utilizar la nomenclatura oficial que con espacios de acuerdo y
+
+9
+00:00:52,080 --> 00:01:00,420
+luego otro comando que sea por ejemplo doblar la lista y por último todo esto deberá de devolvernos
+
+10
+00:01:00,840 --> 00:01:06,980
+una lista con los valores doblados donde estaba el 1 al 2 2 era un 4.
+
+11
+00:01:06,990 --> 00:01:12,000
+El 3 era un 6 1 8 y 10 de acuerdo.
+
+12
+00:01:12,060 --> 00:01:20,010
+Bueno aquí tenemos un test pero utilizando dos líneas de comandos y un resultado final si lo guardamos
+
+13
+00:01:20,100 --> 00:01:28,190
+y lo ejecutamos en la terminal pues como veis dos tests en dos ítems dos test pasados y ninguno ha fallado.
+
+14
+00:01:28,200 --> 00:01:28,800
+Ok.
+
+15
+00:01:28,950 --> 00:01:34,080
+Bueno el toma que esto es como un test pero como tampoco les decimos que devuelven nada pues directamente
+
+16
+00:01:34,080 --> 00:01:34,830
+lo pasa.
+
+17
+00:01:34,920 --> 00:01:40,170
+Y de esta forma lo que estamos haciendo es ejecutar varias líneas de código en el propio test.
+
+18
+00:01:40,270 --> 00:01:45,570
+Claro en este caso lo que hemos hecho es crear la lista manualmente pero podríamos generarla con un
+
+19
+00:01:45,570 --> 00:01:47,970
+bucle utilizando sentencias anidadas.
+
+20
+00:01:48,000 --> 00:01:49,550
+Y esto es muy interesante.
+
+21
+00:01:49,920 --> 00:01:57,260
+Por ejemplo vamos a crear otro test y en esta ocasión vamos a crear una lista vacía.
+
+22
+00:01:57,690 --> 00:02:06,830
+De esta forma y en la siguiente línea vamos a hacer un fork y ranks vamos a añadir elementos dos puntitos.
+
+23
+00:02:06,900 --> 00:02:08,680
+Y aquí es donde tenemos el problema.
+
+24
+00:02:08,810 --> 00:02:12,960
+Por qué no podemos poner que se ejecute ahora otra línea.
+
+25
+00:02:13,230 --> 00:02:17,980
+Tenemos que introducirnos dentro del formato de este bucle.
+
+26
+00:02:18,420 --> 00:02:25,080
+Lo que tenemos que hacer es indicar una sentencia nidada con tres puntitos y luego nos pondríamos al
+
+27
+00:02:25,080 --> 00:02:36,780
+nivel del for y pondríamos por ejemplo l happen y luego ya fuera haríamos otra línea de código doblar
+
+28
+00:02:36,870 --> 00:02:40,230
+l doblarlos la lista y ésta debería de devolvernos.
+
+29
+00:02:40,230 --> 00:02:45,830
+Y aquí sí que lo vamos a tener que escribir a mano ya que vamos a hacer una lista con muchos más elementos.
+
+30
+00:02:45,840 --> 00:02:57,630
+Empezaríamos desde el 0 1 2 y 9 y esto doblado quedaría 0 por dos sería cero uno por dos serían 2 4
+
+31
+00:02:58,560 --> 00:03:02,300
+y 18 de acuerdo.
+
+32
+00:03:02,370 --> 00:03:10,080
+Aquí tenemos en conjunto otro pero en esta ocasión lo que hemos hecho es crear una lista vacía y iterar
+
+33
+00:03:10,440 --> 00:03:17,130
+con un fork y añadir con el apenn valores a la lista y finalmente doblarla para mostrar por pantalla
+
+34
+00:03:17,150 --> 00:03:20,880
+este resultado que recordar tenemos que introducirlo manualmente.
+
+35
+00:03:20,880 --> 00:03:24,250
+Vamos a guardar y vamos a comprobar si se ejecuta bien.
+
+36
+00:03:26,360 --> 00:03:30,070
+Cómo veis cinco test pasados y ninguno ha fallado.
+
+37
+00:03:30,140 --> 00:03:36,120
+Aquí podríamos ya quitar la menos UBE y simplemente comprobar que no hay ningún fallo.
+
+38
+00:03:36,200 --> 00:03:41,600
+Si hubiera uno de los valores que no estuviera correcto por ejemplo que pusiera 19 esto ya es obvio
+
+39
+00:03:41,600 --> 00:03:42,420
+que está mal.
+
+40
+00:03:42,920 --> 00:03:47,370
+Pues ya al ejecutarlo de esta forma mediría el test donde ha fallado doblar L.
+
+41
+00:03:47,570 --> 00:03:51,770
+Se esperaba esto de aquí y se ha devuelto esto de aquí.
+
+42
+00:03:51,950 --> 00:03:52,740
+De acuerdo.
+
+43
+00:03:52,880 --> 00:04:00,110
+Voy a arreglarlo para dejarlo bien y ahora que ya sabemos cómo utilizar sentencias anidadas para nuestros
+
+44
+00:04:00,110 --> 00:04:02,210
+test avanzados en multi líneas.
+
+45
+00:04:02,300 --> 00:04:09,020
+Vamos a ver cómo tratar excepciones dentro de los test y para ello voy a volver de nuevo a nuestro ejemplo
+
+46
+00:04:09,020 --> 00:04:10,540
+de la suma.
+
+47
+00:04:11,000 --> 00:04:16,520
+Vamos a trabajar a partir de esto porque lo interesante es que esta suma no solamente sirve para sumar
+
+48
+00:04:16,520 --> 00:04:22,410
+números pueden ser números también pueden ser cadenas de texto como aquí.
+
+49
+00:04:22,640 --> 00:04:30,090
+Suma a mi bebé y debería de devolver a bev o también podrían ser listas.
+
+50
+00:04:30,320 --> 00:04:33,110
+FIJAROS A qué se iguala.
+
+51
+00:04:33,140 --> 00:04:36,690
+Un dos tres b es igual a 4 5 6.
+
+52
+00:04:36,950 --> 00:04:44,510
+La suma de IBE debería de ser 1 2 3 4 5 y 6 la suma de ambas listas.
+
+53
+00:04:44,510 --> 00:04:50,540
+Aquí tenemos un test bueno más desarrollado es igual de sencillo lo único que he hecho es poner comentarios
+
+54
+00:04:50,570 --> 00:04:51,460
+por en medio.
+
+55
+00:04:51,620 --> 00:04:57,470
+Como no lo estoy indicando con el test pues no hay ningún problema son simplemente doktrin Voy a guardar
+
+56
+00:04:57,690 --> 00:05:04,760
+aquí y a comprobar si todos estos test se validan correctamente ya sea sumando números cadenas de textos
+
+57
+00:05:05,120 --> 00:05:06,550
+o listas.
+
+58
+00:05:06,570 --> 00:05:14,470
+Me voy a limpiar la pantalla voy a ejecutar la prueba y como veis no ocurre nada.
+
+59
+00:05:14,570 --> 00:05:20,540
+Por tanto lo tengo bien y si lo ejecuto con el menor sube menos ver você pues me pasa todos los test
+
+60
+00:05:20,750 --> 00:05:23,900
+y por tanto está correcto muy bien.
+
+61
+00:05:23,900 --> 00:05:28,730
+Pues ahora que ya sabemos que es posible sumar distintos elementos pero del mismo tipo.
+
+62
+00:05:28,730 --> 00:05:30,770
+Qué ocurriría si queremos un test.
+
+63
+00:05:30,770 --> 00:05:37,360
+Y decimos sumar distintos tipos y ponemos aquí lo siguiente.
+
+64
+00:05:37,490 --> 00:05:40,660
+Suma un 10 y la cadena.
+
+65
+00:05:40,760 --> 00:05:41,350
+Hola.
+
+66
+00:05:41,540 --> 00:05:43,140
+A lo mejor esto devolverá.
+
+67
+00:05:43,160 --> 00:05:43,900
+10.
+
+68
+00:05:44,180 --> 00:05:44,480
+Hola.
+
+69
+00:05:44,480 --> 00:05:47,840
+De esta forma creéis que esto va a funcionar.
+
+70
+00:05:47,840 --> 00:05:49,400
+Vamos a guardarlo.
+
+71
+00:05:49,400 --> 00:05:52,260
+Vamos a ejecutar nuestro test otra vez más.
+
+72
+00:05:53,470 --> 00:05:56,750
+Y cómo veis justamente en este momento daki.
+
+73
+00:05:58,290 --> 00:06:00,260
+Trolling suma 10 y una cadena.
+
+74
+00:06:00,300 --> 00:06:00,900
+Hola.
+
+75
+00:06:01,020 --> 00:06:08,160
+Se estaba esperando esto pero ha fallado y fijaros el error que nos está indicando exception raised
+
+76
+00:06:08,940 --> 00:06:16,800
+bla bla bla bla bla bla taipe Error un supporter cooperan Type S for suma un entero y una cadena no
+
+77
+00:06:16,800 --> 00:06:23,070
+se puede sumar un entero y una cadena pero quedaros con la copla es que este error de aqui de acuerdo
+
+78
+00:06:23,880 --> 00:06:29,640
+podemos preverlo de alguna forma dentro de nuestro test para indicarle que ya sabemos que va a salir
+
+79
+00:06:29,640 --> 00:06:32,610
+de esto no podemos hacerlo.
+
+80
+00:06:32,610 --> 00:06:39,360
+Vamos a ir a nuestro código y en lugar de decirle que esto es lo que se va a devolver para prever un
+
+81
+00:06:39,360 --> 00:06:45,090
+error de este tipo tenemos que copiar lo siguiente vámonos de vuelta al error.
+
+82
+00:06:46,340 --> 00:06:47,340
+Vamos a copiar.
+
+83
+00:06:47,350 --> 00:06:48,010
+Clic derecho.
+
+84
+00:06:48,010 --> 00:06:51,560
+Voy a marcar a partir de esta línea el exception raise.
+
+85
+00:06:52,240 --> 00:06:55,500
+Todo esto aquí hasta el final del error.
+
+86
+00:06:56,370 --> 00:06:57,950
+Hasta aquí el string.
+
+87
+00:06:58,410 --> 00:06:59,760
+Voy a hacer clic derecho.
+
+88
+00:06:59,790 --> 00:07:05,200
+Se me habrá copiado y voy a venir aquí y voy a cambiar el resultado de esta suma.
+
+89
+00:07:05,460 --> 00:07:07,680
+Es exactamente todo esto de aquí.
+
+90
+00:07:07,760 --> 00:07:10,100
+Claro todo esto de aquí no.
+
+91
+00:07:10,300 --> 00:07:13,160
+Porque esto variará dependiendo de dónde se ejecute.
+
+92
+00:07:13,260 --> 00:07:18,140
+Pero la primera línea siempre será esta y la última será ésta.
+
+93
+00:07:18,510 --> 00:07:24,530
+Por tanto puedo borrar todo esto aquí y poner en su lugar tres puntos suspensivos.
+
+94
+00:07:24,660 --> 00:07:30,900
+De esta forma le voy a indicar que yo ya preveo que si hago esta suma de un número con una cadena me
+
+95
+00:07:30,900 --> 00:07:36,130
+va a dar un error que empieza así y acaba de esta forma voy a guardarlo.
+
+96
+00:07:36,360 --> 00:07:39,710
+Y fijaros porque curiosamente si lo volvemos a ejecutar.
+
+97
+00:07:39,750 --> 00:07:42,740
+Cómo veis ahora ya pasan todos los test.
+
+98
+00:07:43,030 --> 00:07:46,130
+Por qué se prueba la suma diez y la cadena.
+
+99
+00:07:46,160 --> 00:07:46,990
+Hola.
+
+100
+00:07:47,070 --> 00:07:53,760
+Se esperaba back mostrasen con las que es el texto que hemos descrito más texto y acaba también con
+
+101
+00:07:53,760 --> 00:07:54,550
+esto de aquí.
+
+102
+00:07:54,600 --> 00:07:57,360
+Y precisamente eso es lo que ha devuelto nuestro error.
+
+103
+00:07:57,360 --> 00:08:04,500
+Con esto hemos capturado la acepción dentro del propio texto y con esto acabamos esta lección en la
+
+104
+00:08:04,500 --> 00:08:09,330
+que hemos visto como crear tres sencillos en la documentación con doctores y ya en la siguiente vamos
+
+105
+00:08:09,330 --> 00:08:15,350
+a ver un tipo distinto de test más avanzado llamado texto unitario y Unite test.

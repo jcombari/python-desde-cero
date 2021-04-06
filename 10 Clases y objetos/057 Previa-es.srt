@@ -1,0 +1,71 @@
+1
+00:00:00,770 --> 00:00:04,960
+Con todo lo que conocemos hasta ahora ya podemos crear bastantes buenos programas.
+
+2
+00:00:04,970 --> 00:00:07,870
+Sin embargo no dejan de ser instrucciones estructuradas.
+
+3
+00:00:07,880 --> 00:00:12,860
+Eso significa que cuando queremos solucionar un problema tenemos que pensar de arriba a abajo y lo único
+
+4
+00:00:12,860 --> 00:00:17,340
+que nos da un poco de juego son las funciones las listas y los diccionarios.
+
+5
+00:00:17,810 --> 00:00:23,090
+Así era la programación en el pasado bastante aburrida con muchísimo código mucha gestión de recursos
+
+6
+00:00:23,120 --> 00:00:24,520
+y difícil de mantener.
+
+7
+00:00:24,920 --> 00:00:30,470
+Hasta que poco a poco fue tomando forma un paradigma de programación conocido como Programación Orientada
+
+8
+00:00:30,470 --> 00:00:32,220
+a Objetos.
+
+9
+00:00:32,270 --> 00:00:37,340
+Este paradigma o modelo de solución de problemas resultó muy útil para satisfacer las necesidades de
+
+10
+00:00:37,340 --> 00:00:43,400
+un mundo cada vez más tecnificado en el que más y más sectores estaban informatizados y era necesaria
+
+11
+00:00:43,400 --> 00:00:48,730
+una forma más ágil y sencilla de trasladar los problemas del mundo real a la programación.
+
+12
+00:00:48,740 --> 00:00:54,020
+La mejora fue muy importante ya que las tediosas estructuras no sólo se podían replicar fácilmente en
+
+13
+00:00:54,020 --> 00:00:59,300
+clases y objetos mucho mejor ordenados sino que éstos además permitían manejar sus propios atributos
+
+14
+00:00:59,300 --> 00:01:02,470
+y funciones internas llamadas métodos.
+
+15
+00:01:02,480 --> 00:01:07,520
+En esta tercera fase del curso vamos a meternos de lleno en el mundo de los objetos definiendo y manejando
+
+16
+00:01:07,520 --> 00:01:12,920
+nuestras propias clases descubriendo la herencia y repasando algunos de los métodos nativos de las colecciones
+
+17
+00:01:13,040 --> 00:01:15,560
+haciéndolas si cabe aún más potentes.
+
+18
+00:01:15,860 --> 00:01:18,700
+Bienvenidos a la programación orientada a objetos.

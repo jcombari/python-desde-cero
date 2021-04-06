@@ -1,0 +1,527 @@
+1
+00:00:00,760 --> 00:00:06,450
+Muy bien pues vamos a por los ejercicios planteados de este tema diez colecciones que os adelanto que
+
+2
+00:00:06,690 --> 00:00:09,810
+no son muchos pero son bastante interesantes.
+
+3
+00:00:11,260 --> 00:00:18,580
+A mí me gusta la medida de lo posible que aprendáis otras cosas mientras estás haciendo pues los programas
+
+4
+00:00:18,580 --> 00:00:19,560
+o los ejercicios.
+
+5
+00:00:19,730 --> 00:00:25,690
+Y en este caso planteo un ejercicio muy interesante utilizando todo lo que sabes sobre cadenas y listas
+
+6
+00:00:25,720 --> 00:00:27,020
+y sus métodos internos.
+
+7
+00:00:27,160 --> 00:00:30,730
+Tienes que transformar este texto que no tiene formato.
+
+8
+00:00:30,730 --> 00:00:32,090
+A este otro.
+
+9
+00:00:32,240 --> 00:00:37,460
+Este texto es un koan un cohan en el budismo zen.
+
+10
+00:00:37,570 --> 00:00:44,890
+Es como una especie de problema que el maestro plantea a sus alumnos para ver si progresan en su aprendizaje.
+
+11
+00:00:45,250 --> 00:00:50,280
+Pero dejando eso de banda Tenéis que conseguir transformar este texto sin formato.
+
+12
+00:00:50,410 --> 00:00:55,440
+A este otro a una especie de diálogo tenéis que identificar.
+
+13
+00:00:56,140 --> 00:00:59,430
+Qué características comparten.
+
+14
+00:00:59,690 --> 00:01:01,220
+Pues que las distintas líneas.
+
+15
+00:01:01,240 --> 00:01:03,150
+Cómo puede separarlas.
+
+16
+00:01:03,220 --> 00:01:05,350
+Cómo podéis formar a lo mejor una lista.
+
+17
+00:01:06,270 --> 00:01:08,080
+Poner la primera letra mayúscula.
+
+18
+00:01:08,100 --> 00:01:17,690
+Introducir algunos caracteres al principio o al final y crear esta disposición en una cadena de caracteres.
+
+19
+00:01:18,000 --> 00:01:24,450
+Con sus saltos de línea o si lo queréis simplemente guardarlo en una lista de líneas pero que al mostrarlas
+
+20
+00:01:24,480 --> 00:01:27,780
+dinámicamente se muestra de esta forma.
+
+21
+00:01:27,780 --> 00:01:33,470
+Bien vamos a hacerlo que lo único prohibido es modificar directamente el texto lo cual es lógico.
+
+22
+00:01:33,600 --> 00:01:37,960
+Y aquí tenéis ya el texto preparado para empezar a formatear.
+
+23
+00:01:38,520 --> 00:01:44,690
+El primer elemento que tenemos que comenzar a trabajar es separar de alguna forma las líneas.
+
+24
+00:01:44,730 --> 00:01:53,040
+Sin eso no podemos hacer nada por suerte no sé si lo recordaréis pero podríamos separar de un texto
+
+25
+00:01:53,480 --> 00:02:00,930
+una cadena utilizando un método llamado Split identificando un carácter para partir y aquí lo tenemos
+
+26
+00:02:00,930 --> 00:02:04,180
+el carácter que parte de cada frase es esta almohadilla.
+
+27
+00:02:05,160 --> 00:02:14,600
+Como veis por tanto vamos a partir a partir de la almohadilla y nunca mejor dicho y ahora vamos a ir
+
+28
+00:02:14,600 --> 00:02:18,280
+recorriendo estas líneas y vamos a modificarlas vamos a modificarlas.
+
+29
+00:02:18,350 --> 00:02:30,090
+Así que vamos a tener que recorrer con un numerador las líneas por línea y enumere líneas.
+
+30
+00:02:32,620 --> 00:02:38,210
+Y vamos a comenzar por transformar la primera letra de cada línea en una mayúscula.
+
+31
+00:02:38,240 --> 00:02:49,450
+Lo vamos a hacer de la siguiente forma líneas y línea que estamos leyendo capital Eix para capitalizar
+
+32
+00:02:49,750 --> 00:02:58,180
+mayúscula la primera letra de cada una de estas líneas y luego vamos a comprobar dos cosas.
+
+33
+00:02:58,180 --> 00:03:00,840
+Fijaros que la primera línea.
+
+34
+00:03:02,500 --> 00:03:09,610
+Empieza con la letra mayúscula y acaba con tres puntillas mientras que las demás líneas empiezan con
+
+35
+00:03:09,610 --> 00:03:12,150
+guion y acaban con un punto.
+
+36
+00:03:12,250 --> 00:03:16,540
+Y esto es precisamente lo que no tenemos en ninguna de estas líneas sin formato.
+
+37
+00:03:16,570 --> 00:03:21,580
+Así que vamos a tener que analizar si estamos recorriendo la primera lista o las demás.
+
+38
+00:03:21,580 --> 00:03:28,050
+Para añadirle estos elementos comunes la verdad es que no es muy difícil sabemos a partir del índice
+
+39
+00:03:28,350 --> 00:03:29,780
+If I igual a cero.
+
+40
+00:03:29,830 --> 00:03:35,470
+Sabemos que estamos en la primera línea y la primera línea a lo que vamos a hacer es alinearse refiriéndonos
+
+41
+00:03:35,470 --> 00:03:41,860
+a ella es coger y sumarle.
+
+42
+00:03:43,370 --> 00:03:45,160
+Unos puntos suspensivos al final.
+
+43
+00:03:47,180 --> 00:03:52,690
+Esta forma líneas era lo mismo líneas pero sumando los tres puntos.
+
+44
+00:03:54,440 --> 00:03:58,340
+En caso contrario sabemos que estamos ya en la segunda tercera o cuarta línea.
+
+45
+00:03:58,670 --> 00:04:07,250
+Y aquí lo que tenemos que modificar era poner un guión delante y un punto al final por tanto esto lo
+
+46
+00:04:07,250 --> 00:04:08,360
+dejaremos así.
+
+47
+00:04:08,510 --> 00:04:11,860
+Un punto Pedrón un guión delante con un espacio.
+
+48
+00:04:12,060 --> 00:04:18,530
+Le vamos a sumar líneas y después un punto al final.
+
+49
+00:04:20,680 --> 00:04:24,620
+Y con esto ya tenemos el ejercicio.
+
+50
+00:04:24,620 --> 00:04:33,650
+Ahora tendremos una lista con cuatro líneas ya preparadas para mostrarlas podemos transformarlo en toda
+
+51
+00:04:33,650 --> 00:04:34,780
+una línea.
+
+52
+00:04:34,820 --> 00:04:41,480
+O podemos simplemente mostrarlo directamente desde la lista no vamos a mostrarlo desde la lista por
+
+53
+00:04:41,480 --> 00:04:47,410
+línea y líneas y aquí simplemente mostramos la línea.
+
+54
+00:04:48,530 --> 00:04:54,110
+Y si todo va correctamente tendremos que tener un texto formateado perfectamente igual que el que tenemos
+
+55
+00:04:54,170 --> 00:05:04,960
+aquí arriba a ver es un pequeño error y tendría que haber sido con dos iguales quiero tenemos y el CoAN
+
+56
+00:05:04,970 --> 00:05:09,560
+dice un día que el viento soplaba con fuerza.
+
+57
+00:05:09,560 --> 00:05:12,240
+Mira cómo se mueve aquella banderola dijo Monge.
+
+58
+00:05:13,300 --> 00:05:16,510
+Lo que se mueve es el viento respondió otro monje.
+
+59
+00:05:16,510 --> 00:05:20,570
+Ni las banderolas ni el viento lo que se mueve son vuestras mentes dijo el maestro.
+
+60
+00:05:20,830 --> 00:05:24,700
+En fin espero que haya costado este ejercicio.
+
+61
+00:05:24,700 --> 00:05:32,740
+Vamos a por el segundo y último de esta unidad que nos dice crea una función modificar a partir de una
+
+62
+00:05:32,740 --> 00:05:36,770
+lista de números realice las siguientes tareas sin modificar la original.
+
+63
+00:05:37,070 --> 00:05:46,230
+Recordar siempre que creamos una función y le pasamos una lista o un elemento guardado en memoria dinámica.
+
+64
+00:05:46,360 --> 00:05:52,450
+Se modifica también dentro de la función y nos está diciendo que no se modifique sin modificar la original
+
+65
+00:05:52,450 --> 00:05:57,570
+así que quizás tendremos que crear una copia o algo ya lo veremos.
+
+66
+00:05:57,580 --> 00:06:02,170
+La función tendrá que borrar los elementos duplicados ya que lo primero que tenemos que hacer es borrar
+
+67
+00:06:02,200 --> 00:06:04,700
+los elementos duplicados de esta lista.
+
+68
+00:06:04,720 --> 00:06:09,460
+Luego tendremos que ordenar la lista de mayor a menor es decir que empiece por la izquierda a los números
+
+69
+00:06:09,460 --> 00:06:12,930
+más grandes y por la derecha a los más pequeños.
+
+70
+00:06:13,060 --> 00:06:18,490
+Luego tendremos que eliminar todos los números que son impares realizar una suma de todos los números
+
+71
+00:06:18,490 --> 00:06:23,220
+que quedan y añadir como primer elemento de la lista la suma realizada.
+
+72
+00:06:23,780 --> 00:06:28,570
+Devolver finalmente la lista modificada y después de ejecutar la función comprobar que la suma de todos
+
+73
+00:06:28,570 --> 00:06:33,700
+los números a partir del segundo concuerda con el primer número de la lista Claro hemos añadido al principio
+
+74
+00:06:34,030 --> 00:06:38,770
+de esta lista la suma de todos los demás números de la lista.
+
+75
+00:06:39,010 --> 00:06:44,500
+Pues debería de concordar el primer elemento de la nueva lista con la suma de todos los elementos de
+
+76
+00:06:44,500 --> 00:06:47,140
+la nueva lista por ejemplo.
+
+77
+00:06:47,420 --> 00:06:54,390
+Pero desde el primero el de índice 1 que sería el segundo hasta el final porque el de índice cero no
+
+78
+00:06:54,400 --> 00:06:57,990
+es la suma y esto debería de devolver verdadero.
+
+79
+00:06:58,710 --> 00:07:03,570
+Probamos paso a paso porque tenemos aquí para un rato.
+
+80
+00:07:04,110 --> 00:07:08,340
+Por cierto la función sombrita devuelve una suma de los elementos de una lista ya lo sabemos eso.
+
+81
+00:07:09,610 --> 00:07:15,230
+Vamos a crear la función modificarle y esta función va a recibir una lista.
+
+82
+00:07:15,400 --> 00:07:23,740
+Vamos a llamarla l Por ejemplo veamos lo primero que tenemos que hacer es borrar los elementos duplicados.
+
+83
+00:07:24,310 --> 00:07:28,250
+Vamos a volver a asignar a esta lista.
+
+84
+00:07:28,300 --> 00:07:34,510
+Después de crear un diccionario un diccionario un conjunto un set a partir de la lista recordar que
+
+85
+00:07:34,510 --> 00:07:42,320
+cuando hacíamos este cambio de tipos de una lista a un conjunto se borraban todos los elementos duplicados.
+
+86
+00:07:42,580 --> 00:07:49,210
+Pues haciendo este truco tendríamos aquí un conjunto un conjunto vale pero queremos volver a guardarlo
+
+87
+00:07:49,210 --> 00:07:52,230
+lo arista así que vamos a volver a convertirlo a lista.
+
+88
+00:07:52,360 --> 00:07:57,460
+Es decir vamos a convertirlo a conjunto y luego otra vez a la lista y de esta forma ya habremos eliminado
+
+89
+00:07:57,460 --> 00:07:59,820
+los repetidos.
+
+90
+00:07:59,920 --> 00:08:02,780
+Ahora nos piden ordenar la lista de mayor a menor.
+
+91
+00:08:03,460 --> 00:08:09,400
+Eso lo podemos hacer con un short pero el short tenía un parámetro llamado reverso que no se permitía
+
+92
+00:08:09,400 --> 00:08:12,300
+hacerlo del revés en vez de primero más pequeño.
+
+93
+00:08:12,310 --> 00:08:14,110
+Primero el más grande.
+
+94
+00:08:14,380 --> 00:08:16,270
+Con esto ya lo tendríamos ordenado.
+
+95
+00:08:17,520 --> 00:08:24,330
+A continuación tenemos que eliminar todos los números impares así que tendremos que recorrer con un
+
+96
+00:08:24,390 --> 00:08:31,360
+numerador y tiene por ejemplo enumera
+
+97
+00:08:34,590 --> 00:08:41,890
+la lista y ahora tendremos que ir borrando haciendo del.
+
+98
+00:08:42,900 --> 00:08:51,880
+Los números de la lista que sean impares y si son impares lo sabemos porque ihf número módulo de dos
+
+99
+00:08:52,260 --> 00:09:01,690
+es diferente que el cero es que simpar borra por ejemplo con un DVD de la lista el elemento actual y
+
+100
+00:09:01,710 --> 00:09:04,840
+al que estamos haciendo referencia con el índice de esta forma.
+
+101
+00:09:05,040 --> 00:09:12,270
+De acuerdo Llegados a este punto quizá vosotros todavía estaréis dándole vueltas a que no podemos modificar
+
+102
+00:09:12,270 --> 00:09:14,270
+la lista original.
+
+103
+00:09:16,090 --> 00:09:18,140
+Os ha pasado esa duda por la cabeza.
+
+104
+00:09:18,230 --> 00:09:23,480
+Tienes que tener en cuenta que al transformar esta lista a un conjunto volver a transformarla una lista
+
+105
+00:09:23,840 --> 00:09:25,940
+ya ha quedado muy atrás.
+
+106
+00:09:26,120 --> 00:09:28,930
+La lista original es como que hemos creado una copia.
+
+107
+00:09:29,590 --> 00:09:32,230
+Con este primer conjunto y luego una copia nueva.
+
+108
+00:09:32,930 --> 00:09:39,780
+Albura transformarlo en una lista por tanto ya no estamos modificando la lista original sin problema.
+
+109
+00:09:40,040 --> 00:09:47,450
+Así que ya tenemos todos los números impares borrados de esta lista y tenemos que añadir al primer elemento
+
+110
+00:09:47,540 --> 00:09:48,260
+la suma.
+
+111
+00:09:49,180 --> 00:09:55,410
+De todos los otros vamos a conseguir una suma de todos los elementos que actualmente quedan en la lista
+
+112
+00:09:55,700 --> 00:09:57,250
+que son números pares.
+
+113
+00:09:57,570 --> 00:10:06,510
+Simplemente haciendo un shum de la lista estaforma y ahora vamos a insertar esta suma al principio.
+
+114
+00:10:06,540 --> 00:10:14,730
+Recordar que las vistas tenían un método llamado insert para insertar la posición 0 la suma que acabamos
+
+115
+00:10:14,730 --> 00:10:23,830
+de crear por ejemplo y finalmente vamos a devolver la lista esta que hemos creado que hemos modificado.
+
+116
+00:10:23,830 --> 00:10:32,710
+Bueno vamos a probarlo Teóricamente si creamos una nueva lista de modificar lista.
+
+117
+00:10:32,850 --> 00:10:37,130
+Así tendrían que ser distintas.
+
+118
+00:10:37,490 --> 00:10:45,000
+Print nueva lista Prin lista a ver que tenemos.
+
+119
+00:10:45,240 --> 00:10:48,180
+Y cómo veis esta nueva lista.
+
+120
+00:10:48,450 --> 00:10:55,440
+Pues efectivamente es distinta de la lista original con todos los números por tanto ya sabemos que como
+
+121
+00:10:55,440 --> 00:10:57,850
+mínimo este truco de copiar.
+
+122
+00:10:58,720 --> 00:11:04,480
+O de que se graban las copias al hacer los cambios en tipos funciona y realmente no estamos modificando
+
+123
+00:11:04,480 --> 00:11:05,390
+la original.
+
+124
+00:11:05,770 --> 00:11:07,430
+Ahora bien tenemos que comprobar.
+
+125
+00:11:08,970 --> 00:11:10,270
+La nueva lista.
+
+126
+00:11:10,320 --> 00:11:22,280
+El primer elemento de índice cero es igual a la suma de todos sus elementos a partir del segundo de
+
+127
+00:11:22,350 --> 00:11:25,040
+índice 1 hasta el final.
+
+128
+00:11:25,680 --> 00:11:30,870
+Es decir este número de aquí tiene que ser la suma de todos estos.
+
+129
+00:11:32,950 --> 00:11:35,680
+Si esto es verdad nos da truc.
+
+130
+00:11:37,420 --> 00:11:45,400
+Así que hasta aquí como veis hemos realizado un montón de operaciones utilizando métodos internos de
+
+131
+00:11:45,400 --> 00:11:51,870
+las listas y hemos podido practicar en un ejemplo más o menos muchas cosas de las que hemos explicado.
+
+132
+00:11:52,120 --> 00:11:55,430
+Lo dejamos aquí y pasaremos al siguiente tema.

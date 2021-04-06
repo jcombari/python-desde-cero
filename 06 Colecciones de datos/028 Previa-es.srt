@@ -1,0 +1,19 @@
+1
+00:00:00,870 --> 00:00:05,640
+Como todos los lenguajes modernos integran un montón de colecciones para manejar datos.
+
+2
+00:00:05,640 --> 00:00:10,250
+Ya conocemos las listas pero hay otros tipos que sirven para cubrir otras necesidades.
+
+3
+00:00:10,530 --> 00:00:17,130
+En esta pequeña unidad Aprenderás cómo y cuándo utilizar tres nuevas colecciones las tuplas los conjuntos
+
+4
+00:00:17,310 --> 00:00:23,700
+y los diccionarios y también dos estructuras de datos tradicionales como las pilas y las colas que existen
+
+5
+00:00:23,700 --> 00:00:26,360
+en Payton pero se pueden simular con listas.

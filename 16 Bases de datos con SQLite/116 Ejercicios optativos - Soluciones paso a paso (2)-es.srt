@@ -1,0 +1,411 @@
+1
+00:00:01,140 --> 00:00:07,590
+Ni para finalizar esta unidad del último ejercicio dice en este ejercicio debes crear una interfaz gráfica
+
+2
+00:00:07,860 --> 00:00:14,190
+Internet llamada menú punto picq que muestre de forma elegante el menú del restaurante tú eliges el
+
+3
+00:00:14,190 --> 00:00:19,700
+nombre del restaurante El precio del menú las tipografías colores adornos y el tamaño de la ventana.
+
+4
+00:00:19,860 --> 00:00:24,210
+El único requisito es que el programa se conectará a la base de datos para buscar la lista de categorías
+
+5
+00:00:24,300 --> 00:00:25,470
+y platos.
+
+6
+00:00:25,470 --> 00:00:27,870
+Aquí os dejo un enlace con algunas ideas.
+
+7
+00:00:27,960 --> 00:00:34,020
+He aquí el ejemplo que vamos a realizar nosotros en este ejercicio el que os voy a enseñar como veis
+
+8
+00:00:34,030 --> 00:00:41,370
+simplemente se trata de buscar algunos adornos para la ventana conectarnos a la base de datos mostrar
+
+9
+00:00:42,260 --> 00:00:47,330
+los platos con las categorias y un precio que os podéis inventar.
+
+10
+00:00:47,340 --> 00:00:49,840
+De acuerdo pues vamos a ponernos manos a la obra.
+
+11
+00:00:51,350 --> 00:01:03,500
+Vamos a comenzar como siempre importando ese cury 3 Voy a guardarlo aquí en venu punto Pi en ejercicios
+
+12
+00:01:04,280 --> 00:01:12,780
+y vamos a portar from the counter import Holl para trabajar con The Quintet.
+
+13
+00:01:13,340 --> 00:01:15,820
+Vamos a centrarnos en configurar lo que sería la raíz.
+
+14
+00:01:15,830 --> 00:01:26,180
+Voy a ponerlo aquí con un comentario de configuración de la raíz creando root en TK.
+
+15
+00:01:26,870 --> 00:01:31,330
+Vamos a configurar el título titel.
+
+16
+00:01:33,130 --> 00:01:37,810
+Yo voy a llamarle a mi restaurante bar costa.
+
+17
+00:01:38,720 --> 00:01:41,150
+Voy a poner aquí un guión por el que es el menú.
+
+18
+00:01:41,150 --> 00:01:46,010
+Esto es lo que saldrá en la parte de arriba de la ventana en el título voy a desactivar la opción de
+
+19
+00:01:46,010 --> 00:01:58,640
+que sea tridimensionales reciclable 0 0 lo voy a desactivar en ancho y vertical y voy a configurar config
+
+20
+00:01:59,480 --> 00:02:07,140
+un borde de 25 pixeles por ejemplo con un relieve Relief.
+
+21
+00:02:12,610 --> 00:02:13,460
+Vale.
+
+22
+00:02:14,540 --> 00:02:17,800
+Y ahora vamos a crear un poco.
+
+23
+00:02:20,250 --> 00:02:27,940
+El nombre del restaurante el título y un subtítulo que será menú del día básicamente en forma de label.
+
+24
+00:02:27,950 --> 00:02:32,880
+De hecho este ejercicio es muy sencillo porque todo lo vamos a hacer el labels en etiquetas de texto
+
+25
+00:02:33,750 --> 00:02:46,070
+lo voy a hacer todo en una línea pasándoles root y el siguiente texto tricks bar Dom costa.
+
+26
+00:02:46,310 --> 00:02:49,500
+Vale aquí te voy a pasar.
+
+27
+00:02:50,430 --> 00:03:01,530
+Un color para el texto que sea por ejemplo dar Grin verde oscuro y una fuente Font teníamos que pasarle
+
+28
+00:03:01,530 --> 00:03:10,150
+una especie de tupla primero con la tipografía voy a poner una clásica Times New Roman en Windows.
+
+29
+00:03:10,890 --> 00:03:13,780
+Luego el tamaño 28 píxeles.
+
+30
+00:03:13,820 --> 00:03:21,870
+Y aquí voy a indicarle un tipo para la fuente Boldt negrita Italika cursiva.
+
+31
+00:03:21,980 --> 00:03:25,160
+En definitiva sería en negrita y cursiva.
+
+32
+00:03:25,800 --> 00:03:30,360
+Finalmente haría un pack para empaquetar todo esto en la raíz.
+
+33
+00:03:30,390 --> 00:03:38,140
+Vamos a ejecutar el bucle de aplicación soltamos el bucle.
+
+34
+00:03:39,310 --> 00:03:47,240
+Root mail y voy a probarlo controlé y como veis ya meshal aquí.
+
+35
+00:03:47,460 --> 00:03:50,280
+Está muy bien.
+
+36
+00:03:50,280 --> 00:03:55,980
+Veo que no tengo mucho espacio por los lados así que voy a asignar o añadir unos espacios por delante
+
+37
+00:03:56,010 --> 00:04:04,520
+en tres espacios por delante y tres espacios por detrás aquí al texto de costa bueno bastante mejor.
+
+38
+00:04:04,530 --> 00:04:05,130
+Vale.
+
+39
+00:04:06,330 --> 00:04:13,530
+Vamos a continuar añadiendo el subtítulo voy a hacer un copiar y pegar fácilmente voy a poner aquí menú
+
+40
+00:04:14,190 --> 00:04:16,030
+del día.
+
+41
+00:04:16,200 --> 00:04:21,990
+Aquí lo voy a poner con un color verde normal que no sea oscuro y la tipografía voy a utilizar para
+
+42
+00:04:21,990 --> 00:04:22,550
+todo.
+
+43
+00:04:22,560 --> 00:04:25,890
+La misma tipografía pero con un tamaño más pequeño.
+
+44
+00:04:25,920 --> 00:04:34,590
+De esta forma queda a un menú del día que voy a poner una separación abajo del todo.
+
+45
+00:04:34,590 --> 00:04:49,650
+Separación de títulos y categorías ya que simplemente voy a añadir una Label a Ruth y un texto sin nada
+
+46
+00:04:49,650 --> 00:04:50,650
+vacío.
+
+47
+00:04:50,820 --> 00:04:55,260
+Lo voy a empaquetar búsqueda.
+
+48
+00:04:55,470 --> 00:04:59,200
+Ya tengo aquí un pequeño espacio para empezar añadir los platos.
+
+49
+00:05:00,610 --> 00:05:07,600
+Y aquí es cuando ya tenemos que empezar a conectarnos a la base de datos vamos a conectarnos conexión
+
+50
+00:05:08,080 --> 00:05:11,380
+lugares y tres con él.
+
+51
+00:05:11,470 --> 00:05:19,910
+Dando por hecho que tenemos la base de datos en este directorio igual que el script restaurante.
+
+52
+00:05:20,570 --> 00:05:34,500
+DB creamos un cursor conexión cursor FUC y vamos a poner abajo del todo ya al cerrar la conexión.
+
+53
+00:05:36,240 --> 00:05:39,970
+Estaforma entonces aquí vamos a
+
+54
+00:05:43,000 --> 00:05:56,770
+buscar las caté morías y platos de la base de datos así que nos toca hacer unas consultas y de hecho
+
+55
+00:05:56,950 --> 00:06:02,160
+esto no difiere mucho de cómo lo habíamos hecho en el ejercicio anterior.
+
+56
+00:06:02,680 --> 00:06:08,050
+Justo abajo del todo cuando mostrábamos el menú os voy a sugerir que lo copias directamente toda la
+
+57
+00:06:08,050 --> 00:06:13,110
+parte de la consulta de mostrar las categorías y los platos por qué es exactamente lo mismo.
+
+58
+00:06:13,180 --> 00:06:15,800
+Vamos a cambiarlo y pegarlo aquí.
+
+59
+00:06:16,200 --> 00:06:18,230
+No está bien formateado.
+
+60
+00:06:18,670 --> 00:06:21,810
+Vamos a buscar las categorías para cada categoría.
+
+61
+00:06:21,850 --> 00:06:24,360
+Vamos a mostrar aquí en lugar de por pantalla.
+
+62
+00:06:24,430 --> 00:06:36,430
+Vamos a crear una Label Label root TeX y aquí le pasaríamos la categoría.
+
+63
+00:06:36,430 --> 00:06:37,280
+De esta forma.
+
+64
+00:06:37,480 --> 00:06:40,890
+Así fácilmente.
+
+65
+00:06:41,720 --> 00:06:49,930
+Pues hasta al final voy a copiar todo de aquí cambiando un poquito te lo voy a quitar.
+
+66
+00:06:50,660 --> 00:06:55,020
+Vale el color lo voy a poner negro.
+
+67
+00:06:55,720 --> 00:07:00,400
+El tamaño de lo que será la categoría lo voy a poner a 20 píxeles.
+
+68
+00:07:01,670 --> 00:07:05,710
+Así voy a ejecutarlo a ver que sucede.
+
+69
+00:07:06,270 --> 00:07:09,720
+Vale ya tengo primeros segundos y postres.
+
+70
+00:07:10,340 --> 00:07:16,490
+Creo que voy a añadir un salto de línea también abajo del todo voy a con una que una separación entre
+
+71
+00:07:16,490 --> 00:07:28,180
+categorías separación entre categorías como queda primeros aquí ir a los platos de cada categoría bien.
+
+72
+00:07:29,030 --> 00:07:34,670
+Y aquí en lugar de hacer el prin pues vamos a hacer exactamente lo mismo que aquí voy a copiarlo y voy
+
+73
+00:07:34,670 --> 00:07:36,520
+a mostrar cada plato.
+
+74
+00:07:37,260 --> 00:07:40,080
+Pasándoles en lugar de categoría 1 plato 1.
+
+75
+00:07:41,070 --> 00:07:48,910
+Vamos a poner un color por ejemplo Grey gris que parezca de otro color.
+
+76
+00:07:49,980 --> 00:07:53,490
+Vale aquí en lugar de Times New Roman voy a poner otra tipografía voy a poner.
+
+77
+00:07:55,240 --> 00:08:01,230
+De verdad Ana por ejemplo a 15 píxeles y sólo en cursiva.
+
+78
+00:08:01,230 --> 00:08:06,380
+A ver cómo queda esto es ir probando a ver como os gusta ejecutarlo.
+
+79
+00:08:07,130 --> 00:08:12,960
+Y aquí tengo ya bastante bien en Costa menú del día.
+
+80
+00:08:13,050 --> 00:08:18,510
+Primero es ensalada del tiempo zumo de tomate segundos estofado de pescado con patatas postres flan
+
+81
+00:08:18,510 --> 00:08:20,910
+con nata y fruta del tiempo.
+
+82
+00:08:20,970 --> 00:08:21,500
+Ya lo tengo.
+
+83
+00:08:21,510 --> 00:08:26,200
+Básicamente me faltaría añadir el precio abajo del todo.
+
+84
+00:08:26,550 --> 00:08:28,860
+Así que fuera de este foro.
+
+85
+00:08:29,170 --> 00:08:36,520
+Y podríamos cerrar la conexión antes de mostrar lo que sería el precio del menú.
+
+86
+00:08:37,020 --> 00:08:40,180
+En otro Label para copiarlo todo.
+
+87
+00:08:40,210 --> 00:08:41,250
+Alguna de estas.
+
+88
+00:08:41,370 --> 00:08:43,860
+Sin problemas.
+
+89
+00:08:44,190 --> 00:08:52,080
+Vamos a poner aquí el mensaje por ejemplo 12 euros y aquí lo típico de IVA incluido.
+
+90
+00:08:52,370 --> 00:08:59,770
+Pero queda bien voy a poner aquí también en dar Krim que ya no lo he utilizado mas desde el título de
+
+91
+00:08:59,790 --> 00:09:01,750
+que como estaremos abajo del todo.
+
+92
+00:09:01,980 --> 00:09:03,970
+Fuente tignous Román.
+
+93
+00:09:04,080 --> 00:09:04,830
+20.
+
+94
+00:09:04,830 --> 00:09:08,710
+Ya está bien lo vamos a empaquetar en esta ocasión.
+
+95
+00:09:08,900 --> 00:09:14,140
+Seguir poniendo un lado Rivet a la derecha.
+
+96
+00:09:14,640 --> 00:09:15,860
+Vamos a ejecutarlo.
+
+97
+00:09:16,670 --> 00:09:20,290
+Con esto amigos míos ya lo tenemos.
+
+98
+00:09:20,380 --> 00:09:22,410
+Llegamos al final de esta unidad.
+
+99
+00:09:22,420 --> 00:09:23,870
+Espero que os haya gustado.
+
+100
+00:09:23,920 --> 00:09:30,460
+Los ejemplos que os he proporcionado por vuestra cuenta podéis seguir experimentando hasta el infinito
+
+101
+00:09:30,460 --> 00:09:36,880
+todo lo que vosotros queráis si queréis compartir con los demás vuestros diseños podéis hacer una captura
+
+102
+00:09:36,880 --> 00:09:43,360
+de pantalla y compartirla en la sección de preguntas y respuestas pero simplemente para compartirlo.
+
+103
+00:09:43,360 --> 00:09:48,060
+Por ahora nada más nos veremos en la próxima unidad.

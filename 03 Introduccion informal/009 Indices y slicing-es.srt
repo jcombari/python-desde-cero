@@ -1,0 +1,419 @@
+1
+00:00:01,540 --> 00:00:09,250
+Vamos a seguir hablando de las cadenas de texto y algo peculiar y evidente es que una cadena de texto
+
+2
+00:00:09,250 --> 00:00:16,450
+de caracteres está formada por la unión de distintos caracteres y individualmente Payton como la mayoría
+
+3
+00:00:16,450 --> 00:00:22,720
+de lenguajes nos permite acceder independientemente a estos caracteres utilizando algo llamado índices.
+
+4
+00:00:22,870 --> 00:00:24,370
+Vamos a ver cómo se hace.
+
+5
+00:00:24,720 --> 00:00:30,280
+No tenemos una palabra en una variable por ejemplo la palabra país.
+
+6
+00:00:33,970 --> 00:00:39,360
+Si queremos acceder al primer carácter de esta cadena tenemos que hacerlo a través de los índices.
+
+7
+00:00:40,470 --> 00:00:44,110
+El primer índice de una cadena es el número cero.
+
+8
+00:00:44,190 --> 00:00:51,060
+Si ponemos la siguiente palabra entre dos corchetes nos referimos al número cero estaremos haciendo
+
+9
+00:00:51,060 --> 00:00:54,310
+referencia al carácter de la primera posición.
+
+10
+00:00:54,420 --> 00:00:59,790
+No voy a poner un comentario aquí para que quede guardado carácter la
+
+11
+00:01:02,610 --> 00:01:09,140
+posición cero ya que en programación se empieza a contar desde cero.
+
+12
+00:01:09,660 --> 00:01:15,890
+Si mostramos esto aquí tengo la P de la palabra Payton que es el primer carácter.
+
+13
+00:01:17,250 --> 00:01:21,790
+También podemos mostrar por ejemplo en el índice 3.
+
+14
+00:01:23,680 --> 00:01:26,400
+1 2 y 3 que tendría que ser la H.
+
+15
+00:01:26,410 --> 00:01:29,600
+Vamos a comprobarlo y ahí tenemos la H.
+
+16
+00:01:31,690 --> 00:01:33,340
+Pero esto no acaba aquí.
+
+17
+00:01:33,430 --> 00:01:40,660
+Los índices dan muchísimo compiten por eso es uno de los lenguajes más interesantes y sencillos de utilizar
+
+18
+00:01:40,660 --> 00:01:41,940
+y más potentes.
+
+19
+00:01:42,280 --> 00:01:44,580
+Podemos utilizar índices negativos.
+
+20
+00:01:45,630 --> 00:01:52,710
+Los índices en negativo hacen referencia a partir del final de la cadena siendo el menos 1 el índice
+
+21
+00:01:52,710 --> 00:01:54,500
+del último carácter de la cadena.
+
+22
+00:01:55,730 --> 00:02:02,540
+Eso es porque menos cero y cero en el mismo así que no podemos hacer referencia a un supuesto palabras
+
+23
+00:02:04,160 --> 00:02:07,340
+menos cero para referirnos al último carácter.
+
+24
+00:02:07,460 --> 00:02:10,450
+Por qué esta haciendo referencia al primero.
+
+25
+00:02:10,610 --> 00:02:19,880
+Pero si ponemos palabra y el índice menos 1 lo que tenemos es el último carácter de la cadena.
+
+26
+00:02:19,880 --> 00:02:26,580
+Si ponemos el menos 2 tenemos el penúltimo que es la voz de pito.
+
+27
+00:02:27,550 --> 00:02:37,380
+De hecho podemos trabajar con esto más sencillo sabiendo que la palabra Payton tiene 1 2 3 4 5 y 6 caracteres.
+
+28
+00:02:38,200 --> 00:02:45,940
+Digamos que a la inversa podríamos acceder al primer carácter poniéndole el índice menos 6 ya que empezábamos
+
+29
+00:02:46,120 --> 00:02:48,500
+de esa forma a contar.
+
+30
+00:02:48,900 --> 00:02:51,190
+Palabra menos seis.
+
+31
+00:02:51,400 --> 00:02:58,090
+En una palabra de seis letras hará referencia a la primera mientras que si lo hacemos de la forma tradicional
+
+32
+00:02:58,510 --> 00:03:04,300
+tendríamos que empezar a contar desde cero y en lugar de 6 tendríamos que poner un 5 para ir a la última
+
+33
+00:03:04,300 --> 00:03:05,400
+letra.
+
+34
+00:03:05,410 --> 00:03:12,910
+De todas formas lo que hace todavía más potente a Payton y uno de mis lenguajes favoritos es que soporta
+
+35
+00:03:13,420 --> 00:03:17,310
+múltiples índices en una técnica llamada silais.
+
+36
+00:03:18,500 --> 00:03:22,520
+Esto es muy útil para sustraer porciones de otras cadenas.
+
+37
+00:03:22,520 --> 00:03:30,610
+Vamos a ver un ejemplo recordar que tenemos la palabra Payton guardada aquí en palabra.
+
+38
+00:03:31,500 --> 00:03:39,720
+Para utilizar los índices tenemos que indicar un índice de inicio y un índice de Phil Por ejemplo si
+
+39
+00:03:39,720 --> 00:03:47,220
+yo monstro de la palabra desde el índice número cero que hemos quedado que es el primer carácter de
+
+40
+00:03:47,310 --> 00:03:54,140
+una cadena hasta por ejemplo el índice 2 vamos a ver lo que nos muestra.
+
+41
+00:03:54,580 --> 00:03:55,640
+No es nuestra.
+
+42
+00:03:57,060 --> 00:03:57,810
+Y una y griega.
+
+43
+00:03:57,840 --> 00:03:59,660
+Las dos primeras letras.
+
+44
+00:03:59,730 --> 00:04:04,790
+Esto es porque el final se excluye y el último no cuenta.
+
+45
+00:04:04,800 --> 00:04:09,860
+Es decir la posición 2 sería 0 1 y 2.
+
+46
+00:04:10,020 --> 00:04:10,900
+No se cuenta.
+
+47
+00:04:10,920 --> 00:04:13,070
+Se excluye el último acuerdo.
+
+48
+00:04:14,800 --> 00:04:24,390
+También podríamos hacer desde el 2 hasta el final por ejemplo alabara desde el 2 desde el 2 hasta el
+
+49
+00:04:24,390 --> 00:04:25,620
+último carácter.
+
+50
+00:04:25,640 --> 00:04:27,870
+Podemos poner números 1.
+
+51
+00:04:29,700 --> 00:04:30,860
+Fijaros que.
+
+52
+00:04:31,880 --> 00:04:34,590
+Hasta al menos 1 también no se excluye.
+
+53
+00:04:35,390 --> 00:04:36,300
+Por tanto.
+
+54
+00:04:37,350 --> 00:04:40,510
+Cómo podríamos indicarle que llega hasta el final.
+
+55
+00:04:40,510 --> 00:04:44,460
+Bueno pues en lugar de poner menos uno podríamos simplemente dejarlo.
+
+56
+00:04:45,510 --> 00:04:46,920
+Vacío.
+
+57
+00:04:48,000 --> 00:04:56,090
+Fijaros cuando no le decimos un índice el tomar por defecto la primera o la última posición incluyéndola.
+
+58
+00:04:56,160 --> 00:05:03,690
+De esta manera si nosotros les mostramos de una palabra por ejemplo el índice por defecto hasta el 2
+
+59
+00:05:05,100 --> 00:05:06,840
+sería como antes nos mostraría Pi.
+
+60
+00:05:06,950 --> 00:05:12,860
+Y de hecho si mostrase de una palabra los dos índices por defecto.
+
+61
+00:05:12,990 --> 00:05:20,280
+Con esta técnica de deslicen lo que tendríamos es una palabra tal cual desde el principio hasta el final
+
+62
+00:05:20,320 --> 00:05:27,030
+pero mostrada esta forma que de alguna forma sería la patente a decirle desde la palabra índice por
+
+63
+00:05:27,030 --> 00:05:33,380
+defecto hasta dos más la palabra del índice por defecto.
+
+64
+00:05:33,730 --> 00:05:38,240
+2 hasta el final pues también lo tenemos.
+
+65
+00:05:38,310 --> 00:05:49,800
+Un ejemplo negativo por ejemplo palabra podemos pasarle primer índice menos 2 hasta el final y así sacamos
+
+66
+00:05:49,800 --> 00:05:51,200
+las últimas dos letras.
+
+67
+00:05:51,310 --> 00:05:56,600
+Pero qué ocurriría si utilizamos un índice que se encuentra fuera del espacio que abarca una cadena.
+
+68
+00:05:57,380 --> 00:06:01,000
+Quiero decir la palabra Payton tiene seis caracteres.
+
+69
+00:06:01,160 --> 00:06:07,780
+Qué sucedería si nos referimos a un supuesto carácter en la posición por ejemplo 99.
+
+70
+00:06:08,270 --> 00:06:10,060
+Pues que nos da un error.
+
+71
+00:06:10,370 --> 00:06:16,880
+Este error nos indica que string que Index el índice de la cadena se encuentra auto freundt fuera del
+
+72
+00:06:16,880 --> 00:06:17,970
+rango.
+
+73
+00:06:18,260 --> 00:06:25,610
+Claro no podemos hacerlo pero en estos casos sí que podemos utilizar Leysi.
+
+74
+00:06:26,060 --> 00:06:37,700
+Fijaros si mostramos la palabra por ejemplo desde el principio hasta el 99 pero con deslicen qué pasa.
+
+75
+00:06:37,810 --> 00:06:45,260
+Pues que automáticamente el no interpreta esos espacios y simplemente nos muestra el contenido de la
+
+76
+00:06:45,260 --> 00:06:45,710
+cadena.
+
+77
+00:06:45,710 --> 00:06:49,310
+Hasta dónde llega y a partir de ahí la deja de lado.
+
+78
+00:06:49,490 --> 00:06:58,250
+Si utilizáramos por ejemplo el índice desde el principio ya fuera de lo que abarca por ejemplo 99.
+
+79
+00:06:58,250 --> 00:07:04,580
+En este caso lo que nos devolverá es simplemente un espacio vacío una cadena con nada.
+
+80
+00:07:04,580 --> 00:07:08,660
+Es decir el interpreta que no hay ningún carácter en el espacio que queremos indicarlo.
+
+81
+00:07:08,720 --> 00:07:13,750
+Es ley sin que automáticamente nos dice ahí no hay nada y nos deja una cadena vacía.
+
+82
+00:07:15,030 --> 00:07:20,580
+Para ir acabando esta lección un par de cosas más tienes que tener en cuenta que una cadena de caracteres
+
+83
+00:07:20,610 --> 00:07:22,230
+en Payton es inmutable.
+
+84
+00:07:22,500 --> 00:07:26,970
+Eso significa que no se puede sustituir ninguno de sus caracteres individualmente.
+
+85
+00:07:26,970 --> 00:07:34,410
+Por ejemplo sería muy fácil pensar que si cogemos palabra y cambiamos la primera posición y le asignamos
+
+86
+00:07:34,800 --> 00:07:43,110
+otro carácter por ejemplo a la pelea ponemos una n pues nos tendría que quedar naughton.
+
+87
+00:07:43,380 --> 00:07:48,090
+Sin embargo nos da un error dice que el tipo cadena es trinquet STR.
+
+88
+00:07:48,830 --> 00:07:52,970
+No soporta la asignación de objetos o items.
+
+89
+00:07:54,170 --> 00:07:59,240
+Sin embargo esto no es un inconveniente ya que Payton es muy flexible y utilizando la Ishin podemos
+
+90
+00:07:59,240 --> 00:08:06,200
+hacer lo mismo muy fácilmente imaginar que queremos cambiar la letra utilizando la Ishin vamos a guardar
+
+91
+00:08:06,200 --> 00:08:12,680
+en palabra por ejemplo vamos a poner una en al principio y la vamos a concatenar a la palabra otra vez
+
+92
+00:08:13,100 --> 00:08:19,550
+pero a partir de la primera posición saltándonos la primera letra que es cero.
+
+93
+00:08:19,640 --> 00:08:27,320
+Comenzamos por el uno y de esta manera si mostramos la palabra ya tenemos nuestra nueva cadena cambiada.
+
+94
+00:08:27,800 --> 00:08:29,880
+Por tanto tampoco es.
+
+95
+00:08:30,580 --> 00:08:32,470
+Que esto sea una gran limitación.
+
+96
+00:08:32,890 --> 00:08:40,150
+Lo último que os quería mostrar en esta elección es una de las funcionalidades de Python que veremos
+
+97
+00:08:40,150 --> 00:08:42,740
+más adelante en profundidad.
+
+98
+00:08:42,850 --> 00:08:49,090
+Pero para que os hagáis una idea del potencial que tiene este lenguaje de programación hay una función
+
+99
+00:08:49,330 --> 00:08:53,450
+dentro del lenguaje llamada Alén que viene del Lens de longitud.
+
+100
+00:08:53,730 --> 00:08:55,480
+Y si le pasamos al Lens.
+
+101
+00:08:56,450 --> 00:09:02,770
+Una cadena de caracteres esta es capaz de decirnos cuántos caracteres tiene nos dice su longitud su
+
+102
+00:09:02,790 --> 00:09:11,600
+lainz por ejemplo si escribimos leer y le pasamos la palabra pues nos devuelve el valor.
+
+103
+00:09:11,600 --> 00:09:12,680
+6.
+
+104
+00:09:12,890 --> 00:09:15,640
+Porque tiene seis letras.
+
+105
+00:09:16,280 --> 00:09:22,110
+Hablaremos más adelante de las cadenas en profundidad pero por ahora seguiremos con el siguiente tipo.

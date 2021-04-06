@@ -1,0 +1,1267 @@
+1
+00:00:00,600 --> 00:00:05,640
+Muy bien pues vamos a por el primer ejercicio de esta unidad de bases de datos con ese sekulic para
+
+2
+00:00:05,640 --> 00:00:10,380
+practicar un poco los conceptos que hemos ido aprendiendo vamos a empezar por el ejercicio.
+
+3
+00:00:10,410 --> 00:00:17,430
+Uno que está dividido en varios subejercicios a lo largo de este ejercicio vamos a crear un pequeño
+
+4
+00:00:17,430 --> 00:00:21,160
+sistema para gestionar los platos del menú de un restaurante.
+
+5
+00:00:21,360 --> 00:00:27,800
+Por ahora debes empezar creando un clip llamado restaurante punto Pi y dentro una función crear bebé.
+
+6
+00:00:27,810 --> 00:00:33,210
+Crear bases de datos que creará una pequeña base de datos restaurante punto debe con las siguientes
+
+7
+00:00:33,210 --> 00:00:34,380
+dos tablas.
+
+8
+00:00:34,740 --> 00:00:39,770
+Si ya existen deberá tratar la excepción y mostrar que las tablas ya existen.
+
+9
+00:00:39,810 --> 00:00:42,480
+Con un mensaje con un pin por ejemplo.
+
+10
+00:00:42,480 --> 00:00:45,590
+En caso contrario mostrar a que se han creado correctamente.
+
+11
+00:00:45,690 --> 00:00:52,720
+Aquí tengo la sintaxis de las dos tablas Credits Table categoría con una idea primaire auto incremental
+
+12
+00:00:53,010 --> 00:00:56,280
+un nombre marchar único y no nulo.
+
+13
+00:00:56,820 --> 00:01:00,060
+Por tanto no puede haber dos categorías con el mismo nombre.
+
+14
+00:01:00,510 --> 00:01:01,730
+Luego los platos.
+
+15
+00:01:02,710 --> 00:01:09,700
+Un identificador único Primary auto incremental con un nombre el nombre también será único y no puede
+
+16
+00:01:09,700 --> 00:01:10,550
+ser nulo.
+
+17
+00:01:11,800 --> 00:01:13,980
+Y aquí vamos a crear una relación.
+
+18
+00:01:14,010 --> 00:01:15,440
+Vamos a crear un campo.
+
+19
+00:01:16,270 --> 00:01:23,560
+Qué es categoría barra baja y que será entero como una idea categoría no puede ser nulo.
+
+20
+00:01:23,910 --> 00:01:30,880
+íbamos a indicar de esta forma Foreing que creando una clave foránea que va a relacionar la categoría
+
+21
+00:01:31,680 --> 00:01:34,450
+de plato va a referenciar.
+
+22
+00:01:35,230 --> 00:01:41,950
+De categoría de la tabla categoría el campo IDE llama la función y comprueba que la base de datos se
+
+23
+00:01:41,950 --> 00:01:43,240
+crea correctamente.
+
+24
+00:01:43,560 --> 00:01:55,340
+Vamos a comenzar haciendo este punto 1.1 creando un fichero aquí en ejercicios llamado restaurante punto
+
+25
+00:01:55,360 --> 00:01:57,050
+Pi.
+
+26
+00:01:58,750 --> 00:02:03,420
+Vamos a comenzar importando el sekulic.
+
+27
+00:02:03,520 --> 00:02:12,970
+Evidentemente vamos a crear esta función una función llamada crear bases de datos crear BD.
+
+28
+00:02:13,220 --> 00:02:16,170
+No sé si era Debé pero da igual lo vamos a poner así.
+
+29
+00:02:18,400 --> 00:02:20,030
+Comenzamos creando una conexión.
+
+30
+00:02:20,080 --> 00:02:21,280
+Como siempre.
+
+31
+00:02:21,370 --> 00:02:22,020
+3.
+
+32
+00:02:22,070 --> 00:02:22,840
+Punto.
+
+33
+00:02:22,870 --> 00:02:25,900
+Con él vamos a crear la base de datos
+
+34
+00:02:29,250 --> 00:02:32,310
+restaurante punto de venta.
+
+35
+00:02:32,650 --> 00:02:40,580
+Si no existe puedes crear el fichero y crearemos un cursor cursor igual conexión cursor.
+
+36
+00:02:41,110 --> 00:02:48,880
+De esta forma voy a rellenar por la parte de abajo ya que estoy haciendo una conexión
+
+37
+00:02:51,820 --> 00:02:52,620
+muy bien.
+
+38
+00:02:52,990 --> 00:02:59,470
+Por cierto cuando estamos creando las tablas no hace falta hacer un cómic porque ya quedan creadas.
+
+39
+00:02:59,490 --> 00:03:04,390
+No es como si estamos actualizando añadiendo valores a los registros de la tabla.
+
+40
+00:03:04,510 --> 00:03:08,970
+En esos casos sí que hay que hacer un comic pero durante la creación de las tablas.
+
+41
+00:03:09,190 --> 00:03:14,620
+Así que por eso no voy a poner un comité aquí abajo así que vamos a comenzar creando la primera tabla
+
+42
+00:03:14,890 --> 00:03:17,350
+con un SQ fácilmente.
+
+43
+00:03:17,680 --> 00:03:26,120
+Triple Milla que nos da más juego y voy a copiar del ejercicio la sintaxis que ya os he facilitado.
+
+44
+00:03:26,230 --> 00:03:30,520
+Vamos a crear la tabla categoría de esta forma podemos ponerlo así.
+
+45
+00:03:31,800 --> 00:03:32,780
+Para funcionar.
+
+46
+00:03:34,760 --> 00:03:38,070
+Y a continuación crearemos.
+
+47
+00:03:39,190 --> 00:03:40,170
+La tabla.
+
+48
+00:03:42,100 --> 00:03:42,770
+Plato.
+
+49
+00:03:44,410 --> 00:03:45,470
+Lo copio todo.
+
+50
+00:03:46,810 --> 00:03:49,570
+Y lo voy a poner de acuerdo.
+
+51
+00:03:51,210 --> 00:03:52,280
+Vamos a guardar.
+
+52
+00:03:53,950 --> 00:04:04,060
+Teóricamente vamos a probar la función muy equivocado que viva crear de ejecutarla.
+
+53
+00:04:04,320 --> 00:04:04,990
+Control.
+
+54
+00:04:04,990 --> 00:04:06,600
+A ver qué sucede.
+
+55
+00:04:07,400 --> 00:04:11,640
+Vale parece que se ha creado el fichero vamos a corroborarlo.
+
+56
+00:04:11,650 --> 00:04:19,180
+Vamos a abrir el browser voy a abrir la base de datos en ejercicios restaurante punto debe y se me ha
+
+57
+00:04:19,180 --> 00:04:20,160
+creado aquí.
+
+58
+00:04:20,970 --> 00:04:23,150
+La categoría con la idea y el nombre.
+
+59
+00:04:24,040 --> 00:04:28,380
+Y el plato consolidé el nombre la categoría de referenciando.
+
+60
+00:04:29,730 --> 00:04:31,130
+Líder de la categoría.
+
+61
+00:04:34,170 --> 00:04:35,260
+Muy bien.
+
+62
+00:04:35,320 --> 00:04:37,800
+Qué ocurriría si volviésemos a ejecutar.
+
+63
+00:04:38,660 --> 00:04:41,910
+Esta función vale pues que nos daría error.
+
+64
+00:04:42,170 --> 00:04:44,120
+Y aquí es cuando entran en juego.
+
+65
+00:04:44,240 --> 00:04:45,170
+Lo que nos dicen.
+
+66
+00:04:45,500 --> 00:04:49,100
+Si ya existe deberá tratarlo accesión y mostrar que las tablas ya existen.
+
+67
+00:04:49,100 --> 00:04:54,080
+En caso contrario mostrar a que se han quedado correctamente así que vamos a modificar esta ejecución
+
+68
+00:04:54,080 --> 00:05:00,430
+de aquí vamos a tratarla como una acepción y la acepción que tenemos que tratar es estar aquí.
+
+69
+00:05:01,610 --> 00:05:03,720
+Ese culito 3 operacional error.
+
+70
+00:05:03,860 --> 00:05:04,280
+Por qué.
+
+71
+00:05:04,300 --> 00:05:08,800
+Es la que nos está devolviendo este mensaje Table categoria Rivia Exis.
+
+72
+00:05:08,800 --> 00:05:15,750
+Ya existe la tabla categoría por lo tanto vamos a tratar esta excepción en este bloque de código.
+
+73
+00:05:15,850 --> 00:05:22,840
+Hacer un Troi vamos a probar y si hay un fallo vamos a capturarlo.
+
+74
+00:05:22,840 --> 00:05:30,700
+De esta forma en caso de que ocurra un error vamos a mostrar por ejemplo la tabla de categorías
+
+75
+00:05:33,940 --> 00:05:39,830
+ya existe y recordad que podríamos anidar un.
+
+76
+00:05:41,160 --> 00:05:54,060
+Para comprobar el caso en que todo funciona correctamente y aquí pondríamos la tabla de categorías se
+
+77
+00:05:54,060 --> 00:05:56,980
+ha creado correctamente.
+
+78
+00:05:57,480 --> 00:06:08,440
+Por ejemplo vamos a hacer exactamente lo mismo para la tabla platos lo voy a copiar así.
+
+79
+00:06:12,240 --> 00:06:15,830
+En lugar de categorías pondríamos plato.
+
+80
+00:06:17,450 --> 00:06:18,740
+Platos.
+
+81
+00:06:18,910 --> 00:06:23,760
+Aquí tampoco vamos a ejecutar de nuevo controlé.
+
+82
+00:06:24,490 --> 00:06:29,120
+Y como ves ya me muestra la tabla categorizarse existe la tabla de platos también.
+
+83
+00:06:29,550 --> 00:06:33,400
+Si rasguemos esta base de datos voy a abrir el directorio.
+
+84
+00:06:36,390 --> 00:06:38,170
+Voy a borrarla suprimir.
+
+85
+00:06:39,940 --> 00:06:44,750
+No me deja porque la tengo abierta con este programa tendría que ir a Archivo cerrar.
+
+86
+00:06:46,150 --> 00:06:47,600
+Voy a borrarlas suprimir.
+
+87
+00:06:47,620 --> 00:06:50,940
+Ahora si que me deja voy a volver a crearla.
+
+88
+00:06:51,040 --> 00:06:57,170
+Control V la tabla de categoria se ha creado correctamente la tabla de platos se ha creado correctamente.
+
+89
+00:06:57,250 --> 00:07:00,410
+Vuelvo a abrirla a ver si todo está correcto.
+
+90
+00:07:01,250 --> 00:07:02,040
+De acuerdo.
+
+91
+00:07:02,120 --> 00:07:12,690
+Ya tenemos el primer punto del ejercicio completado en el punto 2 nos dicen que era una función llamada
+
+92
+00:07:12,980 --> 00:07:19,160
+categoria que pide al usuario un nombre de categoría y se encargue de crear la categoría la base de
+
+93
+00:07:19,160 --> 00:07:19,880
+datos.
+
+94
+00:07:19,910 --> 00:07:25,900
+Ten en cuenta que si ya existe un error por qué el nombre es unique tiene la cláusula única.
+
+95
+00:07:26,240 --> 00:07:28,990
+Por tanto tendremos que tratar también esta excepción.
+
+96
+00:07:29,420 --> 00:07:34,310
+Ahora crea un pequeño menú de opciones dentro del scrip que te da la bienvenida al sistema y te permita
+
+97
+00:07:34,310 --> 00:07:36,290
+crear una categoria o salir.
+
+98
+00:07:36,290 --> 00:07:39,320
+Añade las siguientes tres categorías utilizando este menú de opciones.
+
+99
+00:07:39,320 --> 00:07:42,420
+Primeros segundos y postres.
+
+100
+00:07:43,070 --> 00:07:56,670
+Vamos a por ello vamos a crear esta función por aquí los de abajo agregar categoría.
+
+101
+00:07:57,980 --> 00:08:04,130
+Y esto es lo que va a hacer pues es preguntarme por el teclado que lo introduzca nombre de una nueva
+
+102
+00:08:04,130 --> 00:08:09,690
+categoría vamos a ponerlo bien adornado categoría igual a imput.
+
+103
+00:08:10,280 --> 00:08:14,360
+Vamos a leer y preguntar.
+
+104
+00:08:14,360 --> 00:08:18,990
+Nombre de la nueva categoría.
+
+105
+00:08:19,880 --> 00:08:24,890
+Vamos a agregar por ejemplo un bar Raine y luego vamos a indicar que no se escriba de esta forma al
+
+106
+00:08:24,890 --> 00:08:27,850
+usuario porque queda mucho mejor haciendo esto.
+
+107
+00:08:29,920 --> 00:08:33,730
+Una vez tenemos la categoría que nos ha introducido el usuario.
+
+108
+00:08:33,940 --> 00:08:35,890
+Vamos a crear una conexión.
+
+109
+00:08:35,890 --> 00:08:37,690
+Vamos a copiar lo que tenemos arriba.
+
+110
+00:08:41,320 --> 00:08:43,800
+Así con un cursor.
+
+111
+00:08:45,330 --> 00:08:54,610
+Y aquí haremos un cursor exequible inserta digamos en la categoría de esta categoría que hemos leído.
+
+112
+00:08:54,610 --> 00:09:00,790
+Insert tu categoría y los valores values.
+
+113
+00:09:00,990 --> 00:09:08,440
+Ahora recordar que tenemos el primer campo auto incremental de acuerdo por tanto va a ser nulo NULL
+
+114
+00:09:09,820 --> 00:09:11,340
+y luego tendríamos.
+
+115
+00:09:12,600 --> 00:09:15,400
+La categoría que hemos leído.
+
+116
+00:09:15,450 --> 00:09:22,410
+Bueno como esto es una cadena de texto no deja de ser una cadena de texto podemos utilizar nuestro truco
+
+117
+00:09:22,980 --> 00:09:26,900
+entre dos comia simples para indicar que esto será una cadena.
+
+118
+00:09:27,990 --> 00:09:35,240
+Con unas llaves y luego vamos a hacer un Format pasándole la categoría.
+
+119
+00:09:35,310 --> 00:09:37,390
+La cadena que hemos leído aquí arriba.
+
+120
+00:09:37,740 --> 00:09:38,720
+De esta forma.
+
+121
+00:09:39,980 --> 00:09:44,710
+Esta sentencia insertará a la categoría dinámicamente que nosotros le pasamos aquí.
+
+122
+00:09:46,750 --> 00:09:57,930
+Vamos a hacer un conexión commit para confirmar y finalmente un conexión Globus para cerrar la conexión.
+
+123
+00:09:58,130 --> 00:09:59,700
+Entonces nos piden.
+
+124
+00:10:00,970 --> 00:10:05,350
+Un pequeño menú de opciones dentro de scrip que te da la bienvenida al sistema y te permita crear una
+
+125
+00:10:05,350 --> 00:10:11,320
+categoría o salir y luego añadir las tres categorías Primeros segundos y postres así que tenemos que
+
+126
+00:10:11,320 --> 00:10:13,050
+crear un menú.
+
+127
+00:10:13,240 --> 00:10:22,070
+Podríamos dejar aquí arriba crear la base de datos en primera instancia para probar que se cree.
+
+128
+00:10:22,290 --> 00:10:28,720
+Si no se crean porque ya existe no pasará nada simplemente nos mostrará el mensaje y entonces mostraremos
+
+129
+00:10:28,720 --> 00:10:32,950
+el menú de opciones del programa.
+
+130
+00:10:32,950 --> 00:10:36,080
+Podemos hacer un walkthrough y ya sabemos hacerlo.
+
+131
+00:10:36,160 --> 00:10:37,890
+Mostramos una bienvenida.
+
+132
+00:10:38,260 --> 00:10:41,080
+Veremos ponerlo adornado así.
+
+133
+00:10:41,890 --> 00:10:46,830
+Bienvenido al gestor del restaurante.
+
+134
+00:10:48,230 --> 00:10:57,880
+ACUERDO Y ahora vamos a leer una opción opción igual imput y vamos a leer por ejemplo vamos a hacer
+
+135
+00:10:57,880 --> 00:11:00,580
+un salto de línea para que quede mejor.
+
+136
+00:11:00,610 --> 00:11:02,870
+Introduce una opción.
+
+137
+00:11:03,830 --> 00:11:13,190
+Lo vamos a poner otro salto de línea para que quede bien la opción uno va a ser agregar una categoría.
+
+138
+00:11:14,630 --> 00:11:24,460
+La opción es hacer un sorteo de línea la opción 2 será salir del programa.
+
+139
+00:11:24,590 --> 00:11:31,730
+Ahora vamos a analizar qué tenemos en opción sí opción es igual a uno en forma de cadena o no vamos
+
+140
+00:11:31,730 --> 00:11:34,030
+a complicarnos la vida.
+
+141
+00:11:34,190 --> 00:11:38,610
+Por ejemplo vamos a llamar a la función Agregar categorías.
+
+142
+00:11:39,140 --> 00:11:53,280
+De esta forma el iwf Opción igual a 2 haremos un brake para romper la ejecución del bucle guai.
+
+143
+00:11:55,540 --> 00:11:57,660
+Vamos a añadir un genérico.
+
+144
+00:11:58,000 --> 00:11:58,960
+Qué dirá.
+
+145
+00:11:59,230 --> 00:12:01,690
+Opción incorrecta.
+
+146
+00:12:03,170 --> 00:12:07,900
+Ya tenemos aquí nuestro menú de opciones del programa Cómo vamos a estar leyendo.
+
+147
+00:12:08,050 --> 00:12:10,140
+Ahora ya no podemos ejecutarlo con control.
+
+148
+00:12:10,210 --> 00:12:16,000
+Porque el suprimer no nos permite introducir valores por teclado así que vamos a tener que ejecutarlo
+
+149
+00:12:16,450 --> 00:12:23,920
+como si fuera un script vamos a abrir la carpeta donde tenemos el script Swift clic derecho abrir ventana
+
+150
+00:12:23,920 --> 00:12:33,030
+de comandos y no os confundáis vamos a ejecutar Python restaurante punto Pi.
+
+151
+00:12:33,160 --> 00:12:41,800
+Por qué si ponéis el tabulador capaz que os sale la base de datos si que ejecutamos y nos indica la
+
+152
+00:12:41,800 --> 00:12:44,530
+tabla de categorías y existe la tabla de platos ya existe.
+
+153
+00:12:44,530 --> 00:12:47,420
+Bienvenidos al gestor de restaurante introduce una opción.
+
+154
+00:12:47,680 --> 00:12:50,230
+Vale vamos a acabar de perfilar esto voy a hacer control.
+
+155
+00:12:50,260 --> 00:12:59,690
+Para cerrar voy a poner aquí un par de saltos de línea más antes de indicar la opción que queremos leer.
+
+156
+00:13:00,000 --> 00:13:08,040
+Así un espacio voy a ejecutar otra vez bienvenida al gestor del restaurante introduce la opción Agregar
+
+157
+00:13:08,050 --> 00:13:10,460
+una categoría o salir del programa.
+
+158
+00:13:11,630 --> 00:13:15,560
+Voy a poner a agregar una categoría a nombre de la nueva categoría.
+
+159
+00:13:15,830 --> 00:13:21,040
+Por ejemplo habíamos quedado que tenemos que introducir primeros segundos y postres.
+
+160
+00:13:21,260 --> 00:13:25,180
+Pues vamos a poner primeros vale.
+
+161
+00:13:25,250 --> 00:13:27,280
+Como tampoco estamos comprobando.
+
+162
+00:13:28,570 --> 00:13:33,340
+El resultado de ejecutarlo o no ejecutarlo pues simplemente lo introducimos y ya está parece que ha
+
+163
+00:13:33,340 --> 00:13:33,920
+ido bien.
+
+164
+00:13:34,090 --> 00:13:39,540
+Qué sucedería si volvemos a introducir la categoría primeros.
+
+165
+00:13:39,640 --> 00:13:46,410
+Vale pues ahora me salta un error y me dice que ha fallado supongo que porque como vemos aquí.
+
+166
+00:13:47,170 --> 00:13:49,420
+El nombre de categorias ya existe.
+
+167
+00:13:49,420 --> 00:13:56,140
+Vamos a comprobarlo vamos a abrir la base de datos restaurante buscar datos y efectivamente aquí tenemos
+
+168
+00:13:56,390 --> 00:13:57,640
+con Aidé 1.
+
+169
+00:13:58,290 --> 00:14:03,860
+La categoría primeros así que vamos a tener que capturar este error.
+
+170
+00:14:04,620 --> 00:14:10,270
+Por cierto vamos a poner aquí un mensaje para despedirnos antes de cerrar el programa.
+
+171
+00:14:10,770 --> 00:14:13,490
+Simplemente podríamos por aquí nos vemos.
+
+172
+00:14:14,250 --> 00:14:19,110
+Vale pues vamos a tratar la ejecución de esto de aquí.
+
+173
+00:14:19,110 --> 00:14:24,710
+Comprobar si hay un error y si no pues mostrar como mínimo que se ha creado correctamente la categoría.
+
+174
+00:14:25,200 --> 00:14:28,410
+Por cierto fijarse que el error es el mismo que antes.
+
+175
+00:14:28,410 --> 00:14:36,470
+Por tanto podríamos copiar podemos hacerlo alrededor de un Troi ejecutamos la consulta.
+
+176
+00:14:36,720 --> 00:14:43,370
+Capturamos el error se da aquí en caso de que ocurra este error vamos a mostrar un mensaje.
+
+177
+00:14:43,600 --> 00:14:50,200
+La categoría podríamos ponerla de esta forma entre unas llaves.
+
+178
+00:14:50,200 --> 00:15:01,170
+Ya existe un formato pasaremos el nombre de la categoría que hemos leído y en caso contrario que no
+
+179
+00:15:01,170 --> 00:15:05,580
+ocurra ningún error es que todo ha ido bien con el primero.
+
+180
+00:15:05,910 --> 00:15:10,010
+Y aquí podríamos copiar de hecho lo que tenemos arriba los vamos a cambiar un poquito.
+
+181
+00:15:10,300 --> 00:15:15,540
+Categoría creada correctamente.
+
+182
+00:15:16,620 --> 00:15:18,810
+Así está mejor.
+
+183
+00:15:18,890 --> 00:15:20,990
+Bien vamos a comprobar de nuevo.
+
+184
+00:15:22,210 --> 00:15:32,430
+Voy a borrar la pantalla ejecutamos introducimos una categoría categoría de primeros con la P mayúscula
+
+185
+00:15:33,420 --> 00:15:37,890
+la categoría primeros ya existe y vuelve a empezar el programa perfecto.
+
+186
+00:15:38,000 --> 00:15:48,390
+Vamos a añadir las siguientes categorías que nos faltan segundos en una categoría segundos.
+
+187
+00:15:49,110 --> 00:15:52,520
+Agregar otra categoría postres.
+
+188
+00:15:53,120 --> 00:16:02,430
+Voy a comprobar si lo tengo bien aquí realizando primeros segundos y postres perfecto.
+
+189
+00:16:02,640 --> 00:16:08,980
+Salgo del programa muy bien ya tenemos hecho este segundo ejercicio Qué más nos piden.
+
+190
+00:16:09,060 --> 00:16:14,570
+Nos piden crear una función llamada agregar plato que muestra al usuario las categorías disponibles
+
+191
+00:16:14,900 --> 00:16:17,060
+le permite escoger una escribiendo un número.
+
+192
+00:16:17,400 --> 00:16:20,860
+Luego lo pedirá introducir el nombre del plato y añadir a la base de datos.
+
+193
+00:16:20,910 --> 00:16:26,250
+Teniendo en cuenta que la categoría del plato concuerde con el identificador de la categoría y el nombre
+
+194
+00:16:26,250 --> 00:16:27,630
+del plato no puede repetirse.
+
+195
+00:16:27,630 --> 00:16:30,630
+No es necesario comprobar si la categoría realmente existe.
+
+196
+00:16:30,690 --> 00:16:33,840
+En ese caso simplemente no se insertará el plato agrega.
+
+197
+00:16:33,860 --> 00:16:37,420
+La nueva opción al menú de opciones añade los siguientes platos.
+
+198
+00:16:37,420 --> 00:16:40,140
+Bueno aquí tenemos la lista de los platos que tenemos que añadir.
+
+199
+00:16:40,140 --> 00:16:46,380
+Así que una nueva función llamada agregar plato que nos pida la categoría a donde queremos añadir un
+
+200
+00:16:46,380 --> 00:16:51,350
+plato y luego lea el nombre del plato y se encarga de insertarlo correctamente.
+
+201
+00:16:51,690 --> 00:17:01,330
+Vamos a hacerlo Deaf agregar plato va a ser muy parecida a la anterior.
+
+202
+00:17:02,130 --> 00:17:09,840
+Vamos a comenzar conectándonos a la base de datos y aquí vamos a ver vamos a empezar consultando las
+
+203
+00:17:09,840 --> 00:17:16,320
+categorías que tenemos en la base de datos y mostrándole al usuario en cuál de ellas quiere agregar
+
+204
+00:17:16,410 --> 00:17:17,430
+el nuevo plato.
+
+205
+00:17:17,430 --> 00:17:29,460
+Por tanto categorías cursos exequible vamos a realizar una consulta Select seleccionar todo from categorías
+
+206
+00:17:31,070 --> 00:17:40,410
+y aquí vamos a hacer un Fetch directamente Fetch COL para devolver una lista directamente aquí en categorías
+
+207
+00:17:41,640 --> 00:17:49,710
+vamos a mostrar por pantalla un mensaje que diga al usuario selecciona una categoría para añadir el
+
+208
+00:17:49,710 --> 00:17:50,460
+plato.
+
+209
+00:17:50,750 --> 00:17:52,170
+Vamos a poner así.
+
+210
+00:17:53,130 --> 00:17:56,470
+Y ahora esto es bastante interesante.
+
+211
+00:17:56,610 --> 00:18:02,230
+Vamos a hacer un fork aquí mismo recorriendo las categorias que hemos recuperado.
+
+212
+00:18:02,250 --> 00:18:05,640
+Categoría en categorías.
+
+213
+00:18:05,730 --> 00:18:12,540
+Vamos a ir mostrándolas de alguna forma que el usuario interprete como el menú que era la opción 1 la
+
+214
+00:18:12,540 --> 00:18:18,000
+opción dos pues aquí iremos poniendo el identificador único de la categoría lo iremos mostrando de esa
+
+215
+00:18:18,000 --> 00:18:19,740
+forma.
+
+216
+00:18:19,740 --> 00:18:27,570
+Por ejemplo vamos a poner entre dos corchetes la identificador de la categoría aquí y aquí el nombre
+
+217
+00:18:27,570 --> 00:18:28,660
+de la categoría.
+
+218
+00:18:29,070 --> 00:18:35,590
+Y esto lo vamos a formatear con el formato le vamos a pasar primero dando por hecho que en categoría.
+
+219
+00:18:35,840 --> 00:18:42,030
+Esto es una especie de tupla no le vamos a pasar el identificador que es el primer elemento y luego
+
+220
+00:18:43,350 --> 00:18:45,300
+el segundo elemento que es el nombre.
+
+221
+00:18:45,570 --> 00:18:55,080
+De esta forma por ahora vamos a dejarlo aquí o hacer el cómic de turno y el cloud de turno que ya lo
+
+222
+00:18:55,080 --> 00:18:59,200
+dejaremos hecho así y vamos a agregar esta opción al menú.
+
+223
+00:19:06,720 --> 00:19:10,760
+Voy a ejecutar a ver como se ve esto elaborar aquí.
+
+224
+00:19:12,330 --> 00:19:18,240
+Alegar una categoría agregar un plato o salir del programa si escojo agregar un plato me da un pequeño
+
+225
+00:19:18,240 --> 00:19:18,900
+error.
+
+226
+00:19:19,100 --> 00:19:21,960
+No existe la tabla categorías.
+
+227
+00:19:22,380 --> 00:19:26,260
+A ver vale es que lo he puesto en singular.
+
+228
+00:19:26,260 --> 00:19:28,840
+No era categorias era categoría a secas.
+
+229
+00:19:29,130 --> 00:19:30,230
+Bueno voy a guardar.
+
+230
+00:19:30,480 --> 00:19:32,610
+Voy a intentar ejecutar de nuevo
+
+231
+00:19:36,420 --> 00:19:38,070
+agregar un plato.
+
+232
+00:19:38,680 --> 00:19:45,820
+Y ahora cómo veis me muestra el identificador y el nombre de la categoría 1 primeros dos segundos tres
+
+233
+00:19:45,840 --> 00:19:47,220
+postres.
+
+234
+00:19:47,250 --> 00:19:50,470
+La idea ahora es que escribamos 1 2 o 3.
+
+235
+00:19:50,580 --> 00:19:55,890
+No hace falta como dice el enunciado que comprobemos exactamente si existe la categoria o no. Simplemente
+
+236
+00:19:56,220 --> 00:20:02,050
+vamos a leer el número y luego insertar el plato que será muy parecido a insertar una categoría así
+
+237
+00:20:02,060 --> 00:20:05,040
+que vamos a hacerlo aquí.
+
+238
+00:20:05,730 --> 00:20:11,580
+Haríamos un input donde guardaremos la categoría que ha introducido el usuario.
+
+239
+00:20:11,580 --> 00:20:17,610
+Lo podemos guardar de esta forma lo vamos a convertir entero porque si no no podremos comprobarlo luego
+
+240
+00:20:17,880 --> 00:20:26,280
+en el identificador así que lo vamos a convertir imput y vamos a mostrar simplemente este signo para
+
+241
+00:20:26,280 --> 00:20:29,970
+indicar que escriba al usuario la categoría.
+
+242
+00:20:30,840 --> 00:20:37,800
+A continuación vamos a pedirle al usuario que introduzca el nombre del plato y esto ya es casi casi
+
+243
+00:20:37,800 --> 00:20:40,120
+un copiar y pegar de lo que tenemos arriba.
+
+244
+00:20:41,170 --> 00:20:45,560
+Aquí pero sin la parte de la conexión que ya la teníamos.
+
+245
+00:20:45,660 --> 00:20:56,150
+Por tanto lo borramos en categoría seria un plato nombre del nuevo plato que me gusta mucho copiar y
+
+246
+00:20:56,150 --> 00:20:56,840
+pegar.
+
+247
+00:20:57,180 --> 00:21:01,770
+Y ahora vamos a insertar en plato los valores.
+
+248
+00:21:01,790 --> 00:21:03,290
+Primero lo identificador.
+
+249
+00:21:04,080 --> 00:21:06,170
+Luego lo que sería el nombre del plato.
+
+250
+00:21:06,330 --> 00:21:15,270
+Y por último lo que vendría a ser el identificador de la categoría por tanto le vamos a pasar aquí el
+
+251
+00:21:15,270 --> 00:21:18,220
+plato que hemos leído por pantalla.
+
+252
+00:21:18,470 --> 00:21:23,430
+Y luego la supuesta categoría que el usuario nos ha insertado.
+
+253
+00:21:23,760 --> 00:21:29,730
+También por teclado como es único también el nombre pues nos puede dar este error y pondríamos que el
+
+254
+00:21:29,730 --> 00:21:32,730
+plato ya existe.
+
+255
+00:21:32,730 --> 00:21:37,610
+Puede que salte otro error pero bueno en teoría no tienen por qué a no ser que el usuario ponga aquí
+
+256
+00:21:37,620 --> 00:21:38,950
+una categoría que no toca.
+
+257
+00:21:39,120 --> 00:21:44,690
+Pero para hacerlo más fácil lo vamos a dejar así el plato ya existe y vamos a pasar el nombre del plato.
+
+258
+00:21:47,290 --> 00:21:53,400
+Plato creado correctamente y aquí le pasamos el nombre del plato que guardamos.
+
+259
+00:21:54,630 --> 00:21:57,360
+Y a ver si no hemos cometido ningún fallo.
+
+260
+00:21:57,540 --> 00:22:00,490
+Vamos a volver a ejecutarlo.
+
+261
+00:22:01,470 --> 00:22:08,450
+Vamos a agregar un plato por ejemplo a la categoría de primeros y el nombre del nuevo plato.
+
+262
+00:22:08,460 --> 00:22:13,280
+Cómo saber cuales tenemos que insertar de primeros ensalada del tiempo y zumo de tomate.
+
+263
+00:22:13,660 --> 00:22:15,480
+Vamos a poner ensalada.
+
+264
+00:22:15,480 --> 00:22:22,170
+El tiempo plato habla del tiempo creado correctamente muy bien.
+
+265
+00:22:22,380 --> 00:22:24,480
+Como veis se nos sale el programa.
+
+266
+00:22:24,480 --> 00:22:29,430
+Igual es que me he dejado un break por aquí en el programa A ver si no tendría que haber ningún Breque
+
+267
+00:22:29,430 --> 00:22:30,040
+aquí.
+
+268
+00:22:30,270 --> 00:22:33,140
+Después de agregar el plato queremos que nos vuelva a salir el menú.
+
+269
+00:22:33,140 --> 00:22:36,710
+Vale por tanto no pongáis aquí un break break sólo lo ponéis aquí.
+
+270
+00:22:36,780 --> 00:22:42,930
+Al salir en la despedida voy a volver a ejecutarlo para seguir añadiendo más platos voy a agregar el
+
+271
+00:22:43,440 --> 00:22:52,980
+plato en la categoría de primeros zumo de tomate voy a agregar un plato en la categoría de segundos
+
+272
+00:22:53,470 --> 00:23:02,020
+y el nombre del plato será estofado de pescado o pollo con patatas estofado de pescado.
+
+273
+00:23:02,540 --> 00:23:10,390
+Voy a añadir otro en segundos pollo con patatas.
+
+274
+00:23:10,760 --> 00:23:15,970
+Voy a tomarme un momento para corroborar que se está guardando todo bien actualizar aquí.
+
+275
+00:23:16,030 --> 00:23:24,170
+Categoría plato y parece que lo tengo bien aquí el identificador normal del tiempo zumo de tomate el
+
+276
+00:23:24,180 --> 00:23:31,590
+identificador de la categoría pues me enlazaría la categoría 1 con lo que sería la categoría de primeros
+
+277
+00:23:31,650 --> 00:23:33,050
+que es la de identificar.
+
+278
+00:23:33,110 --> 00:23:33,450
+1.
+
+279
+00:23:33,450 --> 00:23:34,940
+Como vemos aquí perfecto.
+
+280
+00:23:36,660 --> 00:23:38,950
+Y voy a seguir añadiendo pues los postres.
+
+281
+00:23:39,070 --> 00:23:45,990
+Añadir un plato a la categoría postres y tenemos los postres flan con nata y fruta del tiempo.
+
+282
+00:23:46,210 --> 00:23:50,860
+Blanco nata añadir otro plato a postres.
+
+283
+00:23:50,950 --> 00:23:54,030
+Fruta del tiempo.
+
+284
+00:23:54,520 --> 00:23:55,110
+Muy bien.
+
+285
+00:23:55,240 --> 00:23:56,620
+Voy a salir del programa.
+
+286
+00:23:56,620 --> 00:23:59,580
+De acuerdo nos vemos factorizar aquí.
+
+287
+00:24:01,220 --> 00:24:04,410
+Fruta el tiempo flan con nata 3 3 2 2 1 1.
+
+288
+00:24:04,430 --> 00:24:11,750
+Perfecto lo tenemos perfecto sólo nos falta el último punto del ejercicio que nos dice crea una función
+
+289
+00:24:11,750 --> 00:24:15,920
+llamada a mostrar un menú que muestra el menú con todos los platos de forma ordenada.
+
+290
+00:24:16,100 --> 00:24:18,440
+Los primeros los segundos y los postres.
+
+291
+00:24:18,540 --> 00:24:24,220
+Operativamente puedes adornar la forma en que muestras el menú por pantalla.
+
+292
+00:24:24,590 --> 00:24:27,940
+Añadiríamos una última opción.
+
+293
+00:24:37,680 --> 00:24:52,560
+Vale vamos a crear esta función de mostrar menú ponerlo bien así vamos a comenzar haciendo la conexión
+
+294
+00:24:52,710 --> 00:24:58,160
+el cursor como siempre y luego vamos a cerrar como aquí sólo tenemos que consultar.
+
+295
+00:24:58,160 --> 00:25:02,650
+No voy a poner el comic y vamos a consultar las categorías.
+
+296
+00:25:02,670 --> 00:25:04,850
+De hecho esto ya lo tenemos por aquí arriba.
+
+297
+00:25:05,310 --> 00:25:14,190
+Así consultábamos las categorías ya las tenemos en una lista y ahora para cada categoría Ford categoría
+
+298
+00:25:14,530 --> 00:25:23,910
+FIM categorías vamos a mostrar el nombre de la categoría frin Categoría pasándolas.
+
+299
+00:25:24,210 --> 00:25:30,310
+El primer elemento de la lista es el segundo con el índice 1 y esto es interesante.
+
+300
+00:25:30,600 --> 00:25:34,990
+Vamos a consultar para cada categoría los platos que contiene.
+
+301
+00:25:35,310 --> 00:25:39,770
+Por tanto vamos a hacer otra consulta anidada dentro del foro.
+
+302
+00:25:39,810 --> 00:25:55,500
+De esta forma platos igual cursor exequible Select Holl from plato con un Werk categoría que es igual
+
+303
+00:25:55,910 --> 00:25:59,960
+y aquí le vamos a pasar el número de la categoría.
+
+304
+00:26:00,810 --> 00:26:11,400
+De esta forma lo vamos a pasar a formar le vamos a pasar a la categoría y el cero cero que es el identificador
+
+305
+00:26:12,120 --> 00:26:23,340
+que lo hemos guardado aquí tendríamos y haríamos un Fetch el acuerdo aquí ya tendríamos los platos y
+
+306
+00:26:23,340 --> 00:26:33,360
+ahora por plato el platos para cada plato en platos podríamos hacer un Prin por ejemplo tabulado para
+
+307
+00:26:33,360 --> 00:26:42,720
+poner un poco más adelante con el plato lo podremos poner casi formato plato y le pasaríamos lo que
+
+308
+00:26:42,720 --> 00:26:45,490
+sería la segunda posición que es el nombre del plato.
+
+309
+00:26:46,350 --> 00:26:51,920
+1 Si no me he equivocado vamos a intentar ejecutarlo con el mostrador menú
+
+310
+00:26:54,760 --> 00:27:02,780
+y ahora voy a la opción 3 mostrar el menú primeros ensalada del tiempo zumo de tomate segundos estofado
+
+311
+00:27:02,780 --> 00:27:08,100
+de pescado el pollo con patatas postres flan con nata fruta del tiempo.
+
+312
+00:27:08,480 --> 00:27:09,200
+Perfecto.
+
+313
+00:27:09,200 --> 00:27:10,630
+A ver si puedo salir.
+
+314
+00:27:11,030 --> 00:27:12,110
+Nos vemos.
+
+315
+00:27:12,110 --> 00:27:14,060
+Ya tenemos la crisis completado.
+
+316
+00:27:14,210 --> 00:27:21,320
+Hemos creado un pequeño gestor con varias opciones para gestionar con una base de datos las categorías
+
+317
+00:27:21,380 --> 00:27:23,350
+y los platos de un restaurante.

@@ -1,0 +1,39 @@
+1
+00:00:00,710 --> 00:00:04,620
+Si algo me ha enseñado la programación es que se aprende a base de equivocarse.
+
+2
+00:00:04,940 --> 00:00:09,970
+Por tanto si no eres capaz de tolerar tus propios fallos entonces no vas a avanzar.
+
+3
+00:00:10,520 --> 00:00:11,690
+No nos vamos a engañar.
+
+4
+00:00:11,820 --> 00:00:13,260
+Programar no es fácil.
+
+5
+00:00:13,610 --> 00:00:18,710
+Puedes equivocarte desde la propia concepción de la idea o también escribiendo el código.
+
+6
+00:00:18,830 --> 00:00:21,080
+Para lo primero poco podemos hacer.
+
+7
+00:00:21,080 --> 00:00:26,270
+Es algo que mejorará con la práctica pero por suerte en lo que respecta a los errores de código tenemos
+
+8
+00:00:26,270 --> 00:00:28,250
+a Payton de nuestro lado.
+
+9
+00:00:28,250 --> 00:00:33,130
+En esta lección vamos a aprender la diferencia entre los errores y las excepciones como capturarlas
+
+10
+00:00:33,320 --> 00:00:36,700
+y cómo prevenir e incluso crear nuestras propias excepciones.

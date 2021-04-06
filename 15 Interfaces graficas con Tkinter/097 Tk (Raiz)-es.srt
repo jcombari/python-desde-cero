@@ -1,0 +1,343 @@
+1
+00:00:00,900 --> 00:00:01,330
+Muy bien.
+
+2
+00:00:01,380 --> 00:00:06,090
+Vamos a comenzar con el primer tipo de willett aunque éste no es exactamente el widget porque sería
+
+3
+00:00:06,480 --> 00:00:08,200
+la base de la estructura.
+
+4
+00:00:08,760 --> 00:00:13,770
+Pero antes de ponernos con el código si utilizáis Linux Recordad que en algunas distribuciones como
+
+5
+00:00:13,770 --> 00:00:18,960
+Ubuntu es necesario instalar el paquete de Quintet ya que no viene integrado.
+
+6
+00:00:19,320 --> 00:00:24,390
+Si aún no lo habéis hecho podéis repasar las lecciones de instalación y configuración de Payton 3 y
+
+7
+00:00:24,390 --> 00:00:29,670
+también cómo configurar sublime Text porque en esta unidad vamos a trabajar con scripts ya que desde
+
+8
+00:00:29,670 --> 00:00:31,830
+Júpiter interno funciona.
+
+9
+00:00:35,660 --> 00:00:42,490
+Pues vamos a comenzar por lo más esencial la raíz o base de la interfaz gráfica vamos a abrir el directorio
+
+10
+00:00:42,490 --> 00:00:49,210
+de fase 4 temas avanzados tema 13 interfaces gráficas conté Quintero y aquí ya veis que tengo algún
+
+11
+00:00:49,210 --> 00:00:51,790
+fichero preparado.
+
+12
+00:00:51,790 --> 00:00:57,030
+Básicamente tengo un icono y una imagen GIF que iremos utilizando a lo largo de esta unidad.
+
+13
+00:00:58,220 --> 00:01:09,080
+Muy bien vamos a comenzar creando un fichero aquí un fichero de texto vamos a llamarlo TK punto y vamos
+
+14
+00:01:09,080 --> 00:01:10,480
+a decirles que sí.
+
+15
+00:01:11,620 --> 00:01:15,730
+Y vamos a abrirlo con su ex o con el editor que vosotros queráis.
+
+16
+00:01:15,770 --> 00:01:23,270
+Voy a hacer todo lo que tengo y de hecho para ir más rápido podríamos arrastrar este directorio de 1013
+
+17
+00:01:23,270 --> 00:01:30,610
+de interfaces gráficas a sublimes Dext para trabajar rápidamente con los ficheros.
+
+18
+00:01:30,980 --> 00:01:36,210
+Vamos a ir trabajando todo el rato durante toda la unidad aquí haciendo nuestras pruebas.
+
+19
+00:01:37,470 --> 00:01:46,920
+Lo primero que tenemos que hacer es importar los widgets desde kinte from the Quintet import y vamos
+
+20
+00:01:46,920 --> 00:01:49,400
+a importarlo todo por defecto.
+
+21
+00:01:50,250 --> 00:01:52,680
+Ahora vamos a aprender a crear la raíz.
+
+22
+00:01:52,680 --> 00:01:56,100
+Vamos a llamar la ruta asignar una variable root.
+
+23
+00:01:56,400 --> 00:01:57,790
+Normalmente se utiliza root.
+
+24
+00:01:58,710 --> 00:02:06,280
+Para la raíz y vamos a crear un componente llamado TK de acuerdo.
+
+25
+00:02:06,290 --> 00:02:10,400
+Si esto lo guardamos y lo ejecutamos hacemos un Buil control.
+
+26
+00:02:10,880 --> 00:02:15,640
+Como veis se ejecuta pero no ocurre nada muy bien.
+
+27
+00:02:16,630 --> 00:02:23,470
+Lo que tenemos que hacer ahora que hemos creado la raíz es entrar en el modo bucle llamado el loop que
+
+28
+00:02:23,470 --> 00:02:25,230
+comenzará el bucle de aplicación.
+
+29
+00:02:25,240 --> 00:02:31,870
+No sé si recordáis cuando hicimos algunos menús que poníamos todo alrededor de un Wil Truck y eso se
+
+30
+00:02:31,870 --> 00:02:41,240
+ejecutaba siempre hasta que decidí salir del programa diciéndole que quería salirte con alguna opción.
+
+31
+00:02:43,130 --> 00:02:48,240
+Pues aquí es lo mismo lo que pasa que en lugar de hacer un país lo vamos a hacer así.
+
+32
+00:02:48,420 --> 00:02:57,490
+Ruth Moinelo ejecutar este método el lo vamos a hacer ahora el control.
+
+33
+00:02:58,180 --> 00:03:07,800
+Y como veis al ejecutarlo me parece una ventana muy bien pues con esto ya tenemos una base para crear
+
+34
+00:03:07,800 --> 00:03:12,820
+todos los demás componentes los demás widgets los iremos añadiendo siempre en Root.
+
+35
+00:03:12,990 --> 00:03:19,320
+Lo que pasa que el Minube siempre debería de ir abajo del todo esto abajo del todo porque es el último
+
+36
+00:03:19,320 --> 00:03:22,980
+paso antes de poner en marcha nuestra interfaz.
+
+37
+00:03:23,490 --> 00:03:28,890
+Entonces un par de cosas interesantes que podemos configurar al root es por ejemplo el título de la
+
+38
+00:03:28,890 --> 00:03:36,360
+ventana por defecto ventana se llama tecla y el icono que nos aparece es una especie de pluma vamos
+
+39
+00:03:36,360 --> 00:03:37,810
+a cambiar esto.
+
+40
+00:03:38,220 --> 00:03:42,680
+Root punto titel para cambiar el título de la ventana.
+
+41
+00:03:42,990 --> 00:03:43,900
+Podremos poner aquí.
+
+42
+00:03:43,920 --> 00:03:44,550
+Hola mundo.
+
+43
+00:03:44,790 --> 00:03:48,010
+Lo típico que ponemos siempre vamos a ejecutarlo.
+
+44
+00:03:48,180 --> 00:03:50,630
+Cómo veis nuestra ventana ahora tiene otro título.
+
+45
+00:03:50,730 --> 00:03:55,980
+Si hiciéramos la ventana muy grande podríamos maximizar la acabais Hola Mundo.
+
+46
+00:03:56,280 --> 00:04:00,820
+Podríamos también redimensionar la Aquí tenemos el título perfecto.
+
+47
+00:04:03,800 --> 00:04:13,370
+Otra opción bastante interesante que podemos acceder y configurar es realizable si Jable y aquí le podemos
+
+48
+00:04:13,370 --> 00:04:23,030
+pasar 0 0 para hacer referencia por ejemplo al hecho de que no queremos que la ventana esta sea tridimensionales
+
+49
+00:04:23,390 --> 00:04:25,760
+en ancho y en alto.
+
+50
+00:04:25,760 --> 00:04:33,980
+Si ejecutamos esto como veis ya no podemos redimensionar la ventana no nos deja no nos aparece el icono
+
+51
+00:04:34,010 --> 00:04:40,520
+y tampoco podemos hacer clic en el más si que podemos minimizarla pero no podemos hacerla grande.
+
+52
+00:04:42,080 --> 00:04:49,070
+Si lo dejáramos todo a uno sería como por defecto y entonces sí que lo podemos hacer si pusiéramos por
+
+53
+00:04:49,070 --> 00:04:56,540
+ejemplo un cero al principio lo ejecuta hacemos lo que tendríamos es que podemos hacerla más grande
+
+54
+00:04:56,630 --> 00:04:59,950
+verticalmente pero en horizontal no. Como veis.
+
+55
+00:05:01,060 --> 00:05:08,210
+Y al contrario redimensiona hable que pedía que esto vendría a ser un truco verdadero y falso pues aquí
+
+56
+00:05:08,290 --> 00:05:12,480
+lo que tendríamos es redimensiona ble en ancho pero no en alto.
+
+57
+00:05:13,440 --> 00:05:15,530
+Muy bien.
+
+58
+00:05:15,600 --> 00:05:22,960
+Por último otra opción que podemos configurar y bastante interesante es el icono Rub punto y con Pitman
+
+59
+00:05:23,960 --> 00:05:27,670
+y akil y Twitter mosquee pasar una imagen en puntico.
+
+60
+00:05:27,810 --> 00:05:36,210
+La localización de una imagen en .5 que por ejemplo nosotros tenemos aquí que se está en esta taza de
+
+61
+00:05:36,210 --> 00:05:41,060
+café que tengo preparada que tiene que ser expresamente en este formato hico.
+
+62
+00:05:43,360 --> 00:05:46,910
+Hola apuntó y entonces al ejecutar el programa.
+
+63
+00:05:47,050 --> 00:05:49,540
+Pues como veis tenemos aquí la imagen cita.
+
+64
+00:05:50,830 --> 00:05:52,500
+En el caso de la parte inferior.
+
+65
+00:05:53,470 --> 00:05:58,080
+No nos aparece el icono pero si hacemos un distribuible más adelante.
+
+66
+00:05:58,990 --> 00:06:01,960
+En la unidad de distribución ya lo veremos.
+
+67
+00:06:01,980 --> 00:06:05,460
+También se vería el icono en la parte de abajo.
+
+68
+00:06:07,280 --> 00:06:13,370
+Por cierto si queréis crear un único una forma rápida de hacerlo es buscar en Google algún converso
+
+69
+00:06:13,370 --> 00:06:18,680
+de imágenes eico Online y allí enviar lo que sería un icono que tienen que ser cuadrado por ejemplo
+
+70
+00:06:18,680 --> 00:06:28,990
+que ocupe 48 por 48 píxeles en formato PNG o bmp o lo que sea y lo convertirá en esta página 8.5 que
+
+71
+00:06:29,000 --> 00:06:31,210
+es un formato un poco especial.
+
+72
+00:06:32,150 --> 00:06:39,550
+Y por último un truco que os voy a enseñar cuando ejecutamos.
+
+73
+00:06:41,790 --> 00:06:48,360
+Un fichero Payton que tiene una interfaz si lo ejecuta hacemos desde aquí y estableciéramos por defecto
+
+74
+00:06:48,600 --> 00:06:51,670
+que se abre con Payton con el intérprete de Payton.
+
+75
+00:06:51,840 --> 00:07:01,820
+Al hacer doble clic se abre y como veis se abre una ventana de fondo y también se nos abre la ventana
+
+76
+00:07:02,010 --> 00:07:03,300
+donde estamos.
+
+77
+00:07:04,260 --> 00:07:05,540
+Mostrando la interfaz.
+
+78
+00:07:05,910 --> 00:07:11,710
+Cuando lo hacemos directamente desde sublime representa que la parte inferior nos sirve de terminal
+
+79
+00:07:12,810 --> 00:07:21,330
+por tanto ya no la vemos pero si lo ejecutamos haciendo doble clic abriéndolo directamente con Python.
+
+80
+00:07:21,330 --> 00:07:23,710
+Pues sí que nos aparece esa terminal por detrás.
+
+81
+00:07:23,940 --> 00:07:31,230
+Pues el truco que os quiero enseñar es que si cambiáis el nombre y lugar de poner formato por formato
+
+82
+00:07:31,500 --> 00:07:34,410
+W W de Windows.
+
+83
+00:07:34,580 --> 00:07:40,720
+Lo que vais a hacer es al abrirlo forzar un modo en el que no vais a mostrar una terminal de fondo.
+
+84
+00:07:40,920 --> 00:07:48,030
+Por tanto ahí tenéis un truco para esconder las terminales.
+
+85
+00:07:48,760 --> 00:07:50,370
+Yo voy a dejarlo como estaba.
+
+86
+00:07:51,460 --> 00:07:57,330
+Y hasta por esta unidad ya hemos visto como crear la raíz de nuestra interfaz.

@@ -1,0 +1,39 @@
+1
+00:00:00,810 --> 00:00:05,540
+En esta unidad vamos a aprender a controlar el flujo pero que es el flujo.
+
+2
+00:00:05,640 --> 00:00:10,120
+El flujo es una forma de entender la sucesión de las instrucciones de un programa informático.
+
+3
+00:00:10,440 --> 00:00:16,350
+éstas se ejecutan unas tras otras de forma ordenada e ineludible y suelen tener el objetivo final de
+
+4
+00:00:16,350 --> 00:00:18,050
+manipular información.
+
+5
+00:00:18,090 --> 00:00:23,790
+Sin embargo para manipular datos no es suficiente con realizar cálculos o resolver expresiones necesitamos
+
+6
+00:00:23,790 --> 00:00:28,440
+de alguna forma hacer que el ordenador pueda elegir que sepa cómo actuar en función de determinadas
+
+7
+00:00:28,440 --> 00:00:29,240
+situaciones.
+
+8
+00:00:29,370 --> 00:00:35,490
+Incluso repetir una tarea si es necesario para suplir estas situaciones existen las sentencias de control
+
+9
+00:00:35,490 --> 00:00:41,060
+de flujo que se dividen en dos tipos las de control condicional y las de control iterativo.
+
+10
+00:00:41,280 --> 00:00:42,370
+Vamos a por ellas.

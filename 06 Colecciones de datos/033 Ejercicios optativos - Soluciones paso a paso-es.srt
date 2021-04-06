@@ -1,0 +1,683 @@
+1
+00:00:01,130 --> 00:00:06,840
+Muy bien pues vamos a ponernos con los ejercicios del tema 4 de colecciones de datos ejercicios.
+
+2
+00:00:06,890 --> 00:00:12,010
+Vamos a por los enunciados y veamos que tenemos aquí.
+
+3
+00:00:12,030 --> 00:00:15,710
+Realiza un programa que siga las siguientes instrucciones.
+
+4
+00:00:15,760 --> 00:00:21,770
+Bueno vamos a comenzar a completar este ejercicio mientras vamos a ir haciendo las instrucciones.
+
+5
+00:00:21,820 --> 00:00:29,410
+Crea un conjunto llamado usuarios con las usuarios Marta David Elvira Juan y Marcos un conjunto pues
+
+6
+00:00:29,470 --> 00:00:37,110
+lo declaramos fácilmente usuarios igual con las dos llaves y dentro poníamos los valores.
+
+7
+00:00:37,140 --> 00:00:45,390
+En este caso serán los usuarios los usuarios Marta David Juan Elvira
+
+8
+00:00:48,240 --> 00:00:51,570
+Juan y Marcos así
+
+9
+00:00:55,410 --> 00:01:01,890
+que más crea un conjunto llamado administradores con los administradores Juan y Marta administradores
+
+10
+00:01:02,460 --> 00:01:06,310
+igual de la misma forma que antes.
+
+11
+00:01:07,410 --> 00:01:07,950
+Juan
+
+12
+00:01:10,650 --> 00:01:20,210
+y Marta Por tanto podemos observar cómo Marta y Juan se repiten en ambos conjuntos borrarles manipulador
+
+13
+00:01:20,280 --> 00:01:22,680
+Juan del conjunto de administradores.
+
+14
+00:01:22,820 --> 00:01:28,020
+Uno aquí ha puesto una nota que decía que los conjuntos se pueden recorrer dinámicamente utilizando
+
+15
+00:01:28,020 --> 00:01:33,270
+el bucle for De forma similar a una lista y también cuentan con un método llamado discar elemento que
+
+16
+00:01:33,270 --> 00:01:39,330
+sirve para borrar un elemento por tanto de la misma forma que teníamos el método para añadir al conjunto
+
+17
+00:01:39,750 --> 00:01:45,930
+un elemento pues podemos utilizar el discar para borrarlo así que simplemente haremos referencia a este
+
+18
+00:01:45,930 --> 00:01:53,250
+conjunto administradores y haríamos un discar y aquí le pasaríamos el valor o el elemento que queremos
+
+19
+00:01:53,250 --> 00:01:54,240
+borrar.
+
+20
+00:01:54,240 --> 00:01:58,470
+En este caso vamos a borrar a Juan.
+
+21
+00:01:59,400 --> 00:02:03,220
+A continuación nos dice que añade a Marcos como nuevo ministro.
+
+22
+00:02:03,240 --> 00:02:09,780
+Pero no lo es del conjunto de usuarios es decir borramos a Juan pero añadimos a Marcos si yo voy a copiar
+
+23
+00:02:09,780 --> 00:02:18,170
+esta línea y luego hacer un discar voy a hacer un chat que era la forma de añadir los conjuntos y vamos
+
+24
+00:02:18,170 --> 00:02:23,930
+a añadir a marcos más o menos tenemos todo hasta este punto.
+
+25
+00:02:24,060 --> 00:02:29,580
+Ahora al final dice que mostremos todos los usuarios por pantalla de forma dinámica además de indicar
+
+26
+00:02:29,580 --> 00:02:34,110
+si cada usuario es administrador o no. Es decir tendremos que ir recorriendo por ejemplo Marta y decir
+
+27
+00:02:34,430 --> 00:02:38,750
+el administrador o no. David es administrador o no el virus administrador no y tal.
+
+28
+00:02:38,850 --> 00:02:44,320
+Por tanto tendremos que comprobar si cada uno de estos elementos se encuentra también en el administrador.
+
+29
+00:02:44,340 --> 00:02:50,610
+Para determinar si es administrador o no qué vamos a hacer con un fork vamos a recorrer estos usuarios
+
+30
+00:02:50,710 --> 00:02:52,830
+por usuario y usuarios.
+
+31
+00:02:53,080 --> 00:02:59,580
+Porque como he comentado aquí arriba se puede utilizar el bucle for fácilmente y vamos a determinar
+
+32
+00:02:59,940 --> 00:03:08,510
+si el usuario está y administradores.
+
+33
+00:03:09,240 --> 00:03:17,910
+Si el usuario está en el conjunto administradores mostraremos el mensaje por ejemplo usuario aquí pondrá
+
+34
+00:03:17,910 --> 00:03:21,800
+el nombre es admin.
+
+35
+00:03:21,870 --> 00:03:25,560
+En caso contrario significa que no simplemente podríamos que el usuario
+
+36
+00:03:29,820 --> 00:03:31,360
+no espagnol.
+
+37
+00:03:32,490 --> 00:03:41,640
+Si ejecutamos este código al final nos dirá lo que pasa con cada uno de estos usuarios a ver.
+
+38
+00:03:41,670 --> 00:03:47,860
+Perdón que aquí me he colado puesto un cerrar aquí el paréntesis vamos a ejecutarlo otra vez.
+
+39
+00:03:48,180 --> 00:03:55,590
+Ahora si Marta es admin correcto porque está en el conjunto administradores el Bira no es administrador
+
+40
+00:03:55,800 --> 00:04:01,010
+David no es administrador Marcos es administrador porque le hemos añadido y Juan no es admin porque
+
+41
+00:04:01,050 --> 00:04:02,790
+lo habíamos borrado.
+
+42
+00:04:02,820 --> 00:04:06,450
+Así que aquí tenemos un ejemplo de cómo utilizar estos conjuntos.
+
+43
+00:04:08,310 --> 00:04:13,090
+Vamos a por el siguiente ejercicio que ya os adelanto que es bastante interesante.
+
+44
+00:04:13,140 --> 00:04:20,370
+Sabéis a mi me gusta hacer lo rebuscado para que tengáis que pensar mucho siempre en base a lo que ya
+
+45
+00:04:20,370 --> 00:04:24,550
+sabemos pero me gusta añadir ese punto de dificultad.
+
+46
+00:04:24,960 --> 00:04:30,120
+Este ejercicio dice así durante el desarrollo de un pequeño videojuego se te encarga configurar y balancear
+
+47
+00:04:30,120 --> 00:04:34,260
+cada clase de personaje jugable partiendo de la estadística base.
+
+48
+00:04:34,300 --> 00:04:37,850
+2 Debes cumplir las siguientes condiciones.
+
+49
+00:04:38,430 --> 00:04:44,220
+Un supuesto Caballero tiene el doble de vida y defensa que un guerrero un guerrero tiene el doble de
+
+50
+00:04:44,220 --> 00:04:46,410
+ataque y alcance que un caballero.
+
+51
+00:04:46,770 --> 00:04:52,200
+El arquero tiene la misma vida y ataque Guerrero pero la mitad de su defensa y el doble de su alcance
+
+52
+00:04:52,920 --> 00:04:59,370
+muestra cómo quedan las propiedades de los tres personajes así que aquí tenemos estos diccionarios con
+
+53
+00:04:59,370 --> 00:05:06,270
+las propiedades base ya lo tenemos creado tenemos el Caballero de las propiedades no la vida el ataque
+
+54
+00:05:06,270 --> 00:05:07,460
+la defensa el alcance.
+
+55
+00:05:07,500 --> 00:05:12,990
+De hecho el guerrero y el arquero con estos diccionarios tienen exactamente los mismos valores y lo
+
+56
+00:05:12,990 --> 00:05:15,540
+que tenemos que conseguir es balancear.
+
+57
+00:05:15,540 --> 00:05:22,500
+A partir de estas condiciones estas clases sin modificarlas aquí porque sería muy fácil venir aquí modificarlas.
+
+58
+00:05:22,500 --> 00:05:29,680
+Pero vamos a practicar cómo modificar con diccionarios así que vamos a hacerlo dinámicamente en código.
+
+59
+00:05:29,850 --> 00:05:35,820
+Por ejemplo comenzamos con el caballero el caballero y hemos quedado que tiene el doble de vida y defensa
+
+60
+00:05:35,820 --> 00:05:45,300
+con Guerreros por tanto vamos a hacer referencia a la clave vida del Caballero y le vamos a asignar
+
+61
+00:05:46,470 --> 00:05:51,570
+la vida por 2 del guerrero guerrero.
+
+62
+00:05:52,170 --> 00:05:55,540
+Vida lo vamos a multiplicar por dos.
+
+63
+00:05:55,800 --> 00:05:57,660
+Tan sencillo como eso.
+
+64
+00:05:58,020 --> 00:06:00,540
+También nos dicen que el guerrero.
+
+65
+00:06:00,710 --> 00:06:08,070
+O sea que el caballero tiene el doble de defensa que un guerrero de armadura no Defensa.
+
+66
+00:06:08,580 --> 00:06:15,800
+Por tanto el caballero tiene el doble de defensa que un guerrero.
+
+67
+00:06:16,680 --> 00:06:20,400
+Ahora nos dice que el guerrero tiene el doble de ataque y alcance que un caballero.
+
+68
+00:06:20,400 --> 00:06:22,660
+Vamos a copiar esto de aquí para ir más rápido.
+
+69
+00:06:23,190 --> 00:06:27,280
+Voy a poner aquí el guerrero y vamos a configurar el ataque.
+
+70
+00:06:28,850 --> 00:06:30,440
+Y el alcance.
+
+71
+00:06:33,240 --> 00:06:39,650
+Como vamos a referirnos al doble de lo que tiene el caballero pues vamos a asignar del caballero el
+
+72
+00:06:39,650 --> 00:06:43,960
+ataque y el alcance multiplicados por dos.
+
+73
+00:06:44,120 --> 00:06:47,070
+Así que con esto ya tenemos aquí.
+
+74
+00:06:48,730 --> 00:06:52,790
+Y ahora nos dice el arquero tiene la misma vida y ataque que un guerrero.
+
+75
+00:06:53,490 --> 00:07:01,470
+Por tanto podríamos simplemente asignar el arquero la vida y el ataque
+
+76
+00:07:04,420 --> 00:07:08,000
+y poner la que es la misma que un guerrero.
+
+77
+00:07:11,810 --> 00:07:12,610
+Sin este por dos.
+
+78
+00:07:12,620 --> 00:07:13,760
+Porque es la misma.
+
+79
+00:07:14,350 --> 00:07:19,650
+Pero además el arquero tiene la mitad de su defensa y el doble de su alcance.
+
+80
+00:07:20,520 --> 00:07:29,310
+Es decir la mitad de Defensa y alcance que el guerrido sí que vamos a configurar estas dos propiedades.
+
+81
+00:07:29,310 --> 00:07:39,540
+Arquero defensa y arquero alcance la mitad de la defensa.
+
+82
+00:07:39,650 --> 00:07:44,010
+Sugeríamos la defensa la dividíamos entre 2 y el doble de su alcance.
+
+83
+00:07:44,020 --> 00:07:47,880
+Cogerían el alcance y lo multiplicaría por dos el del guerrero.
+
+84
+00:07:48,660 --> 00:07:50,590
+De acuerdo.
+
+85
+00:07:50,880 --> 00:07:55,080
+Ahora nos indican que tenemos que mostrar cómo quedan las propiedades de los tres personajes o simplemente
+
+86
+00:07:55,080 --> 00:07:57,390
+mostrar un resumen de cada uno de ellos.
+
+87
+00:07:57,390 --> 00:08:06,250
+Podríamos simplemente mostrar por pantalla podemos ponerlo así el caballero pondríamos los dos puntos.
+
+88
+00:08:06,480 --> 00:08:12,780
+Una tabulación para intentar que todo quede más o menos cuadrado y mostraremos el diccionario del caballero
+
+89
+00:08:12,780 --> 00:08:14,000
+y podríamos hacer lo mismo.
+
+90
+00:08:16,120 --> 00:08:22,970
+Con el guerrero y el arquero y si todo queda correctamente vamos a ejecutarlo.
+
+91
+00:08:23,050 --> 00:08:25,300
+Haber tenido algún fallo por aquí.
+
+92
+00:08:25,850 --> 00:08:31,680
+Si esto tendréis que arreglarlo intentaré actualizarlo yo en el fichero pero me falta una comitán ARRIBA.
+
+93
+00:08:32,520 --> 00:08:33,860
+No sé si es que la ha borrado yo.
+
+94
+00:08:34,080 --> 00:08:38,180
+Pero faltaba la coma aquí lleva en el diccionario.
+
+95
+00:08:38,360 --> 00:08:40,200
+Vale lo ejecutamos.
+
+96
+00:08:41,950 --> 00:08:47,500
+Vamos a comprobar lo siguiente El caballero tiene el doble de vida y defensa que un guerrero el caballero
+
+97
+00:08:47,500 --> 00:08:54,100
+tiene 4 cortinados de vida y de defensa 4 y 2.
+
+98
+00:08:54,100 --> 00:08:55,960
+Vale hasta aquí bien.
+
+99
+00:08:58,030 --> 00:09:02,330
+El guerrero tiene el doble de ataque y alcance que un guerrero.
+
+100
+00:09:02,830 --> 00:09:09,920
+El ataque del guerrero es 4 el del caballero 2 de acuerdo y alcance también es 4 el del caballero 2.
+
+101
+00:09:10,030 --> 00:09:11,190
+Hasta aquí vamos bien.
+
+102
+00:09:13,000 --> 00:09:15,400
+El arquero tiene la misma vida y el ataque con un guerrero.
+
+103
+00:09:15,550 --> 00:09:20,560
+Vamos a ver si Super da la misma vida el arquero que el guerrero.
+
+104
+00:09:21,040 --> 00:09:27,500
+El mismo ataque 4 y 4 pero tiene la mitad de su defensa.
+
+105
+00:09:27,830 --> 00:09:28,970
+El que.
+
+106
+00:09:29,290 --> 00:09:35,600
+El arquero tiene 1 vale y el doble de su alcance el que tiene 4 y el arquero tiene un 8.
+
+107
+00:09:35,890 --> 00:09:38,950
+Bueno pues así hemos solucionado este ejercicio.
+
+108
+00:09:38,950 --> 00:09:46,570
+Simplemente era esto modificar las diferentes propiedades dinámicamente refiriéndonos a los diccionarios
+
+109
+00:09:47,720 --> 00:09:52,510
+y vamos a por el tercer ejercicio que nos dice lo siguiente.
+
+110
+00:09:53,020 --> 00:09:58,780
+Durante la planificación de un proyecto se han acordado una lista de tareas para cada una de estas tareas
+
+111
+00:09:58,800 --> 00:10:04,040
+asignado un orden de prioridad cuanto menor es el número de orden más prioridad.
+
+112
+00:10:04,270 --> 00:10:09,070
+Eres capaz de crear una estructura del tipo cola con todas las tareas ordenadas pero si los números
+
+113
+00:10:09,070 --> 00:10:15,520
+de orden pista para ordenar automáticamente una lista es posible utilizar su método sort.
+
+114
+00:10:15,590 --> 00:10:18,410
+Bueno aquí tenemos que mirar lo que os doy.
+
+115
+00:10:18,460 --> 00:10:24,940
+Como veis os doy un código lo que tenemos es una lista con varias subsistemas cada una de estas supuestas
+
+116
+00:10:24,940 --> 00:10:29,810
+tiene una tarea distribución diseño concepción mantenimiento producción blablabla.
+
+117
+00:10:29,830 --> 00:10:35,180
+Estas son las etapas por cierto de creación de un videojuego y un número delante.
+
+118
+00:10:35,450 --> 00:10:37,800
+Como veis intentásemos ordenarlo a nosotros.
+
+119
+00:10:37,870 --> 00:10:41,190
+La primera fase o tarea sería la concepción.
+
+120
+00:10:41,680 --> 00:10:46,880
+Luego vendría la segunda el diseño luego la tercera la planificación etcétera.
+
+121
+00:10:47,160 --> 00:10:53,380
+Bueno lo que tenemos que conseguir es ordenar estas tareas quedarnos sólo con el texto y meterlos en
+
+122
+00:10:53,380 --> 00:10:55,020
+una y meterlo en una cola.
+
+123
+00:10:55,030 --> 00:11:01,100
+Es decir tenemos que conseguir aquella estructura que él y la colección que era una cola con los siete
+
+124
+00:11:01,450 --> 00:11:04,930
+las siete tareas estas de forma ordenada.
+
+125
+00:11:04,990 --> 00:11:06,860
+A partir de su número.
+
+126
+00:11:08,210 --> 00:11:09,290
+Si ejecutamos esto.
+
+127
+00:11:09,320 --> 00:11:14,010
+Bueno ya lo veis aquí abajo lo que tenemos es que nos muestra tal cual.
+
+128
+00:11:14,010 --> 00:11:21,820
+No estoy recorriendo las tareas estoy mostrando el número y el texto de cada una de ellas.
+
+129
+00:11:23,270 --> 00:11:29,020
+Tenemos que crear la estructura cola con todas las tallas ordenadas pero si los números de orden.
+
+130
+00:11:29,360 --> 00:11:32,900
+Bueno lo primero que vamos a hacer es importar la cola como las demás.
+
+131
+00:11:35,110 --> 00:11:38,960
+Y ya que nos comentan por aquí arriba que podemos utilizar el método.
+
+132
+00:11:39,170 --> 00:11:44,600
+Vamos a utilizar el método Sort en esta lista a ver qué sucede.
+
+133
+00:11:44,600 --> 00:11:46,250
+Tareas puntos.
+
+134
+00:11:48,620 --> 00:11:53,110
+Vamos a mostrarlo por pantalla mejor.
+
+135
+00:11:55,330 --> 00:12:01,640
+Aunque como veis este tarea Sort no devuelve nada lo que hacen realidad es ordenarlo pero no devuelven
+
+136
+00:12:01,640 --> 00:12:01,910
+nada.
+
+137
+00:12:01,910 --> 00:12:06,890
+Por tanto esto lo tendríamos que sacar afuera y para consultar como ha quedado teníamos que mostrar
+
+138
+00:12:06,890 --> 00:12:09,640
+aquí las tareas a ver si se han ordenado.
+
+139
+00:12:10,470 --> 00:12:17,360
+Y como veis nos devuelve la lista y aquí tenemos la lista 1 concepción 2 Diseño 3 planificación 4 producción
+
+140
+00:12:17,360 --> 00:12:22,850
+etcétera o sea que se ha ordenado perfectamente así que ya tenemos las tareas ordenadas.
+
+141
+00:12:22,850 --> 00:12:29,370
+Ahora lo que tenemos que conseguir es añadir a una cola todas estas tareas.
+
+142
+00:12:29,720 --> 00:12:37,530
+Así que lo que vamos a hacer simplemente es crear una cola con un Qué fue de aquellos.
+
+143
+00:12:37,700 --> 00:12:39,300
+Si lo recordáis.
+
+144
+00:12:40,690 --> 00:12:47,320
+Lo que vamos a hacer es para cada tarea por tarea y tareas.
+
+145
+00:12:48,340 --> 00:13:00,470
+Vamos añadirla a la cola como si fuese otra lista solapen tareas o tareas que como que pensar que aquí
+
+146
+00:13:00,700 --> 00:13:07,880
+lo que tenemos que agregar en realidad no es toda la lista sino únicamente el texto que nos piden.
+
+147
+00:13:07,880 --> 00:13:12,590
+Si los números de orden por tanto sólo los textos así que lo que tenemos que hacer aquí es referirnos
+
+148
+00:13:13,140 --> 00:13:14,150
+de tarea.
+
+149
+00:13:16,950 --> 00:13:18,010
+Con el índice.
+
+150
+00:13:18,180 --> 00:13:18,910
+1.
+
+151
+00:13:20,870 --> 00:13:24,210
+El uno sería el segundo y el cero sería el primero.
+
+152
+00:13:24,230 --> 00:13:29,560
+Por tanto aquí tenemos el segundo el texto y vamos a añadir este texto a la cola.
+
+153
+00:13:32,040 --> 00:13:40,010
+Y ahora podríamos volver a copiar esto de aquí arriba para ver si realmente para cada tarea en la cola.
+
+154
+00:13:41,180 --> 00:13:44,980
+Están ordenadas supuestamente tareas ordenadas.
+
+155
+00:13:45,220 --> 00:13:50,940
+Vamos a mostrarlo así.
+
+156
+00:13:51,170 --> 00:13:53,360
+Primero las tenemos desordenadas.
+
+157
+00:13:53,660 --> 00:13:55,570
+Podría poner aquí un salto de línea.
+
+158
+00:13:55,580 --> 00:14:02,060
+Barra mm y coordenadas quedarían solamente con los textos.
+
+159
+00:14:02,060 --> 00:14:03,260
+Concepción.
+
+160
+00:14:05,180 --> 00:14:07,570
+Diseño planificación.
+
+161
+00:14:08,600 --> 00:14:11,230
+Producción pruebas etcétera.
+
+162
+00:14:11,720 --> 00:14:20,260
+Así que con esto con este ejercicio hemos visto cómo modificar de una lista cogiendo los textos y ordenando
+
+163
+00:14:20,260 --> 00:14:27,610
+la previamente ordenada hemos agarrá únicamente la parte que queremos y hemos generado una cola de acuerdo.
+
+164
+00:14:29,130 --> 00:14:35,470
+Bueno ahora con esta cola podríamos trabajar podríamos hacer aquello que pobler parasaber qué tarea
+
+165
+00:14:35,470 --> 00:14:36,690
+tenemos que realizar.
+
+166
+00:14:37,080 --> 00:14:43,170
+Y si vamos abajo del todo pues nos indica que tendríamos que realizar la concepción si lo realiza dos
+
+167
+00:14:43,170 --> 00:14:52,050
+veces pues nos mostraría la segunda no porque hemos extraído las dos primeras tareas y así sucesivamente
+
+168
+00:14:52,080 --> 00:14:54,870
+porque la cola empiezan a extraer los elementos por la izquierda.
+
+169
+00:14:54,960 --> 00:15:02,610
+Como habíamos explicado y hasta aquí los ejercicios de este tema de colecciones de datos sólo han sido
+
+170
+00:15:02,610 --> 00:15:04,850
+tres pero han sido bastante completos.
+
+171
+00:15:04,860 --> 00:15:11,170
+Creo y un buen ejemplo para que veáis cómo utilizarlos pues en la vida real.

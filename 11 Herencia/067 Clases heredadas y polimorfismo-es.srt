@@ -1,0 +1,583 @@
+1
+00:00:01,110 --> 00:00:07,680
+Muy bien en esta segunda elección del tema 9 de herencia en la programación orientada a objetos clases
+
+2
+00:00:07,680 --> 00:00:08,210
+heredadas.
+
+3
+00:00:08,220 --> 00:00:15,000
+Vamos a trabajar un poco con el ejemplo que teníamos de la lección anterior lo he preparado ya.
+
+4
+00:00:15,020 --> 00:00:22,310
+También he preparado unos objetos vamos a confirmar primero el primer bloque para dejarlo creado y el
+
+5
+00:00:22,410 --> 00:00:24,020
+segundo.
+
+6
+00:00:24,430 --> 00:00:27,230
+Ya tenemos ahí nuestros objetos.
+
+7
+00:00:28,090 --> 00:00:33,090
+Tenemos una jerarquía de productos y queremos trabajar con ellos de una forma cómoda.
+
+8
+00:00:33,520 --> 00:00:38,520
+Evidentemente para manejar los productos tenemos que tenerlos agrupados de alguna forma.
+
+9
+00:00:38,520 --> 00:00:46,090
+Por ejemplo una colección así que sin mucho problema podríamos añadir a una lista sin importar que sean
+
+10
+00:00:46,090 --> 00:00:51,710
+de subclases distintas por ejemplo productos igual.
+
+11
+00:00:52,300 --> 00:01:00,190
+Vamos a crear una lista y por ahora por ejemplo podríamos añadir el adorno y el alimento.
+
+12
+00:01:00,790 --> 00:01:07,180
+Tengo una lista de productos con el adorno y el alimento que he creado aquí arriba el vaso y la botella
+
+13
+00:01:07,180 --> 00:01:10,370
+de aceite como analista comodamente.
+
+14
+00:01:10,380 --> 00:01:23,710
+Podríamos poner un happen y añadir más elementos por ejemplo el libro si mostramos lo que tenemos.
+
+15
+00:01:23,710 --> 00:01:25,520
+Tenemos una lista con tres.
+
+16
+00:01:26,990 --> 00:01:28,200
+Elementos.
+
+17
+00:01:29,200 --> 00:01:31,490
+Un adorno un alimento y un libro.
+
+18
+00:01:32,110 --> 00:01:36,020
+Ahora podemos recorrerlos cómodamente con un fork por ejemplo.
+
+19
+00:01:36,090 --> 00:01:36,580
+P.
+
+20
+00:01:36,750 --> 00:01:42,370
+Los productos y mostrarlos Prin.
+
+21
+00:01:42,400 --> 00:01:43,570
+Por ejemplo vamos a hacer
+
+22
+00:01:46,750 --> 00:01:51,590
+el producto y vamos a poner también un salto de línea barra M.
+
+23
+00:01:52,780 --> 00:01:54,210
+Al final para qué.
+
+24
+00:01:54,520 --> 00:01:56,700
+Cómo veis después de cada producto.
+
+25
+00:01:56,710 --> 00:01:58,500
+Se escribe un salto de línea.
+
+26
+00:01:59,840 --> 00:02:09,410
+Muestra lo siguiente No tenemos el vaso adornado las botellas de aceite y el libro de cocina mediterránea
+
+27
+00:02:10,160 --> 00:02:15,720
+perfectamente nos estamos recorriendo con nuestros bucles for.
+
+28
+00:02:16,470 --> 00:02:24,560
+También podríamos dentro del bucle por hacer referencia a los atributos de estos objetos por ejemplo
+
+29
+00:02:24,560 --> 00:02:26,300
+mostrando algún campo común.
+
+30
+00:02:26,870 --> 00:02:27,710
+La referencia
+
+31
+00:02:30,800 --> 00:02:35,000
+también del producto el nombre.
+
+32
+00:02:36,860 --> 00:02:44,690
+Voy a borrar esa línea y como veis fácilmente referencia nombres referencias nombres.
+
+33
+00:02:45,800 --> 00:02:54,410
+El problema sería que si intentásemos acceder de todos los objetos por ejemplo al autor o al productor
+
+34
+00:02:54,890 --> 00:03:02,420
+no funcionaría bien porque estos únicamente son en este caso del alimento.
+
+35
+00:03:02,570 --> 00:03:08,680
+Y en este caso del libro por tanto se intentásemos hacer esto y mostrar por ejemplo un supuesto campo
+
+36
+00:03:09,050 --> 00:03:14,140
+autor de todos los productos de nuestra lista.
+
+37
+00:03:14,360 --> 00:03:20,540
+No sería un error porque ya comienza a decirnos que el objeto del tipo adorno no tiene este atributo
+
+38
+00:03:20,540 --> 00:03:22,610
+llamado autor evidentemente.
+
+39
+00:03:22,870 --> 00:03:29,590
+Así que os voy a enseñar una forma de gestionar distintos tipos de objetos de distintas clases.
+
+40
+00:03:29,600 --> 00:03:36,730
+Mejor dicho para poder actuar en consecuencia vamos a identificar la subclase que tienen estos productos.
+
+41
+00:03:36,770 --> 00:03:38,230
+Vamos a volver a hacer.
+
+42
+00:03:38,840 --> 00:03:45,650
+Y vamos a hacer lo siguiente Vamos a comenzar comprobando si es un adorno y lo vamos a hacer con una
+
+43
+00:03:45,890 --> 00:03:49,780
+función que integra Payton que es Instant.
+
+44
+00:03:49,940 --> 00:03:52,640
+Es tan así.
+
+45
+00:03:52,820 --> 00:04:00,350
+Esto nos puede permitir comprobar si un objeto por ejemplo que lo vamos a pasar aquí es del tipo adorno.
+
+46
+00:04:00,350 --> 00:04:00,910
+Cómo.
+
+47
+00:04:00,980 --> 00:04:08,780
+Pues pasando a un segundo argumento a esta función y escribiendo adorno si el objeto P Es del tipo adorno
+
+48
+00:04:08,830 --> 00:04:10,020
+esto de volver a trueque.
+
+49
+00:04:10,370 --> 00:04:13,400
+Y podríamos ejecutar este bloque.
+
+50
+00:04:13,490 --> 00:04:21,880
+En este caso por ejemplo podríamos dibujar simplemente la referencia y el nombre.
+
+51
+00:04:22,420 --> 00:04:26,900
+Vamos a añadir otro pero mejor dicho vamos a añadir un elife justo debajo.
+
+52
+00:04:28,840 --> 00:04:35,650
+Para que en el caso de que no sea un adorno compruebe otra posibilidad por ejemplo que sea un alimento
+
+53
+00:04:37,640 --> 00:04:38,590
+si es un alimento.
+
+54
+00:04:38,620 --> 00:04:43,970
+Además de la referencia el nombre por ejemplo podríamos mostrar el productor.
+
+55
+00:04:45,730 --> 00:04:55,140
+Y por último otro Veliz vamos a copiarlo para comprobar que no sea ni un adorno ni un alimento pero
+
+56
+00:04:55,150 --> 00:04:56,500
+que sí sea un libro.
+
+57
+00:04:57,040 --> 00:05:05,290
+Y entonces mostraremos Por ejemplo aquí el bueno de esta forma vamos a ejecutarlo.
+
+58
+00:05:05,290 --> 00:05:11,310
+Ya no nos da error y podremos gestionar los distintos tipos de clases que tenemos.
+
+59
+00:05:12,100 --> 00:05:12,910
+Vaso.
+
+60
+00:05:14,180 --> 00:05:15,220
+El alimento.
+
+61
+00:05:15,300 --> 00:05:18,810
+También podemos mostrar cómo acceder cómodamente para manipular.
+
+62
+00:05:20,210 --> 00:05:24,220
+Los atributos únicos del alimento y lo mismo con el libro.
+
+63
+00:05:25,030 --> 00:05:32,570
+Y algo muy interesante es que podemos crear una función que reciba productos por ejemplo y realiza algún
+
+64
+00:05:32,570 --> 00:05:34,930
+tipo de modificación en sus atributos.
+
+65
+00:05:35,720 --> 00:05:41,480
+Por ejemplo se me ocurre una posible función que sirva para rebajar el precio de un producto un tanto
+
+66
+00:05:41,480 --> 00:05:51,110
+por ciento lo que vamos hacer es crear una función Deif por ejemplo rebajar productos y vamos a pasar
+
+67
+00:05:51,110 --> 00:05:51,870
+de un producto.
+
+68
+00:05:51,880 --> 00:05:55,030
+P Y una rebaja en tanto por ciento.
+
+69
+00:05:55,250 --> 00:06:02,010
+Por ejemplo un 20 o 50 un número del 0 al 100 que indique cuánto lo vamos a rebajar.
+
+70
+00:06:02,210 --> 00:06:04,870
+Vamos a ponerlo como rebaja.
+
+71
+00:06:06,800 --> 00:06:16,760
+Vamos a poner aquí un comentario para explicar lo que hace la función devuelve un producto con una rebaja
+
+72
+00:06:18,770 --> 00:06:23,880
+en porcentaje de su precio.
+
+73
+00:06:24,380 --> 00:06:32,990
+Lo que haremos es lo siguiente diremos que el precio del producto web es igual a el PVP y le vamos a
+
+74
+00:06:32,990 --> 00:06:34,540
+restar el porcentaje.
+
+75
+00:06:34,610 --> 00:06:41,900
+Eso lo hacemos cómodamente y fácil dividiendo el PVP por 100 y uno veces lo tenemos dividido por 100
+
+76
+00:06:41,930 --> 00:06:46,990
+lo multiplicamos por la rebaja por ejemplo de un 20 a un 30.
+
+77
+00:06:47,030 --> 00:06:48,810
+Perdón así rebaja.
+
+78
+00:06:49,580 --> 00:06:51,860
+Y solo estamos al precio original.
+
+79
+00:06:52,220 --> 00:06:54,990
+Luego devolveremos el producto.
+
+80
+00:06:56,910 --> 00:07:07,360
+Si lo utilizamos por ejemplo podríamos poner alimentos rebajado si iguala rebajar precio de el alimento
+
+81
+00:07:08,010 --> 00:07:12,300
+un 10 por ciento si lo mostramos finalmente
+
+82
+00:07:16,970 --> 00:07:23,450
+perdonar que nos va rebajar precio era rebajar producto ejecutarlo.
+
+83
+00:07:24,140 --> 00:07:32,930
+Vale este producto ahora vale 4 con 5 importante Fijaros que hemos devuelto un producto teóricamente
+
+84
+00:07:33,020 --> 00:07:39,380
+una copia y lo hemos asignado a una nueva variable o un nuevo objeto con el precio rebajado.
+
+85
+00:07:39,390 --> 00:07:47,870
+Sin embargo Fijaros que ocurriría si mostramos por pantalla nuestro alimento el original no el rebajado.
+
+86
+00:07:48,360 --> 00:07:50,270
+Pues que se ha rebajado el precio.
+
+87
+00:07:50,340 --> 00:07:51,180
+Por qué.
+
+88
+00:07:51,180 --> 00:07:54,450
+Porque los objetos también se pasan por referencia.
+
+89
+00:07:54,450 --> 00:07:59,850
+Os acordáis de la diferencia entre pasar por valor y referencia por valor era que se hacía una copia
+
+90
+00:08:00,140 --> 00:08:06,710
+y por referencias que se pasaba al original pues este objeto este producto se está pasando por referencia.
+
+91
+00:08:06,720 --> 00:08:13,440
+Es el mismo objeto que le estamos pasando por tanto lo que sucede dentro de la función rebajar producto
+
+92
+00:08:13,440 --> 00:08:15,500
+es que le estamos cambiando el valor.
+
+93
+00:08:15,510 --> 00:08:21,960
+En otras palabras no necesitamos devolver este producto cuando ya le hemos cambiado el valor porque
+
+94
+00:08:22,180 --> 00:08:24,760
+se lo hemos cambiado al original.
+
+95
+00:08:24,870 --> 00:08:32,100
+De hecho si intentásemos una copia de un objeto y esto es importante tenerlo en cuenta.
+
+96
+00:08:32,100 --> 00:08:39,100
+Copia del papel es igual al alimento.
+
+97
+00:08:40,290 --> 00:08:48,060
+Si hacemos algún cambio dentro de la copia copia alimento por ejemplo le cambiamos la referencia.
+
+98
+00:08:49,230 --> 00:08:54,480
+Por ejemplo le pongo dos mil 38.
+
+99
+00:08:55,440 --> 00:09:04,920
+Fijaros que si muestro la copia del alimento pues tengo ahí la nueva referencia pero si mostramos el
+
+100
+00:09:05,010 --> 00:09:09,970
+alimento original también se ha modificado la referencia.
+
+101
+00:09:10,230 --> 00:09:14,970
+Es decir no se puede hacer una copia de un objeto de esta forma.
+
+102
+00:09:14,970 --> 00:09:21,180
+Lo que estamos haciendo es asignar el propio objeto así que mucho cuidado cuando intentemos trabajar
+
+103
+00:09:21,180 --> 00:09:27,990
+con los objetos porque como modifiquemos algún campo lo que estaremos haciendo es modificar el objeto
+
+104
+00:09:27,990 --> 00:09:30,850
+original así que tenerlo en cuenta.
+
+105
+00:09:30,870 --> 00:09:34,540
+De hecho este comportamiento también funciona con las colecciones.
+
+106
+00:09:34,650 --> 00:09:39,670
+Tenéis una lista 1 2 3 y la copia oysho.
+
+107
+00:09:39,690 --> 00:09:47,880
+Pensáis que vais a copiar listados la SINA y la lista y ahora al alistados le hacemos una peli por ejemplo
+
+108
+00:09:47,880 --> 00:09:49,070
+de un 4.
+
+109
+00:09:49,200 --> 00:09:53,400
+Lo que sucede es que la primera lista tiene los cuatro elementos.
+
+110
+00:09:53,400 --> 00:09:53,700
+Por qué.
+
+111
+00:09:53,700 --> 00:09:58,770
+Porque en realidad todos estos valores estas variables que decíamos que se pasaban en referencia a las
+
+112
+00:09:58,770 --> 00:10:05,130
+funciones que se están gestionando en la memoria son sus accesos directos no podemos duplicarlas para
+
+113
+00:10:05,130 --> 00:10:13,000
+duplicar una lista recordad que tenéis que hacerlo pasándole unos corchetes y las dos puntos en medio.
+
+114
+00:10:13,410 --> 00:10:19,500
+Pero si lo que queréis es copiar un objeto lo que vais a tener que hacer es utilizar un módulo externo
+
+115
+00:10:19,590 --> 00:10:21,410
+llamado coppi y os lo enseño.
+
+116
+00:10:21,450 --> 00:10:24,330
+Adelantándome a los proximos temas más avanzados.
+
+117
+00:10:24,390 --> 00:10:34,770
+Tenéis que importar el módulo coppi y crear una copia utilizando este módulo y un método que incluye
+
+118
+00:10:34,890 --> 00:10:36,470
+llamado coppi también.
+
+119
+00:10:36,480 --> 00:10:45,970
+De esta forma copiar adorno llamaríamos a coppi y metodos coppi y le pasaríamos el adorno original.
+
+120
+00:10:46,380 --> 00:10:53,650
+De esta forma hacemos un print la copia por ejemplo para ver lo que tenemos tenemos aquí 1034 bla bla.
+
+121
+00:10:53,660 --> 00:10:54,960
+15 de precio.
+
+122
+00:10:54,970 --> 00:11:01,070
+Si la modificamos copia de The Web por ejemplo ponemos 25.
+
+123
+00:11:01,590 --> 00:11:04,610
+Vamos a volver a mostrarlo.
+
+124
+00:11:05,610 --> 00:11:11,690
+Tengo 25 pero en el original la Dorne original sigo teniendo 15.
+
+125
+00:11:11,940 --> 00:11:14,240
+Si no utilizamos el copy.
+
+126
+00:11:15,720 --> 00:11:23,250
+Asignamos directamente pues no nos va a funcionar estaríamos modificando el objeto original y este Kopi
+
+127
+00:11:23,600 --> 00:11:27,390
+funciona con cualquier clase con cualquier tipo de dato.
+
+128
+00:11:27,410 --> 00:11:34,340
+Sirven también las listas diccionarios o lo que sea que queramos copiar y después de este pequeño inciso
+
+129
+00:11:34,340 --> 00:11:38,610
+de la copia de los objetos y de las listas y tal.
+
+130
+00:11:39,700 --> 00:11:46,510
+Volvemos un momento a la función de rebajar producto porque esto que tenemos aquí de enviar un objeto
+
+131
+00:11:46,510 --> 00:11:53,170
+a una función y poder acceder a sus atributos o métodos por ejemplo el PVP sin necesidad de comprobar
+
+132
+00:11:53,170 --> 00:11:57,070
+nada tiene que ver con algo llamado polimorfismo de clases.
+
+133
+00:11:57,180 --> 00:12:02,830
+La polimorfo se refiere a una propiedad de la herencia gracias a la que es posible enviar mensajes iguales
+
+134
+00:12:03,080 --> 00:12:09,130
+a objetos de distintos tipos con el único requisito de que éstos sepan responder al mensaje.
+
+135
+00:12:09,160 --> 00:12:16,540
+En nuestro caso por ejemplo nos referimos como mensaje al atributo web que es común para todos los objetos
+
+136
+00:12:16,600 --> 00:12:18,160
+de distintas subclases.
+
+137
+00:12:18,280 --> 00:12:24,850
+Dando por hecho que todas lo tienen pero si no lo tuvieran daría error en muchos lenguajes Esta propiedad
+
+138
+00:12:24,850 --> 00:12:31,210
+se tiene que implementar manualmente las jerarquías pero no tenemos que hacerlo las razones porque en
+
+139
+00:12:31,210 --> 00:12:35,940
+Python todos los objetos derivan de una superclase común llamada obvie.
+
+140
+00:12:35,950 --> 00:12:42,280
+En otras palabras todas las clases con sus atributos y métodos son polimorfo por defecto y como decía
+
+141
+00:12:42,280 --> 00:12:47,650
+antes el problema es que si intentamos acceder a un atributo ejecutar un método que no existe va a ocurrir
+
+142
+00:12:47,650 --> 00:12:53,830
+un error pero como se suele decir a la comunidad de Python ya somos adultos así que nosotros mismos
+
+143
+00:12:53,890 --> 00:12:57,280
+nos vamos a encargar de prevenir y tratar estos errores.
+
+144
+00:12:57,280 --> 00:13:02,680
+La gracia es que Python no nos pone ningún impedimento para hacerlo y nada más por esta lección Espero
+
+145
+00:13:02,680 --> 00:13:07,240
+que os haya gustado mi ejemplo y que hayas aprendido mucho sobre cómo aplicar la herencia Gracias a
+
+146
+00:13:07,240 --> 00:13:08,920
+este ejemplo real.

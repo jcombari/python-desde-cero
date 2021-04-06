@@ -1,0 +1,27 @@
+1
+00:00:00,660 --> 00:00:06,330
+Una de las funcionalidades clásicas de la programación orientada a objetos es la herencia la capacidad
+
+2
+00:00:06,330 --> 00:00:11,730
+que tiene una clase de heredar los atributos y métodos de otra además de agregarle los suyos propios
+
+3
+00:00:11,790 --> 00:00:13,950
+o modificarlos heredados.
+
+4
+00:00:13,950 --> 00:00:19,950
+De ahí se crea la relación de clases madre y clases hijas comúnmente conocidas como Super clases y subclases
+
+5
+00:00:19,980 --> 00:00:21,630
+respectivamente.
+
+6
+00:00:22,170 --> 00:00:25,370
+En esta unidad vamos a aprender cómo desarrollar la herencia de clases.
+
+7
+00:00:25,440 --> 00:00:29,780
+Cómo se gestionan los atributos y métodos heredados y otras peculiaridades.

@@ -1,0 +1,271 @@
+1
+00:00:01,140 --> 00:00:07,810
+Ahora en esta elección vamos a rizar el rizo porque es posible incluso definir distintas excepciones.
+
+2
+00:00:08,160 --> 00:00:13,320
+Eso podemos hacerlo gracias a que cuando ocurre un error dentro del TRAI cada excepción tiene su propio
+
+3
+00:00:13,320 --> 00:00:14,440
+identificador.
+
+4
+00:00:14,760 --> 00:00:20,040
+Si lo capturamos y lo guardamos en una variable podríamos hacer un truco para mostrarle el nombre de
+
+5
+00:00:20,040 --> 00:00:21,020
+la excepción.
+
+6
+00:00:21,420 --> 00:00:26,000
+Vamos a abrir la Lección 3 y a probar un código.
+
+7
+00:00:26,430 --> 00:00:32,220
+Vamos a hacer un trámite y vamos a leer como siempre el teclado.
+
+8
+00:00:32,220 --> 00:00:36,890
+Un valor que introduce un número.
+
+9
+00:00:36,930 --> 00:00:43,360
+A continuación vamos a hacer que este número esté dividiendo por ejemplo al número cinco.
+
+10
+00:00:43,440 --> 00:00:50,620
+Vamos a poner un Excel y vamos a mostrar aquí un error error.
+
+11
+00:00:51,300 --> 00:00:59,850
+Si ponemos un número nos salta al fallo porque evidentemente es una cadena de texto pero ahora no sabemos
+
+12
+00:00:59,850 --> 00:01:02,170
+qué tipo de fallo era el que ha ocurrido.
+
+13
+00:01:02,190 --> 00:01:09,730
+Recordar que si no teníamos puesto el Excel y ejecutamos todo esto introduciremos un número.
+
+14
+00:01:09,950 --> 00:01:11,110
+Que sabíamos el error.
+
+15
+00:01:11,140 --> 00:01:18,270
+Sabíamos que era un error de tipo taipe error pero ahora haciendo esto no lo sabemos.
+
+16
+00:01:18,270 --> 00:01:25,350
+No sabemos qué tipo de error ha ocurrido para poder sacar el identificador del error ese código que
+
+17
+00:01:25,350 --> 00:01:39,140
+tiene podemos hacer este truco al Accept le vamos a añadir un exception y vamos a ponerle hash por ejemplo.
+
+18
+00:01:39,570 --> 00:01:48,830
+De esta manera vamos a guardar una excepción genérica la variable de excepción como que ahora podemos.
+
+19
+00:01:48,830 --> 00:01:57,960
+Haciendo un truco un poco extraño pero que sólo os lo muestro como anécdota poniendo tip para referirnos
+
+20
+00:01:58,050 --> 00:02:07,290
+al tipo de error un puntito y poniendo Name dos barras bajas GNOME y dos barras bajas para conseguir
+
+21
+00:02:07,290 --> 00:02:08,820
+el nombre del error.
+
+22
+00:02:08,820 --> 00:02:16,440
+Si hacemos esto ahora podemos mostrar el error que teníamos antes sin que se deje de ejecutar el código
+
+23
+00:02:16,680 --> 00:02:18,600
+con la excepción.
+
+24
+00:02:19,170 --> 00:02:21,500
+El por qué de este código tan extraño.
+
+25
+00:02:21,620 --> 00:02:24,140
+Pues es para conseguir el nombre del error.
+
+26
+00:02:24,660 --> 00:02:30,120
+No le deis muchas vueltas porque tienen que ver con las clases y la herencia son temas que aprenderemos
+
+27
+00:02:30,120 --> 00:02:32,120
+en la próxima unidad.
+
+28
+00:02:32,340 --> 00:02:37,730
+Por ahora lo único que os quería demostrar es que las excepciones tienen este nombre propio como esta
+
+29
+00:02:37,730 --> 00:02:38,780
+IP error.
+
+30
+00:02:39,180 --> 00:02:44,770
+Y es por eso que podemos encadenar varias excepciones a través de sus identificadores.
+
+31
+00:02:45,180 --> 00:02:46,090
+Vamos a mejorar.
+
+32
+00:02:46,110 --> 00:02:52,860
+El ejemplo que tenemos para encadenar varias excepciones por ejemplo la excepción y error podríamos
+
+33
+00:02:52,920 --> 00:02:55,140
+capturarla añadiendo Hola.
+
+34
+00:02:55,440 --> 00:03:01,980
+Justo antes de esta excepción genérica podríamos decir que exception vamos a volver a poner aquí un
+
+35
+00:03:01,980 --> 00:03:04,970
+bloque y vamos a poner un taipe error.
+
+36
+00:03:05,250 --> 00:03:11,610
+Aquí tendríamos la excepción que se ejecutará cuando ocurra un error como éste de aquí cuando intentemos
+
+37
+00:03:11,640 --> 00:03:14,580
+dividir un número por una cadena.
+
+38
+00:03:14,580 --> 00:03:20,810
+Podríamos mostrar entonces un mensaje que diga no se puede dividir.
+
+39
+00:03:24,760 --> 00:03:28,640
+El número uno.
+
+40
+00:03:29,030 --> 00:03:38,020
+Además si lo ejecutamos Ahora intentamos poner cualquier valor.
+
+41
+00:03:38,910 --> 00:03:46,490
+Nos dice que hay una falta que nos dice que no se puede dividir el número por una cadena evidentemente
+
+42
+00:03:47,430 --> 00:03:50,840
+porque es una conversión incorrecta.
+
+43
+00:03:51,450 --> 00:03:56,190
+Lo que tenemos que hacer es convertir el número a un flotante.
+
+44
+00:03:56,190 --> 00:04:04,530
+Como ya sabemos que hemos venido haciendo siempre y ahora pues todo funciona bien en el caso que introduzcamos
+
+45
+00:04:04,530 --> 00:04:07,820
+ahora cualquier cosa que no sea un número que estaremos.
+
+46
+00:04:08,570 --> 00:04:11,530
+Replicando el error del final de la anterior lección.
+
+47
+00:04:11,690 --> 00:04:16,550
+Fijaros lo que tenemos es un error de tipo Value error.
+
+48
+00:04:16,610 --> 00:04:21,620
+Nos lo está diciendo la excepción genérica que nos muestra el nombre de las excepciones.
+
+49
+00:04:22,040 --> 00:04:28,340
+Entonces podríamos capturar esta excepción poniéndola por ejemplo debajo de la taipe Error y poniendo
+
+50
+00:04:28,340 --> 00:04:36,070
+aquí valúa error y decirle al usuario no se puede dividir.
+
+51
+00:04:37,010 --> 00:04:46,470
+O mejor dicho debes introducir una cadena que sea un número.
+
+52
+00:04:47,180 --> 00:04:54,620
+Si lo volvemos a ejecutar ahora si introducimos una cadena que no es un número ya nos captura el error
+
+53
+00:04:54,650 --> 00:05:00,890
+values error y nos indica que tenemos que introducir una cadena que desea un número todavía podemos
+
+54
+00:05:00,890 --> 00:05:07,610
+añadir otra excepción por ejemplo el caso Vamos a reclutar otra vez en que introduzcamos un número pero
+
+55
+00:05:07,610 --> 00:05:09,840
+que este número sea cero.
+
+56
+00:05:10,310 --> 00:05:17,120
+Esto provoca un error por qué no se puede dividir nada por cero porque es un determinado y nos da un
+
+57
+00:05:17,120 --> 00:05:18,950
+error de cero División.
+
+58
+00:05:18,980 --> 00:05:19,710
+Error.
+
+59
+00:05:20,060 --> 00:05:29,660
+Podríamos crear de nuevo otro Accept antes del último que es el de la excepción genérica que se llame
+
+60
+00:05:30,090 --> 00:05:36,670
+Zero Division error y comunicarle al usuario que no puede.
+
+61
+00:05:37,120 --> 00:05:42,440
+No se puede dividir por cero.
+
+62
+00:05:42,880 --> 00:05:45,750
+Prueba a otro número.
+
+63
+00:05:45,860 --> 00:05:51,830
+En caso de que luego lo repitamos todo el código introduce un número introducimos el cero y nos dice
+
+64
+00:05:51,830 --> 00:05:53,740
+que no se puede dividir por cero.
+
+65
+00:05:54,110 --> 00:06:01,580
+Como veis podemos encadenar tantos errores como queramos siempre que el error genérico de exception
+
+66
+00:06:02,000 --> 00:06:04,580
+esté aquí sea el último de todos.
+
+67
+00:06:04,580 --> 00:06:13,520
+Gracias a esta este truco podemos sacar el nombre para manejarlos cómodamente para manipular estos errores
+
+68
+00:06:13,580 --> 00:06:14,910
+muy fácilmente.

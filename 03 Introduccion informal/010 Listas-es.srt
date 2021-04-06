@@ -1,0 +1,507 @@
+1
+00:00:02,160 --> 00:00:07,770
+En esta tercera lección vamos a hablar sobre un tipo distinto llamado las listas.
+
+2
+00:00:07,860 --> 00:00:09,810
+Vamos a comenzar con ella.
+
+3
+00:00:12,400 --> 00:00:18,040
+Dado que peyton es un lenguaje muy flexible implementa multitud de tipos distintos por defecto y eso
+
+4
+00:00:18,040 --> 00:00:23,010
+incluye también tipos compuestos de datos que se utilizan para agrupar diferentes elementos o ítems
+
+5
+00:00:23,320 --> 00:00:25,590
+por ejemplo variables o valores.
+
+6
+00:00:26,410 --> 00:00:32,080
+El más versátil de estos tipos compuestos es que la lista que se puede describir como una lista de ítems
+
+7
+00:00:32,140 --> 00:00:38,410
+separados por comas y contenidos entre dos corchetes por ejemplo vamos a crear una lista de números
+
+8
+00:00:38,980 --> 00:00:40,250
+entre dos corchetes.
+
+9
+00:00:40,270 --> 00:00:43,730
+Vamos a asignar varios números separados por comas.
+
+10
+00:00:44,230 --> 00:00:46,160
+Aquí tenemos una lista.
+
+11
+00:00:46,240 --> 00:00:48,100
+Más sencillo imposible.
+
+12
+00:00:48,820 --> 00:00:53,710
+Normalmente las listas suelen contener ítems del mismo tipo pero no tenemos esta restricción.
+
+13
+00:00:53,710 --> 00:00:59,650
+Por tanto podemos tener una lista de datos y muchos tipos de datos diferentes.
+
+14
+00:00:59,650 --> 00:01:05,000
+Por ejemplo un número entero una cadena de caracteres.
+
+15
+00:01:05,230 --> 00:01:08,780
+También podemos poner un número negativo.
+
+16
+00:01:09,500 --> 00:01:11,340
+Otro número decimal.
+
+17
+00:01:11,870 --> 00:01:14,850
+Otra cadena.
+
+18
+00:01:18,200 --> 00:01:23,630
+Las listas son muy parecidas a las cadenas de caracteres ya que funcionan exactamente igual con los
+
+19
+00:01:23,630 --> 00:01:27,850
+índices y también permiten utilizar el ashleigh SIN.
+
+20
+00:01:28,100 --> 00:01:34,040
+Por ejemplo si queremos acceder al primer elemento de esta lista de datos simplemente nos podemos referir
+
+21
+00:01:34,040 --> 00:01:38,410
+con un índice cero y así podemos mostrar este primer elemento.
+
+22
+00:01:38,410 --> 00:01:39,600
+Este primer ítem.
+
+23
+00:01:40,510 --> 00:01:48,880
+Si queremos mostrar el último elemento podemos hacerlo con un índice menos 1 y ahí vemos el último intento
+
+24
+00:01:48,880 --> 00:01:49,850
+de esta lista.
+
+25
+00:01:51,520 --> 00:02:00,070
+Utilizando la Ising Podemos referirnos por ejemplo de la lista de datos desde el inicio menos dos el
+
+26
+00:02:00,070 --> 00:02:06,360
+penúltimo hasta el final y así nos muestra los últimos dos.
+
+27
+00:02:08,910 --> 00:02:14,100
+Otra cosa que nos permiten las listas al igual que las cadenas de caracteres es concatenar con otras
+
+28
+00:02:14,100 --> 00:02:15,150
+listas.
+
+29
+00:02:15,150 --> 00:02:22,800
+Por ejemplo podríamos suponer la lista de números y concatenar una nueva lista ya que habíamos acabado
+
+30
+00:02:22,800 --> 00:02:23,960
+con el número 4.
+
+31
+00:02:24,060 --> 00:02:29,260
+Podemos continuar volviendo varios números más 5 6 7 y 8.
+
+32
+00:02:29,400 --> 00:02:36,010
+Si confirmamos hoy tenemos el resultado de concatenar una lista con otra.
+
+33
+00:02:36,020 --> 00:02:39,910
+Es una nueva lista con todos los elementos de ella.
+
+34
+00:02:40,950 --> 00:02:46,950
+Sin embargo hay una peculiaridad y es que las cadenas de caracteres eran inmutables pero ahora las listas
+
+35
+00:02:46,950 --> 00:02:47,820
+no lo son.
+
+36
+00:02:47,820 --> 00:02:52,950
+Así que sí que podemos reasignar sus ítems haciendo referencia con el índice a ellos.
+
+37
+00:02:52,950 --> 00:02:53,790
+Ejemplo.
+
+38
+00:02:55,330 --> 00:03:00,790
+Imaginad que tengo una lista llamada París donde voy a guardar unos cuantos números pares el número
+
+39
+00:03:00,790 --> 00:03:04,060
+cero el 2 el 4.
+
+40
+00:03:04,060 --> 00:03:10,750
+Aquí voy a poner un 5 para cambiarlo un 8 y un 10.
+
+41
+00:03:11,350 --> 00:03:16,150
+Entonces quiero cambiar este número cinco por un 6 para que quede bien.
+
+42
+00:03:16,570 --> 00:03:18,600
+Cómo lo podemos hacer.
+
+43
+00:03:18,610 --> 00:03:24,190
+Pues a través de los índices tenemos que en el índice cero está el número cero cero uno dos y tres tenemos
+
+44
+00:03:24,290 --> 00:03:25,050
+cinco.
+
+45
+00:03:25,090 --> 00:03:33,190
+Por tanto podemos acceder a pares en el índice 3 y aquí asignarle un 6 como si asignamos una variable.
+
+46
+00:03:33,510 --> 00:03:40,090
+Esto que no nos permitían hacer las cadenas de caracteres sí que lo podemos hacer en una lista y ahora
+
+47
+00:03:40,090 --> 00:03:45,190
+ya tenemos nuestra lista rectificada con los pares.
+
+48
+00:03:46,030 --> 00:03:51,980
+Otra cosa que tienen las listas muy interesante es que podemos añadir elementos justo al final.
+
+49
+00:03:53,380 --> 00:03:56,390
+Esto es porque incluyen muchos métodos internos.
+
+50
+00:03:56,470 --> 00:04:04,630
+Hablaremos de los métodos largo y tendido más adelante pero por daros un ejemplo una lista tiene un
+
+51
+00:04:04,630 --> 00:04:12,420
+método llamado spent que viene de adjuntar en español que nos permite añadir elementos al final imaginar
+
+52
+00:04:12,710 --> 00:04:20,140
+que tenemos esta lista de pares y queremos añadir un nuevo pajar pues pondríamos pares un punto y aquí
+
+53
+00:04:20,210 --> 00:04:27,160
+escribiríamos apem y entre paréntesis le pasaríamos el siguiente número que queremos poner en esta lista
+
+54
+00:04:27,170 --> 00:04:27,640
+por ejemplo.
+
+55
+00:04:27,640 --> 00:04:29,000
+12.
+
+56
+00:04:29,530 --> 00:04:31,440
+Ahora puede volver a mostrar la lista.
+
+57
+00:04:31,960 --> 00:04:35,620
+Y como veis se me ha agregado justo al final el número 12.
+
+58
+00:04:36,220 --> 00:04:41,340
+Tampoco hace falta poner el número directo por ejemplo ahorase que vendría al 14.
+
+59
+00:04:41,390 --> 00:04:51,130
+Pues puedo asignar en el happened el número 7 Por ejemplo por 4 y esto directamente me asignará el valor
+
+60
+00:04:51,130 --> 00:04:58,940
+perdón por 4 por 2 Poner pares y ya directamente me añade al final 7 por 2 14.
+
+61
+00:04:59,320 --> 00:05:05,530
+Una peculiaridad que tienen las listas ya que estamos cambiando su contenido es que también permiten
+
+62
+00:05:05,620 --> 00:05:14,680
+una cosa llamada asignacion con la Exin es decir imaginar que tenemos una lista llena de letras por
+
+63
+00:05:14,680 --> 00:05:28,370
+ejemplo una a una una hace una de una e y una Efe.
+
+64
+00:05:28,900 --> 00:05:31,240
+Tengo aquí seis letras.
+
+65
+00:05:31,630 --> 00:05:38,300
+Ahora me gustaría cambiar unas cuantas letras por ejemplo las tres primeras y ponerlas en mayúscula.
+
+66
+00:05:38,860 --> 00:05:45,340
+Las tres primeras letras recordad que podemos acceder fácilmente utilizando su living indicamos desde
+
+67
+00:05:45,340 --> 00:05:47,980
+el inicio hasta la tercera posición.
+
+68
+00:05:47,980 --> 00:05:49,680
+Como veis hoy tengo PC.
+
+69
+00:05:50,020 --> 00:05:57,700
+Entonces si yo quiero reasignar a Boyce por ejemplo en mayúsculas puedo hacerlo de esta forma letras
+
+70
+00:05:58,270 --> 00:06:09,030
+desde el inicio hasta el 3 y lo voy a asignar una nueva lista con la mayúscula con mayúsculas y lo hace
+
+71
+00:06:09,660 --> 00:06:13,760
+secreto secretamente y mostramos el contenido.
+
+72
+00:06:14,230 --> 00:06:17,010
+Cómo vais veis cientos listing.
+
+73
+00:06:17,470 --> 00:06:19,900
+He cambiado estos tres valores.
+
+74
+00:06:20,140 --> 00:06:22,250
+Es bastante útil este sistema.
+
+75
+00:06:23,820 --> 00:06:32,310
+También podemos utilizar una funcionalidad gracias al S6 sin Para borrar los valores por ejemplo si
+
+76
+00:06:32,310 --> 00:06:33,060
+asignamos
+
+77
+00:06:35,610 --> 00:06:44,900
+desde la primera posición desde el primer índice hasta el 3 sin contar el 3 le asignamos una lista vacía
+
+78
+00:06:46,320 --> 00:06:49,690
+lo que estaremos haciendo es vaciando la lista.
+
+79
+00:06:49,880 --> 00:06:58,080
+Fijaros me he cargado los 3 primeros por qué le he dicho que es una lista vacía y representa que me
+
+80
+00:06:58,080 --> 00:06:59,710
+lo ha borrado.
+
+81
+00:06:59,790 --> 00:07:06,240
+Otra forma que también se puede borrar todo el contenido podríamos simplemente decirle que letras es
+
+82
+00:07:06,240 --> 00:07:16,590
+igual a una lista vacía y de esta manera no tendríamos ningún elemento por cierto ya que estamos hablando
+
+83
+00:07:16,590 --> 00:07:23,220
+de métodos y funciones Recordáis la función clem que utilizábamos para saber la longitud de una cadena
+
+84
+00:07:23,790 --> 00:07:29,680
+pues también nos sirve para saber la longitud de una lista por ejemplo leer letras.
+
+85
+00:07:29,710 --> 00:07:36,720
+Dado que acabamos de borrar todos los elementos nos dice que tiene una longitud de cero y teníamos otra.
+
+86
+00:07:36,800 --> 00:07:43,440
+Aquí arriba la de París por ejemplo podemos saber la longitud de la lista pares y sabemos que hay ocho
+
+87
+00:07:43,440 --> 00:07:44,880
+elementos.
+
+88
+00:07:47,590 --> 00:07:53,350
+Lo último que comentar en este tema es la capacidad que tienen las listas para contener a otras listas.
+
+89
+00:07:53,350 --> 00:08:04,900
+Esto se conoce como listas anidadas por ejemplo vamos a crear varias listas una lista 1 2 y un 3 una
+
+90
+00:08:04,900 --> 00:08:11,040
+lista B con por ejemplo 4 5 y un 6.
+
+91
+00:08:11,140 --> 00:08:16,890
+Una lista C con por ejemplo un 7 un 8 y un 9.
+
+92
+00:08:17,740 --> 00:08:18,690
+Vale.
+
+93
+00:08:19,120 --> 00:08:24,900
+Ahora vamos a crear una nueva lista conteniendo estas listas.
+
+94
+00:08:24,910 --> 00:08:31,870
+Le voy a llamar erre de resultado y vamos a decir que esta nueva lista tiene dentro las listas a Koma
+
+95
+00:08:32,020 --> 00:08:33,500
+de ICE.
+
+96
+00:08:34,720 --> 00:08:44,530
+De acuerdo vamos a mostrar R y fijaros que lo que tenemos es una lista formada de tres listas.
+
+97
+00:08:45,510 --> 00:08:53,510
+De acuerdo como tenemos una lista anidada de listas podemos hacer referencia a ellas como si nos refiriera
+
+98
+00:08:53,640 --> 00:08:57,880
+a un elemento de ellas mismas por ejemplo para acceder a la primera lista.
+
+99
+00:08:57,900 --> 00:08:59,930
+Podemos utilizar el índice cero.
+
+100
+00:09:00,510 --> 00:09:03,900
+Hoy tengo la primera super lista por decirlo de alguna forma.
+
+101
+00:09:04,440 --> 00:09:07,620
+O por ejemplo podemos acceder a la última con menos uno.
+
+102
+00:09:07,880 --> 00:09:09,100
+Y hoy tengo la última.
+
+103
+00:09:11,460 --> 00:09:16,100
+De hecho tal y como hemos definido esta lista de listas.
+
+104
+00:09:16,230 --> 00:09:19,550
+Fijaros que aquí me queda como si fuera una especie de tabla.
+
+105
+00:09:20,100 --> 00:09:27,090
+Las tablas tienen algo interesante y es que están compuestas de celdas que están ubicadas en filas y
+
+106
+00:09:27,090 --> 00:09:28,160
+columnas.
+
+107
+00:09:28,650 --> 00:09:33,280
+Y esto nos va a servir mucho para hacer referencia a los elementos de caudalista en sí.
+
+108
+00:09:33,450 --> 00:09:40,140
+Por ejemplo si quiero acceder al primer elemento de la primera lista cómo puedo hacerlo.
+
+109
+00:09:40,140 --> 00:09:47,490
+El primer elemento de la primera lista de la podríamos decir que es el índice cero de la lista pero
+
+110
+00:09:47,580 --> 00:09:50,220
+que está dentro del índice cero de la lista.
+
+111
+00:09:50,220 --> 00:09:50,600
+R.
+
+112
+00:09:50,650 --> 00:09:58,890
+Porque es la propia entonces una peculiaridad de las listas anidadas es que podemos hacer referencia
+
+113
+00:09:58,920 --> 00:10:02,760
+a los elementos de sus listas internas también.
+
+114
+00:10:03,210 --> 00:10:07,890
+Por lo tanto si quisiéramos mostrar el primer elemento de la primera lista podríamos hacer referencia
+
+115
+00:10:07,890 --> 00:10:15,800
+a la primera lista y dentro añadir un segundo índice para hacer referencia al elemento.
+
+116
+00:10:16,650 --> 00:10:19,440
+El primer elemento de la primera lista.
+
+117
+00:10:20,830 --> 00:10:22,510
+Que nos quedaría.
+
+118
+00:10:23,300 --> 00:10:24,690
+Y ahí tengo el número 1.
+
+119
+00:10:25,550 --> 00:10:32,780
+Si quisiera acceder por ejemplo al 5 digamos que sería la segunda fila y segunda columna por decirlo
+
+120
+00:10:32,780 --> 00:10:35,780
+de una forma el 1 y el 1.
+
+121
+00:10:37,370 --> 00:10:42,820
+Y si el índice fuera 2 y 2 sería como decir el último.
+
+122
+00:10:44,410 --> 00:10:49,120
+De la última fila de la última columna y nos quedaría el 9.
+
+123
+00:10:49,600 --> 00:10:56,310
+Pero también podemos utilizarlo para referirnos al último menos uno del primero y menos 1 del segundo.
+
+124
+00:10:56,560 --> 00:11:00,550
+Y también tenemos ese 9 en fin.
+
+125
+00:11:00,580 --> 00:11:06,520
+Como veis las listas son geniales y nos ofrecen muchísimas formas de manejar nuestros datos.
+
+126
+00:11:07,120 --> 00:11:11,320
+Sin duda se merecen su propia unidad y hablaremos de ellas mucho más en profundidad.
+
+127
+00:11:11,530 --> 00:11:13,850
+Pero por ahora vamos a dejarlo aquí.

@@ -1,0 +1,747 @@
+1
+00:00:01,020 --> 00:00:05,520
+Muy bien pues vamos a comenzar nuestra andadura por el mundo de los ficheros con los ficheros de texto
+
+2
+00:00:06,090 --> 00:00:08,630
+vamos a ir a la fase 4 más avanzados.
+
+3
+00:00:08,670 --> 00:00:09,270
+Tema 12.
+
+4
+00:00:09,270 --> 00:00:13,450
+Manejo de ficheros y Lección 2 ficheros de texto.
+
+5
+00:00:14,280 --> 00:00:20,730
+Fijaros que ya tengo abierto una carpeta con el mismo directorio donde tengo ficheros las elecciones
+
+6
+00:00:20,770 --> 00:00:24,220
+vale porque aquí vamos a ver los ficheros que vamos a ir creando.
+
+7
+00:00:24,240 --> 00:00:30,420
+También los podemos ver directamente desde aquí desde Júpiter que no se irán saliendo por si queremos
+
+8
+00:00:30,780 --> 00:00:32,570
+verlas.
+
+9
+00:00:32,580 --> 00:00:34,730
+Dicho esto hablando de ficheros.
+
+10
+00:00:35,010 --> 00:00:41,190
+Lo más importante es que si trabajáis desde el intérprete de Jupiter no necesitáis importar nada pero
+
+11
+00:00:41,190 --> 00:00:48,420
+si vais a trabajar en script necesitáis importar el módulo ío es muy importante y concretamente vais
+
+12
+00:00:48,420 --> 00:00:50,770
+a tener que hacerlo de esta forma.
+
+13
+00:00:51,000 --> 00:00:55,660
+No importa el método o la función Open.
+
+14
+00:00:55,860 --> 00:01:02,940
+De esta forma porque si no desde un script no podréis abrir ficheros no os funcionará nada de lo que
+
+15
+00:01:02,940 --> 00:01:05,930
+vamos a hacer así que súper importante.
+
+16
+00:01:06,120 --> 00:01:11,420
+Esto si utilizáis scripts arriba del todo para poder trabajar con el Open.
+
+17
+00:01:11,580 --> 00:01:16,600
+Pero como nosotros vamos a trabajar desde Júpiter no vamos a necesitar esto así que lo voy a borrar.
+
+18
+00:01:17,080 --> 00:01:23,590
+Y algo que tengo que comentaros es que hay un pequeño problemita ya que vamos a trabajar desde aquí.
+
+19
+00:01:23,760 --> 00:01:26,510
+Según cómo gestiona Jupiter los ficheros.
+
+20
+00:01:26,520 --> 00:01:30,960
+A lo mejor se nos queda abierto alguna cosa y luego podría funcionar mal.
+
+21
+00:01:30,960 --> 00:01:36,360
+Por tanto después de cerrar un fichero me veréis siempre a hacer la línea del y el número del fichero
+
+22
+00:01:36,480 --> 00:01:42,270
+el nombre de la variable para asegurarme de que se borra y no nos da ningún problema así que tenerlo
+
+23
+00:01:42,270 --> 00:01:43,060
+en cuenta.
+
+24
+00:01:43,380 --> 00:01:47,390
+Vamos a comenzar por crear un fichero y escribir un texto encima.
+
+25
+00:01:48,210 --> 00:01:53,550
+Vamos a hacer lo siguiente Vamos a comenzar suponiendo que tenemos una variable texto y dentro un texto
+
+26
+00:01:54,600 --> 00:02:01,060
+una línea con texto y vamos a poner un salto de línea con barra n.
+
+27
+00:02:01,410 --> 00:02:06,630
+Dentro de los ficheros de texto el barra M sabéis que es ese carácter que simula un salto de línea.
+
+28
+00:02:06,640 --> 00:02:13,830
+Pues es así cómo lo vamos a guardar dentro de un fichero y aquí pondremos otra línea.
+
+29
+00:02:14,480 --> 00:02:20,730
+Contexto muy bien ahora queremos guardar este texto que tenemos aquí en un fichero.
+
+30
+00:02:20,730 --> 00:02:29,100
+Primer paso tenemos que crear un fichero vamos a poner el fichero igual y vamos a abrir un fichero en
+
+31
+00:02:29,100 --> 00:02:29,810
+el disco duro.
+
+32
+00:02:29,820 --> 00:02:35,370
+Lo vamos a abrir en el mismo directorio que estamos trabajando en este caso sería dónde está este fichero
+
+33
+00:02:35,370 --> 00:02:43,740
+de elección 2 que tenemos ahí y vamos a hacerlo así vamos a poner Open de abrir y entre paréntesis vamos
+
+34
+00:02:43,740 --> 00:02:46,250
+a pasarle dos argumentos.
+
+35
+00:02:46,250 --> 00:02:52,230
+Primero fichero txt por ejemplo haciendo referencia a lo que sería el nombre del fichero con el que
+
+36
+00:02:52,230 --> 00:02:54,960
+vamos a trabajar una coma.
+
+37
+00:02:55,140 --> 00:02:59,470
+Y aquí vamos a indicar el modo cómo queremos abrir el fichero.
+
+38
+00:02:59,580 --> 00:03:02,590
+Vamos a poner que queremos abrirlo en modo de escritura.
+
+39
+00:03:02,880 --> 00:03:10,060
+Si recordáis os comenté los modos que había por lo tanto vamos a abrirlo con el modo de escritura.
+
+40
+00:03:11,220 --> 00:03:18,850
+Guardamos y ahora al haber hecho esto si vamos a la carpeta veréis que ya se ha creado este fichero.
+
+41
+00:03:18,990 --> 00:03:22,490
+Este fichero está abierto y este fichero está vacío.
+
+42
+00:03:22,500 --> 00:03:28,590
+Por cierto tengo esto aquí voy a quitarlo remojón folders comprobar que cuando veáis está vacío un fichero
+
+43
+00:03:29,440 --> 00:03:35,970
+que está en uso actualmente porque no lo hemos cerrado pero ahora podremos trabajar con él por ejemplo
+
+44
+00:03:37,200 --> 00:03:39,330
+fichero punto.
+
+45
+00:03:39,330 --> 00:03:45,280
+Método brought escribir y a escribir les vamos a pasar nuestra variable texto.
+
+46
+00:03:45,450 --> 00:03:50,240
+Vamos a confirmar nos devuelve no sé qué es esto exactamente.
+
+47
+00:03:50,490 --> 00:03:53,260
+Pero si volvemos a abrir este fichero.
+
+48
+00:03:56,340 --> 00:04:03,870
+Fijaros que no hay nada pero si hacemos un kloss vamos a cerrar el fichero ya hemos trabajado con él.
+
+49
+00:04:03,900 --> 00:04:04,850
+Vamos a cerrarlo.
+
+50
+00:04:04,950 --> 00:04:06,830
+Fichero puntos claves.
+
+51
+00:04:07,660 --> 00:04:14,650
+Así con los paréntesis confirmamos y ahora que hemos cerrado el fichero ya no lo estamos utilizando.
+
+52
+00:04:15,120 --> 00:04:21,390
+Fijaros que suprime se ha actualizado automáticamente el contenido de este fichero como veis y se me
+
+53
+00:04:21,390 --> 00:04:22,440
+ha escrito.
+
+54
+00:04:22,440 --> 00:04:28,790
+Dentro de este fichero por tanto es muy sencillo escribir texto en un fichero.
+
+55
+00:04:31,070 --> 00:04:37,910
+Y vamos a hacerlo corsetería vamos a borrar de la memoria este fichero para poder seguir trabajando
+
+56
+00:04:37,910 --> 00:04:39,100
+correctamente con él.
+
+57
+00:04:41,100 --> 00:04:46,540
+Lo que tenéis que tener claro de lo que hemos hecho es que este comando de aquí abre un fichero.
+
+58
+00:04:47,470 --> 00:04:52,240
+De acuerdo con este nombre pero si ya existe lo abres y lo borra todo.
+
+59
+00:04:52,240 --> 00:04:57,250
+Todo lo que había dentro lo borra el modo escritura se lo carga automáticamente por el simple hecho
+
+60
+00:04:57,250 --> 00:05:02,020
+de abrirlo en modo de escritura o reit se lo carga.
+
+61
+00:05:02,020 --> 00:05:08,850
+Es decir no abreus un fichero en modo escritura y luego queráis cancelarlo porque ya has descargado
+
+62
+00:05:08,850 --> 00:05:14,860
+o lo habréis eliminado todo el contenido y esto lo podéis observar haciendo otra vez ejecutando esta
+
+63
+00:05:14,860 --> 00:05:15,890
+línea.
+
+64
+00:05:16,390 --> 00:05:22,690
+Vale y ahora si vamos al fichero como veis suprime ya me lo actualiza automáticamente ya ha eliminado
+
+65
+00:05:22,690 --> 00:05:30,360
+el contenido de acuerdo a lo que os decía O tendríamos que volver a escribir encima y cerrarlo y ahora
+
+66
+00:05:30,840 --> 00:05:32,990
+pues ya tenemos ahí el texto otra vez.
+
+67
+00:05:33,870 --> 00:05:39,840
+Por tanto que quede claro modo breguet se carga el contenido en el momento de abrir el fichero.
+
+68
+00:05:40,170 --> 00:05:48,750
+Vamos a borrar el fichero otra vez esta variable y vamos a ver cómo lo tenemos que hacer si queremos
+
+69
+00:05:48,750 --> 00:05:55,860
+abrir un fichero en modo lectura para leer lo que hay dentro sin necesidad de machacarlo de borrar todo
+
+70
+00:05:55,860 --> 00:06:00,940
+el contenido por lo vamos a hacer de la siguiente forma vamos a coger.
+
+71
+00:06:01,170 --> 00:06:02,890
+Vamos a hacer lo mismo Open.
+
+72
+00:06:03,570 --> 00:06:09,570
+Vamos a indicar el fichero que queremos abrir por supuesto o por hecho que tendremos el fichero en el
+
+73
+00:06:09,570 --> 00:06:12,470
+mismo directorio donde ejecutamos el script aquí.
+
+74
+00:06:14,520 --> 00:06:22,320
+TXT y ahora nos vamos a pasar en el Modo Lectura RIT con una R.
+
+75
+00:06:22,830 --> 00:06:26,670
+Lo abrimos y ya tenemos abierto el fichero acuerdo.
+
+76
+00:06:28,140 --> 00:06:32,220
+Comando interesante que toca aprenderse.
+
+77
+00:06:32,670 --> 00:06:40,920
+Vamos a guardar en una variable de texto todo el contenido del fichero como fichero punto Rid fichero
+
+78
+00:06:40,940 --> 00:06:45,730
+punto leer esto leer totalmente el contenido del fichero.
+
+79
+00:06:45,870 --> 00:06:48,590
+Guardar la variable texto.
+
+80
+00:06:48,600 --> 00:06:54,630
+Una vez ya la tenemos metido aquí lo tenemos en la memoria podemos cerrar nuestro fichero porque ya
+
+81
+00:06:54,630 --> 00:06:56,120
+hemos trabajado con él.
+
+82
+00:06:56,400 --> 00:07:01,310
+Fijaros que siempre le pongo mucha importancia al hecho de cerrarlo.
+
+83
+00:07:01,440 --> 00:07:06,430
+Es básico y ahora podríamos mostrar por pantalla que es lo que tenemos en texto.
+
+84
+00:07:06,480 --> 00:07:12,940
+Si se ha ejecutado correctamente deberíamos de tener exactamente esto una línea contexto.
+
+85
+00:07:12,960 --> 00:07:14,760
+Otra línea contexto.
+
+86
+00:07:15,060 --> 00:07:22,150
+Si tenemos al fichero Bueno vamos a borrarlo vamos a hacer un hotel de esta variable.
+
+87
+00:07:23,650 --> 00:07:27,320
+Y si tenemos este fichero y agregamos una tercera línea de texto.
+
+88
+00:07:27,580 --> 00:07:30,490
+Otra línea más contexto.
+
+89
+00:07:30,760 --> 00:07:35,160
+Pero vamos a guardar desde aquí desde el editor de texto File Save controlarse.
+
+90
+00:07:36,160 --> 00:07:38,060
+Vamos a volver a ejecutar todo esto.
+
+91
+00:07:38,080 --> 00:07:40,890
+Otra vez este RIT lo confirmo.
+
+92
+00:07:41,110 --> 00:07:48,220
+Voy a volver a ejecutar este RIT voy a cerrarlo y voy a escribir el texto a ver si me aparecen las líneas
+
+93
+00:07:48,780 --> 00:07:54,970
+y como veis ahora como ya he editado el fichero del editor pues me aparecen las tres líneas.
+
+94
+00:07:54,970 --> 00:07:57,700
+Perfecto voy a eliminarlo.
+
+95
+00:07:58,720 --> 00:08:09,280
+Y fijaros que esta variable texto lo que está almacenando el texto tal cual llega es decir es como si
+
+96
+00:08:09,280 --> 00:08:12,090
+fuera una cadena de texto la que teníamos aquí arriba.
+
+97
+00:08:13,710 --> 00:08:18,970
+Si la mostramos así lo vemos una línea.
+
+98
+00:08:18,970 --> 00:08:25,920
+Salto de línea otra línea contexto salté de línea en otra línea pues hay una forma en que podemos leer
+
+99
+00:08:27,900 --> 00:08:35,370
+todas las líneas del fichero y almacenarlas en una lista donde tendremos para cada elemento una línea
+
+100
+00:08:35,820 --> 00:08:38,060
+de las que hemos ido leyendo.
+
+101
+00:08:38,220 --> 00:08:43,460
+Es mucho más cómodo para trabajar suponiendo que tenemos algún elemento en una línea en especial pues
+
+102
+00:08:43,470 --> 00:08:47,370
+podríamos ir y luego modificarlo o lo que queramos.
+
+103
+00:08:47,780 --> 00:08:54,810
+Bueno pues vamos a ver cómo se hace podemos abrir este fichero otra vez de la misma forma que antes
+
+104
+00:08:55,320 --> 00:09:03,370
+haciendo fichero txt y el modo de lectura RIT y vamos a hacer lo siguiente.
+
+105
+00:09:03,480 --> 00:09:11,850
+En lugar de leer todo como era el fichero RIT vamos a hacer un RIT Windows leer las líneas y esto lo
+
+106
+00:09:11,850 --> 00:09:12,980
+vamos a almacenar.
+
+107
+00:09:14,340 --> 00:09:20,610
+Una variable líneas muy bien vamos a cerrar el fichero.
+
+108
+00:09:20,710 --> 00:09:23,690
+Quiero clowes vamos a borrarlo
+
+109
+00:09:26,530 --> 00:09:32,880
+esto de borrarlo lo hacemos porque estamos trabajando con Júpiter vale porque podría dar algún problema
+
+110
+00:09:32,880 --> 00:09:34,960
+si estáis trabajando con el script.
+
+111
+00:09:35,160 --> 00:09:41,510
+Simplemente lo cerráis y ya automáticamente al acabar de ejecutarse el clip pues se borrará.
+
+112
+00:09:41,700 --> 00:09:47,490
+Pero como estamos trabajando aquí en bloque en Júpiter lo vamos borrando todo el rato para que no pase
+
+113
+00:09:47,490 --> 00:09:49,640
+nada para que todo funcione correctamente.
+
+114
+00:09:50,100 --> 00:09:51,300
+Muy bien.
+
+115
+00:09:51,300 --> 00:09:57,970
+Ahora supuestamente líneas debería de ser una lista almacenando todas las líneas.
+
+116
+00:09:57,960 --> 00:10:04,670
+Vamos a ver entre líneas y como veis tenemos una lista.
+
+117
+00:10:06,160 --> 00:10:11,930
+Y aquí tenemos una línea otra línea y otra línea más.
+
+118
+00:10:12,270 --> 00:10:21,420
+Por lo tanto podríamos mostrar la primera línea de líneas con un cero una línea con texto marco fiscal
+
+119
+00:10:21,410 --> 00:10:24,420
+lo que demuestra el Barreira del final.
+
+120
+00:10:25,420 --> 00:10:33,820
+Podríamos mostrar la última líneas menos uno y tenemos la última línea otra línea más contexto.
+
+121
+00:10:33,820 --> 00:10:34,800
+Muy bien.
+
+122
+00:10:36,560 --> 00:10:43,670
+Ahora imaginaros que queremos añadir extender el Este fichero de texto.
+
+123
+00:10:43,670 --> 00:10:48,230
+Poner otra línea al final o un texto al final de lo que ya tenemos.
+
+124
+00:10:49,380 --> 00:10:56,010
+Pues vamos a introducir una nueva forma de abrir los ficheros vamos a abrirlos en modo de extensión
+
+125
+00:10:56,210 --> 00:11:07,920
+en modo Pent que se dice en inglés vamos a abrir un fichero Open ciero punto txt y le vamos a pasar
+
+126
+00:11:07,920 --> 00:11:11,530
+el modo a apenn.
+
+127
+00:11:11,850 --> 00:11:19,140
+Ahora vamos a escribir fichero reit vamos a escribir una nueva línea de barra.
+
+128
+00:11:19,260 --> 00:11:24,030
+Al principio tener en cuenta que no lo teníamos puesto al final de la anterior por lo tanto lo tenemos
+
+129
+00:11:24,030 --> 00:11:30,730
+que poner aquí y pondríamos cuarta línea del fichero.
+
+130
+00:11:31,550 --> 00:11:37,290
+Muy bien vamos a cerrarlo clowes y borrarlo
+
+131
+00:11:40,160 --> 00:11:43,470
+y ahora sí vamos a abrir el fichero.
+
+132
+00:11:43,480 --> 00:11:46,340
+Pues como veis tenemos aquí perfectamente las cuatro líneas.
+
+133
+00:11:46,410 --> 00:11:48,320
+Cuarta línea del fichero.
+
+134
+00:11:51,050 --> 00:11:53,120
+Es muy importante el concepto.
+
+135
+00:11:53,120 --> 00:12:00,710
+Todavía no lo hemos visto directamente pero del puntero porque cuando abrimos un fichero en modo escritura
+
+136
+00:12:01,280 --> 00:12:07,370
+se borra todo el contenido y el puntero que decíamos al principio de esta unidad se posiciona al principio
+
+137
+00:12:07,370 --> 00:12:08,130
+del fichero.
+
+138
+00:12:08,150 --> 00:12:16,070
+Por tanto se empieza a escribir desde ahí pero cuando abrimos el fichero en modo extensión en modo happen
+
+139
+00:12:16,850 --> 00:12:18,830
+el puntero se encuentra al final de todo.
+
+140
+00:12:18,860 --> 00:12:23,750
+Por tanto lo que escribamos se empieza a escribir a partir del final de todo de acuerdo.
+
+141
+00:12:23,750 --> 00:12:26,140
+Esa es la gran diferencia entre la pena y el gris.
+
+142
+00:12:26,600 --> 00:12:31,560
+Aparte del hecho que no se carga no lo borra todo sino que lo conserva.
+
+143
+00:12:33,650 --> 00:12:42,230
+Dicho esto algo que debéis tener en cuenta es que no se puede abrir un fichero en modo lectura si este
+
+144
+00:12:42,230 --> 00:12:44,270
+no existe daría error.
+
+145
+00:12:44,690 --> 00:12:54,260
+Imaginaros que hacemos fichero hospeden y pasamos aquí un fichero inventado punto txt que sabemos que
+
+146
+00:12:54,260 --> 00:13:04,300
+no tenemos ahí en modo lectura de acuerdo pues no da un error error de file error.
+
+147
+00:13:04,400 --> 00:13:10,100
+Entonces si en lugar de abrirlo el modo lectura este fichero no existe lo abrimos en modo a modo de
+
+148
+00:13:10,100 --> 00:13:11,400
+extensión.
+
+149
+00:13:12,140 --> 00:13:18,980
+Fijaros que sí que funciona así que algo hace pues lo crea aquí lo crea vacío y representa que el concepto
+
+150
+00:13:18,980 --> 00:13:24,490
+es el mismo lo crea vacío y como no hay contenido el puntero se encuentra al principio del fichero porque
+
+151
+00:13:24,500 --> 00:13:25,340
+no hay nada más.
+
+152
+00:13:25,400 --> 00:13:31,160
+Entonces podríamos ya escribir ahí muy bien y ahora que ya sabemos cómo abrir un fichero aunque éste
+
+153
+00:13:31,160 --> 00:13:32,180
+no exista.
+
+154
+00:13:32,180 --> 00:13:38,390
+Con el happen vamos a centrarnos en las formas de leer un fichero también en lugar de leer todas las
+
+155
+00:13:38,390 --> 00:13:40,640
+líneas o leer todo el contenido de golpe.
+
+156
+00:13:40,640 --> 00:13:48,050
+Podemos leer el contenido poco a poco leer línea por línea por ejemplo vamos a abrir nuestro fichero
+
+157
+00:13:48,110 --> 00:13:49,040
+Open.
+
+158
+00:13:49,400 --> 00:13:59,540
+No sé si ya lo tenía abierto pero vamos a abrir otra vez Sillero txt el modo lectura y vamos a leer
+
+159
+00:13:59,540 --> 00:14:05,480
+una línea o a guardar en una línea haciendo lo siguiente.
+
+160
+00:14:06,150 --> 00:14:16,760
+Fichero punto destruibles leer line es un método lo ejecutamos y si vemos el contenido de L ya hemos
+
+161
+00:14:16,760 --> 00:14:17,920
+leído la primera línea.
+
+162
+00:14:17,960 --> 00:14:19,950
+Hemos guardado contenido de la primera línea.
+
+163
+00:14:20,830 --> 00:14:28,620
+Si volvemos a hacer este comando otra vez aquí abajo y volvemos a mostrar el contenido de L.
+
+164
+00:14:29,170 --> 00:14:32,550
+Ya veis que no es la primera línea sino que continuamos por la segunda.
+
+165
+00:14:32,550 --> 00:14:34,680
+Recordar esto es el puntero.
+
+166
+00:14:34,990 --> 00:14:38,500
+La primera vez que leemos llegamos hasta el final de la primera línea.
+
+167
+00:14:38,650 --> 00:14:44,920
+La siguiente vez que leemos otra línea estamos leyendo la segunda línea es decir el puntero ahora mismo
+
+168
+00:14:44,950 --> 00:14:49,800
+estaría al final de la segunda línea o lo que sería lo mismo al principio y a la tercera.
+
+169
+00:14:49,810 --> 00:14:57,040
+Por tanto si volvemos a ejecutar esto tenemos la tercera línea y si lo ejecutamos otra vez tenemos la
+
+170
+00:14:57,040 --> 00:14:57,910
+cuarta.
+
+171
+00:14:58,140 --> 00:15:03,100
+Y si lo ejecutamos ahora que no hay nada pues tenemos un vacío porque ya no hay nada estamos al final
+
+172
+00:15:03,100 --> 00:15:05,150
+del fichero de texto.
+
+173
+00:15:06,000 --> 00:15:09,250
+Por tanto ahora mismo nuestro puntero está al final.
+
+174
+00:15:09,290 --> 00:15:18,750
+Bueno digamos que ya hemos acabado de recorrer el fichero vamos a cerrarlo fichero logs muy bien pero
+
+175
+00:15:18,810 --> 00:15:24,080
+en lugar de hacerlo una a una manualmente también podemos hacer una lectura línea a línea secuencial
+
+176
+00:15:24,120 --> 00:15:26,080
+es decir automatizada.
+
+177
+00:15:26,730 --> 00:15:34,170
+Para ello vamos a utilizar una sintaxis que lo hace muy sencillo vamos a poner Wiz con y vamos a hacer
+
+178
+00:15:34,320 --> 00:15:37,040
+aquí un Open del fichero.
+
+179
+00:15:37,250 --> 00:15:38,480
+Quiero puntos de XP.
+
+180
+00:15:38,850 --> 00:15:50,000
+El modo de L que RIT lectura y esto que devolvería el fichero vamos a poner las fichero.
+
+181
+00:15:50,340 --> 00:15:57,720
+De esta forma entraríamos aquí dentro abriríamos el fichero en una sola línea y podríamos hacer también
+
+182
+00:15:58,050 --> 00:16:04,600
+un fork y ponerlo la siguiente línea un fichero para cada línea en el fichero.
+
+183
+00:16:06,430 --> 00:16:07,920
+Línea.
+
+184
+00:16:09,190 --> 00:16:13,330
+Cómo veis una línea otra otra y otra.
+
+185
+00:16:13,330 --> 00:16:16,900
+El problema es que nos muestra los saltos de línea por separado.
+
+186
+00:16:16,900 --> 00:16:23,590
+Por tanto nos muestra el doble de líneas pero bueno es una forma de recorrer todas las líneas de golpe
+
+187
+00:16:23,590 --> 00:16:25,730
+con Infor dinámicamente.

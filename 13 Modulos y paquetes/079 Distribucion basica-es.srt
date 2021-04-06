@@ -1,0 +1,459 @@
+1
+00:00:00,560 --> 00:00:06,870
+Para crear un paquete distribuible tenemos que crear un fichero llamado setup punto.
+
+2
+00:00:06,970 --> 00:00:13,190
+Si fuera en la raíz donde tenemos el paquete donde también tenemos nuestros Creep pues ahí tenemos que
+
+3
+00:00:13,190 --> 00:00:19,620
+crear un fichero 7.15 como a crear aquí enfile abordarla como setup.
+
+4
+00:00:20,780 --> 00:00:22,090
+Topic.
+
+5
+00:00:22,640 --> 00:00:23,610
+De acuerdo.
+
+6
+00:00:25,920 --> 00:00:33,260
+Y aquí en este fichero se tu punto Pi vamos a definir una información básica de una forma determinada
+
+7
+00:00:33,260 --> 00:00:36,850
+cara veréis con información sobre este paquete.
+
+8
+00:00:37,430 --> 00:00:39,250
+Vamos a poner lo siguiente.
+
+9
+00:00:39,710 --> 00:00:45,180
+From cetu octubres import cdtuc.
+
+10
+00:00:45,410 --> 00:00:48,730
+Como podéis suponer vamos a importar.
+
+11
+00:00:50,190 --> 00:00:51,620
+Este módulo está.
+
+12
+00:00:52,760 --> 00:00:56,350
+Función o lo que sea y le vamos a indicar unos parámetros.
+
+13
+00:00:56,370 --> 00:00:58,970
+No vamos a hacer lo siguiente Ser.
+
+14
+00:01:01,210 --> 00:01:03,240
+Y aquí dentro vamos a añadir.
+
+15
+00:01:03,460 --> 00:01:10,140
+De esta forma un nombre de paquetes nahim igual por ejemplo vamos a llamarlo paquete a secas.
+
+16
+00:01:11,970 --> 00:01:12,810
+Una coma.
+
+17
+00:01:13,820 --> 00:01:15,270
+Vamos a poner una versión.
+
+18
+00:01:15,350 --> 00:01:17,880
+Vamos a suponer que siempre entre comillas.
+
+19
+00:01:18,110 --> 00:01:21,790
+Esta versión es la versión 0.1 de nuestro paquete.
+
+20
+00:01:22,520 --> 00:01:25,430
+Vamos a añadir una descripción description.
+
+21
+00:01:25,910 --> 00:01:31,830
+Igual este es un paquete de ejemplo.
+
+22
+00:01:33,230 --> 00:01:36,740
+Un autor va a poner Hector costa.
+
+23
+00:01:39,330 --> 00:01:45,500
+Por cierto autor vendría a ser en inglés con un hacha y en Medio ástor y aquí ástor Podríamos poner
+
+24
+00:01:45,500 --> 00:01:46,300
+el email.
+
+25
+00:01:46,620 --> 00:01:54,090
+Como veis estamos creando una serie de campos que indican información sobre nuestro paquete.
+
+26
+00:01:55,000 --> 00:02:00,210
+Podría poner aquí por ejemplo yo a robar constata un triunfo.
+
+27
+00:02:01,310 --> 00:02:07,870
+Aquí un aburre por ejemplo para publicitar mi página web noche punto info.
+
+28
+00:02:08,890 --> 00:02:13,460
+Podría poner también a continuación la definición de script.
+
+29
+00:02:13,570 --> 00:02:18,730
+Suponiendo que tuviera algún script que quisiera integrar dentro del paquete pues lo tenía que poner
+
+30
+00:02:18,730 --> 00:02:26,110
+de esta forma scrip y en una lista aquí podría ponerlo por ejemplo si quisiera integrar dentro del paquete
+
+31
+00:02:26,330 --> 00:02:28,880
+de ficheros klip pues tendría que ponerlo así.
+
+32
+00:02:28,930 --> 00:02:30,200
+Script punto Pi.
+
+33
+00:02:30,640 --> 00:02:33,870
+Pero como no quiero hacerlo simplemente lo voy a dejar vacío.
+
+34
+00:02:33,880 --> 00:02:37,110
+Podría quitarlo directamente pero para que lo veáis lo voy a dejar.
+
+35
+00:02:37,150 --> 00:02:46,030
+Y por último es muy importante para calles para indicarle los paquetes que van a formar parte de este
+
+36
+00:02:46,780 --> 00:02:48,630
+paquete distribuible que estamos creando.
+
+37
+00:02:48,670 --> 00:02:55,570
+Y fijaros lo que tenemos que poner esto es lo más importante de todo este sea tu punto Pi entre comillas
+
+38
+00:02:55,570 --> 00:02:56,800
+por ejemplo.
+
+39
+00:02:57,130 --> 00:03:08,830
+Primero el paquete paqueta que estamos haciendo referencia y luego el paquete junto a adiós.
+
+40
+00:03:11,120 --> 00:03:14,770
+Y luego otro paquete de punto cola.
+
+41
+00:03:14,780 --> 00:03:21,140
+Como veis tenemos que introducir el paquete y los paquetes que forman parte de este paquete distribuible
+
+42
+00:03:21,140 --> 00:03:22,530
+que queremos crear vale.
+
+43
+00:03:24,670 --> 00:03:31,550
+Es muy importante porque si no lo indicamos bien no vamos a poder crear el distribuible y luego instalarlo.
+
+44
+00:03:32,780 --> 00:03:39,330
+Muy bien ya tenemos definido el distribuible con su información básica incluyendo paquetes y paquetes
+
+45
+00:03:40,200 --> 00:03:46,020
+así como posibles scripts que no hemos puesto ninguno y ahora tenemos que crearlo tenemos que crear
+
+46
+00:03:46,110 --> 00:03:53,250
+el distribuible es decir un fichero un fichero Ito como un instalador que luego podemos instalar o podemos
+
+47
+00:03:53,250 --> 00:03:58,230
+enviarle a nuestros amigos o 15A para que ellos también puedan instalarlo en su pito.
+
+48
+00:03:59,110 --> 00:04:03,330
+Para hacerlo vamos a tener que ir al directorio donde tenemos.
+
+49
+00:04:04,580 --> 00:04:11,280
+El se Tupi y el paquete de acuerdo tenemos a nuestro paquete y se tupí tenemos que abrirlo con la terminal.
+
+50
+00:04:11,280 --> 00:04:17,970
+Esta vez si no nos vamos a ahorrar deshacerlo voy a hacer Swift clic derecho de abrir ventana de comandos
+
+51
+00:04:17,970 --> 00:04:22,530
+aquí y fijaros ahora que estoy dentro de esta carpeta.
+
+52
+00:04:22,530 --> 00:04:30,780
+Vamos a crear el distribuible de esta forma llamando a Payton setup punto Pi que es el fichero que acabamos
+
+53
+00:04:30,780 --> 00:04:38,120
+de crear un espacio que vamos a escribir el comando list para crear un distribuible de acuerdo vamos
+
+54
+00:04:38,170 --> 00:04:45,340
+a apretar enter y como veis se ha ejecutado mu chos comandos bla bla bla bla bla bla bla.
+
+55
+00:04:46,580 --> 00:04:47,860
+Y curiosamente.
+
+56
+00:04:48,750 --> 00:04:55,410
+Si vamos aquí al directorio veréis que se ha creado una carpeta llamada disto de distribución.
+
+57
+00:04:55,410 --> 00:04:58,510
+Si la abrimos dentro veremos que tenemos un fichero zip.
+
+58
+00:04:58,980 --> 00:05:04,020
+Si estáis en Linux probablemente os aparecerá un fichero tarjeta que es el que por defecto se utiliza
+
+59
+00:05:04,020 --> 00:05:09,390
+para los ficheros comprimidos por lo que si esto es nuestro distribuible y ahora podríamos compartirlo
+
+60
+00:05:09,390 --> 00:05:15,000
+con todo el mundo simplemente podríamos enviarlo por correo a nuestros amigos podíamos subirlo a un
+
+61
+00:05:15,000 --> 00:05:21,170
+servidor de paquetes para distribuirlo en Internet o para utilizarlo en nosotros.
+
+62
+00:05:21,330 --> 00:05:26,160
+Así que lo que nos toca ahora es instalar este paquete dentro de Payton.
+
+63
+00:05:27,220 --> 00:05:34,300
+Para hacerlo vamos a hacer lo siguiente desde este mismo directorio o desde cualquier lugar donde tengáis
+
+64
+00:05:34,300 --> 00:05:38,410
+el paquete punto si sirve cualquier sitio.
+
+65
+00:05:38,410 --> 00:05:43,460
+No hace falta que sea esta carpeta puede ser desde queráis pero nosotros como ya tenemos una carpeta
+
+66
+00:05:43,580 --> 00:05:44,570
+abierta.
+
+67
+00:05:44,680 --> 00:05:53,430
+Pues voy a introducirme dentro del directorio de Sedis CD change directory CDIS a secas.
+
+68
+00:05:55,430 --> 00:06:06,190
+Y el comando para instalar este paquete es el siguiente TIP 3 espacio tal y aquí el nombre del paquete
+
+69
+00:06:07,270 --> 00:06:14,660
+se apretó tabulación Llámelo completa paquete y con 0.1 puntos y apretara Enter para instalarlo.
+
+70
+00:06:15,700 --> 00:06:16,650
+Como veis.
+
+71
+00:06:17,920 --> 00:06:20,490
+Se ha completado un proceso successful.
+
+72
+00:06:20,500 --> 00:06:25,800
+Instale paquetes Zero 01 y me he instalado dentro de el Payton de mi sistema operativo.
+
+73
+00:06:25,810 --> 00:06:27,970
+Este paquete que acabo de crear.
+
+74
+00:06:28,800 --> 00:06:34,060
+Entonces si queréis consultar los paquetes que tenéis instalados probablemente no tengáis tantos como
+
+75
+00:06:34,330 --> 00:06:35,220
+podéis hacer.
+
+76
+00:06:35,230 --> 00:06:39,290
+TIP 3 espacio listo desde cualquier lugar.
+
+77
+00:06:39,950 --> 00:06:48,550
+Y como veis tengo un montón de paquetes instalados y entre ellos hay este paquete de aquí que es nuestro
+
+78
+00:06:48,550 --> 00:06:53,590
+paquete que acabamos de crear con eso le hemos dado este nombre pero bueno era para hacer un ejemplo
+
+79
+00:06:53,970 --> 00:06:58,730
+así que realmente tenemos instalados dentro de Payton este código.
+
+80
+00:07:00,210 --> 00:07:05,280
+Bueno pues ya está todo preparado para poder utilizar nuestros módulos nuestro paquete desde cualquier
+
+81
+00:07:05,280 --> 00:07:15,420
+lugar si que ahora por ejemplo volviendo a que el fichero que teníamos dentro de la carpeta test que
+
+82
+00:07:15,420 --> 00:07:17,670
+antes no había funcionado es aquí.
+
+83
+00:07:17,880 --> 00:07:19,640
+Si volvemos a ejecutarlo a control.
+
+84
+00:07:21,860 --> 00:07:24,720
+Ahora funciona de acuerdo.
+
+85
+00:07:25,760 --> 00:07:28,540
+Pero a lo mejor si este fichero scrip.
+
+86
+00:07:29,560 --> 00:07:36,900
+Tenemos aquí lo copiarse por ejemplo en otro sitio por ejemplo en el directorio C y lo pusiera aquí
+
+87
+00:07:37,860 --> 00:07:38,780
+a copiarlo.
+
+88
+00:07:39,030 --> 00:07:43,940
+Fijaros lo tengo dentro del disco C y lo ejecutará desde una terminal.
+
+89
+00:07:44,070 --> 00:07:48,580
+Voy a hacer un Chencho y directrices de 2 puntos.
+
+90
+00:07:49,290 --> 00:07:56,370
+Desde ciertos puntos barra invertida ahí este enlace podría también ejecutarlo desde aquí britton.
+
+91
+00:07:59,040 --> 00:08:02,420
+Scrip un tope y me funciona desde aquí.
+
+92
+00:08:03,830 --> 00:08:09,590
+De hecho me funcionaría en cualquier carpeta del ordenador de mi sistema operativo porque está integrado
+
+93
+00:08:09,590 --> 00:08:13,070
+dentro de Payton sin ningún problema.
+
+94
+00:08:13,130 --> 00:08:14,050
+Muy bien.
+
+95
+00:08:14,200 --> 00:08:17,380
+Y si quisiéramos desinstalar el paquete cómo podemos hacerlo.
+
+96
+00:08:17,380 --> 00:08:19,660
+Pues de la siguiente forma.
+
+97
+00:08:19,670 --> 00:08:28,900
+TIP 3 desde cualquier lugar de la terminal y en lugar de Install haciendo un Install un Nines tal y
+
+98
+00:08:28,910 --> 00:08:34,220
+poniendo el nombre del paquete que haciendo un pipeline ya lo hemos visto el nombre del paquete es pakete
+
+99
+00:08:34,870 --> 00:08:42,310
+ponemos aquí el paquete confirmamos y nos dice que se va a borrar de un montón de sitios.
+
+100
+00:08:42,500 --> 00:08:51,330
+Proceder sí o no. Si ponemos una y vellés y apretamos tenter hemos instalado nuestro paquete 0 1 este
+
+101
+00:08:51,330 --> 00:08:59,750
+daki de la memoria y si ahora intentamos ejecutar de nuevo Payton script lo que sucederá es que nos
+
+102
+00:08:59,750 --> 00:09:04,010
+dirá que no tenemos el paquete tendríamos que volver a instalarlo.
+
+103
+00:09:04,460 --> 00:09:06,450
+Voy a volver a instalarlo en un momento.
+
+104
+00:09:06,470 --> 00:09:09,070
+Desde aquí voy a abrir una terminal.
+
+105
+00:09:10,140 --> 00:09:15,580
+Boynton Bueno no id3 Install el nombre del paquete.
+
+106
+00:09:16,600 --> 00:09:20,000
+Instalo y si ahora me vuelvo a la otra terminal.
+
+107
+00:09:20,880 --> 00:09:22,510
+Y vuelvo a ejecutar el código.
+
+108
+00:09:22,860 --> 00:09:25,360
+Ahora ya no vuelva a funcionar porque vuelta a instalar el paquete.
+
+109
+00:09:26,110 --> 00:09:26,780
+Muy bien.
+
+110
+00:09:27,830 --> 00:09:34,190
+Todo esto solo era un ejemplo muy sencillo de cómo distribuir un paquete pero como ya he dicho el tema
+
+111
+00:09:34,190 --> 00:09:40,130
+daría para muchísimo de que hablar así que me lo reservo para el final del curso por ahora espero que
+
+112
+00:09:40,130 --> 00:09:44,900
+hayáis aprendido mucho sobre los módulos y los paquetes porque utilizarlos es la clave para conseguir
+
+113
+00:09:44,900 --> 00:09:46,750
+una buena organización de código.
+
+114
+00:09:46,880 --> 00:09:51,140
+Lo que falta de unidad la dedicaremos a repasar algunos de los módulos más interesantes que incluye
+
+115
+00:09:51,530 --> 00:09:54,710
+por defecto conocidos como módulos estándar.

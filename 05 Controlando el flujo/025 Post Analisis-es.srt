@@ -1,0 +1,119 @@
+1
+00:00:00,180 --> 00:00:00,710
+Perfecto.
+
+2
+00:00:00,720 --> 00:00:07,050
+Pues básicamente ya conocemos cómo crear flujo dentro del programa como alternar el comportamiento de
+
+3
+00:00:07,050 --> 00:00:15,660
+nuestro código someterlo a condiciones repetir cosas pero antes de cerrar la unidad quiero hacer un
+
+4
+00:00:15,660 --> 00:00:19,420
+análisis completo ya de nuestro ejemplo de cabecera.
+
+5
+00:00:19,650 --> 00:00:24,920
+A ver cuánto hemos avanzado hasta el momento así que vamos a ir a hacer un análisis.
+
+6
+00:00:26,660 --> 00:00:34,220
+Voy a copiar aquí el programa y estoy seguro que ahora podemos analizar perfectamente todas las líneas
+
+7
+00:00:34,940 --> 00:00:39,020
+empezando por arriba tenemos igual a cero una asignación.
+
+8
+00:00:39,020 --> 00:00:45,740
+Empezamos con un número cero luego vamos a crear un wylie una interacción y qué va a comprobar que la
+
+9
+00:00:45,740 --> 00:00:47,200
+NSA menor que 10.
+
+10
+00:00:48,050 --> 00:00:54,710
+Es decir va a entrar diez veces desde cero hasta nueve y a las 10 ya no se ejecutará.
+
+11
+00:00:55,890 --> 00:01:03,380
+Lo que vamos a hacer es comprobar si un número n módulo de 2 para saber por ejemplo si devuelve cero
+
+12
+00:01:03,700 --> 00:01:05,540
+y ese número es par.
+
+13
+00:01:05,550 --> 00:01:07,740
+En ese caso mostraremos que es par.
+
+14
+00:01:08,460 --> 00:01:16,530
+En cambio si este número no devuelve cero su resto entonces significa que simpar lo que vamos a hacer
+
+15
+00:01:16,530 --> 00:01:22,060
+es ejecutar la otra posibilidad con ellos y mostrar que es un número par.
+
+16
+00:01:22,200 --> 00:01:26,880
+Y finalmente incrementaremos este contador este número.
+
+17
+00:01:27,750 --> 00:01:28,600
+Pues sí.
+
+18
+00:01:29,370 --> 00:01:32,220
+Ahora ya tenemos todas las bases necesarias.
+
+19
+00:01:32,340 --> 00:01:37,200
+Creo que una de esas cosas que debe proporcionarles un buen curso es que seáis conscientes de vuestro
+
+20
+00:01:37,200 --> 00:01:38,610
+propio progreso.
+
+21
+00:01:38,610 --> 00:01:44,130
+Y como veis con lo que hemos aprendido hasta ahora ya somos capaces de leer y entender 100 por cien
+
+22
+00:01:44,130 --> 00:01:47,280
+el código de nuestro ejemplo.
+
+23
+00:01:47,280 --> 00:01:50,870
+La verdad es que las bases de la programación no van mucho más allá de esto.
+
+24
+00:01:50,940 --> 00:01:57,540
+Instrucciones básicas variables y tipos de datos operadores y expresiones sentencias condicionales y
+
+25
+00:01:57,540 --> 00:01:59,290
+sentencias interactivas.
+
+26
+00:01:59,730 --> 00:02:06,240
+A partir de ahora se trata de trabajar mucho con estas bases e introducir nuevos conceptos nuevas colecciones
+
+27
+00:02:06,840 --> 00:02:13,830
+las funciones manejo de errores que nos permitirán crear programas más óptimos y dinámicos y por tanto
+
+28
+00:02:13,920 --> 00:02:17,310
+sólo me resta felicitaros por haber llegado hasta este punto.
+
+29
+00:02:17,310 --> 00:02:21,530
+Haber completado la primera fase del curso y alentaron a seguir adelante.
+
+30
+00:02:21,590 --> 00:02:23,510
+Por qué esto solo acaba de empezar.

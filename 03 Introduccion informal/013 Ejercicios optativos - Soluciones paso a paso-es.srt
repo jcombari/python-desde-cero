@@ -1,0 +1,631 @@
+1
+00:00:00,860 --> 00:00:08,310
+Muy bien pues vamos a por las respuestas las soluciones del primer tema si habéis instalado bien el
+
+2
+00:00:08,310 --> 00:00:11,740
+pack de ejercicios pues ya lo debería de tener en vuestro notebook.
+
+3
+00:00:11,740 --> 00:00:17,810
+Aquí en la carpeta ejercicios para el tema 1 y vamos a por los enunciados vuestros ya tendréis las soluciones.
+
+4
+00:00:17,830 --> 00:00:22,980
+Pues yo voy a resolver en directo estos ejercicios.
+
+5
+00:00:23,340 --> 00:00:29,460
+Comenzamos por el primero que es bastante sencillo tenemos que identificar los siguientes valores literales
+
+6
+00:00:29,760 --> 00:00:33,630
+cuáles de ellos son por ejemplo enteros flotantes cadenas o listas.
+
+7
+00:00:33,630 --> 00:00:36,320
+Lo he puesto en inglés para que os vayáis acostumbrando a los nombres.
+
+8
+00:00:37,830 --> 00:00:38,740
+Hola mundo.
+
+9
+00:00:38,940 --> 00:00:45,720
+Es un valor que está entre comillas dobles y es como un texto por tanto es una cadena una string de
+
+10
+00:00:45,720 --> 00:00:47,760
+caracteres.
+
+11
+00:00:48,210 --> 00:00:54,870
+A continuación Tenemos pues una sucesión de elementos de números entre dos corchetes y separados por
+
+12
+00:00:54,870 --> 00:00:55,250
+comas.
+
+13
+00:00:55,260 --> 00:00:56,790
+Y eso es una lista.
+
+14
+00:00:57,570 --> 00:01:03,390
+Menos 25 es un número pero como no tiene una parte decimal pues debe de ser un número entero.
+
+15
+00:01:03,390 --> 00:01:05,890
+Además los números enteros también podrían ser negativos.
+
+16
+00:01:05,900 --> 00:01:11,790
+Por tanto un Hint un entero 1.ª 167.
+
+17
+00:01:11,910 --> 00:01:17,850
+Esto es un número decimal porque como habíamos dicho en inglés se ponen con un puntito por lo de la
+
+18
+00:01:17,880 --> 00:01:18,570
+coma flotante.
+
+19
+00:01:18,570 --> 00:01:20,310
+Por tanto es un filón.
+
+20
+00:01:21,000 --> 00:01:28,180
+Aquí tenemos otra sucesión de dos textos entre comillas dobles separados por una coma.
+
+21
+00:01:29,930 --> 00:01:31,790
+Y entre dos corchetes.
+
+22
+00:01:31,790 --> 00:01:38,720
+Esto es una lista con dos cadenas y finalmente tenemos lo que parece ser un carácter vacío lo que sería
+
+23
+00:01:38,720 --> 00:01:41,690
+un espacio delimitado por dos comillas simples
+
+24
+00:01:44,810 --> 00:01:49,130
+determina manualmente sin programar el resultado que aparecerá por pantalla a partir de las siguientes
+
+25
+00:01:49,130 --> 00:01:50,020
+variables.
+
+26
+00:01:50,240 --> 00:01:54,120
+Tenemos que saber sin ejecutar el código.
+
+27
+00:01:54,140 --> 00:01:58,630
+El resultado que se va a mostrar print a por cinco.
+
+28
+00:01:58,640 --> 00:02:08,590
+Vamos a ver la vale 10 10 por 5 sería 50 a menos B 10 menos menos 5 sabemosque.
+
+29
+00:02:08,600 --> 00:02:11,020
+Negar la negación es sumar.
+
+30
+00:02:11,210 --> 00:02:12,610
+Por tanto sería.
+
+31
+00:02:13,570 --> 00:02:13,870
+10.
+
+32
+00:02:13,880 --> 00:02:14,690
++5.
+
+33
+00:02:14,690 --> 00:02:15,680
+15.
+
+34
+00:02:16,280 --> 00:02:19,100
+C+ mundo C es una cadena de caracteres.
+
+35
+00:02:19,120 --> 00:02:22,740
+Cola quedaría cola mundo con un espacio en medio.
+
+36
+00:02:22,970 --> 00:02:27,780
+Porque sumar cadenas es como crear una nueva cadena que es la unión de ellas.
+
+37
+00:02:29,610 --> 00:02:39,180
+Prince por 2 C por 2 sería como sumar otra vez a la cadena c la propia cadena C quedaría cola espacio
+
+38
+00:02:39,210 --> 00:02:42,240
+cola y otro espacio.
+
+39
+00:02:42,240 --> 00:02:48,400
+Aquí tenemos un índice para la cadena cadena índice menos 1.
+
+40
+00:02:48,540 --> 00:02:52,600
+Si hacíamos memoria el índice menos 1 hacía referencia al último elemento.
+
+41
+00:02:52,600 --> 00:02:55,530
+El último carácter en una cadena.
+
+42
+00:02:55,530 --> 00:02:59,860
+El último carácter de una cadena es este espacio por tanto volver a un espacio.
+
+43
+00:03:00,840 --> 00:03:08,550
+Y aquí tenemos es Voisin que nos indica que tenemos que mostrar o devolver desde el índice 1 comenzando
+
+44
+00:03:08,550 --> 00:03:10,280
+por cero sería la H.
+
+45
+00:03:10,290 --> 00:03:16,680
+El 1 sería largo y hasta el final por defecto tendríamos desde luego hasta el espacio que quedaría cola
+
+46
+00:03:16,800 --> 00:03:18,210
+y un espacio.
+
+47
+00:03:18,210 --> 00:03:25,530
+Y finalmente tenemos lo que parece ser una suma de una lista consigo misma de más de el resultado final
+
+48
+00:03:25,530 --> 00:03:28,650
+de sumar una lista con otra lista o con ella misma.
+
+49
+00:03:28,890 --> 00:03:32,610
+Sería una nueva lista que contendría todos los elementos.
+
+50
+00:03:32,670 --> 00:03:36,530
+Por tanto quedará 1 2 y 3 y otra vez 1 2 y 3.
+
+51
+00:03:37,950 --> 00:03:40,020
+Cómo saber el tercer ejercicio.
+
+52
+00:03:40,020 --> 00:03:45,200
+El siguiente código pretende realizar una media entre tres números pero no funciona correctamente eres
+
+53
+00:03:45,240 --> 00:03:47,720
+capaz de identificar el problema y solucionarlo.
+
+54
+00:03:48,090 --> 00:03:53,670
+Nos dan tres números el 9 y el 3 y el 6 y nos están pidiendo hacer una media.
+
+55
+00:03:53,670 --> 00:04:02,700
+Sin embargo esta medida da 14 y la medida correcta sería 9 +3 12 +6 18 dividida entre 3 y debería de
+
+56
+00:04:02,700 --> 00:04:03,980
+dar 6.
+
+57
+00:04:05,050 --> 00:04:07,650
+Si recordáis hicimos un ejercicio de este tipo.
+
+58
+00:04:07,840 --> 00:04:09,570
+Cómo podemos solucionarlo.
+
+59
+00:04:09,840 --> 00:04:14,130
+Bueno lo que está sucediendo es que las divisiones tienen prioridad antes que las sumas.
+
+60
+00:04:14,150 --> 00:04:18,990
+Entonces se está haciendo esta división primero y luego se está sumando estos dos números.
+
+61
+00:04:19,150 --> 00:04:22,510
+Lo que queremos hacer es primero sumar los tres números y luego dividirlo entre tres.
+
+62
+00:04:22,510 --> 00:04:29,710
+Por tanto indicamos los paréntesis que es la suma de estos tres números es prioritaria y luego la división.
+
+63
+00:04:29,710 --> 00:04:33,750
+Si lo ejecutamos ya nos da 6 y ahora ya está correcta.
+
+64
+00:04:35,560 --> 00:04:40,160
+A partir del ejercicio anterior vamos a suponer que cada número es una nota y lo que queremos es obtener
+
+65
+00:04:40,160 --> 00:04:41,510
+la nota media.
+
+66
+00:04:41,510 --> 00:04:44,860
+El problema es que cada nota tiene un valor porcentual.
+
+67
+00:04:45,780 --> 00:04:48,000
+La primera nota vale un 15 por ciento del total.
+
+68
+00:04:48,000 --> 00:04:50,720
+La segunda nota vale un 35 por ciento del total.
+
+69
+00:04:50,790 --> 00:04:53,280
+Y la tercera vale un 50 por ciento.
+
+70
+00:04:53,280 --> 00:04:56,380
+Desarrolla un programa para calcular perfectamente la nota final.
+
+71
+00:04:57,150 --> 00:05:00,190
+Aquí tenemos las tres notas un 10 un 7 y un 4.
+
+72
+00:05:00,270 --> 00:05:08,610
+Este 10 valdría un 15 por ciento el 7 valdría un 35 por ciento y el 4 un 50 por ciento si lo pensamos
+
+73
+00:05:08,610 --> 00:05:12,490
+detenidamente tendríamos que realizar una regla de tres.
+
+74
+00:05:12,630 --> 00:05:22,800
+Algo del estilo 4 a 50 como X es 100 resolveríamos lo tendríamos pero es mucho más fácil por qué podemos
+
+75
+00:05:22,800 --> 00:05:25,090
+hacer una multiplicación en tanto por uno.
+
+76
+00:05:25,380 --> 00:05:30,720
+Y esto es muy fácil lo único que tenemos que hacer es lo siguiente queremos una nueva variable llamada
+
+77
+00:05:30,720 --> 00:05:31,380
+media.
+
+78
+00:05:31,680 --> 00:05:38,030
+Y a continuación vamos a multiplicar cada nota por el tanto por uno de este porcentaje.
+
+79
+00:05:38,460 --> 00:05:45,750
+En el primer caso tanto por uno sería cero .15 luego los sumaríamos el tanto por uno de la segunda nota
+
+80
+00:05:45,840 --> 00:05:49,040
+que sería 0.35.
+
+81
+00:05:49,370 --> 00:06:03,000
+Y finalmente la nota 3 por 0 5 0 50 y el resultado final de esta media nos queda cinco coma noventa
+
+82
+00:06:03,000 --> 00:06:10,620
+y cuatro el quinto ejercicio dice la siguiente matriz holista con listas anidadas debe cumplir una condición.
+
+83
+00:06:10,860 --> 00:06:16,540
+Y es que en cada fila el cuarto elemento siempre debe dar el resultado de sumar los tres primeros.
+
+84
+00:06:16,560 --> 00:06:22,320
+Eres capaz de modificar las sumas incorrectas utilizando la técnica del deslicen.
+
+85
+00:06:23,100 --> 00:06:27,090
+Además nos da una pequeña ayuda la función llamada shum lista.
+
+86
+00:06:27,210 --> 00:06:31,910
+Es decir si ejecutamos esto le pasamos el nombre de la variable.
+
+87
+00:06:31,920 --> 00:06:37,720
+Una lista devolverá una suma de todos los elementos de la lista pruebalo.
+
+88
+00:06:37,860 --> 00:06:42,290
+En otras palabras tenemos en esta matriz esta lista.
+
+89
+00:06:42,320 --> 00:06:48,080
+4 Sus vistas 1 2 3 y 4.
+
+90
+00:06:48,210 --> 00:06:54,490
+En cada una de ellas la suma de los tres primeros elementos debe dar de resultado.
+
+91
+00:06:54,780 --> 00:07:00,920
+El cuarto uno más uno más uno tres dos más dos más 2 sería 6.
+
+92
+00:07:00,930 --> 00:07:01,990
+Aquí lo tenemos mal.
+
+93
+00:07:02,460 --> 00:07:07,740
+Tres más tres más tres nueve cuatro +4 +4 13 y aquí también tenemos mal.
+
+94
+00:07:07,770 --> 00:07:13,560
+Entonces tendríamos que modificar este número y este daki utilizando la técnica de Leslie sin haciendo
+
+95
+00:07:13,560 --> 00:07:15,600
+referencia a los índices.
+
+96
+00:07:15,750 --> 00:07:20,060
+La verdad es que es muy sencillo utilizando esta función llamada shum.
+
+97
+00:07:20,280 --> 00:07:28,110
+Vamos a verlo vamos a hacer primero este 7 que lo tenemos mal vamos a referirnos a esta casilla y lo
+
+98
+00:07:28,110 --> 00:07:33,790
+que tenemos es pues un 1 sería el segundo elemento porque el primero sería cero.
+
+99
+00:07:33,870 --> 00:07:42,890
+Ya estamos aquí y ahora vamos a referirnos al último de esta segunda lista con un menos uno.
+
+100
+00:07:42,900 --> 00:07:47,470
+Ahora ya hacemos esté igual podríamos asignarle un nuevo valor a este 7.
+
+101
+00:07:47,590 --> 00:07:50,380
+Ahora el truco consiste en realizar una suma.
+
+102
+00:07:51,100 --> 00:07:58,050
+De los tres primeros con la designo podemos hacer muy fácilmente vamos a poner todo lo que vamos a escribir
+
+103
+00:07:58,100 --> 00:08:04,020
+entresus porque vamos a devolver una subsista únicamente con estos tres primeros elementos y lo vamos
+
+104
+00:08:04,020 --> 00:08:07,020
+a hacer de esta forma vamos a llamar a la matriz.
+
+105
+00:08:07,320 --> 00:08:15,830
+Vamos a referirnos a la primera persona a la segunda lista de aquí y ahora vamos a indicar con Link
+
+106
+00:08:15,900 --> 00:08:23,400
+que queremos comenzar por ejemplo desde el principio hasta el penúltimo elemento por si lo recordáis.
+
+107
+00:08:23,490 --> 00:08:30,310
+Podríamos poner menos uno para llegar hasta el último elemento por qué no lo incluye.
+
+108
+00:08:30,310 --> 00:08:36,330
+Esto excluye el último o al que estamos poniendo aquí no lo incluye por tanto sería los tres primeros
+
+109
+00:08:36,330 --> 00:08:44,970
+y excluído simplemente con hacer esto si lo mostramos a la matriz.
+
+110
+00:08:44,970 --> 00:08:50,820
+Aquí tenemos la primera lista que tenemos la segunda y ahora como vemos ya hay una suma de las tres
+
+111
+00:08:50,820 --> 00:08:54,920
+primeras aquí perfecta y hemos cambiado el 7 y lo hemos cambiado por un 6.
+
+112
+00:08:55,320 --> 00:08:59,790
+Tenemos que cambiar esto también pero es muy sencillo vamos a copiarlo y lo único que tenemos que hacer
+
+113
+00:08:59,790 --> 00:09:04,170
+es referirnos en este caso a la última.
+
+114
+00:09:04,260 --> 00:09:07,480
+Podríamos ponerlo por ejemplo con un menos uno.
+
+115
+00:09:08,100 --> 00:09:18,090
+A su vez otro menos uno y aquí haremos referencia al último elemento la última subasta y la misma sintaxis
+
+116
+00:09:18,720 --> 00:09:23,340
+incluyendo únicamente los tres primeros.
+
+117
+00:09:23,490 --> 00:09:26,600
+Como veis ahora ya tenemos la suma correctamente.
+
+118
+00:09:29,330 --> 00:09:34,470
+El último ejercicio que tenemos dice al realizar una consulta en un registro hemos obtenido una cadena
+
+119
+00:09:34,470 --> 00:09:36,510
+de texto corruPPta al revés.
+
+120
+00:09:36,510 --> 00:09:39,950
+Al parecer contiene el nombre de un alumno y la nota de un examen.
+
+121
+00:09:40,350 --> 00:09:44,420
+Cómo podríamos formatear la cadena y conseguir una estructura como la siguiente.
+
+122
+00:09:44,700 --> 00:09:45,590
+Nombre Apellido.
+
+123
+00:09:45,600 --> 00:09:52,440
+Ha sacado una nota de nota ayuda para voltear una cadena rápidamente utilizando la podemos utilizar
+
+124
+00:09:52,440 --> 00:09:54,550
+un tercer índice menos 1.
+
+125
+00:09:54,570 --> 00:09:55,780
+Esto es un truco.
+
+126
+00:09:55,880 --> 00:10:00,630
+Enseño en este ejercicio por tanto es importante que vayas haciendo los ejercicios porque vais a ir
+
+127
+00:10:00,630 --> 00:10:02,660
+aprendiendo truquitos.
+
+128
+00:10:03,630 --> 00:10:11,490
+Si analizamos la cadena lo que tenemos pues evidentemente es algo extraño algo que está del revés así
+
+129
+00:10:11,490 --> 00:10:16,590
+que lo primero que podemos hacer es utilizar este truco para darle la vuelta.
+
+130
+00:10:16,590 --> 00:10:19,350
+Cadena menos uno.
+
+131
+00:10:19,800 --> 00:10:27,120
+Si mostramos esto como veis le damos la vuelta y lo que tenemos es una cadena con un diez una coma y
+
+132
+00:10:27,120 --> 00:10:28,510
+un nombre Juan Pérez.
+
+133
+00:10:30,100 --> 00:10:36,370
+Vamos a asignar a cadenas Este valor al que hemos volteado para poder seguir trabajando con la cadena
+
+134
+00:10:36,850 --> 00:10:38,560
+volteada de esta forma.
+
+135
+00:10:38,650 --> 00:10:44,170
+Si queréis podemos llamarle cadena volteadas sin problema.
+
+136
+00:10:44,170 --> 00:10:48,470
+Y ahora lo que tenemos que lograr es mostrar un texto un pin por ejemplo.
+
+137
+00:10:48,520 --> 00:10:55,620
+Con esta estructura teniendo en cuenta que tendremos por ejemplo vamos a mostrarla aquí arriba.
+
+138
+00:10:55,900 --> 00:11:00,880
+Mejor aquí para tenerla de referencia.
+
+139
+00:11:00,880 --> 00:11:08,990
+Tenemos que mostrar nombre y apellido por tanto Juan Pérez ha sacado un 10 de nota cómo lo podemos hacer.
+
+140
+00:11:09,070 --> 00:11:16,680
+Podríamos utilizar es la Ising para acceder a estos suplementos a estas cadenas.
+
+141
+00:11:16,930 --> 00:11:20,680
+Vamos a hacerlo es muy fácil cadena volteada.
+
+142
+00:11:20,890 --> 00:11:29,130
+Vamos a empezar con el nombre y el nombre de este índice 0 1 2 3.
+
+143
+00:11:29,910 --> 00:11:32,210
+El índice 3 es el primero.
+
+144
+00:11:32,520 --> 00:11:33,520
+Hasta.
+
+145
+00:11:35,640 --> 00:11:41,010
+El final vale ya tenemos lo que sería el nombre y el apellido porque lo tenemos todo junto.
+
+146
+00:11:42,300 --> 00:11:42,850
+Qué más.
+
+147
+00:11:43,000 --> 00:11:47,250
+Le sumaríamos o pondríamos una coma para seguir escribiendo.
+
+148
+00:11:47,340 --> 00:11:51,020
+Ha sacado un.
+
+149
+00:11:51,390 --> 00:11:55,350
+Y ahora tenemos que sacar el número diez que son dos caracteres.
+
+150
+00:11:55,350 --> 00:12:01,070
+Los dos primeros caracteres y eso lo podemos hacer también con la cadena volteadas.
+
+151
+00:12:02,010 --> 00:12:09,010
+Desde el principio hasta el 2 0 1 2.
+
+152
+00:12:09,030 --> 00:12:15,600
+Teniendo en cuenta que excluimos el último La coma no aparecería aparecería en únicamente el 1 y el
+
+153
+00:12:15,600 --> 00:12:16,050
+cero.
+
+154
+00:12:16,080 --> 00:12:21,410
+Los dos primeros caracteres y si esto lo mostramos ya hemos extraído este contenido.
+
+155
+00:12:21,450 --> 00:12:23,080
+Juan Pérez ha sacado un 10.
+
+156
+00:12:23,250 --> 00:12:26,220
+Fijaros hemos convertido esta cadena que estaba del revés.
+
+157
+00:12:27,400 --> 00:12:33,080
+Formateada estamos mostrando perfectamente aquí no puedes con esto concluyen los ejercicios del primer
+
+158
+00:12:33,080 --> 00:12:35,670
+tema de la introducción informal.

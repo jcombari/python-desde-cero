@@ -1,0 +1,7 @@
+1
+00:00:00,240 --> 00:00:04,520
+Ahora que conocemos los objetos y tenemos una idea más clara de cómo funciona Payton.
+
+2
+00:00:04,530 --> 00:00:09,400
+Es un buen momento para revisitar las colecciones y aprender algunos de sus métodos de clase.

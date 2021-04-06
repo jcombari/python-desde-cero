@@ -1,0 +1,735 @@
+1
+00:00:00,720 --> 00:00:01,130
+Muy bien.
+
+2
+00:00:01,140 --> 00:00:04,230
+Vamos a introducir otro más otro widget.
+
+3
+00:00:04,350 --> 00:00:06,970
+Los botones a partir de ahora empieza lo bueno.
+
+4
+00:00:07,260 --> 00:00:13,160
+Y es que los botones posiblemente sean los componentes más utilizados en el diseño de interfaces gráficas.
+
+5
+00:00:13,430 --> 00:00:16,080
+Yo he llegado a crear una interfaz que únicamente tenía un botón.
+
+6
+00:00:16,080 --> 00:00:21,000
+Suena raro pero uno de mis clientes ya hace tiempo quería un programa con un botón para ejecutar una
+
+7
+00:00:21,000 --> 00:00:24,360
+tarea con una flecha de esas que carga debajo girando.
+
+8
+00:00:24,510 --> 00:00:28,470
+Para saber que el programa estaba en marcha no sé hay gente para todo.
+
+9
+00:00:28,830 --> 00:00:34,710
+Pero bueno volviendo a lo nuestro a partir de esta unidad como he dicho se pone todo más interesante
+
+10
+00:00:34,800 --> 00:00:40,470
+porque gracias a los botones vamos añadir comportamientos dinámicos en nuestras interfaces comenzando
+
+11
+00:00:40,470 --> 00:00:41,470
+por lo esencial.
+
+12
+00:00:41,490 --> 00:00:49,770
+Tengo un fichero Button con lo normal la raíz y vamos a crear un botón vamos a hacerlo rápidamente.
+
+13
+00:00:50,220 --> 00:00:58,200
+De esta forma putón vamos a pasarle root para añadirlo a la raíz y vamos a pasarle un texto a este botón
+
+14
+00:00:58,200 --> 00:00:59,290
+para que lo muestre.
+
+15
+00:00:59,490 --> 00:01:10,110
+Text clicamos por ejemplo lo vamos a empacar ya directamente así que vamos a ejecutarlo y fijaros que
+
+16
+00:01:10,110 --> 00:01:18,450
+tenemos aquí tenemos nuestra interfaz con un botón que podemos clicar pero todavía no sucede nada así
+
+17
+00:01:18,480 --> 00:01:26,430
+que vamos a hacer algo que suceda alguna cosa cuando clicamos vamos a añadirle un comportamiento.
+
+18
+00:01:26,430 --> 00:01:30,880
+Para hacerlo tenemos que crear aquí un parámetro comãn.
+
+19
+00:01:31,380 --> 00:01:37,150
+De esta forma y a este colmán le vamos a tener que enviar una función un código.
+
+20
+00:01:37,170 --> 00:01:42,660
+Vamos a definir una función y se la vamos a enviar aquí muy fácilmente podríamos quedar arriba del todo.
+
+21
+00:01:42,660 --> 00:01:51,660
+Una función por ejemplo vamos a llamarla Hola y vamos a hacer que cuando sea Preta esta función se escriba
+
+22
+00:01:51,660 --> 00:01:58,120
+por pantalla por ejemplo algo muy sencillo Hola Mundo vuestra frase de cabecera.
+
+23
+00:01:59,190 --> 00:02:03,630
+Y lo que vamos a hacer es cuando apretemos el botón Command le vamos a pasar la función.
+
+24
+00:02:03,680 --> 00:02:04,400
+Hola.
+
+25
+00:02:04,740 --> 00:02:10,080
+De acuerdo vamos a ejecutar el código y ahora si clicamos.
+
+26
+00:02:10,140 --> 00:02:16,410
+Fijaros aquí abajo la terminal como aparece el Hola mundo cada vez que le aplicó el botón.
+
+27
+00:02:16,710 --> 00:02:20,100
+Vale pues ya hemos añadido un comportamiento al botón.
+
+28
+00:02:20,370 --> 00:02:27,420
+Es muy importante que esta función esté declarada antes de asignar porque si esto estuviera por debajo
+
+29
+00:02:27,810 --> 00:02:31,400
+del momento de llamar la función no funcionaría.
+
+30
+00:02:31,690 --> 00:02:39,360
+Evidentemente lo que está claro es que en esta ocasión tenemos una terminal aquí donde estamos mostrando
+
+31
+00:02:39,360 --> 00:02:46,080
+algo pero lo ideal sería que el botón no hiciera algo gráfico dentro de la interfaz así que se me ocurre
+
+32
+00:02:46,110 --> 00:02:51,860
+que podríamos crear otra función que se dedica por ejemplo crearla.
+
+33
+00:02:52,740 --> 00:02:54,960
+Para hacerlo simplemente una prueba.
+
+34
+00:02:54,960 --> 00:03:01,800
+Lo que vamos a hacer es lo siguiente cuando apretemos el botón y llamaremos a crear Label y crearemos
+
+35
+00:03:01,800 --> 00:03:08,590
+un pequeño texto justo debajo del botón tantas veces como apretemos este botón.
+
+36
+00:03:08,670 --> 00:03:18,880
+Ya veréis vamos a crear una Label dentro de esta función y le vamos a pasar root que aunque no existe
+
+37
+00:03:18,880 --> 00:03:25,110
+en el momento de la función cuando la ejecutemos como ya estaremos después de esta línea se llamará
+
+38
+00:03:25,110 --> 00:03:26,100
+y existirá root.
+
+39
+00:03:26,130 --> 00:03:34,940
+Por tanto debería funcionar por ejemplo con un texto que diga Label creada dinámicamente.
+
+40
+00:03:35,460 --> 00:03:36,900
+Es una prueba.
+
+41
+00:03:36,900 --> 00:03:41,280
+Vamos a intentar ejecutar este botón controlde y a ver qué sucede.
+
+42
+00:03:42,350 --> 00:03:48,770
+No sucede nada bueno básicamente porque según veo me descuidado hacer el pack si no hacemos el pack
+
+43
+00:03:49,250 --> 00:03:50,650
+no podemos mostrarlo.
+
+44
+00:03:50,750 --> 00:03:52,690
+Vamos a volver a ejecutarlo con el pack.
+
+45
+00:03:53,020 --> 00:03:59,810
+Y ahora si cada vez que hacemos clic estamos creando dinámicamente una Label dentro de la raíz dentro
+
+46
+00:03:59,810 --> 00:04:02,380
+de root y lo está posicionando por debajo.
+
+47
+00:04:02,390 --> 00:04:07,750
+Así que como veis tenemos un comportamiento dinámico dentro de la interfaz.
+
+48
+00:04:08,030 --> 00:04:13,640
+La verdad es que podemos realizar mil cosas jugando con los botones y otros widgets por ejemplo vamos
+
+49
+00:04:13,640 --> 00:04:19,310
+a crear una interfaz para realizar una suma a partir de dos campos y vamos a crear un tercer campo editable
+
+50
+00:04:19,490 --> 00:04:23,240
+para guardar ahí el resultado tan burdo.
+
+51
+00:04:23,950 --> 00:04:31,280
+Voy a borrar estas funciones que tengo aquí arriba y vamos a hacer una jerarquía vamos a comenzar creando
+
+52
+00:04:31,280 --> 00:04:39,730
+un botón este botón lo que vamos a hacer es mostrar el texto de sumar porque lo vamos a poner abajo
+
+53
+00:04:39,740 --> 00:04:40,400
+del todo.
+
+54
+00:04:40,400 --> 00:04:46,440
+Por ejemplo lo que sucederá es que llamé a una función que vamos a llamar su bar.
+
+55
+00:04:46,790 --> 00:04:51,980
+Esta función de sumar debería de recuperar el valor de los campos de texto.
+
+56
+00:04:52,870 --> 00:04:56,780
+Y mostrar el resultado en un tercer campo de texto.
+
+57
+00:04:56,880 --> 00:05:03,980
+Por tanto podríamos crear estos campos de texto antes que el botón vamos a crearlo por ejemplo Entry.
+
+58
+00:05:06,310 --> 00:05:16,170
+A Ruth vamos a justificar el texto al centro Center para que quede mejor y vamos a crear una T que es
+
+59
+00:05:16,170 --> 00:05:22,950
+variable y aquí vamos a guardar lo que sería el primer número debajo.
+
+60
+00:05:23,010 --> 00:05:28,230
+Crearíamos otro para el segundo número y debajo otro para el resultado.
+
+61
+00:05:28,230 --> 00:05:30,840
+De acuerdo vamos a apuntarlo aquí.
+
+62
+00:05:30,870 --> 00:05:34,210
+Este sería el primer número.
+
+63
+00:05:34,590 --> 00:05:45,420
+Segundo número y resultado muy bien tenemos que crearlas las variable que vamos a ir modificando dinámicamente
+
+64
+00:05:45,450 --> 00:05:48,850
+vamos a crearlas aquí arriba tenemos el numero 1.
+
+65
+00:05:48,970 --> 00:05:50,910
+Vamos a guardar aquí una.
+
+66
+00:05:52,440 --> 00:05:55,350
+Tendríamos el número 2 también una string bar
+
+67
+00:05:58,630 --> 00:06:04,560
+y el número de resultado que será el resultado de sumar los 2 3.
+
+68
+00:06:07,420 --> 00:06:08,450
+Pues bien.
+
+69
+00:06:09,220 --> 00:06:10,810
+Fijaros que es una cadena.
+
+70
+00:06:10,810 --> 00:06:20,110
+Tendremos que encargarnos nosotros luego antes de hacerla la suma de cambiar el tipo poner que son números
+
+71
+00:06:20,800 --> 00:06:22,840
+en decir lo que sea.
+
+72
+00:06:23,350 --> 00:06:25,680
+Así que vamos a asignar estas variables.
+
+73
+00:06:25,970 --> 00:06:39,440
+1 Aquí la 2 y el resultado abajo nos faltaría empacar las Farc para que aparezcan en la interfaz.
+
+74
+00:06:41,860 --> 00:06:44,850
+Supuestamente tendríamos tres campos de texto y un botón.
+
+75
+00:06:44,860 --> 00:06:46,660
+Vamos a intentar ejecutarlo.
+
+76
+00:06:46,990 --> 00:06:50,040
+Lo que pasa es que no tenemos creada la función sumar.
+
+77
+00:06:50,050 --> 00:06:53,890
+Por eso me da error abajo vamos a crear arriba del todo.
+
+78
+00:06:54,220 --> 00:07:01,770
+Sumar y sumar lo que va a hacer básicamente es establecer en el resultado.
+
+79
+00:07:02,170 --> 00:07:02,700
+R.
+
+80
+00:07:02,710 --> 00:07:04,870
+Set que se esta variable de aquí.
+
+81
+00:07:05,790 --> 00:07:13,820
+Pues la suma de El Número Uno y el número 2 lo vamos a hacer de la siguiente forma vamos a recuperar
+
+82
+00:07:13,820 --> 00:07:15,470
+el contenido del número 1.
+
+83
+00:07:15,470 --> 00:07:19,410
+Con este método Goeth así.
+
+84
+00:07:20,310 --> 00:07:25,910
+Y luego sumaríamos el número dos con otro bien.
+
+85
+00:07:27,260 --> 00:07:33,290
+Lo que pasa es que tenemos que asegurarnos de que esto de aquí no es una cadena sino es un flotante.
+
+86
+00:07:33,600 --> 00:07:39,860
+De acuerdo por tanto tendríamos que convertir en un caso real y distante de estos dos números antes
+
+87
+00:07:39,860 --> 00:07:40,780
+de sumarlos.
+
+88
+00:07:40,820 --> 00:07:41,150
+Así
+
+89
+00:07:44,090 --> 00:07:48,690
+de acuerdo y entonces ya estaríamos estableciendo el resultado.
+
+90
+00:07:49,100 --> 00:07:53,970
+Muy bien vamos a volver a probarlo y como veis tenemos aquí una estructura.
+
+91
+00:07:54,380 --> 00:07:59,800
+Intentar hacerlo un poco más grande para ponerlo por aquí medio y teóricamente.
+
+92
+00:07:59,960 --> 00:08:02,780
+Si pusiéramos ahora mismo un valor creo que ya debería funcionar.
+
+93
+00:08:02,780 --> 00:08:06,470
+Vamos a poner 50 a 10 y vamos a hacer suma.
+
+94
+00:08:06,830 --> 00:08:13,580
+Y como veis ya estamos sumando tenemos aquí una especie de calculadora no podríamos poner aquí 35 sumar
+
+95
+00:08:14,630 --> 00:08:23,130
+50 más 35 menos 59 más 25 menos 34.
+
+96
+00:08:23,360 --> 00:08:30,800
+Y si pusiéramos una cosa que no es un texto perdón un número pues simplemente daría una excepción pero
+
+97
+00:08:30,800 --> 00:08:36,480
+podríamos continuar ejecutando esto perfectamente si luego lo arreglamos.
+
+98
+00:08:36,530 --> 00:08:44,530
+Como veis no se cuelga por tener un error pero simplemente pues no salta la excepción abajo la terminal.
+
+99
+00:08:44,960 --> 00:08:52,510
+Muy bien creo que podríamos darle un poco más de detalle a esta especie de calculadora que suma porque
+
+100
+00:08:52,550 --> 00:08:53,930
+por defecto es muy fea.
+
+101
+00:08:54,230 --> 00:08:58,270
+Podríamos añadir alguna Label por ejemplo antes de mostrar el número.
+
+102
+00:08:58,320 --> 00:09:07,550
+El texto del número uno podríamos crear una Label a Ruth y le pasaríamos el texto número 1 pactaremos
+
+103
+00:09:10,310 --> 00:09:11,270
+y haremos lo mismo.
+
+104
+00:09:11,270 --> 00:09:13,510
+Justo antes de mostrar el segundo número.
+
+105
+00:09:13,520 --> 00:09:20,390
+Número 2 y podríamos hacer una especie de Podríamos mostrar ya directamente el resultado aquí.
+
+106
+00:09:20,420 --> 00:09:21,560
+Resultado.
+
+107
+00:09:21,800 --> 00:09:22,870
+No sé cómo quedará.
+
+108
+00:09:23,880 --> 00:09:25,700
+Vamos a probarlo.
+
+109
+00:09:26,580 --> 00:09:31,170
+Número 1 número 2 y resultado abajo y debajo tenemos el botón de suma.
+
+110
+00:09:32,540 --> 00:09:37,930
+Fijaros que tenemos aquí lo de sumar un poco como demasiado juntos.
+
+111
+00:09:38,200 --> 00:09:41,330
+Podemos hacer también antesdel Button también.
+
+112
+00:09:41,420 --> 00:09:44,700
+Otra la que haga como separador poniendo un espacio o no no sé.
+
+113
+00:09:44,840 --> 00:09:46,080
+Vamos a probarlo.
+
+114
+00:09:46,490 --> 00:09:48,690
+Bueno al menos ahora tenemos ahí el sumar.
+
+115
+00:09:51,480 --> 00:10:00,570
+Y podríamos pues por ejemplo en el root darle un Bordoy por fuera con Fick Border de 15 píxeles para
+
+116
+00:10:00,570 --> 00:10:02,600
+ver si queda un poco mejor.
+
+117
+00:10:02,600 --> 00:10:06,430
+Bueno hoy tenemos una estructura un poco más interesante que lo que teníamos hasta ahora.
+
+118
+00:10:07,730 --> 00:10:10,410
+Diez más diez veinte.
+
+119
+00:10:10,450 --> 00:10:12,130
+Está bastante bien no.
+
+120
+00:10:12,670 --> 00:10:14,840
+Quizá podríamos poner el botón de sumar.
+
+121
+00:10:16,220 --> 00:10:22,600
+Antes del resultado vamos a probarlo a ver cómo queda este botón.
+
+122
+00:10:22,670 --> 00:10:26,310
+Lo vamos a poner antes del resultado.
+
+123
+00:10:26,810 --> 00:10:28,790
+A ver si queda mejor no sé.
+
+124
+00:10:29,980 --> 00:10:35,830
+Sumar resultado 23 43 claros en el orden lógico.
+
+125
+00:10:35,830 --> 00:10:39,820
+Primero un número y luego otro sumamos y sale el resultado.
+
+126
+00:10:39,820 --> 00:10:47,050
+Fijaros que podríamos añadir un salto de línea Raine delante del resultado y ahora tendremos el resultado
+
+127
+00:10:47,070 --> 00:10:48,820
+bien perfectamente abajo.
+
+128
+00:10:49,240 --> 00:10:51,850
+Esta Label ocupa dos líneas.
+
+129
+00:10:51,850 --> 00:10:57,430
+Aquí había un salto del texto con un salto de línea con el texto y ahora sí nos quedaría más interesante
+
+130
+00:10:57,430 --> 00:10:59,550
+95 25 50.
+
+131
+00:10:59,550 --> 00:11:02,680
+El problema es que podemos modificar el resultado.
+
+132
+00:11:03,250 --> 00:11:16,300
+Podríamos desactivar este campo de texto aquí y podríamos poner o existait Elizabet para que esté desactivado
+
+133
+00:11:16,300 --> 00:11:22,310
+por defecto vamos a ver y si ahora sumamos los números 25 y 25.
+
+134
+00:11:23,150 --> 00:11:24,790
+Pues hoy tenemos 50.
+
+135
+00:11:24,790 --> 00:11:28,270
+Bueno está bien qué más podríamos hacer.
+
+136
+00:11:28,400 --> 00:11:36,010
+Podríamos hacer que sumar desaparezcan los dos números arriba como si se reiniciarse como si se borrase.
+
+137
+00:11:36,440 --> 00:11:38,230
+Cómo podemos hacerlo.
+
+138
+00:11:38,810 --> 00:11:49,490
+Pues se me ocurre que podríamos crear una función que sea por ejemplo borrar y que establezca el número
+
+139
+00:11:49,550 --> 00:11:51,530
+1 y el número 2.
+
+140
+00:11:51,620 --> 00:11:53,820
+De nuevo en vacío.
+
+141
+00:11:54,060 --> 00:11:55,850
+Así sin nada.
+
+142
+00:11:55,850 --> 00:11:59,060
+Número 1 y número 2 en vacío.
+
+143
+00:11:59,060 --> 00:12:05,290
+Y esto lo vamos a llamar por ejemplo justo después de apretar el botón de sumar.
+
+144
+00:12:06,320 --> 00:12:08,410
+Entonces lo llamaríamos.
+
+145
+00:12:09,710 --> 00:12:13,460
+Justo aquí después de hacer el set supo que funcionará.
+
+146
+00:12:13,460 --> 00:12:22,430
+Vamos a probarlo número 15 y número 25 en sumar y como veis ahora ya desaparece es bastante interesante
+
+147
+00:12:22,440 --> 00:12:22,910
+poco a poco.
+
+148
+00:12:22,910 --> 00:12:28,500
+Como veis ya podemos ir creando un pequeño formulario con una pequeña interfaz para.
+
+149
+00:12:29,380 --> 00:12:31,000
+Sumar dos números.
+
+150
+00:12:31,330 --> 00:12:32,860
+O lo que sea.
+
+151
+00:12:33,700 --> 00:12:41,090
+Imagina que queremos añadir alguna funcionalidad más aparte de sumar podríamos restar multiplicar.
+
+152
+00:12:41,260 --> 00:12:47,440
+No nos costaría mucho sólo tendríamos que replicar estos botones el botón de suma.
+
+153
+00:12:48,400 --> 00:12:54,020
+El botón de crear un botón de resta y uno de multiplicación por ejemplo podríamos crearlos todos juntos.
+
+154
+00:12:54,020 --> 00:13:02,150
+Así resopla y uno de llevarle el producto que es más corto quedará mejor.
+
+155
+00:13:02,190 --> 00:13:06,650
+Aquí llamaríamos a un posible a una posible resta.
+
+156
+00:13:07,180 --> 00:13:09,290
+Una función resta un comando.
+
+157
+00:13:09,290 --> 00:13:15,610
+He aquí un producto y ahora lo que tendremos que hacer es diseñar estas funciones que básicamente son
+
+158
+00:13:15,610 --> 00:13:24,760
+copias de suma pero adaptadas no se llamaría una revista que lo que haría basicamente es sumar el primero
+
+159
+00:13:25,700 --> 00:13:27,700
+restar primero menos el segundo así.
+
+160
+00:13:28,510 --> 00:13:34,870
+Y el producto lo mismo pero en lugar de sumar multiplicando.
+
+161
+00:13:34,870 --> 00:13:37,700
+Aquí tenemos ya unas cuantas funcionalidades más.
+
+162
+00:13:37,780 --> 00:13:49,180
+Vamos a ejecutarlo como veis aquí tenemos pues una pequeña calculadora a ver 25 y 25 restã cero nueve
+
+163
+00:13:49,870 --> 00:13:54,210
+y seis producto 54.
+
+164
+00:13:54,490 --> 00:14:01,660
+Lo único que no me acaba de gustar es que aparecen en bloque pero si los empaqueta hacemos todos en
+
+165
+00:14:01,660 --> 00:14:09,690
+el mismo lado por ejemplo a la izquierda haciendo un zeigt seidler con todos los botones deberían de
+
+166
+00:14:09,700 --> 00:14:11,550
+ponerse uno al lado del otro.
+
+167
+00:14:11,590 --> 00:14:14,640
+Vamos a probarlo así.
+
+168
+00:14:14,650 --> 00:14:23,190
+Bueno no me acaba de convencer porque al parecer el resultado está alineando mal deberíamos de poner
+
+169
+00:14:23,190 --> 00:14:29,890
+un freie o poner el resultado después de los botones.
+
+170
+00:14:30,460 --> 00:14:39,820
+De esta forma dejar de los botones de los campos de texto y dejar los botones abajo del todo a ver más
+
+171
+00:14:39,820 --> 00:14:44,690
+o menos nos sobra el salto del aquel a ver.
+
+172
+00:14:47,290 --> 00:14:48,770
+Tenemos otro salto de línea.
+
+173
+00:14:48,940 --> 00:14:52,350
+Ya decía yo que teníamos dos aquí vale.
+
+174
+00:14:52,360 --> 00:14:55,970
+Vamos a borrar uno ver como queda.
+
+175
+00:14:57,500 --> 00:15:04,120
+Bueno podríamos añadir este salto de línea que teníamos antes justo aquí y después.
+
+176
+00:15:05,420 --> 00:15:09,310
+Del resultado vacío.
+
+177
+00:15:10,190 --> 00:15:11,820
+Y ahora más o menos.
+
+178
+00:15:11,890 --> 00:15:13,160
+Pues queda mejor.
+
+179
+00:15:13,550 --> 00:15:23,810
+Nuestra pequeña calculadora 25 y 9 nos resta 16 10 y 10 por 10 100.
+
+180
+00:15:23,990 --> 00:15:24,960
+Muy bien.
+
+181
+00:15:25,310 --> 00:15:32,840
+Como veis es ir ajustando nosotros mismos los campos las propiedades y poner saltos de línea si lo necesitamos
+
+182
+00:15:33,530 --> 00:15:41,300
+y jugar un poco con lo que sabemos de la nada pues no hemos sacado una calculadora comparece en la siguiente
+
+183
+00:15:41,300 --> 00:15:41,880
+elección.
+
+184
+00:15:41,900 --> 00:15:45,540
+Hablaremos de otro tipo de botones mucho más especiales que estos.

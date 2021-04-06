@@ -1,0 +1,683 @@
+1
+00:00:01,590 --> 00:00:07,650
+Vamos a por el cuarto ejercicio realiza un programa que pide al usuario cuántos números quiere introducir
+
+2
+00:00:08,130 --> 00:00:14,320
+luego de todos los números y realiza una media aritmética una media aritmética.
+
+3
+00:00:14,320 --> 00:00:16,670
+Por si no lo sabeis pues es una media normal.
+
+4
+00:00:16,680 --> 00:00:23,250
+Es decir si introduces 10 números pues la suma de esos 10 números dividido entre 10 porque son 10 números
+
+5
+00:00:23,250 --> 00:00:26,570
+pues esa es la media aritmética se divide.
+
+6
+00:00:27,700 --> 00:00:30,710
+La suma total por el número de números.
+
+7
+00:00:31,820 --> 00:00:37,440
+Pues a realizarlo primero tenemos que pedir al usuario cuántos números quieren introducir.
+
+8
+00:00:38,150 --> 00:00:46,550
+Vamos a guardar en una variable números pues el resultado de leer por pantalla un entero input
+
+9
+00:00:49,580 --> 00:00:58,150
+cuántos números quieres introducir más o menos.
+
+10
+00:00:58,150 --> 00:00:58,800
+Y aquí.
+
+11
+00:00:58,820 --> 00:01:00,720
+Pues el usuario nos daría un número.
+
+12
+00:01:01,190 --> 00:01:07,610
+Ahora tenemos que realizar una suma de todos los números que nos van a introducir y luego dividirlo
+
+13
+00:01:07,970 --> 00:01:13,780
+por el número de números así que vamos a crear una variable suma igual a cero para ir sumando aquí.
+
+14
+00:01:15,010 --> 00:01:18,720
+Todos estos números ahora vamos a hacer lo siguiente.
+
+15
+00:01:20,470 --> 00:01:26,950
+Necesitamos leer por pantalla el número de números que el usuario nos ha indicado pues podemos hacerlo
+
+16
+00:01:26,950 --> 00:01:28,970
+con un bucle muy fácilmente.
+
+17
+00:01:29,080 --> 00:01:36,280
+Por ejemplo for ponemos un nombre de una variable una X o lo que sea esto es indiferente.
+
+18
+00:01:36,850 --> 00:01:39,730
+Y aquí hacemos un ranks números.
+
+19
+00:01:40,680 --> 00:01:44,870
+Así generaremos una especie de lista una iteración que irá desde cero hasta.
+
+20
+00:01:45,830 --> 00:01:51,740
+El número que se ha introducido sí nos indica 10 irá de 0 a 9 y aquí tendremos ya un bucle que se repetirá
+
+21
+00:01:51,800 --> 00:01:53,570
+diez veces.
+
+22
+00:01:53,570 --> 00:02:01,100
+Bueno aquí lo único que tenemos que hacer es ir sumando a la suma convirtiendo los números que nos va
+
+23
+00:02:01,100 --> 00:02:03,420
+a introducir el usuario por teclado.
+
+24
+00:02:03,650 --> 00:02:08,300
+Esta ocasión nos vamos a convertir en un flotante por si acaso el usuario se confunde y nos pone un
+
+25
+00:02:08,300 --> 00:02:10,090
+decimal por ahí en medio.
+
+26
+00:02:10,610 --> 00:02:12,280
+Vamos a leer por pantalla.
+
+27
+00:02:13,500 --> 00:02:14,390
+Introduce un número
+
+28
+00:02:17,680 --> 00:02:26,370
+y esto se repetirá pues numerosas veces podríamos haberla llamado repeticiones tranquilamente.
+
+29
+00:02:26,460 --> 00:02:30,670
+De esta forma y poner aquí una erre por si se entiende mejor.
+
+30
+00:02:31,840 --> 00:02:38,740
+Vale y ahora tendríamos que mostrar esta media aritmética tenemos todo lo que necesitamos porque tenemos
+
+31
+00:02:38,740 --> 00:02:42,280
+la suma de todos los números y el número de repeticiones.
+
+32
+00:02:42,620 --> 00:02:45,990
+Bueno pues vamos a mostrar por pantalla un mensaje.
+
+33
+00:02:46,390 --> 00:02:50,000
+Se han introducido.
+
+34
+00:02:50,750 --> 00:03:02,960
+Aquí pondríamos por ejemplo números o repeticiones equis números en números que en total han sumado
+
+35
+00:03:05,790 --> 00:03:15,920
+vendríamos aquí la suma y acabaremos poniendo y la media es y aquí simplemente teníamos que dividir
+
+36
+00:03:15,920 --> 00:03:18,670
+la suma entre las repeticiones.
+
+37
+00:03:21,170 --> 00:03:22,120
+Con esto ya lo tendríamos.
+
+38
+00:03:22,120 --> 00:03:23,590
+Vamos a probarlo.
+
+39
+00:03:23,660 --> 00:03:25,530
+Cuántos números quieres introducir.
+
+40
+00:03:25,880 --> 00:03:28,610
+Por ejemplo cuatro números.
+
+41
+00:03:29,600 --> 00:03:31,440
+El primer número va a ser un 5.
+
+42
+00:03:31,460 --> 00:03:37,160
+El segundo también es tercero y el cuarto se han introducido cuatro números que en total han sumado
+
+43
+00:03:37,160 --> 00:03:40,190
+20 y la media es 5.
+
+44
+00:03:40,190 --> 00:03:41,570
+Perfecto.
+
+45
+00:03:41,740 --> 00:03:43,900
+Si introducimos por ejemplo tres números.
+
+46
+00:03:44,790 --> 00:03:46,370
+El primero por ejemplo un 10.
+
+47
+00:03:46,500 --> 00:03:50,280
+El segundo un 5 y el tercero un 7.
+
+48
+00:03:50,610 --> 00:03:56,450
+Se han introducido tres números que en total han sumado 22 y la media de 7,3 periódico.
+
+49
+00:03:56,940 --> 00:04:03,130
+Bueno pues aquí tenemos este ejercicio vamos a por el quinto sin respirar.
+
+50
+00:04:03,380 --> 00:04:09,030
+Realiza un programa que pide al usuario un número del 0 al 9 y que mientras el número no sea correcto
+
+51
+00:04:09,030 --> 00:04:10,530
+se repita el proceso.
+
+52
+00:04:10,830 --> 00:04:15,300
+Luego debe comprobar si el número se encuentra en la lista de números y notificarlo.
+
+53
+00:04:15,300 --> 00:04:16,230
+Consejo.
+
+54
+00:04:16,410 --> 00:04:22,140
+La sintaxis valor y lista permite comprobar fácilmente si un valor se encuentra en una lista devolviendo
+
+55
+00:04:22,140 --> 00:04:24,200
+true o false.
+
+56
+00:04:24,280 --> 00:04:29,520
+Bueno siempre que nos piden que introduzcamos algo mientras no sea correcto pues tenemos que utilizar
+
+57
+00:04:29,550 --> 00:04:35,000
+un bucle como habíamos hecho con el Wil por aquí arriba que habíamos creado no del ejercicio 2.
+
+58
+00:04:36,750 --> 00:04:43,100
+Podemos simplemente comenzar un Weil con una condición Trunk el infinito.
+
+59
+00:04:43,320 --> 00:04:47,750
+Esto no lo ejecuta directamente tenemos que asegurarnos de que en algún momento nos vamos a salir.
+
+60
+00:04:48,060 --> 00:04:54,060
+Por lo tanto vamos a comenzar un waylon mientras que nosotros lo rompamos con un break y vamos a comenzar
+
+61
+00:04:54,060 --> 00:05:01,820
+a leer un número un número que tiene que ser del 0 al 9 y que mientras no sea del cero al nuevo Serre
+
+62
+00:05:01,910 --> 00:05:03,570
+se repita este proceso.
+
+63
+00:05:03,760 --> 00:05:05,960
+Siga leyendo este número.
+
+64
+00:05:05,970 --> 00:05:14,610
+Lo que vamos a hacer es transformar este número que vamos a leer entero leerlo por pantalla es decir
+
+65
+00:05:14,610 --> 00:05:21,180
+al usuario que escribe un número del 0 al 9.
+
+66
+00:05:21,420 --> 00:05:26,480
+De esta forma entonces la clave es que si ya lo introduce la primera vez.
+
+67
+00:05:26,490 --> 00:05:29,020
+Perfecto pues ya no saldríamos del wifi.
+
+68
+00:05:29,130 --> 00:05:30,400
+Cómo lo vamos a comprobar.
+
+69
+00:05:30,540 --> 00:05:38,580
+Pues vamos a comprobar si el número es mayor o igual que cero y a su vez el número es menor igual que
+
+70
+00:05:38,580 --> 00:05:39,480
+9.
+
+71
+00:05:40,080 --> 00:05:47,430
+Si esto se cumple hacemos un break rompemos el Wil porque representa que ya lo tendríamos si no se cumple
+
+72
+00:05:47,780 --> 00:05:52,130
+volvería a entrar al Wil volverían a Google hasta que se cumpliera la condición.
+
+73
+00:05:52,140 --> 00:05:53,150
+Vamos a probarlo.
+
+74
+00:05:53,520 --> 00:05:55,280
+Escribe un número del 0 al 9.
+
+75
+00:05:55,380 --> 00:06:02,750
+Si pongo por ejemplo un menos 1 me vuelva a entrar si pongo un 10 me vuelva a entrar un 200 tambien
+
+76
+00:06:02,820 --> 00:06:10,250
+pero si pongo un 5 ya se cumple la condición y me rompe la ejecución del bucle perfectamente.
+
+77
+00:06:11,510 --> 00:06:16,850
+Muy bien y ahora que tenemos el número pues tendríamos que comprobar si este número se encuentra en
+
+78
+00:06:16,850 --> 00:06:18,760
+esta lista.
+
+79
+00:06:18,800 --> 00:06:26,390
+Bueno lo más fácil es lo que nos comenta Escribano valor y lista devuelve verdadero falso si se encuentra
+
+80
+00:06:27,140 --> 00:06:28,320
+o no en la lista.
+
+81
+00:06:28,430 --> 00:06:33,360
+Vamos a hacer una condición ihf números y números.
+
+82
+00:06:33,470 --> 00:06:41,450
+La lista de números que tenemos aquí arriba mostramos por pantalla el mensaje el número podríamos poner
+
+83
+00:06:41,450 --> 00:06:48,800
+el número Aquí número se encuentra porque es verdadero.
+
+84
+00:06:49,250 --> 00:06:54,330
+En la lista aquí podríamos la lista de números.
+
+85
+00:06:56,060 --> 00:07:02,510
+En caso contrario podríamos hacer un Heels con si no copiamos exactamente esto aquí y pondríamos el
+
+86
+00:07:02,510 --> 00:07:03,180
+número.
+
+87
+00:07:04,050 --> 00:07:06,840
+No se encuentra en la lista.
+
+88
+00:07:07,390 --> 00:07:09,810
+Vamos a ejecutarlo.
+
+89
+00:07:09,820 --> 00:07:11,970
+Escribe un número del 0 al 9.
+
+90
+00:07:11,980 --> 00:07:22,320
+Si ponemos por ejemplo 2 el número 2 no se encuentra la lista 1 3 6 9 el número 7 no se encuentra en
+
+91
+00:07:22,330 --> 00:07:31,080
+la lista el número 6 el número 6 se encuentra en la lista 1 3 y aquí obtenemos el 6.
+
+92
+00:07:31,090 --> 00:07:34,110
+Vale ya lo tenemos este ejercicio.
+
+93
+00:07:34,780 --> 00:07:40,950
+Vamos a por el ejercicio 6 que es bastante interesante vamos a practicar un poco la función.
+
+94
+00:07:41,380 --> 00:07:45,680
+Tenemos que conseguir convertir Raich a las siguientes listas.
+
+95
+00:07:45,880 --> 00:07:48,610
+Dinámicamente tenemos que generar estas listas.
+
+96
+00:07:48,730 --> 00:07:50,520
+Vamos a comenzar por el primero.
+
+97
+00:07:51,690 --> 00:07:59,350
+Tenemos que crear una lista con todos los números del 0 al 10 0 1 2 y así vamos a hacer una estructura
+
+98
+00:07:59,350 --> 00:08:02,490
+aquí para mostrar las distintas listas.
+
+99
+00:08:02,490 --> 00:08:09,180
+Sabemos que tenemos que transformar un Raich a una lista por tanto vamos a crearlo así y aquí tendríamos
+
+100
+00:08:09,180 --> 00:08:12,300
+el Reich así que tenemos de una forma más cómoda.
+
+101
+00:08:12,300 --> 00:08:18,470
+Tenemos que generar esto 1 2 3 4 5 veces 1 2 3 4 y 5.
+
+102
+00:08:18,480 --> 00:08:30,420
+De esta forma ya lo tengo preparado todo a ver el primer Rains así del cero al 10 del 0 al 10.
+
+103
+00:08:30,630 --> 00:08:35,340
+Pero como último excluye tendríamos que sumar uno del 0 al 11.
+
+104
+00:08:38,310 --> 00:08:40,820
+Todos los números del menos 10 al cero.
+
+105
+00:08:40,820 --> 00:08:42,050
+Cómo podemos hacerlo.
+
+106
+00:08:42,060 --> 00:08:48,670
+Bueno pues desde el primer número serial menos diez hasta el cero.
+
+107
+00:08:50,010 --> 00:08:50,620
+Cero.
+
+108
+00:08:50,690 --> 00:08:54,990
+Se excluye y vamos hacia la derecha estamos restando teníamos que sumar uno más.
+
+109
+00:08:55,010 --> 00:08:58,050
+De esta forma menos 10 al 1.
+
+110
+00:08:59,190 --> 00:09:02,720
+Todos los números pares del 0 al 20 cero dos cuatro.
+
+111
+00:09:02,740 --> 00:09:08,860
+Bueno ya lo hemos visto antes tenemos que usar aquella aquel parámetro del salto.
+
+112
+00:09:09,330 --> 00:09:10,470
+Cómo lo podríamos hacer.
+
+113
+00:09:10,470 --> 00:09:16,890
+Pues del cero a 21 cada dos.
+
+114
+00:09:19,210 --> 00:09:26,810
+Todos los números impares entre menos veinte y cero entre menos veinte y cero.
+
+115
+00:09:27,430 --> 00:09:30,460
+Como ya hemos dicho antes tenemos que sumar uno más.
+
+116
+00:09:30,490 --> 00:09:35,030
+Porque si no vamos a excluirlo hasta el 1.
+
+117
+00:09:36,330 --> 00:09:39,580
+Un tercer parámetro que indique el salto que sería cada dos.
+
+118
+00:09:40,760 --> 00:09:41,590
+Perdón.
+
+119
+00:09:41,880 --> 00:09:43,040
+Son impares.
+
+120
+00:09:44,320 --> 00:09:48,720
+Entre el 20 y el 1 al menos 20.
+
+121
+00:09:49,390 --> 00:09:52,010
+Esto es una pregunta trampa porque al menos 20.
+
+122
+00:09:52,840 --> 00:09:56,930
+El zerón nos está diciendo que están entre que se incluyan por tanto.
+
+123
+00:09:57,730 --> 00:10:02,170
+Deberíamos empezar por el menos 19 hasta el número.
+
+124
+00:10:02,230 --> 00:10:09,840
+Supongo que aquí entre cero esto tendría que ser un 0 no nos Lais con esto pondríamos aquí un 1 0 también
+
+125
+00:10:09,850 --> 00:10:13,860
+valdría por qué el tercero cuenta como un número par.
+
+126
+00:10:14,080 --> 00:10:21,760
+Entonces aquí le diríamos que cavados y en último todos los números múltiples cinco del 0 al 50.
+
+127
+00:10:22,000 --> 00:10:25,620
+Del cero al 50 pero estaríamos excluyendo al 50.
+
+128
+00:10:25,630 --> 00:10:28,970
+Por tanto podemos poner un número más cada cinco.
+
+129
+00:10:29,720 --> 00:10:34,600
+Vamos a comprobarlo y aquí tenemos la primera todos los números del 0 al 10.
+
+130
+00:10:34,820 --> 00:10:39,640
+Perfecto todos los números del menos 10 al cero de acuerdo.
+
+131
+00:10:40,460 --> 00:10:44,520
+Incluido el cero todos los números del 0 al 20.
+
+132
+00:10:44,660 --> 00:10:55,140
+Los pares 2 4 6 8 Gastarbeiter acuerdo del menos 19 al menos uno todos los que son impares entre menos
+
+133
+00:10:55,160 --> 00:10:56,110
+20 y cero.
+
+134
+00:10:56,210 --> 00:10:57,730
+Estos no cuentan.
+
+135
+00:10:57,800 --> 00:11:04,790
+Esto tendría que ser lo voy a poner aquí un cero aunque claro en realidad tendría que poner aquí menos
+
+136
+00:11:04,810 --> 00:11:06,870
+un ejemplo.
+
+137
+00:11:08,990 --> 00:11:15,550
+último números múltiples del cinco del cero al cincuenta cero cinco 10 50.
+
+138
+00:11:15,570 --> 00:11:17,190
+Perfecto ya lo tenemos aquí.
+
+139
+00:11:19,210 --> 00:11:26,040
+Y finalmente el último ejercicio de este tema os propongo dadas dos listas debes generar una tercera
+
+140
+00:11:26,040 --> 00:11:29,050
+con todos los elementos que se repiten en ellas.
+
+141
+00:11:29,220 --> 00:11:32,830
+Pero no debe repetirse ningún elemento de la nueva lista.
+
+142
+00:11:32,970 --> 00:11:40,770
+Es decir vamos a tener que comprobar por ejemplo para cada letra cada elemento de la primera lista si
+
+143
+00:11:40,770 --> 00:11:42,390
+ésta está repetida.
+
+144
+00:11:42,390 --> 00:11:49,410
+Este elemento en la segunda y agregarlo si es verdadero si está repetida a una tercera lista que vamos
+
+145
+00:11:49,410 --> 00:11:50,480
+a tener que generar.
+
+146
+00:11:51,200 --> 00:11:57,920
+Pero si este elemento ya se encuentra en la nueva lista pues tampoco lo podemos añadir.
+
+147
+00:11:57,920 --> 00:12:03,470
+Vamos por partes vamos a comenzar creando una lista 3 vacía que va a ser dónde vamos a ir añadiendo
+
+148
+00:12:03,470 --> 00:12:04,810
+todo.
+
+149
+00:12:05,010 --> 00:12:10,750
+Ahora vamos a iterar todos los caracteres todas estos elementos de la primera lista.
+
+150
+00:12:11,010 --> 00:12:17,660
+A por ejemplo por letra y Lista 1 porque son letras en definitiva.
+
+151
+00:12:18,920 --> 00:12:25,370
+Entonces la primera condición para poder añadir este elemento a la tercera lista es que esta letra se
+
+152
+00:12:25,370 --> 00:12:27,790
+repita en la lista 1 y la lista 2.
+
+153
+00:12:27,800 --> 00:12:34,560
+Por tanto podemos hacer un NIF y Fleta sin listados.
+
+154
+00:12:34,740 --> 00:12:39,600
+Ya estamos iterando el primer elemento estamos en la noche por ejemplo y vamos a comprobar si esta ya
+
+155
+00:12:39,600 --> 00:12:41,850
+está en la lista 2 que evidentemente lo está.
+
+156
+00:12:41,850 --> 00:12:46,550
+Por tanto esto devolverá verdadero como mínimo la primera vez que lo ejecutemos.
+
+157
+00:12:46,550 --> 00:12:50,660
+Si esto se cumple deberíamos de añadir esta letra.
+
+158
+00:12:51,850 --> 00:12:55,530
+Con una Pen a la lista 3 letra.
+
+159
+00:12:56,170 --> 00:13:00,510
+Sin embargo también nos dice que no debe repetirse ningún elemento la nueva lista.
+
+160
+00:13:00,670 --> 00:13:09,000
+Por lo tanto hay una condición extra no solamente ésta tendríamos que comprobar también que esta letra.
+
+161
+00:13:10,280 --> 00:13:11,300
+No este.
+
+162
+00:13:12,110 --> 00:13:19,380
+Por tanto sería como negar in que no esté dentro de la lista 3.
+
+163
+00:13:19,400 --> 00:13:23,290
+De esta forma así nos vamos a asegurar que no esté dentro.
+
+164
+00:13:23,300 --> 00:13:31,130
+Perdón que sí que esté en la segunda lista pero que no esté en la tercera lista para que no se pueda
+
+165
+00:13:31,130 --> 00:13:43,290
+repetir acuerdo vamos a mostrar por pantalla esta lista y aquí tenemos pues H O L a un espacio u n.
+
+166
+00:13:43,700 --> 00:13:45,290
+Por tanto no se repiten ninguna letra.
+
+167
+00:13:45,380 --> 00:13:56,170
+Si no hubiéramos hecho esta comprobación en la tercera lista pues como veis h o l a u n o se nos repetiría.
+
+168
+00:13:56,300 --> 00:14:03,410
+Por tanto esto no cumpliría con lo que se pide pero con la doble condición usando este not in.
+
+169
+00:14:03,830 --> 00:14:11,100
+Que la letra no esté en la lista 3 podemos jugar ir añadiendo estas letras a la lista 3.
+
+170
+00:14:12,440 --> 00:14:20,350
+Y con esto hemos practicado un montón de condiciones iteraciones y daremos por finalizado este tema
+
+171
+00:14:20,350 --> 00:14:21,040
+aquí.

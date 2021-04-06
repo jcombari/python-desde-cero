@@ -1,0 +1,551 @@
+1
+00:00:00,780 --> 00:00:06,360
+Muy bien pues vamos a comenzar en esta primera lección práctica del curso introduciéndonos en el lenguaje
+
+2
+00:00:06,360 --> 00:00:13,560
+Python y vamos a comenzar por el tipo de dato más sencillo los números para hacerlo vamos a comenzar
+
+3
+00:00:13,560 --> 00:00:19,170
+abriendo el notebook y como ya lo tengo todo muy bien organizado vamos a empezar por la fase 1 haciendo
+
+4
+00:00:19,170 --> 00:00:27,090
+clic aquí por la introducción informal y con la lección unos números muy bien en Payton trabajar con
+
+5
+00:00:27,090 --> 00:00:28,660
+números del intérprete.
+
+6
+00:00:28,740 --> 00:00:30,290
+Esto es una línea del intérprete.
+
+7
+00:00:30,390 --> 00:00:31,530
+Es muy sencillo.
+
+8
+00:00:31,980 --> 00:00:35,010
+De hecho lo podemos utilizar como si fuese una calculadora.
+
+9
+00:00:35,460 --> 00:00:38,780
+Cada línea que escribimos lvii interprete es una instrucción de código.
+
+10
+00:00:39,060 --> 00:00:44,700
+Si escribimos una inspección y luego la ejecutamos con la combinación Swift más enter podremos ver el
+
+11
+00:00:44,700 --> 00:00:46,200
+resultado.
+
+12
+00:00:46,200 --> 00:00:52,340
+Por ejemplo vamos a comenzar con algo muy sencillo una suma tres más dos.
+
+13
+00:00:52,430 --> 00:01:01,440
+Vamos a hacer el switch Center y como veis le hemos pasado de entrada en la línea con una combinación
+
+14
+00:01:01,440 --> 00:01:07,950
+una instrucción 3+2 nos ha devuelto una salida y nos muestra por pantalla el valor 5.
+
+15
+00:01:09,430 --> 00:01:11,970
+Bien ya vemos que podemos trabajar con sumas.
+
+16
+00:01:12,040 --> 00:01:18,380
+También podemos trabajar con raulistas 3 menos 2 ahí tenemos 3 menos 2 1.
+
+17
+00:01:20,220 --> 00:01:25,260
+También podemos multiplicar 3 por 2 6.
+
+18
+00:01:26,550 --> 00:01:31,920
+Algo importante en Python es que podemos utilizar una almohadilla seguida de un texto para indicar que
+
+19
+00:01:31,920 --> 00:01:33,320
+es un comentario.
+
+20
+00:01:33,330 --> 00:01:37,740
+Los comentarios están en todos los lenguajes de programación y nos ayudan a entender nuestro propio
+
+21
+00:01:37,740 --> 00:01:38,730
+código.
+
+22
+00:01:38,790 --> 00:01:44,400
+Por ejemplo vamos a escribir un comentario aquí y vamos a ejecutar otro tipo de operación por ejemplo
+
+23
+00:01:44,400 --> 00:01:46,270
+una división.
+
+24
+00:01:46,830 --> 00:01:51,170
+Vamos a apretar Enter para añadir una segunda línea a este bloque de instrucciones.
+
+25
+00:01:52,170 --> 00:01:59,890
+Vamos a escribir por ejemplo una división 3 entre 2 apretar sustente y como veis aquí nos da el resultado
+
+26
+00:01:59,950 --> 00:02:01,580
+1.5.
+
+27
+00:02:01,930 --> 00:02:04,200
+En realidad es 1,5.
+
+28
+00:02:04,300 --> 00:02:09,670
+Esto es un decimal Payton lo muestra con un punto y no con una coma.
+
+29
+00:02:09,670 --> 00:02:14,590
+La verdad es que esto es de facto dado que la sintaxis de los lenguajes de programación suele venir
+
+30
+00:02:14,590 --> 00:02:20,130
+del inglés que allí la coma que nosotros entendemos se viene a poner con un punto.
+
+31
+00:02:20,290 --> 00:02:27,760
+Recordar entonces que un número con punto siempre hace referencia a un decimal o más conocido al lenguaje
+
+32
+00:02:27,760 --> 00:02:30,730
+de programación como un flotante.
+
+33
+00:02:30,790 --> 00:02:38,850
+Se conocen como flotantes porque tienen el punto flotando y por tanto también se les llama números flotantes.
+
+34
+00:02:40,890 --> 00:02:49,080
+Ligada a la División tenemos otra operación también muy interesante que es el módulo módulo que es el
+
+35
+00:02:49,080 --> 00:02:55,610
+resultado de ejecutar una división entera y agarrar la parte que resta.
+
+36
+00:02:55,770 --> 00:02:59,640
+La parte que no se puede dividir por nada más.
+
+37
+00:02:59,670 --> 00:03:07,320
+Por ejemplo si hiciéramos un módulo utilizando el operador de módulo que es un porcentaje 3 módulo 2
+
+38
+00:03:07,410 --> 00:03:09,780
+y ejecutamos tenemos un 1.
+
+39
+00:03:09,810 --> 00:03:10,610
+Por qué.
+
+40
+00:03:12,790 --> 00:03:19,510
+Si dividimos 3 entre 2 podemos dividir 1 para cada uno pero nos quedará uno que no podemos dividir.
+
+41
+00:03:19,570 --> 00:03:27,310
+Por tanto el resto de esta división entera el módulo es uno y otra operación que también podemos hacer
+
+42
+00:03:27,310 --> 00:03:31,060
+cuando trabajemos con números en Payton es la potencia
+
+43
+00:03:33,460 --> 00:03:42,220
+potencia la potencia de elevar un número por otro por ejemplo 3 elevado a 2 escribiría 3 dos asteriscos
+
+44
+00:03:42,310 --> 00:03:43,750
+y 1 2.
+
+45
+00:03:43,810 --> 00:03:46,790
+Si lo ejecutamos Como veis el resultado es 9.
+
+46
+00:03:48,470 --> 00:03:51,320
+Así que hasta ahora hemos visto dos tipos de números.
+
+47
+00:03:51,460 --> 00:03:57,300
+Por un lado tenemos los enteros y por otro lado tenemos los flotantes los decimales como este de aquí.
+
+48
+00:03:57,970 --> 00:04:00,720
+Por qué se hace esta distinción en Payton.
+
+49
+00:04:00,740 --> 00:04:03,620
+Bueno esto es para optimizar la memoria del sistema.
+
+50
+00:04:03,640 --> 00:04:08,820
+Evidentemente no es lo mismo tener en cuenta el espacio para guardar un número como podría ser un mundo.
+
+51
+00:04:09,250 --> 00:04:14,400
+Aquí si tuviéramos que guardar un número muy largo y complejo con muchos decimales por ejemplo.
+
+52
+00:04:14,680 --> 00:04:18,070
+Este sería un número súper gigante.
+
+53
+00:04:18,070 --> 00:04:23,960
+De hecho si mostramos ejecutamos estas instrucciones lo recorta dice que es demasiado grande.
+
+54
+00:04:24,800 --> 00:04:28,390
+Bueno esto daría mucho que hablar.
+
+55
+00:04:28,510 --> 00:04:31,960
+Pero como en este curso sólo vamos a trabajar con enteros y flotantes.
+
+56
+00:04:32,050 --> 00:04:35,490
+Simplemente vamos a ver estos dos tipos de números.
+
+57
+00:04:37,430 --> 00:04:46,610
+Podemos hacer operaciones un poco más complejas por ejemplo tres menos dos más cuatro por diez si ejecutamos
+
+58
+00:04:46,610 --> 00:04:49,140
+Todo esto nos da 41.
+
+59
+00:04:50,680 --> 00:04:55,690
+Haciendo esta operación podemos entender que Payton es capaz de interpretar correctamente las reglas
+
+60
+00:04:56,020 --> 00:04:58,500
+de precedencia de las operaciones matemáticas.
+
+61
+00:04:59,160 --> 00:05:04,160
+Teniendo en cuenta que las multiplicaciones siempre tienen prioridad antes que las sumas restas.
+
+62
+00:05:04,440 --> 00:05:10,460
+De esta manera ha hecho tres menos dos igual a uno y ha multiplicado cuatro por diez.
+
+63
+00:05:11,270 --> 00:05:14,150
+Y ha hecho uno más 40 41.
+
+64
+00:05:14,520 --> 00:05:19,740
+Si no hubiera interpretado correctamente estas reglas de precedencia hubiera hecho tres menos dos igual
+
+65
+00:05:19,740 --> 00:05:28,290
+a uno más cuatro cinco por diez y hubiera dado 50 por ejemplo hablaremos más adelante de las operaciones
+
+66
+00:05:28,320 --> 00:05:30,750
+y las reglas de precedencia.
+
+67
+00:05:31,710 --> 00:05:36,900
+Pero antes de acabar esta lección la primera quiere introducir un concepto superimportante en la programación
+
+68
+00:05:37,530 --> 00:05:41,360
+que es el concepto de variable una variable.
+
+69
+00:05:41,580 --> 00:05:48,720
+Es algo un espacio en la memoria del ordenador al que nosotros le damos un nombre y le podemos asignar
+
+70
+00:05:48,720 --> 00:05:49,860
+un valor.
+
+71
+00:05:49,860 --> 00:05:56,700
+Puede ser un valor literal que puede ser un valor de una variable que hemos creado previamente.
+
+72
+00:05:56,760 --> 00:06:02,190
+Las variables son fundamentales en todos los lenguajes no sólo en Payton pero aquí son súper sencillas
+
+73
+00:06:02,280 --> 00:06:05,550
+ya que no necesitamos definir qué tipo de variables.
+
+74
+00:06:05,580 --> 00:06:08,700
+En otros lenguajes tendríamos que especificar esto es un número.
+
+75
+00:06:08,700 --> 00:06:11,960
+Esto es un flotante o un entero o lo que sea.
+
+76
+00:06:11,970 --> 00:06:21,590
+Pero aquí no fijaros vamos a crear una variable y vamos a poner la asignación de un valor a una variable.
+
+77
+00:06:22,360 --> 00:06:27,790
+Por ejemplo vamos a crear una variable llamada N y le vamos a dar el valor de 3.
+
+78
+00:06:27,870 --> 00:06:35,070
+Vamos a hacer un salto de línea y aquí vamos a mostrar el valor de cómo veis en esta almacenando el
+
+79
+00:06:35,070 --> 00:06:36,050
+valor de 3.
+
+80
+00:06:36,780 --> 00:06:42,200
+Y fácilmente podemos consultar escribiendo el intérprete el nombre de la variable.
+
+81
+00:06:42,860 --> 00:06:50,160
+Podemos trabajar con las variables como si fueran números por ejemplo n +3 y nos da 6.
+
+82
+00:06:50,180 --> 00:06:53,120
+También podemos hacer N por 2.
+
+83
+00:06:54,100 --> 00:07:00,710
+Hoy incluso podemos hacer n por n y nos da 9 3 por tres igual a 9.
+
+84
+00:07:01,900 --> 00:07:07,360
+Sin embargo lo más interesante es que podemos crear nuevas variables por ejemplo una variable m y la
+
+85
+00:07:07,390 --> 00:07:09,670
+vamos a dar el valor de 10.
+
+86
+00:07:09,700 --> 00:07:17,530
+Ahora podemos operar dos variables como si fueran dos números por ejemplo tiene más m y nos daría 13
+
+87
+00:07:17,680 --> 00:07:24,080
+o n por m más 10 40.
+
+88
+00:07:25,570 --> 00:07:29,980
+Pero claro qué es lo que hace interesante una variable que podemos alternar su valor.
+
+89
+00:07:30,000 --> 00:07:33,770
+Podemos definirlo en cualquier momento podría venir aquí.
+
+90
+00:07:33,910 --> 00:07:41,270
+Decir que la N ahora vale por ejemplo 10 la m vale por ejemplo 15.
+
+91
+00:07:42,010 --> 00:07:46,650
+Y el resultado es más m ahora valdría 25.
+
+92
+00:07:48,020 --> 00:07:54,680
+Lo que acabamos de hacer describir varias instrucciones es un bloque dentro de nuestro notebook y lo
+
+93
+00:07:54,680 --> 00:08:00,870
+que hace el sistema Payton es ejecutarlas una a una una en cada línea.
+
+94
+00:08:01,190 --> 00:08:03,390
+Por tanto lo ejecutamos todo de golpe.
+
+95
+00:08:03,440 --> 00:08:08,260
+Resignamos la M consignamos la demme mostramos el resultado de N+.
+
+96
+00:08:10,660 --> 00:08:15,450
+De hecho podríamos asignar a la n el valor que tenemos en la m.
+
+97
+00:08:15,670 --> 00:08:23,070
+De esta forma ahora si mostramos el valor de nos da que es 15 y el valor de M también es 15.
+
+98
+00:08:26,220 --> 00:08:34,540
+Incluso podríamos asignar a la N por ejemplo un valor que sea m más 10.
+
+99
+00:08:34,820 --> 00:08:42,700
+Y entonces la N valdría 25 o su propio valor es igual a n más 25.
+
+100
+00:08:42,780 --> 00:08:50,220
+Suponiendo que valía 25 25 25 valdrá 50.
+
+101
+00:08:51,150 --> 00:08:58,110
+Como veis las variables son muy flexibles permiten hacer cosas muy interesantes pero para poder utilizarlas
+
+102
+00:08:58,110 --> 00:09:03,270
+tenemos que cumplir unas normas a la hora de escoger un nombre para nuestra variable.
+
+103
+00:09:03,570 --> 00:09:06,160
+Este no puede comenzar por un número.
+
+104
+00:09:06,180 --> 00:09:14,180
+Tampoco puede contener espacios dentro del nombre ni puede utilizar símbolos especiales ni tildes niñez
+
+105
+00:09:14,640 --> 00:09:20,750
+y ningún símbolos raros en únicamente caracteres números o un caso excepcional.
+
+106
+00:09:20,790 --> 00:09:28,170
+Una barra baja de hecho lo recomendable es utilizar esa barra baja para simular un espacio y una buena
+
+107
+00:09:28,170 --> 00:09:30,720
+práctica es utilizar todo en minúsculas.
+
+108
+00:09:31,570 --> 00:09:38,800
+Utilizar esa barra baja por ejemplo imaginad que tenemos un ejercicio donde queramos utilizar variables
+
+109
+00:09:38,830 --> 00:09:44,230
+para sumar dos notas de un alumno y hacer una media de esas dos notas para saber si se ha probado o
+
+110
+00:09:44,240 --> 00:09:46,150
+no el curso.
+
+111
+00:09:46,480 --> 00:09:52,980
+Por ejemplo podríamos crear una variable nota 1 y asignarle el valor 5.
+
+112
+00:09:53,440 --> 00:10:01,240
+Digamos que esto es el primer examen luego una nota DOTA2 y vamos a asignar un valor de 10.
+
+113
+00:10:01,480 --> 00:10:03,710
+Y finalmente vamos a sacar la nota media.
+
+114
+00:10:03,880 --> 00:10:06,810
+Vamos a acordar una variable llamada nota media.
+
+115
+00:10:08,470 --> 00:10:17,610
+La suma de las dos notas divididas entre dos nota uno más los estados y la vamos a dividir por dos a
+
+116
+00:10:17,600 --> 00:10:19,800
+saber qué sucede vamos a mostrarlo.
+
+117
+00:10:19,840 --> 00:10:23,150
+Nota media y a ver qué pasa.
+
+118
+00:10:23,710 --> 00:10:25,960
+Fijaros que me he dado 10.
+
+119
+00:10:26,080 --> 00:10:28,250
+Por qué me da 10.
+
+120
+00:10:28,250 --> 00:10:39,610
+Bueno en este caso nosotros no hemos especificado un orden y él ha ejecutado estas instrucciones automáticamente
+
+121
+00:10:39,610 --> 00:10:41,730
+por las reglas de precedencia.
+
+122
+00:10:41,980 --> 00:10:49,960
+Como la división va antes que la suma él ha hecho diez entre dos ha sacado cinco le ha sumado la nota
+
+123
+00:10:49,960 --> 00:10:51,800
+1 5 y nos ha dado 10.
+
+124
+00:10:51,820 --> 00:10:53,050
+Pero evidentemente no es 10.
+
+125
+00:10:53,050 --> 00:10:58,870
+Lo que tenemos que hacer es indicarle que la forma correcta de hacer esta medida es primero sumar la
+
+126
+00:10:58,870 --> 00:11:02,400
+Nota 1 La nota 2 y luego dividirla por dos.
+
+127
+00:11:02,410 --> 00:11:08,830
+Si volvemos a ejecutarlo Ahora si tenemos esta nota media que es un 7,5 por tanto nuestro alumno habrá
+
+128
+00:11:08,830 --> 00:11:12,730
+aprobado el curso y la flexibilidad de la nota.
+
+129
+00:11:12,730 --> 00:11:18,480
+Pero donde las variables en este ejemplo es que podemos cambiar los valores por ejemplo un alumno que
+
+130
+00:11:18,480 --> 00:11:20,420
+haya sacado un 7,5.
+
+131
+00:11:20,440 --> 00:11:22,680
+Fijaros que tenemos que ponerlo con el punto.
+
+132
+00:11:22,700 --> 00:11:24,030
+Esto es un flotante.
+
+133
+00:11:24,990 --> 00:11:26,320
+Y en el segundo examen.
+
+134
+00:11:26,330 --> 00:11:30,090
+Puede que haya sacado un 5 que nota media le quedará.
+
+135
+00:11:30,210 --> 00:11:33,800
+Vamos a ejecutarlo un 6 25.
+
+136
+00:11:33,800 --> 00:11:39,780
+Si en el primer examen hubiera sacado un 2 le quedarían tres y medio y esto sería un suspenso.
+
+137
+00:11:40,130 --> 00:11:42,320
+Vamos a trabajar muchísimo con las variables.
+
+138
+00:11:42,320 --> 00:11:47,850
+Durante todo el curso son fundamentales así que no olvidéis todo lo que acabamos de aprender sobre ellas.

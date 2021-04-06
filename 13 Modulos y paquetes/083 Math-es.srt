@@ -1,0 +1,331 @@
+1
+00:00:01,100 --> 00:00:06,710
+Muy bien y después de estos dos primeros módulos que hemos visto colecciones y de Intime que eran súper
+
+2
+00:00:06,710 --> 00:00:08,930
+interesantes pero también han sido largos.
+
+3
+00:00:08,930 --> 00:00:11,290
+Vamos a ir con un poco más tranquilo.
+
+4
+00:00:11,630 --> 00:00:17,590
+El módulo Martz Lección 6 y a experimentar un poco el módulo hammad.
+
+5
+00:00:17,600 --> 00:00:21,700
+Como sabéis integra una serie de funciones o métodos.
+
+6
+00:00:22,420 --> 00:00:29,260
+Para trabajar con matemáticas la verdad es que ya hay muchas funciones integradas que no hace falta
+
+7
+00:00:29,260 --> 00:00:34,270
+utilizar via Mat vamos a echar un repaso a todas ellas o a las más importantes.
+
+8
+00:00:34,270 --> 00:00:38,740
+Mejor dicho vamos a importar la librería o el modelo.
+
+9
+00:00:39,880 --> 00:00:42,650
+Y vamos a comenzar con los redondeos.
+
+10
+00:00:42,850 --> 00:00:49,300
+Por ejemplo vamos a crear una variable vamos a llamarla Pi el número pi tres coma catorce 15 y 9 por
+
+11
+00:00:49,300 --> 00:00:50,660
+ejemplo.
+
+12
+00:00:50,960 --> 00:00:51,630
+Muy bien.
+
+13
+00:00:52,980 --> 00:00:55,220
+Vamos a redondear el número pi.
+
+14
+00:00:55,980 --> 00:01:06,120
+Este es el redondeo por defecto vale Room que nos devuelve 3 es un redondeo normal que si toma un elemento
+
+15
+00:01:06,330 --> 00:01:07,210
+un número.
+
+16
+00:01:08,200 --> 00:01:11,270
+Y la parte decimal es menor que 5.
+
+17
+00:01:11,460 --> 00:01:12,740
+De donde a la baja.
+
+18
+00:01:12,940 --> 00:01:24,970
+Pero si fuera mayor que 5 por ejemplo röhm tres coma cinco redundarían al alza.
+
+19
+00:01:26,520 --> 00:01:32,890
+Pero nosotros gracias al módulo Mat podemos forzar redondeos al alza o a la baja.
+
+20
+00:01:32,890 --> 00:01:41,670
+Por ejemplo queremos redondear el bit a la baja siempre por su utilizaríamos math.
+
+21
+00:01:44,040 --> 00:01:45,920
+Flor Flores.
+
+22
+00:01:45,930 --> 00:01:51,500
+El suelo y cuando hablamos de suelo entendemos que redondeamos a la baja.
+
+23
+00:01:51,650 --> 00:02:02,530
+Por tanto redondear a la baja y devolvería un 3 que es lo mismo que röhm normal pero redondear más Flore
+
+24
+00:02:03,840 --> 00:02:07,450
+3 por ejemplo +5 que hemos hecho antes.
+
+25
+00:02:07,560 --> 00:02:16,270
+También redondee a la baja e incluso podríamos redondear más flor tres puntos y un montón de nueves.
+
+26
+00:02:16,380 --> 00:02:18,780
+Qué tan bien lo va a redondear a la baja.
+
+27
+00:02:18,840 --> 00:02:24,040
+Porque flor es el suelo y se redondea siempre a la baja.
+
+28
+00:02:24,060 --> 00:02:27,300
+Me estoy poniendo muy pesado pero hay que remarcarlo.
+
+29
+00:02:27,390 --> 00:02:32,190
+Por contra tenemos también más Soil.
+
+30
+00:02:32,250 --> 00:02:36,440
+Es el techo el suelo y esto redundará siempre arlanza.
+
+31
+00:02:37,440 --> 00:02:44,900
+Si rodeamos pilla al alza no importa cuánto decimal tenga siempre lo va a redondear al alza.
+
+32
+00:02:45,290 --> 00:02:53,750
+Imaginaros que tenemos el número tres punto cero cero cero uno no lo redondeamos al alta al techo y
+
+33
+00:02:53,750 --> 00:02:56,640
+también da 4 muy bien.
+
+34
+00:02:56,780 --> 00:03:01,020
+Hoy tenemos formas de forzar el redondeo al alza o a la baja.
+
+35
+00:03:01,860 --> 00:03:11,100
+También tenemos el valor absoluto del valor absoluto es una propiedad que podemos encontrar quitándole
+
+36
+00:03:11,100 --> 00:03:18,270
+el signo o restándole el signo a un número por ejemplo entero negativo y dejarlo en positivo utilizaríamos
+
+37
+00:03:18,330 --> 00:03:27,720
+ABS y números por ejemplo menos 10 el valor absoluto de 10 donde menos 10 es 10 que es el valor absoluto
+
+38
+00:03:27,720 --> 00:03:29,790
+del valor absoluto es la distancia.
+
+39
+00:03:29,880 --> 00:03:36,930
+Es decir imaginaros una recta de aquellas con un cero medio y tenemos valores hacia la izquierda y a
+
+40
+00:03:36,930 --> 00:03:40,590
+la derecha los de la izquierda son en negativo y los de la derecha en positivo.
+
+41
+00:03:40,980 --> 00:03:47,410
+Cuál es la distancia que hay por ejemplo desde el punto 10 en positivo hasta el 0 por 10 unidades.
+
+42
+00:03:47,840 --> 00:03:49,990
+Y desde el menos 10 al cero.
+
+43
+00:03:50,910 --> 00:03:54,990
+Pues también son 10 unidades Esa es la distancia y eso es el valor absoluto.
+
+44
+00:03:55,120 --> 00:04:04,000
+Por tanto no importa el signo a 10 o menos 10 siempre devolverá esa distancia esa cantidad de 10.
+
+45
+00:04:04,000 --> 00:04:07,720
+Otro método interesante función es el sumatorio.
+
+46
+00:04:07,720 --> 00:04:12,820
+Tenemos un sumatorio integrado dentro de Python que ya hemos visto antes.
+
+47
+00:04:12,850 --> 00:04:22,810
+Suponiendo que tenemos una lista de números por ejemplo 1 2 y un 3 podemos hacer un CV de todos ellos
+
+48
+00:04:23,430 --> 00:04:27,900
+y nos devuelve el resultado de todos los elementos de la lista sumados.
+
+49
+00:04:28,680 --> 00:04:34,860
+Pero hay un sumatorio mejorado dentro de la librería más dentro del módulo más.
+
+50
+00:04:35,950 --> 00:04:41,210
+EFE shum más un jefe sube año.
+
+51
+00:04:41,660 --> 00:04:44,570
+Evidentemente si hacemos esto va a dar lo mismo.
+
+52
+00:04:44,790 --> 00:04:51,970
+Pero fijaros que nos pone un flotante ya nos devuelve el número tal cual sino que devuelve siempre un
+
+53
+00:04:51,970 --> 00:04:53,560
+flotante aunque sea un entero.
+
+54
+00:04:53,590 --> 00:05:02,370
+En realidad un ejemplo de cómo funciona mejor esta librería y a veces es más estable por decirlo algunas
+
+55
+00:05:02,390 --> 00:05:08,770
+formas que si tuviéramos una lista con unos elementos y uno de ellos fuera por ejemplo un número con
+
+56
+00:05:08,770 --> 00:05:10,020
+muchos decimales.
+
+57
+00:05:11,930 --> 00:05:24,800
+Por ejemplo éste es 0 puntos 9 9 9 9 9 9 y luego hubiãramos el 1 el 2 y el 3 por ejemplo hicieramos
+
+58
+00:05:24,830 --> 00:05:26,290
+un SUV.
+
+59
+00:05:27,080 --> 00:05:29,610
+Pues fijaros que pasa algo muy raro.
+
+60
+00:05:30,020 --> 00:05:38,330
+Nos devuelve 6 puntos 9 9 9 9 y después un montón de ceros y 1 1 1 Esto indica que no está funcionando
+
+61
+00:05:38,330 --> 00:05:38,970
+muy bien.
+
+62
+00:05:39,080 --> 00:05:45,980
+Entonces si lo hacemos igual pero con el que resume lo que tendremos pues es un resultado más ajustado
+
+63
+00:05:45,980 --> 00:05:51,000
+más realista digamos que es más estable por decirlo de alguna forma.
+
+64
+00:05:51,020 --> 00:05:56,980
+En realidad es lo mismo pero para que veáis el ejemplo pues lo muestro.
+
+65
+00:05:57,170 --> 00:06:05,030
+Otra cosa interesante que nos provee es el truncamiento truncar un número y el truncar es eliminar la
+
+66
+00:06:05,030 --> 00:06:12,100
+parte decimal por ejemplo Mats Trunk y suponer que tenemos el número 100.
+
+67
+00:06:12,230 --> 00:06:14,940
+Punto 1 2 3 4 5 6.
+
+68
+00:06:14,960 --> 00:06:21,200
+Pues esto lo que hará es machacar la parte decimal y devolver uno entero siempre la parte entera.
+
+69
+00:06:21,260 --> 00:06:26,880
+Unicamente también tenemos aparte potencias y raíces con más.
+
+70
+00:06:27,230 --> 00:06:34,030
+Por ejemplo ya sabéis que podíamos hacer una potencia poniendo dos asteriscos por ejemplo 2 elevado
+
+71
+00:06:34,070 --> 00:06:36,470
+3 6 8.
+
+72
+00:06:36,830 --> 00:06:47,210
+También podemos hacerlo con más Mast punto por su potencia y aquí pasando el 2 y el 3 2 elevado a 3.
+
+73
+00:06:47,690 --> 00:06:48,170
+Como veis.
+
+74
+00:06:48,170 --> 00:06:54,110
+Pues igual que antes nos lo devuelve con un flotante como para ser más más ajustado.
+
+75
+00:06:54,740 --> 00:07:01,620
+Y también tenemos la raíz cuadrada más punto raíz cuadrada Squirt root.
+
+76
+00:07:02,670 --> 00:07:09,080
+Entre paréntesis le pasaríamos el número raíz cuadrada de 9 3.0 el 3.
+
+77
+00:07:09,150 --> 00:07:10,180
+Ahí lo tenemos.
+
+78
+00:07:12,360 --> 00:07:20,650
+Y por último un par de constantes valores que nunca cambian que integra la librería Mac.
+
+79
+00:07:21,210 --> 00:07:24,410
+Es más para saber el número pi.
+
+80
+00:07:25,830 --> 00:07:35,220
+Más que para saber el valor de la constante de las matemáticas que se aquí y con esto ya hemos visto
+
+81
+00:07:35,220 --> 00:07:41,220
+un poco la librería más y las distintas funcionalidades que nos permiten realizar hay muchísimas más.
+
+82
+00:07:41,220 --> 00:07:47,580
+Pero como esto tampoco es un curso de matemáticas no voy a hacer mucho hincapié en ellas y vamos a dejarlo
+
+83
+00:07:47,580 --> 00:07:48,400
+aquí.

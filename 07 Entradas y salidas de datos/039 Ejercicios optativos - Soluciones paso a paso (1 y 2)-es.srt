@@ -1,0 +1,575 @@
+1
+00:00:00,780 --> 00:00:07,660
+Muy bien pues vamos a por los ejercicios del tema 5 de entradas y salidas de datos ejercicios anunciados.
+
+2
+00:00:08,250 --> 00:00:14,190
+Vamos a ponernos con el primer ejercicio formatea los siguientes valores para mostrar el resultado indicado.
+
+3
+00:00:14,370 --> 00:00:20,580
+Tenemos varias cadenas menos las mismas pero tenemos que realizar una serie de cosas unos formatos que
+
+4
+00:00:20,580 --> 00:00:22,670
+ya los vimos y también con números.
+
+5
+00:00:22,680 --> 00:00:26,710
+Tenemos algunos números y también tenemos que formatearlo.
+
+6
+00:00:26,970 --> 00:00:33,120
+Como veis tengo la estructura preparada y sólo tenéis que repasar lo que aprendimos y encontrar exactamente
+
+7
+00:00:34,260 --> 00:00:41,100
+cómo se programaba el formateo para la primera tenemos Hola Mundo alineado a la derecha que en 20 caracteres
+
+8
+00:00:42,240 --> 00:00:49,600
+en este caso lo que teníamos que hacer era lo siguiente poníamos dos puntitos un mayor y un veinte porque
+
+9
+00:00:49,620 --> 00:00:54,810
+veinte es el número de caracteres que tenemos que alinear a la derecha.
+
+10
+00:00:54,810 --> 00:01:01,290
+En el segundo caso truncamiento en el cuarto carácter de índice 3 lo que tenemos que hacer es simplemente
+
+11
+00:01:01,500 --> 00:01:11,550
+poner dos puntitos un punto normal y un número que es el índice a partir del cual queremos truncar.
+
+12
+00:01:11,550 --> 00:01:17,870
+Cuarto carácter y índice 3 akihiro tenemos en el tercero tenemos alineamiento al centro en 20 caracteres
+
+13
+00:01:17,910 --> 00:01:19,740
+con truncamiento en el segundo carácter.
+
+14
+00:01:19,740 --> 00:01:20,840
+índice 1.
+
+15
+00:01:21,030 --> 00:01:25,070
+Por tanto es una mezcla de los dos primeros pero alineado al centro.
+
+16
+00:01:25,440 --> 00:01:31,140
+Si lo recordáis esto se hacía de la siguiente forma tenemos que poner una capuchina de estas que era.
+
+17
+00:01:31,270 --> 00:01:37,470
+Pues como este triangulito el número de caracteres que queremos hacer es truncamiento porque esto significaba
+
+18
+00:01:37,560 --> 00:01:45,780
+al centro en 20 caracteres y ahora un puntito y el índice a partir del cual queremos truncar como queremos
+
+19
+00:01:45,990 --> 00:01:50,720
+a partir del segundo carácter truncaría.
+
+20
+00:01:51,600 --> 00:02:00,330
+De esta forma con un 1 respecto a los números 150 tenemos que formatearlo cinco números enteros rellenados
+
+21
+00:02:00,330 --> 00:02:03,560
+con ceros a la izquierda evidentemente.
+
+22
+00:02:03,930 --> 00:02:10,650
+Para lograrlo tendríamos que indicar que queremos rellenar con cero cinco números enteros.
+
+23
+00:02:11,450 --> 00:02:15,070
+Y eso se lo indicaremos con la que podéis imaginar que la viene de dígito.
+
+24
+00:02:15,090 --> 00:02:20,940
+Si queréis entenderlo así y disculpad porque tendríamos que haber puesto los dos puntitos aquí y aquí
+
+25
+00:02:20,940 --> 00:02:21,690
+también.
+
+26
+00:02:21,900 --> 00:02:29,130
+Siempre tenemos que poner los dos puntitos en el 7 1887 formatearlo a siete números enteros rellenados
+
+27
+00:02:29,130 --> 00:02:36,040
+con espacios para rellenarlo con espacios o simplemente haríamos lo mismo que antes pero lugar de ceros
+
+28
+00:02:36,050 --> 00:02:36,840
+y IMPONER NADA.
+
+29
+00:02:36,840 --> 00:02:39,320
+Por tanto pondríamos siete dígitos.
+
+30
+00:02:39,480 --> 00:02:47,400
+De esta forma y en último caso tenemos 20 puntos 02 formatea tres números enteros y tres números decimales
+
+31
+00:02:48,300 --> 00:02:54,030
+recordar que la coma también cuenta como un número y no está especificado tres números enteros por tanto
+
+32
+00:02:54,030 --> 00:02:57,380
+3 a la izquierda y 3 números decimales 3 a la derecha.
+
+33
+00:02:57,690 --> 00:02:59,810
+Esto es lo que hará en total es lo siguiente.
+
+34
+00:03:00,450 --> 00:03:07,560
+Vamos a rellenar con ceros pero el puntito los dos puntos rellenamos con cero a siete caracteres en
+
+35
+00:03:07,560 --> 00:03:08,670
+total.
+
+36
+00:03:08,940 --> 00:03:12,160
+Punto 3 flotantes.
+
+37
+00:03:12,630 --> 00:03:16,520
+De esta manera vamos a indicar que queremos que el número ocupe 7 dígitos.
+
+38
+00:03:17,370 --> 00:03:24,460
+Teniendo en cuenta el punto por tanto ya nos quedan seis y tres de ellos son flotantes.
+
+39
+00:03:24,870 --> 00:03:26,190
+Si lo ejecutamos.
+
+40
+00:03:26,390 --> 00:03:29,950
+Pues aquí tenemos el primer caso alineado a la derecha o la mundo.
+
+41
+00:03:29,970 --> 00:03:32,340
+Aquí tenemos truncamiento al cuarto carácter.
+
+42
+00:03:32,340 --> 00:03:38,190
+Por tanto llega solo hasta el tercero alineamiento al centro en 20 caracteres truncamiento en el segundo
+
+43
+00:03:38,190 --> 00:03:38,710
+carácter.
+
+44
+00:03:38,700 --> 00:03:42,150
+Eso significa que no está incluido el segundo.
+
+45
+00:03:42,150 --> 00:03:43,890
+O sea que únicamente es una letra.
+
+46
+00:03:44,280 --> 00:03:49,370
+Por tanto es la letra H centrada en medios de 20 caracteres 150.
+
+47
+00:03:49,380 --> 00:03:58,140
+Con los dos ceros delante a cinco caracteres lo mismo pero sin el carácteres y A7 este número irían
+
+48
+00:03:58,160 --> 00:04:01,580
+los tres ceros por delante nuestro ejemplo.
+
+49
+00:04:02,590 --> 00:04:04,210
+20 punto.
+
+50
+00:04:04,650 --> 00:04:09,160
+7 caracteres uno de ellos como el medio y 3.
+
+51
+00:04:09,450 --> 00:04:14,890
+Son flotantes rellenados con ceros muy bien.
+
+52
+00:04:14,910 --> 00:04:21,270
+Vamos a por el siguiente en este ejercicio tenemos que crear un Escribe llamado tabla que realizará
+
+53
+00:04:21,270 --> 00:04:27,750
+las siguientes tareas vamos a realizar todo esto pero ya os adelanto que se trata pues de seguir estas
+
+54
+00:04:27,750 --> 00:04:34,290
+instrucciones realizar todo lo que pone punto por punto y luego observar el funcionamiento como nos
+
+55
+00:04:34,290 --> 00:04:36,150
+va a pedir dos argumentos.
+
+56
+00:04:36,160 --> 00:04:37,470
+Pues tenemos que utilizar.
+
+57
+00:04:39,230 --> 00:04:46,850
+El módulo SYS y la lista ARC hub para poder jugar con estos argumentos me vais a permitir que todo esto
+
+58
+00:04:46,850 --> 00:04:54,410
+lo haga en un escrito que voy a guardar en el directorio scripts simplemente lo voy a guardar aquí en
+
+59
+00:04:54,410 --> 00:04:59,070
+el directorio scripts de mi carpeta curso país donde voy a llamar tabla.
+
+60
+00:04:59,330 --> 00:05:06,110
+Punto Pi por lo que yo estaré ejecutando este ejemplo desde ese directorio vosotros podéis hacerlo donde
+
+61
+00:05:06,110 --> 00:05:07,410
+queráis.
+
+62
+00:05:07,780 --> 00:05:10,280
+Así que vamos a ver qué es lo que nos indican.
+
+63
+00:05:12,460 --> 00:05:17,620
+Este script debe tomar dos argumentos ambos números enteros positivos del 1 al 9 y si no mostrara un
+
+64
+00:05:17,620 --> 00:05:23,380
+error el primer argumento hará referencia a las filas de una tabla y el segundo a las columnas.
+
+65
+00:05:23,380 --> 00:05:28,640
+En caso de no recibir uno o ambos argumentos debe mostrar información acerca de cómo utilizar el escrito.
+
+66
+00:05:29,140 --> 00:05:31,880
+Vale vamos a ponernos con estos tres primeros puntos.
+
+67
+00:05:33,670 --> 00:05:38,880
+Vamos a comenzar importando la librería de sistema para poder capturar estos argumentos.
+
+68
+00:05:38,950 --> 00:05:48,370
+Vamos a comprobar si la longitud de estos argumentos leídos es igual a 3 teniendo en cuenta que el primer
+
+69
+00:05:48,370 --> 00:05:51,070
+argumento perdona el primer elemento de esta lista.
+
+70
+00:05:51,160 --> 00:05:53,720
+ARC siempre es el propio nombre del fichero.
+
+71
+00:05:54,530 --> 00:06:00,290
+Si es igual a 3 significa que como mínimo tenemos estas supuestas filas y columnas.
+
+72
+00:06:00,500 --> 00:06:06,560
+Así que vamos a recuperarlas y las vamos a convertir ya que éstas vienen en formato de cadena de texto
+
+73
+00:06:07,130 --> 00:06:14,720
+a números tanto si es que UBE refiriéndonos como si fuera una lista y vamos a referirnos al índice 1
+
+74
+00:06:14,720 --> 00:06:22,300
+que sería el segundo elemento de esta lista y vamos a guardar otra llamada columnas con el índice.
+
+75
+00:06:22,310 --> 00:06:24,380
+2.
+
+76
+00:06:24,860 --> 00:06:29,120
+En caso de que nada de esto se cúmplase a que la longitud ya no sea correcta pues vamos a mostrar un
+
+77
+00:06:29,120 --> 00:06:32,250
+mensaje de error sin error.
+
+78
+00:06:32,990 --> 00:06:35,670
+Argumentos incorrectos.
+
+79
+00:06:38,840 --> 00:06:42,540
+Por ejemplo pondríamos como se tiene que ejecutar este script.
+
+80
+00:06:42,710 --> 00:06:53,090
+Un ejemplo para si alguien lo necesita sería utilizar tablas bi pasandolo un número entre 1 y 10.
+
+81
+00:06:53,090 --> 00:06:59,960
+De esta forma y otro número entre 1 y 10 el primero haría referencia a unas supuestas filas y un segundo
+
+82
+00:06:59,960 --> 00:07:02,320
+a unas supuestas columnas.
+
+83
+00:07:02,960 --> 00:07:05,640
+Muy bien qué más nos dice.
+
+84
+00:07:07,490 --> 00:07:12,110
+Nos dice que tienen que ser números enteros positivos del 1 al 9.
+
+85
+00:07:12,200 --> 00:07:19,190
+Por tanto tendríamos que especificar Aquí puesto 10 pero tendría que ser 9 Vale pues tendríamos que
+
+86
+00:07:19,190 --> 00:07:24,050
+comprobar que estos números filas y columnas no son ni menores que uno.
+
+87
+00:07:25,180 --> 00:07:30,360
+Ni mayores nueve que estén entre este rango que tenemos ahí.
+
+88
+00:07:30,750 --> 00:07:46,000
+Así que vamos a comprobarlo y filas menor que 1 filas mayor que 9 por filas perdón columnas menor que
+
+89
+00:07:46,000 --> 00:07:51,150
+uno por columnas mayor que 9.
+
+90
+00:07:51,660 --> 00:07:56,640
+Pues estas son las cuatro posibilidades para indicar que esto no va bien.
+
+91
+00:07:57,100 --> 00:08:00,610
+En este caso mostraremos más o menos un mensaje como el de abajo.
+
+92
+00:08:03,230 --> 00:08:05,180
+De esta forma pero en lugar diríamos.
+
+93
+00:08:05,860 --> 00:08:09,340
+Filas o columnas por ejemplo incorrectas.
+
+94
+00:08:09,360 --> 00:08:11,370
+Y aquí pondríamos como se utiliza el escrito.
+
+95
+00:08:12,750 --> 00:08:20,530
+En caso de que esto no se cumpla significará que realmente tenemos un número correcto en filas y columnas.
+
+96
+00:08:20,760 --> 00:08:22,450
+Por tanto vamos a poner un.
+
+97
+00:08:22,770 --> 00:08:31,560
+Y aquí empieza la lógica la lógica de verdad nos indica que le escribe tendrá un bucle for iterar al
+
+98
+00:08:31,560 --> 00:08:35,880
+número de veces del primer argumento es decir el número de veces.
+
+99
+00:08:36,910 --> 00:08:37,800
+Filas.
+
+100
+00:08:38,010 --> 00:08:40,760
+A crear un fork fácilmente.
+
+101
+00:08:40,900 --> 00:08:46,860
+Por ejemplo vamos a llamarlo ya que las filas por f imran vamos a crear un ranking del número de veces
+
+102
+00:08:46,860 --> 00:08:55,910
+que nos ha indicado las filas y a continuación nos dice que dentro del foro añadamos un segundo que
+
+103
+00:08:56,130 --> 00:08:58,530
+el número de veces del segundo argumento.
+
+104
+00:08:58,890 --> 00:09:05,460
+Por tanto suponiendo que tenemos las filas dentro tendríamos otro foro para las columnas forcé y ranks
+
+105
+00:09:05,880 --> 00:09:11,430
+columnas de acuerdo.
+
+106
+00:09:11,430 --> 00:09:17,370
+Ahora nos dice que dentro del segundo foro ejecutaremos una instrucción llamada Print le pasaremos un
+
+107
+00:09:17,370 --> 00:09:23,370
+texto con un asterisco y un argumento con una cadena de caracteres vacía.
+
+108
+00:09:23,700 --> 00:09:30,900
+Vamos a hacerlo podemos copiarlo directamente y según lo que pone éste no se evitará hacer el salto
+
+109
+00:09:30,900 --> 00:09:38,010
+de línea por tanto debería demostrar varias veces este asterisco de acuerdo.
+
+110
+00:09:38,010 --> 00:09:42,750
+Ahora nos indican que ejecutamos el código y observemos el resultado.
+
+111
+00:09:43,180 --> 00:09:45,500
+Bueno vamos a ejecutarlo este escrito.
+
+112
+00:09:45,660 --> 00:09:54,710
+Voy a guardarlo voy a abrir una consola y voy a ejecutarlo muy bien aquí tengo la consola.
+
+113
+00:09:54,860 --> 00:10:00,950
+Estoy en el directorio esquives y lo único que tengo que hacer es ejecutar este script Payton tabla
+
+114
+00:10:01,020 --> 00:10:02,030
+puntos.
+
+115
+00:10:02,910 --> 00:10:07,250
+Si ya no le paso ningún valor por ejemplo me dice que los argumentos son incorrectos.
+
+116
+00:10:07,380 --> 00:10:15,540
+Por ejemplo vamos a indicarle cinco filas y cinco columnas y a ver qué sucede.
+
+117
+00:10:16,110 --> 00:10:17,600
+Bueno lo que nos aparece aquí.
+
+118
+00:10:18,300 --> 00:10:28,960
+Pues son 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 9 10 25 asteriscos Por qué 25 asteriscos.
+
+119
+00:10:29,300 --> 00:10:36,560
+Bueno si solo para pensar cinco filas por cinco columnas es igual a 25 es decir que ejecutaremos este
+
+120
+00:10:36,580 --> 00:10:44,580
+effort anidado 25 veces como mínimo esa es la razón por la que aparecen 25 asteriscos y no aparecen
+
+121
+00:10:44,580 --> 00:10:50,450
+en líneas distintas porque hemos indicado que no hay salto de línea como veis.
+
+122
+00:10:51,410 --> 00:10:58,340
+Entonces nos dicen lo siguiente intentan deducir dónde y cómo añadir otra instrucción en Prin para dibujar
+
+123
+00:10:58,340 --> 00:11:04,580
+una tabla en algún lugar de nuestro programa de nuestro escrig Añadiendo un salto de línea un prints
+
+124
+00:11:04,580 --> 00:11:09,410
+normal vacío podríamos dibujar una tabla pero dónde.
+
+125
+00:11:09,810 --> 00:11:12,510
+Es el lugar donde puede ser este Prin.
+
+126
+00:11:14,290 --> 00:11:15,870
+Eso es lo paráis a pensar.
+
+127
+00:11:15,900 --> 00:11:17,380
+Aquí tenemos las filas.
+
+128
+00:11:18,140 --> 00:11:24,130
+Y en realidad que vemos cinco filas este forcé que kutz cinco veces y hemos pasado cinco.
+
+129
+00:11:25,230 --> 00:11:28,700
+Y lo que tenemos aquí son 25 asteriscos.
+
+130
+00:11:28,860 --> 00:11:34,410
+A lo mejor nos gustaría posicionar cada Asterisk cada cinco asteriscos en una nueva línea para formar
+
+131
+00:11:34,410 --> 00:11:37,770
+alguna especie de cuadrado o algo así.
+
+132
+00:11:38,820 --> 00:11:46,060
+Pues vamos a poner un Prin aquí justo antes del otro Ford del Ford de las columnas.
+
+133
+00:11:46,080 --> 00:11:52,380
+Vamos a poner un Pinet para que se ejecute cinco veces una por cada vez que le pasamos estas filas digo
+
+134
+00:11:52,440 --> 00:11:54,500
+5 pero será lo que en Jalisco.
+
+135
+00:11:54,540 --> 00:12:00,660
+Evidentemente iba a ser un pintás y vacío simplemente para crear una linea.
+
+136
+00:12:01,050 --> 00:12:08,100
+Vamos a guardar y voy a volver a ejecutar exactamente este código y a ver qué sucede ahora.
+
+137
+00:12:08,100 --> 00:12:16,320
+Bueno pues como veis aquí tenemos una especie de cajón con asteriscos síndica semos por ejemplo 3 y
+
+138
+00:12:16,320 --> 00:12:28,920
+3 teníamos un cajón más pequeño con tres filas y tres columnas sin ni casemos 5 por 2 5 filas y dos
+
+139
+00:12:28,920 --> 00:12:29,900
+columnas.
+
+140
+00:12:30,860 --> 00:12:36,310
+Sindicarse los dos por cinco dos filas y cinco columnas.
+
+141
+00:12:37,020 --> 00:12:44,340
+Como veis lo que hemos hecho es crear un pequeño código utilizando dos foros que es capaz de dibujar
+
+142
+00:12:44,340 --> 00:12:45,180
+una tabla.
+
+143
+00:12:46,040 --> 00:12:47,410
+Con asteriscos.
+
+144
+00:12:47,570 --> 00:12:51,710
+A partir de dos argumentos que nosotros enviamos a este script.

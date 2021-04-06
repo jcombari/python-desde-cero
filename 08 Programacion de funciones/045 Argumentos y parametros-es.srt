@@ -1,0 +1,179 @@
+1
+00:00:01,560 --> 00:00:06,170
+Como ya hemos visto tradicionalmente al definir una función se indica en el nombre de las variables
+
+2
+00:00:06,350 --> 00:00:11,160
+y al llamar a la función no los argumentos concuerdan en posición con los parámetros de ahí que se les
+
+3
+00:00:11,160 --> 00:00:13,020
+llame argumentos por posición.
+
+4
+00:00:13,130 --> 00:00:19,230
+Vamos a entrar a la Lección 4 y vamos a practicar una nueva función como es hacer la función restar
+
+5
+00:00:19,560 --> 00:00:22,710
+que recibe todos valores.
+
+6
+00:00:22,710 --> 00:00:29,260
+Hay dos parámetros y los devuelve restados retour a menos.
+
+7
+00:00:29,580 --> 00:00:40,350
+Si llamamos a una resta por ejemplo 2 y 1 pues nos devuelve 1 muy bien como veis si cambiásemos el orden
+
+8
+00:00:40,830 --> 00:00:44,950
+pusieramos 1 y 2 pues el resultado sería diferente.
+
+9
+00:00:44,960 --> 00:00:48,520
+Por qué los estamos pasando por posición.
+
+10
+00:00:50,750 --> 00:00:56,030
+Sin embargo también es posible enviar sus argumentos por nombre y su gracia es que podemos cambiar el
+
+11
+00:00:56,030 --> 00:00:59,150
+orden a nuestro antojo en el momento de llamarlo la función.
+
+12
+00:00:59,150 --> 00:01:11,360
+Por ejemplo poniendo resta y especificando que la B va a valer 2 y que la va a valer 1 por ejemplo.
+
+13
+00:01:11,360 --> 00:01:14,020
+De esta forma ya hacemos referencia directa.
+
+14
+00:01:14,950 --> 00:01:18,160
+A los parámetros pero a través de su nombre.
+
+15
+00:01:19,850 --> 00:01:26,720
+Si tuviéramos muchos parámetros podríamos establecer en los argumentos el nombre y el valor sin necesidad
+
+16
+00:01:26,720 --> 00:01:31,640
+de estar comprobando la posición correcta de su ejecución.
+
+17
+00:01:32,270 --> 00:01:38,750
+Y otra cosa que podemos hacer es asignar un valor por defecto a los a los parámetros de una función
+
+18
+00:01:39,080 --> 00:01:47,420
+para evitar que por ejemplo se ejecute una función incorrectamente porque si utilizamos la función restã
+
+19
+00:01:47,540 --> 00:01:50,360
+y no le pasamos nada nos da error.
+
+20
+00:01:50,450 --> 00:01:53,840
+Dice que se requieren dos argumentos por posición.
+
+21
+00:01:54,000 --> 00:01:54,770
+Ay B.
+
+22
+00:01:55,070 --> 00:01:57,200
+Y claro no los estamos pasando.
+
+23
+00:01:57,380 --> 00:02:06,970
+Entonces para arreglar esto por ejemplo podríamos definir la resta ayame asignarles un valor por defecto
+
+24
+00:02:07,010 --> 00:02:11,660
+y lo único que tenemos que hacer es asignar este valor por defecto a los parámetros por ejemplo que
+
+25
+00:02:11,690 --> 00:02:14,650
+es un valor nulo que no tiene nada.
+
+26
+00:02:15,380 --> 00:02:21,250
+Entonces podríamos simplemente devolver Return a menos B.
+
+27
+00:02:21,560 --> 00:02:28,130
+El problema es que si ahora ejecutamos la resta sin nada el error ya no es que se echan a faltar dos
+
+28
+00:02:28,190 --> 00:02:36,110
+argumentos por posición sino que ahora el tipo None no Netvibes que es el que lo hemos pasado por defecto.
+
+29
+00:02:36,140 --> 00:02:42,710
+Porque como no les hemos enviado ningún argumento pues hoy vale None dice que no se pueden hacer ninguna
+
+30
+00:02:42,710 --> 00:02:43,210
+operación.
+
+31
+00:02:43,220 --> 00:02:50,540
+Entre estos no es por tanto lo que tendríamos que comprobar es si el valor que tiene antes de devolver
+
+32
+00:02:50,540 --> 00:02:53,440
+la resta es diferente.
+
+33
+00:02:53,870 --> 00:02:58,410
+Por ejemplo si A es igual a nunez.
+
+34
+00:02:59,470 --> 00:03:07,260
+B es igual a nones y uno de los dos es que por defecto podríamos mostrar un mensaje y decir error.
+
+35
+00:03:07,700 --> 00:03:16,220
+Debes enviar dos números a la función y acto seguido Por ejemplo podríamos hacer un RETURN vacío sin
+
+36
+00:03:16,220 --> 00:03:22,610
+nada y luego podríamos por ejemplo ya lo ya lo tendríamos.
+
+37
+00:03:22,610 --> 00:03:27,360
+No tenemos que hacer nada porque esto sólo se ejecutaría en caso de que uno de los dos valga None.
+
+38
+00:03:27,500 --> 00:03:33,830
+Y si después se haría la resta pero también podríamos hacerlo con un élse y poner esto así como queráis
+
+39
+00:03:34,070 --> 00:03:35,740
+dejarlo como queráis.
+
+40
+00:03:35,870 --> 00:03:41,780
+Si ejecutamos esto esta vez como no hemos pasado los dos argumentos correctamente ya nos avisa de ese
+
+41
+00:03:41,780 --> 00:03:44,020
+error de enviar dos números a la función.
+
+42
+00:03:44,150 --> 00:03:46,990
+Si sólo pasamos uno también nos da error.
+
+43
+00:03:47,260 --> 00:03:53,760
+Y si pasamos 2 se ejecuta perfectamente y si quitamos eso se lo dejamos igual.
+
+44
+00:03:53,920 --> 00:03:56,360
+Pues tenemos exactamente lo mismo que antes.
+
+45
+00:03:57,330 --> 00:04:02,180
+En la siguiente elección aprenderemos la diferencia entre el paso por valor y el paso por referencia.

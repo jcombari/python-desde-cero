@@ -1,0 +1,559 @@
+1
+00:00:00,480 --> 00:00:03,930
+Vamos a por la Lección 3 de atributos y métodos de clase.
+
+2
+00:00:04,440 --> 00:00:10,290
+Y siguiendo con nuestro ejemplo de las galletas estareis de acuerdo conmigo que pese a que utilicemos
+
+3
+00:00:10,290 --> 00:00:15,190
+el mismo molde para crear galletas no todas acaban siendo iguales.
+
+4
+00:00:15,540 --> 00:00:22,550
+Eso es porque todas las galletas comparten un proceso de creación y unos atributos básicos como son
+
+5
+00:00:22,560 --> 00:00:25,100
+el sabor la forma del color.
+
+6
+00:00:25,560 --> 00:00:28,470
+Pero luego cada uno adquiere unos valores diferentes.
+
+7
+00:00:28,470 --> 00:00:31,690
+Por ejemplo algunas galletas son más dulces que otras.
+
+8
+00:00:31,830 --> 00:00:38,280
+Otras quizá salen más oscuras porque han estado más rato relajadas e incluso es posible que alguna se
+
+9
+00:00:38,280 --> 00:00:38,940
+rompa.
+
+10
+00:00:39,180 --> 00:00:45,690
+Y su forma de arruinara no estaría de acuerdo conmigo entonces en que el valor de estos atributos es
+
+11
+00:00:45,690 --> 00:00:50,430
+lo que diferencia a cada galleta de las otras y la hace única y especial.
+
+12
+00:00:51,780 --> 00:00:56,670
+Pues la gracia de la programación orientada a objetos es que los objetos también pueden tener sus propios
+
+13
+00:00:56,670 --> 00:00:57,580
+atributos.
+
+14
+00:00:57,690 --> 00:01:04,110
+Una especie de variables internas a las que nos podemos referir a ellas con un puntito y el nombre del
+
+15
+00:01:04,110 --> 00:01:05,040
+atributo.
+
+16
+00:01:05,430 --> 00:01:11,430
+Lo mejor es que si éste no existe se creará automáticamente dentro de la instancia del objeto y podremos
+
+17
+00:01:11,430 --> 00:01:15,420
+utilizarlo por ejemplo clase o galleta
+
+18
+00:01:18,870 --> 00:01:24,930
+creamos una galleta galleta.
+
+19
+00:01:25,950 --> 00:01:30,980
+Ahora podemos crear un nuevo sabor a esta galleta una galleta.
+
+20
+00:01:31,590 --> 00:01:32,520
+Punto.
+
+21
+00:01:32,520 --> 00:01:37,010
+Sabor y podemos darle un sabor por ejemplo Salado.
+
+22
+00:01:37,830 --> 00:01:42,500
+Podríamos crear por ejemplo otro atributo una galleta.
+
+23
+00:01:43,620 --> 00:01:44,220
+Punto.
+
+24
+00:01:44,220 --> 00:01:48,100
+COLOR Marrón.
+
+25
+00:01:49,890 --> 00:01:58,950
+Ahora podemos dirigirnos a estos atributos simplemente mostrando con un punto este atributo del objeto
+
+26
+00:01:59,730 --> 00:02:02,850
+print una galleta.
+
+27
+00:02:05,330 --> 00:02:07,920
+Punto sabor.
+
+28
+00:02:08,090 --> 00:02:09,500
+Ahí lo tenemos.
+
+29
+00:02:09,620 --> 00:02:12,620
+Podríamos concatenar a una cadena.
+
+30
+00:02:13,060 --> 00:02:17,600
+El sabor de esta galleta es
+
+31
+00:02:20,600 --> 00:02:31,190
+salado muy bien pero aparte de definirlos fuera también podemos definirlos directamente en la clase
+
+32
+00:02:32,090 --> 00:02:36,160
+y darle un valor por defecto compartido por todas las instancias.
+
+33
+00:02:36,170 --> 00:02:39,100
+Por ejemplo vamos a volver a declarar la galleta.
+
+34
+00:02:39,300 --> 00:02:46,400
+Y en esta ocasión en lugar de poner un pan vamos a poner que por defecto todas las galletas tengan una
+
+35
+00:02:46,400 --> 00:02:52,610
+variable interna llamada chocolate a false.
+
+36
+00:02:52,820 --> 00:02:56,380
+Por tanto las galletas no tienen chocolate por defecto.
+
+37
+00:02:56,720 --> 00:03:03,350
+Si creamos una galleta y comprobamos si esta galleta tiene chocolate vamos a ponerlo con un auge.
+
+38
+00:03:03,380 --> 00:03:13,350
+Para ir más rápido una galleta y vamos a comprobar si tiene el chocolate he equivocado o Late.
+
+39
+00:03:13,470 --> 00:03:19,420
+Así pues me dice que es falso no tiene chocolate no porque por defecto le indicado que no tiene.
+
+40
+00:03:19,430 --> 00:03:30,350
+Ahora bien si yo pusiera que el chocolate es igual a Trump y luego lo comprobase de nuevo pues entonces
+
+41
+00:03:30,350 --> 00:03:32,980
+esta galleta ya tiene chocolate.
+
+42
+00:03:33,980 --> 00:03:40,520
+Pero claro digamos que añadir de uno en uno de los atributos es un poco engorroso.
+
+43
+00:03:40,520 --> 00:03:46,190
+Por eso lo interesante es establecerlos en el momento de crear un objeto y para hacerlo antes tenemos
+
+44
+00:03:46,190 --> 00:03:48,770
+que introducir dos conceptos nuevos.
+
+45
+00:03:48,770 --> 00:03:52,130
+Uno es el método especial llamado ineed y el otro.
+
+46
+00:03:52,130 --> 00:03:59,690
+La palabra reservada Self vamos a desarrollar de nuevo esta clase y vamos a introducir ambos conceptos.
+
+47
+00:04:00,110 --> 00:04:09,730
+Vamos a crear la galleta la clase de galleta por defecto ninguna almendra chocolate.
+
+48
+00:04:10,560 --> 00:04:22,280
+Y aquí viene el método IMI se escribe con dos barras bajas init dos barras bajas y aquí se abre un paréntesis
+
+49
+00:04:22,280 --> 00:04:26,800
+y se escribe Los dos puntos.
+
+50
+00:04:27,370 --> 00:04:30,310
+Y por qué íbamos a escribir lo siguiente Prin.
+
+51
+00:04:30,710 --> 00:04:35,340
+Se acaba de crear una galleta.
+
+52
+00:04:36,230 --> 00:04:41,450
+Por último vamos a crear una galleta igual de galleta
+
+53
+00:04:44,150 --> 00:04:47,400
+muy bien que acabamos de hacer.
+
+54
+00:04:47,980 --> 00:04:51,150
+Mirad un método el método init por ejemplo.
+
+55
+00:04:51,470 --> 00:04:53,140
+Es una función interna de la clase.
+
+56
+00:04:53,150 --> 00:05:00,560
+No sé si a estas alturas hacía falta aclararlo pero venimos hablando de funciones todo el curso y un
+
+57
+00:05:00,560 --> 00:05:05,740
+método es la palabra que indica una función dentro de una clase.
+
+58
+00:05:06,680 --> 00:05:12,660
+Entonces este método se comparte por todos los objetos de la misma clase.
+
+59
+00:05:13,670 --> 00:05:19,630
+Concretamente el método init es un método especial que se ejecuta al crear un objeto.
+
+60
+00:05:21,130 --> 00:05:23,060
+Cuidado porque he dicho que es especial.
+
+61
+00:05:24,240 --> 00:05:33,420
+Permite además enviarle argumentos Durante la instancia acción y como podéis suponer los metodos especiales
+
+62
+00:05:33,420 --> 00:05:38,800
+se escriben con dos barras bajas delante y dos barras bajas detrás.
+
+63
+00:05:39,420 --> 00:05:43,650
+Pero hablaremos más adelante sobre los métodos especiales.
+
+64
+00:05:44,220 --> 00:05:52,110
+En cuanto a la palabra Shelf que tienen todos los métodos sean especiales o no hacer referencia al propio
+
+65
+00:05:52,110 --> 00:05:58,160
+objeto y sirve para diferenciar entre el ámbito de clase y el de un método.
+
+66
+00:05:58,440 --> 00:06:03,690
+Es un requisito implícito en todos los métodos ya que por defecto al llamar cualquier método se pasa
+
+67
+00:06:03,690 --> 00:06:06,950
+automáticamente al propio objeto.
+
+68
+00:06:06,960 --> 00:06:12,390
+Esto ocurre de forma transparente en la llamada pero es obligatorio la definición.
+
+69
+00:06:12,390 --> 00:06:16,820
+Os voy a enseñar un ejemplo para que lo veáis más detenidamente.
+
+70
+00:06:17,580 --> 00:06:20,910
+Imaginar que volvemos a tener toda esta definición.
+
+71
+00:06:20,910 --> 00:06:23,450
+Yo creo crear un método propio.
+
+72
+00:06:23,610 --> 00:06:30,300
+Por ejemplo voy a poner un suelto de línea aquí y voy a crear un método una función interna llamada
+
+73
+00:06:31,010 --> 00:06:41,700
+yo con la que tengo que pasar obligatoriamente los puntos y vamos a hacer lo siguiente.
+
+74
+00:06:41,970 --> 00:06:50,850
+Al llamar al método chocolate AR cogeremos esta variable interna que es un atributo de clase y le daremos
+
+75
+00:06:50,910 --> 00:06:56,010
+a chocolate el valor True.
+
+76
+00:06:56,670 --> 00:07:06,010
+Por tanto si creamos una galleta y llamamos a su método interno chocolate haur chocolate.
+
+77
+00:07:07,730 --> 00:07:12,930
+Y luego mostramos el valor de chocolate.
+
+78
+00:07:13,200 --> 00:07:15,520
+Siempre me equivoco.
+
+79
+00:07:16,320 --> 00:07:17,460
+La T.
+
+80
+00:07:17,980 --> 00:07:21,300
+Pues fijaros que lo que sucede nos dice se acaba de crear una galleta.
+
+81
+00:07:22,150 --> 00:07:30,240
+El chocolate dado la galleta pero me dice que chocolates falsee y acabamos de hacer esto de aquí.
+
+82
+00:07:30,240 --> 00:07:34,170
+Ahí viene el por qué de ser esta variable.
+
+83
+00:07:34,240 --> 00:07:35,730
+Chocolate o Esteba.
+
+84
+00:07:35,800 --> 00:07:40,990
+Esta atributo que nosotros pensamos que hace referencia a esto de aquí en realidad no hace referencia
+
+85
+00:07:40,990 --> 00:07:51,010
+a eso sino a una variable interna de la función chocolateras para poder acceder al atributo de clase.
+
+86
+00:07:51,010 --> 00:07:56,590
+Tenemos que referirnos a él con un solo punto y el nombre del atributo.
+
+87
+00:07:56,590 --> 00:08:00,600
+Si volvemos a ejecutar esto ahora ya tenemos que chocolate.
+
+88
+00:08:00,820 --> 00:08:07,210
+Cambia el atributo interno de la galleta Astrud y por eso ahora sí que nos devuelve verdadero o nos
+
+89
+00:08:07,210 --> 00:08:08,400
+devuelve true.
+
+90
+00:08:08,920 --> 00:08:18,310
+Podemos acabar de crear otro método interno por ejemplo llamado dez tiene chocolate.
+
+91
+00:08:19,570 --> 00:08:31,180
+Vamos a pasar a ser como antes y vamos a someter a una pregunta si el chocolate sí tiene chocolate.
+
+92
+00:08:31,180 --> 00:08:41,680
+Vamos a escribir por pantalla soy una galleta por ejemplo chocolate dada una carita que me encantan
+
+93
+00:08:41,680 --> 00:08:48,850
+las galletas de chocolate y en cambio si no es con chocolate si no tienes chocolate mostraremos una
+
+94
+00:08:49,330 --> 00:08:56,600
+frase con una carita triste sólo una galleta sin chocolate.
+
+95
+00:09:00,080 --> 00:09:09,230
+Ahora en lugar de mostrar esto aquí podríamos mostrar si tiene chocolate antes y después de chocolate
+
+96
+00:09:09,230 --> 00:09:10,970
+darla.
+
+97
+00:09:11,290 --> 00:09:13,580
+Como veis acaba de crear una galleta.
+
+98
+00:09:14,270 --> 00:09:19,480
+Dice que es unas galletas y el chocolate pero cuando la chocolate vamos y volvemos a comprobar si tiene
+
+99
+00:09:19,480 --> 00:09:25,070
+chocolate o no ya está sonriente porque ya tiene chocolate.
+
+100
+00:09:25,660 --> 00:09:31,510
+Sea como sea y como acabáis de comprobar gracias al Shelf podemos hacer referencia al propio objeto
+
+101
+00:09:31,930 --> 00:09:35,230
+y asignar unos cuantos atributos de la propia creación.
+
+102
+00:09:35,830 --> 00:09:43,000
+Por ejemplo como esto se llama por defecto vamos a volver a declarar todo esto y vamos a modificar el
+
+103
+00:09:43,060 --> 00:09:52,700
+INIT justo aquí para pasarle unos parámetros por ejemplo sabor y color.
+
+104
+00:09:53,860 --> 00:10:03,190
+De esta forma vamos a aceptar estos dos parámetros y los vamos a asignar dentro de límites a unos atributos
+
+105
+00:10:03,220 --> 00:10:04,810
+que podemos crear aquí mismo.
+
+106
+00:10:04,960 --> 00:10:11,050
+Pero para que sean atributos de clase tenemos que crearlos con el fin de dirigiéndonos a ellos con la
+
+107
+00:10:11,050 --> 00:10:19,630
+palabra delante sabor y dándoles el valor que acabamos de pasarle a los parámetros color.
+
+108
+00:10:19,690 --> 00:10:30,160
+De esta forma por qué estás aquí hacen referencia a la función de la función init y estás aquí a las
+
+109
+00:10:30,460 --> 00:10:38,140
+de la clase con Shelf son distintas y de hecho podríamos poner que se acaba de crear una galleta por
+
+110
+00:10:38,140 --> 00:10:39,230
+ejemplo.
+
+111
+00:10:39,730 --> 00:10:49,770
+Y aquí un paréntesis de estos unas llaves en forma y podríamos pasarle sabor y color.
+
+112
+00:10:50,460 --> 00:10:58,240
+Vamos a abordar todo esto y ahora si creamos una nueva Galleta Galleta igual que ésta podríamos pasarle
+
+113
+00:11:00,490 --> 00:11:01,210
+salada
+
+114
+00:11:03,760 --> 00:11:06,520
+y marrón.
+
+115
+00:11:07,930 --> 00:11:10,180
+Se acaba de crear una galleta salada.
+
+116
+00:11:11,150 --> 00:11:11,590
+Marrón.
+
+117
+00:11:11,600 --> 00:11:18,150
+Podríamos poner una y aquí medio guardamos todo esto se acaba de crear una galleta salada y marrón.
+
+118
+00:11:18,560 --> 00:11:20,910
+El color no pega mucho.
+
+119
+00:11:20,930 --> 00:11:31,220
+Podía haber puesto forma y lugar de color forma la forma y decirle por ejemplo que en lugar de marrones.
+
+120
+00:11:32,590 --> 00:11:34,290
+Cuadrada.
+
+121
+00:11:35,370 --> 00:11:38,060
+Y se acaba de crear unas galletas saladas y cuadrada.
+
+122
+00:11:38,200 --> 00:11:40,580
+Tiene más sentido.
+
+123
+00:11:40,990 --> 00:11:45,980
+Aún así tendríamos un problema si intentamos crear una galleta sin atributos.
+
+124
+00:11:46,150 --> 00:11:53,780
+Es decir así galleta igual galleta sin nada como cuando intentamos llamar a una función sin pasarle
+
+125
+00:11:53,830 --> 00:11:55,810
+todos los argumentos necesarios.
+
+126
+00:11:56,050 --> 00:11:59,920
+De hecho ya nos dice aquí que requiere dos argumentos posicionales.
+
+127
+00:12:00,040 --> 00:12:07,780
+La ventaja es que al igual que antes podemos vamos a copiar todo esto definir un valor por defecto en
+
+128
+00:12:07,780 --> 00:12:08,730
+las funciones.
+
+129
+00:12:08,740 --> 00:12:15,570
+Por ejemplo en el linney por ejemplo que se Danone y la forma tan bien que se Danone.
+
+130
+00:12:16,990 --> 00:12:21,640
+De esta forma por defecto cuando queremos una galleta
+
+131
+00:12:25,310 --> 00:12:28,100
+nos dices acabas de crear una galleta.
+
+132
+00:12:28,150 --> 00:12:34,210
+Y no porque no tiene ningún valor no podríamos cambiar esto y que únicamente se muestre el mensaje.
+
+133
+00:12:34,480 --> 00:12:46,660
+Si el sabor y forma tienen un valor distinto de Danone y sabor y no None y forma no no podríamos mostrar
+
+134
+00:12:46,660 --> 00:12:55,050
+por pantalla esto si volvemos a ejecutarlo como lo hemos pasado vacío pues no nos pasa nada.
+
+135
+00:12:55,060 --> 00:13:02,070
+Pero si dijéramos que es larga y cuadrada.
+
+136
+00:13:02,980 --> 00:13:09,400
+Pues sí que nos muestra el mensaje porque ya está comprobando este ihf y como se cumplen nos muestra
+
+137
+00:13:09,490 --> 00:13:12,910
+por pantalla el mensaje de que se acaba de crear una galleta.
+
+138
+00:13:13,240 --> 00:13:14,300
+Muy bien.
+
+139
+00:13:14,440 --> 00:13:19,130
+Como habéis visto tenemos atributos y métodos de clase.
+
+140
+00:13:19,420 --> 00:13:24,680
+Palabra Shelf importante y método init también importante.

@@ -1,0 +1,243 @@
+1
+00:00:00,660 --> 00:00:06,350
+En cualquier lenguaje de programación si hablamos de objetos es obligatorio también hablar de clases.
+
+2
+00:00:06,450 --> 00:00:09,000
+De hecho sin clases no había objetos.
+
+3
+00:00:09,060 --> 00:00:10,230
+Por qué.
+
+4
+00:00:10,230 --> 00:00:13,090
+Porque las clases son los moldes de los objetos.
+
+5
+00:00:13,140 --> 00:00:19,290
+En cierta forma al igual que un molde de galletas y las propias galletas vamos a ir a la lección dos
+
+6
+00:00:19,380 --> 00:00:26,260
+clases y objetos y vamos a hacer lo siguiente Vamos a definir una clase.
+
+7
+00:00:26,460 --> 00:00:33,960
+Las galletas dos puntos y dentro vamos a poner un paz para dejarlo aquí.
+
+8
+00:00:33,990 --> 00:00:38,800
+Eso es una clase yeta que no tiene nada que ver podríamos poner arriba.
+
+9
+00:00:39,210 --> 00:00:45,910
+La clase es como un molde para crear objetos.
+
+10
+00:00:46,110 --> 00:00:51,210
+Voy a ejecutarlo y ahora vamos a crear algunos objetos.
+
+11
+00:00:51,210 --> 00:00:53,920
+Vamos a crear algunas galletas de esta clase.
+
+12
+00:00:54,480 --> 00:01:04,050
+Por ejemplo una galleta igual y para crear una galleta de esta clase galleta haciendo referencia al
+
+13
+00:01:04,050 --> 00:01:05,680
+mismo nombre.
+
+14
+00:01:06,120 --> 00:01:15,090
+Unos paréntesis podemos crear otra galleta igual que antes galleta entre paréntesis.
+
+15
+00:01:16,110 --> 00:01:24,180
+Fijaros importante palabra empieza con mayúscula para una buena sintaxis para distinguir bien las clases
+
+16
+00:01:25,050 --> 00:01:28,430
+de las variables normales o las funciones normales.
+
+17
+00:01:28,440 --> 00:01:34,410
+La primera letra del nombre de la clase es mayúscula y a la hora de crear las galletas de crear los
+
+18
+00:01:34,410 --> 00:01:35,330
+objetos.
+
+19
+00:01:36,120 --> 00:01:38,760
+Nos referimos a ella como si fuera una función.
+
+20
+00:01:38,970 --> 00:01:43,020
+En este caso vacía este proceso.
+
+21
+00:01:43,960 --> 00:01:46,090
+De crear un objeto a partir de su clase.
+
+22
+00:01:46,200 --> 00:01:52,430
+Se denomina instancia acción y de hecho un objeto también se conoce como una instancia de clase.
+
+23
+00:01:52,710 --> 00:01:57,720
+El concepto de instancia es muy importante ya que hace referencia a algo que existe en la memoria del
+
+24
+00:01:57,720 --> 00:02:03,400
+ordenador pero sólo mientras el programa está en marcha es igual que el ciclo de vida de una galleta.
+
+25
+00:02:03,750 --> 00:02:10,530
+Una galleta se crea a partir del molde y cuando te la comes desaparece ya no existe un objeto se crea
+
+26
+00:02:10,530 --> 00:02:15,540
+a partir de la clase y cuando finaliza el programa se libera de la memoria y desaparece.
+
+27
+00:02:15,540 --> 00:02:17,670
+Ya no existe.
+
+28
+00:02:17,730 --> 00:02:23,400
+Es lo contrario a lo que sucedería con una base de datos dentro del programa se escribiría dentro de
+
+29
+00:02:23,400 --> 00:02:31,140
+la base de datos y cuando finaliza el programa seguiría existiendo esa información dentro de la base
+
+30
+00:02:31,140 --> 00:02:31,800
+de datos.
+
+31
+00:02:31,800 --> 00:02:38,890
+Aunque el programa no esté en marcha y eso es la persistencia de datos pero hablaremos de eso más adelante.
+
+32
+00:02:39,690 --> 00:02:46,890
+Dicho todo esto podemos saber la clase de un objeto o valor gracias a la función TIB una función estrechamente
+
+33
+00:02:46,920 --> 00:02:49,460
+ligada a las clases y los objetos.
+
+34
+00:02:49,680 --> 00:03:02,870
+Por ejemplo si escribimos podemos mirar que es una galleta y si os fijáis nos dice que una galleta es
+
+35
+00:03:02,940 --> 00:03:07,930
+de un tipo llamado Mayne apuntó galleta.
+
+36
+00:03:08,640 --> 00:03:15,430
+Si nos quedamos con la parte del después del punto sabremos que una galleta es algo galleta.
+
+37
+00:03:15,450 --> 00:03:18,500
+Por tanto sabemos que es del tipo galleta.
+
+38
+00:03:18,630 --> 00:03:27,390
+Si no tenemos en cuenta esta palabra Mayne también podemos saber que es por ejemplo un número 10 un
+
+39
+00:03:27,390 --> 00:03:34,770
+entero que pone por ejemplo un flotante tres coma catorce.
+
+40
+00:03:34,830 --> 00:03:37,980
+Nos dice que es un flotante taichí.
+
+41
+00:03:38,430 --> 00:03:38,910
+Hola.
+
+42
+00:03:38,910 --> 00:03:49,230
+Una cadena de caracteres string STR una lista de qué tipo será una lista vacía por ejemplo del tipo
+
+43
+00:03:49,230 --> 00:03:58,620
+listo lista o por ejemplo taipe y un diccionario vacío nos dice que es un dicté un diccionario y el
+
+44
+00:03:58,620 --> 00:04:05,220
+tipo del valor truc por ejemplo un booleano nos dice que es bohol Bolea.
+
+45
+00:04:06,570 --> 00:04:09,840
+Imaginar si creamos una función llamada Hola.
+
+46
+00:04:10,580 --> 00:04:16,040
+Y dentro no ponemos nada y le decimos de qué tipo es.
+
+47
+00:04:16,080 --> 00:04:20,340
+Hola pues nos dice que Hola.
+
+48
+00:04:20,370 --> 00:04:22,340
+Es una función.
+
+49
+00:04:22,380 --> 00:04:29,640
+Bueno si recordáis en la anterior elección os dije que el Payton todo absolutamente Son objetos y eso
+
+50
+00:04:29,640 --> 00:04:34,060
+es porque todo absolutamente todo se crea a partir de una clase.
+
+51
+00:04:34,680 --> 00:04:42,270
+De hecho todo lo que tenemos aquí todos estos tipos de datos son clases de datos en realidad y lo que
+
+52
+00:04:42,270 --> 00:04:46,800
+tenemos los valores son instancias de esas clases.
+
+53
+00:04:46,800 --> 00:04:52,440
+Esa es la razón de que algunas de las clases que nosotros podemos manejar en Payton tengan sus propios
+
+54
+00:04:52,440 --> 00:04:53,180
+métodos.
+
+55
+00:04:53,220 --> 00:05:00,090
+La verdad es que todas las clases tienen unos métodos comunes pero por ejemplo las cadenas de caracteres
+
+56
+00:05:00,120 --> 00:05:02,290
+las listas los diccionarios.
+
+57
+00:05:02,430 --> 00:05:07,030
+Todas esas funciones que podemos utilizar para manipularlas de forma más cómoda.
+
+58
+00:05:07,050 --> 00:05:13,310
+Pues bien definidas en la definición de clase de estos tipos de datos.
+
+59
+00:05:13,590 --> 00:05:17,010
+Y ahora que sabéis por qué en Python todos son objetos.
+
+60
+00:05:17,010 --> 00:05:19,200
+Es hora de ponernos un poco más serios.
+
+61
+00:05:19,230 --> 00:05:25,430
+Así que en la próxima elección vamos a aprender un poco cómo manejar los datos internos de estas clases.

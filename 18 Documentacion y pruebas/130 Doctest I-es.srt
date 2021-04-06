@@ -1,0 +1,671 @@
+1
+00:00:00,510 --> 00:00:01,160
+Muy bien.
+
+2
+00:00:01,200 --> 00:00:06,840
+Ya hemos visto cómo crear la documentación en nuestro código y cómo generarla.
+
+3
+00:00:06,840 --> 00:00:11,980
+Ahora nos toca ver cómo añadir pruebas a nuestro código para comprobar su funcionamiento.
+
+4
+00:00:12,240 --> 00:00:15,580
+Así que vamos a empezar por la Lección 3 Doc test.
+
+5
+00:00:15,900 --> 00:00:21,330
+Y es que si por un lado las Docs Strings nos permitirán escribir documentación los doctores nos permiten
+
+6
+00:00:21,330 --> 00:00:23,930
+combinar pruebas en la propia documentación.
+
+7
+00:00:23,940 --> 00:00:28,940
+Este concepto de integrar las pruebas de la documentación nos ayuda a mantener las pruebas actualizadas
+
+8
+00:00:29,190 --> 00:00:34,100
+y además nos sirve como ejemplo de utilización del código ayudándonos a explicar su propósito.
+
+9
+00:00:34,260 --> 00:00:42,630
+Por ejemplo a partir de la siguiente función de suma a b la función suma recibe dos parámetros que devuelve
+
+10
+00:00:42,630 --> 00:00:44,770
+la suma de ambos.
+
+11
+00:00:44,850 --> 00:00:46,630
+Una función super sencilla.
+
+12
+00:00:46,980 --> 00:00:52,410
+Bueno pues para utilizar test hay que indicar una línea dentro de la documentación de la siguiente forma
+
+13
+00:00:52,920 --> 00:00:54,060
+escribiríamos.
+
+14
+00:00:54,090 --> 00:01:00,300
+Estos tres signos que son más grande que esto indicará que la siguiente línea lo que se ejecutará aquí
+
+15
+00:01:00,840 --> 00:01:02,220
+es un comando.
+
+16
+00:01:02,220 --> 00:01:07,290
+De esta forma no entenderá que debe ejecutar el contenido dentro del comentario como si fuera código
+
+17
+00:01:07,290 --> 00:01:13,850
+normal y este comando durará hasta que llegue a una línea en blanco o al final de la documentación.
+
+18
+00:01:13,860 --> 00:01:20,750
+En el caso de que siga encontrando otros comandos o otras pruebas no muy bien.
+
+19
+00:01:20,760 --> 00:01:25,530
+Ya tenemos aquí definido que vamos a hacer una prueba y la prueba va a ser la siguiente.
+
+20
+00:01:25,560 --> 00:01:28,950
+Vamos a indicarle que debe ejecutar el siguiente código.
+
+21
+00:01:28,950 --> 00:01:33,830
+Suma por ejemplo 5 y 10.
+
+22
+00:01:33,830 --> 00:01:39,330
+Bien con esto ya tenemos nuestra primera prueba vamos a comprobar una suma de cinco y diez para esta
+
+23
+00:01:39,330 --> 00:01:40,200
+función.
+
+24
+00:01:41,010 --> 00:01:47,190
+Pero tenemos que indicarle cuál es el resultado que se espera en esta prueba y eso lo vamos a hacer
+
+25
+00:01:47,520 --> 00:01:53,310
+justo después de la línea del comando poniendo el resultado que debe devolverse.
+
+26
+00:01:53,460 --> 00:01:59,560
+En este caso es 15 5 más 10 y devolverá 15 de acuerdo.
+
+27
+00:01:59,670 --> 00:02:05,550
+Ya tenemos nuestra primera prueba y el resultado que se espera y la cuestión ahora sería lanzar este
+
+28
+00:02:05,550 --> 00:02:12,360
+test lanzar esta prueba vamos a hacer primero un experimento aquí en el notebook vamos a importar el
+
+29
+00:02:12,360 --> 00:02:20,600
+módulo dock test y vamos a llamar The Dog test la funcionalidad test mogt.
+
+30
+00:02:21,960 --> 00:02:29,470
+Vamos a ejecutarla y fijaros resultados del test fallados cero probados.
+
+31
+00:02:29,580 --> 00:02:33,950
+1 Esto hace referencia a esta función que tenemos aquí.
+
+32
+00:02:34,080 --> 00:02:36,210
+Se ha aprobado un test y ha dado correcto.
+
+33
+00:02:36,210 --> 00:02:39,890
+Por tanto se ha probado un test y no ha fallado claro.
+
+34
+00:02:39,960 --> 00:02:44,790
+Esto es debido a que Jupiter notebook no es la mejor forma de probar los test.
+
+35
+00:02:44,820 --> 00:02:47,880
+Lo suyo es crear un clip y probarlo la terminal.
+
+36
+00:02:47,880 --> 00:02:53,760
+Además desde la terminal podemos comprobar muchas más cosas así que vamos a hacerlo vamos a copiar nuestra
+
+37
+00:02:54,030 --> 00:03:00,580
+función suma a un escrito voy a pegarla aquí voy a guardarla.
+
+38
+00:03:01,660 --> 00:03:05,830
+Por ejemplo le voy a llamar scrip punto P.
+
+39
+00:03:07,810 --> 00:03:10,710
+Y justo al final vamos a escribir lo mismo que antes.
+
+40
+00:03:10,940 --> 00:03:20,410
+Import doctores adoptes test mott y llamamos a esta función.
+
+41
+00:03:20,420 --> 00:03:24,610
+Con esto sería suficiente para ejecutar ya las pruebas de nuestras funciones.
+
+42
+00:03:24,950 --> 00:03:29,750
+Pero con el objetivo de evitar que este código se ejecuta al importarlos desde otro lugar se suele indicar
+
+43
+00:03:29,750 --> 00:03:36,830
+de la siguiente forma justo encima vamos a poner un gif y vamos a comprobar que se ejecute esto desde
+
+44
+00:03:36,830 --> 00:03:47,650
+el propio fichero solamente cuando llamamos al scrip y faim igual Moine puntitos.
+
+45
+00:03:47,780 --> 00:03:53,590
+Y aquí podríamos tabular esto aunque tener cuidado lo voy a poner con espacios no sea que me marqué
+
+46
+00:03:53,590 --> 00:03:55,660
+error de sintaxis al ejecutarlo.
+
+47
+00:03:55,910 --> 00:04:01,250
+De hecho me voy a venir aquí abajo y voy a decirle intentar usando espacios y voy a convertir todas
+
+48
+00:04:01,250 --> 00:04:03,970
+las inundaciones en espacios para que no me podía fallar.
+
+49
+00:04:04,360 --> 00:04:05,870
+Lo voy a guardar.
+
+50
+00:04:05,870 --> 00:04:11,120
+Ahora vamos a ir a nuestro directorio donde tenemos el script puede hacer clic derecho a abrir ventana
+
+51
+00:04:11,120 --> 00:04:18,510
+de comandos y voy a hacer Payton que lo ejecuto y como veis no me muestra nada.
+
+52
+00:04:18,560 --> 00:04:23,120
+Eso no significa que no se está ejecutando en nuestro fichero con nuestras pruebas sino que éstas han
+
+53
+00:04:23,120 --> 00:04:25,350
+funcionado correctamente y no hay fallos.
+
+54
+00:04:25,700 --> 00:04:31,100
+Si queremos podemos mostrar todo el registro de ejecución pasando a un argumento menos Payton justo
+
+55
+00:04:31,100 --> 00:04:33,610
+al final es decir escribimos lo mismo.
+
+56
+00:04:33,630 --> 00:04:44,060
+Payton scrip y le pasamos un menú sube y entonces veremos el siguiente resultado probando suma 5 10.
+
+57
+00:04:44,330 --> 00:04:48,000
+Se espera un 15 entonces en la prueba.
+
+58
+00:04:48,830 --> 00:04:49,590
+Y nos dice o qué.
+
+59
+00:04:49,610 --> 00:04:52,780
+Porque lo ha probado y realmente ha salido ese resultado.
+
+60
+00:04:53,150 --> 00:04:58,460
+Y bueno aquí hemos creado nuestro primer test y lo hemos pasado correctamente.
+
+61
+00:04:58,630 --> 00:05:06,470
+Si viniéramos al programa y dijéramos que la suma debe de dar 14 por ejemplo lo guardamos y volvemos
+
+62
+00:05:06,470 --> 00:05:09,070
+a la terminal y lo volvemos a ejecutar.
+
+63
+00:05:09,200 --> 00:05:16,700
+Evidentemente ahora no va a funcionar porque estamos esperando 14 cuando estamos sumando 5:10 nos dice
+
+64
+00:05:17,060 --> 00:05:23,200
+que se esperaba 14 se ha devuelto 15 failed un fallo.
+
+65
+00:05:23,240 --> 00:05:25,230
+Bueno pues estos son los test.
+
+66
+00:05:25,850 --> 00:05:27,540
+Realmente no es tan difícil.
+
+67
+00:05:27,740 --> 00:05:35,390
+Se basan en definir lo que las funcionalidades deben devolver en distintos casos y de esa forma estaremos
+
+68
+00:05:35,390 --> 00:05:39,170
+seguros que nuestras funciones siempre funcionan bien.
+
+69
+00:05:39,800 --> 00:05:44,140
+Evidentemente podemos definir múltiples pruebas vamos a nuestro fichero.
+
+70
+00:05:45,950 --> 00:05:50,130
+Vamos a arreglar esta que tenemos aquí para que pueda pasarla correctamente y vamos a definir algunas
+
+71
+00:05:50,130 --> 00:05:50,860
+más.
+
+72
+00:05:50,940 --> 00:05:57,410
+Probaremos también alguna que sepamos que no es correcta por ejemplo suma cero y cero.
+
+73
+00:05:58,110 --> 00:06:06,060
+Tiene que devolver uno y por ejemplo también podríamos hacer una prueba que haga una suma de menos 5
+
+74
+00:06:06,570 --> 00:06:07,590
+y 7.
+
+75
+00:06:08,040 --> 00:06:10,640
+Y esto tiene que devolver dos.
+
+76
+00:06:11,500 --> 00:06:12,550
+Voy a guardar aquí.
+
+77
+00:06:12,610 --> 00:06:13,950
+Control.
+
+78
+00:06:14,260 --> 00:06:17,210
+Vamos a ejecutar los test para esta función.
+
+79
+00:06:17,290 --> 00:06:22,800
+Puede hacer clic Screen o control en Linux para borrarlo todo lo ejecuto.
+
+80
+00:06:23,570 --> 00:06:28,030
+Y aquí tengo probando suma 5:10.
+
+81
+00:06:28,030 --> 00:06:31,960
+Se esperaba 15 Ok probando suma cero y cero.
+
+82
+00:06:31,990 --> 00:06:35,230
+Se esperaba uno y aquí me marca un error.
+
+83
+00:06:35,530 --> 00:06:40,420
+Ha fallado el ejemplo suma cero cero esperaba un 1 y se ha devuelto un cero.
+
+84
+00:06:41,270 --> 00:06:43,730
+Probando suma menos 5 7.
+
+85
+00:06:43,850 --> 00:06:44,880
+Se esperaba un 2.
+
+86
+00:06:44,930 --> 00:06:45,600
+Ok.
+
+87
+00:06:46,940 --> 00:06:52,790
+Tres tests dos pasados uno fallado por tanto los tres han fallado.
+
+88
+00:06:52,950 --> 00:06:59,400
+Cuando nos encontremos esta situación tendremos que ver cuál es el test que ha fallado a nuestro programa
+
+89
+00:06:59,730 --> 00:07:00,720
+y arreglarlo.
+
+90
+00:07:00,720 --> 00:07:06,000
+En este caso sabemos que esto es incorrecto podríamos solucionar el test pero eso no sería muy lógico
+
+91
+00:07:06,000 --> 00:07:11,220
+en este caso sí porque lo hemos hecho expresamente mal pero si estuviéramos juntes y esperásemos un
+
+92
+00:07:11,220 --> 00:07:17,100
+resultado y no nos devolviera el resultado correctamente lo que tendríamos que hacer es arreglar la
+
+93
+00:07:17,100 --> 00:07:22,470
+funcionalidad para que funcione tal como nosotros habíamos planificado en un primer momento.
+
+94
+00:07:22,560 --> 00:07:29,100
+Vamos a ver otro ejemplo de desarrollar test porque una de las ventajas de las pruebas es que podemos
+
+95
+00:07:29,100 --> 00:07:34,250
+utilizarlas para detectar posibles fallos mientras estamos desarrollando las funcionalidades.
+
+96
+00:07:34,320 --> 00:07:39,230
+En este ejemplo vamos a guiarnos de los tests para implementar correctamente una función.
+
+97
+00:07:39,360 --> 00:07:47,810
+Por ejemplo tenemos esta función palíndromo palabra la función palíndromo palabra recibe una palabra
+
+98
+00:07:48,230 --> 00:07:54,330
+si la palabra es un palíndromo devuelve true si no devuelve false un palíndromo es una palabra o frase
+
+99
+00:07:54,330 --> 00:07:58,160
+que se lee igual tanto de izquierda derecha como de derecha izquierda.
+
+100
+00:07:58,300 --> 00:08:00,060
+Y aquí tengo la codificación.
+
+101
+00:08:00,480 --> 00:08:06,420
+Si la palabra es igual que la palabra revertida podemos hacerlo de esta forma fácilmente con índices
+
+102
+00:08:07,290 --> 00:08:10,880
+devolvería mostruo y en otro caso volveríamos false.
+
+103
+00:08:11,680 --> 00:08:18,070
+Aquí abajo tenemos los test de acuerdo muy bien vamos a definir una serie de test para esta función
+
+104
+00:08:18,100 --> 00:08:29,560
+palíndromo por ejemplo palíndromo radar debería de devolver True y lo voy a poner así.
+
+105
+00:08:29,590 --> 00:08:34,510
+Ese es el resultado que debería devolver porque rádar se lee igual de izquierda derecha que de derecha
+
+106
+00:08:34,510 --> 00:08:35,330
+a izquierda.
+
+107
+00:08:35,590 --> 00:08:37,170
+Esto es un palíndromo no.
+
+108
+00:08:37,630 --> 00:08:49,120
+Ok vamos a hacer otra prueba palíndromo somos también debería de devolver verdadero porque se lee igual
+
+109
+00:08:49,180 --> 00:08:52,800
+somos somos también es un palíndromo.
+
+110
+00:08:53,490 --> 00:09:00,060
+Y por ejemplo palíndromo Hola vamos a ponerlo así Hola.
+
+111
+00:09:00,100 --> 00:09:04,030
+Con una charla final sabemos que esto es incorrecto.
+
+112
+00:09:04,270 --> 00:09:07,710
+Debería de devolver false por qué tendría que ser Holo.
+
+113
+00:09:07,840 --> 00:09:08,500
+Hala.
+
+114
+00:09:09,420 --> 00:09:09,890
+De acuerdo.
+
+115
+00:09:09,890 --> 00:09:12,830
+Para que sea un palíndromo vamos a dejarlo así.
+
+116
+00:09:13,230 --> 00:09:14,570
+Voy a guardar.
+
+117
+00:09:14,700 --> 00:09:22,200
+Vamos a ir a la consola voy a borrar esto de aquí y voy a volver a ejecutar mi prueba con el menoscabe
+
+118
+00:09:22,200 --> 00:09:26,250
+para mostrar información probando palíndromos radar.
+
+119
+00:09:26,340 --> 00:09:28,380
+Se esperaba verdadero ok.
+
+120
+00:09:28,590 --> 00:09:30,750
+Somos también ok.
+
+121
+00:09:31,600 --> 00:09:36,660
+Hola false como esta mal y esperábamos que fuera false ok.
+
+122
+00:09:37,040 --> 00:09:41,090
+Tres meses pasados y ninguno fallado.
+
+123
+00:09:41,300 --> 00:09:51,910
+Pasado muy bien vamos a añadir más test a ver qué sucedería si le pasa a semos palíndromo Ana nombre
+
+124
+00:09:51,910 --> 00:09:53,370
+de mujer.
+
+125
+00:09:53,830 --> 00:10:01,760
+Debería de devolvernos verdadero por qué es Eloy igual igual Ana que Ana con que aquí tenemos una mayúscula.
+
+126
+00:10:01,840 --> 00:10:04,490
+Será verdad que esto devuelve true.
+
+127
+00:10:04,690 --> 00:10:07,600
+Vamos a guardar y vamos a probarlo.
+
+128
+00:10:09,740 --> 00:10:11,300
+Y si lo ejecutamos.
+
+129
+00:10:11,720 --> 00:10:16,410
+Cómo veis en el test de Ana nos encontramos que se esperaba verdadero.
+
+130
+00:10:17,450 --> 00:10:19,150
+Pero nos ha dado error.
+
+131
+00:10:19,340 --> 00:10:23,080
+Se esperaba verdadero y se ha devuelto falso.
+
+132
+00:10:23,120 --> 00:10:24,760
+Por tanto ha fallado el test.
+
+133
+00:10:25,890 --> 00:10:31,970
+Entonces nosotros tendríamos que venir aquí y comprobar por qué y después de no mucho rato investigando
+
+134
+00:10:32,270 --> 00:10:37,330
+descubrimos que evidentemente la letra A en mayúsculas no es igual que la letra minúscula.
+
+135
+00:10:37,350 --> 00:10:41,660
+Pero aunque nosotros lo leemos igual el sistema no lo sabe diferenciar.
+
+136
+00:10:41,660 --> 00:10:44,030
+Por tanto cómo podríamos arreglarlo.
+
+137
+00:10:44,170 --> 00:10:51,110
+Pues por ejemplo convirtiendo tanto la palabra como la palabra revertida a minúsculas con un puntito
+
+138
+00:10:51,110 --> 00:10:55,970
+al final poniendo Louder y también aquí.
+
+139
+00:10:57,280 --> 00:11:03,510
+De esta forma vamos a convertir todas las letras tanto de la palabra como la palabra revertidas minúscula.
+
+140
+00:11:03,670 --> 00:11:09,180
+Y ahora el sistema debería entender que la misma palabra vamos a ejecutar los test.
+
+141
+00:11:09,530 --> 00:11:14,360
+Y en esta ocasión como veis cuatro test que pasan correctamente y ninguno falla.
+
+142
+00:11:16,000 --> 00:11:17,560
+Pero vamos un poco más allá.
+
+143
+00:11:17,620 --> 00:11:26,590
+Vamos a hacer otra prueba vamos a poner ahora una frase palíndromo y le vamos a pasar la frase atar
+
+144
+00:11:27,160 --> 00:11:28,100
+a la rata.
+
+145
+00:11:28,630 --> 00:11:37,010
+Fijaros que es igual atar a la rata atar a la rata de acuerdo por lo tanto deberías de devolver verdadero.
+
+146
+00:11:37,150 --> 00:11:39,530
+Pero qué pasará cuando ejecutemos los test.
+
+147
+00:11:42,870 --> 00:11:49,650
+Pues que cuando llegamos al palíndromo atar a la rata se esperaba verdadero pero se vuelve falso.
+
+148
+00:11:49,650 --> 00:11:55,410
+Por tanto tenemos otro error aquí pero también es un palíndromo que está fallando.
+
+149
+00:11:55,650 --> 00:11:58,680
+Bueno pues en este caso lo que nos falla son los espacios.
+
+150
+00:11:58,950 --> 00:12:02,200
+Y es que también se tienen en cuenta los espacios.
+
+151
+00:12:02,530 --> 00:12:09,910
+Y aquí tenemos un espacio después de atar que está bien porque aquí también lo tenemos pero aquí ya
+
+152
+00:12:09,940 --> 00:12:11,620
+no. Aquí tenemos al.
+
+153
+00:12:11,640 --> 00:12:14,320
+Si lo leemos por la derecha y aquí tenemos a.
+
+154
+00:12:15,130 --> 00:12:20,910
+Por tanto tendríamos que de alguna forma borrar los espacios de la frase.
+
+155
+00:12:21,680 --> 00:12:29,530
+Antes de comprobar si es un palíndromo la manera fácil utilizando el metodo replays que tienen las cadenas.
+
+156
+00:12:29,660 --> 00:12:35,610
+Primero le pasamos lo que queremos cambiar un espacio y lo vamos a cambiar por nada.
+
+157
+00:12:35,900 --> 00:12:39,800
+Una cadena vacía y esto lo vamos hacer tan bien.
+
+158
+00:12:40,040 --> 00:12:41,350
+La palabra revertida.
+
+159
+00:12:41,660 --> 00:12:42,880
+Vamos a guardarlo.
+
+160
+00:12:43,040 --> 00:12:46,410
+Vamos a ir al programa vamos a volver a ejecutarlo.
+
+161
+00:12:46,830 --> 00:12:54,080
+Y ahora si ya nos pasa los 5 test correctamente todavía habría algunos casos como los acentos que nos
+
+162
+00:12:54,080 --> 00:12:57,120
+darían fallos pero ya veis por dónde va la lógica.
+
+163
+00:12:57,140 --> 00:13:01,510
+Se trata de guiarnos a partir de los test para crear la función correctamente.
+
+164
+00:13:01,520 --> 00:13:08,510
+De hecho en el mundo de la programación hay una práctica conocida como tdd Test driven development o
+
+165
+00:13:08,510 --> 00:13:14,120
+desarrollo guiado por pruebas en español que trata de escribir las pruebas primero y luego refactorización
+
+166
+00:13:14,330 --> 00:13:16,420
+para ir puliendo la funcionalidad.
+
+167
+00:13:16,670 --> 00:13:21,860
+Es una práctica algo avanzada y no la vamos a ver en este curso pero vale la pena comentarla.
+
+168
+00:13:21,950 --> 00:13:27,180
+Vamos a hacer una pausa y luego seguimos con unos test un poco más avanzados.

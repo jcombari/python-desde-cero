@@ -1,0 +1,67 @@
+1
+00:00:00,420 --> 00:00:04,590
+Prácticamente todo lo que hemos hecho a lo largo de este curso de introducción a Payton se ha basado
+
+2
+00:00:04,590 --> 00:00:09,450
+en crear pequeños scripts que manejar información sobre la marcha se definen unas variables con sus
+
+3
+00:00:09,450 --> 00:00:15,080
+valores a veces las leemos por teclado o incluso desde los argumentos de un script para luego manipularlas.
+
+4
+00:00:15,360 --> 00:00:20,010
+Sin embargo imaginar que estamos manejando un registro de nuestras películas y creamos algunas en el
+
+5
+00:00:20,010 --> 00:00:21,990
+programa luego lo cerramos.
+
+6
+00:00:21,990 --> 00:00:25,150
+Y qué pasa pues que perdemos toda esa información.
+
+7
+00:00:25,380 --> 00:00:30,450
+Evidentemente lo que necesitamos es que de alguna forma nuestro registro de películas persista el tiempo
+
+8
+00:00:30,780 --> 00:00:34,940
+y nos permita seguir trabajando con él la próxima vez que abramos el programa.
+
+9
+00:00:35,250 --> 00:00:36,580
+Cómo lo conseguimos.
+
+10
+00:00:36,780 --> 00:00:39,950
+Pues por ejemplo implementando persistencia en ficheros.
+
+11
+00:00:40,000 --> 00:00:43,270
+Hoy organizaremos nuestras películas y las iremos guardando.
+
+12
+00:00:43,410 --> 00:00:48,510
+El programa entonces en lugar de gestionar datos definidos en el propio código lo que hará es cargarlos
+
+13
+00:00:48,510 --> 00:00:53,910
+de nuestros ficheros y así nos permitirá manipular nuestros registros de películas así como actualizar
+
+14
+00:00:53,910 --> 00:00:56,570
+los cambios que podamos realizar etcétera.
+
+15
+00:00:56,850 --> 00:01:02,030
+Tradicionalmente Existen dos tipos de persistencia básica con ficheros o bases de datos.
+
+16
+00:01:02,370 --> 00:01:07,230
+En esta unidad vamos a centrarnos en los ficheros y en una unidad posterior veremos cómo trabajar con
+
+17
+00:01:07,230 --> 00:01:08,860
+una base de datos sencilla.

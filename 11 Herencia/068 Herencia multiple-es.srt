@@ -1,0 +1,155 @@
+1
+00:00:00,330 --> 00:00:05,670
+Para finalizar la unidad vamos a hablar de la herencia múltiple una posibilidad que encontramos en pitol
+
+2
+00:00:05,730 --> 00:00:08,390
+y que no soportan otros lenguajes de programación.
+
+3
+00:00:08,580 --> 00:00:13,080
+Vamos a abrir la Lección 3 de audiencia múltiple y vamos a trabajarlo.
+
+4
+00:00:13,170 --> 00:00:19,470
+La herencia múltiple hace referencia a la posibilidad de que una subclase herede de varias súper clases
+
+5
+00:00:19,470 --> 00:00:24,420
+a la vez de manera que se pueden heredar multitud de atributos y métodos.
+
+6
+00:00:24,420 --> 00:00:30,210
+Sin embargo hay un problema y aparece cuando tenemos comportamientos comunes en las súper clases es
+
+7
+00:00:30,210 --> 00:00:33,400
+decir tienen métodos o atributos iguales.
+
+8
+00:00:34,120 --> 00:00:38,320
+En estos casos lo que hará es dar prioridad a las súper clases más a la izquierda.
+
+9
+00:00:38,400 --> 00:00:44,200
+En la declaración por ejemplo creamos una clase con un método init
+
+10
+00:00:47,250 --> 00:00:55,090
+y en este método Vinyl pasarles el vamos a imprimir por ejemplo un mensaje al crear el objeto que diga
+
+11
+00:00:55,630 --> 00:00:56,970
+soy de clase.
+
+12
+00:00:58,610 --> 00:01:08,530
+Ahora vamos a crear otra clase de por ejemplo llamada B y haremos exactamente lo mismo online.
+
+13
+00:01:10,160 --> 00:01:13,030
+Pero vamos a mostrar que es de clase B.
+
+14
+00:01:13,190 --> 00:01:15,100
+Soy de clase B.
+
+15
+00:01:16,250 --> 00:01:24,590
+Ahora vamos a crear una tercera clase llamada clase C pero esta clase va a heredar de debe a la vez.
+
+16
+00:01:24,890 --> 00:01:29,340
+Vamos a pasarle entre paréntesis es la declaración que heredé de ella.
+
+17
+00:01:29,710 --> 00:01:34,790
+Cómo debe hacer un país para no hacer nada.
+
+18
+00:01:34,970 --> 00:01:40,130
+Y vamos a crear una instancia de esta clase C Igual C..
+
+19
+00:01:41,060 --> 00:01:47,250
+Como veis nos indica que al heredar hereda el método Inez de la clase.
+
+20
+00:01:47,960 --> 00:01:49,410
+Es decir el de la clase B.
+
+21
+00:01:49,610 --> 00:01:54,990
+Los que escriben no lo tienen en cuenta porque la esta la izquierda y tiene prioridad antes que la B.
+
+22
+00:01:55,280 --> 00:02:03,750
+En cambio si le pasáramos primero Labbé y luego la cómo veis tendría prioridad a la hora de heredar.
+
+23
+00:02:04,730 --> 00:02:06,830
+Los métodos de la clase B.
+
+24
+00:02:10,180 --> 00:02:17,670
+Ahora para comprobar cómo se heredan todos los métodos de la super clases podemos añadir algunos métodos
+
+25
+00:02:17,670 --> 00:02:21,620
+específicos de clase por ejemplo.
+
+26
+00:02:22,050 --> 00:02:32,330
+Vamos a añadir a clase a un método llamado a Shelf que por ejemplo escriba por pantalla Prin.
+
+27
+00:02:32,670 --> 00:02:39,540
+Este método lo heredo y vamos a hacer lo mismo.
+
+28
+00:02:39,540 --> 00:02:42,070
+Vamos a copiarlo en B.
+
+29
+00:02:42,390 --> 00:02:43,390
+Vamos a llamarlo B.
+
+30
+00:02:43,710 --> 00:02:46,870
+Y diremos que este método lo heredó de p..
+
+31
+00:02:47,490 --> 00:02:57,270
+Por último vamos a crear también un método llamado C C en la clase C que diga que este método lo hereda
+
+32
+00:02:58,380 --> 00:03:02,970
+este método digamos que es único.
+
+33
+00:03:03,040 --> 00:03:03,590
+Vale.
+
+34
+00:03:05,120 --> 00:03:13,850
+Si creamos la CE continuó diciendo que es de clase B pero esta tiene acceso al método de tener acceso
+
+35
+00:03:13,850 --> 00:03:23,420
+al método debe y tiene acceso a su propio método único para la clase C así que como veis jugando con
+
+36
+00:03:23,420 --> 00:03:29,740
+la herencia múltiple podemos gestionar atributos y métodos heredados de varias clases a la vez.
+
+37
+00:03:29,930 --> 00:03:35,840
+La verdad no es algo que yo utilice mucho pero sí que muchas librerías y frameworks implementan este
+
+38
+00:03:35,840 --> 00:03:38,710
+tipo de jerarquías así que vale la pena comentarlo.
+
+39
+00:03:38,710 --> 00:03:42,190
+Para que os lo encontráis en el futuro sepáis identificarlo.

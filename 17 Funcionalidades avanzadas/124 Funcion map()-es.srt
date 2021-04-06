@@ -1,0 +1,355 @@
+1
+00:00:00,730 --> 00:00:04,870
+Muy bien ahora que ya hemos visto Filter vamos a por la función map.
+
+2
+00:00:05,790 --> 00:00:11,070
+Esta función trabaja de una forma muy similar a Filter con la diferencia de que en lugar de aplicar
+
+3
+00:00:11,070 --> 00:00:17,130
+una condición a un elemento de una lista o secuencia aplica una función sobre todos los elementos y
+
+4
+00:00:17,130 --> 00:00:20,400
+como resultado se devuelve un integrable de tipo MAP.
+
+5
+00:00:20,430 --> 00:00:24,470
+Imaginad que tenemos como siempre una lista de números.
+
+6
+00:00:25,500 --> 00:00:33,410
+Por ejemplo 2 5 10 23 50 y 33.
+
+7
+00:00:33,600 --> 00:00:39,480
+Muy bien ahora queremos aplicar una función para doblar el valor de todos los elementos de esta lista
+
+8
+00:00:40,080 --> 00:00:42,930
+de una forma similar a como habíamos hecho con Filter.
+
+9
+00:00:42,930 --> 00:00:51,420
+Lo primero que haríamos es crear una función por ejemplo doblar que recibe un número y devuelve pues
+
+10
+00:00:51,420 --> 00:00:56,430
+este número doblado entonces.
+
+11
+00:00:57,840 --> 00:01:01,600
+Aplicar a esta función doblar a todos los elementos de la lista.
+
+12
+00:01:02,170 --> 00:01:10,460
+Le pasamos primero la función que queremos aplicar y luego la lista de números a los que queremos aplicarla.
+
+13
+00:01:11,120 --> 00:01:20,810
+Hoy tenemos un objeto de tipo MAP si lo guardamos por ejemplo aquí podríamos con un next y tirarlo primero
+
+14
+00:01:20,870 --> 00:01:26,290
+4 luego el 10 de 5.
+
+15
+00:01:26,600 --> 00:01:33,310
+O simplemente podríamos mostrar esta m pero fijaros que al mostrarla.
+
+16
+00:01:34,270 --> 00:01:36,670
+Las dos primeras que hemos recorrido ya no cuentan.
+
+17
+00:01:36,670 --> 00:01:44,010
+Por tanto tendríamos que volver a declarar esto de aquí para que salgan todos.
+
+18
+00:01:44,110 --> 00:01:49,300
+Evidentemente podemos simplificarlo con una función blanda para sustituir la llamada de una función
+
+19
+00:01:49,600 --> 00:01:51,080
+definida.
+
+20
+00:01:51,760 --> 00:02:04,210
+Luis mav Landa entra a un número por ejemplo x si devuelve un número X por 2 doblado y le pasamos la
+
+21
+00:02:04,210 --> 00:02:06,490
+lista de números.
+
+22
+00:02:06,520 --> 00:02:07,950
+Aquí tenemos lo mismo.
+
+23
+00:02:10,570 --> 00:02:15,550
+La función map se utiliza mucho junto a expresiones landau ya que permite ahorrarnos el esfuerzo de
+
+24
+00:02:15,550 --> 00:02:16,820
+crear bucles effort.
+
+25
+00:02:17,260 --> 00:02:22,550
+Además se puede utilizar sobre más de un integrable con la condición que tenga la misma longitud.
+
+26
+00:02:22,600 --> 00:02:27,130
+Por ejemplo si queremos multiplicar los elementos de dos listas lo podemos hacer por ejemplo una lista
+
+27
+00:02:27,780 --> 00:02:41,000
+con los elementos 1 2 3 4 y 5 y luego tenemos una lista B con los números 6 7 8 9 y 10.
+
+28
+00:02:41,000 --> 00:02:47,650
+Ahora queremos multiplicar todos los elementos de la primera lista por los de la segunda siempre que
+
+29
+00:02:47,650 --> 00:02:50,650
+tengan la misma longitud varias listas.
+
+30
+00:02:50,650 --> 00:02:54,990
+Podemos recorrerlas en conjunto dentro de una función blanda.
+
+31
+00:02:55,290 --> 00:02:58,370
+Lo vamos a pasar a mapp Landa.
+
+32
+00:02:58,720 --> 00:03:09,060
+Entran dos elementos distintos X e Y griega por ejemplo y salen este X multiplicado por y griega.
+
+33
+00:03:09,520 --> 00:03:10,120
+Una coma.
+
+34
+00:03:10,120 --> 00:03:16,110
+Hasta aquí llega la función landau y aquí vamos a pasar los elementos.
+
+35
+00:03:16,120 --> 00:03:26,130
+Las listas que hacen referencia a X el primero serála y luego una coma y lo segundo será clave por tanto
+
+36
+00:03:26,140 --> 00:03:33,690
+función Landa primera lista segunda lista la hace referencia a x en cada iteración.
+
+37
+00:03:33,900 --> 00:03:34,560
+La V.
+
+38
+00:03:35,540 --> 00:03:36,610
+Al aire.
+
+39
+00:03:37,410 --> 00:03:39,920
+Si esto lo convertimos en una lista.
+
+40
+00:03:41,950 --> 00:03:43,080
+Lo ejecutamos.
+
+41
+00:03:43,360 --> 00:03:51,760
+Aquí tenemos una nueva lista con la misma longitud que las otras multiplicando 1 por 6 6 2 7 14 3 8
+
+42
+00:03:51,760 --> 00:03:53,200
+24 etcétera.
+
+43
+00:03:53,650 --> 00:03:57,360
+No hay un límite para el número de listas que podemos utilizar.
+
+44
+00:03:57,370 --> 00:03:59,140
+Imaginaros que queramos una nueva lista.
+
+45
+00:03:59,170 --> 00:04:08,980
+Por ejemplo losvalores 11 12 13 14 y 15 como tiene la misma longitud y el mismo tipo y se puede multiplicar
+
+46
+00:04:08,980 --> 00:04:15,130
+perfectamente podríamos volver a hacer este List MAP landau.
+
+47
+00:04:15,220 --> 00:04:25,790
+En esta ocasión pasaríamos X y griega y Z volveríamos x y z y pasaríamos la la.
+
+48
+00:04:25,930 --> 00:04:28,710
+Y la lista C.
+
+49
+00:04:28,960 --> 00:04:36,980
+Ahora tenemos la primera lista multiplicada por la segunda multiplicada por la tercera en una sola línea.
+
+50
+00:04:37,030 --> 00:04:43,810
+Hemos hecho un montón de cosas que si tuviéramos que haberlo hecho con funciones normales recorriendo
+
+51
+00:04:43,870 --> 00:04:49,480
+uno a uno las listas y multiplicando los elementos pues nos hubiera costado bastante más que una sola
+
+52
+00:04:49,480 --> 00:04:50,970
+línea.
+
+53
+00:04:51,010 --> 00:04:57,010
+Evidentemente siempre que la utilicemos correctamente podemos mapear incluso una serie de objetos sin
+
+54
+00:04:57,010 --> 00:04:59,020
+ningún problema.
+
+55
+00:04:59,020 --> 00:05:07,430
+Voy a copiar aquella definición de la clase de persona que tenía del ejercicio anterior voy a guardarla.
+
+56
+00:05:08,110 --> 00:05:13,670
+Imaginemos por ejemplo que queremos incrementar un año la edad de todas las personas de esta lista.
+
+57
+00:05:14,230 --> 00:05:19,310
+Tradicionalmente lo que haríamos es crear una nueva función por ejemplo llamada incrementar.
+
+58
+00:05:22,470 --> 00:05:24,880
+Quiero decir una persona.
+
+59
+00:05:27,510 --> 00:05:29,160
+Y de volveríamos.
+
+60
+00:05:29,410 --> 00:05:33,110
+Pues de esta persona primero le incrementarían la edad.
+
+61
+00:05:33,140 --> 00:05:33,850
+1.
+
+62
+00:05:34,090 --> 00:05:44,590
+De esta forma y luego volveríamos a esta persona con la edad incrementada esto podemos guardarlo de
+
+63
+00:05:44,590 --> 00:05:47,850
+nuevo en la lista de personas haciendo un mapa.
+
+64
+00:05:48,520 --> 00:05:56,710
+Primero con la función incrementar para cada una de las personas de esta lista de personas hacemos un
+
+65
+00:05:56,710 --> 00:06:07,230
+fork por persona y personas frin personas tendrían que tener todas un año más.
+
+66
+00:06:07,360 --> 00:06:09,760
+Juan 36 35.
+
+67
+00:06:09,760 --> 00:06:11,620
+Marta 17 16.
+
+68
+00:06:11,760 --> 00:06:12,740
+Perfecto.
+
+69
+00:06:15,120 --> 00:06:16,840
+Se puede utilizar una función blanda.
+
+70
+00:06:16,860 --> 00:06:21,540
+También en este caso utilizando objetos si es posible.
+
+71
+00:06:21,540 --> 00:06:25,980
+Sin embargo tenemos que jugar muy bien las cartas que tenemos.
+
+72
+00:06:25,980 --> 00:06:31,800
+Me explico vamos a volver a declarar esta lista de personas aquí abajo y vamos a configurar este mapeo
+
+73
+00:06:32,050 --> 00:06:40,820
+vamos a guardar aquí personasde nuevos temas y veamos cómo podemos hacerlo porque si pasamos a Holanda
+
+74
+00:06:40,820 --> 00:06:43,430
+a una persona.
+
+75
+00:06:44,430 --> 00:06:45,880
+Qué es lo que vamos a devolver.
+
+76
+00:06:46,050 --> 00:06:49,690
+Cómo podemos incrementar la edad de esta persona y devolverla.
+
+77
+00:06:49,700 --> 00:06:56,100
+No podemos hacer persona de edad más igual.
+
+78
+00:06:56,140 --> 00:07:03,330
+1. esto no podemos hacerlo porque aquí tenemos que definir lo que se va a devolver en cada una de estas
+
+79
+00:07:03,390 --> 00:07:04,830
+iteraciones.
+
+80
+00:07:05,850 --> 00:07:16,890
+Por lo que podemos hacer es crear una persona de nuevo con la información actualizada persona con la
+
+81
+00:07:16,890 --> 00:07:26,670
+información de la persona nombre y persona edad pero esta edad en lugar de pasarla directamente que
+
+82
+00:07:26,670 --> 00:07:35,970
+sería la misma le vamos a sumar uno de acuerdo y luego pasaríamos la lista de personas.
+
+83
+00:07:36,240 --> 00:07:39,050
+Pues todo esto equivale.
+
+84
+00:07:40,010 --> 00:07:41,150
+A esto de aquí.
+
+85
+00:07:42,990 --> 00:07:48,270
+Estamos creando en tiempo de ejecución una nueva persona con los mismos datos pero con un año más de
+
+86
+00:07:48,270 --> 00:07:54,940
+edad haciendo referencia a esta persona que recibimos a su nombre y a su edad.
+
+87
+00:07:56,040 --> 00:08:07,800
+Si lo recorremos por persona personas plin persona pues como veis tenemos lo mismo de antes y con esto
+
+88
+00:08:08,010 --> 00:08:13,740
+acabamos esta lección sobre esta interesante funcionalidad que espero que utilicéis mucho en vuestros
+
+89
+00:08:13,740 --> 00:08:14,810
+proyectos.

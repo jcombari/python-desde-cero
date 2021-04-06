@@ -1,0 +1,167 @@
+1
+00:00:01,350 --> 00:00:06,300
+Sin duda las excepciones nos pueden ayudar a optimizar nuestros programas y a prevenir errores.
+
+2
+00:00:06,660 --> 00:00:11,650
+Antes de finalizar la unidad os quiero enseñar una última cosa a llamar excepciones.
+
+3
+00:00:11,950 --> 00:00:15,180
+Vamos a abrir la Lección 4 de invocación de excepciones.
+
+4
+00:00:17,850 --> 00:00:24,770
+Y vamos a hacer un ejemplo muy sencillo vamos a definir una función a la que vamos a pasar un valor
+
+5
+00:00:25,050 --> 00:00:28,180
+pero si este valor es un número especial.
+
+6
+00:00:28,370 --> 00:00:30,470
+Por ejemplo un número nulo.
+
+7
+00:00:31,490 --> 00:00:32,580
+Un valor nulo.
+
+8
+00:00:32,760 --> 00:00:39,210
+Pues vamos a ejecutar un error vamos a llamar a una excepción pero vamos a comenzar simplemente definiendo
+
+9
+00:00:39,210 --> 00:00:39,850
+la función.
+
+10
+00:00:39,870 --> 00:00:46,500
+Le voy a llamar mi función voy a crear un parámetro que se llama algo por ejemplo y que por defecto
+
+11
+00:00:46,500 --> 00:00:48,390
+tenga el valor.
+
+12
+00:00:50,240 --> 00:00:55,020
+Entonces vamos a comprobar si algo es igual al None.
+
+13
+00:00:55,130 --> 00:00:56,740
+Lo podemos comprobar.
+
+14
+00:00:57,920 --> 00:01:05,900
+Poniendo un kit en lugar de nuestros iguales y falsos o None y escribiendo por ejemplo dónde iría el
+
+15
+00:01:05,900 --> 00:01:06,430
+error.
+
+16
+00:01:06,560 --> 00:01:07,610
+Error.
+
+17
+00:01:08,450 --> 00:01:13,610
+No se permite un valor nulo.
+
+18
+00:01:15,470 --> 00:01:20,610
+Si ejecutamos la función de función que pasamos a alguna cosa a algo.
+
+19
+00:01:21,290 --> 00:01:29,310
+Todo parece ir bien pero si la ejecutamos vacía nos da este error.
+
+20
+00:01:30,050 --> 00:01:37,990
+Este error está relacionado con una excepción que podríamos decir que es una excepción de valor no values
+
+21
+00:01:38,060 --> 00:01:42,450
+error aquella excepción que vimos en la elección.
+
+22
+00:01:43,030 --> 00:01:48,130
+Pues si quisiéramos podríamos invocar aquella excepción de evalúes error.
+
+23
+00:01:48,380 --> 00:01:54,090
+Lo que tenemos que hacer es redefinir la función y lugar de mostrar este mensaje.
+
+24
+00:01:54,280 --> 00:02:06,200
+Lo que vamos a hacer es cambiar el print y poner lo siguiente reiss invocar un baluarte error.
+
+25
+00:02:07,030 --> 00:02:13,090
+Y aquí les vamos a pasar un mensaje explicando por qué lanzamos este error de valor.
+
+26
+00:02:13,160 --> 00:02:21,950
+Ahora si ejecutamos la función de nuevo sin nada lo que tenemos es un value error que hemos lanzado
+
+27
+00:02:21,950 --> 00:02:25,960
+nosotros manualmente con el mensaje Error.
+
+28
+00:02:25,970 --> 00:02:28,220
+No se permite un valor nulo.
+
+29
+00:02:28,940 --> 00:02:40,160
+Ahora podríamos mejorar nuestra función ponerlo todo en un código Troi y capturar como siempre hacemos
+
+30
+00:02:40,610 --> 00:02:53,090
+este error para por ejemplo mostrar un mensaje el que tenemos antes pero ya tratándolo como una excepción
+
+31
+00:02:54,680 --> 00:02:55,600
+de acuerdo.
+
+32
+00:02:57,060 --> 00:03:02,390
+Vamos a poner aquí desde la excepción para que se vea la diferencia.
+
+33
+00:03:02,940 --> 00:03:06,310
+Veis estamos invocando un value error.
+
+34
+00:03:07,380 --> 00:03:14,620
+Lo capturamos aquí y mostramos un mensaje manualmente que nosotros queremos desde la excepción.
+
+35
+00:03:16,520 --> 00:03:22,820
+Por si os interesa adjuntar un enlace a la documentación para que podáis investigar otros tipos de excepciones
+
+36
+00:03:22,820 --> 00:03:25,960
+que existen porque hay muchísimas.
+
+37
+00:03:25,970 --> 00:03:32,120
+También es posible crear nuestras propias excepciones pero requieren manejar objetos así que lo vamos
+
+38
+00:03:32,120 --> 00:03:33,380
+a dejar aquí.
+
+39
+00:03:34,040 --> 00:03:39,860
+Y una vez más quiero felicitaros por qué hemos llegado al final de la fase 2 del curso.
+
+40
+00:03:39,860 --> 00:03:43,310
+A partir de ahora la cosa se pone muchísimo más interesante.
+
+41
+00:03:43,490 --> 00:03:49,940
+Hablaremos de los objetos de las clases de la herencia y aprenderemos un montón de cosas así se estará
+
+42
+00:03:49,940 --> 00:03:51,190
+esperando.

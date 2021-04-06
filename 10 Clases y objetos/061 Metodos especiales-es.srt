@@ -1,0 +1,415 @@
+1
+00:00:00,630 --> 00:00:06,480
+Aparte de los métodos que nosotros podemos crear dentro de una clase también hay varios que son especiales
+
+2
+00:00:06,960 --> 00:00:11,840
+en la elección anterior ya vimos que el método especial Init se ejecuta al crear una instancia.
+
+3
+00:00:12,030 --> 00:00:14,930
+Por eso también se denomina método constructor.
+
+4
+00:00:15,180 --> 00:00:20,850
+Vamos a abrir la lección de métodos especiales y vamos a volver a repasar el método.
+
+5
+00:00:21,510 --> 00:00:25,910
+Para ello vamos a crear una nueva clase llamada por ejemplo película.
+
+6
+00:00:27,800 --> 00:00:34,950
+Y vamos a decir que aquí vamos ha declarado un constructor de clase de Init
+
+7
+00:00:38,470 --> 00:00:45,730
+parentesis los puntos y lo que le vamos a pasar a esta película es self acordaros de.
+
+8
+00:00:45,750 --> 00:00:47,460
+Para qué servía.
+
+9
+00:00:47,520 --> 00:00:50,120
+Título duración.
+
+10
+00:00:50,690 --> 00:00:54,400
+Vamos a poner también un año de lanzamiento.
+
+11
+00:00:55,140 --> 00:01:06,900
+Vamos a asignar el título El título que acabamos de pasar su duración con los minutos de duración y
+
+12
+00:01:07,110 --> 00:01:14,120
+el lanzamiento con el año de lanzamiento.
+
+13
+00:01:14,340 --> 00:01:19,150
+Muy bien al sacar una película nos vamos a poner un mensaje Prin mejor Prin.
+
+14
+00:01:20,680 --> 00:01:25,680
+Se ha creado la película.
+
+15
+00:01:26,230 --> 00:01:26,660
+Sí.
+
+16
+00:01:27,630 --> 00:01:28,780
+El título
+
+17
+00:01:32,140 --> 00:01:42,400
+muy bien vamos a crear una peli peli igual pelicula por ejemplo el padrino una película muy buena
+
+18
+00:01:45,370 --> 00:01:54,920
+que ya busque cuánto duraba 175 minutos y lanzada en el año 1972.
+
+19
+00:01:56,250 --> 00:02:01,110
+Bien me faltaba aquí uno se ha creado la película El Padrino.
+
+20
+00:02:04,750 --> 00:02:11,110
+De la misma forma que existe el constructor también existe un metodo destructor que se ejecuta al borrar
+
+21
+00:02:11,170 --> 00:02:18,040
+una instancia por defecto el destructor pasa desapercibido pero podemos sobreescribir para ejecutar
+
+22
+00:02:18,040 --> 00:02:20,630
+algún tipo de instrucción.
+
+23
+00:02:20,920 --> 00:02:26,340
+Por ejemplo podríamos crear aquí destructor de clase.
+
+24
+00:02:27,220 --> 00:02:33,060
+Recordad que únicamente se ejecuta cuando se borra esta instancia dez y se escribe.
+
+25
+00:02:33,080 --> 00:02:37,180
+Barra baja 2 del entonces barras bajas.
+
+26
+00:02:37,180 --> 00:02:38,200
+Seguro que os suena.
+
+27
+00:02:38,320 --> 00:02:44,060
+Cuando utilizamos la función del para borrar una instancia o una variable o lo que sea.
+
+28
+00:02:45,610 --> 00:02:52,870
+Pasamos entre paréntesis un cero dos puntos y aquí podemos sobreescribir una instrucción una serie de
+
+29
+00:02:52,870 --> 00:02:57,140
+instrucciones conjuntas al destructor por ejemplo.
+
+30
+00:02:57,820 --> 00:03:10,810
+Se está mostrando la película el título si lo ejecutamos todo no ocurre nada pero si borramos manualmente
+
+31
+00:03:11,350 --> 00:03:18,610
+la película que nos dice que se ha borrado la película y fijaros que curiosamente no sólo muestra dos
+
+32
+00:03:18,610 --> 00:03:20,310
+veces.
+
+33
+00:03:20,990 --> 00:03:26,780
+Bueno esto tiene más que ver con el intérprete de Jupiter del notebook.
+
+34
+00:03:27,070 --> 00:03:34,840
+Por qué por defecto al acabar de ejecutar todo el bloque de código no borra el contenido de Pe pero
+
+35
+00:03:35,370 --> 00:03:41,060
+forzarlo sí que lo borra y es como si después tuviera que volverlo a borrar.
+
+36
+00:03:41,080 --> 00:03:47,950
+Sé que quizá no me entendéis diciendo esto pero si creamos todo esto dentro de un script voy a abrir
+
+37
+00:03:48,880 --> 00:03:54,320
+mi editor de texto y voy a poner aquí este código.
+
+38
+00:03:55,490 --> 00:03:56,840
+De acuerdo.
+
+39
+00:03:56,940 --> 00:04:07,070
+Hasta aquí voy a guardarlo en un scrip voy a poner destrucción destruir objeto un topic.
+
+40
+00:04:07,790 --> 00:04:09,830
+Y ahora voy a ejecutarlo.
+
+41
+00:04:09,900 --> 00:04:11,920
+Vale ya la tengo aquí mi terminal.
+
+42
+00:04:11,960 --> 00:04:15,650
+Voy a poner este Código a izquierda y la terminal a la derecha.
+
+43
+00:04:15,890 --> 00:04:24,420
+Fijaros si lo ejecuto en una scrip y hago Payton destruir objetos.
+
+44
+00:04:25,580 --> 00:04:28,260
+Bueno he puesto destruir lo ejecuto.
+
+45
+00:04:28,430 --> 00:04:36,600
+Se ha creado la película El Padrino y aunque no he escrito el del no lo estoy haciendo forzándolo.
+
+46
+00:04:36,600 --> 00:04:38,920
+Dices está borrando la película El Padrino.
+
+47
+00:04:39,140 --> 00:04:43,270
+En cambio si lo borra lo borrará antes.
+
+48
+00:04:43,370 --> 00:04:46,530
+Voy a volver a guardarlo y lo vuelva a aceptar.
+
+49
+00:04:46,970 --> 00:04:55,490
+También se me muestra una sola vez pero ésta cuando se ejecuta la instrucción es cuando se muestra sin
+
+50
+00:04:55,490 --> 00:05:02,340
+embargo si no lo tengo puesto y lo ejecuto Igualmente se muestra cuando se acaba el script.
+
+51
+00:05:02,420 --> 00:05:08,630
+Lo que os comentaba de las galletas cuando finaliza el programa se eliminan de la memoria todas las
+
+52
+00:05:08,630 --> 00:05:15,400
+instancias de todos los objetos que existen por eso se ejecuta automáticamente el destructor.
+
+53
+00:05:15,470 --> 00:05:21,990
+En cambio como en Júpiter intérprete Júpiter podemos ejecutar varias veces las instrucciones.
+
+54
+00:05:22,160 --> 00:05:27,660
+Nosotros la habíamos ejecutado antes sin el destructor sin eldel y ahora con él.
+
+55
+00:05:28,040 --> 00:05:31,870
+Se han creado dos copias y se han borrado las dos a la vez.
+
+56
+00:05:32,700 --> 00:05:37,160
+Bueno la verdad es que no quería entrar mucho en detalle con esto porque todavía nos falta ver algunos
+
+57
+00:05:37,580 --> 00:05:40,730
+metodos internos más por ejemplo.
+
+58
+00:05:40,880 --> 00:05:46,730
+Tenemos también un método muy especial que ya conocéis es el método trinquet que es lo que ocurre cuando
+
+59
+00:05:46,820 --> 00:05:54,860
+pasamos a una cadena STR un valor sabemos que convierte a una cadena de caracteres repasábamos por ejemplo
+
+60
+00:05:54,860 --> 00:05:57,440
+un 10 lo convierte a una cadena de 10.
+
+61
+00:05:57,680 --> 00:06:03,570
+Pero los objetos en la clase también podemos redefinir esta estribe por defecto.
+
+62
+00:06:03,710 --> 00:06:11,690
+Si pasamos por ejemplo a string lo que tenemos es este código tan extraño que os comentaba en anteriores
+
+63
+00:06:11,690 --> 00:06:12,720
+elecciones.
+
+64
+00:06:12,820 --> 00:06:13,830
+Esto es lo que es.
+
+65
+00:06:13,850 --> 00:06:20,550
+Es una referencia a una instancia del tipo película que está almacenada en esta dirección de memoria.
+
+66
+00:06:21,590 --> 00:06:28,320
+Podemos reclamar estas funciones TRIM para mostrar algo un poco más interesante a la hora de transformarte
+
+67
+00:06:28,380 --> 00:06:29,670
+o una cadena.
+
+68
+00:06:29,670 --> 00:06:36,990
+Vamos a redefinir esta película con su método string interno.
+
+69
+00:06:37,340 --> 00:06:52,220
+Por ejemplo definimos el método real de barras bajas STR pasamos Shelf y ahora podemos devolver una
+
+70
+00:06:52,220 --> 00:06:54,680
+cadena porque este string.
+
+71
+00:06:54,710 --> 00:07:00,100
+Este método string tiene que devolver una cadena de texto con lo que queramos mostrar.
+
+72
+00:07:00,320 --> 00:07:03,820
+Vamos a poner un RETURN y aquí vamos a devolver la cadena.
+
+73
+00:07:03,950 --> 00:07:06,490
+Por ejemplo podríamos mostrar lo siguiente.
+
+74
+00:07:07,020 --> 00:07:18,800
+Vamos a poner una cadena con unos con las llaves vamos a poner lo siguiente lanzada que con una duración
+
+75
+00:07:19,120 --> 00:07:20,310
+de.
+
+76
+00:07:21,950 --> 00:07:35,880
+Minutos vamos a hacer un formato que vamos a pasar del título Shelf lanzamiento y Shelf duración.
+
+77
+00:07:35,900 --> 00:07:37,280
+Pues bien vamos a guardarlo.
+
+78
+00:07:37,430 --> 00:07:47,350
+Se nos ha creado la película El Padrino y si mostramos entre el métodos TRIM la película El Padrino
+
+79
+00:07:47,540 --> 00:07:54,990
+lanzada en 1972 con una duración de 175 minutos casi que lo mismo es igual esto.
+
+80
+00:07:56,490 --> 00:07:59,660
+Aquí para mostrar un poco de información sobre la película.
+
+81
+00:07:59,660 --> 00:08:07,840
+Bueno ya veis que streeck no sirve para más que nada conseguir información nosotros sobre estos objetos
+
+82
+00:08:07,870 --> 00:08:11,170
+que acabamos de crear en la memoria.
+
+83
+00:08:11,200 --> 00:08:18,100
+Otro método muy especial que quiero mencionar y que nos va a venir bien es en la longitud de una colección
+
+84
+00:08:18,100 --> 00:08:18,930
+o cadena.
+
+85
+00:08:19,060 --> 00:08:24,900
+Este método suele decirnos la longitud pero también podemos adaptarlo a nuestros objetos.
+
+86
+00:08:25,030 --> 00:08:29,490
+Por ejemplo podríamos hacer que nos diga cuánto dura una película.
+
+87
+00:08:29,500 --> 00:08:31,650
+Cuántos son los minutos de duración que tiene.
+
+88
+00:08:31,660 --> 00:08:33,080
+Nos viene bastante bien.
+
+89
+00:08:34,010 --> 00:08:42,320
+Fijaros Por cierto que si intentamos hacer fehlen de un objeto como esta película no es un error porque
+
+90
+00:08:42,360 --> 00:08:47,240
+por defecto este método no existe no está implementado en clase.
+
+91
+00:08:47,330 --> 00:08:53,780
+Lo que tenemos que hacer es sobreescribir tenemos que crearlo De hecho vamos a copiar todo lo que teníamos
+
+92
+00:08:53,780 --> 00:09:01,160
+atrás y vamos a redefinir este método método
+
+93
+00:09:04,330 --> 00:09:10,920
+Lean self y vamos a hacer un RETURN por ejemplo.
+
+94
+00:09:11,950 --> 00:09:14,030
+Con la duración.
+
+95
+00:09:15,740 --> 00:09:16,530
+Duración.
+
+96
+00:09:17,650 --> 00:09:27,550
+Y ahora al crear una película y al basarla salen La película nos dirá la duración.
+
+97
+00:09:27,550 --> 00:09:28,850
+Muy bien.
+
+98
+00:09:29,050 --> 00:09:36,400
+Fijaros Por cierto que estos métodos son un poco particulares porque no se ejecutan con un puntito después
+
+99
+00:09:36,640 --> 00:09:43,740
+del nombre del objeto sino que se ejecutan automáticamente cuando otras funciones externas por ejemplo
+
+100
+00:09:43,750 --> 00:09:46,830
+leen o string.
+
+101
+00:09:47,260 --> 00:09:49,350
+Lo toman como un parámetro.
+
+102
+00:09:49,420 --> 00:09:55,300
+Por eso son especiales porque no son directamente internas y la verdad es que hay muchísimos más métodos
+
+103
+00:09:55,300 --> 00:09:56,280
+especiales.
+
+104
+00:09:56,510 --> 00:10:01,910
+Pero en este curso nos vamos a centrar únicamente en esto para no hacerlo demasiado complejo.

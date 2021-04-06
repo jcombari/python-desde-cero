@@ -1,0 +1,567 @@
+1
+00:00:01,050 --> 00:00:05,320
+Muy bien crear un módulo en Payton es tan sencillo como crear un script.
+
+2
+00:00:05,490 --> 00:00:11,670
+Sólo tenemos que añadir alguna función dentro en un fichero y guardarlo con la extensión si podemos
+
+3
+00:00:11,670 --> 00:00:12,550
+hacerlo.
+
+4
+00:00:12,550 --> 00:00:14,750
+La fase 4 que tengo ya preparada.
+
+5
+00:00:14,850 --> 00:00:17,120
+11 módulos elección 1 módulos.
+
+6
+00:00:17,130 --> 00:00:22,300
+Vamos a trabajar en este directorio de vuestro curso Payton.
+
+7
+00:00:22,800 --> 00:00:29,940
+Tengo aquí un sublime texto ya preparado voy a crear un fichero nuevo documento de texto y lo voy a
+
+8
+00:00:29,940 --> 00:00:31,250
+llamar por ejemplo.
+
+9
+00:00:33,650 --> 00:00:34,610
+Saludos.
+
+10
+00:00:34,850 --> 00:00:35,980
+Punto.
+
+11
+00:00:37,100 --> 00:00:38,840
+Voy a decirle que sí.
+
+12
+00:00:38,840 --> 00:00:46,240
+Imaginad que queremos crear un módulo con unas funciones para saludar que muestren por pantalla un saludo
+
+13
+00:00:46,250 --> 00:00:51,710
+por ejemplo Hola te estoy saludando desde una función en un módulo no hace que no volvamos a hacerlo
+
+14
+00:00:52,090 --> 00:01:00,320
+vamos a arrastrarlo aquí y vamos a hacer lo siguiente simplemente vamos a por ejemplo poner un comentario.
+
+15
+00:01:00,740 --> 00:01:13,170
+Este es un módulo con funciones que saludan vamos a hacer desanudar por ejemplo una función PIN.
+
+16
+00:01:14,210 --> 00:01:15,060
+Hola.
+
+17
+00:01:17,810 --> 00:01:30,270
+Estoy saludando desde la función saludar del módulo salud muy bien hacer esto más pequeño.
+
+18
+00:01:32,010 --> 00:01:37,200
+Quiero que se vea porque es importante la jerarquía de los directorios para que veamos como se llaman
+
+19
+00:01:37,200 --> 00:01:39,080
+entre ellos los ficheros.
+
+20
+00:01:39,090 --> 00:01:46,140
+Vale bueno ya lo tengo aquí un módulo llamado saludos con una función saludar.
+
+21
+00:01:46,680 --> 00:01:48,780
+Cómo podemos utilizarla.
+
+22
+00:01:48,780 --> 00:01:53,290
+Bueno pues vamos a sacar un fichero nuevo por ejemplo justo en el mismo directorio.
+
+23
+00:01:54,480 --> 00:02:01,420
+Documenté de texto voy a llamarle por ejemplo test punto Pi.
+
+24
+00:02:03,580 --> 00:02:06,510
+Ok voy a arrastrarlo aquí a.
+
+25
+00:02:07,580 --> 00:02:14,750
+Voy a hacer un poco más grande el texto para que sea mejor y para importar este módulo que se llama
+
+26
+00:02:14,760 --> 00:02:15,440
+Saludos.
+
+27
+00:02:15,440 --> 00:02:19,710
+Como estamos en el mismo directorio lo único que tenemos que hacer es esto impor.
+
+28
+00:02:19,970 --> 00:02:21,360
+Saludos.
+
+29
+00:02:22,260 --> 00:02:29,210
+Y ahora teóricamente ya lo hemos importado podríamos utilizar la función saludar.
+
+30
+00:02:30,720 --> 00:02:35,790
+Vamos a poner aquí a saludar y a ver qué ocurre.
+
+31
+00:02:35,790 --> 00:02:42,590
+Control GIB nos dice Naim saludaros nos definen así que parece ser que esto no ha funcionado bien.
+
+32
+00:02:43,210 --> 00:02:48,240
+Y esto es debido a que no es posible utilizar directamente la función tenemos que hacerlo como si se
+
+33
+00:02:48,240 --> 00:02:50,670
+tratase de una clase y sus métodos.
+
+34
+00:02:50,670 --> 00:02:53,580
+Es decir imaginar qué queremos llamar.
+
+35
+00:02:53,580 --> 00:02:54,790
+Saludos.
+
+36
+00:02:55,110 --> 00:02:58,400
+El metodo saludar pues lo pondríamos así.
+
+37
+00:02:58,470 --> 00:02:59,000
+Saludos.
+
+38
+00:02:59,000 --> 00:03:00,430
+Puntos saludar.
+
+39
+00:03:00,580 --> 00:03:03,510
+Vamos a ejecutarlo y control.
+
+40
+00:03:03,570 --> 00:03:04,970
+Y como veis aquí abajo.
+
+41
+00:03:05,290 --> 00:03:08,650
+Hola te estoy saludando desde la función saludar del módulo saludos.
+
+42
+00:03:08,730 --> 00:03:10,660
+Así que esto ya funciona.
+
+43
+00:03:13,630 --> 00:03:18,970
+Pero de hecho sí que es posible importar funciones directamente es decir podríamos importar la función
+
+44
+00:03:18,970 --> 00:03:20,850
+saludar directamente sin utilizar.
+
+45
+00:03:20,860 --> 00:03:27,670
+De esta forma para hacerlo necesitamos utilizar una sintaxis a la hora de importar que es From nombre
+
+46
+00:03:27,670 --> 00:03:34,590
+del módulo import y la definición de la clase o funciones que queramos importar.
+
+47
+00:03:34,630 --> 00:03:41,530
+Lo haríamos de la siguiente forma pondríamos from Saludos import saludar.
+
+48
+00:03:41,860 --> 00:03:44,640
+De esta forma estaríamos importa tanto la función saludar.
+
+49
+00:03:45,290 --> 00:03:51,570
+Pero únicamente esta función y podríamos utilizarla de esta forma vamos a guardar controles de control.
+
+50
+00:03:51,960 --> 00:03:54,560
+Y como veis se ejecuta perfectamente.
+
+51
+00:03:55,940 --> 00:04:02,450
+Pero como ya os he dicho esto únicamente importaría la función saludaré suponiendo que tuviéramos más
+
+52
+00:04:03,980 --> 00:04:11,630
+para importarlas todas de golpe lo que tendríamos que hacer es cambiar aquí las funciones por un asterisco
+
+53
+00:04:11,690 --> 00:04:18,080
+y esto importará automáticamente todas las funciones o definiciones que haya en el módulo.
+
+54
+00:04:18,080 --> 00:04:22,540
+De hecho si lo probamos ahora volvería a funcionar perfectamente.
+
+55
+00:04:22,550 --> 00:04:28,670
+Dicho esto aparte de funciones También podemos reutilizar classes por ejemplo imaginar que vaya a definir
+
+56
+00:04:28,670 --> 00:04:30,760
+a qué una clase.
+
+57
+00:04:32,700 --> 00:04:36,340
+CLas saludo por ejemplo el invento.
+
+58
+00:04:36,830 --> 00:04:47,770
+Y cuando creas un objeto de tipo saludo vamos a definir un cinep pasarle Shelf los puntos vamos a mostrar
+
+59
+00:04:48,520 --> 00:04:50,280
+un mensaje como el de arriba.
+
+60
+00:04:50,770 --> 00:04:58,420
+Hola te estoy saludando pero ahora voy a poner desde el inicio de la clase.
+
+61
+00:04:58,510 --> 00:05:00,230
+Saludos.
+
+62
+00:05:00,280 --> 00:05:08,630
+De acuerdo entonces igual que antes tendremos que llamar primero al módulo para referirnos a la clase.
+
+63
+00:05:08,890 --> 00:05:11,750
+Podríamos hacerlo así.
+
+64
+00:05:11,950 --> 00:05:13,060
+Saludos.
+
+65
+00:05:13,780 --> 00:05:19,600
+Y de esta forma haríamos un nuevo objeto de tipo saludo por ejemplo S.
+
+66
+00:05:19,930 --> 00:05:21,070
+Saludos.
+
+67
+00:05:21,070 --> 00:05:22,080
+Un saludo.
+
+68
+00:05:22,180 --> 00:05:30,830
+Para crear un nuevo objeto de tipo Saludos podríamos quitar la S si quisiéramos hadices la asignación
+
+69
+00:05:30,850 --> 00:05:35,740
+porque realmente lo único que queremos es crearlo no queremos guardarlo en ningún sitio.
+
+70
+00:05:35,740 --> 00:05:36,790
+Vamos a comprobarlo.
+
+71
+00:05:36,790 --> 00:05:38,280
+Control V.
+
+72
+00:05:38,810 --> 00:05:43,840
+Y ahora me dice hola te estoy solo dando desde el INE de la clase saludo porque estamos creando este
+
+73
+00:05:43,840 --> 00:05:49,920
+objeto también podríamos solo importar la clase Saludos.
+
+74
+00:05:49,960 --> 00:05:51,970
+Ya sabemos como se hace From.
+
+75
+00:05:51,970 --> 00:05:52,890
+Saludos.
+
+76
+00:05:53,110 --> 00:05:58,010
+Bien por aquí pondríamos la clase que queremos importar.
+
+77
+00:05:58,030 --> 00:06:03,550
+Y entonces sólo tendríamos que crearlo de esta forma ejecutar los controles.
+
+78
+00:06:04,090 --> 00:06:06,740
+Y como veis me funciona perfectamente.
+
+79
+00:06:07,600 --> 00:06:15,070
+Como veis es bastante sencillo trabajar con los módulos pero imaginar que queremos llamar este módulo
+
+80
+00:06:15,910 --> 00:06:20,410
+o importarlo desde otro directorio que no es el que actualmente estamos por ejemplo imaginad que creamos
+
+81
+00:06:20,410 --> 00:06:25,130
+un nuevo directorio nuevo carpeta hagámosle por ejemplo.
+
+82
+00:06:25,930 --> 00:06:29,580
+Y dentro vamos a copiar el fichero test.
+
+83
+00:06:29,940 --> 00:06:40,240
+Vale lo he arrastrado que hacer un control c copiar y adentro voy a pegarlo de acuerdo vamos a abrirlo
+
+84
+00:06:40,240 --> 00:06:41,390
+aquí.
+
+85
+00:06:42,010 --> 00:06:44,610
+Fijaros que arriba me dice dónde lo tengo.
+
+86
+00:06:44,620 --> 00:06:49,760
+Este es el test de módulos test estoy aquí y aquí el de módulos de la carpeta.
+
+87
+00:06:49,970 --> 00:06:58,960
+Simplemente voy a cerrar este y este de aquí si ahora hacemos control y lo ejecutamos nos da error y
+
+88
+00:06:59,160 --> 00:07:01,260
+nos da un error muy grande.
+
+89
+00:07:02,230 --> 00:07:04,300
+Qué nos dice por aquí arriba.
+
+90
+00:07:04,780 --> 00:07:06,340
+Nos dice que no se encontró el módulo.
+
+91
+00:07:06,340 --> 00:07:08,930
+Saludos.
+
+92
+00:07:08,930 --> 00:07:12,360
+Claro el problema es que nuestro módulo queda fuera del alcance del script.
+
+93
+00:07:12,400 --> 00:07:14,620
+Por qué se piensa que lo tienen el mismo directorio.
+
+94
+00:07:14,620 --> 00:07:18,540
+Sin embargo tenemos un directorio atrás en el árbol.
+
+95
+00:07:18,850 --> 00:07:20,040
+Estaríamos en test.
+
+96
+00:07:21,170 --> 00:07:23,400
+No lo tenemos aquí.
+
+97
+00:07:23,520 --> 00:07:27,530
+Lo está buscando en su propia carpeta pero está una carpeta hacia atrás.
+
+98
+00:07:29,630 --> 00:07:31,770
+Bueno voy a dejarlo como estaba.
+
+99
+00:07:33,410 --> 00:07:34,870
+Por qué ocurre este error.
+
+100
+00:07:35,020 --> 00:07:41,270
+Bueno el caso es que cuando se importa un módulo el intérprete de Python comienza buscando si el módulo
+
+101
+00:07:41,270 --> 00:07:44,110
+se encuentra integrado dentro de Payton.
+
+102
+00:07:44,210 --> 00:07:50,390
+Es decir si es un módulo estándar si no lo encuentra entonces busca un archivo con el nombre en el SIS.
+
+103
+00:07:50,690 --> 00:07:57,190
+Si no lo encuentra tampoco pues también va a buscar al directorio por defecto de la instalación de Payton.
+
+104
+00:07:57,230 --> 00:08:05,180
+El caso es que podemos comprobar esto haciendo lo siguiente Vamos a comentar lo que tenemos aquí en
+
+105
+00:08:05,180 --> 00:08:14,420
+el test dentro de la carpeta test recordar y vamos a hacer esto vamos a hacer un import para importar.
+
+106
+00:08:15,600 --> 00:08:21,070
+Módulos y estesistema y consultar el pad que ya lo tenemos aquí abajo pero vamos a consultarlo de una
+
+107
+00:08:21,070 --> 00:08:30,630
+forma más ordenada y vamos a hacer un print SIS y le vamos a pasar el atributo paz.
+
+108
+00:08:31,990 --> 00:08:33,560
+De acuerdo vamos a hacer control.
+
+109
+00:08:34,590 --> 00:08:37,250
+Y como podéis observar aquí tenemos el Paz.
+
+110
+00:08:37,330 --> 00:08:44,740
+Todos los directorios donde nuestro intérprete de Payton desde este fichero está yendo a buscar sin
+
+111
+00:08:44,790 --> 00:08:50,770
+cuentra el módulo como el directorio anterior de la carpeta anterior que podemos ir con la flechita
+
+112
+00:08:50,770 --> 00:08:51,580
+arriba.
+
+113
+00:08:51,580 --> 00:08:55,980
+Es aquí el curso Payton fase 4 tema blablabla.
+
+114
+00:08:55,990 --> 00:09:02,200
+Lección 1 no lo tiene integrado en el SIS Path porque lo único que tenemos es que la carpeta actual
+
+115
+00:09:02,200 --> 00:09:08,600
+del fichero o la ruta de los posibles ejecutables de Python etcétera del directorio de instalación.
+
+116
+00:09:08,800 --> 00:09:11,310
+Pues no lo encuentra no funciona.
+
+117
+00:09:11,830 --> 00:09:17,610
+Pero imaginar que lo integramos nosotros manualmente haciendo lo siguiente.
+
+118
+00:09:17,620 --> 00:09:29,500
+Por ejemplo justo antes de imprimir el SIS hacemos esto cispa insert con un comando que tiene esta variable.
+
+119
+00:09:29,830 --> 00:09:31,320
+Ponemos un 1.
+
+120
+00:09:32,240 --> 00:09:40,280
+Y vamos a insertar un Paz que son dos puntitos dos puntitos hace referencia al directorio anterior de
+
+121
+00:09:40,280 --> 00:09:47,060
+acuerdo cuando trabajamos con ficheros y con el sistema operativo es posible utilizar un punto y dos
+
+122
+00:09:47,060 --> 00:09:51,610
+puntitos para referirnos al director actual o el directorio anterior.
+
+123
+00:09:52,620 --> 00:09:53,560
+La actual.
+
+124
+00:09:54,320 --> 00:10:00,560
+En el árbol de directorios respectivamente por tanto estos dos puntos hacen referencia a este directorio
+
+125
+00:10:00,560 --> 00:10:06,450
+de aquí y un puntito haría referencia al propio directorio del fichero al hacer este comando.
+
+126
+00:10:06,500 --> 00:10:08,080
+Estamos insertando.
+
+127
+00:10:09,380 --> 00:10:10,650
+Dentro del SIS.
+
+128
+00:10:11,680 --> 00:10:20,200
+Este directorio anterior si lo ejecutamos fijaros ahora dentro del SIS Path tenemos también el directorio
+
+129
+00:10:20,200 --> 00:10:20,710
+anterior.
+
+130
+00:10:20,710 --> 00:10:30,330
+Con estos dos puntitos y qué creéis que pasará si bajamos un poco y ahora volvemos a ejecutar este import.
+
+131
+00:10:30,400 --> 00:10:33,050
+Vamos a probarlo.
+
+132
+00:10:33,540 --> 00:10:36,750
+Pues fijaros si no fuera porque estamos mostrando aquí el 6.
+
+133
+00:10:36,880 --> 00:10:41,710
+Vamos a comentarlo ejecutó otra vez y ahora me funciona por qué.
+
+134
+00:10:41,710 --> 00:10:48,850
+Porque está yendo a buscar correctamente en el directorio anterior el módulo de Saludos.
+
+135
+00:10:48,910 --> 00:10:57,100
+Aquí sin embargo todo esto es un poco chapucero quiero decir no es muy útil tener que añadir el Paz
+
+136
+00:10:57,820 --> 00:11:00,630
+o la ruta manualmente en todos los scripts.
+
+137
+00:11:00,760 --> 00:11:05,930
+Por eso si lo hacéis os recomiendo crear los 3 al principio del programa únicamente en el primer script
+
+138
+00:11:06,400 --> 00:11:07,650
+que lo gestione todo.
+
+139
+00:11:07,810 --> 00:11:12,940
+Pero para qué nos vamos a complicar la vida si Payton nos ofrece una forma mucho mejor de gestionar
+
+140
+00:11:12,940 --> 00:11:19,810
+los módulos es decir poder utilizarlos en distintos scripts dentro de cualquier directorio de nuestro
+
+141
+00:11:19,810 --> 00:11:21,220
+sistema.
+
+142
+00:11:21,250 --> 00:11:24,830
+Estoy hablando de los paquetes y vamos a verlos en la próxima unidad.

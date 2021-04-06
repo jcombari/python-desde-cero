@@ -1,0 +1,479 @@
+1
+00:00:02,250 --> 00:00:07,500
+Color radio Button vimos que el usuario puede marcar una opción entre varias pero si queremos simplemente
+
+2
+00:00:07,590 --> 00:00:13,680
+proponer una única opción es mejor utilizar un botón de selección son bastante parecidas.
+
+3
+00:00:13,680 --> 00:00:19,210
+Vamos a crear un par de botones para por ejemplo pedir a un usuario como quiere que le sirvan el café.
+
+4
+00:00:19,590 --> 00:00:25,280
+él tendrá que marcar si quiere leche y también si quiere azúcar vamos a comenzar con el diseño base.
+
+5
+00:00:25,320 --> 00:00:28,260
+Como veis tengo ya ha creado un fichero check vota un punto Pi.
+
+6
+00:00:28,500 --> 00:00:36,270
+Tengo aquí una robot un robot una configuración básica con un título y un borde de 15 píxeles que he
+
+7
+00:00:36,270 --> 00:00:37,670
+puesto.
+
+8
+00:00:37,960 --> 00:00:39,800
+Y ABAJO EL Moinelo.
+
+9
+00:00:40,770 --> 00:00:47,400
+Vamos a comenzar creando dos variables enteras para almacenar lo que van a ser las dos variables de
+
+10
+00:00:47,400 --> 00:00:51,030
+los dos check Button una para la leche y otra para el azúcar.
+
+11
+00:00:51,180 --> 00:00:55,830
+Vamos a llamar a la primera leche y vamos a crear Lasi bar.
+
+12
+00:00:56,520 --> 00:00:58,290
+Y la otra va a ser azúcar
+
+13
+00:01:00,850 --> 00:01:09,750
+igual digamos que un uno sería que sí y un cero sería al que no los valores no podría ser verdadero
+
+14
+00:01:09,750 --> 00:01:10,360
+y falso.
+
+15
+00:01:10,520 --> 00:01:13,920
+Unos Serono.
+
+16
+00:01:14,760 --> 00:01:21,420
+Ahora vamos a crear una labelo una etiqueta simplemente Ruth vamos a poner un texto.
+
+17
+00:01:21,420 --> 00:01:27,010
+Vamos a pedirle cómo quieres el café.
+
+18
+00:01:28,350 --> 00:01:36,150
+Vamos a empaquetarlo y ahora vamos a crear dos Buttons dos seleccionables debajo que son como los radio
+
+19
+00:01:36,220 --> 00:01:39,430
+Button putón.
+
+20
+00:01:40,170 --> 00:01:48,480
+Vamos a pasar Ruth un texto un texto y quién el primero diríamos con leche.
+
+21
+00:01:48,890 --> 00:01:51,750
+Y entonces saldrá el Tika al lado para marcarlo.
+
+22
+00:01:53,900 --> 00:01:58,720
+Aquí le vamos a pasar la variable leche.
+
+23
+00:02:00,160 --> 00:02:02,030
+Y por ahora vamos a dejarlo así.
+
+24
+00:02:02,050 --> 00:02:07,640
+Vamos a hacer un pack y vamos a copiar exactamente esto debajo.
+
+25
+00:02:08,560 --> 00:02:13,420
+Cambiando la leche por azúcar y aquí azúcar.
+
+26
+00:02:14,020 --> 00:02:17,620
+Muy bien vamos a ejecutarlo a ver como queda.
+
+27
+00:02:18,400 --> 00:02:24,640
+Y como veis tenemos como quieres el café con leche con azúcar y podemos marcar con dos tipos las dos
+
+28
+00:02:24,640 --> 00:02:25,790
+opciones.
+
+29
+00:02:26,470 --> 00:02:27,410
+Ok.
+
+30
+00:02:28,830 --> 00:02:30,880
+Pero nos falta decirle algo.
+
+31
+00:02:30,990 --> 00:02:35,640
+Y es cuál es el valor por defecto que este chef Button tendrá cuando esté explicado y cuando no esté
+
+32
+00:02:35,640 --> 00:02:42,030
+explicado es decir el valor que se le otorgará a esta variable de aquí y esta de aquí pues vamos a tener
+
+33
+00:02:42,030 --> 00:02:50,040
+que hacerlo de esta forma con dos parámetros uno llamado On value.
+
+34
+00:02:50,810 --> 00:02:57,880
+Y otro llamado coff Value como podía suponer con values significa cuando está en marcha.
+
+35
+00:02:57,910 --> 00:03:07,090
+Cuando está aplicado y o cuando está marcado cuando está marcado con value le pondremos un 1 que sea
+
+36
+00:03:07,090 --> 00:03:09,690
+el que decíamos que íbamos a poner en off también.
+
+37
+00:03:09,770 --> 00:03:14,710
+Pues pondremos un cero y podemos copiar esto también para ponerlo a bajo.
+
+38
+00:03:14,710 --> 00:03:21,640
+Ahora ya tenemos configurado los valores por defecto de cada uno de estos CHEC botones y se me ha ocurrido
+
+39
+00:03:21,730 --> 00:03:29,860
+que ya que tenemos una imagen aquella imagen concierge imagen punto birf que era este café que evidentemente
+
+40
+00:03:29,860 --> 00:03:38,110
+la había preparado especialmente para esta lección pues podríamos crear una imagen y ponerla ahí también
+
+41
+00:03:38,620 --> 00:03:44,780
+para practicar un poco la distribución de widget y cómo podríamos hacerlo.
+
+42
+00:03:45,190 --> 00:03:50,050
+Pues por ejemplo podríamos comenzar antes de crear la nave y los dos check Buttons.
+
+43
+00:03:50,050 --> 00:03:54,520
+Aquí podríamos crear una imagen imagen.
+
+44
+00:03:54,850 --> 00:03:56,270
+Foto imaxe.
+
+45
+00:03:56,670 --> 00:03:58,290
+Y ya sabemos hacerlo.
+
+46
+00:03:59,010 --> 00:04:06,430
+Y la vamos a importaria bandola File imagen punto guía como la tenemos el mismo directorio puedes ir
+
+47
+00:04:06,430 --> 00:04:11,280
+a buscar bien y vamos a añadir dentro de una Label Label.
+
+48
+00:04:11,600 --> 00:04:20,580
+Cómo se depilan root y mazz le vamos a pasar imagen y vamos a empaquetarlos Park y añadirla a la izquierda.
+
+49
+00:04:20,590 --> 00:04:25,110
+Vamos a poner un 6 leff así acuerdo.
+
+50
+00:04:25,170 --> 00:04:31,600
+A ver cómo queda voy a ejecutarlo controlde y como veis ya me queda pues partió en dos partes por un
+
+51
+00:04:31,600 --> 00:04:38,940
+lado tenemos nuestro café la imagen y por el otro tenemos el formulario que estamos seleccionando vamos
+
+52
+00:04:38,950 --> 00:04:45,160
+a acabar de ordenar un poco todo esto vamos a crear un marco y vamos a añadir dentro del marco del Fram.
+
+53
+00:04:45,610 --> 00:04:47,450
+El texto no es el café.
+
+54
+00:04:47,500 --> 00:04:51,560
+Me falta poner un interrogante y los dos check Buttons.
+
+55
+00:04:51,790 --> 00:04:54,310
+Vamos a poner aquí el interrogante.
+
+56
+00:04:55,810 --> 00:05:01,260
+Vamos a crear un freie aquí igual.
+
+57
+00:05:03,050 --> 00:05:13,870
+Vamos a añadir en root y vamos a empacar hilo a la derecha it right de manera que nos quedará la imagen
+
+58
+00:05:13,870 --> 00:05:21,190
+a la izquierda y este Fram a la derecha y entonces vamos a añadir la lavelli los dos check Buttons dentro
+
+59
+00:05:21,190 --> 00:05:22,530
+del Fremen lugar de root.
+
+60
+00:05:22,780 --> 00:05:27,500
+De esta forma ahora nos faltaría empaquetarlo.
+
+61
+00:05:29,190 --> 00:05:30,800
+Ahora nos quedaremos empaquetada.
+
+62
+00:05:32,650 --> 00:05:39,340
+Aunque ahora que lo recuerdo de esto tendríamos que pasárselo por debajo así porque si no no podríamos
+
+63
+00:05:39,340 --> 00:05:46,870
+utilizar este frío porque cuando hacemos el parque no lo devuelve Vale pues vamos a ver cómo queda de
+
+64
+00:05:46,870 --> 00:05:48,380
+momento esto.
+
+65
+00:05:49,930 --> 00:05:50,930
+Y cómo veis ahora.
+
+66
+00:05:50,930 --> 00:05:56,270
+Pues tenemos anclado el contenido a la derecha y la imagen a la izquierda.
+
+67
+00:05:56,790 --> 00:05:57,660
+De acuerdo.
+
+68
+00:05:59,670 --> 00:06:05,860
+Y como ahora lo tenemos añadido dentro de un fraile dentro de un marco podríamos hacer que este contenido
+
+69
+00:06:06,300 --> 00:06:11,870
+pues queda anclado también a la izquierda pegado a nuestra imagen de alguna forma vamos a intentar hacerlo
+
+70
+00:06:12,140 --> 00:06:18,370
+lo que tenemos que cambiar es dentro del pack de la Label y los dos Cheek Buttons pues con un anchor
+
+71
+00:06:18,370 --> 00:06:26,470
+por ejemplo decirle que se ancle a la parte de la izquierda que sería Westen al oeste y lo mismo para
+
+72
+00:06:26,470 --> 00:06:28,110
+los otros dos.
+
+73
+00:06:28,120 --> 00:06:34,170
+Vamos a pasar así Anchor pues a ver como queda y como veis.
+
+74
+00:06:34,280 --> 00:06:40,630
+Bueno al menos ahora que ha alineado el contenido a la izquierda cosa que antes quedaba por el medio
+
+75
+00:06:40,630 --> 00:06:44,210
+y no quedaba muy bien puesto como que.
+
+76
+00:06:46,230 --> 00:06:51,140
+Es un formulario muy pequeño por defecto ya tendría este tamaño automático y queda bastante bien.
+
+77
+00:06:53,070 --> 00:06:59,820
+Entonces nos falta algo nos falta recuperar de alguna forma los dos valores para saber si finalmente
+
+78
+00:06:59,850 --> 00:07:06,680
+queremos servir el café con leche con azúcar o con cualquier otra posibilidad.
+
+79
+00:07:08,450 --> 00:07:10,670
+Cómo podemos recuperarlos.
+
+80
+00:07:10,770 --> 00:07:18,870
+Pues como hicimos con el radio Button añadiendo un comando un comando a estos dos check Buttons que
+
+81
+00:07:18,870 --> 00:07:23,330
+recuperen el valor de leche y azúcar por ejemplo lo Muéstreme en un label.
+
+82
+00:07:23,910 --> 00:07:29,620
+Así que vamos a comenzar creando una vela bajo del todo como si llamarla monitor como hicimos con radio
+
+83
+00:07:29,620 --> 00:07:39,120
+bruton label la vamos a añadir en el freie ir a empacar monitor.
+
+84
+00:07:40,320 --> 00:07:41,270
+Muy bien.
+
+85
+00:07:42,860 --> 00:07:45,350
+Y ahora vamos a crear nuestra función.
+
+86
+00:07:45,350 --> 00:07:49,220
+Vamos a definir la diva del todo.
+
+87
+00:07:49,220 --> 00:07:59,330
+Si vamos a redefinirlo aquí la vamos a llamar seleccionar y cara es vamos a generar una cadena por defecto
+
+88
+00:07:59,330 --> 00:08:00,570
+vacía.
+
+89
+00:08:01,850 --> 00:08:08,130
+Y vamos a comprobar por ejemplo el valor de leche.
+
+90
+00:08:10,960 --> 00:08:15,090
+Es verdadero es uno como si fuera verdadero.
+
+91
+00:08:15,620 --> 00:08:24,480
+Nos metería dentro de lo que sería el IRPF porque devuelve un 1 significaría que tendría leche no lo
+
+92
+00:08:24,480 --> 00:08:32,120
+quiere con leche entonces podríamos hacer cadena más igual y sumarle con leche.
+
+93
+00:08:32,980 --> 00:08:39,980
+Y en caso contrario podríamos hacer húmedos y sumarle leche.
+
+94
+00:08:41,150 --> 00:08:49,600
+Y debajo vamos a hacer exactamente lo mismo pero para comprobar el azúcar y azúcar esto devuelve un
+
+95
+00:08:49,600 --> 00:08:50,300
+1.
+
+96
+00:08:50,320 --> 00:08:52,060
+Esto sería verdadero.
+
+97
+00:08:52,060 --> 00:08:53,850
+Pondríamos aquí.
+
+98
+00:08:56,830 --> 00:09:01,040
+Con azúcar sumaríamos esto a la cadena.
+
+99
+00:09:01,150 --> 00:09:10,510
+Tendríamos que poner aquí un espacio y en caso contrario podríamos ir sin azúcar de manera que nos quedaría
+
+100
+00:09:10,720 --> 00:09:17,240
+una cadena que quedaría con leche y con azúcar si hemos marcado las dos o con leche y sin azúcar si
+
+101
+00:09:17,370 --> 00:09:19,540
+marca la primera la segunda no.
+
+102
+00:09:19,840 --> 00:09:23,590
+O sin leche y sin azúcar si no hemos marcado ninguno.
+
+103
+00:09:23,650 --> 00:09:30,430
+Lo último que tendríamos que hacer es escribir este texto en el monitor con config CEX y pasarla aquí
+
+104
+00:09:30,430 --> 00:09:32,220
+la calidad que hemos generado.
+
+105
+00:09:32,680 --> 00:09:36,240
+Vamos a indicar que ejecute esta función los dos comandos.
+
+106
+00:09:38,930 --> 00:09:41,350
+Y así seleccionar.
+
+107
+00:09:41,590 --> 00:09:44,150
+Y lo mismo para el botón de abajo.
+
+108
+00:09:45,080 --> 00:09:47,220
+Y vamos a probar a ver cómo queda.
+
+109
+00:09:48,410 --> 00:09:49,570
+Ahora vamos a clicar.
+
+110
+00:09:50,440 --> 00:09:57,120
+Y cuando marcamos la primera dice con leche y sin azúcar y si marcamos la segunda con leche y azúcar.
+
+111
+00:09:57,260 --> 00:09:59,570
+Como veis si no marcamos ninguna.
+
+112
+00:09:59,660 --> 00:10:01,030
+Sin leche y sin azúcar.
+
+113
+00:10:02,030 --> 00:10:03,690
+Muy bien.
+
+114
+00:10:03,800 --> 00:10:09,290
+Hemos visto cómo podemos crear rached Buttons y recuperar sus valores y nos hemos alineado un poco a
+
+115
+00:10:09,290 --> 00:10:17,300
+la izquierda dentro de este ephraim que creo que si en lugar de haberlo alineado a la derecha los vemos
+
+116
+00:10:17,390 --> 00:10:20,620
+alineados a la izquierda con un leff al hacer el pack.
+
+117
+00:10:22,740 --> 00:10:26,370
+Pues como veis ya nos quedaría pegado a la parte de la izquierda.
+
+118
+00:10:26,820 --> 00:10:33,030
+Eso ya queda a vuestra selección muy bien pero os haya parecido interesante.
+
+119
+00:10:33,600 --> 00:10:39,510
+En la próxima elección vamos a introducir un nuevo tipo de widget que también es un especie de botón
+
+120
+00:10:39,930 --> 00:10:43,090
+pero un poco más especial.

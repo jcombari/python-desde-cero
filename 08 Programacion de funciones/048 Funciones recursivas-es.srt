@@ -1,0 +1,347 @@
+1
+00:00:00,900 --> 00:00:08,060
+La recurrencia recursión o recursividad es un proceso de repetición en el que algo se repite a sí mismo.
+
+2
+00:00:08,070 --> 00:00:11,670
+Este efecto es lo que sucede cuando ponemos dos espejos uno frente al otro.
+
+3
+00:00:11,710 --> 00:00:15,160
+O cuando una imagen aparece dentro de la misma imagen.
+
+4
+00:00:15,210 --> 00:00:20,580
+Si hablamos de Informática o Ciencias de la computación la recursividad es una técnica muy utilizada
+
+5
+00:00:20,700 --> 00:00:25,650
+que se basa en dividir un problema en partes más pequeñas para poder solucionarlo de forma más simple.
+
+6
+00:00:25,860 --> 00:00:29,490
+Pero la programación donde más se utiliza es en las funciones.
+
+7
+00:00:29,490 --> 00:00:34,250
+Y es que cuando una función se llama Asímismo tenemos una función recursiva con un comportamiento muy
+
+8
+00:00:34,260 --> 00:00:36,550
+similar al de una sentencia iterativa.
+
+9
+00:00:36,930 --> 00:00:40,900
+Vamos a abrir la Lección 7 y trabajaremos un poco este concepto.
+
+10
+00:00:42,410 --> 00:00:45,260
+Personalmente me gusta diferenciar una función recursiva.
+
+11
+00:00:45,260 --> 00:00:49,670
+Tiene o no retorno ya que las primeras son mucho más fáciles de entender que las segundas.
+
+12
+00:00:49,790 --> 00:00:53,670
+Y lo digo por qué nos metemos en terreno un poco pantanoso.
+
+13
+00:00:53,690 --> 00:00:58,700
+Un ejemplo de función recursiva sin retorno puede ser simplemente una que haga una cuenta atrás a partir
+
+14
+00:00:58,700 --> 00:01:06,620
+de un número restándoles uno en cada recursión por ejemplo al crear una función cuenta atrás y le vamos
+
+15
+00:01:06,620 --> 00:01:09,260
+a pasar un número.
+
+16
+00:01:09,260 --> 00:01:13,670
+Este número por ejemplo podrían ser los segundos antes de que explote una bomba.
+
+17
+00:01:13,670 --> 00:01:15,240
+No lo estoy inventando.
+
+18
+00:01:15,980 --> 00:01:19,220
+Lo que vamos a hacer es comenzar restando a este número en asignacion.
+
+19
+00:01:19,250 --> 00:01:20,100
+1.
+
+20
+00:01:20,920 --> 00:01:27,100
+A continuación comprobaremos si este número es mayor que cero si este número es mayor que cero lo vamos
+
+21
+00:01:27,100 --> 00:01:28,070
+a mostrar.
+
+22
+00:01:28,300 --> 00:01:34,180
+Vamos a hacer un pin del número y ahora es momento importante.
+
+23
+00:01:34,450 --> 00:01:37,960
+Como sabemos que este número es mayor que cero lo acabamos de mostrar.
+
+24
+00:01:37,960 --> 00:01:43,910
+Vamos a volver a llamar a la función recursiva vamos a llamarla así misma cuenta atrás.
+
+25
+00:01:44,670 --> 00:01:47,240
+Volviéndola pasar el número en sí.
+
+26
+00:01:47,880 --> 00:01:51,840
+De esta manera la próxima vez que llamamos a la función cuenta atrás.
+
+27
+00:01:51,840 --> 00:01:55,980
+Ya no vale lo que valía originalmente imaginar que empezaba valiendo 5.
+
+28
+00:01:56,010 --> 00:01:59,780
+Ahora ya valdrá 4 porque la habremos restado 1 aquí.
+
+29
+00:02:01,440 --> 00:02:10,160
+Si no es mayor que cero hemos llegado a cero o vamos a poner túneles mostraremos por ejemplo esto boom
+
+30
+00:02:10,280 --> 00:02:13,830
+como intentando decir que acaba de explotar una bomba o algo así.
+
+31
+00:02:14,310 --> 00:02:22,080
+Vamos a llamar a esta función para que veáis como se comporta con un 5.
+
+32
+00:02:22,690 --> 00:02:28,050
+Y lo que hace es mostrar 4 3 2 1 y luego boom.
+
+33
+00:02:29,250 --> 00:02:34,490
+Lo más importante de una función recursiva es que esta deje de llamarse a sí misma en algún momento
+
+34
+00:02:34,500 --> 00:02:37,410
+si no tendríamos una función recursiva infinita.
+
+35
+00:02:37,620 --> 00:02:42,320
+En el ejemplo lo que hacemos es simplemente restar uno al número cada vez que llamamos a la función
+
+36
+00:02:42,330 --> 00:02:47,170
+mientras este sea mayor que cero y la condición para que se deje de llamar.
+
+37
+00:02:47,700 --> 00:02:53,390
+En realidad es esto que llega al final que no sea el número mayor que cero.
+
+38
+00:02:54,060 --> 00:03:00,880
+Parece un ejemplo sencillo pero sabrías decirme en qué momento finaliza cada recurso y empieza la siguiente.
+
+39
+00:03:02,210 --> 00:03:06,860
+Para entender mejor el funcionamiento de una función recursiva vamos a mostrar un mensaje al final de
+
+40
+00:03:06,860 --> 00:03:08,160
+la función.
+
+41
+00:03:08,840 --> 00:03:10,810
+Por ejemplo justo aquí.
+
+42
+00:03:11,960 --> 00:03:19,760
+Vamos a mostrar Prin que diga fin de la función y vamos a pasarle también lo que serían números que
+
+43
+00:03:19,760 --> 00:03:24,770
+sería como la iteración fijarlos.
+
+44
+00:03:25,010 --> 00:03:32,360
+Lo curioso es que es justo después de la última recursión después de llegar al boom que empiezan a finalizar
+
+45
+00:03:32,360 --> 00:03:37,940
+las funciones recursivas en el orden inverso al que se han llamado.
+
+46
+00:03:37,940 --> 00:03:44,300
+Digamos que el proceso está vivo y se va ramificándose hasta finalizarse y luego se cierran de forma
+
+47
+00:03:44,300 --> 00:03:45,090
+inversa.
+
+48
+00:03:46,300 --> 00:03:49,260
+Digamos que esta era la recursión del uno y la del Cero.
+
+49
+00:03:49,480 --> 00:03:55,830
+Luego finaliza la del Cero finalizã la del 1 finaliza la del 2 finaliza la del 3.
+
+50
+00:03:55,930 --> 00:04:02,170
+Y por último finaliza la del 4 o ya que esto es como si se fuera ramificándose poco a poco hasta llegar
+
+51
+00:04:02,170 --> 00:04:07,870
+al final y luego fuera hacia atrás cerrando todos los procesos todas las funciones que están llamadas
+
+52
+00:04:07,890 --> 00:04:08,820
+y abiertas.
+
+53
+00:04:10,040 --> 00:04:14,980
+Aunque el ejemplo por excelencia para utilizar la recursión con retorno es el cálculo del factorial
+
+54
+00:04:14,980 --> 00:04:16,110
+de un número.
+
+55
+00:04:16,110 --> 00:04:21,520
+El factorial de un número es el entero que corresponde a ese número multiplicado por todos los números
+
+56
+00:04:21,520 --> 00:04:24,530
+enteros que van antes que hasta el 1.
+
+57
+00:04:24,550 --> 00:04:34,120
+La función del factorial es la siguiente factorial le pasamos un número ID si el número es mayor que
+
+58
+00:04:34,120 --> 00:04:35,600
+1.
+
+59
+00:04:36,580 --> 00:04:41,250
+Entonces número es igual número por.
+
+60
+00:04:41,580 --> 00:04:48,210
+Y aquí viene la magia factorial del número menos uno.
+
+61
+00:04:48,220 --> 00:04:54,630
+Un concepto muy similar a lo que hemos hecho antes restando uno al número y luego al final de todo hacemos
+
+62
+00:04:54,640 --> 00:04:58,640
+un retorno del número.
+
+63
+00:04:58,660 --> 00:05:06,430
+Como veis ésta es una función distinta porque estamos devolviendo un valor estamos devolviendo el número
+
+64
+00:05:06,970 --> 00:05:09,060
+y el de antes no devolvemos nada.
+
+65
+00:05:09,400 --> 00:05:14,670
+Si hacemos el factorial de un número por ejemplo del 5 obtenemos su factorial.
+
+66
+00:05:16,160 --> 00:05:22,580
+Aquí se nos presenta una suma recursiva del resultado que devuelve la función restando en cada recursión
+
+67
+00:05:22,610 --> 00:05:25,640
+1 el número hasta que éste vale un 1.
+
+68
+00:05:26,870 --> 00:05:32,410
+Entendéis ahora porque comentaba que una función recursiva con retorno es mucho más abstracta.
+
+69
+00:05:32,900 --> 00:05:39,200
+Esto se está ejecutando barnum pero a la vez está llamando y se está volviendo a asignar recursivamente
+
+70
+00:05:39,560 --> 00:05:46,250
+todo el rato esto de aquí a no un mal Humanum no imaginaros la ramificación pero muy abstracto vamos
+
+71
+00:05:46,270 --> 00:05:53,450
+a arrojar algo de luz a este ejemplo vamos a comenzar poniendo arriba del todo Prin que diga valor inicial
+
+72
+00:05:54,680 --> 00:05:57,050
+es igual a 1.
+
+73
+00:05:58,110 --> 00:06:05,850
+Para saber cada vez que se llama factorial cuál es el valor que se le está pasando y luego antes de
+
+74
+00:06:05,850 --> 00:06:06,840
+devolver el número.
+
+75
+00:06:06,840 --> 00:06:18,930
+Vamos a mostrar un Prin diciendo valor final de este factorial es la función que se iguala núm porque
+
+76
+00:06:18,930 --> 00:06:28,020
+una vez ya hayamos hecho todo el factorial habrá cambiado el valor de núm vamos a ejecutarlo y fijaros
+
+77
+00:06:28,020 --> 00:06:29,340
+lo que tenemos aquí.
+
+78
+00:06:29,850 --> 00:06:32,100
+Comenzamos iterando hasta el final.
+
+79
+00:06:32,160 --> 00:06:39,240
+Una vez llegamos al final con núm igual a uno se devuelven progresivamente los resultados de cada recursión
+
+80
+00:06:39,810 --> 00:06:47,490
+y entonces es cuando se van multiplicando primero del 5 hasta el 1 y luego con todos esos valores vamos
+
+81
+00:06:47,490 --> 00:06:50,860
+a ir sumando hasta llegar a un final.
+
+82
+00:06:51,090 --> 00:06:57,270
+Es decir si el producto sí que no es un ejemplo fácil pero no os preocupéis porque sólo quería enseñar
+
+83
+00:06:57,270 --> 00:07:01,350
+esto como una anécdota para mostrarnos un ejemplo real de la utilización.
+
+84
+00:07:01,350 --> 00:07:03,560
+Y no es mi intención agobiarnos con esta.
+
+85
+00:07:03,630 --> 00:07:05,980
+Con este tipo de funciones recursivas.
+
+86
+00:07:06,180 --> 00:07:11,670
+Si habéis entendido la primera yo creo que más o menos habéis entendido cuál es la idea de este tipo
+
+87
+00:07:11,670 --> 00:07:13,260
+de funciones.

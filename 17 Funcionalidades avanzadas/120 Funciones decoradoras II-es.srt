@@ -1,0 +1,395 @@
+1
+00:00:00,270 --> 00:00:05,520
+Muy bien pues vamos a ver exactamente esto de las funciones de curadoras una función decoradora es una
+
+2
+00:00:05,520 --> 00:00:11,350
+función que envuelve la ejecución de otra función y permite extender su comportamiento.
+
+3
+00:00:11,520 --> 00:00:16,800
+Como habíamos dicho están pensadas para reutilizarlas gracias a una sintaxis de ejecución mucho más
+
+4
+00:00:16,800 --> 00:00:17,690
+simple.
+
+5
+00:00:18,180 --> 00:00:21,290
+Imaginaros estas dos funciones sencillas tenemos.
+
+6
+00:00:22,020 --> 00:00:23,780
+Por ejemplo vamos a volver a crear aquí.
+
+7
+00:00:23,820 --> 00:00:26,180
+Hola.
+
+8
+00:00:27,900 --> 00:00:33,370
+En esta ocasión vamos a mostrar simplemente cola con un.
+
+9
+00:00:35,450 --> 00:00:37,160
+Y vamos a hacer otra.
+
+10
+00:00:37,160 --> 00:00:45,020
+Qué lugar de bolas sea Dios y muestre por pantalla a Dios.
+
+11
+00:00:45,120 --> 00:00:51,960
+Vale vamos a ejecutarlo y Ahora imaginaros que queremos crear un decorador para monitorizar cuándo se
+
+12
+00:00:51,960 --> 00:01:00,210
+ejecutan estas dos funciones avisando antes de ejecutarlas y después de ejecutarlas para crear una función
+
+13
+00:01:00,210 --> 00:01:05,910
+de cobradora tenemos que recibir la función a ejecutar y envolver su ejecución con el código a extender
+
+14
+00:01:06,600 --> 00:01:16,740
+vamos a hacerlo por ejemplo vamos a llamarla monitorizar De esta forma monitorizar recibirá una función
+
+15
+00:01:16,800 --> 00:01:22,650
+que es la que vamos a envolver y dentro por ejemplo vamos a crear.
+
+16
+00:01:22,860 --> 00:01:31,470
+En este caso un ejemplo que se llamará decorarlos de acuerdo dentro de decorar.
+
+17
+00:01:31,740 --> 00:01:35,220
+Vamos a monitorizar justo antes de ejecutar la función.
+
+18
+00:01:35,250 --> 00:01:37,220
+Vamos a ponerlo por ejemplo.
+
+19
+00:01:37,290 --> 00:01:46,960
+De esta forma con un tabulación y pondremos un mensaje de que está a punto de ejecutar la función.
+
+20
+00:01:47,280 --> 00:01:58,740
+Vamos a ponerlo así y aquí vamos a pasar la función función y vamos a llamar a esta propiedad avanzada
+
+21
+00:01:59,700 --> 00:02:04,290
+especial el naipe para saber el nombre de la función que nos lo devuelve.
+
+22
+00:02:04,350 --> 00:02:09,010
+Pero aunque me he equivocado aquí se está.
+
+23
+00:02:09,630 --> 00:02:16,230
+Ahora vamos a ejecutarla vamos a llamarla esta función que hemos recibido aquí la vamos a ejecutar De
+
+24
+00:02:16,230 --> 00:02:25,680
+esta forma y vamos a monitorizar el momento después cuando ya se ha ejecutado no se ha finalizado la
+
+25
+00:02:26,520 --> 00:02:37,620
+ejecución de la función y en función de la función acordar ponerlo bien función íbamos a Finalmente
+
+26
+00:02:37,620 --> 00:02:41,020
+devolver la función decorar.
+
+27
+00:02:41,040 --> 00:02:44,200
+Por tanto recibimos la función a ejecutar.
+
+28
+00:02:45,600 --> 00:02:49,370
+Envolvemos la ejecución con el código a ascender en otra función.
+
+29
+00:02:50,780 --> 00:02:55,780
+Y finalmente devolvio devolvemos la función donde hemos envuelto a la otra.
+
+30
+00:02:56,470 --> 00:02:57,990
+Vamos a ejecutarlo.
+
+31
+00:02:58,860 --> 00:03:04,120
+Y ahora para realizar la monitorización deberíamos llamar al monitor ejecutándolo a función enviada
+
+32
+00:03:04,120 --> 00:03:04,890
+y de vuelta.
+
+33
+00:03:05,050 --> 00:03:12,370
+Por ejemplo monitorizar y entre paréntesis le pasamos la función.
+
+34
+00:03:12,400 --> 00:03:13,090
+Hola.
+
+35
+00:03:13,480 --> 00:03:16,030
+Pero esto no se ejecuta.
+
+36
+00:03:16,030 --> 00:03:19,010
+Lo que tenemos que hacer es volver a ejecutarla de esta forma.
+
+37
+00:03:21,290 --> 00:03:23,280
+Por tanto se está a punto de ejecutar la función.
+
+38
+00:03:23,300 --> 00:03:23,990
+Hola.
+
+39
+00:03:24,260 --> 00:03:25,380
+Se ejecuta la función.
+
+40
+00:03:25,380 --> 00:03:30,490
+Hola mostrándola y se ha finalizado de ejecutar la función.
+
+41
+00:03:30,530 --> 00:03:31,370
+Hola.
+
+42
+00:03:31,940 --> 00:03:34,350
+Si hiciéramos lo mismo con la función adiós.
+
+43
+00:03:34,640 --> 00:03:35,930
+También se monitoriza.
+
+44
+00:03:35,980 --> 00:03:39,300
+Podríamos poner un asterisco aquí para que se vea mejor.
+
+45
+00:03:42,880 --> 00:03:50,860
+Claro lo que estáis notando es que esto no es muy cómodo tener que ir llamando a la función que decora.
+
+46
+00:03:50,860 --> 00:03:56,350
+Otra función que monitoriza por ejemplo en este caso la radio o la función que le pasemos no es muy
+
+47
+00:03:56,350 --> 00:03:58,040
+útil hacerlo de esta forma.
+
+48
+00:03:58,420 --> 00:04:04,270
+Pues aquí es cuando entra en juego la sintaxis sencilla que os comentaba antes que nos permite configurar
+
+49
+00:04:04,330 --> 00:04:07,660
+una función de cobradora sobre una función normal.
+
+50
+00:04:07,660 --> 00:04:11,790
+Es decir durante la definición de hola y adiós.
+
+51
+00:04:12,100 --> 00:04:17,020
+De esta forma vamos a hacer esto justo encima de la definición.
+
+52
+00:04:17,020 --> 00:04:22,300
+Vamos a añadir una arroba y vamos a llamar el nombre de la función de cobradora.
+
+53
+00:04:22,450 --> 00:04:31,990
+En nuestro caso monitorizar De esta forma y también a Dios por tanto aquí tenemos un decorador monitorizar
+
+54
+00:04:31,990 --> 00:04:33,130
+que afecta la función.
+
+55
+00:04:33,160 --> 00:04:34,030
+Hola.
+
+56
+00:04:34,270 --> 00:04:36,300
+Y aquí lo mismo pero a Funciona Dios.
+
+57
+00:04:36,580 --> 00:04:40,930
+Si volvemos a guardarlo y ejecutamos en esta ocasión la función.
+
+58
+00:04:40,960 --> 00:04:41,960
+Hola.
+
+59
+00:04:42,610 --> 00:04:49,420
+De esta forma fijaros cómo automáticamente se ejecuta el decorador la función de cobradora y estamos
+
+60
+00:04:49,420 --> 00:04:52,260
+monitorizando perfectamente la función.
+
+61
+00:04:52,420 --> 00:04:59,150
+Y lo mismo si ejecutamos a funcionarios o si nos inventamos una nueva función.
+
+62
+00:04:59,890 --> 00:05:06,060
+Pero la monitorización monitorizar definir saludar.
+
+63
+00:05:08,370 --> 00:05:10,730
+Ponemos aquí pregunta.
+
+64
+00:05:11,280 --> 00:05:13,340
+Buenos días.
+
+65
+00:05:13,830 --> 00:05:17,150
+Y la ejecutamos.
+
+66
+00:05:18,930 --> 00:05:23,710
+Se está ejecutando la función saludar se ha finalizado la función saludar.
+
+67
+00:05:24,090 --> 00:05:25,800
+Como veis los decoradores.
+
+68
+00:05:25,980 --> 00:05:27,730
+Siguiendo esta lógica de aquí.
+
+69
+00:05:28,720 --> 00:05:36,800
+Nos permiten configurar un código externo para complementar la ejecución de otra función distinta.
+
+70
+00:05:37,230 --> 00:05:45,360
+Sin embargo si por ejemplo ahora mismo quisiéramos hacer esto es pasarle un texto a saludar y en lugar
+
+71
+00:05:45,360 --> 00:05:51,660
+de mostrar buenos días poner este texto y ejecutamos aquí saludar poniendo Hola.
+
+72
+00:05:52,950 --> 00:05:54,900
+Lo ejecutamos y no nos funciona.
+
+73
+00:05:54,930 --> 00:05:56,000
+Por qué.
+
+74
+00:05:56,160 --> 00:05:59,210
+Por qué tenemos que hacer un pequeño cambio.
+
+75
+00:05:59,370 --> 00:06:05,040
+En el caso de que los decoradores deban tener en cuenta posibles argumentos de la función que van a
+
+76
+00:06:05,040 --> 00:06:11,650
+decorar y esto lo vamos a hacer de la siguiente forma vamos a copiar nuestra función monitorizar que
+
+77
+00:06:11,650 --> 00:06:17,910
+es la función de cobradora y vamos a adaptarla para ejecutar también los posibles argumentos que se
+
+78
+00:06:17,910 --> 00:06:19,080
+reciban.
+
+79
+00:06:19,080 --> 00:06:25,410
+La verdad es que es bastante sencillo vamos a crearla de nuevo llamándola monitorizar con argumentos
+
+80
+00:06:25,440 --> 00:06:31,000
+por decirlo alguna forma o monitorizar con Arx lo que vamos a hacer utilizando.
+
+81
+00:06:31,170 --> 00:06:41,160
+No sé si os acordáis de los punteros aquellos Arx que Igor Arcs que estuvimos hablando cuando vimos
+
+82
+00:06:41,370 --> 00:06:46,740
+los argumentos de las funciones que se reciben pues como los argumentos por posición y los argumentos
+
+83
+00:06:46,770 --> 00:06:54,720
+por clave pues lo que tenemos que hacer es enviarlos a la función que está decorando a la otra función.
+
+84
+00:06:55,080 --> 00:06:59,730
+Evidentemente dentro de la ejecución también enviarlas a la propia función.
+
+85
+00:06:59,730 --> 00:07:01,340
+De esta forma.
+
+86
+00:07:02,730 --> 00:07:12,360
+Así si volvemos a crear nuestras funciones anteriores y las adaptamos un poquito para por ejemplo recibir
+
+87
+00:07:12,780 --> 00:07:15,110
+un texto o mejor dicho un nombre.
+
+88
+00:07:15,120 --> 00:07:17,600
+Por ejemplo diremos Hola.
+
+89
+00:07:18,840 --> 00:07:27,170
+Y aquí pondríamos por ejemplo un nombre con un Format el que recibimos lo mismo para el adiós.
+
+90
+00:07:31,120 --> 00:07:33,690
+El nombre pasaremos aquí.
+
+91
+00:07:34,850 --> 00:07:39,970
+Y en lugar de monitorizar las normal las monitoriza con argumentos.
+
+92
+00:07:40,610 --> 00:07:49,400
+Ahora si ejecutamos por ejemplo Hola y entre paréntesis le enviamos Héctor ya se ejecuta bien ya estamos
+
+93
+00:07:49,730 --> 00:08:00,260
+decorando funciones con argumentos perfectamente y lo mismo si pusiéramos aquí pues adiós Héctor o por
+
+94
+00:08:00,260 --> 00:08:07,250
+ejemplo lo que teníamos antes este monitorizadas del saludar o simplemente lo miden los monitores usaríamos
+
+95
+00:08:07,340 --> 00:08:13,100
+con los argumentos y ya funciona perfectamente sin ningún problema.
+
+96
+00:08:13,100 --> 00:08:19,790
+Perfecto ahora ya sabes qué son las funciones de curadoras y cómo utilizar el símbolo arroba para automatizar
+
+97
+00:08:19,790 --> 00:08:22,180
+su ejecución sobre otras funciones.
+
+98
+00:08:22,490 --> 00:08:28,130
+Estas funciones se utilizan mucho cuando trabajamos con frameworks web como por ejemplo Jango así que
+
+99
+00:08:28,130 --> 00:08:31,150
+seguro te darán servicios si tienes pensado aprender a utilizarlo.

@@ -1,0 +1,111 @@
+1
+00:00:00,480 --> 00:00:06,450
+Estoy muy emocionado de llegar por fin a esta unidad y poder enseñaros a crear interfaces gráficas una
+
+2
+00:00:06,450 --> 00:00:12,270
+interfaz gráfica es un medio visual mucho más cómodo que una terminal de texto a través de la cual nuestros
+
+3
+00:00:12,270 --> 00:00:14,970
+usuarios pueden interactuar y realizar tareas.
+
+4
+00:00:14,970 --> 00:00:18,230
+En esencia la interfaz de un programa es como la carrocería de un coche.
+
+5
+00:00:18,420 --> 00:00:23,400
+Una capa externa que esconden los procedimientos internos y los hace más cómodos de utilizar.
+
+6
+00:00:23,460 --> 00:00:29,920
+Gracias a los componentes gráficos tales como ventanas menús botones campos editables etcétera.
+
+7
+00:00:30,090 --> 00:00:34,560
+Por tanto vosotros que ya sabéis programar lo único que tenéis que aprender es a crear y conectar las
+
+8
+00:00:34,560 --> 00:00:39,010
+interfaces con el código o lo que es lo mismo chasís con la carrocería.
+
+9
+00:00:39,240 --> 00:00:43,950
+Pero antes de pasar a la acción quiero repasar un poco la historia del módulo gráfico de Payton.
+
+10
+00:00:43,980 --> 00:00:47,580
+Como sabéis no es un lenguaje gratuito y multiplataforma.
+
+11
+00:00:47,730 --> 00:00:52,650
+El reto de estos lenguajes es ofrecer una forma unificada de solucionar problemas en cualquier sistema
+
+12
+00:00:52,650 --> 00:00:53,490
+operativo.
+
+13
+00:00:53,760 --> 00:00:59,040
+Y esto es especialmente complejo a la hora de manejar componentes gráficos debido a las peculiaridades
+
+14
+00:00:59,040 --> 00:01:00,670
+de cada sistema.
+
+15
+00:01:00,690 --> 00:01:05,730
+Tal es el caso que los desarrolladores de Payton en lugar de crear un módulo nuevo para la parte gráfica
+
+16
+00:01:05,850 --> 00:01:11,520
+se decantaron por integrar una librería de código abierto llamada ateca para el lenguaje Tcl Cacia lo
+
+17
+00:01:11,520 --> 00:01:13,320
+que ellos necesitaban.
+
+18
+00:01:13,320 --> 00:01:19,710
+Así nació The Quintero una interfaz o puente que permitía utilizar TK en Python pensada para el desarrollo
+
+19
+00:01:19,710 --> 00:01:25,260
+de interfaces gráficas ligeras incluido como módulo interno y funcional desde el intérprete y por tanto
+
+20
+00:01:25,260 --> 00:01:29,520
+la forma por excelencia de comenzar nuestra andadura en el mundo de las interfaces gráficas.
+
+21
+00:01:29,640 --> 00:01:34,610
+Aunque por desgracia se queda algo corto para proyectos más complejos en cuyos casos se recomiendan
+
+22
+00:01:34,620 --> 00:01:36,360
+librerías alternativas.
+
+23
+00:01:36,420 --> 00:01:42,030
+Así el desarrollo de interfaces es todo un mundo que abarca desde el proceso de diseño hasta la implementación
+
+24
+00:01:42,120 --> 00:01:43,900
+y da muchísimo de qué hablar.
+
+25
+00:01:43,920 --> 00:01:47,710
+Por eso creo que es importantísimo que tengáis este primer contacto cuanto antes.
+
+26
+00:01:47,850 --> 00:01:52,680
+Y aunque locos enseñar son sólo los fundamentos será ideal para que veáis la utilidad de las clases
+
+27
+00:01:52,740 --> 00:01:57,530
+y los objetos en el mundo real así como una forma de llevar a nuestros programas al siguiente nivel
+
+28
+00:01:57,600 --> 00:01:59,590
+haciéndolos mucho más profesionales.

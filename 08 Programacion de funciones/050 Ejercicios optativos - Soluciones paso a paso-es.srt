@@ -1,0 +1,559 @@
+1
+00:00:00,750 --> 00:00:04,580
+Bien vamos a por los ejercicios del tema 6 de programación de funciones.
+
+2
+00:00:05,590 --> 00:00:13,570
+Vamos que os he preparado aquí nuestro primer ejercicio nos dice realiza una función llamada área rectángulo
+
+3
+00:00:13,870 --> 00:00:18,700
+que devuelva el área del cuadrado a partir de una base y una altura calcula el área de un rectángulo
+
+4
+00:00:18,700 --> 00:00:20,810
+de 15 de base y 10 de altura.
+
+5
+00:00:21,100 --> 00:00:23,610
+Esto es una función muy sencilla.
+
+6
+00:00:23,650 --> 00:00:33,790
+Lo único que tenemos que hacer es definir esta función área cuadrado recibir una base y una altura y
+
+7
+00:00:33,790 --> 00:00:36,190
+lo que vamos a hacer es devolver return.
+
+8
+00:00:36,590 --> 00:00:39,760
+Esta base por la altura.
+
+9
+00:00:39,760 --> 00:00:44,190
+Finalmente calculamos el área de un rectángulo de 15 por 10.
+
+10
+00:00:44,200 --> 00:00:46,600
+Simplemente lo vamos a mostrar por pantalla.
+
+11
+00:00:46,960 --> 00:00:56,310
+Vamos a llamar al cuadrado base por altura 15 por 10 150.
+
+12
+00:00:56,470 --> 00:00:59,080
+Más fácil imposible.
+
+13
+00:00:59,170 --> 00:01:05,670
+La verdad es que la mayoría de ejercicios de esta unidad están pensados para ir practicando las funciones
+
+14
+00:01:05,710 --> 00:01:08,650
+así que tampoco os voy a complicar demasiado.
+
+15
+00:01:09,640 --> 00:01:15,430
+Vamos a por el siguiente ejercicio realiza una función llamada area círculo que devuelva al área de
+
+16
+00:01:15,430 --> 00:01:20,440
+un círculo a partir de un radio calculara de un círculo de cinco de ancho.
+
+17
+00:01:20,710 --> 00:01:25,360
+Nota el área de un círculo se obtiene al elevar el radio a 2 multiplicando el resultado por el número
+
+18
+00:01:25,360 --> 00:01:25,880
+pi.
+
+19
+00:01:26,080 --> 00:01:30,750
+Puedes utilizar el valor 3 14 15 9 como Pi o importarlo del módulo más.
+
+20
+00:01:30,810 --> 00:01:36,640
+Esto es un ejemplo de cómo se utiliza el el PILA la constante P utilizándola desde el módulo más vamos
+
+21
+00:01:36,640 --> 00:01:38,880
+a hacerlo de esta forma ya que lo tengo puesto.
+
+22
+00:01:39,010 --> 00:01:46,840
+Vamos a importar el módulo más vamos a definir el área del círculo área círculo vamos a recibir un radio
+
+23
+00:01:48,210 --> 00:01:50,830
+y simplemente lo que vamos a hacer es devolver.
+
+24
+00:01:51,980 --> 00:01:53,530
+Vamos a ponerlo entre paréntesis.
+
+25
+00:01:53,530 --> 00:01:57,260
+Primero vamos a hacer el radio elevado a 2.
+
+26
+00:01:57,310 --> 00:02:01,580
+De hecho no haría falta puesto que elevar algo siempre tiene problemas antes con la multiplicación.
+
+27
+00:02:01,750 --> 00:02:06,930
+Pero bueno me gusta indicar que esto se hace primero y esto lo vamos a multiplicar por el número Pi
+
+28
+00:02:07,250 --> 00:02:08,660
+más bien.
+
+29
+00:02:08,710 --> 00:02:17,080
+De esta forma ahora podríamos copiarlo de aquí arriba y voy a mostrar el área de un círculo con un radio
+
+30
+00:02:17,080 --> 00:02:24,870
+de 5 de largo y 78 con 53 9 blablabla.
+
+31
+00:02:24,870 --> 00:02:26,260
+Bueno está bien.
+
+32
+00:02:27,130 --> 00:02:30,030
+Sin más complicación pasamos al siguiente.
+
+33
+00:02:30,730 --> 00:02:35,500
+Realiza una función llamada relación que a partir de dos números cumpla lo siguiente.
+
+34
+00:02:35,750 --> 00:02:38,640
+Si el primer número es mayor que el segundo debe devolver uno.
+
+35
+00:02:39,920 --> 00:02:44,630
+Si el primer número es menor que el segundo debe devolver menos uno y si ambos números son iguales debe
+
+36
+00:02:44,630 --> 00:02:45,810
+devolver un cero.
+
+37
+00:02:46,100 --> 00:02:51,010
+Comprueba la relación entre los números 5 y 10 10 5 y 5 y 5.
+
+38
+00:02:51,650 --> 00:02:59,780
+Así que básicamente lo que tenemos que hacer es definir una función llamada relación que reciba dos
+
+39
+00:02:59,780 --> 00:03:07,310
+números a y b y dentro vamos a comenzar comprobando la primera posibilidad con un.
+
+40
+00:03:07,670 --> 00:03:10,230
+Vamos a comprobar si el número A..
+
+41
+00:03:11,410 --> 00:03:12,870
+Es mayor que B.
+
+42
+00:03:13,240 --> 00:03:18,610
+De esta forma y en este caso vamos a devolver un 1 positivo.
+
+43
+00:03:18,610 --> 00:03:26,190
+Vamos a añadir un Leaf para comprobar otro caso en el caso de que sea menor que B.
+
+44
+00:03:26,620 --> 00:03:33,340
+En este caso volveríamos menos uno y finalmente el típico helps por defecto para comprobar si los números
+
+45
+00:03:33,340 --> 00:03:34,020
+son iguales.
+
+46
+00:03:34,150 --> 00:03:39,170
+Esto se ejecutaría porque no hay ninguna otra posibilidad o es mayor o es menor o son iguales.
+
+47
+00:03:39,250 --> 00:03:41,230
+Por tanto con uniros no serviría otra cosa.
+
+48
+00:03:41,240 --> 00:03:48,640
+Podríamos poner un elife a igual a B y también nos serviría igual pero vamos a dejar con una idea volveríamos
+
+49
+00:03:48,970 --> 00:03:57,860
+un cero y vamos a ejecutar estas relaciones.
+
+50
+00:03:58,270 --> 00:03:59,700
+Relación entre.
+
+51
+00:04:00,910 --> 00:04:02,890
+Voy a copiarlo así para ir rápido.
+
+52
+00:04:04,020 --> 00:04:14,750
+5 y 10 luego sería decir 5 del revés y finalmente entre 5 y 5.
+
+53
+00:04:16,940 --> 00:04:22,680
+Os voy a mostrar las tres de golpe vamos a ver lo que da cinco y diez.
+
+54
+00:04:22,750 --> 00:04:27,500
+El primer número es menor que el segundo por tanto devuelve menos 1 10 6 5.
+
+55
+00:04:27,520 --> 00:04:30,590
+El primer número es mayor que el segundo por tanto devuelve uno.
+
+56
+00:04:32,100 --> 00:04:33,890
+Cinco y cinco son iguales.
+
+57
+00:04:33,900 --> 00:04:37,210
+Por tanto devuelve un cero y aquí lo tenemos todo perfecto.
+
+58
+00:04:37,350 --> 00:04:40,830
+Aquí tenemos una función de relación.
+
+59
+00:04:41,040 --> 00:04:42,750
+Si me preguntáis para qué serviría.
+
+60
+00:04:42,810 --> 00:04:48,180
+Podría decir que posiblemente en el futuro veremos algunos ejemplos de cómo hacer algo muy parecido
+
+61
+00:04:48,480 --> 00:04:55,150
+para comparar tipos de datos como objetos entre ellos y cosas así pero lo dejaré para el futuro.
+
+62
+00:04:57,260 --> 00:05:01,880
+Cuarto ejercicio realiza una función llamada intermedio que a partir de dos números devuelva su punto
+
+63
+00:05:01,880 --> 00:05:02,970
+intermedio.
+
+64
+00:05:03,230 --> 00:05:08,210
+Nota el número intermedio de dos números corresponde a la suma de los dos números dividida entre dos.
+
+65
+00:05:08,300 --> 00:05:11,230
+Comprueba el punto intermedio entre 12 y 24.
+
+66
+00:05:12,200 --> 00:05:18,620
+Bueno pues vamos a hacerlo vamos a crear una función llamada intermedio que reciba los números a y b
+
+67
+00:05:20,960 --> 00:05:31,670
+devuelva la suma de los dos divide entre dos a más b dividir entre dos.
+
+68
+00:05:31,670 --> 00:05:37,460
+De esta forma vamos a ver qué sucede si hacemos un intermedio punto intermedio entre el punto menos
+
+69
+00:05:37,460 --> 00:05:39,650
+12 y el 24.
+
+70
+00:05:39,800 --> 00:05:43,360
+A ver que nos da 6.
+
+71
+00:05:43,460 --> 00:05:46,590
+Claro porque hay la misma distancia.
+
+72
+00:05:48,050 --> 00:05:51,220
+De menos 12 a 6 que de 6 a 24.
+
+73
+00:05:51,230 --> 00:05:56,750
+Si pusiéramos entre cero y 24 tendría que dar doce de acuerdo.
+
+74
+00:05:56,750 --> 00:06:03,160
+Si pusiéramos muros de 24 y 24 tendría que dar cero porque es el punto intermedio.
+
+75
+00:06:03,500 --> 00:06:07,800
+Como veis vamos a por el quinto ejercicio.
+
+76
+00:06:07,850 --> 00:06:09,680
+Como veis son muy ligeros.
+
+77
+00:06:10,220 --> 00:06:13,670
+Realiza una función llamada recortar que reciba tres parámetros.
+
+78
+00:06:13,850 --> 00:06:15,580
+El primero es un número a recortar.
+
+79
+00:06:15,680 --> 00:06:19,310
+El segundo es el límite inferior y el tercero es el límite superior.
+
+80
+00:06:19,310 --> 00:06:24,530
+La función tendrá que cumplir lo siguiente devolver el límite inferior si el número es menor que éste.
+
+81
+00:06:24,530 --> 00:06:29,060
+Devolver el límite superior el número es mayor que éste y devolverá el número sin cambios si no se supera
+
+82
+00:06:29,060 --> 00:06:29,960
+ningún límite.
+
+83
+00:06:30,080 --> 00:06:35,030
+Comprueba el resultado de recortar 15 entre los límites 0 y 10.
+
+84
+00:06:35,600 --> 00:06:42,700
+Esto es una función muy útil en el mundo de los videojuegos por ejemplo cuando queremos saber si un
+
+85
+00:06:42,740 --> 00:06:48,000
+número tenemos que recortar para que no pase ni por debajo ni por arriba de otros valores.
+
+86
+00:06:48,290 --> 00:06:55,660
+Entonces es muy sencillo sólo tenemos que crear la función recortar esta forma vamos a recibir un número
+
+87
+00:06:56,490 --> 00:07:01,260
+un mínimo y un máximo.
+
+88
+00:07:01,260 --> 00:07:07,070
+Y ahora vamos a hacer que si el número es más pequeño que el mínimo devolvamos el mínimo es un número
+
+89
+00:07:07,850 --> 00:07:12,250
+más pequeño que el mínimo Return mínimo.
+
+90
+00:07:12,680 --> 00:07:19,350
+Vamos a crear una lib si el número es más grande que el máximo devolvemos el máximo.
+
+91
+00:07:20,390 --> 00:07:25,880
+Y en cualquier otro caso podríamos poner un plus pero como si cualquiera de estas dos posibilidades
+
+92
+00:07:25,880 --> 00:07:28,250
+ya se encuentra hacer el return.
+
+93
+00:07:28,370 --> 00:07:32,260
+Simplemente vamos a poner que al final un Returned del número.
+
+94
+00:07:32,450 --> 00:07:36,790
+En caso de que no sea menor ni sea mayor simplemente lo devolveremos.
+
+95
+00:07:38,640 --> 00:07:42,950
+Así que vamos a mostrar lo que nos están pidiendo.
+
+96
+00:07:43,310 --> 00:07:49,600
+El recorte recortar el número 15 entre cero y diez.
+
+97
+00:07:49,880 --> 00:07:55,980
+Cortar el número 15 con un mínimo de cero y un máximo de diez.
+
+98
+00:07:55,980 --> 00:07:57,610
+Qué creéis que saldrá.
+
+99
+00:07:57,600 --> 00:08:03,320
+Hombre si este número es mayor que el límite máximo se supone que tendría que recortarlo a 10.
+
+100
+00:08:03,990 --> 00:08:06,280
+Y ahí lo tenemos nos lo recorta 10.
+
+101
+00:08:06,510 --> 00:08:12,870
+En cambio si recortase fuera por ejemplo 16 el máximo nos da 15.
+
+102
+00:08:12,960 --> 00:08:15,680
+Por qué es correcto está entre los dos límites.
+
+103
+00:08:15,730 --> 00:08:16,800
+Muy bien.
+
+104
+00:08:16,800 --> 00:08:23,790
+Vamos a por el último ejercicio el sexto que nos pide que realicemos una función llamada separar que
+
+105
+00:08:23,790 --> 00:08:29,250
+toma una lista de números enteros y devuelva a dos listas ordenadas la primera con los números pares
+
+106
+00:08:29,310 --> 00:08:32,260
+y la segunda con los números impares por ejemplo.
+
+107
+00:08:32,460 --> 00:08:37,340
+Aquí tenemos un ejemplo de cómo tendría que quedar todo esto pares e impares.
+
+108
+00:08:37,350 --> 00:08:43,090
+Tenemos aquí dos valores dos variables igual separar imaginar que le pasamos esta lista.
+
+109
+00:08:43,890 --> 00:08:45,550
+6 5 2 1 y 7.
+
+110
+00:08:45,760 --> 00:08:52,080
+Al final tendría que almacenar pares una lista con los valores 2 y 6 que son los únicos pares ordenados
+
+111
+00:08:53,010 --> 00:08:57,070
+y luego en pares sería otra lista con los números 1 5 y 7 ordenados.
+
+112
+00:08:58,670 --> 00:09:02,000
+Nota para ordenar una lista automáticamente puedes usar el método Shor.
+
+113
+00:09:02,770 --> 00:09:11,200
+Vamos a definir nuestra función para que pueda recibir una lista no nos vamos a complicar la vida vamos
+
+114
+00:09:11,200 --> 00:09:13,360
+a llamarla lista simplemente.
+
+115
+00:09:13,900 --> 00:09:27,490
+Y a esta lista la vamos a ordenar lista short vamos a crear dos listas vacías una llamada pares y otra
+
+116
+00:09:27,490 --> 00:09:29,930
+llamada impares.
+
+117
+00:09:30,400 --> 00:09:38,740
+De esta forma a continuación podemos hacer un fork y vamos a recorrer todos los números de esta lista
+
+118
+00:09:38,860 --> 00:09:45,860
+por número lista y vamos a comprobar si son pares e impares.
+
+119
+00:09:46,630 --> 00:09:52,850
+Si el número por ciento o sea el módulo entre 2 es igual a cero.
+
+120
+00:09:52,970 --> 00:09:59,750
+Es que es par porque el módulo de un número par dividido por 2 0 no siempre se puede dividir.
+
+121
+00:09:59,830 --> 00:10:03,980
+Por tanto añadiremos a la lista de pares happened.
+
+122
+00:10:04,600 --> 00:10:10,410
+Este número n luego en otro caso no de cero que dé un 1.
+
+123
+00:10:11,020 --> 00:10:18,220
+Por tanto será impar y en ese caso añadiríamos el número π a la lista de impares.
+
+124
+00:10:18,340 --> 00:10:26,170
+De esta forma y finalmente lo único que tenemos que hacer es devolver la lista de pares y la lista de
+
+125
+00:10:26,170 --> 00:10:28,990
+impares de esta forma de acuerdo.
+
+126
+00:10:30,690 --> 00:10:38,100
+Vamos a ejecutar el ejemplo por ejemplo lo que tenemos aquí arriba separar.
+
+127
+00:10:40,670 --> 00:10:41,850
+Números.
+
+128
+00:10:42,510 --> 00:10:44,100
+Y esto lo vamos a guardar.
+
+129
+00:10:45,590 --> 00:10:53,160
+Una llamada a París y otra llamada impares se supone que por orden se asignarán a estos dos.
+
+130
+00:10:53,340 --> 00:11:03,660
+Así que vamos a mostrar los pares de abajo los impares y si nuestras funciones han funcionado correctamente
+
+131
+00:11:05,220 --> 00:11:06,710
+valga la redundancia.
+
+132
+00:11:07,980 --> 00:11:08,990
+Qué tenemos aquí.
+
+133
+00:11:09,030 --> 00:11:17,150
+Menos 12 20 y 84 bueno son números pares sino y están ordenados menos 12 20 y 84.
+
+134
+00:11:17,410 --> 00:11:24,640
+Y respecto a los impares 33 9 13 y 101 correctos son impares y están ordenados.
+
+135
+00:11:25,410 --> 00:11:30,330
+Si queréis podemos probarlo con la lista de arriba a ver si da exactamente lo que teníamos.
+
+136
+00:11:30,690 --> 00:11:36,660
+Vamos a pasarla aquí la lista en lugar de la variable lista números vamos a pasarle ésta.
+
+137
+00:11:37,250 --> 00:11:39,680
+Y qué es lo que tenemos aquí en 2006.
+
+138
+00:11:39,690 --> 00:11:45,070
+Como pares como tenemos aquí el 1 el 5 y el 7 como impares ordenados que tenemos hoy.
+
+139
+00:11:47,780 --> 00:11:53,320
+Pues hasta aquí los ejercicios de este tema 6 de programación de funciones Espero que hayan gustado
+
+140
+00:11:53,320 --> 00:11:57,110
+cosas han servido para practicar y vamos a seguir adelante con el curso.

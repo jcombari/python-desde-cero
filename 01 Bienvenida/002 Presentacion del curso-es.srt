@@ -1,0 +1,139 @@
+1
+00:00:00,620 --> 00:00:06,170
+La programación es una herramienta que abarca innumerables sectores de nuestro mundo tecnificado tanto
+
+2
+00:00:06,230 --> 00:00:08,090
+en los países más avanzados del mundo.
+
+3
+00:00:08,170 --> 00:00:10,410
+Es una asignatura obligatoria en las escuelas.
+
+4
+00:00:11,820 --> 00:00:16,860
+Existen muchos lenguajes de programación pero pocos pueden competir en simplicidad con la sintaxis de
+
+5
+00:00:16,860 --> 00:00:17,680
+Python.
+
+6
+00:00:17,940 --> 00:00:22,220
+Eso lo hace uno de los mejores para comenzar pero además es un lenguaje con mucho futuro.
+
+7
+00:00:22,380 --> 00:00:28,500
+Es libre es gratuito y es multiplataforma capaz de realizar prácticamente cualquier tarea desde simples
+
+8
+00:00:28,560 --> 00:00:33,320
+scripts a interfaces gráficas servidores web o también algún que otro videojuego.
+
+9
+00:00:33,330 --> 00:00:39,540
+El objetivo de este curso es simple desde cero a programar en Python y sacarle el máximo partido para
+
+10
+00:00:39,540 --> 00:00:45,030
+que seas capaz de crear tus propios programas incluso con su interfaz gráfica y también compartirlos
+
+11
+00:00:45,030 --> 00:00:46,690
+con tus amigos compañeros.
+
+12
+00:00:46,710 --> 00:00:53,270
+Y quién sabe si futuros clientes como cualquier lenguaje de programación Python abarcan miles de funcionalidades.
+
+13
+00:00:53,280 --> 00:00:57,900
+Por lo tanto crear un curso que trate la mayoría de sus aspectos fundamentales no es para nada fácil
+
+14
+00:00:58,380 --> 00:01:01,440
+y menos si no hay una referencia clara para empezar desde cero.
+
+15
+00:01:01,770 --> 00:01:06,640
+Por eso después de mucha planificación decidí que lo mejor era dividirlo en cuatro fases.
+
+16
+00:01:08,400 --> 00:01:13,770
+En la fase 1 Fundamentos de Programación introduciremos los conceptos sobre los que se sustenta la programación
+
+17
+00:01:13,770 --> 00:01:14,820
+informática.
+
+18
+00:01:14,970 --> 00:01:19,080
+Los tipos de datos las expresiones y el control de flujo.
+
+19
+00:01:20,520 --> 00:01:25,470
+En la fase II de optimización y manejo de datos profundizaremos en la manipulación de la información
+
+20
+00:01:25,920 --> 00:01:28,640
+colecciones de datos entradas y salidas.
+
+21
+00:01:28,770 --> 00:01:31,990
+Programación de funciones y manejo de excepciones.
+
+22
+00:01:33,490 --> 00:01:38,580
+Al llegar a la fase III ya tendremos los conocimientos necesarios para crear pequeños programas pero
+
+23
+00:01:38,590 --> 00:01:43,270
+es a partir de aquí cuando todo se pone más interesante y aprenderemos a solucionar problemas utilizando
+
+24
+00:01:43,270 --> 00:01:45,390
+la programación orientada a objetos.
+
+25
+00:01:45,400 --> 00:01:49,070
+Aquí veremos que son las clases y los objetos cómo se utilizan.
+
+26
+00:01:49,260 --> 00:01:54,690
+Qué es la herencia de clases y visitaremos las colecciones para ver sus métodos integrados.
+
+27
+00:01:56,200 --> 00:02:02,110
+Y finalmente durante la fase 4 no se embarcará en los aspectos más avanzados del lenguaje tales como
+
+28
+00:02:02,110 --> 00:02:08,140
+la organización del código en módulos y paquetes el manejo de ficheros y una introducción a las interfaces
+
+29
+00:02:08,140 --> 00:02:12,520
+gráficas con Quintero que ya os adelanto es la unidad más extensa del curso.
+
+30
+00:02:13,030 --> 00:02:14,700
+Pero esta fase no acaba aquí.
+
+31
+00:02:14,800 --> 00:02:19,840
+Periódicamente a lo largo de 2016 publicaré cuatro grandes actualizaciones con un nuevo tema cada una
+
+32
+00:02:20,200 --> 00:02:29,040
+bases de datos con ese culote funcionalidades avanzadas documentación y pruebas y finalmente distribución.
+
+33
+00:02:29,080 --> 00:02:35,320
+En total serán 17 temas sin contar la presentación y la configuración del entorno con una duración aproximada
+
+34
+00:02:35,320 --> 00:02:40,860
+de entre 16 y 20 horas haciendo de este curso uno de los más completos sobre todo en español.
+
+35
+00:02:41,160 --> 00:02:43,740
+Y dicho esto es hora de ponernos manos a la obra.

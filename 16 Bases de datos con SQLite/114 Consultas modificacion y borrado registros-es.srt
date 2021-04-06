@@ -1,0 +1,411 @@
+1
+00:00:01,110 --> 00:00:06,870
+Muy bien pues vamos a por La Tercera lección de este interesante tema de bases de datos con una lección
+
+2
+00:00:06,870 --> 00:00:14,080
+en la que vamos a ver algunas consultas a registros específicos modificación y borrado de registros.
+
+3
+00:00:15,160 --> 00:00:20,080
+Vamos a trabajar con la base de datos de usuarios auto incremental que creamos en la elección anterior.
+
+4
+00:00:20,260 --> 00:00:25,000
+Así que voy a reutilizar esta estructura general.
+
+5
+00:00:25,120 --> 00:00:29,050
+Una vez contamos con algún campo que nos sirva de identificador único.
+
+6
+00:00:29,050 --> 00:00:32,660
+Podemos realizar consultas específicas utilizando la cláusula.
+
+7
+00:00:33,040 --> 00:00:35,280
+Vamos a trabajar esta cláusula.
+
+8
+00:00:35,560 --> 00:00:40,390
+Vamos a hacer lo siguiente Vamos a ejecutar una consulta.
+
+9
+00:00:40,960 --> 00:00:50,350
+Vamos a hacer un Select vamos a seleccionar todos los campos de usuarios pero en lugar de recibir todos
+
+10
+00:00:50,350 --> 00:00:58,000
+los usuarios vamos a especificar cuál queremos recibir con la cláusula que significa dónde y aquí vamos
+
+11
+00:00:58,000 --> 00:01:02,300
+a poner donde el identificador IDE es igual a uno.
+
+12
+00:01:02,410 --> 00:01:09,430
+Voy a guardar y vamos a echar un vistazo aquí con el browser a nuestra tabla de usuarios y nuestro usuario
+
+13
+00:01:09,430 --> 00:01:18,570
+con el identificador uno era Héctor así que teóricamente si guardamos este usuario haciendo un cursor
+
+14
+00:01:19,210 --> 00:01:21,500
+dando por hecho que vamos a recibir uno.
+
+15
+00:01:21,820 --> 00:01:30,530
+Vamos a hacer un feed igual lo mostramos que este usuario debería ser Héctor vamos a ejecutarlo.
+
+16
+00:01:30,530 --> 00:01:38,830
+Y como veis aquí tengo todos los campos de este registro identificador el DNI el nombre la edad y el
+
+17
+00:01:38,830 --> 00:01:41,170
+email.
+
+18
+00:01:41,170 --> 00:01:47,800
+Evidentemente también podemos buscar a través del DNI que también es un campo único por ejemplo donde
+
+19
+00:01:47,800 --> 00:01:49,450
+DNI es igual.
+
+20
+00:01:49,480 --> 00:01:53,650
+Y aquí ponemos uno de los DNI de nuestros usuarios.
+
+21
+00:01:53,650 --> 00:02:03,550
+Por ejemplo podríamos poner el de Mercedes que son 8 3 y vamos a ponerlo 1 2 3 4 2 3 4 y 1.
+
+22
+00:02:04,120 --> 00:02:11,420
+Vamos a hacer controlde y vamos a ver si encontramos el DNI de Mercedes.
+
+23
+00:02:11,440 --> 00:02:16,030
+Cómo veis lo encuentra y nos devuelve al usuario Mercedes.
+
+24
+00:02:16,120 --> 00:02:18,740
+Ahora imagina vamos a nuestra.
+
+25
+00:02:19,600 --> 00:02:25,720
+Tabla en el browser y vamos a modificar estos registros para por ejemplo que dos usuarios tengan la
+
+26
+00:02:25,720 --> 00:02:26,450
+misma edad.
+
+27
+00:02:26,590 --> 00:02:30,120
+Por ejemplo vamos a hacer que Héctor y Juan tengan la misma edad.
+
+28
+00:02:30,400 --> 00:02:34,480
+Voy a modificarlo reescribiendo aquí un 27.
+
+29
+00:02:34,660 --> 00:02:40,690
+Voy a aplicar el cambio voy a guardar los cambios y ahora se supone que tengo a Juan y a Héctor con
+
+30
+00:02:40,690 --> 00:02:41,650
+la misma edad.
+
+31
+00:02:41,860 --> 00:02:45,000
+Qué creéis que sucedería si hacemos esta.
+
+32
+00:02:46,170 --> 00:02:56,460
+Consulta este Select donde edad es igual al número 27 y hacemos un curso igual.
+
+33
+00:02:56,870 --> 00:02:58,680
+Vamos a probarlo.
+
+34
+00:02:59,030 --> 00:03:01,540
+Pues como veis nos saca al usuario a Héctor.
+
+35
+00:03:02,210 --> 00:03:10,260
+Pero si hacemos otro curso igual justo después y mostramos otro usuario y lo ejecutamos.
+
+36
+00:03:10,610 --> 00:03:12,560
+Ahí tenemos también a Juan.
+
+37
+00:03:12,560 --> 00:03:20,300
+De hecho podríamos haber hecho un Fetch pool en lugar de usuario guardarlo como usuarios y mostrar estos
+
+38
+00:03:20,300 --> 00:03:28,550
+usuarios a ver qué tenemos aquí y cómo veis aquí ya tenemos una lista de usuarios donde las edades concuerdan
+
+39
+00:03:28,550 --> 00:03:29,720
+con 27.
+
+40
+00:03:29,720 --> 00:03:37,190
+Por tanto utilizando la cláusula huír podemos acceder específicamente a registros o a registros que
+
+41
+00:03:37,190 --> 00:03:39,520
+tienen algo en común como la edad.
+
+42
+00:03:39,530 --> 00:03:47,060
+En este caso también podemos modificar tal y como veremos a continuación o incluso borrar también utilizando
+
+43
+00:03:47,060 --> 00:03:48,370
+las cláusulas web.
+
+44
+00:03:49,070 --> 00:03:52,780
+Vamos a ver entonces cómo podemos modificar un registro.
+
+45
+00:03:53,840 --> 00:03:57,100
+La verdad es que la consulta es bastante sencilla.
+
+46
+00:03:57,410 --> 00:04:04,460
+De forma similar al select podemos utilizar la cláusula update el nombre de la tabla set y la serie
+
+47
+00:04:04,460 --> 00:04:13,340
+de columnas donde vamos a querer modificar los valores por ejemplo vamos a actualizar update de la tabla
+
+48
+00:04:13,460 --> 00:04:20,690
+usuarios vamos a hacer un CD actualizar de usuarios establecer el nombre
+
+49
+00:04:24,050 --> 00:04:30,710
+del actor con un apellido por ejemplo mi nombre y apellido que actualmente Acordaros que simplemente
+
+50
+00:04:30,710 --> 00:04:31,650
+tenía el nombre.
+
+51
+00:04:31,650 --> 00:04:34,410
+Pues voy a actualizar al nombre más el apellido.
+
+52
+00:04:35,590 --> 00:04:42,970
+Quiero decir donde el DNI actualmente es el director.
+
+53
+00:04:42,970 --> 00:04:48,390
+No es este de aquí lo que estoy haciendo es establecer el nombre.
+
+54
+00:04:49,900 --> 00:04:51,650
+El DNI es este.
+
+55
+00:04:51,760 --> 00:04:56,010
+Con este valor si guardamos y ejecutamos.
+
+56
+00:04:56,650 --> 00:05:00,550
+Bueno ahora porque tendría que borrar esto de aquí.
+
+57
+00:05:00,940 --> 00:05:08,200
+Pero si comprobamos lo que tenemos en la tabla y hemos actualizado el valor del nombre para el usuario
+
+58
+00:05:08,260 --> 00:05:10,520
+lector a través de su DNI.
+
+59
+00:05:12,270 --> 00:05:17,320
+Si quisiéramos actualizar varios campos a la vez lo único que tendríamos que hacer es ponerle una coma.
+
+60
+00:05:17,640 --> 00:05:19,030
+Y escribir el siguiente campo.
+
+61
+00:05:19,050 --> 00:05:27,660
+Y aquí por ejemplo poner cara a la edad del actor ya no es 27. sino que por ejemplo podría ser XXX si
+
+62
+00:05:27,660 --> 00:05:32,780
+lo ejecutamos realizamos y estamos actualizando varios campos.
+
+63
+00:05:32,790 --> 00:05:34,390
+Como podéis observar.
+
+64
+00:05:35,570 --> 00:05:42,290
+Si diera la casualidad que esta cláusula UER afectase a más de un registro se actualizarían todos los
+
+65
+00:05:42,290 --> 00:05:49,160
+registros que cumpliesen esa condición y de hecho no utilizar la cláusula Werk significaría que vamos
+
+66
+00:05:49,160 --> 00:05:55,650
+a actualizar todos los registros de acuerdos a que nunca jamás os descuideros el cuerpo.
+
+67
+00:05:55,850 --> 00:05:57,060
+Cuando actualice.
+
+68
+00:05:57,320 --> 00:06:03,800
+O también cuando borres para borrar un registro a partir de un identificador o un campo único.
+
+69
+00:06:03,800 --> 00:06:12,380
+Es muy similar a como hacemos el web de simplemente haremos un delete y escribiremos delete From la
+
+70
+00:06:12,380 --> 00:06:15,320
+tabla usuarios y aquí.
+
+71
+00:06:15,860 --> 00:06:18,820
+El DNI por ejemplo es este.
+
+72
+00:06:19,040 --> 00:06:25,100
+Si hacemos esto vamos a borrar al usuario Héctor TalCual voy a ejecutarlo.
+
+73
+00:06:25,100 --> 00:06:26,710
+Vamos a comprobar.
+
+74
+00:06:27,840 --> 00:06:30,180
+Y como veis ya hemos borrado al usuario Héctor.
+
+75
+00:06:30,500 --> 00:06:32,750
+De acuerdo ha sido muy fácil.
+
+76
+00:06:33,110 --> 00:06:35,040
+Si no hubiéramos puesto el huerto.
+
+77
+00:06:35,210 --> 00:06:39,410
+Aquí es donde quería llegar hiciéramos un delete from de una tabla.
+
+78
+00:06:39,410 --> 00:06:47,060
+Guardamos ejecutamos comprobamos lo que tenemos en la tabla y si nos habría borrado absolutamente todo
+
+79
+00:06:47,060 --> 00:06:48,190
+el contenido.
+
+80
+00:06:48,740 --> 00:06:50,120
+Así que mucho cuidado.
+
+81
+00:06:50,370 --> 00:06:54,840
+No descuides el hueco en el delete from ni tampoco en el hub de IT.
+
+82
+00:06:55,040 --> 00:07:00,620
+Evidentemente estos cambios quedan realizados porque hemos realizado un mes antes de cerrar la conexión
+
+83
+00:07:01,880 --> 00:07:06,080
+y la anécdota que os quería enseñar si abrís los apuntes de esta unidad.
+
+84
+00:07:06,230 --> 00:07:11,460
+Pues es aquí donde pones no te olvides el Werk una pequeña canción que podéis abrir y escuchar.
+
+85
+00:07:11,460 --> 00:07:18,890
+Igual os gustará porque si estáis metiéndose en este mundo pues os llevaréis una buena lección y por
+
+86
+00:07:18,890 --> 00:07:20,320
+esta lección nada más.
+
+87
+00:07:20,330 --> 00:07:23,730
+Pero todavía hay mucho más por aprender por vuestra cuenta.
+
+88
+00:07:23,730 --> 00:07:28,730
+Ese qu'elle es un lenguaje muy extenso con muchas posibilidades como aquí comento.
+
+89
+00:07:29,120 --> 00:07:31,590
+Y esta unidad no deja de ser una introducción.
+
+90
+00:07:31,960 --> 00:07:34,290
+Yo os animo a seguir aprendiendo por vuestra cuenta.
+
+91
+00:07:34,310 --> 00:07:40,410
+Conceptos tan importantes como las consultas avanzadas utilizando operadores lógicos.
+
+92
+00:07:40,460 --> 00:07:49,640
+Hans Laiki Jaime funciones simples como el Count basie Distingue funciones avanzadas como sumatorio
+
+93
+00:07:49,990 --> 00:07:55,380
+el Breach de la media el minimax y el manejo de fechas.
+
+94
+00:07:55,430 --> 00:08:03,890
+Cómo manejar las fechas con David Armón y relaciones más avanzadas y conceptos como las claves foráneas.
+
+95
+00:08:03,950 --> 00:08:07,790
+Veréis un ejemplo en los ejercicios pero por vuestra cuenta.
+
+96
+00:08:07,790 --> 00:08:11,450
+Si queréis profundizar el mundo de SQL.
+
+97
+00:08:11,510 --> 00:08:17,270
+Estos son como mínimo los elementos que tendréis que ir adquiriendo para conseguir un equilibrio entre
+
+98
+00:08:17,270 --> 00:08:21,710
+lo que es la programación del programa y las consultas de la base de datos.
+
+99
+00:08:21,710 --> 00:08:24,000
+Por qué os van a facilitar mucho la vida.
+
+100
+00:08:24,650 --> 00:08:26,640
+Dicho esto dejamos esta lección.
+
+101
+00:08:26,930 --> 00:08:32,990
+Espero que hayáis aprendido mucho en esta unidad y en los ejercicios que os voy a proponer un par de
+
+102
+00:08:32,990 --> 00:08:38,930
+ejercicios vamos a trabajar un poco todo esto mezclando también algunos conceptos de excepciones y también
+
+103
+00:08:38,930 --> 00:08:44,850
+realizaremos alguna cosilla con interfaces gráficas así que os espero los ejercicios.

@@ -1,0 +1,631 @@
+1
+00:00:01,460 --> 00:00:02,080
+Muy bien.
+
+2
+00:00:02,130 --> 00:00:09,560
+Comenzamos con el tema de documentación y pruebas de la fase 4 que podréis descargar ya en esta misma
+
+3
+00:00:09,560 --> 00:00:09,960
+sección.
+
+4
+00:00:09,960 --> 00:00:16,170
+Si todavía no lo tenéis y descomprimir en el directorio curso Payton ya tendrá el tema 16 y el tema
+
+5
+00:00:16,170 --> 00:00:17,020
+17.
+
+6
+00:00:17,070 --> 00:00:18,950
+Los últimos que faltan de acuerdo.
+
+7
+00:00:19,840 --> 00:00:22,350
+Así que vamos a empezar por el tema 16.
+
+8
+00:00:22,660 --> 00:00:27,600
+Fijaros que tengo preparadas aquí como siempre los apuntes están muy bien hechos.
+
+9
+00:00:27,610 --> 00:00:33,040
+Podéis seguir De hecho estos vídeos y estas lecciones con los apuntes porque lo vais a entender mucho
+
+10
+00:00:33,040 --> 00:00:34,030
+mejor.
+
+11
+00:00:34,030 --> 00:00:40,020
+Y luego tenéis un paquete mi paquete y un módulo porque vamos a ver cómo documentar tambien un paquete
+
+12
+00:00:40,020 --> 00:00:42,130
+y un módulo así que vamos a comenzar por elección.
+
+13
+00:00:42,160 --> 00:00:48,450
+Uno de los estrenos en Payton todos los objetos cuentan con una variable especial llamada Dok.
+
+14
+00:00:48,610 --> 00:00:53,450
+Gracias a la que podemos describir para qué sirven y cómo se utilizan los objetos.
+
+15
+00:00:53,500 --> 00:00:59,230
+Estas variables reciben el nombre de Doku strings o cadenas de documentación y por defecto no tienen
+
+16
+00:00:59,230 --> 00:01:00,510
+ningún valor.
+
+17
+00:01:01,060 --> 00:01:05,180
+Empecemos viendo cómo documentar una función por ejemplo.
+
+18
+00:01:05,260 --> 00:01:06,610
+Esta función de aquí.
+
+19
+00:01:06,760 --> 00:01:12,670
+Hola recibe un argumento mostramos Hola argumento y una exclamación por pantalla de manera que se llamase
+
+20
+00:01:12,670 --> 00:01:12,890
+A..
+
+21
+00:01:12,940 --> 00:01:15,470
+Hola Héctor.
+
+22
+00:01:15,840 --> 00:01:17,020
+Pues me devuelve.
+
+23
+00:01:17,290 --> 00:01:23,300
+Hola Héctor Payton implementa un sistema muy sencillo para establecer el valor de las dos Strings pues
+
+24
+00:01:23,320 --> 00:01:26,470
+únicamente tenemos que crear un comentario.
+
+25
+00:01:26,520 --> 00:01:32,290
+La primera línea después de la declaración de la función y este comentario lo vamos a escribir con triple
+
+26
+00:01:32,300 --> 00:01:40,250
+comella y vamos a poner por ejemplo este es el docks string de la función.
+
+27
+00:01:40,660 --> 00:01:47,440
+Evidentemente aquí estaríamos explicando que es esta función que parametro recibe y que hace pero vamos
+
+28
+00:01:47,440 --> 00:01:51,410
+a hacerlo simplemente De esta forma voy a guardarlo.
+
+29
+00:01:51,820 --> 00:01:53,220
+Voy a volver a ejecutarla.
+
+30
+00:01:53,230 --> 00:01:54,800
+Como veis no cambia nada.
+
+31
+00:01:55,160 --> 00:02:01,180
+Y para consultar la documentación de esta función podemos simplemente escribir la palabra JEL y pasarla
+
+32
+00:02:01,180 --> 00:02:02,380
+entre paréntesis.
+
+33
+00:02:02,800 --> 00:02:04,850
+La función Hola.
+
+34
+00:02:06,270 --> 00:02:11,260
+Como veis se nos devuelve lo siguiente función Hola y módulos main cola.
+
+35
+00:02:11,550 --> 00:02:17,410
+ARC Este es el domestic de la función aplicásemos aquí que es lo que tenemos que enviar.
+
+36
+00:02:17,460 --> 00:02:23,910
+Pues podríamos poner hay que enviar a hark un nombre o algo para que la función diga hola etcétera.
+
+37
+00:02:24,690 --> 00:02:29,640
+De la misma forma podemos establecer la documentación de las clases después de la definición y de sus
+
+38
+00:02:29,640 --> 00:02:32,550
+métodos como si fueran funciones por ejemplo.
+
+39
+00:02:32,550 --> 00:02:41,260
+Esta clase de aquí klass clase init un método constructor y un método normal.
+
+40
+00:02:41,400 --> 00:02:43,580
+Le pongo método para que se vea.
+
+41
+00:02:43,800 --> 00:02:47,650
+Vamos a documentar tanto la clase como sus funciones.
+
+42
+00:02:47,810 --> 00:02:53,060
+Todos comenzamos por la clase en sí justo después de la declaración.
+
+43
+00:02:53,070 --> 00:03:00,640
+éste es el docks stream de la clase es decir aquí de escribiríamos.
+
+44
+00:03:00,660 --> 00:03:06,330
+Para qué sirve o cómo se utiliza esta clase y luego en el INIT podríamos describirlo de la siguiente
+
+45
+00:03:06,330 --> 00:03:07,050
+forma.
+
+46
+00:03:07,320 --> 00:03:16,730
+Este es el docx string del INI socializador de clase o método constructor como queráis llamarlo y aquí
+
+47
+00:03:16,730 --> 00:03:23,300
+el del método éste es el docx string del método de clase.
+
+48
+00:03:23,310 --> 00:03:25,580
+Como veis es muy fácil.
+
+49
+00:03:25,860 --> 00:03:32,340
+Sólo tenemos que tener presente el momento de definir o declarar una clase o un método y en la siguiente
+
+50
+00:03:32,340 --> 00:03:38,850
+línea hacer el comentario y evidentemente estos comentarios al ser triple comillas pueden ser varias
+
+51
+00:03:38,850 --> 00:03:39,360
+líneas.
+
+52
+00:03:39,390 --> 00:03:46,410
+Es decir podríamos explicar aquí sea el festival o la argument totales no sé qué y todo eso formaría
+
+53
+00:03:46,410 --> 00:03:52,780
+parte de la documentación de ese método y vamos a crear una instancia de esta clase por ejemplo.
+
+54
+00:03:52,890 --> 00:04:00,760
+O igual clase guardó aquí y ahora podemos mostrar toda la ayuda sobre el funcionamiento de esta clase
+
+55
+00:04:01,470 --> 00:04:05,150
+invocando congelé y pasándole el objeto.
+
+56
+00:04:05,430 --> 00:04:08,070
+Y como veis ya nos devuelve un poco de ayuda.
+
+57
+00:04:08,310 --> 00:04:12,280
+Básicamente podemos buscar que para la clase clase.
+
+58
+00:04:12,610 --> 00:04:19,740
+Esta prueba que hemos creado tenemos el link que hemos definido arriba y los métodos definidos aquí
+
+59
+00:04:19,740 --> 00:04:26,050
+tenemos el INIT con su descripción y un método normal con su descripción también aquí.
+
+60
+00:04:26,370 --> 00:04:31,910
+Además hay otros tipos de información pero que se agrega automáticamente que son éstos.
+
+61
+00:04:32,150 --> 00:04:40,170
+Aparte de documentar funciones clases o métodos también podemos documentar scripts y módulos.
+
+62
+00:04:40,170 --> 00:04:43,700
+Vamos a ir a ver un módulo que tengo preparado aquí.
+
+63
+00:04:43,710 --> 00:04:45,270
+Qué es este módulo.
+
+64
+00:04:45,360 --> 00:04:52,550
+Vamos a hacer clic derecho abrir con sublime texto y fijaros tenemos un módulo mi módulo con dos funciones
+
+65
+00:04:52,620 --> 00:04:54,080
+una despedir que dice adiós.
+
+66
+00:04:54,090 --> 00:04:59,430
+Me estoy despidiendo desde la función de expedir del módulo y otra saludar dice hola te estoy saludando
+
+67
+00:04:59,430 --> 00:05:01,250
+desde la función saludar del módulo.
+
+68
+00:05:01,380 --> 00:05:06,300
+Muy bien pues cuando tenemos un escrito módulo la primera linea del mismo la referencia al dogc string
+
+69
+00:05:06,300 --> 00:05:11,620
+del propio módulo es decir el que explicará el funcionamiento del mismo con triple comillas.
+
+70
+00:05:11,700 --> 00:05:18,570
+éste es el dock string del módulo y aquí explicaremos para qué sirve este módulo.
+
+71
+00:05:18,570 --> 00:05:20,560
+Recordar que podremos escribir varias líneas.
+
+72
+00:05:20,590 --> 00:05:22,130
+Bla bla bla bla bla bla.
+
+73
+00:05:22,170 --> 00:05:24,650
+Tenemos tantas cosas etcétera.
+
+74
+00:05:25,710 --> 00:05:32,200
+Y luego en cada función pues podríamos también explicar lo que hace cada una de estas funciones pues
+
+75
+00:05:32,220 --> 00:05:38,330
+pondríamos el doble string de la función despedir.
+
+76
+00:05:41,100 --> 00:05:44,750
+Y aquí este es el doktrin de la función saludar por ejemplo.
+
+77
+00:05:45,120 --> 00:05:52,260
+Recordar que esto es sólo una prueba y que vosotros tendréis que explicar en vuestros doktrin todo lo
+
+78
+00:05:52,260 --> 00:05:53,830
+que hace cada función.
+
+79
+00:05:53,880 --> 00:05:56,420
+Si acepta los parámetros o lo que sea.
+
+80
+00:05:57,030 --> 00:05:58,500
+Muy bien ya lo tenemos.
+
+81
+00:05:59,290 --> 00:06:06,020
+Ahora como este fichero mi módulo punto Pi lo tengo en el mismo directorio que mis notebooks puedo utilizarlos
+
+82
+00:06:06,030 --> 00:06:08,180
+desde Júpiter notebook.
+
+83
+00:06:08,550 --> 00:06:13,310
+De hecho si me vengo aquí hago un importe mi módulo fijaros.
+
+84
+00:06:14,460 --> 00:06:16,040
+Me da un pequeño error.
+
+85
+00:06:16,040 --> 00:06:20,430
+Bueno esto debe de ser por no haber utilizado fabulaciones o algo vamos a verificarlo.
+
+86
+00:06:20,640 --> 00:06:22,930
+Si lo selecciona todo Beroiz el error.
+
+87
+00:06:23,130 --> 00:06:29,130
+Aqui los comentarios los strings los tenemos puestos a partir de una tabulación y en cambio los prins
+
+88
+00:06:29,490 --> 00:06:36,440
+los tenía yo puestos con espacios tendríamos que cambiar las tabulación es por espacios o venirnos aquí
+
+89
+00:06:36,530 --> 00:06:37,560
+la a-6.
+
+90
+00:06:39,160 --> 00:06:46,800
+Tienden a tener en paises y si ahora guardamos y volvemos a nuestro notebook vamos a volver a ejecutarlo
+
+91
+00:06:47,670 --> 00:06:52,560
+como veis ahora ya lo tenemos importado dentro del chupete no tenemos el módulo importado y qué podemos
+
+92
+00:06:52,560 --> 00:06:53,410
+hacer con él.
+
+93
+00:06:53,410 --> 00:07:01,950
+Pues por ejemplo podríamos llamar de módulo la función saludar de esta forma al acuerdo.
+
+94
+00:07:03,090 --> 00:07:05,160
+La función despedir.
+
+95
+00:07:07,260 --> 00:07:12,150
+Para buscar la ayuda simplemente tendríamos que hacer el módulo.
+
+96
+00:07:13,110 --> 00:07:15,260
+Y aquí me explica un poco la información.
+
+97
+00:07:15,690 --> 00:07:18,900
+El nombre es mi módulo y aquí es calificaríamos.
+
+98
+00:07:19,110 --> 00:07:20,010
+De qué va este módulo.
+
+99
+00:07:20,010 --> 00:07:20,670
+Para qué sirve.
+
+100
+00:07:20,670 --> 00:07:21,900
+Qué funciones tiene.
+
+101
+00:07:21,900 --> 00:07:24,390
+Y aquí me indica las funciones que hay dentro.
+
+102
+00:07:24,450 --> 00:07:30,240
+Tenemos la función de pedir aquí tendríamos definido lo que hace esta función despedir y la función
+
+103
+00:07:30,360 --> 00:07:34,290
+saludar y aquí estaríamos explicada la función saludar.
+
+104
+00:07:34,390 --> 00:07:38,820
+Así que como veis podemos buscar ayuda sobre un módulo pasandolo el nombre del módulo.
+
+105
+00:07:38,820 --> 00:07:46,290
+Una vez que lo hemos importado de acuerdo de hecho incluso podríamos preguntarles directamente con g.el
+
+106
+00:07:46,770 --> 00:07:53,290
+y pasables de mi módulo y pasarle de mi módulo una de las funciones por ejemplo despedir.
+
+107
+00:07:53,550 --> 00:07:59,810
+De esta forma y él me dará ayuda únicamente de esta función y me explicara esta es el que viene la función
+
+108
+00:07:59,810 --> 00:08:03,190
+es pedir o hará lo que yo le diga que he escrito aquí.
+
+109
+00:08:03,420 --> 00:08:08,460
+Como dato curioso también podemos listar las variables y funciones del módulo con la función dir fijaros
+
+110
+00:08:09,480 --> 00:08:10,710
+My módulos.
+
+111
+00:08:10,870 --> 00:08:17,090
+Y aquí me lista algunas especiales algunas seguro que os va a sonar.
+
+112
+00:08:17,130 --> 00:08:26,100
+Por ejemplo estas de Name podemos buscarlo fijaros mi módulo punto Name así con las barras bajas y nos
+
+113
+00:08:26,100 --> 00:08:27,460
+devuelve el nombre del módulo.
+
+114
+00:08:27,510 --> 00:08:35,040
+O también tenemos por ejemplo mi módulo punto facas y en este caso como este módulo no está dentro de
+
+115
+00:08:35,040 --> 00:08:40,860
+un paquete nos devuelve el nombre del paquete del módulo es vacío y fijaros que tenemos en mi módulo
+
+116
+00:08:41,250 --> 00:08:42,710
+Punto Doc.
+
+117
+00:08:42,870 --> 00:08:44,540
+Qué creéis que saldrá.
+
+118
+00:08:45,150 --> 00:08:52,170
+Pues sí en Docs se guarda la doktrin es decir la ayuda que nosotros escribimos y que se muestra después
+
+119
+00:08:52,170 --> 00:08:57,900
+con la función de la misma forma que lo tiene el módulo también lo tendrían las funciones lo tendrían
+
+120
+00:08:57,900 --> 00:09:00,450
+las clases y no tendrían los métodos de las clases.
+
+121
+00:09:00,630 --> 00:09:02,190
+Pero cómo lo haríamos.
+
+122
+00:09:02,190 --> 00:09:05,220
+Para documentar un paquete.
+
+123
+00:09:05,430 --> 00:09:07,430
+Para ello he preparado un paquete.
+
+124
+00:09:07,460 --> 00:09:13,470
+Vamos al directorio de este tema 16 y aquí tengo un paquete llamado mi paquete de acuerdo.
+
+125
+00:09:13,550 --> 00:09:20,310
+Bueno para documentar el domestic del paquete lo vamos a hacer aquí dentro de mi paquete y dentro del
+
+126
+00:09:20,310 --> 00:09:27,390
+fichero init así que hago clic derecho abrir con su Text y aquí en la primera línea del INIT vamos a
+
+127
+00:09:27,390 --> 00:09:31,650
+escribir el dock string de lo que queremos documentar en este paquete.
+
+128
+00:09:31,650 --> 00:09:34,270
+Este es el string de mi paquete.
+
+129
+00:09:34,290 --> 00:09:41,430
+De esta forma guardo y ahora como lo tengo en el mismo directorio que en mis notebooks lo podemos utilizar
+
+130
+00:09:41,430 --> 00:09:48,920
+desde aquí impor mi paquete fijaros area tengo importado todo este paquete que tenemos dentro.
+
+131
+00:09:48,990 --> 00:09:56,520
+Voy a poner mi paquete y fijaros este es el string de mi paquete el que hemos definido en el INET el
+
+132
+00:09:56,520 --> 00:10:03,040
+fichero init punto Pi y luego tenemos dos paquetes tenemos el paquete adios y el paquete Hola.
+
+133
+00:10:03,660 --> 00:10:04,840
+Así que ya está.
+
+134
+00:10:04,890 --> 00:10:11,820
+Ya sabemos documentar funciones sabemos documentar clases y sus métodos sabemos documentar módulos y
+
+135
+00:10:11,820 --> 00:10:13,650
+sabemos documentar paquetes.
+
+136
+00:10:13,650 --> 00:10:19,230
+Si queréis profundizar y aprender a crear buena documentación podéis tomar como referencia contenedores
+
+137
+00:10:19,260 --> 00:10:26,380
+las librerías internas de Payton por ejemplo podéis escribir JEL y nuestra función favorita.
+
+138
+00:10:26,830 --> 00:10:33,650
+Y si la pasamos a ver qué dice y cómo veis nos explica cómo se utiliza Prin nos indica la sintaxis y
+
+139
+00:10:33,660 --> 00:10:38,670
+luego nos explica cada uno de estos parámetros que es cómo se utiliza.
+
+140
+00:10:38,700 --> 00:10:40,010
+Pues esto es lo que tenéis que hacer.
+
+141
+00:10:40,020 --> 00:10:45,870
+Esto simplemente sería como si yo lo copiará dentro de dado que string de lo que es el paquete o lo
+
+142
+00:10:45,870 --> 00:10:51,360
+que sea de la función y lo han puesto así como estoy a respetar a los espacios pues ya se lo muestra
+
+143
+00:10:51,360 --> 00:10:54,120
+de esta forma no tiene ninguna complicación.
+
+144
+00:10:54,600 --> 00:11:03,780
+Por ejemplo JEL y la función lehn pueblen retorna al número de items de un contenedor o por ejemplo
+
+145
+00:11:03,790 --> 00:11:13,340
+no sé el string de la funcion esa que nos permite transformar un valor a una cadena para poder formatearlo
+
+146
+00:11:13,350 --> 00:11:14,350
+de esa forma.
+
+147
+00:11:14,700 --> 00:11:17,310
+Pues como veis aquí esto ya es muy extenso.
+
+148
+00:11:17,310 --> 00:11:20,020
+Esta función es TRIM permite hacer muchas cosas.
+
+149
+00:11:20,100 --> 00:11:27,000
+Tenemos aquí una explicación super grande con un montón de métodos que tienen las cadenas y en caso
+
+150
+00:11:27,000 --> 00:11:31,410
+de que queramos mostrar información sobre un módulo que por defecto no está dentro del programa y tengamos
+
+151
+00:11:31,410 --> 00:11:32,510
+que importarlo.
+
+152
+00:11:32,670 --> 00:11:33,920
+Por ejemplo el Time.
+
+153
+00:11:33,930 --> 00:11:41,130
+Pues haríamos un port uptime y luego podríamos hacer un gel de Time para que nos explique cómo se utilizaba
+
+154
+00:11:41,670 --> 00:11:50,580
+este módulo de ITAE implementación rápida para el tipo de cine así que recordar sea lo que sea que vais
+
+155
+00:11:50,580 --> 00:11:58,800
+a programar ya sea una función ya sea una clase sus métodos un módulo un paquete una buena documentación
+
+156
+00:11:58,830 --> 00:12:04,200
+siempre tendrá que dar respuesta a dos preguntas básicas para qué sirve y cómo se utiliza.
+
+157
+00:12:04,350 --> 00:12:06,180
+Si dáis respuesta a esas dos preguntas.
+
+158
+00:12:06,490 --> 00:12:09,810
+Estar seguros de que vuestro código será de mucha más calidad.

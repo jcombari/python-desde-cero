@@ -1,0 +1,143 @@
+1
+00:00:01,670 --> 00:00:06,420
+Muy bien pues seguimos con la Lección 4 de este segundo tema operadores y expresiones.
+
+2
+00:00:06,430 --> 00:00:08,760
+Vamos a hablar de las expresiones anidadas.
+
+3
+00:00:10,440 --> 00:00:13,470
+Hemos visto que tenemos un montón de expresiones distintas.
+
+4
+00:00:13,470 --> 00:00:20,370
+Como podéis suponer es posible crear combinaciones entre ellas y esto se conoce como expresiones anidadas.
+
+5
+00:00:20,430 --> 00:00:25,320
+El problema es que al final podemos definir grandes expresiones con multitud de operadores y operandos
+
+6
+00:00:26,310 --> 00:00:32,850
+así que deberíamos ser capaces de entender cómo los lenguajes de programación interpretan este conjunto
+
+7
+00:00:32,910 --> 00:00:34,460
+a la hora de solucionarlas.
+
+8
+00:00:36,310 --> 00:00:42,550
+Digamos que si nosotros no fuéramos capaces de saber cómo funciona el ordenador a la hora de resolverlas
+
+9
+00:00:42,950 --> 00:00:49,420
+pues podría ser que provoca hacemos sin querer algún error a la hora de evaluar a una de estas expresiones
+
+10
+00:00:49,420 --> 00:00:50,650
+tan grandes.
+
+11
+00:00:51,040 --> 00:00:55,930
+Por tanto esta lección está dedicada al estudio de las normas de precedencias que nos enseñan cómo se
+
+12
+00:00:55,930 --> 00:01:03,460
+resuelven las expresiones complejas con distintos tipos de operadores suponer la gran expresión siguiente
+
+13
+00:01:03,790 --> 00:01:16,740
+por ejemplo igual a 10 de igual a 5 y la gran expresiones a purgue menos 2 elevado a B.
+
+14
+00:01:17,530 --> 00:01:25,380
+Me la estoy inventando es más grande o igual que 20 and not.
+
+15
+00:01:25,380 --> 00:01:33,110
+Y entre paréntesis a módulos de B distinto de cero.
+
+16
+00:01:33,460 --> 00:01:34,850
+Y esta es la gran expresión.
+
+17
+00:01:34,870 --> 00:01:38,600
+Vamos a ejecutarlo y nos da falsee no.
+
+18
+00:01:38,620 --> 00:01:47,380
+No sé por qué debería de utilizar este tipo de expresión tan larga pero nos viene perfecta para aprender
+
+19
+00:01:47,470 --> 00:01:53,690
+cómo funcionan las reglas de precedencia y por qué el resultado es falso.
+
+20
+00:01:53,980 --> 00:02:00,760
+Vamos a empezar con la primera norma de precedencia que nos dice que debemos comenzar resolviendo las
+
+21
+00:02:00,760 --> 00:02:02,570
+expresiones de cualquier tipo.
+
+22
+00:02:02,860 --> 00:02:05,970
+Entre paréntesis porque son las que tienen más prioridad.
+
+23
+00:02:08,950 --> 00:02:14,910
+A continuación resolveremos las expresiones aritméticas por sus propias reglas.
+
+24
+00:02:15,130 --> 00:02:19,010
+Es decir primero los exponentes y raíces.
+
+25
+00:02:20,150 --> 00:02:26,430
+Luego las multiplicaciones y divisiones y finalmente las sumas y las restas siempre de izquierda a derecha.
+
+26
+00:02:26,450 --> 00:02:33,530
+Para resolver estos valores aritméticos cuando tenemos resueltos los aritméticos entonces la norma nos
+
+27
+00:02:33,530 --> 00:02:38,410
+dice que debemos continuar con los relacionales de izquierda a derecha.
+
+28
+00:02:40,730 --> 00:02:47,900
+Y finalmente los operadores con menor periodicidad son los lógicos que de hecho Llegados a este punto
+
+29
+00:02:48,050 --> 00:02:54,620
+si hubiera algún relacionó la expresión lo que tendríamos es una expresión lógica con operadores y valores
+
+30
+00:02:54,680 --> 00:02:55,570
+lógicos.
+
+31
+00:02:56,370 --> 00:03:03,810
+Importante notar que no tiene prioridad pues afecta directamente al operando así que lo resolvemos primero
+
+32
+00:03:04,110 --> 00:03:07,990
+y luego acabamos con lo que resta de izquierda derecha.
+
+33
+00:03:08,100 --> 00:03:13,810
+Si lo hemos resuelto bien pues nos dará falsee al igual que el resultado que Payton nos da.
+
+34
+00:03:15,100 --> 00:03:19,230
+Evidentemente como programadores no debemos realizar los cálculos faltaría más.
+
+35
+00:03:19,360 --> 00:03:25,780
+Pero como he comentado antes tenemos que conocer cómo se resuelven cómo se aplican estas reglas de precedencia
+
+36
+00:03:25,780 --> 00:03:31,390
+para poder programar de forma correcta las expresiones que el ordenador debe resolver.

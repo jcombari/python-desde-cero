@@ -1,0 +1,179 @@
+1
+00:00:00,420 --> 00:00:03,120
+Por último quiero tratar un tema un poco especial.
+
+2
+00:00:03,240 --> 00:00:07,930
+Como hemos visto en Payton podemos acceder a los atributos y métodos de un objeto muy fácilmente.
+
+3
+00:00:08,190 --> 00:00:14,040
+Esto es porque se consideran de acceso público aunque en algunas ocasiones quizá nos interesa que estos
+
+4
+00:00:14,040 --> 00:00:16,060
+no se puedan ejecutar desde fuera.
+
+5
+00:00:16,290 --> 00:00:18,660
+Es decir queremos que sean privados.
+
+6
+00:00:18,900 --> 00:00:24,100
+Vamos a abrir la Lección 6 de encapsulación de atributos y métodos.
+
+7
+00:00:24,510 --> 00:00:31,080
+Yo voy a explicar qué es la encapsulación la encapsulación es una funcionalidad que tienen muchos lenguajes
+
+8
+00:00:31,500 --> 00:00:37,940
+para impedir el acceso externo atributos y métodos pero Payton no ofrece esta funcionalidad.
+
+9
+00:00:38,070 --> 00:00:41,620
+Aún así se puede simular un comportamiento parecido.
+
+10
+00:00:41,700 --> 00:00:48,750
+Precediendo los nombres de estos atributos y métodos con dos barras bajas por ejemplo nunca mejor dicho
+
+11
+00:00:48,770 --> 00:00:49,190
+clase.
+
+12
+00:00:49,230 --> 00:00:57,360
+Ejemplo vamos a crear un atributo privado vamos a comenzar escribiendo su nombre con dos barras bajas.
+
+13
+00:00:57,720 --> 00:00:59,210
+Atributo privado.
+
+14
+00:00:59,940 --> 00:01:04,980
+Igual soy un atributo inalcanzable
+
+15
+00:01:07,980 --> 00:01:18,740
+desde fuera y por ejemplo ahora vamos a crear un método también privado de precediendo lo de 2/2 bajas.
+
+16
+00:01:19,260 --> 00:01:26,050
+Método privado pasándoselo bien.
+
+17
+00:01:26,580 --> 00:01:27,720
+Voy a copiar lo de arriba
+
+18
+00:01:30,340 --> 00:01:33,350
+soy un método inalcanzable.
+
+19
+00:01:33,360 --> 00:01:42,330
+Desde fuera voy a guardarlo y a crear un objeto de clase de ejemplo.
+
+20
+00:01:42,720 --> 00:01:49,210
+Y fijaros Qué ocurrirá si intentamos ejecutar o acceder al método o al atributo privado.
+
+21
+00:01:49,450 --> 00:01:53,520
+El punto dos barras bajas atributo privado
+
+22
+00:01:56,180 --> 00:02:01,540
+puesto dice que el objeto no tiene este atributo privado aunque sí que lo tenemos ahí.
+
+23
+00:02:03,750 --> 00:02:13,780
+Y si intentamos ejecutar el método de punto método llevado pues también nos dice que no se puede ejecutar.
+
+24
+00:02:15,120 --> 00:02:21,960
+Sin embargo desde dentro sí que podemos utilizarlos como atributos o métodos normales así que es posible
+
+25
+00:02:21,960 --> 00:02:28,800
+crear unos métodos que hagan de puente entre el exterior y el interior y los podemos llamar públicos
+
+26
+00:02:29,160 --> 00:02:31,400
+por decirlo de alguna forma.
+
+27
+00:02:31,710 --> 00:02:36,680
+Por ejemplo para poder acceder al atributo público vamos a volver a redefinir.
+
+28
+00:02:36,720 --> 00:02:47,310
+Este ejemplo podríamos crear un método que se llame atributo público haciendo referencia al Shelf y
+
+29
+00:02:47,310 --> 00:03:01,350
+devolviendo Return sea el punto atributo privado fijaros haciendo referencia a Self y a este atributo
+
+30
+00:03:01,350 --> 00:03:03,310
+que en teoría no puedo acceder desde fuera.
+
+31
+00:03:03,630 --> 00:03:04,740
+Pero como.
+
+32
+00:03:05,610 --> 00:03:11,010
+Este método atributo público sí que es accesible desde fuera.
+
+33
+00:03:11,010 --> 00:03:20,790
+Si lo ejecutamos desde fuera da igual ejemplo y ejecutamos el atributo público.
+
+34
+00:03:21,710 --> 00:03:27,990
+Sí que tengo acceso a este atributo pero a partir de un método Lo mismo pasaría si en lugar de un atributo
+
+35
+00:03:27,990 --> 00:03:33,140
+fuese un método público que por defecto todos son públicos ya sabéis.
+
+36
+00:03:33,920 --> 00:03:35,280
+En lugar de devolver.
+
+37
+00:03:36,650 --> 00:03:37,240
+Tributo.
+
+38
+00:03:37,250 --> 00:03:40,580
+En esta ocasión lo que haríamos es devolver la función.
+
+39
+00:03:40,580 --> 00:03:48,500
+El método ejecutado de esta forma es todo privado.
+
+40
+00:03:48,950 --> 00:03:53,710
+Vale volvemos a crear el ejemplo y ahora vamos a llamar al método público.
+
+41
+00:03:56,900 --> 00:04:07,080
+Y como veis si se ejecuta el método privado a partir del método público por tanto se puede simular la
+
+42
+00:04:07,080 --> 00:04:08,420
+encapsulación.
+
+43
+00:04:08,750 --> 00:04:14,330
+Y dicho esto vamos a dar por finalizada la introducción a la programación orientada a objetos.
+
+44
+00:04:14,400 --> 00:04:16,720
+Pero esto no acaba aquí.
+
+45
+00:04:16,800 --> 00:04:21,270
+En la próxima unidad trabajaremos un poco un concepto llamado herencia.

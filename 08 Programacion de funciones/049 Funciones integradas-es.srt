@@ -1,0 +1,327 @@
+1
+00:00:01,560 --> 00:00:06,450
+Y ahora que ya conocemos las funciones no podíamos acabar el tema sin comentar varias de las funciones
+
+2
+00:00:06,450 --> 00:00:12,270
+integradas en Python muchas de ellas son para hacer conversiones entre tipos de datos y otras para manipular
+
+3
+00:00:12,270 --> 00:00:13,830
+información.
+
+4
+00:00:14,080 --> 00:00:19,580
+Vamos a abrir la última lección las ocho funciones integradas y vamos a trabajarlas.
+
+5
+00:00:20,280 --> 00:00:26,370
+Por ejemplo sabemos que cuando tenemos una cadena de caracteres podemos transformarla a un entero o
+
+6
+00:00:26,370 --> 00:00:28,640
+a un flotante por ejemplo.
+
+7
+00:00:29,530 --> 00:00:37,460
+Vamos a poner un número a partir de una cadena y este número podría ser el número 10.
+
+8
+00:00:37,480 --> 00:00:38,610
+Pero esto es una cadena.
+
+9
+00:00:38,650 --> 00:00:47,470
+Sabemos que utilizando la función integrada y pasando en esta cadena lo que tenemos es un número entero.
+
+10
+00:00:48,430 --> 00:00:51,100
+También un número flotante decimal.
+
+11
+00:00:51,460 --> 00:01:00,760
+Si hacemos un float le pasamos a una cadena por ejemplo con el 3.5 y lo que tendremos es el decimal
+
+12
+00:01:00,760 --> 00:01:02,140
+ya convertido.
+
+13
+00:01:02,600 --> 00:01:09,700
+Pero como se hace al contrario si queremos por ejemplo concatenar un número con una cadena pues lo hacemos
+
+14
+00:01:09,700 --> 00:01:17,740
+utilizando una función llamada STR que viene de string cadena una cadena que sea la unión por ejemplo
+
+15
+00:01:17,740 --> 00:01:31,600
+de un texto y un número y vamos a concatenar convirtiendo un número por ejemplo 10 a cadena con la función
+
+16
+00:01:31,660 --> 00:01:32,520
+strings.
+
+17
+00:01:33,130 --> 00:01:37,460
+Si una mostramos como país lo hemos convertido todo la cadena.
+
+18
+00:01:37,780 --> 00:01:41,550
+También funcionaría si fuera un flotante.
+
+19
+00:01:42,990 --> 00:01:50,090
+Y aquí vamos a pasarle una string de un número tres.
+
+20
+00:01:50,100 --> 00:01:54,170
+Punto 14 lo ejecutamos.
+
+21
+00:01:54,470 --> 00:02:00,180
+Y también podemos transformar un decimal a cadena.
+
+22
+00:02:00,180 --> 00:02:08,310
+Otra cosa que podemos hacer es transformar un número entero binario por ejemplo el número 10 en binario.
+
+23
+00:02:08,460 --> 00:02:12,580
+Podríamos mostrarlo si lo pasamos a la función.
+
+24
+00:02:14,280 --> 00:02:19,100
+Aquí nos indica con los dos primeros caracteres que devuelve una cadena.
+
+25
+00:02:19,840 --> 00:02:27,090
+Qué es un número binario un 0 y una B y el número en binario 10 es el 10 10 es el 1010.
+
+26
+00:02:28,320 --> 00:02:35,550
+También podemos mostrar un número hexadecimal con la función PEX por ejemplo el 10 en hexadecimal vale
+
+27
+00:02:36,390 --> 00:02:39,590
+cero x que nos indica que es un hexadecimal.
+
+28
+00:02:39,750 --> 00:02:45,350
+Vale una porque es la que viene después del número 9.
+
+29
+00:02:45,360 --> 00:02:51,770
+No los hexadecimales van a estar 15 comenzando por cero y a partir del 9 viene a la vela.
+
+30
+00:02:52,060 --> 00:02:54,140
+Y así hasta el 15.
+
+31
+00:02:55,760 --> 00:03:02,390
+Si queremos hacer lo inverso podemos transformar esta cadena del binario hexadecimal utilizando de nuevo
+
+32
+00:03:02,390 --> 00:03:07,430
+la función INET pasándole una conversión de base de número.
+
+33
+00:03:07,550 --> 00:03:13,530
+Por ejemplo queremos volver a convertir este binario en un número entero.
+
+34
+00:03:13,820 --> 00:03:22,040
+Podríamos hacer lo siguiente y le pasamos la cadena y le vamos a indicar que éste entero lo vamos a
+
+35
+00:03:22,670 --> 00:03:25,840
+convertir a partir de una cadena que es un binario.
+
+36
+00:03:26,060 --> 00:03:30,420
+Es decir en base a dos binarios 0 y 1.
+
+37
+00:03:30,950 --> 00:03:37,930
+Como veis ahí nos devuelve 10 o podríamos hacer lo mismo pero en lugar de pasarle un binario pasándole
+
+38
+00:03:37,930 --> 00:03:42,780
+un hexadecimal indicándole que está en base 16.
+
+39
+00:03:43,730 --> 00:03:45,760
+Y ahí tenemos el 10.
+
+40
+00:03:46,550 --> 00:03:54,260
+Evidentemente estas funcionalidades las utilizan y sólo si servir la programación de forma muy técnica
+
+41
+00:03:54,470 --> 00:04:02,930
+para programar alguna cosa electrónica que requiera jugar con hexadecimales o binarios alguna cosa de
+
+42
+00:04:02,930 --> 00:04:04,080
+estas.
+
+43
+00:04:04,220 --> 00:04:08,990
+También tenemos una función llamada ABS que nos devuelve el valor absoluto de un número.
+
+44
+00:04:08,990 --> 00:04:14,780
+El valor absoluto de un número es la distancia y equivale a quitar el signo a este número.
+
+45
+00:04:14,780 --> 00:04:23,550
+Por ejemplo el valor absoluto de 10 pero donde menos 10 es 10 y el barro absoluto de 10 también es 10.
+
+46
+00:04:23,660 --> 00:04:24,110
+Por qué.
+
+47
+00:04:24,110 --> 00:04:32,060
+Porque cuenta la distancia que hay por ejemplo desde menos 10 a cero son 10 y de 10 a cero también son
+
+48
+00:04:32,060 --> 00:04:32,600
+10.
+
+49
+00:04:32,600 --> 00:04:34,560
+Por tanto equivale a quitar el signo.
+
+50
+00:04:34,580 --> 00:04:36,300
+Dejarlo todo en positivo.
+
+51
+00:04:37,600 --> 00:04:42,840
+También tenemos las funciones de redondeo podemos redondear un número con la función rouen por ejemplo
+
+52
+00:04:42,910 --> 00:04:47,920
+el 5,5 lo va a redondear al alza a un 6.
+
+53
+00:04:47,920 --> 00:04:54,840
+En cambio si valiera cinco coma cuatro los redundarían a la baja un 5.
+
+54
+00:04:56,640 --> 00:05:00,460
+También podemos evaluar una expresión en una cadena.
+
+55
+00:05:00,460 --> 00:05:02,850
+Y esto soporta variables si se han declarado previamente.
+
+56
+00:05:02,850 --> 00:05:12,450
+Esto es bastante útil por ejemplo ebal Imaginar que tenemos una cadena que dice 2 más cinco pues nos
+
+57
+00:05:12,450 --> 00:05:16,880
+dice que interpreta eso como un 7.
+
+58
+00:05:16,890 --> 00:05:18,440
+Claro aunque sea una cadena.
+
+59
+00:05:18,450 --> 00:05:24,450
+él está evaluando esta cadena como una operación y decía que soporta también variables.
+
+60
+00:05:24,450 --> 00:05:32,730
+Por ejemplo si decimos que una variable es m i vale 10 y luego decimos que vale entre una cadena ponemos
+
+61
+00:05:33,270 --> 00:05:37,400
+m por diez menos cinco.
+
+62
+00:05:37,450 --> 00:05:42,510
+O sea el va a interpretar esto como esto de aquí.
+
+63
+00:05:42,690 --> 00:05:47,800
+Porque también soporta variables dentro de la cadena siempre y cuando se declarado antes porque si no
+
+64
+00:05:48,900 --> 00:05:51,970
+no me peeta porque representa que queda guardado en la memoria.
+
+65
+00:05:53,000 --> 00:06:00,350
+Pero esto podría fallar si no existiera la otra clásica que conocemos para saber la longitud de una
+
+66
+00:06:00,350 --> 00:06:00,770
+cadena.
+
+67
+00:06:00,770 --> 00:06:05,270
+De una lista de cualquier colección una cadena
+
+68
+00:06:09,050 --> 00:06:14,180
+o una lista una lista vacía cuánto mide cero.
+
+69
+00:06:15,430 --> 00:06:23,870
+Y por último una función como anecdótica es la función que podemos llamarla si algún día necesitamos
+
+70
+00:06:24,140 --> 00:06:26,270
+invocar la ayuda de Payton.
+
+71
+00:06:26,840 --> 00:06:30,370
+Bienvenido a la utilidad de ayuda de Payton 3.5.
+
+72
+00:06:31,630 --> 00:06:37,620
+Aquí puedes empezar a buscar todo tipo de ayuda por tópicos.
+
+73
+00:06:37,630 --> 00:06:43,080
+Quieres saber cosas sobre los atributos suscribes atributos.
+
+74
+00:06:43,250 --> 00:06:51,540
+Si lo hubiera escrito bien atributos hubiera salido y me explica cosas cubren los atributos.
+
+75
+00:06:52,230 --> 00:06:53,130
+Aunque está en inglés.
+
+76
+00:06:53,140 --> 00:06:58,430
+Pero bueno si algún día no tenéis acceso a Internet pero tenéis acceso a la terminal de.
+
+77
+00:06:58,500 --> 00:07:03,760
+No sabéis cómo utilizar alguna cosa pues a través de la función GIAL se puede uno buscar un poco la
+
+78
+00:07:03,760 --> 00:07:08,560
+vida para desarrollar un poco cualquier cosa.
+
+79
+00:07:08,560 --> 00:07:14,770
+En fin hay muchas más funciones integradas aunque son más avanzadas dejar un enlace la documentación
+
+80
+00:07:15,010 --> 00:07:17,340
+que está en inglés por si queréis indagar más.
+
+81
+00:07:17,720 --> 00:07:19,820
+Y me despido en este tema.
+
+82
+00:07:19,820 --> 00:07:23,620
+Por qué no el próximo vamos a comenzar a tocar la gestión de errores.

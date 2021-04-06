@@ -1,0 +1,271 @@
+1
+00:00:00,490 --> 00:00:04,600
+Y el último módulo que vamos a repasar pues es el random.
+
+2
+00:00:04,680 --> 00:00:06,950
+Vamos a ver un poco.
+
+3
+00:00:06,950 --> 00:00:12,040
+Es un módulo de funcionalidades aleatorias como Utilizarlo es muy sencillo.
+
+4
+00:00:14,410 --> 00:00:18,230
+Vamos a comenzar importando random.
+
+5
+00:00:19,500 --> 00:00:21,300
+Y qué podemos hacer con random.
+
+6
+00:00:21,550 --> 00:00:29,220
+Pues por ejemplo generar un número flotante aleatorio random punto random.
+
+7
+00:00:30,280 --> 00:00:36,130
+Hoy tenemos un número aleatorio que puede ser desde cero.
+
+8
+00:00:36,960 --> 00:00:38,780
+Hasta el 1.
+
+9
+00:00:38,790 --> 00:00:47,310
+Pero lo 1 no se incluye es decir sería como decir más grande o igual que cero y a la vez más pequeño
+
+10
+00:00:47,310 --> 00:00:51,640
+que 1.0 vale para entendernos que es un flotante.
+
+11
+00:00:51,890 --> 00:00:57,880
+El uno nunca contaría podría ser 0 9 9 9 9 9 9 9 9.
+
+12
+00:00:58,050 --> 00:00:58,920
+1.
+
+13
+00:00:59,260 --> 00:01:04,680
+Si ejecutas otra vez el código veréis cómo sale uno diferente cada vez que lo ejecutamos es un número
+
+14
+00:01:04,680 --> 00:01:07,070
+distinto aleatorio al azar.
+
+15
+00:01:07,530 --> 00:01:13,670
+También podemos indicar un rango en el que queramos buscar ese número.
+
+16
+00:01:13,740 --> 00:01:22,840
+Por ejemplo si queremos un rango que vaya desde el 1 al 10 podríamos indicarlo así random punto y Uniform
+
+17
+00:01:23,940 --> 00:01:30,270
+un número que forme parte entre el 1 y el 10 igual que antes.
+
+18
+00:01:30,420 --> 00:01:35,860
+Este número será más grande al igual que uno por lo tanto un número menor que uno no lo veríamos jamás
+
+19
+00:01:36,800 --> 00:01:43,440
+y a su vez sería más pequeño que diez mil diez tampoco lo veríamos nunca de acuerdo.
+
+20
+00:01:43,440 --> 00:01:44,540
+Ahí lo tenemos.
+
+21
+00:01:45,450 --> 00:01:54,180
+Si lo volvemos a ejecutar otra vez como veis nunca saldría un número más pequeño que el 1.
+
+22
+00:01:54,270 --> 00:01:55,460
+Esto es un rango.
+
+23
+00:01:55,950 --> 00:02:04,170
+Pero como hemos visto este flotantes si quisiéramos un rango aleatorio entre un rango de números enteros
+
+24
+00:02:04,350 --> 00:02:13,140
+no flotantes podemos hacerlo de la siguiente forma randoms punto rante reintsch y akil Indica haríamos
+
+25
+00:02:13,140 --> 00:02:16,670
+por ejemplo un número 10.
+
+26
+00:02:16,920 --> 00:02:25,730
+Esto iría desde cero o más grande igual que cero y a su vez lo que me he dejado de poner el comentario.
+
+27
+00:02:26,720 --> 00:02:29,570
+Y a su vez sería más pequeño que 10.
+
+28
+00:02:30,910 --> 00:02:35,140
+Por tanto el 10 no saldría nunca saldrían del 0 al 9.
+
+29
+00:02:35,610 --> 00:02:39,120
+Si lo ejecutamos varias veces como veis.
+
+30
+00:02:41,380 --> 00:02:45,580
+No saldría nunca vais a salir del 0 pero el 10 no saldría nunca.
+
+31
+00:02:47,580 --> 00:02:48,980
+Muy bien.
+
+32
+00:02:49,660 --> 00:02:54,790
+Siguiendo este patrón que queremos un entero aleatorio entre el cero y el 100 pues tendríamos que poner
+
+33
+00:02:55,360 --> 00:03:07,790
+random renren desde el cero hasta el 101 para que cuente esos 100 números y el 1 y el 0 perdón que en
+
+34
+00:03:07,790 --> 00:03:09,880
+realidad serían 101 números.
+
+35
+00:03:10,160 --> 00:03:16,660
+Y este erran raines nos permite hacer cosas más interesantes por ejemplo un número aleatorio entero
+
+36
+00:03:17,020 --> 00:03:27,420
+entre cero y cien como antes pero que a su vez únicamente cuente los múltiples dedos pues lo ejecutarían
+
+37
+00:03:27,520 --> 00:03:36,440
+así y siempre nos saldría un número par de acuerdo nunca saldría un número impar.
+
+38
+00:03:36,490 --> 00:03:39,140
+Por qué esto no indica que compruebe cada dos.
+
+39
+00:03:40,430 --> 00:03:42,100
+Números múltiples de dos.
+
+40
+00:03:42,200 --> 00:03:51,840
+Si pusiéramos un cinco serían números múltiples de 5 50 95 90 70 etcétera.
+
+41
+00:03:54,020 --> 00:04:00,150
+Y dejando de lado los números vamos a centrarnos un poco con las colecciones.
+
+42
+00:04:00,180 --> 00:04:01,280
+Pero nada más.
+
+43
+00:04:01,440 --> 00:04:03,220
+Tres o cuatro métodos.
+
+44
+00:04:03,450 --> 00:04:11,990
+Por ejemplo tenemos una cadena Hola Mundo y queremos escoger una letra aleatoriamente de esta cadena.
+
+45
+00:04:12,240 --> 00:04:13,610
+Cómo podemos hacerlo.
+
+46
+00:04:14,610 --> 00:04:24,450
+Pues utilizando de Random el método choix que sirve para elegir una letra aleatoria de esta cadena y
+
+47
+00:04:24,530 --> 00:04:26,920
+nos ha elegido la de mundo.
+
+48
+00:04:28,360 --> 00:04:32,420
+Podemos volver a ejecutarlo y ahora nos sale el hailey.
+
+49
+00:04:32,950 --> 00:04:40,940
+Evidentemente también nos sirve utilizarlo con listas una lista con números 1 2 2 3 4 y 5.
+
+50
+00:04:41,350 --> 00:04:51,690
+Y si hacemos un random Choice de esta lista pues no se escoge un valor aleatorio de la lista se ejecutará
+
+51
+00:04:51,700 --> 00:04:54,410
+otra vez y tenemos un número diferente.
+
+52
+00:04:56,210 --> 00:05:04,040
+Lo más interesante es que hay un método que no escoge un valor aleatorio sino que baraja de forma aleatoria
+
+53
+00:05:04,070 --> 00:05:08,840
+todos los elementos de esta colección y los deja guardados dentro.
+
+54
+00:05:09,230 --> 00:05:11,200
+Random Shuffle.
+
+55
+00:05:11,780 --> 00:05:16,260
+Sufre él y le pasamos la colección por ejemplo a la lista.
+
+56
+00:05:16,880 --> 00:05:23,380
+Al haber hecho esto hemos barajado aleatoriamente todos los elementos los hemos desordenado y si mostramos
+
+57
+00:05:24,590 --> 00:05:30,050
+ya no tenemos esta lista ordenada un dos tres cuatro o cinco sino que tenemos 4 1 5 3 y 2.
+
+58
+00:05:30,050 --> 00:05:32,560
+Está totalmente desordenado.
+
+59
+00:05:33,260 --> 00:05:39,700
+Y por último un método también bastante interesante nos permite tomar una muestra aleatoria.
+
+60
+00:05:40,960 --> 00:05:43,350
+De una lista o de una colección en general.
+
+61
+00:05:43,360 --> 00:05:54,580
+Por ejemplo queremos tomar una muestra aleatoria de 12 elementos de esta lista random sample muestra
+
+62
+00:05:55,810 --> 00:06:02,880
+le pasamos la lista y escribiríamos dos elementos aleatorios y nos escoge el 2 y el 3.
+
+63
+00:06:02,890 --> 00:06:09,020
+Si volvemos a ejecutarlo el 4 y el 3 Qué le decimos que queremos 3 elementos aleatorios.
+
+64
+00:06:09,280 --> 00:06:15,370
+Pues como veis nos devuelve una nueva lista con tres elementos aleatorios de esta lista o sea nos escoge
+
+65
+00:06:15,430 --> 00:06:19,540
+una muestra de n elementos que nosotros decimos.
+
+66
+00:06:20,200 --> 00:06:25,930
+Y con esto pues ya hemos visto otro de estos módulos tan interesantes.
+
+67
+00:06:26,170 --> 00:06:31,960
+Veremos muchos más módulos poco a poco a medida que vayamos avanzando el curso hace cosas espero en
+
+68
+00:06:31,960 --> 00:06:33,040
+la próxima unidad.

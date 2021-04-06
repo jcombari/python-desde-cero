@@ -1,0 +1,439 @@
+1
+00:00:00,870 --> 00:00:05,700
+Llegamos finalmente a la última elección expresiones regulares.
+
+2
+00:00:07,920 --> 00:00:12,990
+Y es que una de las tareas más utilizadas en la programación es la búsqueda de cadenas o patrones dentro
+
+3
+00:00:12,990 --> 00:00:15,050
+de otras cadenas de texto.
+
+4
+00:00:15,660 --> 00:00:21,180
+Las expresiones regulares también conocidas como reggae exor expe son patrones de búsqueda definidos
+
+5
+00:00:21,180 --> 00:00:22,830
+con una sintaxis formal.
+
+6
+00:00:23,160 --> 00:00:28,560
+Eso significa que siempre que sigamos sus reglas podremos realizar búsquedas simples y avanzadas que
+
+7
+00:00:28,830 --> 00:00:34,050
+utilizadas en conjunto con otras funcionalidades las vuelven una de las opciones más útiles e importantes
+
+8
+00:00:34,050 --> 00:00:35,130
+de cualquier lenguaje.
+
+9
+00:00:35,310 --> 00:00:36,630
+Pero no os voy a engañar.
+
+10
+00:00:36,780 --> 00:00:42,660
+El mundo de las expresiones regulares es inmenso y tan complejo como nosotros queramos volverlo.
+
+11
+00:00:42,810 --> 00:00:43,790
+Yo sé lo que sé.
+
+12
+00:00:43,830 --> 00:00:48,840
+No soy un experto en ellas pero lo has utilizado más de una vez para realizar búsquedas de patrones
+
+13
+00:00:49,140 --> 00:00:52,200
+sencillos en algunos de mis programas.
+
+14
+00:00:52,700 --> 00:00:59,040
+Así que os propongo eso un pequeño viaje una introducción por los métodos básicos de las expresiones
+
+15
+00:00:59,040 --> 00:01:05,000
+regulares y algunas de su sintaxis intermedia para buscar patrones.
+
+16
+00:01:05,010 --> 00:01:11,970
+Sin embargo antes de ponernos en marcha quiero citar una frase de un famoso programador y hacker llamado
+
+17
+00:01:12,280 --> 00:01:20,340
+Missa wisky que dijo hay gente que cuando se enfrenta a un problema piensa ya sé utilizar expresiones
+
+18
+00:01:20,340 --> 00:01:21,860
+regulares.
+
+19
+00:01:21,960 --> 00:01:24,590
+Ahora tienen dos problemas.
+
+20
+00:01:24,660 --> 00:01:29,970
+Esta frase viene a decirnos que antes de utilizar expresiones regulares tenemos que estar muy seguros
+
+21
+00:01:29,970 --> 00:01:34,790
+de para qué vamos a utilizarlas y sobre todo cómo las vamos a utilizar.
+
+22
+00:01:34,830 --> 00:01:40,330
+En fin vamos a ponernos manos a la obra siempre que vayamos a utilizar expresiones regulares regulares
+
+23
+00:01:40,340 --> 00:01:49,500
+expresiones vamos a importar el modelo real de expresiones regulares y vamos a empezar por ver una función
+
+24
+00:01:49,920 --> 00:01:56,020
+de este módulo llamada a ser que nos permite buscar un patrón en una cadena.
+
+25
+00:01:56,310 --> 00:02:07,610
+Por ejemplo imaginemos que tenemos un texto en esta cadena se encuentra una palabra mágica.
+
+26
+00:02:09,990 --> 00:02:21,280
+Vamos a buscar por ejemplo si dentro de esta frase se encuentra la palabra mágica red Search de buscar.
+
+27
+00:02:21,630 --> 00:02:28,250
+Aquí le vamos a pasar el patrón que queremos encontrar que sería mágica y aquí texto.
+
+28
+00:02:30,170 --> 00:02:32,730
+Más simple imposible.
+
+29
+00:02:32,990 --> 00:02:41,230
+Si lo ejecutamos como veis en lugar de un simple True false lo que se nos presenta es un objeto de tipo
+
+30
+00:02:41,260 --> 00:02:42,340
+match.
+
+31
+00:02:42,790 --> 00:02:43,980
+R.
+
+32
+00:02:44,600 --> 00:02:47,710
+En cambio si intentamos buscar una palabra.
+
+33
+00:02:48,770 --> 00:02:50,750
+Hola que no existe.
+
+34
+00:02:51,140 --> 00:02:52,730
+No se nos devuelve nada.
+
+35
+00:02:52,730 --> 00:02:58,130
+Sería como devolver no devolver nada.
+
+36
+00:02:58,130 --> 00:03:05,300
+Por tanto si queremos utilizar con un NIF todo esto de aquí lo que tenemos que hacer por ejemplo es
+
+37
+00:03:05,860 --> 00:03:17,120
+guardar la palabra aquí y aquí hacer la búsqueda por ejemplo encontrado haríamos el research y guardaremos
+
+38
+00:03:17,240 --> 00:03:24,260
+pues la búsqueda de la palabra en el texto lo ejecutaremos.
+
+39
+00:03:25,160 --> 00:03:27,020
+Encontrado valdra esto aquí.
+
+40
+00:03:27,170 --> 00:03:33,260
+Si se han encontrado con One si no se ha encontrado por tanto lo que tenemos que hacer para confirmar
+
+41
+00:03:33,260 --> 00:03:40,970
+si se ha encontrado o no es y encontrado is not None no es None.
+
+42
+00:03:42,780 --> 00:03:52,760
+Print se ha encontrado la palabra en caso contrario sería si no le pondríamos.
+
+43
+00:03:52,750 --> 00:03:54,870
+No se ha encontrado la palabra.
+
+44
+00:03:59,290 --> 00:04:00,660
+Y nos dice que sí.
+
+45
+00:04:00,990 --> 00:04:09,510
+En cambio si quedásemos una palabra que no está sola y la casemos como sería None no se ejecutaría.
+
+46
+00:04:09,540 --> 00:04:16,600
+Por tanto tener en cuenta que no es verdadero o falso es un objeto que existe o None nulo.
+
+47
+00:04:17,050 --> 00:04:20,970
+Y una vez dicho esto y volviendo al objeto devuelto de tipo match.
+
+48
+00:04:22,480 --> 00:04:30,290
+Este nos ofrece algunas opciones bastante interesantes por ejemplo encontrado.
+
+49
+00:04:31,890 --> 00:04:41,420
+En caso de que se haya encontrado tenemos que estar vamos a ejecutar de nuevo màgica la palabra mágica.
+
+50
+00:04:41,520 --> 00:04:47,010
+Porque si no nos No nos habrán encontrado nada así que ahora han encontrado este objeto de tipo mazz
+
+51
+00:04:47,250 --> 00:04:48,410
+en start.
+
+52
+00:04:48,420 --> 00:04:52,080
+Lo que tenemos con 40.
+
+53
+00:04:52,140 --> 00:04:58,350
+Esta es la posición donde empieza la coincidencia dentro de la frase es decir cero uno dos tres cuatro
+
+54
+00:04:58,350 --> 00:05:00,380
+cinco seis blablablabla.
+
+55
+00:05:00,630 --> 00:05:02,190
+Y aquí es la posición 40.
+
+56
+00:05:02,190 --> 00:05:09,570
+Aquí empieza el patrón donde se ha encontrado la palabra mágica y dónde acaba.
+
+57
+00:05:10,270 --> 00:05:22,380
+Pues en la función en método mejor dicho porque es un objeto en el 46 40 41 42 43 44 y 45 representa
+
+58
+00:05:22,380 --> 00:05:31,680
+que el 46 excluiría también tenemos en este objeto el span que es una tupla con posiciones donde empieza
+
+59
+00:05:31,680 --> 00:05:32,180
+y termina.
+
+60
+00:05:32,180 --> 00:05:41,990
+Es decir este 40 y 46 pero en una tupla y también tenemos algo muy interesante una variable string dentro
+
+61
+00:05:41,990 --> 00:05:50,010
+de incontrolado que nos devuelve la frase que hemos buscado por si queremos recuperar la frase en la
+
+62
+00:05:50,010 --> 00:05:54,540
+que hemos buscado el patrón pues la podemos encontrar con este streeck.
+
+63
+00:05:55,350 --> 00:06:01,380
+La verdad es que hay bastante más información dentro del objeto pero por ahora vamos a dejarlo aquí
+
+64
+00:06:02,790 --> 00:06:06,860
+vamos a continuar con otra función muy interesante.
+
+65
+00:06:07,760 --> 00:06:09,010
+Qué es el match.
+
+66
+00:06:09,600 --> 00:06:14,790
+El match nos servirá para buscar un patrón pero en lugar de hacerlo como el Serch que lo buscaba en
+
+67
+00:06:14,790 --> 00:06:18,960
+toda la cadena lo buscará al principio de la cadena.
+
+68
+00:06:18,960 --> 00:06:31,020
+Por ejemplo tenemos un texto Hola mundo típico y queremos buscar si en este texto remache está la palabra
+
+69
+00:06:31,110 --> 00:06:31,780
+hola.
+
+70
+00:06:32,100 --> 00:06:39,540
+Mejor dicho empieza por la palabra Hola perdón la vamos a pasar el texto lo buscamos y efectivamente
+
+71
+00:06:39,540 --> 00:06:45,440
+nos devuelve este objeto remacha y nos dicen Span que empiezan el cero hasta el 4.
+
+72
+00:06:46,570 --> 00:06:54,460
+En cambio si buscas semos una palabra que no existe por ejemplo Hola que no empieza así pues no nos
+
+73
+00:06:54,460 --> 00:06:56,810
+devuelven nada igual que antes nos devolverían None.
+
+74
+00:06:59,070 --> 00:07:00,880
+Una funcionalidad muy interesante.
+
+75
+00:07:00,930 --> 00:07:06,570
+También tenemos Split que sirve para dividir una cadena a partir de un patrón.
+
+76
+00:07:06,630 --> 00:07:08,880
+Imaginaros que tenemos un texto.
+
+77
+00:07:09,240 --> 00:07:17,900
+Vamos a dividir esta cadena y queremos dividirla a partir de sus espacios utilizaríamos el método split
+
+78
+00:07:18,480 --> 00:07:28,710
+de red pasándole el carácter a partir del cual vamos a dividir que sería un espacio y el texto que queremos
+
+79
+00:07:28,710 --> 00:07:30,200
+dividir.
+
+80
+00:07:30,560 --> 00:07:32,320
+Y como veis nos devuelve una lista.
+
+81
+00:07:33,100 --> 00:07:38,860
+Con todas las palabras ha dividido a partir del espacio y nos ha hecho una lista con todas las palabras
+
+82
+00:07:39,070 --> 00:07:40,510
+separadas.
+
+83
+00:07:40,540 --> 00:07:45,030
+Otra función muy interesante es SUP de substituir.
+
+84
+00:07:46,880 --> 00:07:53,000
+Qué nos permite sustituir todas las coincidencias de un determinado patrón en una cadena.
+
+85
+00:07:53,090 --> 00:08:09,350
+Por ejemplo un texto Hola amigo queremos sustituir resume las palabra amigo por la palabra amiga en
+
+86
+00:08:09,350 --> 00:08:10,180
+el texto.
+
+87
+00:08:12,250 --> 00:08:17,450
+Como veis devuelve la cadena con este patrón cambiado desde la palabra amigo.
+
+88
+00:08:17,530 --> 00:08:22,610
+Se cambia por amiga y nos queda la frase Hola amiga.
+
+89
+00:08:22,900 --> 00:08:29,530
+Y por último una funcionalidad muy interesante que vamos a utilizar bastante de ahora en adelante es
+
+90
+00:08:29,530 --> 00:08:33,740
+el Find cool que busca todas las coincidencias en una cadena.
+
+91
+00:08:33,930 --> 00:08:45,850
+Imaginad que tenemos un texto por ejemplo con la palabra hola adiós hola hola y queremos buscar todas
+
+92
+00:08:45,850 --> 00:08:48,950
+las coincidencias de la palabra hola.
+
+93
+00:08:49,420 --> 00:08:52,480
+Pues haríamos Red Bull.
+
+94
+00:08:53,150 --> 00:08:59,220
+Hola el texto como veis nos devuelve una lista.
+
+95
+00:08:59,910 --> 00:09:02,000
+Con todas las palabras hola.
+
+96
+00:09:02,780 --> 00:09:13,090
+Si esto de aquí lo ponemos entre una función lehn de longitud tendremos el número de veces que se repite.
+
+97
+00:09:13,960 --> 00:09:16,330
+Un patrón dentro de una frase.
+
+98
+00:09:16,600 --> 00:09:18,050
+Si hubiéramos puesto lo haarde.
+
+99
+00:09:18,070 --> 00:09:18,710
+Hola.
+
+100
+00:09:18,910 --> 00:09:23,510
+La letra A se encuentra la letra a cuatro veces.
+
+101
+00:09:23,620 --> 00:09:26,750
+Aquí otra aquí otra aquí y otra aquí.
+
+102
+00:09:26,890 --> 00:09:34,170
+También podemos utilizar Find cool para buscar múltiples alternativas por ejemplo en este texto que
+
+103
+00:09:34,240 --> 00:09:42,760
+vamos a crear con hola adiós vamos a poner también el Now en inglés ivey y vamos a buscar múltiples
+
+104
+00:09:42,760 --> 00:09:50,240
+alternativas utilizando una tubería a modo de horno Ré Col.
+
+105
+00:09:50,710 --> 00:09:55,950
+Entre paréntesis Hola y también vamos a buscar Gelo.
+
+106
+00:09:56,290 --> 00:10:04,510
+Fijaros la tubería os comento como si fuera un cola o Gelo dentro de el texto.
+
+107
+00:10:05,120 --> 00:10:11,050
+Y aquí nos devuelve que se ha encontrado dos palabras una sola y otra geólogo si fuera otra vez.
+
+108
+00:10:11,080 --> 00:10:11,800
+Hola.
+
+109
+00:10:12,150 --> 00:10:17,770
+Si hubiera encontrado dos veces Hola y una vez luego muy bien lo dejamos aquí por ahora y en el proximo
+
+110
+00:10:17,770 --> 00:10:22,390
+vídeo seguimos hablando de las expresiones regulares y los patrones con sintaxis repetida.

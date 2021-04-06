@@ -1,0 +1,371 @@
+1
+00:00:01,640 --> 00:00:05,020
+Muy bien vamos a hablar de los operadores relacionales.
+
+2
+00:00:05,180 --> 00:00:09,990
+Vamos a abrir la lección II y a experimentar un poco.
+
+3
+00:00:10,550 --> 00:00:16,310
+Cuando hablamos de operadores relacionales tenemos que entender la palabra relacional.
+
+4
+00:00:16,700 --> 00:00:22,250
+Cómo comparar los operadores relacionales sirven para comparar dos valores.
+
+5
+00:00:22,520 --> 00:00:27,990
+Si el resultado de la comparación es correcto entonces diremos que las presiones verdadera Tru.
+
+6
+00:00:28,400 --> 00:00:30,980
+Pero si es incorrecta diremos que es falsa.
+
+7
+00:00:31,110 --> 00:00:32,720
+Forns false.
+
+8
+00:00:33,250 --> 00:00:40,370
+Vamos a trabajar algunos ejemplos de estos operadores a quien el intérprete de Python por ejemplo tenemos
+
+9
+00:00:40,370 --> 00:00:41,710
+uno que ya conocemos.
+
+10
+00:00:41,990 --> 00:00:43,410
+El operador igualque.
+
+11
+00:00:44,870 --> 00:00:52,310
+Si escribimos por ejemplo 3 es igual que 2 nos dice que es falso.
+
+12
+00:00:54,120 --> 00:00:57,360
+Otro que tenemos es lo contrario.
+
+13
+00:00:57,690 --> 00:01:03,490
+Al igual que sería distinto el operador distinto.
+
+14
+00:01:04,160 --> 00:01:13,080
+Se escribe con una exclamación y un igual que tenéis que imaginaros lo que sería como tachar o el operador
+
+15
+00:01:13,080 --> 00:01:20,280
+de igualdad sería como si estuviera partiendo si le decimos que está aquí.
+
+16
+00:01:20,910 --> 00:01:30,190
+Ahora nos dice que es verdad que 3 NO ES IGUAL QUE OTRO QUE TENEMOS ES EL MAYOR QUE mayor.
+
+17
+00:01:31,980 --> 00:01:35,750
+Digamos que 3 es mayor que 2.
+
+18
+00:01:36,000 --> 00:01:43,440
+Este signo este operador relacional es el de mayor que indica que el número de la izquierda es mayor
+
+19
+00:01:43,470 --> 00:01:45,630
+que el número de la derecha.
+
+20
+00:01:45,750 --> 00:01:50,160
+Si lo ejecutamos efectivamente nos dice que 3 es mayor que 2.
+
+21
+00:01:50,520 --> 00:01:53,700
+Otro que tenemos idénticamente es el menor.
+
+22
+00:01:54,240 --> 00:02:01,950
+Si en cambio le dijéramos que 3 es menor que 2 Que es lo mismo pero hacia el otro lado Fijaros que la
+
+23
+00:02:01,950 --> 00:02:07,310
+parte pequeña del operador el cono o el triángulo.
+
+24
+00:02:08,450 --> 00:02:11,960
+Que 3 es más pequeño que la parte grande no por tanto.
+
+25
+00:02:12,000 --> 00:02:14,910
+De esta forma podemos guiarnos entre el mayor o el menor.
+
+26
+00:02:15,460 --> 00:02:20,590
+Si le decimos esto pues nos dice evidentemente que 3 no es menor que 2.
+
+27
+00:02:20,640 --> 00:02:21,690
+Eso es mentira.
+
+28
+00:02:21,960 --> 00:02:30,060
+También tenemos aparte del mayor que el menor que una mezcla entre mayor que con menor o igual es decir
+
+29
+00:02:30,840 --> 00:02:41,030
+mayor o igual que se escribiría así 3 es mayor o igual que 2 por ejemplo nos dice que es verdadero.
+
+30
+00:02:41,100 --> 00:02:46,610
+También podríamos decirles intereses mayor o igual que 3 también me dice que es verdadero.
+
+31
+00:02:46,620 --> 00:02:55,020
+Pero si le digo que 3 es mayor o igual que 4 En ese caso ya me dice que es mentira porque ya no se cumple
+
+32
+00:02:55,260 --> 00:02:59,090
+ni que sea mayor el 3 que el 4 ni que sea igual.
+
+33
+00:02:59,660 --> 00:03:07,170
+Evidentemente si hay el mayor igual que también tenemos el menor o igual que si le decimos que 3 es
+
+34
+00:03:07,170 --> 00:03:08,850
+menor o igual que 2.
+
+35
+00:03:09,120 --> 00:03:13,180
+Esto dirá que es mentira porque no es cierto.
+
+36
+00:03:13,260 --> 00:03:17,740
+Si le decimos 3 es menor o igual que 3 debería decir que es verdad.
+
+37
+00:03:18,000 --> 00:03:21,790
+Porque efectivamente no es que sea menor pero es igual.
+
+38
+00:03:22,240 --> 00:03:28,550
+Y si decimos 3 es menor o igual que 4 también se cumple esta relación.
+
+39
+00:03:30,570 --> 00:03:38,700
+Evidentemente si asignamos a dos variables unos valores por ejemplo igual a 10 y B Iguala 5 también
+
+40
+00:03:38,700 --> 00:03:52,760
+podemos hacer lo mismo con las variables a es mayor que y nos dice que es verdad o B es distinto a verdadero.
+
+41
+00:03:53,520 --> 00:04:06,150
+Y si digo A es igual que b por 2 que me dirá que es verdad porque 10 es igual al 5 por 2 que es 10.
+
+42
+00:04:06,150 --> 00:04:10,480
+Como veis son bastante sencillos de utilizar y de entender.
+
+43
+00:04:10,920 --> 00:04:15,750
+Sólo tenéis que tener en cuenta que el operador de igualdad un igual.
+
+44
+00:04:15,810 --> 00:04:18,410
+Si solamente utilizamos una vez.
+
+45
+00:04:18,690 --> 00:04:24,750
+Estamos refiriéndonos a la asignación como en este momento de aquí asignación de un valor a una variable
+
+46
+00:04:26,190 --> 00:04:29,050
+que no tenemos que confundirlo con el de igualdad.
+
+47
+00:04:29,190 --> 00:04:37,770
+El igualque que son dos operadores igual una cosa que es interesante es que no solamente podemos comparar
+
+48
+00:04:37,980 --> 00:04:45,430
+números podemos comparar también cadenas de texto por ejemplo Hola.
+
+49
+00:04:46,350 --> 00:04:52,320
+Así es igual que hola y me dice que es verdad.
+
+50
+00:04:53,280 --> 00:04:57,020
+Y si le digo que es distinto.
+
+51
+00:04:57,090 --> 00:05:00,940
+Hola que me dirá que es falso.
+
+52
+00:05:02,990 --> 00:05:10,590
+Si guardamos una cadena en una variable el texto Ramos en la C el texto Hola.
+
+53
+00:05:13,440 --> 00:05:19,710
+Podemos hacer una igualdad también para comprobar los índices y los caracteres de esta cadena.
+
+54
+00:05:19,710 --> 00:05:29,490
+Por ejemplo en el carácter Zero de esta cadena Hola hay una hache es igual a una chica y nos dice que
+
+55
+00:05:29,490 --> 00:05:30,410
+es verdad.
+
+56
+00:05:31,000 --> 00:05:37,170
+Y si le dijera el último carácter de la cadena es igual a una.
+
+57
+00:05:37,250 --> 00:05:40,010
+Ah pues también nos dice que es cierto.
+
+58
+00:05:42,130 --> 00:05:50,790
+También podemos trabajar con listas por ejemplo voy a crear una lista con un 0 1 1 1 2 y voy a crear
+
+59
+00:05:50,790 --> 00:05:55,620
+otra lista la lista 1 y listados así L1 y L2.
+
+60
+00:05:55,860 --> 00:06:00,560
+Y esta les voy a poner los valores 3 2 3 y 4.
+
+61
+00:06:00,570 --> 00:06:07,400
+Que haya un valor que es igual y ahora utilizando los operadores relacionales podríamos decirles en
+
+62
+00:06:07,440 --> 00:06:09,000
+la lista 1.
+
+63
+00:06:09,150 --> 00:06:13,120
+Es igual que la lista 2 y evidentemente son diferentes.
+
+64
+00:06:13,410 --> 00:06:21,930
+Por eso nos dice que es falso pero en cambio yo le dijera la longitud de la lista 1 es igual a la longitud
+
+65
+00:06:22,410 --> 00:06:28,830
+de la lista 2 pues me dice que es verdad porque ambas listas tienen tres elementos y por tanto esta
+
+66
+00:06:29,100 --> 00:06:31,490
+comparación sí que es real.
+
+67
+00:06:32,060 --> 00:06:41,910
+Y si le dijera por ejemplo si el último elemento de la lista 1 es igual al primer elemento de la lista
+
+68
+00:06:41,930 --> 00:06:48,090
+2 pues me dice que es verdad porque el último elemento de la primera lista es un 2 y el primero de la
+
+69
+00:06:48,090 --> 00:06:49,780
+segunda es también un 2.
+
+70
+00:06:49,820 --> 00:06:56,830
+Así que con los índices también podemos comprobar en las listas los diferentes elementos que tenemos.
+
+71
+00:06:58,890 --> 00:07:07,830
+Tampoco debemos de olvidarnos de los lógicos Trump con mayúscula truc es igual a truc verdaderos igual
+
+72
+00:07:07,830 --> 00:07:11,950
+a verdadero verdadero verdadero y verdadero.
+
+73
+00:07:12,060 --> 00:07:14,980
+Pues esto es verdadero y false.
+
+74
+00:07:15,210 --> 00:07:18,550
+Es igual que verdadero falso es igual que verdadero.
+
+75
+00:07:19,140 --> 00:07:21,580
+Evidentemente que no. Esto es mentira.
+
+76
+00:07:22,110 --> 00:07:30,480
+Y si decimos que false es distinto de verdadero de truc que nos dirá pues que es verdadero.
+
+77
+00:07:30,480 --> 00:07:37,360
+Ahora bien imaginad si le dijéramos truc es más grande que false.
+
+78
+00:07:37,610 --> 00:07:40,340
+Qué creéis que puede suceder al poner esto.
+
+79
+00:07:41,040 --> 00:07:42,540
+Pues nos dice que es verdad.
+
+80
+00:07:42,840 --> 00:07:50,990
+Y si en cambio lo decimos y falsee es más grande que tu verdadero entonces no nos da mentira.
+
+81
+00:07:51,090 --> 00:07:51,960
+Cómo puede ser.
+
+82
+00:07:51,960 --> 00:07:54,430
+Cómo es que sucede esto.
+
+83
+00:07:54,960 --> 00:07:58,390
+Pues esto es debido a que aritméticamente hablando.
+
+84
+00:07:59,200 --> 00:08:01,310
+Trui false.
+
+85
+00:08:01,660 --> 00:08:05,530
+Tienen un valor equivalente a 1 y 0 respectivamente.
+
+86
+00:08:05,800 --> 00:08:15,520
+Es decir si ponemos truc por ejemplo por 3 3 porque True equivale a un 1 es como decir 1 por 3 y sin
+
+87
+00:08:15,520 --> 00:08:23,060
+embargo si ponemos false dividido por 5 por ejemplo nos da cero.
+
+88
+00:08:23,470 --> 00:08:23,830
+Por qué.
+
+89
+00:08:23,830 --> 00:08:26,380
+Porque false equivale a cero.
+
+90
+00:08:26,410 --> 00:08:34,770
+Por tanto si pusiéramos True false Nos da cero porque es 1 por cero igual a cero.
+
+91
+00:08:36,000 --> 00:08:41,550
+Sin embargo lo que hace más interesante al tipológico es que cuenta con sus propios operadores es decir
+
+92
+00:08:41,840 --> 00:08:48,780
+no los relacionales sino también los operadores lógicos los cuales nos permitirán crear grandes expresiones
+
+93
+00:08:48,810 --> 00:08:52,410
+encadenadas y lo vamos a ver en la próxima elección.

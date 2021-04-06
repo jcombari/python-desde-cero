@@ -1,0 +1,227 @@
+1
+00:00:01,330 --> 00:00:07,600
+Como veis por tanto los textos unitarios son una alternativa a los textos en la documentación pero requieren
+
+2
+00:00:07,600 --> 00:00:12,880
+crear un fichero aparte y declarar toda la batería de pruebas a partir de esta clase de aquí.
+
+3
+00:00:13,060 --> 00:00:14,270
+Cuáles son mejores.
+
+4
+00:00:14,270 --> 00:00:17,040
+Bueno depende de la circunstancia.
+
+5
+00:00:17,440 --> 00:00:23,050
+Los toques son muy ágiles porque los podemos hacer a medida que estamos desarrollando la funcionalidad.
+
+6
+00:00:23,050 --> 00:00:28,530
+Los tres unitarios tendremos que desarrollar primero la funcionalidad para crear la batería destes después
+
+7
+00:00:28,780 --> 00:00:34,690
+pero si en algo son mejores es que los tests unitarios nos permiten por el simple hecho de estar utilizando
+
+8
+00:00:34,690 --> 00:00:40,930
+su propio fichero manejar muchas más posibilidades preparar el entorno por ejemplo antes de comenzar
+
+9
+00:00:40,930 --> 00:00:45,020
+a hacer un test y luego limpiar lo que hemos hecho de prueba.
+
+10
+00:00:45,340 --> 00:00:51,430
+Y precisamente en esto de preparar el entorno de pruebas eso es lo que se centra esta clase porque tiene
+
+11
+00:00:51,580 --> 00:00:54,630
+dos métodos extra muy importantes.
+
+12
+00:00:54,820 --> 00:01:01,270
+El primero es zETAp que nos permite preparar el contexto de la batería de pruebas por ejemplo para escribir
+
+13
+00:01:01,270 --> 00:01:06,970
+unos valores de prueba en un fichero conectarse a un servidor con una base de datos y recoger esos datos
+
+14
+00:01:07,850 --> 00:01:13,540
+y luego tendríamos que el método tarda un para hacer lo propio con la limpieza borrar el fichero que
+
+15
+00:01:13,540 --> 00:01:18,430
+hemos creado para hacer las pruebas desconectarnos del servidor o borrar las entradas de prueba de la
+
+16
+00:01:18,430 --> 00:01:20,410
+base de datos.
+
+17
+00:01:20,410 --> 00:01:26,230
+Todo este proceso de preparar el contexto se conoce como Text Fix o accesorios de prueba.
+
+18
+00:01:26,260 --> 00:01:28,570
+Vamos a hacer un último ejemplo de esto.
+
+19
+00:01:30,150 --> 00:01:32,040
+Fijaros en este caso.
+
+20
+00:01:32,040 --> 00:01:37,370
+Aquí tenemos la función de hablar que devuelve un valor doblado.
+
+21
+00:01:37,370 --> 00:01:42,630
+Pues vamos a preparar un contexto en el que desde el principio vamos a crear una lista de elementos
+
+22
+00:01:42,630 --> 00:01:47,400
+para realizar una prueba de doblarlos elementos de esta lista.
+
+23
+00:01:47,550 --> 00:01:48,920
+Cómo lo vamos a hacer.
+
+24
+00:01:49,260 --> 00:01:54,010
+Pues mira como se había comentado aquí tenemos el ZetaP que aquí tenemos el ardan.
+
+25
+00:01:54,360 --> 00:02:01,380
+Imaginaros que es como una especie de constructor y un destructor dentro de esta batería de pruebas.
+
+26
+00:02:02,100 --> 00:02:07,860
+Cuando llamamos al Zetapé Al principio lo que vamos a hacer es crear en los números una lista de números
+
+27
+00:02:08,100 --> 00:02:11,270
+1 2 3 4 y 5 fácil.
+
+28
+00:02:12,450 --> 00:02:16,020
+Luego vamos a ejecutar el test cualquier método.
+
+29
+00:02:17,000 --> 00:02:19,060
+Que no sea zETAp ni te adoum.
+
+30
+00:02:19,410 --> 00:02:25,700
+él lo entenderá como que es un test de acuerdo por tanto dentro voy a poner por ejemplo realizando una
+
+31
+00:02:25,700 --> 00:02:32,090
+prueba y lo que vamos a hacer es utilizando comprensión de listas que ya sabemos lo que es crear una
+
+32
+00:02:32,090 --> 00:02:34,610
+nueva lista llamada R.
+
+33
+00:02:35,090 --> 00:02:35,850
+Será temporal.
+
+34
+00:02:35,850 --> 00:02:37,930
+únicamente existirá dentro de este test.
+
+35
+00:02:38,780 --> 00:02:40,390
+Qué tendrá este valor.
+
+36
+00:02:40,610 --> 00:02:43,310
+Tendrá el número doblado para cada número.
+
+37
+00:02:43,310 --> 00:02:49,290
+En la lista de números que tenemos aquí fijaros importante que lo estoy pasando con el Shelf por Hace
+
+38
+00:02:49,320 --> 00:02:58,070
+referencia a algo que es de la clase de acuerdo y luego vamos a comprobar con cuál que está lista R
+
+39
+00:02:58,160 --> 00:03:03,140
+doblada tiene los valores doblados 2 4 6 8 y 10.
+
+40
+00:03:03,140 --> 00:03:08,920
+Por tanto será una lista igual que esta y finalmente Dawn.
+
+41
+00:03:09,090 --> 00:03:16,640
+Qué diré destruyendo el contexto y qué es lo que hará bueno pues cogerá esta propiedad números de clase
+
+42
+00:03:16,700 --> 00:03:19,500
+y la borrará del acuerdo.
+
+43
+00:03:19,850 --> 00:03:22,180
+Voy a guardarlo voy a ejecutarlo.
+
+44
+00:03:23,670 --> 00:03:28,240
+Preparando el contexto realizando una prueba destruyendo el contexto.
+
+45
+00:03:28,350 --> 00:03:36,300
+Se ha ejecutado un test que si pusiera con el verbosidad y no sube me diría que se está ejecutando el
+
+46
+00:03:36,300 --> 00:03:42,840
+test este de aquí dentro de la batería de pruebas prueba fixture que se está preparando el contexto
+
+47
+00:03:43,110 --> 00:03:50,410
+se están realizando una prueba finalmente se destruye el contexto OK y se ha realizado un test exitosamente.
+
+48
+00:03:50,430 --> 00:03:55,380
+Si este test fallase por alguna razón yo aquí pusiera por ejemplo un once y ya supiera que esto está
+
+49
+00:03:55,380 --> 00:03:56,000
+mal.
+
+50
+00:03:56,990 --> 00:04:03,710
+Al ejecutarlo pues me diría exactamente que ha fallado en ese punto donde se estaba esperando un 11.
+
+51
+00:04:03,730 --> 00:04:09,470
+Pero se ha devuelto un 10 justamente aquí Fijaros que me lo explica muy bien de acuerdo.
+
+52
+00:04:10,060 --> 00:04:12,540
+Y con esto finalizamos el tema.
+
+53
+00:04:12,650 --> 00:04:19,010
+Ahora ya sabemos como comentar nuestro código que Strings generar la documentación con Doc introducir
+
+54
+00:04:19,010 --> 00:04:24,130
+pruebas en los que Strings combinando adoptées y por último crear pruebas avanzadas con el módulo y
+
+55
+00:04:24,130 --> 00:04:25,280
+un test.
+
+56
+00:04:25,400 --> 00:04:27,630
+Estamos a un paso de finalizar el curso.
+
+57
+00:04:27,650 --> 00:04:30,920
+Sólo nos falta ver cómo distribuir nuestros módulos y programas.

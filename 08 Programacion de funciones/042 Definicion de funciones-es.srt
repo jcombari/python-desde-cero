@@ -1,0 +1,299 @@
+1
+00:00:00,420 --> 00:00:06,330
+Muy bien pues vamos a comenzar a trabajar con las funciones vamos a practicar cómo crear las funciones
+
+2
+00:00:06,950 --> 00:00:12,380
+de masais programación de funciones y empezaremos con la definición de funciones.
+
+3
+00:00:12,720 --> 00:00:19,260
+La definición de una función básica es muy sencilla únicamente tenemos que escribir el nombre de la
+
+4
+00:00:19,260 --> 00:00:19,780
+función.
+
+5
+00:00:19,800 --> 00:00:25,100
+Por ejemplo vamos a hacer una función que escriba un mensaje por pantalla lo voy a saludar.
+
+6
+00:00:25,260 --> 00:00:33,810
+Cerramos con un paréntesis dos puntos y aquí estamos en el bloque de código de la función donde escribiremos
+
+7
+00:00:33,810 --> 00:00:36,920
+lo que queremos que se ejecute cuando la llamemos.
+
+8
+00:00:37,080 --> 00:00:39,570
+Por ejemplo vamos a escribir un pin.
+
+9
+00:00:39,840 --> 00:00:46,280
+Hola este primero se llama desde la función saludar.
+
+10
+00:00:49,610 --> 00:00:54,060
+Y aquí tenemos una función para ejecutar la función.
+
+11
+00:00:54,060 --> 00:00:56,310
+Es suficiente con llamar el nombre.
+
+12
+00:00:57,290 --> 00:00:59,120
+Con los paréntesis.
+
+13
+00:00:59,120 --> 00:01:00,050
+De esta forma.
+
+14
+00:01:01,050 --> 00:01:06,090
+Dentro del bloque del código principal saludar y lo ejecutamos.
+
+15
+00:01:06,210 --> 00:01:07,280
+Y de esta manera.
+
+16
+00:01:08,070 --> 00:01:13,040
+Ya hemos llamado la función al igual que con las variables.
+
+17
+00:01:13,080 --> 00:01:18,750
+Lo recomendable para elegir el nombre de una función es utilizar minúsculas y palabras separadas con
+
+18
+00:01:18,750 --> 00:01:19,500
+barras bajas.
+
+19
+00:01:19,500 --> 00:01:25,470
+En el caso de que queramos poner espacios idealmente utilizar nombres auto explicativos no utilizar
+
+20
+00:01:25,470 --> 00:01:32,580
+nombres que no sepamos lo que son como letras simples o una palabra que no tenga mucho sentido con lo
+
+21
+00:01:32,580 --> 00:01:34,840
+que hace la función.
+
+22
+00:01:35,100 --> 00:01:39,690
+Evidentemente dentro de una función podremos crear variables y utilizar cualquier sentencia.
+
+23
+00:01:39,750 --> 00:01:45,650
+Un ejemplo muy sencillo vamos a crear una función que dibuje por ejemplo la tabla del número 5.
+
+24
+00:01:48,460 --> 00:01:54,030
+Dibujar tabla del 5.
+
+25
+00:01:54,960 --> 00:02:02,280
+Vamos a hacer un fork por ejemplo en ranks hasta 10.
+
+26
+00:02:02,910 --> 00:02:14,290
+Vamos a hacer un print por ejemplo vamos a mostrar 5 por poner claudi y luego igual.
+
+27
+00:02:14,410 --> 00:02:19,190
+Así y aquí ponemos y por 5.
+
+28
+00:02:20,440 --> 00:02:25,140
+Ahora llamamos esta función y bojar la tabla del 5.
+
+29
+00:02:28,530 --> 00:02:32,290
+Y aquí tenemos la tabla del 5 aunque no llega al 10.
+
+30
+00:02:32,770 --> 00:02:38,870
+Si quisiéramos llegar al 10 pues tendríamos que indicar que vaya uno más adelante hasta el 11.
+
+31
+00:02:40,400 --> 00:02:45,370
+Otra cosa que tenemos que aprender sobre las funciones es el ámbito de sus variables.
+
+32
+00:02:45,590 --> 00:02:53,870
+Por ejemplo voy a crear una función llamada Artes y dentro voy a definir una variable una variable con
+
+33
+00:02:53,870 --> 00:02:55,050
+el valor 10.
+
+34
+00:02:55,500 --> 00:02:58,780
+Si ejecutamos esta función.
+
+35
+00:02:59,760 --> 00:03:06,900
+Bueno pues teóricamente hemos creado el cine dentro pero si intentamos mostrar el valor del fuera de
+
+36
+00:03:06,970 --> 00:03:08,940
+un error y nos dice que no está definida.
+
+37
+00:03:09,100 --> 00:03:14,750
+Como vemos n no existe en el proceso principal sólo dentro de la función ya que la hemos declarado hoy.
+
+38
+00:03:15,250 --> 00:03:20,480
+Diríamos entonces que el ámbito de la variable n abarca únicamente la función Test.
+
+39
+00:03:20,810 --> 00:03:26,460
+Pero fijaros Qué ocurre si hacemos lo siguiente Vamos a declarar una variable.
+
+40
+00:03:26,470 --> 00:03:36,750
+M vamos a redefinir la función Test y ahora vamos a hacer dentro de la función Test que vamos a ejecutar
+
+41
+00:03:36,770 --> 00:03:41,470
+la función Test y fijarlos se nos muestra el valor de M.
+
+42
+00:03:41,470 --> 00:03:46,810
+Pese a que no hemos declarado dentro de la función Esto es debido a que la variable se encuentra declarada
+
+43
+00:03:46,810 --> 00:03:49,990
+fuera de la función por tanto abarca también la función.
+
+44
+00:03:49,990 --> 00:03:56,740
+El ámbito también abarca todo lo que hay por debajo y por tanto se puede utilizar dentro de las otras
+
+45
+00:03:56,740 --> 00:04:02,490
+funciones que nos encontremos que están al mismo nivel tanto en la función como la variable.
+
+46
+00:04:02,740 --> 00:04:08,040
+Sin embargo hay un requisito y es que debe haberse declarado antes de la llamada de la función.
+
+47
+00:04:08,110 --> 00:04:15,140
+Por ejemplo si redefinimos una función Test por ejemplo para mostrar una variable.
+
+48
+00:04:15,410 --> 00:04:20,380
+L ahora hallamos la función Test.
+
+49
+00:04:21,940 --> 00:04:32,570
+Pues no lo encuentra pero sí después de llamar a test y otorgarse el valor 10 y luego la llámase.
+
+50
+00:04:34,590 --> 00:04:36,890
+El borrase el primer código.
+
+51
+00:04:37,100 --> 00:04:38,540
+Ahora sí que funciona.
+
+52
+00:04:38,540 --> 00:04:45,740
+O sea que el requisito para poder utilizar una variable dentro de una función externa que sea externa
+
+53
+00:04:46,100 --> 00:04:49,460
+es que ésta esté declara antes de ejecutar la función.
+
+54
+00:04:49,910 --> 00:04:54,950
+Pero mucho ojo con esto porque utilizar variables externas dentro de las funciones en ocasiones puede
+
+55
+00:04:54,950 --> 00:04:56,880
+no funcionar como esperaríamos.
+
+56
+00:04:57,200 --> 00:05:03,590
+Fijaros por ejemplo lo que sucederá si creamos de nuevo una variable dentro de la función con el mismo
+
+57
+00:05:03,590 --> 00:05:06,330
+nombre que hemos quedado fuera fijarlos.
+
+58
+00:05:06,380 --> 00:05:12,800
+Vamos a definir test y en esta ocasión vamos a crear una variable o dentro de la función Test con un
+
+59
+00:05:12,800 --> 00:05:18,620
+valor cinco y vamos a mostrarla como mostrar el valor.
+
+60
+00:05:18,620 --> 00:05:27,170
+Ahora vamos a llamar a test y luego vamos a volver a sobreescribir la variable o fueran el proceso principal
+
+61
+00:05:27,200 --> 00:05:28,070
+con un 10.
+
+62
+00:05:28,370 --> 00:05:30,210
+Vamos a volver a llamar a tres.
+
+63
+00:05:31,540 --> 00:05:39,040
+Y vamos a mostrar el valor de travez Pues fijaros la primera vez que llamo test.
+
+64
+00:05:39,130 --> 00:05:41,730
+La variable vale 5.
+
+65
+00:05:43,210 --> 00:05:48,600
+Luego el dos o el valor 10 pero al volver llamará test.
+
+66
+00:05:49,840 --> 00:05:51,890
+Imprime un 5.
+
+67
+00:05:51,900 --> 00:05:52,990
+O sea no les afecta.
+
+68
+00:05:52,990 --> 00:06:01,720
+Aunque yo la vuelva a cambiar y finalmente muestro valor en el proceso principal y 10x10 por tanto.
+
+69
+00:06:01,720 --> 00:06:07,810
+Significa esto que la variable adquiere distintos valores dependiendo de donde se ejecute Pues no lo
+
+70
+00:06:07,810 --> 00:06:13,450
+que significa es que al definirla dentro de la función se ha creado una nueva variable totalmente independiente
+
+71
+00:06:13,480 --> 00:06:14,860
+pero con el mismo nombre.
+
+72
+00:06:14,920 --> 00:06:20,270
+Es decir estamos de aquí y de aquí son dos variables distintas.
+
+73
+00:06:20,470 --> 00:06:27,250
+Esta únicamente abarca la función y aquí abarca el proceso principal de todo este experimento entonces
+
+74
+00:06:27,250 --> 00:06:32,540
+aprendemos cómo variables con el mismo nombre pueden coexistir en distintas partes del código.
+
+75
+00:06:32,830 --> 00:06:37,010
+Pero mi consejo es que intentáis evitar repetir nombres siempre que sea posible.

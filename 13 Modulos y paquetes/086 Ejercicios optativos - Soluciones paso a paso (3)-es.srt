@@ -1,0 +1,583 @@
+1
+00:00:01,590 --> 00:00:07,230
+Vamos a ponernos con el último ejercicio que aquí sí que tenemos para un buen rato.
+
+2
+00:00:07,340 --> 00:00:14,430
+Crea un script llamado generador punto Pi que cumplan las siguientes necesidades debe incluir una función
+
+3
+00:00:14,430 --> 00:00:19,950
+llamada leer el número que tomará tres valores y ni fin y mensaje.
+
+4
+00:00:19,950 --> 00:00:24,890
+El objetivo es leer por pantalla un número más grande al igual que INI y menor o igual que fin.
+
+5
+00:00:25,080 --> 00:00:29,640
+Además a la hora de hacer la lectura se mostrará en el input del mensaje enviado a la función.
+
+6
+00:00:30,670 --> 00:00:35,560
+Finalmente se devolverá el valor y esta función tiene que devolver un número y tienen que repetirse
+
+7
+00:00:35,560 --> 00:00:39,940
+hasta que el usuario no lo escriba bien lo que incluye cualquier valor que no sea un número del INI
+
+8
+00:00:40,160 --> 00:00:40,860
+alfin.
+
+9
+00:00:42,920 --> 00:00:50,290
+Bien pues vamos a comenzar creando esta función porque tenemos muchas cosas que hacer aquí.
+
+10
+00:00:50,590 --> 00:00:53,920
+Crear este generador de Topy
+
+11
+00:00:58,020 --> 00:01:02,950
+y vamos a centrarnos en esta función leer esta función leer números.
+
+12
+00:01:02,980 --> 00:01:10,030
+Básicamente lo que tiene que hacer es leer un número pero nosotros le vamos a indicar a través de tres
+
+13
+00:01:10,030 --> 00:01:17,100
+parámetros un número como si fuera el límite mínimo y otro límite máximo.
+
+14
+00:01:17,400 --> 00:01:22,390
+Y luego un mensaje que es el mensaje que vamos a ver por pantalla cuando lo queramos leer cuando queramos
+
+15
+00:01:22,390 --> 00:01:35,310
+leer el número vale de leer número IMI fin y mensaje vamos a comenzar.
+
+16
+00:01:35,350 --> 00:01:38,770
+Esto se tiene que repetir hasta que realmente funcione todo.
+
+17
+00:01:38,770 --> 00:01:42,520
+No voy a ser que introduzcamos una cadena de caracteres cuando estamos leyendo el número porque entonces
+
+18
+00:01:42,520 --> 00:01:48,310
+esto no va a funcionar así que tendremos que capturar con excepciones en esos casos vamos a ir repitiendo
+
+19
+00:01:48,310 --> 00:01:54,940
+todo el proceso hasta que funcione bien así que vamos a poner un bloque Troi y vamos a empezar a intentar
+
+20
+00:01:54,940 --> 00:01:59,000
+leer este valor que vamos a transformarlo en un entero.
+
+21
+00:01:59,170 --> 00:02:05,230
+Por tanto si esto ya da error saltar al CEP de este Troi y mostraremos un mensaje por pantalla o lo
+
+22
+00:02:05,230 --> 00:02:11,710
+que sea o simplemente pasaremos de largo pero el mensaje que tenemos que mostrar que tenemos arriba
+
+23
+00:02:12,160 --> 00:02:19,780
+es el del input es decir el objetivo de esta función es poder leer un número y pasandolo un mensaje
+
+24
+00:02:21,370 --> 00:02:25,390
+que queramos pero sin necesidad de tener que repetir todo el rato esto cada vez que queremos leer un
+
+25
+00:02:25,390 --> 00:02:33,910
+número porque ya tendremos hecho estaremos reutilizando código y Acquire Basaremos el mensaje vamos
+
+26
+00:02:33,910 --> 00:02:45,220
+a capturarlo y aquí podríamos poner si ocurre una acepción o simplemente un mensaje que diga error número
+
+27
+00:02:45,260 --> 00:02:48,240
+no válido o algo así.
+
+28
+00:02:51,500 --> 00:03:01,000
+Y finalmente podríamos poner un nelsy que es cuando todo funciona y comprobar si realmente el número
+
+29
+00:03:01,000 --> 00:03:07,930
+que hemos introducido y que es un número y no ha saltado una excepción pues que cumplan las dos condiciones.
+
+30
+00:03:07,930 --> 00:03:14,110
+Si el valor es mayor al igual que el número inicial y a la vez este valores menores igual que el número
+
+31
+00:03:14,140 --> 00:03:18,900
+final si esto es correcto ya lo tenemos.
+
+32
+00:03:18,910 --> 00:03:25,030
+Ya tenemos el valor correctamente y lo único que tenemos que hacer es hacer un break para salirnos de
+
+33
+00:03:25,030 --> 00:03:30,790
+este Weil y retornar este número.
+
+34
+00:03:30,790 --> 00:03:33,700
+Este valor que hemos leído por teclado.
+
+35
+00:03:35,230 --> 00:03:42,710
+Así que ya tenemos una función que es capaz de leer un número por teclado entre dos números que nosotros
+
+36
+00:03:42,730 --> 00:03:49,530
+establecemos el inicio y el fin y mostrar un mensaje personalizado que le pasamos a la función.
+
+37
+00:03:50,990 --> 00:03:55,840
+Y a continuación nos dicen una vez la tengas creada.
+
+38
+00:03:55,910 --> 00:04:01,730
+Deberás crear una nueva función llamada generador no recibirá ningún parámetro y dentro leerá estos
+
+39
+00:04:01,730 --> 00:04:08,540
+números con la función leer número el primer número será llamado números deberá ser entre 1 y 20 ambos
+
+40
+00:04:08,540 --> 00:04:12,370
+incluidos y se mostrará el mensaje cuántos números quieres generar.
+
+41
+00:04:12,650 --> 00:04:19,970
+De 1 a 20 el segundo número será llamado modo y requiere un número entre 1 y 3 ambos incluidos el mensaje
+
+42
+00:04:19,970 --> 00:04:23,190
+que mostrará será cómo quieres redondear los números.
+
+43
+00:04:23,210 --> 00:04:24,580
+1 alborozados a la baja.
+
+44
+00:04:24,590 --> 00:04:25,000
+3.
+
+45
+00:04:25,040 --> 00:04:26,940
+Normal.
+
+46
+00:04:27,260 --> 00:04:34,420
+Vamos a crear esta función generador que no reciben ningún parámetro.
+
+47
+00:04:34,630 --> 00:04:39,790
+Vamos a leer dos números con nuestra función número.
+
+48
+00:04:39,970 --> 00:04:41,500
+El primero tiene que ir de uno a 20.
+
+49
+00:04:41,510 --> 00:04:44,140
+Por tanto vamos a pasarle 1:20 inicio fin.
+
+50
+00:04:45,760 --> 00:04:49,810
+Y el mensaje que tiene que mostrar voy a copiar directamente aquí.
+
+51
+00:04:49,990 --> 00:04:52,390
+Cuántos números quieres generar.
+
+52
+00:04:52,390 --> 00:04:54,880
+Por tanto vamos a generar unos cuantos números.
+
+53
+00:04:55,570 --> 00:04:56,790
+De esta forma.
+
+54
+00:05:01,050 --> 00:05:10,520
+El siguiente será el Modo Modo el números del 1 al 3 y mostrará el mensaje.
+
+55
+00:05:12,070 --> 00:05:13,850
+Cómo quieres redondear los números.
+
+56
+00:05:15,910 --> 00:05:16,660
+De esta forma
+
+57
+00:05:19,910 --> 00:05:26,440
+y una vez estamos ya leyendo los dos números Gracias a esta función ler número ya tenemos estos límites
+
+58
+00:05:27,690 --> 00:05:31,640
+y tenemos el mensaje que queremos utilizar.
+
+59
+00:05:31,700 --> 00:05:40,260
+Si yo ahora llamo a esta función generador de esta forma y en un escrito.
+
+60
+00:05:42,620 --> 00:05:47,240
+Lo llamo Payton generador un Topy.
+
+61
+00:05:47,900 --> 00:05:50,550
+Fijaros que me indica cuántos números quieres generar.
+
+62
+00:05:50,550 --> 00:05:57,530
+Si le pongo un 1 por ejemplo me lo vuelve a pedir si me pongo un texto me lo vuelve a pedir me dice
+
+63
+00:05:57,530 --> 00:05:58,700
+que no es válido.
+
+64
+00:06:00,550 --> 00:06:01,810
+21 tampoco.
+
+65
+00:06:01,990 --> 00:06:03,950
+Hasta que no le pongo por ejemplo 20.
+
+66
+00:06:04,240 --> 00:06:10,430
+Entonces cuando le pongo 20 ya queda guardado y entonces me salta al segundo.
+
+67
+00:06:10,430 --> 00:06:15,100
+Por qué esta función se está repitiendo hasta que realmente introduzcamos ese número que está entre
+
+68
+00:06:15,100 --> 00:06:16,710
+los dos límites.
+
+69
+00:06:16,950 --> 00:06:18,220
+Realmente es útil.
+
+70
+00:06:18,520 --> 00:06:24,850
+Entonces ya tenemos los números que es general y aquí pondríamos la opción que queremos redondear por
+
+71
+00:06:24,850 --> 00:06:32,080
+ejemplo glados claro que tendremos que hacer pues seguramente vamos a verlo una vez separa los números
+
+72
+00:06:32,080 --> 00:06:34,000
+a generar y cómo redondearlo.
+
+73
+00:06:34,150 --> 00:06:40,170
+Tendrás que realizar lo siguiente generarlas una lista de números aleatorios decimales entre 0 y 100.
+
+74
+00:06:40,240 --> 00:06:46,870
+Con tantos números el usuario haya indicado aquí en la primera pregunta cuántos números que le generaron
+
+75
+00:06:47,650 --> 00:06:48,950
+a cada uno de esos.
+
+76
+00:06:50,240 --> 00:06:51,060
+Números.
+
+77
+00:06:52,260 --> 00:06:59,230
+Que no son 100 números son esos números simplemente cienes son los valores que pueden llegar a tener
+
+78
+00:06:59,290 --> 00:07:00,660
+entre 0 y 100.
+
+79
+00:07:00,670 --> 00:07:05,170
+Cada uno de esos números deberá redondearlo en función de lo que el usuario ha especificado en el modo
+
+80
+00:07:06,130 --> 00:07:09,720
+para cada número muestra durante el redondeo el número normal y después.
+
+81
+00:07:11,170 --> 00:07:13,220
+Del redondeo o el redondeado.
+
+82
+00:07:13,450 --> 00:07:18,010
+Finalmente devolverá a la lista de números redondeados el objetivo de este ejercicio es practicar la
+
+83
+00:07:18,010 --> 00:07:20,860
+reutilización de código y los módulos random y más.
+
+84
+00:07:20,920 --> 00:07:27,950
+Recuerda que el redondeo tradicional ROM no requiere ningún módulo de acuerdo con lo que vamos a hacerlo.
+
+85
+00:07:29,300 --> 00:07:31,530
+Vamos a seguir con nuestro generador.
+
+86
+00:07:33,170 --> 00:07:37,380
+Y vamos a comenzar creando una lista.
+
+87
+00:07:37,380 --> 00:07:41,830
+Ahora vamos a tener que añadir un número aleatorio a esta lista.
+
+88
+00:07:41,830 --> 00:07:49,980
+Entre el 0 y el 100 pero que tiene que ser decimal no se piden así que vamos a hacer esto este bucle
+
+89
+00:07:49,980 --> 00:08:01,210
+y repetirlo en grandes números pues las veces de números que hemos leído vamos a generar un número con
+
+90
+00:08:01,230 --> 00:08:02,940
+Random y Uniform.
+
+91
+00:08:03,060 --> 00:08:12,620
+Pero vamos a tener que importar el módulo random importo random y también vamos a importar módulos más
+
+92
+00:08:12,850 --> 00:08:15,980
+que para redondear al alza o a la baja también lo vamos a necesitar.
+
+93
+00:08:17,730 --> 00:08:27,790
+Por tanto vamos a generar un número decimal aleatorio entre Uniform cero y 101 tiene que ser 101.
+
+94
+00:08:27,790 --> 00:08:28,540
+Por qué.
+
+95
+00:08:29,590 --> 00:08:34,320
+Si no no llegaría a 100 y el 100 también está incluido.
+
+96
+00:08:34,360 --> 00:08:39,760
+Recordad que se excluye el último número muy bien ya hemos generado un número aleatorio entre 0 y 100
+
+97
+00:08:39,760 --> 00:08:42,530
+y es decimal.
+
+98
+00:08:42,730 --> 00:08:48,070
+Ahora es cuando tenemos que saber el modo que el usuario ha indicado por ejemplo Gizmodo es igual a
+
+99
+00:08:48,070 --> 00:08:49,200
+uno.
+
+100
+00:08:49,370 --> 00:08:53,200
+Vale aquí tenemos es que queremos redondear al alza.
+
+101
+00:08:53,680 --> 00:08:58,120
+Nos piden que mostremos por pantalla el valor redondeado y el valor normal.
+
+102
+00:08:58,180 --> 00:09:05,290
+Por lo tanto vamos a indicar por pantalla con un print primero por ejemplo el valor normal sin redondear
+
+103
+00:09:05,290 --> 00:09:06,980
+y luego el valor redondeado.
+
+104
+00:09:07,000 --> 00:09:13,340
+De esta forma por ejemplo haríamos un forma de mostrar el número sin redondear.
+
+105
+00:09:13,580 --> 00:09:22,710
+Y ahora para redondear al alza tendremos que hacer un 6 más Soil del número.
+
+106
+00:09:22,900 --> 00:09:23,780
+De esta forma.
+
+107
+00:09:25,230 --> 00:09:33,690
+Y ahora realmente vamos a redondearlo y lo vamos a guardar en número más Sail.
+
+108
+00:09:33,980 --> 00:09:43,350
+El primero lo mostramos y luego lo guardamos porque si no no podríamos mostrarlo primero y después antes
+
+109
+00:09:43,350 --> 00:09:45,440
+y después de hacer el redondeo.
+
+110
+00:09:46,200 --> 00:09:54,360
+Ahora vamos a por el modo 2 que es el modo de redondear a la baja y esto lo vamos a hacer prácticamente
+
+111
+00:09:54,360 --> 00:09:57,020
+igual pero con flor.
+
+112
+00:09:57,100 --> 00:10:00,860
+Sólo recordar que un techo y otro era el suelo.
+
+113
+00:10:01,890 --> 00:10:03,200
+Y lo vamos a repetir aquí.
+
+114
+00:10:04,700 --> 00:10:12,450
+Y finalmente el modo por defecto que por cierto esto podríamos ponerlo en el IRPF y aquí al final podríamos
+
+115
+00:10:12,450 --> 00:10:19,970
+ponerlo con el IVA bien modo 3 Prin.
+
+116
+00:10:20,850 --> 00:10:28,280
+Y aquí mostraremos exactamente lo que tenemos antes pero utilizando el redondeo normal y redondeo normal
+
+117
+00:10:28,380 --> 00:10:32,380
+lo podíamos hacer con una función integrada que la ROM.
+
+118
+00:10:32,730 --> 00:10:40,050
+Por tanto vamos a poner ronda que también y aquí tenemos los tres modos y una vez hemos redondeado el
+
+119
+00:10:40,050 --> 00:10:46,950
+número también lo hemos mostrado como quedaba antes y después vamos a añadir a la lista con una pen.
+
+120
+00:10:48,300 --> 00:10:58,100
+Siguiendo toda la lógica para finalmente después del fork devolver la lista de acuerdo.
+
+121
+00:10:59,040 --> 00:11:06,450
+Así que en teoría tal como lo tenemos podremos introducir un número de números que queramos generar
+
+122
+00:11:08,040 --> 00:11:14,540
+un modo de cómo queremos redondear los votos guardando en una lista.
+
+123
+00:11:15,750 --> 00:11:23,060
+Vamos a hacer un bucle tantas veces como números queremos generar generaremos estos números aleatorios
+
+124
+00:11:23,060 --> 00:11:25,480
+decimales entre 0 y 100.
+
+125
+00:11:25,710 --> 00:11:31,120
+Trataremos el modo del usuario que quiere al alza a la baja o normal redondear los números.
+
+126
+00:11:31,120 --> 00:11:34,920
+Los mostraremos normales y redondeados.
+
+127
+00:11:35,220 --> 00:11:36,280
+Y finalmente.
+
+128
+00:11:37,590 --> 00:11:45,350
+Volveremos a redefinir el número para poder después agregarlo a la lista y devolveremos esta lista.
+
+129
+00:11:45,350 --> 00:11:53,320
+Voy a ejecutar este clip otra vez voy a decir lo que quiero generar por ejemplo 3 números y quiero redondear
+
+130
+00:11:53,320 --> 00:11:59,540
+los vamos a poner a la alza los números al alza se redondeaba.
+
+131
+00:11:59,560 --> 00:12:06,040
+Pues cualquier cosa que sea después del punto si hay un punto aunque sea 0 0 0 1 ya redundaba el número
+
+132
+00:12:06,040 --> 00:12:08,300
+al alza 89 puntos.
+
+133
+00:12:08,350 --> 00:12:14,310
+Lo que sea ya es 90 27 puntos loquesea ya es 28 32 puntos lo que sea ya es 33.
+
+134
+00:12:14,320 --> 00:12:21,050
+Por tanto al alza nos va bien el programa vamos a volver a hacerlo por ejemplo tres números y esta vez
+
+135
+00:12:21,070 --> 00:12:26,980
+lo vamos a redondear a la baja para redundara a la baja pues simplemente es como si cogiéramos y todo
+
+136
+00:12:26,980 --> 00:12:36,580
+lo que hay después del decimal lo borrase 17 puntos a 17 63 puntos 90 y lo que sea también es 63 28
+
+137
+00:12:36,580 --> 00:12:42,130
+puntos 04 28 y finalmente el redondeo normal.
+
+138
+00:12:42,490 --> 00:12:50,350
+Vamos a ver tres números por ejemplo redondeados normal lo que hará es redondear a partir del 0,5 base
+
+139
+00:12:50,350 --> 00:12:55,430
+a partir de la mitad que donde arriba y menos de la mitad donde habrá abajo.
+
+140
+00:12:55,900 --> 00:12:58,120
+En este caso nos ha salido un ejemplo muy interesante.
+
+141
+00:12:58,180 --> 00:13:04,930
+15.00 pues redondea hacia abajo 82 puntos 179.
+
+142
+00:13:05,800 --> 00:13:09,440
+Redondea hacia abajo porque no llega a la mitad.
+
+143
+00:13:09,520 --> 00:13:14,710
+En cambio 81 puntos 64 redondea al alza porque pasa del coma cinco.
+
+144
+00:13:15,990 --> 00:13:23,430
+Y a redondear el 82 por ciento nos queda 82 dos veces seguidas que ya es también curioso.
+
+145
+00:13:23,450 --> 00:13:31,540
+Y con esto acabamos este ejercicio y acabamos este tema de los módulos hemos practicado bastante.
+
+146
+00:13:32,580 --> 00:13:34,760
+Y vamos a dejar aquí.

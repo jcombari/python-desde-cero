@@ -1,0 +1,239 @@
+1
+00:00:00,940 --> 00:00:07,300
+En este nuevo vídeo grabado a fecha del 26 de abril de 2018 voy a compartir con vosotros una forma alternativa
+
+2
+00:00:07,300 --> 00:00:09,810
+de crear y ejecutar scripts de código Payton.
+
+3
+00:00:09,940 --> 00:00:15,370
+Hasta ahora en el curso recomendaba utilizar el editor Text pero hay muchos usuarios que tienen problemas
+
+4
+00:00:15,370 --> 00:00:20,440
+para hacerlo funcionar correctamente así que aprovecharemos al máximo la suite Anaconda y El editor
+
+5
+00:00:20,470 --> 00:00:23,220
+que trae incorporado llamado Spyder.
+
+6
+00:00:23,320 --> 00:00:30,330
+Encontraremos el Spyder en la suite anaconda así que deberíamos de ir a Inicio y escribir anaconda Navigator.
+
+7
+00:00:32,710 --> 00:00:38,380
+Como veis lo encontraremos aquí y es una de las herramientas incluidas aunque alternativamente en Windows
+
+8
+00:00:38,380 --> 00:00:43,240
+también se puede acceder a él escribiendo su nombre en Inicio y ya nos lo encontraría.
+
+9
+00:00:43,780 --> 00:00:47,840
+Entonces vamos a ponerlo en marcha y os voy a enseñar cómo crear un script de prueba.
+
+10
+00:00:48,780 --> 00:00:54,290
+Como veis este editor está completamente traducido al español en la parte izquierda tenemos un editor
+
+11
+00:00:54,590 --> 00:00:57,150
+y la parte derecha tenemos lo que sería el inspector.
+
+12
+00:00:57,150 --> 00:01:03,210
+Tenemos el explorador de archivos tenemos un explorador de variables para nuestros scripts tenemos la
+
+13
+00:01:03,210 --> 00:01:04,050
+ayuda.
+
+14
+00:01:04,050 --> 00:01:05,890
+Y abajo tenemos terminales.
+
+15
+00:01:05,910 --> 00:01:11,520
+Concretamente tenemos la terminal de Payton que es donde vamos a estar ejecutando nuestros script o
+
+16
+00:01:11,610 --> 00:01:17,400
+incluso podremos nosotros escribir directamente en ella como si fuera el código de Jupiter notebook
+
+17
+00:01:17,730 --> 00:01:19,260
+y ejecutar las celdas.
+
+18
+00:01:19,260 --> 00:01:24,140
+Esto representaría cada una de las células que tenemos celín y esto sería la salida.
+
+19
+00:01:24,270 --> 00:01:26,580
+Entonces esto es un script de python.
+
+20
+00:01:26,640 --> 00:01:32,670
+Lo sé porque tiene el nombre de temporal punto Pinos lo crea automáticamente Spyder y nosotros podríamos
+
+21
+00:01:32,670 --> 00:01:37,440
+poner aquí pues una instrucción como por ejemplo print Hola mundo.
+
+22
+00:01:37,440 --> 00:01:44,460
+De esta forma entonces nosotros podríamos ir archivo y guardar yo ya guardado con controles y podríamos
+
+23
+00:01:44,460 --> 00:01:46,380
+ejecutar este script.
+
+24
+00:01:46,390 --> 00:01:53,440
+Aquí en este botón Ejecutar archivo y la primera vez que lo ejecutemos nos pedirá dónde queremos ejecutarlo.
+
+25
+00:01:53,530 --> 00:01:59,700
+Lo vamos a dejar que se ejecute la terminal actual de Payton o y Payton como tenemos por defecto.
+
+26
+00:01:59,700 --> 00:02:01,320
+Y cómo veis al ejecutarlo.
+
+27
+00:02:01,320 --> 00:02:07,590
+Pues ha ejecutado este comando de aquí ha lanzado el script que hemos creado aquí a la izquierda y este
+
+28
+00:02:07,590 --> 00:02:09,510
+es el resultado que se nos muestra.
+
+29
+00:02:09,840 --> 00:02:15,030
+Si quisiéramos crear un nuevo script presionaremos este botón crearemos un nuevo fichero no en unos
+
+30
+00:02:15,030 --> 00:02:18,570
+campos por defecto pero podríamos borrarlos si no lo queréis.
+
+31
+00:02:18,830 --> 00:02:22,600
+Y lo bueno que tiene este editores que también permite el uso de imputs.
+
+32
+00:02:23,070 --> 00:02:32,010
+Por ejemplo podríamos nosotros capturar con un input aquí un nombre cómo te llamas y justo debajo pues
+
+33
+00:02:32,010 --> 00:02:35,230
+podríamos hacer un print saludando uno que diga Hola.
+
+34
+00:02:35,400 --> 00:02:39,310
+Le pasamos el literal cadena y también le pasamos este nombre.
+
+35
+00:02:39,360 --> 00:02:44,220
+De esta forma presionamos controles para guardar podríamos guardar este script.
+
+36
+00:02:44,220 --> 00:02:47,750
+Aquí por ejemplo en documentos con el nombre test Topy.
+
+37
+00:02:48,000 --> 00:02:54,120
+Luego ya lo veremos en profundidad pero por ahora simplemente podríamos guardarlo ahí y al ejecutarlo
+
+38
+00:02:54,180 --> 00:02:59,070
+nosotros aquí con F5 pues nos pide Cómo te llamas.
+
+39
+00:02:59,070 --> 00:03:04,100
+Y aquí nos podemos escribir por ejemplo yo les puedo decir que me llamo Héctor y entonces pues me muestra
+
+40
+00:03:04,110 --> 00:03:04,970
+la salida.
+
+41
+00:03:05,040 --> 00:03:06,020
+Hola Héctor.
+
+42
+00:03:06,770 --> 00:03:12,200
+De igual forma podremos ejecutar este script desde la terminal del sistema algo necesario cuando queramos
+
+43
+00:03:12,200 --> 00:03:14,380
+enviar argumentos a los scripts.
+
+44
+00:03:14,390 --> 00:03:19,290
+Esto como digo ya lo veremos más adelante pero nos enseñó cómo se tiene que hacer en Windows porque
+
+45
+00:03:19,310 --> 00:03:20,490
+es un poco especial.
+
+46
+00:03:20,540 --> 00:03:28,460
+En Windows deberíamos de abrir el anaconda prompt que es un CMD especial con el entorno de Anaconda.
+
+47
+00:03:28,580 --> 00:03:34,080
+Entonces cuando lo abreus pues tenéis que navegar al directorio donde tengáis los clips.
+
+48
+00:03:34,100 --> 00:03:42,140
+En mi caso navegará a CD documentos y en el post yo podría ejecutar con Python este test.
+
+49
+00:03:42,140 --> 00:03:44,910
+De esta forma entonces ya me dice Cómo te llamas.
+
+50
+00:03:45,290 --> 00:03:50,780
+Yo le diría que me llamo Héctor y es lo mismo que tenemos aquí pero con la variante de que si nosotros
+
+51
+00:03:50,780 --> 00:03:55,160
+queremos enviar argumentos a este script pues tendríamos que pasarlos por ejemplo.
+
+52
+00:03:55,490 --> 00:04:00,490
+De esta manera con un espacio le pasaríamos una cadena entre comillas dobles.
+
+53
+00:04:00,560 --> 00:04:05,900
+O también podríamos enviarle números siempre separando por espacios.
+
+54
+00:04:06,120 --> 00:04:12,470
+Entonces en este caso el script no está haciendo nada pero de esta manera desde lo que es el anaconda
+
+55
+00:04:13,130 --> 00:04:18,440
+o la terminal de vuestro sistema si estáis en Linux o MacOS teóricamente funcionará directo.
+
+56
+00:04:18,500 --> 00:04:25,220
+El único caso especial es Windows pues ya podréis enviar argumentos como digo esto lo explico principalmente
+
+57
+00:04:25,220 --> 00:04:30,400
+para los usuarios que ya habéis tomado el nuevo vídeo de instalación de Anaconda con la última versión.
+
+58
+00:04:30,440 --> 00:04:35,930
+Ya no habéis tenido que instalar Text y en Windows pues tenéis que abrir el anaconda prom que es esta
+
+59
+00:04:35,930 --> 00:04:41,500
+terminal especial que ya funciona dentro de Anaconda con Payton y los usuarios de los otros sistemas.
+
+60
+00:04:41,500 --> 00:04:44,370
+Pues simplemente abrís la terminal y lo ejecuta y es normal.

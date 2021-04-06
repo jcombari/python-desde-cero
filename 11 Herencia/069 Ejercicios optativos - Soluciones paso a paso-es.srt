@@ -1,0 +1,907 @@
+1
+00:00:01,320 --> 00:00:06,640
+Bien pues vamos a por los ejercicios de esta Unidad 9 de herencia en la programación orientada a objetos
+
+2
+00:00:07,310 --> 00:00:09,530
+y os tengo preparados.
+
+3
+00:00:09,520 --> 00:00:12,450
+Es básicamente el mismo concepto que en el tema anterior.
+
+4
+00:00:12,460 --> 00:00:18,550
+Los ejercicios es un solo ejercicio pero bastante desarrollado en el que tendremos que realizar bastantes
+
+5
+00:00:18,550 --> 00:00:23,820
+cosas así que vamos a comenzar con la explicación.
+
+6
+00:00:24,130 --> 00:00:28,810
+En este ejercicio vas a trabajar el concepto de herencia un poco más en profundidad aprovechando para
+
+7
+00:00:28,810 --> 00:00:33,040
+introducir un nuevo concepto muy importante que te facilitará mucho la vida.
+
+8
+00:00:33,040 --> 00:00:37,900
+Hasta ahora sabemos que una clase heredada podía fácilmente extender algunas funcionalidades simplemente
+
+9
+00:00:37,900 --> 00:00:44,110
+añadiendo nuevos métodos y atributos describiendo los ya existentes como el siguiente ejemplo supongamos
+
+10
+00:00:44,110 --> 00:00:52,060
+que tenemos una clase o una superclase clase mejor dicho vehículo que tiene los atributos color y ruedas.
+
+11
+00:00:52,060 --> 00:00:57,930
+Y luego tenemos una clase que hereda que es coche que heredará este color y las ruedas y a su vez implementará
+
+12
+00:00:58,030 --> 00:01:03,070
+unos atributos de velocidad y cilindrada de acuerdo.
+
+13
+00:01:03,070 --> 00:01:08,590
+La implementación vendría a ser más o menos total y como hasta ahora lo ha ido explicando tenemos el
+
+14
+00:01:08,590 --> 00:01:10,700
+vehículo constructor.
+
+15
+00:01:10,720 --> 00:01:13,240
+Pasamos aquí el color las ruedas.
+
+16
+00:01:13,270 --> 00:01:19,650
+Tenemos el método strings y mostraremos por pantalla el color y las ruedas de este coche donde este
+
+17
+00:01:19,660 --> 00:01:24,470
+vehículo nuevo teníamos coche Kim aumentaría.
+
+18
+00:01:24,490 --> 00:01:32,880
+O sea volvería a ejecutar lo mismo de antes pero además tendríamos la velocidad y la cilindrada.
+
+19
+00:01:33,670 --> 00:01:39,760
+Y tendríamos que volver a implementar de nuevo también el método string con los nuevos campos tal y
+
+20
+00:01:39,760 --> 00:01:46,690
+como veis aquí crearemos un coche ya que tendríamos coche azul 4 kilómetros hora bla bla.
+
+21
+00:01:47,770 --> 00:01:50,310
+200 de cilindrada.
+
+22
+00:01:50,900 --> 00:01:54,790
+Entonces el inconveniente más evidente de ir sobre escribiendo es que tenemos que volver a escribir
+
+23
+00:01:54,790 --> 00:01:58,560
+el código de la superclase y luego el específico de la clase.
+
+24
+00:01:59,860 --> 00:02:02,460
+Tengo que poner aquí subclase.
+
+25
+00:02:03,130 --> 00:02:11,320
+Esto es evidente dado que como hemos visto tendríamos que volver a definir lo de vehículo pero modificándolo
+
+26
+00:02:12,140 --> 00:02:18,550
+describiéndolo por lo del coche y eso incluye otra vez tener que asignar el color las ruedas volver
+
+27
+00:02:18,550 --> 00:02:27,620
+a mostrar las propiedades del vehículo y todo rato e ir añadiendo para evitar lo de escribir código
+
+28
+00:02:27,630 --> 00:02:32,890
+innecesario podemos utilizar un truco que consiste en llamar al método de la superclase y luego simplemente
+
+29
+00:02:32,890 --> 00:02:34,650
+escribir el código de la clase.
+
+30
+00:02:34,920 --> 00:02:41,140
+Y aquí es lo que os comentaba al principio de que este truco o este concepto se va a facilitar mucho
+
+31
+00:02:41,140 --> 00:02:41,680
+la vida.
+
+32
+00:02:41,680 --> 00:02:43,560
+Ahora vais a ver el por qué.
+
+33
+00:02:45,350 --> 00:02:53,630
+Si lo hacemos de esta forma tendríamos el vehículo y luego implementaremos el coche en el vehículo pero
+
+34
+00:02:53,690 --> 00:03:00,920
+en lugar de tener que escribir de nuevo Self color ruedas vamos a llamar con esta sintaxis llamando
+
+35
+00:03:00,920 --> 00:03:01,900
+de vehículo.
+
+36
+00:03:02,630 --> 00:03:10,790
+La clase de la que estamos heredando el método y de esta forma pasándoles Self color y ruedas así de
+
+37
+00:03:10,790 --> 00:03:17,620
+esta forma vamos a ejecutar esta función este constructor dinámicamente y le estaremos pasando al color
+
+38
+00:03:17,620 --> 00:03:22,930
+y las ruedas y se asignarán automáticamente el color de las ruedas y no tendremos que escribir aquí.
+
+39
+00:03:22,920 --> 00:03:26,360
+Color ruedas etcétera es mucho más fácil.
+
+40
+00:03:26,390 --> 00:03:32,120
+únicamente tendremos que escribir los que son específicos de la subclase que son la velocidad y la cilindrada.
+
+41
+00:03:32,540 --> 00:03:39,890
+Y lo mismo va para el medio doktrin si nos lo montamos de tal forma que podamos reutilizar la cadena
+
+42
+00:03:39,950 --> 00:03:43,130
+base que estamos utilizando de vehículo por ejemplo.
+
+43
+00:03:43,130 --> 00:03:49,910
+De esta forma podemos llamar de vehículo el método Strings pasándoles y luego simplemente encadenando
+
+44
+00:03:50,040 --> 00:03:55,310
+pues las nuevas propiedades que son los kilómetros por hora la velocidad y la cilindrada de esta forma
+
+45
+00:03:56,210 --> 00:04:00,050
+nos ahorraríamos bastantes código fijaros.
+
+46
+00:04:00,920 --> 00:04:02,330
+Nos ahorraríamos pues.
+
+47
+00:04:05,430 --> 00:04:08,470
+Tener que pasar de los parámetros extras.
+
+48
+00:04:09,660 --> 00:04:16,120
+Aquí a lo mejor no tiene mucho sentido porque al final el código tampoco es que nos ahorremos tanto
+
+49
+00:04:16,910 --> 00:04:21,380
+pero imaginaros en una cadena muy elaborada muy larga.
+
+50
+00:04:21,380 --> 00:04:27,100
+Donde sí que nos podría servir si vamos a anidando contenido al final.
+
+51
+00:04:27,710 --> 00:04:32,960
+La cuestión es que determinar constantemente la superclase puede ser fastidioso y por eso Payton nos
+
+52
+00:04:32,960 --> 00:04:36,500
+permite utilizar un acceso directo mucho más cómodo llamado Super.
+
+53
+00:04:36,500 --> 00:04:39,310
+De esta forma es como si llamáramos a un método.
+
+54
+00:04:41,240 --> 00:04:45,140
+Hacerlo de esta forma además nos permite llamar cómodamente los métodos o atributos de la superclase
+
+55
+00:04:45,140 --> 00:04:47,050
+sin necesidad de especificar el self.
+
+56
+00:04:47,300 --> 00:04:53,310
+Es decir podemos hacer lo mismo que hemos hecho aquí ahorrándonos el Shelf a la hora de llamar por ejemplo
+
+57
+00:04:53,340 --> 00:04:56,460
+Molinet y string que tenemos que pasárselos.
+
+58
+00:04:57,220 --> 00:05:04,400
+Y sin tener que darle el nombre de la clase heredada simplemente de la siguiente forma el lugar de la
+
+59
+00:05:04,400 --> 00:05:12,890
+clase heredada lo pasamos súper súper le pasamos el INIT nos podemos ahorrar el simplemente le pasamos
+
+60
+00:05:12,890 --> 00:05:15,710
+color y ruedas y lo mismo abajo del súper.
+
+61
+00:05:16,470 --> 00:05:21,710
+Haciendo referencia al vehículo la superclase clase llamamos string y ya está.
+
+62
+00:05:23,500 --> 00:05:25,390
+No hace falta que le pasemos el selfie.
+
+63
+00:05:26,650 --> 00:05:28,720
+Y como veis es exactamente lo mismo.
+
+64
+00:05:28,990 --> 00:05:32,570
+No no cambia nada pero lo hacemos más corto.
+
+65
+00:05:32,980 --> 00:05:38,560
+Entonces aquí viene el ejercicio todo esto era la introducción utilizando esta nueva técnica de la clase
+
+66
+00:05:38,560 --> 00:05:40,990
+de vehículo y realiza la siguiente implementación.
+
+67
+00:05:41,230 --> 00:05:47,530
+Partimos de un vehículo con ruedas el coche que ya lo tenemos y uno se tiene que crear una camioneta
+
+68
+00:05:47,530 --> 00:05:50,940
+que le de coche y tendrá una carga en kilos.
+
+69
+00:05:51,010 --> 00:05:57,760
+También tendremos una bicicleta que hará de vehículo que será tipo puede ser urbano o deportiva o lo
+
+70
+00:05:57,760 --> 00:05:59,380
+que queráis.
+
+71
+00:05:59,890 --> 00:06:05,770
+Y una motocicleta que heredara de bicicleta que también tendrá velocidad y cilindrada como en el coche
+
+72
+00:06:05,800 --> 00:06:06,580
+o la camioneta.
+
+73
+00:06:06,610 --> 00:06:13,590
+Tenemos que crear esta jerarquía y luego experimentar creando al menos un objeto de cada subclase añadiendo
+
+74
+00:06:13,710 --> 00:06:16,120
+a una lista llamada vehículos.
+
+75
+00:06:16,120 --> 00:06:20,530
+Tendremos que realizar una función llamada a catalogar que reciba la lista de vehículos y los récord
+
+76
+00:06:20,950 --> 00:06:25,360
+y los recorra mostrando el nombre de su clase y de sus atributos.
+
+77
+00:06:25,600 --> 00:06:31,430
+Tendremos que modificar esta función catalogar para que reciba un argumento optativo ruedas haciendo
+
+78
+00:06:31,450 --> 00:06:36,210
+que muestre únicamente los que su número de ruedas concuerden con el valor del argumento.
+
+79
+00:06:36,220 --> 00:06:42,430
+Si le decimos catalogar 2 tendrá que salir solo los vehículos que tienen dos ruedas o catalogar 4 los
+
+80
+00:06:42,430 --> 00:06:43,860
+que tienen cuatro ruedas.
+
+81
+00:06:45,140 --> 00:06:50,470
+También debe mostrar un mensaje que han encontrado el número de vehículos con tantas ruedas únicamente
+
+82
+00:06:50,470 --> 00:06:57,800
+si se envía al argumento ruedas y por la prueba con 0 2 y 4 ruedas como valor recordatorio puedes utilizar
+
+83
+00:06:57,800 --> 00:07:01,970
+el atributo especial de clase henaine de la siguiente forma para recuperar el nombre de la clase de
+
+84
+00:07:01,970 --> 00:07:02,800
+un objeto.
+
+85
+00:07:03,050 --> 00:07:08,210
+Esto lo utilizaremos cuando estemos iterando todos los objetos o mejor dicho todas las distancias de
+
+86
+00:07:08,210 --> 00:07:09,370
+objetos de la lista.
+
+87
+00:07:10,660 --> 00:07:12,840
+Así que vamos a ponernos manos a la obra.
+
+88
+00:07:13,030 --> 00:07:14,700
+Ya os lo doy bastante preparado.
+
+89
+00:07:14,710 --> 00:07:19,780
+Como podéis ver tenemos la clase de vehículo y la clase de coche y tendríamos que acabar de implementar
+
+90
+00:07:20,140 --> 00:07:26,920
+la camioneta la bicicleta la motocicleta y las dos funciones catalogar la primera variante y luego la
+
+91
+00:07:26,920 --> 00:07:30,890
+volveríamos a crear con la segunda variante mostrando las ruedas.
+
+92
+00:07:30,940 --> 00:07:36,170
+Podremos hacerlo la misma pero lo voy a hacer por separado para que lo tengáis las dos a la vista.
+
+93
+00:07:37,760 --> 00:07:40,670
+Así que vamos a por ello vamos a comenzar con la camioneta.
+
+94
+00:07:40,880 --> 00:07:46,480
+Realmente creo que podemos hacer mucho copiar y pegar así que vamos a hacerlo.
+
+95
+00:07:47,000 --> 00:07:55,670
+Una camioneta heredada de coche y lo único que tiene de más es un bar y una variable un parámetro llamado
+
+96
+00:07:55,670 --> 00:07:58,890
+carga que serán los kilos que puede llevar la camioneta.
+
+97
+00:07:58,910 --> 00:08:07,760
+Por tanto vamos a copiar exactamente todo lo que vemos de vehículo así íbamos a agregar un nuevo parámetro
+
+98
+00:08:07,760 --> 00:08:17,830
+llamado carga voy a llorar esto aquí haríamos el súper y nuestro súper estaría llamando al del coche.
+
+99
+00:08:18,980 --> 00:08:26,750
+Por tanto su constructora necesitará los parámetros que necesita el coche color ruedas velocidad y cilindrada.
+
+100
+00:08:26,750 --> 00:08:28,260
+Por lo tanto estos cuatro.
+
+101
+00:08:30,460 --> 00:08:37,360
+Muy bien y aquí lo único que teníamos que hacer además es crear una nueva nuevo atributo llamado carga
+
+102
+00:08:37,660 --> 00:08:48,010
+y la carga respecto a la función string que vamos a sobreescribir como ya tendríamos lo mismo que coche
+
+103
+00:08:48,400 --> 00:08:57,400
+podríamos asignar al final agregando fácilmente un nuevo parámetro que diga por ejemplo kilos de carga
+
+104
+00:08:58,760 --> 00:09:02,620
+y le pasaríamos la carga.
+
+105
+00:09:02,620 --> 00:09:08,230
+De esta forma como veis bastante bastante sencillo.
+
+106
+00:09:10,530 --> 00:09:17,760
+Vamos a por la bicicleta porque todavía es más fácil vamos a copiar lo que tenemos aquí y la bicicleta.
+
+107
+00:09:19,270 --> 00:09:25,390
+Siguiendo lo que teníamos aquí tiene lo mismo que vehículo y un tipo así que.
+
+108
+00:09:26,320 --> 00:09:27,140
+Vehículo.
+
+109
+00:09:27,190 --> 00:09:33,570
+Lo único que tenía color y ruedas por tanto en el Ignite sólo le vamos a pasar con las ruedas y el tipo.
+
+110
+00:09:34,170 --> 00:09:42,900
+Y en el súper init color y ruedas vamos a tener que hacer por cierto Quemero descuidado bicicleta heredades
+
+111
+00:09:42,910 --> 00:09:45,780
+vehículo y camioneta de coche.
+
+112
+00:09:45,790 --> 00:09:47,370
+Esto me lo había descuidado.
+
+113
+00:09:49,420 --> 00:09:57,190
+Lo único que tendremos que hacer extra es indicar el tipo de esta forma y para la cadena String vamos
+
+114
+00:09:57,190 --> 00:10:01,180
+a escribirla mostrando aquí simplemente el tipo.
+
+115
+00:10:01,240 --> 00:10:07,870
+De esta forma nos vamos a complicar más la vida en la motocicleta heredara de bicicleta vamos a ponerla
+
+116
+00:10:09,060 --> 00:10:16,290
+ya desde ahora y será muy parecida pero lo vamos a tener que pasar tan bien.
+
+117
+00:10:17,220 --> 00:10:22,230
+La velocidad y una cilindrada.
+
+118
+00:10:22,230 --> 00:10:28,870
+El súper llamará bicicleta y lo único que le tenemos que pasar la bicicleta color ruedas y tipo por
+
+119
+00:10:28,870 --> 00:10:33,640
+lo tanto le pasamos estos tres y asignamos la velocidad.
+
+120
+00:10:36,040 --> 00:10:38,920
+Y la cilindrada.
+
+121
+00:10:40,070 --> 00:10:48,710
+De esta forma hoy lo tengo y a la hora de mostrarlo lo mismo sólo tenemos que mostrar extra los kilómetros
+
+122
+00:10:48,710 --> 00:10:52,900
+por hora y la cilindrada que es lo mismo que el vehículo por tanto.
+
+123
+00:10:53,930 --> 00:10:56,400
+En qué vehículo el coche y por tanto lo voy a copiar.
+
+124
+00:10:56,420 --> 00:10:57,940
+Exacto.
+
+125
+00:10:58,370 --> 00:11:04,670
+De esta forma y ya lo debería de tener porque esto se encarga de llamar a la bicicleta mostrarlo de
+
+126
+00:11:04,670 --> 00:11:06,220
+la bici y aparte.
+
+127
+00:11:07,800 --> 00:11:11,750
+Lo específico de la motocicleta los kilómetros por hora y la cilindrada que está aquí.
+
+128
+00:11:13,890 --> 00:11:15,420
+Ya tenemos la jerarquía.
+
+129
+00:11:15,480 --> 00:11:20,130
+Como veis hemos hecho copiar y pegar y en un momento la tenemos lista.
+
+130
+00:11:20,130 --> 00:11:22,910
+Ahora viene las funciones de catalogar.
+
+131
+00:11:25,600 --> 00:11:31,930
+La primera función de catalogar la primera variante tiene que recibir una lista de vehículos y los recorrerá
+
+132
+00:11:31,930 --> 00:11:35,010
+mostrando el nombre de su clase y sus atributos.
+
+133
+00:11:35,340 --> 00:11:40,450
+Recordad que es una lista que tenemos que crear con al menos un objeto de cada subclase y se tiene que
+
+134
+00:11:40,450 --> 00:11:41,350
+llamar vehículos.
+
+135
+00:11:41,440 --> 00:11:50,780
+Así que vamos a crearla Por ejemplo aquí y vamos a crear un objeto de cada clase.
+
+136
+00:11:51,800 --> 00:12:00,530
+De esta forma un coche por ejemplo vamos a decir que es un coche azul con cuatro ruedas.
+
+137
+00:12:00,530 --> 00:12:06,800
+Evidentemente este parámetro quizás tarea además porque es obvio que un coche tiene cuatro ruedas y
+
+138
+00:12:06,800 --> 00:12:11,840
+una camioneta también pero bueno lo vamos a dejar porque así también podemos trabajar un poco el concepto
+
+139
+00:12:11,990 --> 00:12:13,210
+y practicarlo.
+
+140
+00:12:13,490 --> 00:12:20,720
+Vamos a poner que su velocidad máxima 250 kilómetros por hora y tiene una cilindrada de 1200 centímetros
+
+141
+00:12:20,720 --> 00:12:23,450
+cúbicos.
+
+142
+00:12:23,450 --> 00:12:31,300
+Vamos a crear una camioneta de color blanco con cuatro ruedas.
+
+143
+00:12:32,390 --> 00:12:41,540
+Velocidad máxima de 100 kilómetros por hora 1300 de cilindrada y 1500 kilos de carga por poner algo.
+
+144
+00:12:41,630 --> 00:12:50,560
+Vamos a crear otro vehículo llamado bicicleta de color verde con dos ruedas.
+
+145
+00:12:51,450 --> 00:12:57,320
+Iba a ser de tipo urbana urbano como queráis llamarlo.
+
+146
+00:12:57,320 --> 00:13:03,580
+Y finalmente una motocicleta que va a ser de color negro.
+
+147
+00:13:05,930 --> 00:13:08,400
+Dos ruedas deportiva
+
+148
+00:13:11,300 --> 00:13:17,600
+180 kilómetros por hora de máxima y 900 centímetros cúbicos por ejemplo.
+
+149
+00:13:17,600 --> 00:13:18,440
+Me lo estoy inventando.
+
+150
+00:13:18,440 --> 00:13:19,890
+Seguramente sería mucho más.
+
+151
+00:13:22,900 --> 00:13:30,340
+La cuestión es que esta función catalogar recibiera una lista con todos estos vehículos y tenemos que
+
+152
+00:13:30,340 --> 00:13:39,670
+recorrerlos mostrando el nombre de su clase y sus atributos o simplemente vamos a hacer un Ford Ford
+
+153
+00:13:39,670 --> 00:13:50,960
+vehículo y en lista haremos un Prin y le vamos a pasar pues el nombre.
+
+154
+00:13:53,170 --> 00:14:05,210
+Y los atributos que básicamente lo haremos de esta forma con un tipo del vehículo.
+
+155
+00:14:05,290 --> 00:14:10,990
+Iremos a buscar con el código que nos indicaba arriba el nombre de la clase el naive.
+
+156
+00:14:12,200 --> 00:14:13,900
+Qué es un atributo especial.
+
+157
+00:14:13,910 --> 00:14:23,330
+Por eso viene con dos barras bajas como sabeís y también le pasaremos el propio vehículo al mostrarlo
+
+158
+00:14:23,330 --> 00:14:27,320
+como una cadena nos mostrará este resumen que tenemos.
+
+159
+00:14:28,700 --> 00:14:40,920
+En el retorno del string sí que vamos a probar este catalogar pasándole los vehículos.
+
+160
+00:14:42,180 --> 00:14:46,920
+A ver me da un pequeño error bicicleta vi Pickles.
+
+161
+00:14:47,010 --> 00:14:54,240
+Vale me equivocado puesto vi Cleta al heredar la motocicleta y era bicicleta bicicleta.
+
+162
+00:14:54,500 --> 00:14:56,140
+Vamos a probar otra vez.
+
+163
+00:14:57,150 --> 00:14:59,670
+Y aquí tenemos como queramos una lista.
+
+164
+00:14:59,670 --> 00:15:02,410
+Pasamos la lista con los vehículos a catalogar.
+
+165
+00:15:03,420 --> 00:15:10,220
+Catalogarla tenemos coche color azul 4 ruedas 150 kilómetros por hora 1200 camioneta a color blanco
+
+166
+00:15:10,230 --> 00:15:18,780
+4 ruedas los blabla 1500 kilos de carga bicicleta color verde dos ruedas urbana motocicleta color negro
+
+167
+00:15:18,840 --> 00:15:22,830
+dos ruedas deportiva 180 kilómetros por hora etcétera.
+
+168
+00:15:23,360 --> 00:15:29,970
+Bueno parece que lo tenemos bien para lo que nos acaban de pedir es que modifiquemos esta función catalogarla
+
+169
+00:15:30,300 --> 00:15:37,830
+para que reciba este argumento de ruedas y creemos pues un filtro para mostrar únicamente los vehículos
+
+170
+00:15:37,860 --> 00:15:40,690
+con el número de ruedas que le pasamos como atributo.
+
+171
+00:15:42,570 --> 00:15:50,430
+Así que vamos a desarrollar esta función catalogar para añadir este filtro vamos a copiar la que ya
+
+172
+00:15:50,430 --> 00:15:53,930
+tenemos y dejar la antigua comentada arriba.
+
+173
+00:15:57,250 --> 00:16:06,430
+Le voy a poner de esta forma de acuerdo y vamos a modificar esta copia para hacer lo que nos pide de
+
+174
+00:16:06,430 --> 00:16:09,240
+filtrar las ruedas.
+
+175
+00:16:09,250 --> 00:16:16,060
+Así que vamos a recibir este parámetro ruedas por defecto vamos a indicarle None.
+
+176
+00:16:16,600 --> 00:16:24,930
+Entonces vamos a recorrer todos los vehículos y vamos a actuar de dos formas distintas.
+
+177
+00:16:25,390 --> 00:16:30,310
+Primero vamos a comprobar si las ruedas se igualan.
+
+178
+00:16:31,030 --> 00:16:37,360
+Si ruedas es igual o no significa que no hemos pasado este filtro y podemos mostrar todos los vehículos
+
+179
+00:16:37,360 --> 00:16:37,990
+de la lista.
+
+180
+00:16:37,990 --> 00:16:41,790
+Por tanto lo vamos a mostrar tal cual.
+
+181
+00:16:42,730 --> 00:16:46,300
+En caso contrario significa que hemos establecido un filtro.
+
+182
+00:16:46,300 --> 00:16:52,900
+Y entonces vamos a tener que comprobar si el número de ruedas del vehículo es igual al número de ruedas
+
+183
+00:16:52,900 --> 00:16:55,220
+que hemos pasado como argumento.
+
+184
+00:16:55,830 --> 00:17:00,980
+Y en ese caso ya podríamos mostrar lo que vamos a mostrar así.
+
+185
+00:17:01,480 --> 00:17:09,690
+El vehículo entonces tal como lo tenemos esto ya debería funcionar si lo ejecutamos.
+
+186
+00:17:10,060 --> 00:17:17,680
+Por ejemplo ahora pasamos a en catalogar otro parámetro que sea el número de ruedas y pongo un cuadro
+
+187
+00:17:18,720 --> 00:17:19,360
+y lo ejecutó.
+
+188
+00:17:19,360 --> 00:17:25,310
+Como veis ya me encuentra solo los vehículos con 4 ruedas el coche color azul y la camioneta.
+
+189
+00:17:25,540 --> 00:17:29,640
+Si pongo 2 en bicicleta y motocicleta.
+
+190
+00:17:29,640 --> 00:17:36,670
+En realidad ya lo tenemos pero si quisiéramos mostrar una lista previamente que dijera un recuento que
+
+191
+00:17:36,670 --> 00:17:43,270
+dijera se han encontrado tantos vehículos con tanta rueda que en definitiva es lo que tenemos aquí arriba
+
+192
+00:17:43,440 --> 00:17:45,530
+que se pide que demostrar un mensaje.
+
+193
+00:17:45,620 --> 00:17:48,700
+Se han encontrado tantos vehículos con tantas ruedas.
+
+194
+00:17:49,600 --> 00:17:51,630
+Pues tenemos dos formas de hacerlo.
+
+195
+00:17:51,760 --> 00:17:54,670
+Si queremos mostrar este mensaje después de escribir esto.
+
+196
+00:17:55,860 --> 00:18:01,100
+Pues tendríamos que haber creado un contador y ponerlo por ejemplo aquí e incrementarlo.
+
+197
+00:18:01,160 --> 00:18:08,360
+Este supuesto contador cada vez que se encuentra uno de estas está formado por ejemplo cada vez que
+
+198
+00:18:08,360 --> 00:18:13,610
+encontramos uno de estos vehículos que concuerda en el número de ruedas pero si quisiéramos mostrar
+
+199
+00:18:13,610 --> 00:18:19,340
+el texto antes de mostrar esto de aquí entonces tendríamos que volver a recorrer haciendo una primera
+
+200
+00:18:19,340 --> 00:18:22,300
+pasada contando los vehículos.
+
+201
+00:18:24,370 --> 00:18:26,070
+Y eso lo tendríamos que hacer de esta forma.
+
+202
+00:18:26,070 --> 00:18:29,780
+A mí me gusta más mostrarlo al principio y luego enseñar los vehículos.
+
+203
+00:18:29,970 --> 00:18:35,730
+Así que os lo voy a enseñar a hacer de esta forma vamos a comprobar si la condición es que ruedas es
+
+204
+00:18:35,730 --> 00:18:42,800
+diferente que no vamos a crear un contador que es lo que os comentaba abajo lo vamos a iniciar a cero.
+
+205
+00:18:43,840 --> 00:18:52,370
+Ford vehículo y en vehículos vamos a hacer la comprobación que estamos haciendo abajo.
+
+206
+00:18:52,600 --> 00:18:59,540
+Aquí comprobando si con las ruedas en caso de que concuerden vamos a incrementar el contador.
+
+207
+00:18:59,820 --> 00:19:00,590
+De esta forma.
+
+208
+00:19:02,540 --> 00:19:07,610
+Y finalmente después de ejecutar el Ford mostraremos por pantalla el mensaje.
+
+209
+00:19:08,710 --> 00:19:09,740
+Nos piden arriba.
+
+210
+00:19:11,540 --> 00:19:13,200
+únicamente si enviamos.
+
+211
+00:19:14,250 --> 00:19:23,360
+Este argumento de ruedas no vamos a hacer el format aquí le pasaríamos Contador
+
+212
+00:19:26,150 --> 00:19:35,030
+y ruedas como se ha dicho si esto lo que hicierais hacer este mensaje lo que sea es mostrar por debajo
+
+213
+00:19:35,030 --> 00:19:39,880
+lo podrías hacer como os he dicho antes pero a mi me gusta mostrarlo primero.
+
+214
+00:19:41,630 --> 00:19:43,100
+Pues el contenido.
+
+215
+00:19:44,060 --> 00:19:51,020
+De hecho quedaría mucho mejor y más chulo si pusiéramos como una especie de separadoras si justo debajo
+
+216
+00:19:51,620 --> 00:19:57,240
+de esta forma podríamos incluso borrar los dos puntitos y pondríamos esto.
+
+217
+00:19:57,260 --> 00:19:59,020
+Se han encontrado dos vehículos con dos ruedas.
+
+218
+00:19:59,030 --> 00:20:00,860
+Y aquí la lista.
+
+219
+00:20:00,860 --> 00:20:05,260
+Si pusiéramos cuatro primeros recuento y luego.
+
+220
+00:20:06,400 --> 00:20:07,990
+El catálogo.
+
+221
+00:20:08,720 --> 00:20:10,440
+Y si pusiéramos 0.
+
+222
+00:20:11,040 --> 00:20:19,400
+Se han encontrado cero vehículos con 0 ruedas y con esto acabamos este ejercicio en el que hemos implementado
+
+223
+00:20:19,430 --> 00:20:24,800
+una jerarquía bastante interesante de vehículos coches bicicleta camionetas y motocicletas a partir
+
+224
+00:20:24,800 --> 00:20:25,650
+de un vehículo.
+
+225
+00:20:25,760 --> 00:20:33,920
+Hemos aprendido a utilizar el método Super para ahorrarnos muchísimos parámetros a la hora de sobreescribir
+
+226
+00:20:34,460 --> 00:20:38,030
+los métodos heredados.
+
+227
+00:20:38,030 --> 00:20:41,710
+Lo dejamos aquí seguimos adelante con el curso.

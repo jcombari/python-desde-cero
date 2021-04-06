@@ -1,0 +1,523 @@
+1
+00:00:01,400 --> 00:00:09,300
+Pues vamos a comenzar a repasar algunos de los métodos más utilizados de las colecciones.
+
+2
+00:00:09,410 --> 00:00:17,160
+10 Y empezaremos por las caderas de texto a quien controlamos varios métodos y vamos a comenzar por
+
+3
+00:00:17,160 --> 00:00:23,580
+los que son de manipulación de mayúsculas y minúsculas por ejemplo comenzando con una cadena llamada
+
+4
+00:00:24,630 --> 00:00:25,940
+Hola mundo.
+
+5
+00:00:26,460 --> 00:00:30,360
+Esto podría ser una variable pero lo vamos a hacer con cadenas.
+
+6
+00:00:30,510 --> 00:00:34,840
+Podemos concatenar un método directamente por ejemplo.
+
+7
+00:00:35,040 --> 00:00:42,500
+Comenzamos por el Upper operes un método que nos devuelve todos los caracteres de una cadena en mayúsculas.
+
+8
+00:00:43,110 --> 00:00:53,180
+Asimismo tenemos lo mismo pero loguear para hacer todos los caracteres en minúscula.
+
+9
+00:00:53,940 --> 00:00:59,230
+Suponiendo que tenemos una cadena de texto todo en minúscula.
+
+10
+00:00:59,420 --> 00:01:00,570
+Hola mundo.
+
+11
+00:01:00,570 --> 00:01:08,490
+Podríamos utilizar el método capitalista capitalice así para.
+
+12
+00:01:09,280 --> 00:01:11,770
+Poner la primera letra de la frase en mayúscula.
+
+13
+00:01:11,910 --> 00:01:12,910
+Vale la H.
+
+14
+00:01:14,100 --> 00:01:23,040
+La primera letra del texto la ponemos en mayúscula o suponiendo lo mismo si lo que quisiéramos es que
+
+15
+00:01:23,040 --> 00:01:29,070
+todas las palabras que forman la frase tuvieran la primera letra en mayúscula podríamos llamar al método
+
+16
+00:01:29,310 --> 00:01:30,760
+titel.
+
+17
+00:01:30,780 --> 00:01:34,320
+Como veis ahora la H y la M son mayúsculas.
+
+18
+00:01:34,680 --> 00:01:40,380
+También es posible contabilizar el número de veces que aparece una cadena o un carácter dentro de una
+
+19
+00:01:40,380 --> 00:01:41,370
+cadena.
+
+20
+00:01:41,430 --> 00:01:51,000
+Por ejemplo la cadena Hola Mundo podemos contar con con el número de veces que aparece por ejemplo la
+
+21
+00:01:51,000 --> 00:01:53,030
+letra o.
+
+22
+00:01:54,190 --> 00:01:58,000
+De esta forma nos dice que aparece dos veces o.
+
+23
+00:01:58,350 --> 00:02:07,120
+O podríamos comprobar cuántas veces aparece la Z en cuyo caso nos dice cero veces.
+
+24
+00:02:07,530 --> 00:02:13,830
+Si quisiéramos comprobar cuántas veces aparece la palabra mundo dentro de la cadena de texto Hola mundo
+
+25
+00:02:15,650 --> 00:02:22,380
+pues nos dice que aparece una vez las cadenas de texto también nos permiten buscar los índices de aparición
+
+26
+00:02:22,380 --> 00:02:26,840
+de una sub cadena es decir el lugar en el que aparecen.
+
+27
+00:02:27,030 --> 00:02:35,680
+Por ejemplo si tenemos Hola mundo podríamos buscar cuando aparece la palabra mundo dentro de esta cadena.
+
+28
+00:02:35,700 --> 00:02:44,320
+El índice de la siguiente forma escribiríamos un punto Fain y la cadena que queremos buscar mundo.
+
+29
+00:02:44,730 --> 00:02:52,700
+Como veis nos dice que empieza en el índice 5 sería 0 1 2 3 4 y 5 de acuerdo.
+
+30
+00:02:52,800 --> 00:02:55,150
+A partir de ahí empieza la palabra mundo.
+
+31
+00:02:55,200 --> 00:03:01,250
+Por otro lado si tuviéramos una frase con varias veces por ejemplo la palabra Mundo Hola Mundo mundo
+
+32
+00:03:01,260 --> 00:03:08,450
+mundo y yo quisiera encontrar la última aparición donde hace referencia la palabra mundo.
+
+33
+00:03:08,490 --> 00:03:17,070
+Dentro de esta cadena tendría que pasarle en lugar de un fin un RFI mundo.
+
+34
+00:03:17,310 --> 00:03:23,040
+Esto nos indica que el índice de la última aparición de la palabra mundo dentro de la cadena donde el
+
+35
+00:03:23,040 --> 00:03:30,440
+índice es 17 empieza la última palabra mundo vendría a ser reverse Fine una búsqueda al revés.
+
+36
+00:03:31,510 --> 00:03:38,590
+Aparte de contar y buscar las cadenas también nos permiten realizar un montón de comprobaciones.
+
+37
+00:03:38,590 --> 00:03:48,160
+Por ejemplo si voy a crear una variable la cadena que sea un número por ejemplo el número 100 de esta
+
+38
+00:03:48,160 --> 00:03:50,330
+cadena vamos a comprobar varias cosas.
+
+39
+00:03:50,350 --> 00:03:58,110
+Por ejemplo vamos a comprobar si la cadena es un número todos las letras que contiene son dígitos con
+
+40
+00:03:58,120 --> 00:04:03,400
+el método dígito si es correcto nos devolverá true.
+
+41
+00:04:03,910 --> 00:04:08,460
+Como veis nos devuelve verdadero porque todos los caracteres son números.
+
+42
+00:04:09,190 --> 00:04:17,320
+Ahora por ejemplo podríamos comprobar si en una cadena aparecen caracteres alfanuméricos es decir letras
+
+43
+00:04:17,350 --> 00:04:21,200
+del abecedario o números del 0 al 9.
+
+44
+00:04:21,550 --> 00:04:31,630
+Supongamos otra cadena cadena 2 y aquí tenemos por ejemplo a C un número y a alguna que otra letra en
+
+45
+00:04:31,630 --> 00:04:32,890
+minúscula.
+
+46
+00:04:33,370 --> 00:04:39,610
+Lo que queremos comprobar es si esta cadena 2 contiene todos los números alfanuméricos es decir ningún
+
+47
+00:04:39,610 --> 00:04:51,190
+carácter extraño pero sí números y letras y eso haremos con el método X al Loom alfanumérica como vemos
+
+48
+00:04:51,250 --> 00:04:54,420
+nos devuelve Keshi verdadero porque todos son números.
+
+49
+00:04:55,230 --> 00:04:57,270
+O caracteres del alfabeto.
+
+50
+00:04:57,270 --> 00:05:05,610
+Si en cambio pusiéramos un signo extraño por ejemplo un guion y volviéramos a comprobarlo nos diría
+
+51
+00:05:05,610 --> 00:05:12,860
+que es false porque ha encontrado algún carácter que no es alfanumérico ni una letra ni un número.
+
+52
+00:05:13,110 --> 00:05:16,010
+Vamos a dejarlo como estaba.
+
+53
+00:05:16,410 --> 00:05:23,370
+También podemos no sólo comprobar si tenemos números o letras sino si tenemos únicamente letras por
+
+54
+00:05:23,370 --> 00:05:35,120
+ejemplo C2 is alfa son caracteres alfabéticos nos dice que no porque haya alguno que son números.
+
+55
+00:05:35,130 --> 00:05:45,240
+En cambio si tuviéramos una cadena de texto Hola mundo y comprobase Mos Alpha.
+
+56
+00:05:47,930 --> 00:05:53,900
+Fijaros que curiosamente nos dice que tampoco porque el carácter espacio tampoco cuenta como un carácter
+
+57
+00:05:53,900 --> 00:05:55,120
+del alfabeto.
+
+58
+00:05:56,600 --> 00:06:04,910
+Si lo borrase entonces sí que nos diría que es todo letras del alfabeto.
+
+59
+00:06:05,990 --> 00:06:12,680
+Pero no sólo podemos comprobar eso también podemos comprobar de una cadena si todos sus caracteres son
+
+60
+00:06:12,680 --> 00:06:16,810
+por ejemplo minúsculas islas web.
+
+61
+00:06:18,230 --> 00:06:22,940
+Ahí nos dice que también podemos hacer lo contrario al mundo.
+
+62
+00:06:23,210 --> 00:06:30,950
+Si todo es mayúsculas y spurrier con los pies tampoco.
+
+63
+00:06:31,460 --> 00:06:33,320
+O también podemos comprobar de una cadena
+
+64
+00:06:36,080 --> 00:06:44,810
+si es un título que en este ejemplo nos dice que no que no es un título porque para que fuera un título
+
+65
+00:06:44,810 --> 00:06:48,330
+tendría que tener también la M en mayúsculas como hemos visto antes.
+
+66
+00:06:48,900 --> 00:06:49,770
+De acuerdo.
+
+67
+00:06:49,830 --> 00:06:51,010
+Por eso ahora devuelve true.
+
+68
+00:06:53,000 --> 00:06:58,940
+Otra cosa que podemos hacer es comprobar si una cadena está compuesta de espacios si son todos espacios
+
+69
+00:06:59,420 --> 00:07:07,130
+podemos pasarle un probador y Espais y nos dirá que porque todos son espacios pero si pusiéramos algún
+
+70
+00:07:07,130 --> 00:07:15,940
+carácter por el medio ya nos dice que no que no todos son espacios falso también podemos.
+
+71
+00:07:15,980 --> 00:07:21,760
+Y esto es muy útil comprobar si una cadena comienza con una letra o con una cadena.
+
+72
+00:07:22,590 --> 00:07:35,840
+Por ejemplo Hola Mundo starts Wiz empieza con una hache y nos dice que es verdad.
+
+73
+00:07:35,940 --> 00:07:40,380
+También podríamos comprobar si comienza con Hola directamente y también es cierto.
+
+74
+00:07:40,440 --> 00:07:48,540
+En cambio si pusiera otra cosa pues me devuelve falso y de la misma forma que tenemos el estar Wiz tenemos
+
+75
+00:07:48,540 --> 00:07:52,170
+el Huis para comprobar si acaba de una forma.
+
+76
+00:07:52,680 --> 00:07:56,220
+Hola mundo.
+
+77
+00:07:56,260 --> 00:08:06,490
+Cuicas por ejemplo con una letra correcta acaba con uno y acaba con la palabra mundo.
+
+78
+00:08:06,750 --> 00:08:10,690
+También acaba con la palabra mundo verdadero.
+
+79
+00:08:12,020 --> 00:08:18,190
+Y por último otros métodos más avanzados no sirven para separar unir y reemplazar cadenas.
+
+80
+00:08:18,920 --> 00:08:25,850
+Por ejemplo hay un método muy interesante llamado expolit que permite separar una cadena a partir de
+
+81
+00:08:25,850 --> 00:08:30,970
+los espacios por ejemplo la cadena Hola Mundo mundo.
+
+82
+00:08:31,610 --> 00:08:39,290
+Podemos utilizar Split por defecto para separarla por sus palabras utilizando como referencia los espacios
+
+83
+00:08:40,320 --> 00:08:43,080
+nos devuelve una lista con las tres palabras.
+
+84
+00:08:43,100 --> 00:08:50,690
+De hecho podríamos mostrar por ejemplo la última palabra anidando un índice con un menos uno a este
+
+85
+00:08:50,740 --> 00:08:58,570
+Split y ahí únicamente me devuelve la última palabra o podrías mostrar la primera palabra hola.
+
+86
+00:08:58,580 --> 00:09:00,820
+Con un índice cero.
+
+87
+00:09:01,550 --> 00:09:08,300
+Pero si en lugar de separar por los espacios tuviéramos un carácter que sabemos que está separando por
+
+88
+00:09:08,300 --> 00:09:16,910
+ejemplo imaginad que tenemos una coma separando varias palabras otra palabra y queremos separarlas y
+
+89
+00:09:16,910 --> 00:09:19,800
+conseguir una lista con todas esas palabras separadas.
+
+90
+00:09:19,830 --> 00:09:22,220
+Entonces lo que haremos es pasar a expolit.
+
+91
+00:09:23,730 --> 00:09:26,540
+Un carácter que sea una coma.
+
+92
+00:09:26,910 --> 00:09:31,290
+Y de esta manera le estaremos indicando que se pare a partir de la coma.
+
+93
+00:09:31,410 --> 00:09:37,590
+Todas estas palabras que forman la cadena original nos devuelve a esta lista.
+
+94
+00:09:37,590 --> 00:09:41,910
+Por otra parte aparte del split tenemos el gein que sirve para unir.
+
+95
+00:09:41,910 --> 00:09:48,270
+Si les piteros para separar el jaynes para unir lo que tenemos que hacer es a partir de una especie
+
+96
+00:09:48,270 --> 00:09:54,990
+de separador por ejemplo una coma lo que le vamos a decir es que se paren todas las carácteres de una
+
+97
+00:09:55,230 --> 00:10:03,140
+cadena poniendo aquí jeunet y la cadena que queremos separar por comas.
+
+98
+00:10:03,450 --> 00:10:06,290
+Hola mundo.
+
+99
+00:10:06,300 --> 00:10:13,700
+Como veis nos separa cada carácter con una coma y lo deja todo en una nueva cadena.
+
+100
+00:10:14,310 --> 00:10:23,280
+Si hubiéramos elegido por ejemplo un espacio pudiéramos haber hecho lo mismo pero para separar una palabra
+
+101
+00:10:23,310 --> 00:10:28,900
+por ejemplo Hola con espacios.
+
+102
+00:10:29,010 --> 00:10:36,870
+Otra función útil de estas avanzadas o método mejor dicho es el Strip Imaginaros que tenemos por alguna
+
+103
+00:10:36,870 --> 00:10:44,790
+razón una cadena de texto con varios espacios delante detrás y dentro de un texto y lo que queremos
+
+104
+00:10:44,790 --> 00:10:50,160
+es borrar todos estos espacios extra que quedan por delante y por detrás del texto.
+
+105
+00:10:50,400 --> 00:10:55,880
+Pues utilizando este método Street podemos borrar los espacios.
+
+106
+00:10:57,330 --> 00:11:02,550
+Ahora bien Imaginaros que en lugar de tener un espacio tuviéramos unos cuantos guiones.
+
+107
+00:11:03,630 --> 00:11:07,800
+Pues entonces lo que tendríamos que hacer es pasar a Strip.
+
+108
+00:11:08,220 --> 00:11:13,440
+Este carácter que está demás no entonces no lo borraría.
+
+109
+00:11:13,470 --> 00:11:20,700
+Y por último uno de los más útiles métodos de las cadenas es el replays o reemplazar que no sirve para
+
+110
+00:11:20,760 --> 00:11:25,130
+sustituir una letra o una cadena de una cadena.
+
+111
+00:11:25,880 --> 00:11:34,900
+Por ejemplo Hola mundo y queremos cambiar por ejemplo las dos porteros vamos a poner un replays.
+
+112
+00:11:35,090 --> 00:11:41,180
+Primero vamos a indicar el carácter que queremos cambiar por ejemplo o una coma y le vamos a indicar
+
+113
+00:11:41,180 --> 00:11:45,380
+que lo cambia por un carácter 0.
+
+114
+00:11:45,680 --> 00:11:52,130
+Como veis que cambia lasos por ceros también podríamos haberle dicho que cambie directamente la palabra
+
+115
+00:11:52,130 --> 00:11:52,890
+mundo.
+
+116
+00:11:54,500 --> 00:11:58,850
+Por Por ejemplo Marte podríamos poner.
+
+117
+00:11:58,990 --> 00:12:05,350
+No sé se me ha ocurrido así y a mi me la cambian o suponiendo que tuviéramos varias veces mundo por
+
+118
+00:12:05,350 --> 00:12:09,080
+ejemplo cinco veces podríamos decirle que.
+
+119
+00:12:09,960 --> 00:12:17,540
+Borre la palabra mundo sustituyéndola por un caracter vacío por algo que no es nada una string vacía
+
+120
+00:12:18,070 --> 00:12:20,690
+pero solamente tres veces.
+
+121
+00:12:20,720 --> 00:12:28,610
+O sea que este mundo este mundo y este mundo por tanto lo vamos a pasar un último argumento con un 3.
+
+122
+00:12:28,710 --> 00:12:30,740
+Como veis me ha borrado los mundos.
+
+123
+00:12:30,750 --> 00:12:35,410
+Pero claro me ha dejado los espacios porque no lo indicado que me borren los espacios.
+
+124
+00:12:35,640 --> 00:12:39,470
+Si yo quisiera que me borrase los espacios del mundo tenía que ponerlo así.
+
+125
+00:12:39,720 --> 00:12:47,610
+Y entonces como veis he borrado estos tres mundos mundo mundo con sus espacios por delante y sólo me
+
+126
+00:12:47,610 --> 00:12:49,140
+ha dejado dos.
+
+127
+00:12:49,140 --> 00:12:52,280
+Si lo hubiera puesto 4 pues ahí me queda perfectamente.
+
+128
+00:12:52,320 --> 00:12:53,880
+Hola mundo.
+
+129
+00:12:54,960 --> 00:13:01,480
+Con esto hemos hecho un repaso muy extenso por muchos de los métodos de las cadenas.
+
+130
+00:13:01,530 --> 00:13:07,230
+Hay más pero creo que estos son los más importantes y los que quizá iremos utilizando a lo largo de
+
+131
+00:13:07,380 --> 00:13:08,200
+el curso.

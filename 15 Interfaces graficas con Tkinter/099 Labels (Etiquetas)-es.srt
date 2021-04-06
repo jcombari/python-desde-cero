@@ -1,0 +1,651 @@
+1
+00:00:01,080 --> 00:00:07,440
+Muy bien pues en esta elección vamos a introducir el widget Label utilizado para mostrar texto suele
+
+2
+00:00:07,440 --> 00:00:09,150
+ser texto estático.
+
+3
+00:00:09,150 --> 00:00:11,920
+De ahí que se llame Label o etiqueta de texto.
+
+4
+00:00:12,090 --> 00:00:14,280
+Tengo un fichero hobby ya creado.
+
+5
+00:00:14,550 --> 00:00:24,230
+Básicamente Tengo una raíz y un Fram un marco de 480 por 320 lo empaquetado todo como antes.
+
+6
+00:00:24,390 --> 00:00:25,180
+Y si lo ejecutamos.
+
+7
+00:00:25,180 --> 00:00:32,550
+Pues aquí veis la estructura no para crear un label una etiqueta lo que vamos a hacer es por ejemplo
+
+8
+00:00:32,550 --> 00:00:36,680
+que dar una nueva variable y llamar a la clase Label.
+
+9
+00:00:37,770 --> 00:00:43,350
+Entonces lo que vamos a hacer es pasarle la widget donde queremos insertar esta etiqueta vamos a pasarle
+
+10
+00:00:43,350 --> 00:00:50,330
+el freno porque queremos ponerla dentro del marco y le vamos a pasar un texto texto igual por ejemplo
+
+11
+00:00:51,210 --> 00:00:52,260
+Hola mundo.
+
+12
+00:00:52,780 --> 00:00:58,400
+De acuerdo voy a guardar y a continuación vamos a empaquetarlo.
+
+13
+00:00:58,610 --> 00:01:05,640
+Vamos a hacer Glave el pack para empaquetarlo y que aparezca dentro de nuestro marco vamos a ejecutar
+
+14
+00:01:05,670 --> 00:01:09,590
+el código y fijaros lo que ha ocurrido.
+
+15
+00:01:09,750 --> 00:01:17,170
+Lo que pasa es que al parecer no respeta el tamaño de nuestro marco.
+
+16
+00:01:17,310 --> 00:01:18,390
+Pues sí amigos.
+
+17
+00:01:18,510 --> 00:01:26,220
+El problema de pack es que empaqueta y distribuye uniformemente a su manera al tamaño de los widgets
+
+18
+00:01:26,430 --> 00:01:35,060
+el contenido por cada línea un elemento un widget y el tamaño lor reinicias representa.
+
+19
+00:01:35,340 --> 00:01:43,170
+Entonces cuál es la forma correcta de emplazar un widget en un lugar donde nosotros queramos que aparezca
+
+20
+00:01:43,690 --> 00:01:44,710
+específico.
+
+21
+00:01:44,750 --> 00:01:46,190
+Bueno lo podemos hacer.
+
+22
+00:01:47,380 --> 00:01:56,760
+En lugar de pack con un pleiss para emplazar y pleiss lo que tenemos que hacer es pasarle una coordenada
+
+23
+00:01:56,760 --> 00:01:58,050
+x y una coordenada agrega.
+
+24
+00:01:58,050 --> 00:02:03,840
+Por ejemplo cuando la TX vale 100 y la y griega vale 100 también
+
+25
+00:02:06,480 --> 00:02:08,190
+vamos a ver lo que sucede.
+
+26
+00:02:08,900 --> 00:02:13,620
+Y cómo veis ahora respeta el tamaño y podemos emplazar.
+
+27
+00:02:15,470 --> 00:02:17,630
+Nuestra Label donde nosotros queremos.
+
+28
+00:02:17,660 --> 00:02:22,640
+Si quisiéramos ponerla justo a la esquina superior izquierda pues lo podríamos poner a cero.
+
+29
+00:02:22,820 --> 00:02:27,790
+Y agrega acero y ahora es justo arriba del todo como veis.
+
+30
+00:02:28,910 --> 00:02:39,650
+Está dentro del marco y no se mueve fuera y aquí tenemos nuestro texto muy bien en cambio qué sucedería
+
+31
+00:02:39,710 --> 00:02:46,210
+si no utilizáramos un marco voy a borrar todo esto introduzcamos directamente dentro de la raíz.
+
+32
+00:02:46,250 --> 00:02:52,360
+La Label vamos a cambiarlo por un root vamos a ejecutarlo.
+
+33
+00:02:52,750 --> 00:02:59,980
+Como veis pues se conserva aquel tamaño predefinido que parecía que tenía la raíz.
+
+34
+00:03:02,890 --> 00:03:08,370
+Y esta vez sí que se posiciona a la esquina superior izquierda que sería el punto cero cero siempre
+
+35
+00:03:08,430 --> 00:03:09,420
+estático.
+
+36
+00:03:11,330 --> 00:03:19,010
+Pero si pusiéramos ahora en el pleiss un tamaño muy grande por ejemplo 500 de ancho 500 de alto y lo
+
+37
+00:03:19,010 --> 00:03:20,430
+ejecutamos.
+
+38
+00:03:20,720 --> 00:03:27,890
+Pues por defecto Este es el tamaño que tiene el arráiz tendríamos que hacerlo muy grande para poder
+
+39
+00:03:27,890 --> 00:03:32,270
+ver este Hola mundo que está en el .500 500.
+
+40
+00:03:33,070 --> 00:03:41,600
+Y si en lugar de hacer un pleiss hiciéramos un pack simplemente borrando todo pues lo que tendríamos
+
+41
+00:03:41,600 --> 00:03:44,160
+es el tamaño de esta Label.
+
+42
+00:03:45,220 --> 00:03:48,870
+Hemos creado esta etiqueta y el elemento dentro.
+
+43
+00:03:49,260 --> 00:03:52,090
+Vamos a crear más y más etiquetas.
+
+44
+00:03:52,380 --> 00:04:00,300
+Pero antes os voy a enseñar un truco si lo vamos a utilizar para nada la variable Label lo que podemos
+
+45
+00:04:00,300 --> 00:04:03,050
+hacer es crear este elemento empaquetarlo.
+
+46
+00:04:03,120 --> 00:04:04,710
+En la misma declaración.
+
+47
+00:04:04,710 --> 00:04:13,230
+De esta forma fijarlos tengo ahora crear más labels más etiquetas sería muy fácil lo único que tendríamos
+
+48
+00:04:13,230 --> 00:04:21,180
+que hacer es copiar por ejemplo un par de veces al Label y cambiar el texto por ejemplo aquí poner otra
+
+49
+00:04:21,180 --> 00:04:33,570
+etiqueta y debajo podríamos poner última etiquetas como los estamos empacando automáticamente lo ejecuto
+
+50
+00:04:33,570 --> 00:04:34,910
+y qué es lo que tenemos.
+
+51
+00:04:35,190 --> 00:04:40,320
+Pues tenemos las tres etiquetas automáticamente dispuestas una encima de otra.
+
+52
+00:04:40,320 --> 00:04:44,570
+Están ocupando el línea una línea cada una cada whittier.
+
+53
+00:04:45,300 --> 00:04:47,150
+Pues eso es lo que hace Paco.
+
+54
+00:04:48,090 --> 00:04:54,090
+Podríamos cambiar su distribución haciendo aquello del xeito el anchor por ejemplo Mojana que queremos
+
+55
+00:04:54,150 --> 00:04:56,200
+anclar a la izquierda.
+
+56
+00:04:56,270 --> 00:05:01,580
+Pero la mundo podríamos hacer hussey justo en el pack y ponerle l.f.
+
+57
+00:05:01,860 --> 00:05:03,540
+O así.
+
+58
+00:05:04,140 --> 00:05:10,040
+Y otra etiqueta podremos dejarla al medio a ver si sale al medio.
+
+59
+00:05:10,630 --> 00:05:17,620
+Y la última etiqueta voy a hacer un Seite right a ejecutarlo.
+
+60
+00:05:18,180 --> 00:05:20,080
+Fijaros lo que tengo aquí.
+
+61
+00:05:21,680 --> 00:05:23,200
+Ocurre un pequeño problema.
+
+62
+00:05:23,240 --> 00:05:31,510
+Fijaros nosotros dábamos por hecho que al empacar y poner Seite izquierda este quedaría el primer elemento
+
+63
+00:05:31,520 --> 00:05:35,450
+quedaría de izquierda correcto lo hace a la izquierda y al medio perfecto.
+
+64
+00:05:35,450 --> 00:05:40,640
+El último también lo hace a la derecha pero el del medio no lo deja medio.
+
+65
+00:05:40,760 --> 00:05:45,470
+Lo deja en la parte superior porque es donde por defecto debería de aparecer.
+
+66
+00:05:45,800 --> 00:05:48,540
+Que hemos dicho que siempre aparecen arriba al centro.
+
+67
+00:05:49,750 --> 00:05:54,990
+Sin embargo no es completamente el centro es como si estuviera respetando lo que ocupa esta labelo mundo.
+
+68
+00:05:55,000 --> 00:05:57,870
+Y entonces estará el centro a partir de ahí.
+
+69
+00:05:57,940 --> 00:06:01,450
+Por eso es un no sé no ocupa exactamente el centro total.
+
+70
+00:06:01,780 --> 00:06:05,350
+Por tanto esta forma no es muy acertada.
+
+71
+00:06:05,350 --> 00:06:08,710
+Vamos a cambiar y lugar de hacer un SAI vamos a hacer un ancho.
+
+72
+00:06:09,100 --> 00:06:16,510
+Vamos a alquilar el primer mundo en el norte o éste arriba a la izquierda.
+
+73
+00:06:16,960 --> 00:06:21,810
+Vamos a anclar la segunda etiqueta al medio.
+
+74
+00:06:21,850 --> 00:06:29,330
+Vamos a ponerlo así Center y vamos a anclar la última etiqueta al sudeste.
+
+75
+00:06:30,100 --> 00:06:36,060
+Así de manera que tendríamos una especie de diagonal perdón anchor en lugar de.
+
+76
+00:06:36,700 --> 00:06:40,950
+Y ahora fijaros lo que tenemos es que están respetando.
+
+77
+00:06:41,720 --> 00:06:50,120
+Estos anclajes pero en altura no vamos a entrar mucho más en detalle simplemente para que veáis cómo
+
+78
+00:06:50,720 --> 00:06:56,270
+se posicionan un elemento debajo del otro pero con el anclaje.
+
+79
+00:06:56,510 --> 00:07:00,480
+La primera se queda a la izquierda la otra se queda en medio y la última a la derecha.
+
+80
+00:07:00,680 --> 00:07:04,390
+La verdad es que no debeis de comernos mucho el coco con este reposicionamiento.
+
+81
+00:07:04,430 --> 00:07:10,670
+Vosotros hacéis una disposición para una interfaz y luego siempre podéis desactivar el de la redimensión
+
+82
+00:07:11,180 --> 00:07:12,740
+para que quede perfecto.
+
+83
+00:07:12,950 --> 00:07:20,660
+Eso no es un problema y lo que vamos a hacer ahora es añadir algunas propiedades gráficas y visuales
+
+84
+00:07:20,660 --> 00:07:24,190
+a estas labels os voy a enseñar algunas.
+
+85
+00:07:24,410 --> 00:07:30,460
+Lo que pasa que para poder hacerlo tendríamos que guardar en una variable la Label que queremos modificar.
+
+86
+00:07:30,560 --> 00:07:36,500
+Por ejemplo podríamos modificar la del medio y lo que vamos a tener que hacer es ahora pues asignar
+
+87
+00:07:36,570 --> 00:07:41,340
+esta Label a una variable Label no me voy a complicar mucho más la vida.
+
+88
+00:07:41,750 --> 00:07:49,160
+El problema es que este pack ya no lo podemos hacer aquí porque esto devuelve un objeto del label pero
+
+89
+00:07:49,160 --> 00:07:54,500
+si hacemos un pack ya no devuelve lo que nosotros pensamos porque estamos ejecutando un método directo
+
+90
+00:07:54,530 --> 00:07:56,890
+y a lo mejor está todo devolviendo algo.
+
+91
+00:07:56,900 --> 00:07:59,990
+Por tanto tenemos que sacar afuera el pack.
+
+92
+00:08:00,080 --> 00:08:07,120
+De esta forma ya estamos haciendo referencia al pack de la Label fuera guardada.
+
+93
+00:08:07,220 --> 00:08:14,960
+Teniendo esto en mente ahora podríamos cambiar alguna configuración con aquel método confi y por ejemplo
+
+94
+00:08:15,380 --> 00:08:17,450
+podríamos pasarle de G.
+
+95
+00:08:19,070 --> 00:08:24,430
+Un color por ejemplo Grin que es verde background color de fondo verde.
+
+96
+00:08:24,920 --> 00:08:25,900
+Como veis.
+
+97
+00:08:28,620 --> 00:08:32,250
+Tenemos un pequeño problema y es que aparece abajo del todo.
+
+98
+00:08:32,400 --> 00:08:33,750
+Qué ha ocurrido aquí.
+
+99
+00:08:33,750 --> 00:08:38,240
+Bueno pues ha ocurrido que primero hemos empaquetado labor de arriba.
+
+100
+00:08:38,580 --> 00:08:43,440
+La segunda no la hemos empaquetado sólo lo hemos creado y hemos empaquetado la última.
+
+101
+00:08:43,500 --> 00:08:45,010
+Y finalmente la del medio.
+
+102
+00:08:45,130 --> 00:08:52,080
+Si moviéramos este pack justo después de declararlo a ejecutarlo ahora y ahora sí que como veis se quedan
+
+103
+00:08:52,110 --> 00:08:58,410
+medio perfectamente pero de otra manera no lo teníamos bien vale ahora que lo tenemos arreglado vamos
+
+104
+00:08:58,410 --> 00:09:00,800
+a seguir añadiendo más propiedades.
+
+105
+00:09:00,960 --> 00:09:08,310
+Tenemos el Fondo Verde podemos cambiar el color de las letras en lugar de hacer un besse un f.g. de
+
+106
+00:09:08,390 --> 00:09:09,730
+hacer un background.
+
+107
+00:09:11,410 --> 00:09:18,080
+Grown para cambiar el color de la parte superior podramos por el que el color del texto sea por ejemplo
+
+108
+00:09:18,380 --> 00:09:20,420
+azul Blue.
+
+109
+00:09:21,370 --> 00:09:28,040
+Vamos a ejecutarlo como veis ahora no se ve mucho pero el color de las letras del medio es azul.
+
+110
+00:09:28,220 --> 00:09:30,860
+Vamos a hacerlas un poco más grandes.
+
+111
+00:09:30,860 --> 00:09:38,510
+Para eso tenemos que crear un atributo llamado iPhone y pasarle una tupla y esta tupla tiene dos elementos.
+
+112
+00:09:38,510 --> 00:09:43,560
+Por un lado tiene una fuente por ejemplo poner verdad Ana que es una fuente que hay en Windows.
+
+113
+00:09:43,790 --> 00:09:46,970
+Si esta fuente no estuviera en vuestro sistema operativo no va a funcionar.
+
+114
+00:09:46,970 --> 00:09:52,510
+Podéis probar a otra una coma y luego un número que va a ser la.
+
+115
+00:09:54,380 --> 00:09:57,220
+Altura o mejor dicho el tamaño de esta fuente.
+
+116
+00:09:57,230 --> 00:10:04,780
+24 píxeles si lo ejecutamos Como veis ahora tenemos una etiqueta con un texto mucho más grande y personalizado.
+
+117
+00:10:06,750 --> 00:10:13,110
+Sin embargo una de las cosas más interesantes que nos permiten hacer las claves es cambiar dinámicamente
+
+118
+00:10:13,110 --> 00:10:20,670
+el texto sobre el que estamos haciendo referencia y para hacerlo necesitamos crear una especie de objeto
+
+119
+00:10:20,670 --> 00:10:22,780
+de una clase llamada string bar.
+
+120
+00:10:23,310 --> 00:10:27,550
+Vamos a crear este string bar por ejemplo al principio de todo.
+
+121
+00:10:27,920 --> 00:10:30,810
+Después de la raíz es importante que se crea después de la raíz.
+
+122
+00:10:30,810 --> 00:10:32,390
+Voy a poner aquí un comentario.
+
+123
+00:10:32,550 --> 00:10:45,410
+Voy a poner string bars o variables mejor dicho tiránicas y aquí voy a crear un texto voy a poner aquí
+
+124
+00:10:46,080 --> 00:10:50,290
+string para crear un objeto de esta clase string.
+
+125
+00:10:51,130 --> 00:10:57,210
+Ahora lo que vamos a hacer es coger por ejemplo esta Label y configurarla un string.
+
+126
+00:10:57,600 --> 00:11:06,480
+Vamos a hacer aquí la confit y para indicarle que esté enlazada a esta variable de texto dinámico lo
+
+127
+00:11:06,490 --> 00:11:12,360
+vamos a indicar así textura variable igual texto.
+
+128
+00:11:14,010 --> 00:11:18,090
+Muy bien ahora vamos a ejecutarlo control.
+
+129
+00:11:18,320 --> 00:11:21,570
+Y como veis por defecto ahora no aparece nada.
+
+130
+00:11:21,570 --> 00:11:22,310
+Por qué.
+
+131
+00:11:22,970 --> 00:11:27,250
+Porque nuestra bar está vacía nuestro texto no tiene nada por defecto.
+
+132
+00:11:27,350 --> 00:11:30,820
+Tenemos que establecer algún contenido por ejemplo.
+
+133
+00:11:30,920 --> 00:11:40,580
+De esta forma el texto punto set y aquí pondríamos un texto un nuevo texto vamos a ejecutarlo y ahora
+
+134
+00:11:40,580 --> 00:11:43,030
+hemos establecido un nuevo texto dinámicamente.
+
+135
+00:11:44,050 --> 00:11:49,540
+De esta forma y ya aparece en nuestra Label quizá ahora no parecen muy útiles.
+
+136
+00:11:49,720 --> 00:11:54,160
+Pero más adelante veremos cómo capturar el momento en el que apretamos por ejemplo un botón.
+
+137
+00:11:54,430 --> 00:12:02,190
+Acceder a este stream bar cambiar el contenido y actualizar el texto de una Label por ejemplo.
+
+138
+00:12:02,770 --> 00:12:08,140
+Por cierto algo que os va a gustar es que las etiquetas pueden contener imágenes.
+
+139
+00:12:08,290 --> 00:12:12,180
+Lo malo es que te Quintero sólo acepta dos formatos de imagen a través de la clase.
+
+140
+00:12:12,190 --> 00:12:16,060
+Foto imágenes y sus formatos son PGM y GIF.
+
+141
+00:12:16,490 --> 00:12:24,850
+Pero bueno tengo preparado aquí la imagen un gif y vamos a intentar crear una Label con esta imagen
+
+142
+00:12:25,560 --> 00:12:29,910
+GIF que tengo aquí ya preparada para que veáis como funciona.
+
+143
+00:12:30,790 --> 00:12:40,410
+Vamos a borrar todo esto si queréis podemos comentarlo podríamos comentarlo rápidamente haciendo 3 comillas
+
+144
+00:12:40,450 --> 00:12:42,050
+arriba del todo.
+
+145
+00:12:42,500 --> 00:12:48,680
+3 comillas aquí y dejar creada únicamente es nuestra raíz.
+
+146
+00:12:48,960 --> 00:12:56,200
+Y vamos a añadir aquí una imagen vamos a importar esta imagen y vamos a quererla como un elemento foto
+
+147
+00:12:56,200 --> 00:12:57,970
+y mantecosa comentaba así.
+
+148
+00:12:58,020 --> 00:12:59,860
+Foto IMAX.
+
+149
+00:13:00,010 --> 00:13:02,420
+Lo único que tenemos que pasarla aquí es file.
+
+150
+00:13:02,710 --> 00:13:13,690
+De esta forma y aquí le vamos a pasar la ruta o el nombre de la imagen que es imagen GIF y ahora vamos
+
+151
+00:13:13,690 --> 00:13:22,450
+a crear una Label la vamos a añadir el root en la raíz y vamos a indicarle que el atributo mazz de una
+
+152
+00:13:22,450 --> 00:13:26,330
+Label es la imagen que hemos creado aquí.
+
+153
+00:13:27,200 --> 00:13:38,640
+Luego por ejemplo podríamos indicar un borde de cero píxeles y finalmente la vamos a empaquetar vamos
+
+154
+00:13:38,640 --> 00:13:40,600
+a ejecutar esto.
+
+155
+00:13:41,200 --> 00:13:42,810
+Y qué tenemos aquí.
+
+156
+00:13:42,850 --> 00:13:51,730
+Tenemos la imagen en una Label podríamos añadir un marco y posicionarla podríamos posicionarla directamente
+
+157
+00:13:52,360 --> 00:13:55,450
+dentro del contenedor.
+
+158
+00:13:55,450 --> 00:14:02,310
+Como siempre hemos seguido haciendo seidler por ejemplo automáticamente la podríamos posicionar como
+
+159
+00:14:02,320 --> 00:14:08,480
+cualquier otro widget porque en realidad este es el único que contiene una imagen.
+
+160
+00:14:09,520 --> 00:14:14,590
+Si quisiéramos trabajar con otros formatos de imagen deberíamos utilizar un módulo externo como PiL
+
+161
+00:14:14,980 --> 00:14:20,520
+pero eso me lo reservo por si más adelante os interesa profundizar en el mundo de las interfaces.
+
+162
+00:14:20,560 --> 00:14:26,320
+Con esto hemos acabado las etiquetas a partir de la siguiente elección veremos cómo actualizarlas junto
+
+163
+00:14:26,320 --> 00:14:30,200
+a otros widgets para crear pequeños diseños de formularios.

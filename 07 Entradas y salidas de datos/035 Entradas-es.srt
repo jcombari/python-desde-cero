@@ -1,0 +1,107 @@
+1
+00:00:00,660 --> 00:00:06,210
+La primera forma de capturar información ya la conocemos es la función imput que toma una cadena de
+
+2
+00:00:06,210 --> 00:00:07,510
+texto desde el teclado.
+
+3
+00:00:07,770 --> 00:00:12,780
+Como sabemos al ser una cadena de texto tenemos que transformar estos datos si queremos manipularlos
+
+4
+00:00:12,780 --> 00:00:15,480
+como si fueran por ejemplo números.
+
+5
+00:00:15,680 --> 00:00:19,210
+La Lección 1 entradas para practicar un poco esto pero muy poco.
+
+6
+00:00:21,810 --> 00:00:28,160
+Y como sabemos si queremos guardar por ejemplo un decimal para operarlo pues deberíamos de transformar
+
+7
+00:00:28,160 --> 00:00:31,460
+a float flotante.
+
+8
+00:00:31,490 --> 00:00:38,920
+El resultado de leer un input por ejemplo diciéndole al usuario que introduzca un número decimal.
+
+9
+00:00:44,250 --> 00:00:45,180
+Con punto
+
+10
+00:00:49,040 --> 00:00:52,060
+por ejemplo tres coma catorce.
+
+11
+00:00:52,110 --> 00:00:53,620
+Típico número Pi.
+
+12
+00:00:53,930 --> 00:00:58,310
+De todas formas podemos ir un poco más allá podemos pedir al usuario que introduzca varios valores en
+
+13
+00:00:58,310 --> 00:01:07,480
+una lista iterando con un foro y haciendo Happens por ejemplo creando una lista de valores.
+
+14
+00:01:07,520 --> 00:01:17,210
+Y ahora vamos a hacer un print vamos a decir al usuario que introduce desvalores le vamos a decir en
+
+15
+00:01:17,210 --> 00:01:31,370
+un foro X por ejemplo el Ranch 3 y le vamos a decir valores apean le vamos a poner en el PEN el resultado
+
+16
+00:01:31,880 --> 00:01:34,750
+de leer los valores que no tienen por qué ser números.
+
+17
+00:01:34,760 --> 00:01:37,610
+Por tanto lo guardaremos todo como si fueran cadenas de caracteres.
+
+18
+00:01:37,610 --> 00:01:48,940
+No hace falta hacer ninguna conversión y vamos introduce un valor le vamos a dejar así de esta forma.
+
+19
+00:01:48,950 --> 00:01:51,740
+Básicamente podríamos guardar.
+
+20
+00:01:53,030 --> 00:01:55,530
+Importa lo que sean.
+
+21
+00:01:59,860 --> 00:02:03,310
+Hoy tenemos la colección de valores.
+
+22
+00:02:03,310 --> 00:02:07,210
+Sin embargo en la realidad pocas veces vamos a saber datos a través de la terminal.
+
+23
+00:02:07,210 --> 00:02:14,290
+De esta forma solo cuando trabajemos con scripts lo más normal es tomarlos de ficheros o bases de datos
+
+24
+00:02:14,500 --> 00:02:19,450
+o utilizar interfaces gráficas con formularios para que el usuario pueda añadir la información de forma
+
+25
+00:02:19,450 --> 00:02:22,990
+más cómoda y de paso prevenir posibles errores.
+
+26
+00:02:22,990 --> 00:02:28,090
+Estas formas las trataremos cuando el curso esté más avanzado pero los scrip si los veremos en la próxima
+
+27
+00:02:28,090 --> 00:02:28,970
+elección.

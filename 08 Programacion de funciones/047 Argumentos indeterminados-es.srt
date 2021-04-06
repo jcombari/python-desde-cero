@@ -1,0 +1,363 @@
+1
+00:00:00,690 --> 00:00:06,600
+Ahora que hemos trabajado bastante las funciones quizás surge una duda qué pasaría si queremos enviar
+
+2
+00:00:06,600 --> 00:00:09,210
+un número indeterminado de valores a una función.
+
+3
+00:00:09,210 --> 00:00:15,320
+Un número indeterminado de argumentos y tratarlos como un número indeterminado de parámetros.
+
+4
+00:00:15,690 --> 00:00:20,640
+Si lo pensáis detenidamente siempre podríamos enviar una lista y luego recorrerlas dentro de la función
+
+5
+00:00:21,000 --> 00:00:24,720
+como si fuera una lista de posibles valores.
+
+6
+00:00:25,020 --> 00:00:31,980
+Pero por qué íbamos a complicarnos la vida si Payton ya puede gestionar este caso por nosotros vamos
+
+7
+00:00:31,980 --> 00:00:35,920
+a abrir la Lección 6 de argumentos y parámetros indeterminados.
+
+8
+00:00:37,300 --> 00:00:43,950
+Y vamos a ver dado que tenemos dos maneras de enviar y recibir datos por posición y por nombre no implementa
+
+9
+00:00:43,950 --> 00:00:49,870
+dos formas distintas de gestionar los valores indeterminados para manejar por ejemplo los argumentos
+
+10
+00:00:49,900 --> 00:00:51,130
+por posición.
+
+11
+00:00:51,130 --> 00:00:59,710
+Lo que debemos hacer es indicar un parámetro itera de la siguiente forma 10 al crear determinados posición
+
+12
+00:01:01,600 --> 00:01:08,410
+y tenemos que crear un parámetro integrable y si lo hacemos así poniendo un asterisco y por regla general
+
+13
+00:01:08,590 --> 00:01:13,620
+se le suele llamar Arcs de argumentos dos puntos.
+
+14
+00:01:13,630 --> 00:01:23,810
+Hoy tenemos el bloque y por ejemplo podríamos escribir esta lista itera Arcs para que veáis lo que es.
+
+15
+00:01:23,800 --> 00:01:33,600
+Vamos a por ejemplo llamar a esta función indeterminados posición y le vamos a pasar varios argumentos.
+
+16
+00:01:33,700 --> 00:01:43,910
+Por ejemplo un número una cadena o una lista 1 2 3 4 y 5.
+
+17
+00:01:44,110 --> 00:01:49,240
+Como veis estamos llamando una función pasando a una serie de parámetros indeterminados.
+
+18
+00:01:49,420 --> 00:01:52,320
+Podrían ser tantos como nosotros quisiéramos.
+
+19
+00:01:53,470 --> 00:02:02,310
+Cuando imprimimos esta lista de argumentos indeterminados y te arable lo que tenemos es una tupla y
+
+20
+00:02:02,410 --> 00:02:08,320
+es una tupla porque recordad que las tuplas eran inalterables inmutables no podemos modificarlas de
+
+21
+00:02:08,320 --> 00:02:12,230
+hecho no tendría sentido que pudiéramos cambiar este.
+
+22
+00:02:13,220 --> 00:02:19,740
+Esta especie de lista de argumentos porque entonces podría funcionar en el programa la función.
+
+23
+00:02:20,390 --> 00:02:28,450
+Normalmente a este parámetro se le denomina Arcs por lo los argumentos que podríamos recorrer fácilmente.
+
+24
+00:02:28,450 --> 00:02:36,410
+Esta especie de colección integrable Por ejemplo podríamos título anterior por for ARC de argumento
+
+25
+00:02:36,480 --> 00:02:37,730
+y arcos.
+
+26
+00:02:38,160 --> 00:02:46,940
+Aquí ya no nos tenemos que referir con el asterisco y podríamos mostrar Prin a rock y ahora ya podemos
+
+27
+00:02:46,940 --> 00:02:49,400
+recorrer estos argumentos uno a uno.
+
+28
+00:02:49,400 --> 00:02:49,860
+5.
+
+29
+00:02:49,880 --> 00:02:50,260
+Hola.
+
+30
+00:02:50,270 --> 00:02:57,380
+Y la lista en cuanto a los argumentos por nombre en lugar de un indeseable Payton puede gestionar un
+
+31
+00:02:57,380 --> 00:02:58,450
+diccionario.
+
+32
+00:02:59,300 --> 00:03:01,460
+O sea en lugar de una tupla un diccionario.
+
+33
+00:03:01,760 --> 00:03:05,110
+Y ya que esto permite identificar cada valor con una clave.
+
+34
+00:03:05,350 --> 00:03:07,320
+Este sería el caso más obvio.
+
+35
+00:03:08,710 --> 00:03:15,420
+Por ejemplo indeterminados por nombre.
+
+36
+00:03:16,090 --> 00:03:22,950
+Cómo le indicamos que creer que debemos crear estos argumentos en clave de valor.
+
+37
+00:03:22,960 --> 00:03:32,380
+Pues en lugar de un asterisco poniendole 2 y normalmente se le llamaría en lugar de Arcs que W Arcs
+
+38
+00:03:33,370 --> 00:03:45,550
+Wort de nombre clave palabra clave Arcs los puntos y podremos por ejemplo como antes mostrar este Wort
+
+39
+00:03:45,690 --> 00:03:50,080
+Arcs y a la hora de llamarlo.
+
+40
+00:03:50,080 --> 00:03:52,760
+Podríamos hacer lo mismo que antes.
+
+41
+00:03:53,280 --> 00:04:00,850
+En esta ocasión determinados por nombre le pasaremos por ejemplo aquí la C vale.
+
+42
+00:04:00,860 --> 00:04:06,370
+Esto por ejemplo me estoy inventando unos nombres aquí tengo otra que se llamaría.
+
+43
+00:04:06,610 --> 00:04:12,940
+Bueno aquí le ponemos una n del número a que una C de cadena y aquí una L de lista.
+
+44
+00:04:15,050 --> 00:04:22,240
+Vamos a ejecutarlo como veis lo que tenemos es un diccionario que Wort Arx es un diccionario nevárez
+
+45
+00:04:22,370 --> 00:04:26,960
+CINCO Lace vale una cadena y la L es una lista no.
+
+46
+00:04:27,010 --> 00:04:28,390
+Perfecto es un diccionario.
+
+47
+00:04:28,400 --> 00:04:30,120
+Ya los conocemos.
+
+48
+00:04:30,440 --> 00:04:34,750
+Y es que ahora a la hora de recorrerlos si queremos recorrerlos por ejemplo.
+
+49
+00:04:35,580 --> 00:04:43,250
+Pues podemos hacer lo siguiente Vamos a volver a redefinirlo todo y como antes vamos a hacer un fork
+
+50
+00:04:45,650 --> 00:04:57,500
+para cada work in keyword arguments vamos a hacer un print del que igual que Wort Harry ya sabéis como
+
+51
+00:04:57,500 --> 00:05:02,420
+hemos trabajado en los diccionarios que por defecto únicamente nos muestra las claves y cómo esto está
+
+52
+00:05:02,420 --> 00:05:03,760
+actuando como claves.
+
+53
+00:05:04,610 --> 00:05:13,670
+Nos muestra n.c. hiele fácilmente podríamos modificarlo porque ya sabemos cómo trabajar con diccionarios
+
+54
+00:05:14,030 --> 00:05:19,080
+y mostrar por ejemplo primero el que iwork ARC que sería la clave.
+
+55
+00:05:20,170 --> 00:05:28,970
+Luego un espacio y luego por ejemplo que World Arts.
+
+56
+00:05:30,280 --> 00:05:38,120
+Pero pasándoles la clave que está aquí guardada.
+
+57
+00:05:38,200 --> 00:05:39,090
+5.
+
+58
+00:05:39,440 --> 00:05:39,990
+Hola.
+
+59
+00:05:40,020 --> 00:05:42,460
+Y el de la lista.
+
+60
+00:05:42,550 --> 00:05:45,980
+Por último vamos a hacer una super función con un poco de todo.
+
+61
+00:05:46,000 --> 00:05:51,770
+El único requisito es enviar primero los argumentos por posición y luego todos los que son por nombre.
+
+62
+00:05:52,360 --> 00:05:59,860
+Por ejemplo imaginemos que queremos crear una super función a la que le pasemos un montón de devalores
+
+63
+00:05:59,860 --> 00:06:05,800
+de números y lo que queremos es que lo supe no sabemos cuánto queremos enviar por ejemplo diez cincuenta
+
+64
+00:06:05,800 --> 00:06:13,120
+menos uno y 1.56 podríamos poner aquí tantos números como queramos.
+
+65
+00:06:13,570 --> 00:06:17,890
+Y luego podríamos crear dos argumentos por nombre.
+
+66
+00:06:17,890 --> 00:06:27,160
+Por ejemplo voy a poner un nombre le voy a pasar Héctor y otro que sea por ejemplo le da igual.
+
+67
+00:06:27,160 --> 00:06:29,420
+27.
+
+68
+00:06:29,430 --> 00:06:31,640
+Vale que esta es la super función que quiero crear.
+
+69
+00:06:31,750 --> 00:06:33,960
+Entonces voy a definirla arriba.
+
+70
+00:06:34,320 --> 00:06:45,050
+Debe su función y primero vamos a pasarle los argumentos por posición así Arcs luego una coma.
+
+71
+00:06:45,300 --> 00:06:47,760
+Y vamos a tratar los argumentos por clave.
+
+72
+00:06:47,980 --> 00:06:57,940
+Los que iwork que ahora ya podemos tratarlos por ejemplo vamos a crear una variable que sea que va a
+
+73
+00:06:57,940 --> 00:07:04,760
+ser el total porque vamos a sumar todas estas por posición que nos vamos a tirar por ejemplo con Ford.
+
+74
+00:07:05,110 --> 00:07:14,980
+Vamos a decir por ejemplo cada argumento y es lo que vamos hacer es sumar y va a ser más el argumento
+
+75
+00:07:14,980 --> 00:07:26,350
+que su número y podríamos mostrar al final de todo el sumatorio indeterminados es.
+
+76
+00:07:28,050 --> 00:07:35,520
+Y poner aquí el total que acabamos de sumar de todos esos números indeterminados y luego por ejemplo
+
+77
+00:07:36,480 --> 00:07:42,480
+para cada iwork argument en el diccionario
+
+78
+00:07:46,230 --> 00:07:47,890
+como habíamos hecho antes.
+
+79
+00:07:48,070 --> 00:07:59,070
+Pues ponemos por ejemplo umbriel con lo que habíamos hecho en el ejemplo anterior Marc Coma así y haciendo
+
+80
+00:07:59,070 --> 00:08:00,040
+referencia.
+
+81
+00:08:00,500 --> 00:08:03,150
+Pues le pasamos la clave que igual.
+
+82
+00:08:03,880 --> 00:08:12,330
+Y lo podemos ejecutar a ver y como veis podemos hacer una superproducción que sume todos estos números
+
+83
+00:08:12,660 --> 00:08:18,510
+que sabemos que es un número indeterminado podríamos haberle pasado tantos como queramos por ejemplo
+
+84
+00:08:20,170 --> 00:08:23,180
+estos y funciona perfectamente.
+
+85
+00:08:23,190 --> 00:08:30,120
+Por qué le estamos diciendo que todos los que son por posición los estamos sumando y los que son por
+
+86
+00:08:30,120 --> 00:08:34,790
+nombre lo que queremos es tratarlos distintamente y lo único que ha hecho ha sido en este ejemplo puedes
+
+87
+00:08:34,860 --> 00:08:37,030
+mostrarlos en un foro.
+
+88
+00:08:37,290 --> 00:08:44,950
+Podríamos haber puesto una cadena que pusiera Hector tiene 27 años o cualquier cosa así es solo un ejemplo.
+
+89
+00:08:45,210 --> 00:08:50,590
+Esta técnica es muy utilizada en Python sobre todo cuando trabajamos con librerías externas y queremos
+
+90
+00:08:50,620 --> 00:08:55,530
+sobreescribir métodos de clase para añadir nuevos parámetros y funcionalidades pero esto es un poco
+
+91
+00:08:55,530 --> 00:09:01,210
+complejo ya hablaremos más adelante sobre las clases así que vamos a dejar la lección aquí.

@@ -1,0 +1,431 @@
+1
+00:00:01,440 --> 00:00:05,140
+Vamos a comenzar con la funcionalidad de un nuevo fichero.
+
+2
+00:00:07,730 --> 00:00:13,640
+Pero antes creo que sería interesante y vamos a utilizar una posible variable global.
+
+3
+00:00:13,750 --> 00:00:16,600
+Vamos a llamar la ruta y la vamos a dejar creada.
+
+4
+00:00:16,670 --> 00:00:28,490
+Arriba del todo que vamos a poner que la utilizaremos para almacenar la ruta de un fichero de tal manera
+
+5
+00:00:28,520 --> 00:00:32,460
+si la ruta está vacía sabremos que el fichero es nuevo.
+
+6
+00:00:32,480 --> 00:00:37,310
+Entonces representaría guardarlo sabremos que tenemos que guardarlo con un nombre.
+
+7
+00:00:37,310 --> 00:00:42,950
+En cambio si la ruta está establecida significa que el fichero existente entonces podremos guardarlo
+
+8
+00:00:43,280 --> 00:00:45,680
+de forma normal.
+
+9
+00:00:45,680 --> 00:00:53,290
+Teniendo esto en cuenta lo único que deberíamos de hacer a la hora de hacer un nuevo fichero es lo siguiente.
+
+10
+00:00:53,420 --> 00:00:58,010
+Por un lado asegurarnos de que vamos a establecer un nuevo ruta.
+
+11
+00:00:58,950 --> 00:01:03,660
+Con un valor vacío porque es un nuevo fichero y por tanto no tendrá ninguna ruta todavía asignada dentro
+
+12
+00:01:03,660 --> 00:01:04,810
+del disco duro.
+
+13
+00:01:05,050 --> 00:01:06,730
+Lo que tendremos que hacer es.
+
+14
+00:01:07,850 --> 00:01:12,200
+Darle a la ruta un valor vacio de nuevo pero esto nos va a dar un problema por qué.
+
+15
+00:01:12,380 --> 00:01:18,920
+Porque cuando llegamos a un comando le estamos pasando la función como si fuera él o como si fuese un
+
+16
+00:01:18,920 --> 00:01:21,620
+nuevo elemento una variable interna.
+
+17
+00:01:21,650 --> 00:01:30,340
+Entonces esto se ejecuta internamente y ruta no va a saber lo que es para que él sepa lo que es ruta.
+
+18
+00:01:30,650 --> 00:01:35,540
+Vamos a tener que utilizar un truco dentro de esta función vamos a tener que indicarle al principio
+
+19
+00:01:36,140 --> 00:01:41,630
+con una palabra global ruta que ruta es una variable global y está haciendo referencia a lo que hay
+
+20
+00:01:41,630 --> 00:01:44,800
+más externamente que es esta de aquí.
+
+21
+00:01:44,810 --> 00:01:51,650
+De esta forma ahora sí que cuando hagamos esta ruta igual y reiniciamos esta posible ruta vamos a estar
+
+22
+00:01:51,680 --> 00:01:58,850
+cambiando la Global que es la que estaremos manejando todo el rato en común entre todas las funcionalidades
+
+23
+00:01:58,850 --> 00:02:01,900
+las funciones o métodos.
+
+24
+00:02:02,710 --> 00:02:06,420
+Y lo segundo que tenemos que hacer es borrar el contenido.
+
+25
+00:02:06,440 --> 00:02:11,900
+Es decir tenemos un texto escrito apretamos nuevo y tendríamos que borrar el texto.
+
+26
+00:02:11,930 --> 00:02:17,840
+Para ello vamos a utilizar un método que tienen los textos y haciendo referencia a este texto que tenemos
+
+27
+00:02:17,840 --> 00:02:27,580
+aquí texto la caja de texto central vamos a utilizar delete que sirve para borrar y tenemos que indicarle.
+
+28
+00:02:27,660 --> 00:02:36,610
+Es un poco quisquilloso con un flotante con un número 1.0 y luego una coma.
+
+29
+00:02:36,980 --> 00:02:43,580
+Vamos a poner en que lo podíamos poner así también en esto le va a indicar lo siguiente le va a indicar
+
+30
+00:02:43,580 --> 00:02:49,070
+que borre el carácter número 1 del texto hasta el final de todo.
+
+31
+00:02:49,400 --> 00:02:50,180
+Por qué.
+
+32
+00:02:50,180 --> 00:02:53,130
+Porque el primer carácter es un salto de línea.
+
+33
+00:02:55,420 --> 00:03:03,120
+Dentro de un text el primer carácter siempre es un barra N y con esto vamos a decirle que borre desde
+
+34
+00:03:03,110 --> 00:03:03,490
+el primero.
+
+35
+00:03:03,550 --> 00:03:11,970
+Desde el salto de línea este hasta el final pero conservando este salto de línea vamos a probarlo al
+
+36
+00:03:11,980 --> 00:03:18,440
+ejecutarlo y si escribimos algo y hacemos un Archivo Nuevo debería de borrarse.
+
+37
+00:03:18,820 --> 00:03:24,930
+Como veis se borra el contenido y abajo nos muestra un nuevo fichero y también tendremos la ruta reiniciada.
+
+38
+00:03:24,940 --> 00:03:30,790
+Esta variable global ruta que vamos a utilizar de ahora en adelante y a partir de ahora comienza lo
+
+39
+00:03:30,880 --> 00:03:31,860
+divertido.
+
+40
+00:03:32,080 --> 00:03:37,650
+Abrir un fichero ya sabemos que podemos utilizar una ventana emergente para pedirle al usuario que seleccionar
+
+41
+00:03:37,650 --> 00:03:43,900
+un fichero del disco duro no así que vamos a importar el módulo Files Dialog para poder hacerlo.
+
+42
+00:03:44,080 --> 00:03:46,020
+Vamos a irnos arriba del todo.
+
+43
+00:03:46,230 --> 00:03:52,140
+From The Quintet por fin detallarlo y lo vamos a importar.
+
+44
+00:03:52,210 --> 00:03:57,040
+Así que a mi me gusta más hacerlo así que vosotros podéis simplemente importarlo así.
+
+45
+00:04:00,330 --> 00:04:04,890
+Y ahora dentro de la función de abrir vamos a establecerlo todo.
+
+46
+00:04:04,900 --> 00:04:10,780
+Vamos a comenzar tan bien indicando y esto lo vamos a hacer en todas las funciones que la ruta es global.
+
+47
+00:04:10,780 --> 00:04:16,970
+Por tanto vamos a poner esta palabra global punto adelante y vamos a desarrollar un poco la lógica.
+
+48
+00:04:17,500 --> 00:04:22,340
+Vamos a abrir una ruta con Files dañarlo.
+
+49
+00:04:22,750 --> 00:04:28,030
+Punto ASC Open fail nadie.
+
+50
+00:04:29,150 --> 00:04:36,160
+Y vamos a pasarle un directorio inicial inicial dir para que abra el directorio actual con un punto
+
+51
+00:04:36,160 --> 00:04:38,250
+vamos a indicar que habla el director actual.
+
+52
+00:04:38,380 --> 00:04:44,710
+Así lo vamos a tener más fácil a la hora de trabajar en este ejemplo con un puntito que luego vamos
+
+53
+00:04:44,710 --> 00:04:52,040
+a indicarle unos tipos de fichero Fleta y así íbamos a pasarle.
+
+54
+00:04:53,580 --> 00:04:56,680
+Que puedas abrir ficheros de texto.
+
+55
+00:04:56,700 --> 00:05:11,660
+Vamos a poner una tuplas dentro del argumento fichero de texto o los ficheros de texto una coma.
+
+56
+00:05:12,420 --> 00:05:18,480
+Vamos a pasar la posibilidad de abrir cualquier tipo de fichero que tenga la extensión txt.
+
+57
+00:05:18,720 --> 00:05:26,910
+Voy a poner esto abajo para estar mejor ordenado y sobretodo recordad que no podemos pasarle un único
+
+58
+00:05:26,910 --> 00:05:30,090
+tipo tendremos que pasarle también una coma.
+
+59
+00:05:30,540 --> 00:05:34,770
+De esta forma porque si no nos daría error como vimos en el ejemplo.
+
+60
+00:05:35,190 --> 00:05:39,280
+Y por último vamos a pasar de también un título titel a esta ventana.
+
+61
+00:05:39,320 --> 00:05:43,150
+Vamos a abrir fichero o abrir un fichero.
+
+62
+00:05:43,850 --> 00:05:52,720
+El texto se supone que con esto ya vemos que estamos cerrando bien arriba la etapa inicial.
+
+63
+00:05:52,740 --> 00:05:57,710
+Tenemos aquí tres propiedades tres argumentos.
+
+64
+00:06:00,510 --> 00:06:09,420
+Tengo que poner esto bien inicial así y teóricamente entonces nos abriría un cuadro de diálogo para
+
+65
+00:06:09,420 --> 00:06:15,030
+poder abrir un fichero y nos guardaría la ruta del fichero que queremos abrir.
+
+66
+00:06:15,030 --> 00:06:21,370
+Entonces con esta ruta guardada tendremos que comprobar si es verdaderamente una ruta a un fichero.
+
+67
+00:06:23,540 --> 00:06:35,310
+Vamos a poner ruta diferente nada escrito para saber que algo entonces abriremos fichero igual Open
+
+68
+00:06:35,940 --> 00:06:40,750
+y haremos la ruta en modo de lectura.
+
+69
+00:06:41,240 --> 00:06:49,100
+Importante recordar que esto si es un script tenemos que importarlo la parte superior Ronquillo import
+
+70
+00:06:49,760 --> 00:06:50,370
+Open.
+
+71
+00:06:50,630 --> 00:06:59,630
+Si no no nos funcionará muy bien así que vamos a continuar trabajando con este fichero y lo que vamos
+
+72
+00:06:59,630 --> 00:07:08,300
+a hacer es leer el contenido de este fichero fichero punto Rid y a continuación vamos a.
+
+73
+00:07:09,050 --> 00:07:15,730
+Asegurarnos de que esté vacío el texto por lo tanto no vamos a borrar todo como hemos hecho antes y
+
+74
+00:07:15,740 --> 00:07:18,310
+vamos a insertar el texto.
+
+75
+00:07:18,800 --> 00:07:25,160
+Eso lo podemos hacer de esta forma desde el widget texto vamos a borrarlo delete.
+
+76
+00:07:25,700 --> 00:07:28,420
+Les vamos a pasar como antes 1.0.
+
+77
+00:07:28,700 --> 00:07:31,520
+Desde la primera posición hasta el final.
+
+78
+00:07:32,820 --> 00:07:40,070
+Y ahora lo que vamos a hacer es insertar este contenido texto junto con el método insert podemos insertar
+
+79
+00:07:40,070 --> 00:07:41,770
+contenido dentro.
+
+80
+00:07:41,930 --> 00:07:46,790
+Vamos a pasarle por defecto el modo insert que acepta varios parámetros pero tenemos que pasarlo así
+
+81
+00:07:47,410 --> 00:07:53,600
+y aquí ya podemos pasar a una cadena de texto con el contenido que queremos introducir en el texto.
+
+82
+00:07:53,600 --> 00:08:01,730
+Por último vamos a cerrar el fichero superimportante y lo que podríamos hacer en este momento es cambiar
+
+83
+00:08:01,730 --> 00:08:06,950
+el título de la ventana porque Fijaros que cuando tenemos un fichero abierto en un editor de texto como
+
+84
+00:08:06,950 --> 00:08:12,560
+sublime nos muestra la ruta al fichero la parte superior pues podríamos hacer lo mismo así que podríamos
+
+85
+00:08:12,560 --> 00:08:22,580
+poner root titel y actualizar el título pondríamos la ruta y la vamos a concatenar un guión un espacio
+
+86
+00:08:22,580 --> 00:08:26,220
+un guión y mi editor que es el nombre de mi editor.
+
+87
+00:08:27,080 --> 00:08:35,090
+De hecho esto tendríamos que hacerlo también en Nuevo y lo podíamos poner abajo del todo reiniciando
+
+88
+00:08:35,090 --> 00:08:39,800
+el nombre también de mi editor dejándolo así.
+
+89
+00:08:39,800 --> 00:08:40,500
+Vale.
+
+90
+00:08:42,350 --> 00:08:43,920
+Entonces repasando.
+
+91
+00:08:45,230 --> 00:08:52,190
+Hacemos que la ruta se haga Noval establecemos pues un mensaje en el monitor comprobamos o abrimos un
+
+92
+00:08:52,190 --> 00:08:55,540
+fichero y que la ruta sea correcta.
+
+93
+00:08:55,910 --> 00:09:03,140
+Si la ruta está establecida abrimos ese fichero en modo lectura lo leemos y lo guardamos en el contenido.
+
+94
+00:09:03,140 --> 00:09:10,560
+Borramos el widget texto todo el contenido insertamos ese contenido con insert.
+
+95
+00:09:10,580 --> 00:09:17,090
+De esta forma el texto en el que valga la redundancia iba a decir el texto en el texto y al contenido
+
+96
+00:09:17,120 --> 00:09:26,450
+en el widget texto cerramos el fichero y cambiamos el título de la ventana para darle un toque más profesional.
+
+97
+00:09:26,510 --> 00:09:29,000
+Vamos a probarlo a ver si esto funciona.
+
+98
+00:09:30,770 --> 00:09:31,780
+ARCHIVO.
+
+99
+00:09:32,750 --> 00:09:40,450
+Vamos a abrir me abre un directorio no es el directorio que me esperaba porque al ponerle el límite
+
+100
+00:09:40,450 --> 00:09:44,350
+al Dir con un punto me esperaba que fuera lo anterior.
+
+101
+00:09:44,370 --> 00:09:50,530
+Pero bueno vamos a ir aquí interfaces gráficas conté y vamos a trabajar en este directorio.
+
+102
+00:09:50,910 --> 00:09:55,340
+Fijaros que sólo me deja abrir ficheros de tipo texto no tengo ninguno.
+
+103
+00:09:57,250 --> 00:10:04,600
+Así que para hacer la prueba debería de abrir uno de los apuntes el 3 que tenía aquí y ahí lo tenemos.
+
+104
+00:10:04,690 --> 00:10:09,270
+Recordad que habíamos hecho este ejemplo en la edición anterior.
+
+105
+00:10:10,640 --> 00:10:13,840
+Hola voy a escribir otra cosa que es el contenido que teníamos ahí.
+
+106
+00:10:15,630 --> 00:10:18,460
+Y también el monitor nos salía arriba del todo.
+
+107
+00:10:18,580 --> 00:10:24,660
+Del título de la ventana nos muestra igual que en su primer tedx la ruta El paz.
+
+108
+00:10:25,750 --> 00:10:31,600
+Al fichero mi editor perfecto no yo creo que queda bastante chulo bastante bien.

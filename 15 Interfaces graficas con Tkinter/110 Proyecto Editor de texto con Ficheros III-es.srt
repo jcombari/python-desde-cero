@@ -1,0 +1,559 @@
+1
+00:00:00,480 --> 00:00:05,410
+Así que a la hora de guardar un fichero tenemos dos opciones o es un fichero ya existente.
+
+2
+00:00:05,730 --> 00:00:08,020
+En ese caso la ruta tendríamos un valor.
+
+3
+00:00:08,910 --> 00:00:12,020
+O será un fichero nuevo una ruta vacía.
+
+4
+00:00:13,000 --> 00:00:18,490
+En el primer caso vamos a proceder a guardar el fichero como ya sabemos simplemente como ya tendremos
+
+5
+00:00:18,490 --> 00:00:25,010
+una ruta donde lo tenemos que guardar pues haremos lo siguiente comprobaremos si la ruta es distinta
+
+6
+00:00:25,630 --> 00:00:29,580
+de nada y este es un fichero que ya sabemos donde tenemos que guardarlo.
+
+7
+00:00:29,600 --> 00:00:38,620
+Pues vamos a recuperar el contenido que tenemos que guardar texto punto desde el primer carácter hasta
+
+8
+00:00:38,620 --> 00:00:44,230
+el final es lo mismo que antes que hacíamos para borrar con el delete pero lo hacemos con el jet para
+
+9
+00:00:44,590 --> 00:00:48,230
+sacarle desde el número 1 el carácter.
+
+10
+00:00:48,250 --> 00:00:56,770
+1 hasta el final y a la inversa lo que vamos a hacer es abrir el fichero fichero Open abrimos la ruta
+
+11
+00:00:57,360 --> 00:01:02,820
+que se supone que tenemos guardada de antes el modo por ejemplo escritura.
+
+12
+00:01:03,850 --> 00:01:07,110
+Más lectura para alguna función de lectura por si quisiéramos.
+
+13
+00:01:09,080 --> 00:01:11,870
+Si vamos a hacer ficheros.
+
+14
+00:01:13,800 --> 00:01:16,810
+Vamos a poner el contenido ahí.
+
+15
+00:01:16,990 --> 00:01:20,510
+Finalmente cerramos con un clowes.
+
+16
+00:01:21,870 --> 00:01:29,310
+De hecho podríamos poner el mensaje otra vez así mensajes ebt y pondríamos por ejemplo que el fichero
+
+17
+00:01:29,310 --> 00:01:32,350
+se ha guardado correctamente.
+
+18
+00:01:36,380 --> 00:01:37,360
+Repasando.
+
+19
+00:01:38,590 --> 00:01:39,630
+Si la ruta.
+
+20
+00:01:40,560 --> 00:01:43,560
+Está establecida en algo que no está vacío.
+
+21
+00:01:43,560 --> 00:01:45,920
+Es que tenemos desde antes ya abierto.
+
+22
+00:01:46,080 --> 00:01:51,400
+De esta forma un fichero tenemos una ruta guardada aquí la variable global ruta.
+
+23
+00:01:52,070 --> 00:01:56,250
+Por tanto podemos utilizarla para abrir el fichero.
+
+24
+00:01:57,840 --> 00:01:59,680
+Recuperamos el contenido.
+
+25
+00:02:00,450 --> 00:02:08,190
+Abrimos este fichero nos lo vamos a machacar escribimos el contenido lo cerramos y mostramos por pantalla
+
+26
+00:02:08,250 --> 00:02:11,020
+este mensaje de que se ha guardado correctamente.
+
+27
+00:02:11,520 --> 00:02:12,480
+Vamos a probarlo
+
+28
+00:02:15,130 --> 00:02:21,720
+y vamos a suponer que abrimos un fichero nuestro fichero de prueba 3 por ejemplo.
+
+29
+00:02:23,360 --> 00:02:35,770
+Que tiene una línea voy a escribir esto es otra línea que escribo aquí y otra más.
+
+30
+00:02:35,940 --> 00:02:43,990
+Tampoco que queden escritas tres líneas voy al archivo y a guardar me dice que se ha guardado correctamente
+
+31
+00:02:44,020 --> 00:02:46,700
+pero no sabemos si realmente se habrá guardado bien.
+
+32
+00:02:47,610 --> 00:02:50,810
+Vamos a abrirlo tengo aquí probadores.
+
+33
+00:02:51,900 --> 00:02:54,380
+Como veis aquí en el sublime.
+
+34
+00:02:54,480 --> 00:02:58,520
+Cuando lo abrimos Pues parece ser que sí se ha guardado correctamente.
+
+35
+00:02:58,830 --> 00:03:00,180
+Si escribimos más cosas
+
+36
+00:03:03,780 --> 00:03:04,760
+guardamos.
+
+37
+00:03:06,140 --> 00:03:06,750
+Vale.
+
+38
+00:03:06,810 --> 00:03:13,110
+Como vemos estamos guardando correctamente pero no tenemos otra posibilidad.
+
+39
+00:03:13,110 --> 00:03:19,500
+Y es que al hacer guardar no hayamos abierto un fichero sino que sea un fichero nuevo y queramos guardar
+
+40
+00:03:19,500 --> 00:03:20,970
+algo desde cero.
+
+41
+00:03:21,330 --> 00:03:26,950
+En ese caso no ocurre nada porque esta opción todavía no la hemos contemplado.
+
+42
+00:03:28,450 --> 00:03:34,970
+Por cierto fijaros en una cosa cuando abrimos un fichero abrir puede abrir.
+
+43
+00:03:34,960 --> 00:03:36,360
+Prueba 3.
+
+44
+00:03:36,850 --> 00:03:39,920
+Lo que me pone el cursor por debajo.
+
+45
+00:03:40,090 --> 00:03:42,540
+Si ahora guardo otra vez.
+
+46
+00:03:43,690 --> 00:03:44,250
+De acuerdo.
+
+47
+00:03:44,260 --> 00:03:46,910
+Y vuelvo a abrir este fichero Baa3.
+
+48
+00:03:47,720 --> 00:03:49,630
+Vuelvo a tener otra línea por debajo.
+
+49
+00:03:49,640 --> 00:03:54,120
+Parece ser que me está añadiendo una nueva línea si lo vuelvo a guardar y lo vuelvo a abrir.
+
+50
+00:03:55,350 --> 00:03:57,740
+Cada vez que lo abro me añade una nueva línea.
+
+51
+00:03:58,880 --> 00:03:59,850
+Entonces.
+
+52
+00:04:01,560 --> 00:04:03,440
+Cómo podemos solucionar esto.
+
+53
+00:04:03,450 --> 00:04:08,220
+Pues podríamos en el momento de guardar el momento de recuperar el texto.
+
+54
+00:04:08,220 --> 00:04:15,270
+Podríamos restarle un carácter pero hay una posibilidad de hacerlo directamente desde aquí desde el
+
+55
+00:04:15,270 --> 00:04:23,990
+propio Guetta y para hacerlo tenemos que indicarlo de esta forma con él en un guión menos unzúe.
+
+56
+00:04:24,030 --> 00:04:32,010
+De esta forma estamos indicando con una sintaxis especial que recupere todo el texto a la hora de guardarlo
+
+57
+00:04:32,100 --> 00:04:35,240
+menos el último carácter que es un salto de línea.
+
+58
+00:04:35,340 --> 00:04:41,730
+De hecho ahora si lo probamos obliga a que el fichero donde tenía pruebas voy a borrar estos saltos
+
+59
+00:04:41,730 --> 00:04:48,290
+de línea voy a guardarlo y la próxima vez que lo abra debería de estar el cursor al final abrir.
+
+60
+00:04:49,440 --> 00:04:56,510
+Y como veis ahora ya no me agrega esta línea además de esta forma lo hemos arreglado pero ahora nos
+
+61
+00:04:56,510 --> 00:05:02,630
+falta la otra posibilidad cuando el fichero es nuevo y tenemos que guardarlo en el disco duro con un
+
+62
+00:05:02,630 --> 00:05:09,410
+nuevo nombre para este caso lo que vamos hacer es llamar a la función de guardar pero la de guardar
+
+63
+00:05:09,410 --> 00:05:17,180
+como ya que esta nos debería permitir más tarde lo haremos abrir un directorio para elegir un fichero
+
+64
+00:05:17,180 --> 00:05:18,520
+donde queremos guardarlo.
+
+65
+00:05:18,830 --> 00:05:22,870
+Típico que cuando creas un nuevo fichero en un editor y haces guardar.
+
+66
+00:05:24,610 --> 00:05:30,910
+Te pide dónde lo quieres guardar a modo de guardar como veis guardar como por tanto lo que vamos a hacer
+
+67
+00:05:30,910 --> 00:05:36,870
+es que este guardar en el otro caso en el caso que sea un fichero nuevo y no tenga una ruta
+
+68
+00:05:39,580 --> 00:05:42,050
+pues llame a guardar reposo.
+
+69
+00:05:42,220 --> 00:05:44,210
+De esta forma tan sencilla.
+
+70
+00:05:46,090 --> 00:05:47,420
+Vamos a probarlo.
+
+71
+00:05:48,670 --> 00:05:54,910
+Si hacemos guardar cómo ya no se ejecuta la otra función y ahora nos falta desarrollar el guardar como
+
+72
+00:05:55,270 --> 00:05:56,220
+abriendo.
+
+73
+00:05:58,320 --> 00:06:04,230
+El típico cuadro de diálogo que ya habíamos visto que nos permite seleccionar dónde queremos guardar
+
+74
+00:06:04,230 --> 00:06:06,300
+un fichero.
+
+75
+00:06:07,710 --> 00:06:17,100
+Como siempre vamos a poner arriba del todo para poder trabajar con esta ruta global y entonces haremos
+
+76
+00:06:17,100 --> 00:06:28,530
+lo siguiente abriremos un fichero con File Dialog punto Ask Save file que ya lo vimos.
+
+77
+00:06:30,060 --> 00:06:33,320
+Vamos a poner un título titel GApps
+
+78
+00:06:36,480 --> 00:06:45,050
+guardar fichero con un modo por defecto aunque esté ya bien establecido también como gromit vamos a
+
+79
+00:06:45,070 --> 00:06:50,630
+escribir una extensión por defecto default de extensión.
+
+80
+00:06:50,940 --> 00:07:00,870
+Así en txt esto sí funciona correctamente ya sabéis que nos debería devolver un fichero ya preparado
+
+81
+00:07:00,870 --> 00:07:04,470
+para poder trabajar con él en lugar de una ruta.
+
+82
+00:07:04,710 --> 00:07:09,530
+Entonces vamos a comprobar si el fichero.
+
+83
+00:07:10,360 --> 00:07:18,900
+No es None para saber que hemos abierto no hemos apretado cancelar mis ficheros None y entonces lo que
+
+84
+00:07:18,900 --> 00:07:27,170
+vamos a hacer es comenzar dándole a ruta el valor que tiene este fichero que acabamos de abrir.
+
+85
+00:07:27,420 --> 00:07:33,980
+Fichero punto Name que es aquella propiedad Coss comenté que tenían los ficheros que nos decía la ruta
+
+86
+00:07:34,350 --> 00:07:41,880
+total del fichero así sabremos que tenemos abierto uno y a partir de ahora recuperamos el contenido
+
+87
+00:07:41,940 --> 00:07:44,360
+como habíamos hecho el otro ejemplo.
+
+88
+00:07:44,370 --> 00:07:50,800
+De hecho podríamos copiarlo todo lo que tenemos aquí porque es exactamente igual.
+
+89
+00:07:55,580 --> 00:08:00,360
+Y en el caso que el fichero sea None.
+
+90
+00:08:01,020 --> 00:08:12,750
+Pues mostraremos por ejemplo mensajes ser un guardado cancelado y pondríamos la ruta a nada fácil ruta
+
+91
+00:08:12,860 --> 00:08:15,710
+igual nada.
+
+92
+00:08:15,760 --> 00:08:22,790
+De esta forma sería como si cancela hacemos el proceso repasando establecemos la ruta.
+
+93
+00:08:22,980 --> 00:08:29,520
+Mostramos el mensaje desde el principio abrimos el fichero donde queremos guardarlo y con la extensión
+
+94
+00:08:29,520 --> 00:08:31,140
+que queremos.
+
+95
+00:08:31,140 --> 00:08:35,130
+Si no apretamos cancelar tendremos un fichero abierto.
+
+96
+00:08:35,550 --> 00:08:40,490
+Guardamos la ruta accedemos a esta ruta del fichero con fichero punto Name.
+
+97
+00:08:41,660 --> 00:08:47,240
+Una vez más escribimos el contenido igual que antes en el guardar y en caso de que el fichero no se
+
+98
+00:08:47,240 --> 00:08:50,290
+haya abierto hayamos apretado cancelar o haya ocurrido un error.
+
+99
+00:08:51,200 --> 00:08:57,410
+Mostraremos que se ha cancelado el guardado y estableceremos de nuevo la ruta nada vamos a probarlo.
+
+100
+00:08:58,220 --> 00:09:06,370
+En esta ocasión si escribimos algo ya directamente hacemos archivo guardar.
+
+101
+00:09:06,810 --> 00:09:08,530
+Ups me da un pequeño error.
+
+102
+00:09:08,530 --> 00:09:09,480
+Vamos a verlo.
+
+103
+00:09:13,480 --> 00:09:17,840
+Claro si puesto modo tinaco el puesto Mode lo he puesto en castellano.
+
+104
+00:09:18,230 --> 00:09:24,910
+Vamos a ejecutarlo de nuevo vamos a guardar aquí el texto archivo guardar.
+
+105
+00:09:25,740 --> 00:09:27,430
+Me llama al guardar como.
+
+106
+00:09:29,200 --> 00:09:32,850
+Entonces yo le puedo decir donde quiero guardarlo por ejemplo interfaces gráficas.
+
+107
+00:09:32,850 --> 00:09:35,630
+Le voy a guardar como test guardar.
+
+108
+00:09:36,990 --> 00:09:39,660
+Se me ha quedado aquí y ya puedo acceder a él.
+
+109
+00:09:39,810 --> 00:09:45,470
+Como veis aquí está el contenido que he guardado para hacer todo esto.
+
+110
+00:09:45,570 --> 00:09:49,850
+Voy a volver a abrirlo voy a intentar recuperarlo.
+
+111
+00:09:49,860 --> 00:09:56,670
+Abrir Artest voy a seguir escribiendo voy a seguir guardándolo.
+
+112
+00:09:57,490 --> 00:09:59,360
+Fichero guardado correctamente.
+
+113
+00:09:59,580 --> 00:10:01,290
+Si lo vuelvo a abrir desde aquí.
+
+114
+00:10:02,650 --> 00:10:05,080
+Test ahí tengo todo el contenido.
+
+115
+00:10:05,300 --> 00:10:10,200
+Podría volver a abrir el editor y en esta ocasión voy a abrir de nuevo el fichero.
+
+116
+00:10:10,300 --> 00:10:16,930
+Pero voy a hacer un guardar como lo voy a guardar cómo testeados guardar.
+
+117
+00:10:17,060 --> 00:10:19,620
+Teóricamente tendría que haber creado una copia.
+
+118
+00:10:19,750 --> 00:10:22,650
+Vamos a verlo y aquí tenemos la copia.
+
+119
+00:10:22,760 --> 00:10:25,720
+Pues parece que todo funciona correctamente.
+
+120
+00:10:26,480 --> 00:10:31,940
+Hemos creado un editor fijaros en 88 líneas menos de 100 líneas.
+
+121
+00:10:32,090 --> 00:10:41,660
+Un editor que Bono firmaría como un editor básico de un sistema operativo como el notepad.
+
+122
+00:10:42,620 --> 00:10:46,000
+Con algunas deficiencias pero es funcional.
+
+123
+00:10:47,380 --> 00:10:48,850
+Así que os parece.
+
+124
+00:10:49,110 --> 00:10:54,270
+Yo espero que os haya gustado mucho esta introducción a The Hunter ha sido un reto porque no hay mucha
+
+125
+00:10:54,270 --> 00:10:59,940
+información en español sobre ello así que estructurado un poco toda la unidad a mi manera.
+
+126
+00:10:59,940 --> 00:11:05,610
+Lo bueno es que la mayoría de librerías gráficas son parecidas a estas así que creo que sí habéis entendido
+
+127
+00:11:05,670 --> 00:11:08,160
+más o menos todo lo que hemos ido haciendo en esta unidad.
+
+128
+00:11:08,160 --> 00:11:13,730
+Ya tendréis unas bases para comenzar con cualquier otra librería incluso en otros lenguajes de programación.
+
+129
+00:11:14,250 --> 00:11:17,640
+También debes tener en cuenta que no deja de ser una introducción.
+
+130
+00:11:17,660 --> 00:11:24,410
+Hay más widgets y muchos parámetros que no hemos visto dejar un fichero con una recopilación.
+
+131
+00:11:25,540 --> 00:11:30,370
+Pero la clave como siempre es practicar y documentarse mucho por vuestra cuenta por internet viendo
+
+132
+00:11:30,370 --> 00:11:35,050
+ejemplos en YouTube y sobre todo experimentando al final de la unidad.
+
+133
+00:11:35,050 --> 00:11:40,660
+Como ya he dicho os dejo la recopilación de enlaces para que podáis seguir investigando y seguir aprendiendo.
+
+134
+00:11:40,690 --> 00:11:46,450
+Por mi parte quizá en el futuro si a muchos alumnos os interesa profundizar en el tema pues podría publicar
+
+135
+00:11:46,450 --> 00:11:49,840
+un curso solo dedicado a las interfaces con muchos más ejemplos.
+
+136
+00:11:50,020 --> 00:11:53,200
+Pero eso dependerá de vosotros y nada más.
+
+137
+00:11:53,200 --> 00:11:57,970
+Ya sabéis que las próximas unidades las iré publicando periódicamente hasta completar el temario.
+
+138
+00:11:58,270 --> 00:12:01,330
+Y como siempre muchas gracias por darme la oportunidad de enseñaros.
+
+139
+00:12:01,330 --> 00:12:07,180
+Para mi es un placer y también una oportunidad única de seguir mejorando así que nos veremos en la próxima
+
+140
+00:12:07,270 --> 00:12:08,330
+unidad.

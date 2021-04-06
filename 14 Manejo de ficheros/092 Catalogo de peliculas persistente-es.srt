@@ -1,0 +1,611 @@
+1
+00:00:01,290 --> 00:00:06,520
+Muy bien y finalmente llegamos a la última elección del tema 12 de manejo de ficheros en el que os comenté
+
+2
+00:00:06,660 --> 00:00:13,740
+vamos a reformar aquel catálogo de películas que teníamos para gestionar desde el disco duro guardando
+
+3
+00:00:13,740 --> 00:00:19,300
+en un fichero esa información y que no la perdamos cuando finaliza el programa.
+
+4
+00:00:20,230 --> 00:00:21,510
+Vamos a abrir la lección.
+
+5
+00:00:21,510 --> 00:00:22,550
+4.
+
+6
+00:00:22,750 --> 00:00:25,530
+Ya tengo preparado un código.
+
+7
+00:00:26,100 --> 00:00:30,780
+Fijaros que tengo le importa arriba del Open por si queréis ejecutar todo esto en un scrip.
+
+8
+00:00:31,020 --> 00:00:37,340
+Si tenéis algún error durante la ejecución del ejemplo os aconsejo copiarlo todo y ponerlo en un script.
+
+9
+00:00:37,800 --> 00:00:45,390
+Luego el chip import del pequeño para trabajar y la clase de película y catálogo que son las mismas
+
+10
+00:00:45,390 --> 00:00:48,320
+que estuvimos trabajando con los objetos vale.
+
+11
+00:00:49,860 --> 00:00:56,660
+Entonces la gracia de todo esto es guardar y cargar los datos a un fichero.
+
+12
+00:00:56,660 --> 00:01:00,520
+Lo haremos dentro del catálogo pues es el que tienen las películas.
+
+13
+00:01:00,530 --> 00:01:03,710
+La clase de película no lo vamos a tocar para nada.
+
+14
+00:01:04,290 --> 00:01:09,330
+Entonces dentro del catálogo tendremos dos momentos importantes.
+
+15
+00:01:09,620 --> 00:01:14,630
+El primero es el momento de la inicialización que es el momento donde tendremos que cargar las películas
+
+16
+00:01:14,630 --> 00:01:18,200
+que tenemos el fichero dentro de la memoria del catálogo.
+
+17
+00:01:18,230 --> 00:01:22,440
+Dentro de estas películas está lista por ahora.
+
+18
+00:01:22,460 --> 00:01:24,290
+FIJAROS QUE TENEMOS EN steinitz.
+
+19
+00:01:24,530 --> 00:01:26,570
+Pues qué le podríamos pasar una lista de películas.
+
+20
+00:01:26,570 --> 00:01:30,040
+Esto lo vamos a quitar y también vamos a borrar el contenido.
+
+21
+00:01:30,080 --> 00:01:36,380
+Lo que vamos a hacer es cargar el fichero a quien se limita a cargar las películas que haya dentro de
+
+22
+00:01:36,380 --> 00:01:39,660
+un supuesto fichero por ejemplo catálogo Puntoticket.
+
+23
+00:01:40,220 --> 00:01:48,950
+Pero en lugar de escribir aquí la función vamos a llamarla una supuesta función cargar Shelf cargar
+
+24
+00:01:48,980 --> 00:01:58,730
+que vamos a crear más abajo de carga les vamos a pasar más por ahora.
+
+25
+00:02:00,800 --> 00:02:06,980
+De la misma forma que hacemos un cargar necesitaremos un guardar para guardar las películas guardar
+
+26
+00:02:07,180 --> 00:02:10,250
+en paz.
+
+27
+00:02:11,060 --> 00:02:15,080
+Entonces yo creo que es lo lógico.
+
+28
+00:02:15,150 --> 00:02:22,040
+También aparte de tener un constructor es tener un destructor y que nuestro destructor se encargue pues
+
+29
+00:02:22,270 --> 00:02:29,390
+al borrar o al finalizar el clip de hacer un guardado de seguridad guardado por si acaso hemos hecho
+
+30
+00:02:29,390 --> 00:02:31,730
+alguna modificación no se hubiera guardado no lo sé.
+
+31
+00:02:31,730 --> 00:02:32,690
+Por si acaso.
+
+32
+00:02:33,020 --> 00:02:37,310
+Por tanto vamos a sobreescribir un destructor.
+
+33
+00:02:40,310 --> 00:02:51,650
+Del Cell voy a poner aquí arriba destructor de clase y lo que haremos es lo mismo guardar por si acaso.
+
+34
+00:02:52,230 --> 00:02:59,910
+Así como veis momentos importantes el constructor de clase que se encargará de cargar el fichero llamando
+
+35
+00:02:59,910 --> 00:03:06,640
+a la función de cargar está aquí y el momento de destruir la clase que se encargará de guardar automáticamente
+
+36
+00:03:07,030 --> 00:03:13,550
+sería un guardado automático y también haremos un guardar.
+
+37
+00:03:14,170 --> 00:03:20,770
+Después de añadir una película después de añadir una película dentro de nuestra lista de películas también
+
+38
+00:03:20,770 --> 00:03:28,450
+haremos un guardar aquí acuerdos iremos actualizando a medida que creamos nuevas películas en la memoria
+
+39
+00:03:28,990 --> 00:03:30,460
+las iremos guardando en el fichero.
+
+40
+00:03:30,460 --> 00:03:38,410
+De esta forma así que la cuestión ahora es cargar el fichero vamos a comenzar por cargar nuestro fichero
+
+41
+00:03:38,410 --> 00:03:41,020
+de películas.
+
+42
+00:03:41,020 --> 00:03:44,500
+La primera vez que cargamos un fichero este no existe.
+
+43
+00:03:44,560 --> 00:03:51,550
+Cómo podemos evitar el fallo y asegurarnos de que no lo machacamos vamos a abrir de la siguiente forma
+
+44
+00:03:51,960 --> 00:03:56,820
+dado que vamos a utilizar pixel tenemos que abrir un fichero binario que lo vamos a hacer así.
+
+45
+00:03:57,070 --> 00:04:00,720
+Open vamos a llamarle catálogo.
+
+46
+00:04:01,660 --> 00:04:02,860
+Punto.
+
+47
+00:04:03,250 --> 00:04:11,530
+PC KL pixel y lo vamos a abrir de esta forma el modo apenn binario pero apenn binario sólo tiene funciones
+
+48
+00:04:11,530 --> 00:04:12,500
+de escritura.
+
+49
+00:04:13,340 --> 00:04:18,410
+Si queremos tener funciones también de lectura tenemos que indicarle un más.
+
+50
+00:04:18,470 --> 00:04:25,690
+De esta forma tendríamos un Open binario con funciones de lectura y este apean recordar que si no existía
+
+51
+00:04:25,690 --> 00:04:31,040
+el fichero lo creaba por tanto nos va a solucionar el fallo de la primera vez que intentemos utilizar
+
+52
+00:04:31,040 --> 00:04:34,280
+el programa porque va a crear automáticamente el fichero.
+
+53
+00:04:34,280 --> 00:04:42,010
+El problema es que las veces que vayan entrando a partir de entonces se pondrá el puntero al final porque
+
+54
+00:04:42,050 --> 00:04:42,720
+se la PEN.
+
+55
+00:04:42,740 --> 00:04:52,070
+Por tanto tenemos que reiniciar el puntero al principio con Siq cero siempre a partir de ahora lo que
+
+56
+00:04:52,070 --> 00:04:58,820
+tenemos que intentar es buscar si hay películas dentro y lo que vamos a hacer para asegurarnos de que
+
+57
+00:04:58,820 --> 00:05:01,520
+funcione es poner todo lo que viene a continuación en un bloque.
+
+58
+00:05:01,520 --> 00:05:07,170
+Trae un traje Excel que podríamos hacer también un final.
+
+59
+00:05:08,420 --> 00:05:15,020
+Comenzaremos por intentar leer con píxel estas películas y guardar y guardarlas en películas.
+
+60
+00:05:15,020 --> 00:05:20,720
+Nuestra lista de películas como la primera vez que abramos el fichero estará vacío y no habrá nada nos
+
+61
+00:05:20,720 --> 00:05:21,830
+daría error.
+
+62
+00:05:21,830 --> 00:05:25,570
+Por tanto saltará de aquí pero vamos a ponerlo por ahora.
+
+63
+00:05:25,610 --> 00:05:29,310
+Y quién lo ha fichero.
+
+64
+00:05:30,540 --> 00:05:37,020
+Como decía la primera vez va a dar error lanzar Alex el exepto la excepción mostrar por pantalla un
+
+65
+00:05:37,020 --> 00:05:38,130
+mensaje que dirá.
+
+66
+00:05:38,400 --> 00:05:48,330
+El fichero está vacío por ejemplo y finalmente nos vamos a asegurar siempre de cerrar fichero súper
+
+67
+00:05:48,770 --> 00:05:53,270
+importante y también como estamos trabajando en Júpiter.
+
+68
+00:05:53,610 --> 00:05:58,200
+Haremos este fichero para que no haya ningún problema del fichero.
+
+69
+00:05:58,740 --> 00:06:04,170
+Por último mostraremos un mensaje por pantalla para indicarle al usuario cuántas películas se han cargado
+
+70
+00:06:04,170 --> 00:06:05,120
+la memoria.
+
+71
+00:06:05,490 --> 00:06:10,860
+Se han cargado tantas películas.
+
+72
+00:06:11,220 --> 00:06:18,750
+Pasamos a un formato que aquí le vamos a cambiar la lehn de películas con las películas que tenemos
+
+73
+00:06:19,740 --> 00:06:21,490
+muy bien.
+
+74
+00:06:21,600 --> 00:06:26,590
+Con esto ya tendríamos el cargar y además nos hemos asegurado de que haya algún error pues diríamos
+
+75
+00:06:26,940 --> 00:06:27,960
+que el fichero está vacío.
+
+76
+00:06:27,960 --> 00:06:32,140
+En caso de que esto no funcione porque si hacemos un lo abdu un fichero que no tiene nada pues dará
+
+77
+00:06:32,160 --> 00:06:32,770
+error.
+
+78
+00:06:32,960 --> 00:06:38,100
+Lo estamos capturando y en última instancia siempre nos aseguramos que hemos de cerrar el fichero y
+
+79
+00:06:38,100 --> 00:06:40,530
+borrarlo por si acaso.
+
+80
+00:06:40,620 --> 00:06:47,250
+En cuanto al guardar pues es muy fácil este sencillo fichero Open.
+
+81
+00:06:47,970 --> 00:06:59,430
+Abrimos el catálogo punto y que en modo lectura escritura binaria lo vamos a machacar todo y haremos
+
+82
+00:06:59,430 --> 00:07:10,240
+un pixel dum y escribiremos la lista de películas películas dentro del fichero.
+
+83
+00:07:10,260 --> 00:07:18,770
+Finalmente cerraremos el fichero y nos aseguraremos de eliminarlo para que no haya ningún fallo.
+
+84
+00:07:18,840 --> 00:07:26,800
+Bueno con esto aquí teóricamente ya tendríamos una funcionalidad que cargaría y guardaría automáticamente.
+
+85
+00:07:27,560 --> 00:07:34,190
+Pues nuestro catálogo un fichero al iniciar el catálogo lo cargará se ejecutará aquí.
+
+86
+00:07:37,740 --> 00:07:39,280
+Al crear una película.
+
+87
+00:07:40,210 --> 00:07:48,780
+Al guardar y se ejecutará de aquí irá reescribiendo toda la lista de películas y finalmente el destructor
+
+88
+00:07:48,790 --> 00:07:52,450
+también se encargará de guardar automáticamente las películas al final.
+
+89
+00:07:52,450 --> 00:07:53,770
+Por si acaso.
+
+90
+00:07:54,700 --> 00:08:00,430
+Esta es una lógica que os puede servir bien para vuestras pruebas para vuestros programas.
+
+91
+00:08:00,640 --> 00:08:06,250
+Vamos a crear un catálogo Bueno vamos a ejecutar todo esto vamos a abordarlo bien vamos a crear un catálogo
+
+92
+00:08:06,990 --> 00:08:08,820
+catálogo.
+
+93
+00:08:10,060 --> 00:08:18,370
+Y como veis nos dice que el fichero está vacío porque ha intentado cargar con el pixel alguna película
+
+94
+00:08:18,370 --> 00:08:24,310
+pero no hay nada por tanto salta la excepción nos dice que el fichero estaba vacío y finalmente cerrar
+
+95
+00:08:24,310 --> 00:08:33,160
+el fichero lo borrará y verá que se han cargado cero películas porque no había nada no muy bien si mostramos
+
+96
+00:08:34,600 --> 00:08:36,020
+el catálogo.
+
+97
+00:08:37,740 --> 00:08:48,050
+Como veis no nos muestra nada podríamos modificar esto de aquí y hacer un ihf Comprobar con un lehn
+
+98
+00:08:49,150 --> 00:08:57,160
+si las peliculas Hay alguna película igual a 0 por ejemplo y mostrar que sí es igual a cero.
+
+99
+00:08:57,360 --> 00:09:00,840
+El catálogo está vacío.
+
+100
+00:09:02,660 --> 00:09:09,590
+Entonces podríamos hacer un Returned para que saliera de la función y si continúa Si esto no se ejecuta
+
+101
+00:09:09,590 --> 00:09:15,180
+nunca pues correríamos las películas y las mostraría vamos a volver a guardar esto.
+
+102
+00:09:15,300 --> 00:09:21,620
+Vamos a volver a crear el catálogo vamos a volver a hacer el mostrar y benaudalla me dice que el catálogo
+
+103
+00:09:21,620 --> 00:09:24,960
+está vacío perfecto así tenemos un poco de retroalimentación.
+
+104
+00:09:25,400 --> 00:09:32,970
+Vamos a crear alguna película agregaré voy a crear las típicas películas que tengo por aquí apuntadas.
+
+105
+00:09:33,020 --> 00:09:37,730
+Película El Padrino.
+
+106
+00:09:38,210 --> 00:09:45,660
+175 minutos año 1972 enter y se ha creado la película El Padrino.
+
+107
+00:09:46,070 --> 00:09:50,620
+Se ha creado la película El Padrino y a la vez tendría que haberla guardado.
+
+108
+00:09:50,690 --> 00:09:53,860
+Vamos a crear otra acopiar todo esto.
+
+109
+00:09:53,860 --> 00:09:56,890
+Voy a poner aquí el Padrino Parte II.
+
+110
+00:09:57,560 --> 00:10:05,020
+Vamos a poner aquí 200 II y 1974.
+
+111
+00:10:05,490 --> 00:10:10,210
+Voy a confirmar y también se ha creado la película El Padrino Parte II.
+
+112
+00:10:10,340 --> 00:10:18,170
+Si vuelvo a mostrar las películas del catálogo Como veis ya tenemos estas dos y además voy a abrir el
+
+113
+00:10:18,440 --> 00:10:25,910
+directorio para comprobar si existe el fichero que como veis lo tengo aquí catálogo.
+
+114
+00:10:26,000 --> 00:10:27,430
+Punto.
+
+115
+00:10:27,800 --> 00:10:32,260
+Pixel voy a abrir con el subprime y aquí tenemos una lista.
+
+116
+00:10:33,210 --> 00:10:36,210
+De números extraños en binarios o bits.
+
+117
+00:10:36,220 --> 00:10:41,010
+O lo que sea esto por tanto no sabemos lo que hay pero sabemos que tenemos datos.
+
+118
+00:10:41,870 --> 00:10:51,450
+Así que vamos a borrar este catálogo del que se supone que al borrarlo también se habría guardado.
+
+119
+00:10:52,040 --> 00:11:00,470
+De hecho podríamos mostrar aquí un mensaje Prin vamos a poner justo al final vamos a decir se ha guardado
+
+120
+00:11:01,640 --> 00:11:07,100
+el fichero para comprobar si realmente cuando borramos el catálogo se guardaban.
+
+121
+00:11:07,470 --> 00:11:11,330
+Voy a introducirlo a crear un catálogo.
+
+122
+00:11:11,330 --> 00:11:18,150
+Pero claro no vamos a volver a crearlo todo vamos a crearlo abajo del todo de nuevo y a ver si nos carga
+
+123
+00:11:18,140 --> 00:11:20,130
+las dos películas que tenemos.
+
+124
+00:11:20,690 --> 00:11:21,260
+Y ahí está.
+
+125
+00:11:21,270 --> 00:11:25,690
+Nos ha cargado dos películas y vamos a ver cuáles son esas dos películas.
+
+126
+00:11:25,940 --> 00:11:28,710
+Pues el Padrino y El Padrino Parte II.
+
+127
+00:11:28,760 --> 00:11:31,870
+Ahora sí si borramos el catálogo.
+
+128
+00:11:32,180 --> 00:11:35,520
+Fijaros como se ha guardado el fichero antes de borrarlo.
+
+129
+00:11:35,550 --> 00:11:37,380
+Por qué se ha llamado al destructor.
+
+130
+00:11:38,910 --> 00:11:44,590
+Podríamos volver a crearlo y añadir alguna película nueva.
+
+131
+00:11:46,050 --> 00:11:51,820
+Volvemos a recuperar las películas vamos a agregar alguna nueva alguna prueba.
+
+132
+00:11:51,830 --> 00:12:01,920
+No voy a ponerla en serio película prueba 100 minutos y el año 2000 5.
+
+133
+00:12:02,400 --> 00:12:05,620
+Muy bien voy a mostrar el catalogo de nuevo.
+
+134
+00:12:06,110 --> 00:12:13,800
+Hoy tengo las tres películas voy a borrar el catálogo se ha guardado por si acaso.
+
+135
+00:12:15,280 --> 00:12:20,270
+Y la prueba de fuego vamos a intentar volver a crearlo.
+
+136
+00:12:21,520 --> 00:12:23,060
+Creamos un catálogo.
+
+137
+00:12:23,470 --> 00:12:25,140
+Se han cargado 3 películas.
+
+138
+00:12:26,640 --> 00:12:33,700
+Y si estas tres películas son las que teníamos antes que va a ser que sí que son las tres que teníamos.
+
+139
+00:12:33,810 --> 00:12:39,810
+Ya hemos visto cómo crear un sistema para gestionar un catálogo de películas persistente en un fichero
+
+140
+00:12:39,840 --> 00:12:46,380
+con pixel un fichero binario pero gracias a Piqué lo podemos gestionar fácilmente guardando en nuestras
+
+141
+00:12:46,380 --> 00:12:49,140
+colecciones nuestra lista de objetos.
+
+142
+00:12:49,590 --> 00:12:56,910
+Así que en conclusión cuando trabajamos con pixel lo que hacemos es modificar en memoria las listas
+
+143
+00:12:57,000 --> 00:13:04,480
+de objetos lo que estemos manejando y luego lo guardaremos todo de golpe dentro del fichero.
+
+144
+00:13:04,890 --> 00:13:08,060
+Así que nosotros decidimos cuando escribimos los datos.
+
+145
+00:13:08,220 --> 00:13:13,860
+Por ejemplo al manipular un registro en el agregar podría ser el modificar o lo que sea que nosotros
+
+146
+00:13:13,860 --> 00:13:19,830
+estuviéramos haciendo o también en el momento de destruir esta clase.
+
+147
+00:13:19,840 --> 00:13:21,720
+Entonces también hacemos un guardado automático.
+
+148
+00:13:21,720 --> 00:13:29,630
+Nosotros somos quienes gestionamos ese momento y con esto llegamos al final de este tema del tema de
+
+149
+00:13:30,480 --> 00:13:31,180
+pizzeros.
+
+150
+00:13:31,200 --> 00:13:34,420
+Espero cosa de gustado los ejemplos que hemos hecho.
+
+151
+00:13:34,740 --> 00:13:39,980
+Este código es muy interesante os aconsejo tenerlo a mano seguro que lo vais a utilizar más de una vez.
+
+152
+00:13:41,040 --> 00:13:47,010
+Yo lo he utilizado está basado en algunos de mis programas y creo que os puede servir mucho.
+
+153
+00:13:47,490 --> 00:13:52,840
+Así que vamos a dar por concluida esta unidad y nos veremos en la próxima.

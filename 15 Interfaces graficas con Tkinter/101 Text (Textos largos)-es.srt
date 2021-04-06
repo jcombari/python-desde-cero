@@ -1,0 +1,183 @@
+1
+00:00:01,530 --> 00:00:05,560
+Vamos a añadir otro widget más el text.
+
+2
+00:00:05,580 --> 00:00:08,200
+He creado un fichero bi Text punto Pi.
+
+3
+00:00:09,120 --> 00:00:15,810
+Tengo aquí la raíz como siempre el main lupa abajo y vamos a crear un campo de texto que es muy útil
+
+4
+00:00:15,840 --> 00:00:23,670
+para trabajar con texto multi línea para guardar comentarios o descripciones y lo vamos a crear de esta
+
+5
+00:00:23,670 --> 00:00:29,710
+forma vamos a crear un campo de texto y vamos a hacer un tedx.
+
+6
+00:00:29,850 --> 00:00:36,460
+Vamos a pasarles root y vamos a empacar texto.
+
+7
+00:00:37,230 --> 00:00:46,290
+Vamos a ejecutarlo y como veis lo que tenemos aquí es una ventana por defecto webs que podemos describir
+
+8
+00:00:46,290 --> 00:00:53,360
+al arquitecto como Batz una forma bastante interesante equivaldría al típico bloc de notas.
+
+9
+00:00:54,080 --> 00:00:59,780
+Pues aquí tenemos un campo de texto que podemos utilizar para recuperar lo que os decía un comentario
+
+10
+00:00:59,780 --> 00:01:01,750
+o una descripción.
+
+11
+00:01:02,290 --> 00:01:10,410
+Pero por defecto ocupa pues un tamaño que es básicamente como veis muy predefinido.
+
+12
+00:01:11,920 --> 00:01:20,640
+Bastantes caracteres bastan las líneas pero podemos modificar no podemos cambiar este espacio.
+
+13
+00:01:20,660 --> 00:01:28,880
+Luego tenemos que hacer un confi texto config y en esta ocasión también podemos pasar un mes y un Geuk
+
+14
+00:01:30,040 --> 00:01:35,280
+pero no funciona con píxeles sino que por defecto esto leerá número de caracteres.
+
+15
+00:01:35,290 --> 00:01:43,510
+Es decir si le pasamos 30 de ancho le estaremos diciendo que podemos escribir hasta 30 caracteres horizontalmente
+
+16
+00:01:44,320 --> 00:01:50,560
+y si lo pasamos por ejemplo 10 le estamos diciendo 10 caracteres en altura que es como decir de 10 líneas
+
+17
+00:01:50,770 --> 00:01:57,060
+es decir estaríamos haciendo una cuadrícula de 30 por 10 caracteres.
+
+18
+00:01:57,730 --> 00:01:59,780
+Podemos ejecutarlo para verlo.
+
+19
+00:01:59,800 --> 00:02:05,360
+Como veis ahora tenemos una cuadrícula mucho más reducida un campo de texto perdón que es lo que decía
+
+20
+00:02:06,150 --> 00:02:08,570
+pues son 10 líneas como veis.
+
+21
+00:02:08,680 --> 00:02:10,220
+Pero claro podemos seguir escribiendo.
+
+22
+00:02:10,240 --> 00:02:11,400
+No hay ningún límite.
+
+23
+00:02:11,560 --> 00:02:18,430
+Se pueden establecer límites son atributos o configuración más avanzados pero no los voy a explicar
+
+24
+00:02:18,430 --> 00:02:19,020
+aquí.
+
+25
+00:02:19,120 --> 00:02:26,380
+Sólo quiero enseñar cómo cambiar por ejemplo alguna cosa como la fuente o quizá el color de la selección
+
+26
+00:02:27,010 --> 00:02:29,290
+por ejemplo cómo hacerlo.
+
+27
+00:02:29,860 --> 00:02:35,290
+Ya que estamos con el Koffi vamos a seguir aquí la Fuente igual que lo habíamos hecho con los campos
+
+28
+00:02:35,290 --> 00:02:36,300
+de texto.
+
+29
+00:02:37,410 --> 00:02:39,100
+O con perdonadas Label.
+
+30
+00:02:39,170 --> 00:02:44,330
+Aunque es lo mismo siempre que podríamos pasar por ejemplo una fuente consolas que es una fuente de
+
+31
+00:02:44,330 --> 00:02:48,130
+Microsoft y un tamaño de 12 píxeles.
+
+32
+00:02:49,590 --> 00:02:59,740
+Luego podríamos pasarle también por ejemplo un padín Fading X igual 5 que un padín y de 5 también que
+
+33
+00:02:59,750 --> 00:03:04,370
+es como el espacio que hay entre el borde y el contenido del widget.
+
+34
+00:03:05,790 --> 00:03:07,420
+Y esto si lo ejecutamos.
+
+35
+00:03:07,740 --> 00:03:12,360
+Pues como veis ahora tenemos un poco de margen por arriba y por debajo no se ve mucho si pusiéramos
+
+36
+00:03:12,360 --> 00:03:15,460
+15 lo veréis mucho más descarado.
+
+37
+00:03:17,220 --> 00:03:23,640
+Fijaros ahora sí que se nota este padín tenemos 15 píxeles de margen por arriba y por abajo siempre
+
+38
+00:03:24,750 --> 00:03:32,430
+como veis crea un efecto bastante interesante si los seleccionamos todos pues como veis sale azul y
+
+39
+00:03:32,430 --> 00:03:39,640
+ya que estamos seleccionando una propiedad de estas visual bastante interesante que es Select backgrounds.
+
+40
+00:03:40,170 --> 00:03:43,120
+Ya os he dicho que hay muchas pero esta me viene a la cabeza.
+
+41
+00:03:43,260 --> 00:03:47,120
+Podemos indicar un color para el texto seleccionado.
+
+42
+00:03:47,470 --> 00:03:53,310
+Voy a poner red por ejemplo y si escribimos el texto y lo seleccionamos pues ahora lo podemos seleccionar
+
+43
+00:03:53,310 --> 00:03:58,920
+de color rojo podríamos cambiar aquí poner otros colores y nada.
+
+44
+00:03:58,920 --> 00:04:00,690
+Es bastante sencillo.
+
+45
+00:04:01,050 --> 00:04:06,540
+Más adelante trabajaremos más a fondo el campo Text así que por ahora no vamos a dejar la lección aquí
+
+46
+00:04:06,540 --> 00:04:08,050
+que ha sido bastante sencillo.
